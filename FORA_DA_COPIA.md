@@ -45,7 +45,7 @@ Nos que eram assinados, o carimbo da assinatura digital também saiu, porque tra
 - `planos/redacao_04/versoes/plano_v25b_20261021_marcado.pdf`
 - `planos/redacao_04/versoes/plano_v26_20261021_marcado.pdf`
 - `planos/redacao_06/versoes/pt_simplificado_exames_de_imagem_ishp_20261009.pdf`
-- `planos/redacao_09/dados/aprovados/TERMO DE FOMENTO TF-1-SES:2026 ALÉM DO OLHAR  .pdf`
+- `planos/redacao_09/dados/aprovados/TERMO DE FOMENTO TF-1-SES-2026 ALÉM DO OLHAR.pdf`
 - `planos/redacao_09/dados/aprovados/TF-2-SES-2026.pdf`
 - `planos/redacao_09/dados/aprovados/TF-3-SES-2026.pdf`
 - `planos/redacao_09/dados/aprovados/TF-4-SES-2026.pdf`
