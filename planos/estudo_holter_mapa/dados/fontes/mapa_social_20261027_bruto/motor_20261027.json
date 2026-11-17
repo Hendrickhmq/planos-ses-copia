@@ -1,0 +1,1673 @@
+{
+ "kit": {
+  "versao": "2026-10-27",
+  "assinatura": 1939648169
+ },
+ "ordem_hash": 2571610543,
+ "tipo": "medicao",
+ "app": "7edb02fa-f1f5-4ea6-b348-049a4ac2d095",
+ "titulo_app": "D-PDDC - MAPA DA SAÚDE - REGULAÇÃO (M)",
+ "filtro_fila": "status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}",
+ "filtro_devolvidas": "status_solicitacao_alias={'SOLICITAÇÃO DEVOLVIDA PARA COMPLEMENTAÇÃO PELO SOLICITANTE'}",
+ "janelas": {
+  "meses_viva": 24,
+  "viva": "data_solicitacao={\">=27/10/2024\"}",
+  "agendadas_12m": "data_agendamento={\">=27/10/2025<=26/10/2026\"}",
+  "entrantes_sol": "data_solicitacao={\">=01/10/2024\"}",
+  "entrantes_ag": "Ano_Agendamento={\">=2024\"}",
+  "entrantes_desde": "2024-10",
+  "oferta": "data_agendamento={\">=01/10/2024\"}"
+ },
+ "datas": {
+  "inicio": {
+   "recarga_utc": "2026-10-27T21:32:22.176Z",
+   "consulta": "27/10/2026 20:00:51",
+   "solicitacao_max": "27/10/2026",
+   "agendamento_max": "27/01/2027",
+   "recarga_brasilia": "27/10/2026 18:32:22"
+  },
+  "fim": {
+   "recarga_utc": "2026-10-27T21:32:22.176Z",
+   "consulta": "27/10/2026 20:01:28",
+   "solicitacao_max": "27/10/2026",
+   "agendamento_max": "27/01/2027",
+   "recarga_brasilia": "27/10/2026 18:32:22"
+  }
+ },
+ "varredura": {
+  "cols": [
+   "tabela",
+   "nome",
+   "codigo",
+   "por",
+   "objetos",
+   "fila",
+   "fila_viva",
+   "pessoas",
+   "pessoas_viva",
+   "devolvidas",
+   "espera_media",
+   "espera_mediana",
+   "espera_max",
+   "mais_antiga",
+   "idade_mediana",
+   "total",
+   "agendadas_12m",
+   "cid_principais"
+  ],
+  "linhas": [
+   [
+    "sol",
+    "HOLTER 24 HORAS",
+    "211020044",
+    [
+     "codigo",
+     "nome",
+     "termo"
+    ],
+    [
+     "02.11.02.004-4"
+    ],
+    36198,
+    11109,
+    36167,
+    11108,
+    3493,
+    1321.1736325389336,
+    1203.3462173032385,
+    5174.055494745371,
+    "27/08/2012",
+    63,
+    39691,
+    2756,
+    [
+     [
+      "I10",
+      6379
+     ],
+     [
+      "I49",
+      5643
+     ],
+     [
+      "R00",
+      4365
+     ],
+     [
+      "I50",
+      2533
+     ],
+     [
+      "I64",
+      1896
+     ]
+    ]
+   ],
+   [
+    "ag",
+    "HOLTER 24 HORAS",
+    "211020044",
+    [
+     "codigo",
+     "nome",
+     "termo"
+    ],
+    [
+     "02.11.02.004-4"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    2756,
+    []
+   ],
+   [
+    "sol",
+    "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL",
+    "211020052",
+    [
+     "codigo",
+     "nome"
+    ],
+    [
+     "02.11.02.005-2"
+    ],
+    12678,
+    6245,
+    12670,
+    6243,
+    1412,
+    1008.4950103501205,
+    761.3167884722207,
+    4243.270425543982,
+    "16/03/2015",
+    60,
+    14090,
+    2592,
+    [
+     [
+      "I10",
+      8162
+     ],
+     [
+      "R03",
+      553
+     ],
+     [
+      "I50",
+      498
+     ],
+     [
+      "I25",
+      356
+     ],
+     [
+      "I15",
+      285
+     ]
+    ]
+   ],
+   [
+    "ag",
+    "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL",
+    "211020052",
+    [
+     "codigo",
+     "nome"
+    ],
+    [
+     "02.11.02.005-2"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    2592,
+    []
+   ]
+  ]
+ },
+ "objetos": {
+  "02.11.02.004-4": {
+   "tipo": "exame",
+   "nomes": {
+    "HOLTER 24 HORAS": [
+     "HOLTER 24 HORAS"
+    ]
+   },
+   "nomes_ag": {
+    "HOLTER 24 HORAS": [
+     "HOLTER 24 HORAS"
+    ]
+   },
+   "agendadas_12m": {
+    "HOLTER 24 HORAS": 2756
+   },
+   "valores": {
+    "uniao.pessoas": 36167,
+    "uniao.pessoas_viva": 11108,
+    "uniao.fila": 36198,
+    "uniao.fila_viva": 11109,
+    "uniao.espera_media": 1321.173632538931,
+    "uniao.espera_mediana": 1203.3462173032385,
+    "uniao.devolvidas": 3493
+   },
+   "filas": {
+    "cols": [
+     "nome",
+     "fila",
+     "fila_viva",
+     "pessoas",
+     "pessoas_viva",
+     "devolvidas",
+     "espera_media",
+     "espera_mediana",
+     "espera_max",
+     "mais_antiga",
+     "idade_mediana",
+     "total",
+     "recorte arritmia e palpitação fila",
+     "recorte arritmia e palpitação fila_viva",
+     "recorte hipertensão fila",
+     "recorte hipertensão fila_viva"
+    ],
+    "linhas": [
+     [
+      "HOLTER 24 HORAS",
+      36198,
+      11109,
+      36167,
+      11108,
+      3493,
+      1321.1736325389325,
+      1203.3462173032385,
+      5174.055494745371,
+      "27/08/2012",
+      63,
+      39691,
+      12549,
+      3640,
+      6379,
+      1814
+     ]
+    ]
+   },
+   "cid_principais": {
+    "arritmia e palpitação": {
+     "HOLTER 24 HORAS": [
+      [
+       "I49",
+       5643
+      ],
+      [
+       "R00",
+       4365
+      ],
+      [
+       "I48",
+       1490
+      ],
+      [
+       "I47",
+       1051
+      ]
+     ]
+    },
+    "hipertensão": {
+     "HOLTER 24 HORAS": [
+      [
+       "I10",
+       6379
+      ]
+     ]
+    }
+   },
+   "dimensoes": {
+    "regiao": {
+     "cols": [
+      "regiao",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "Região Central",
+       1960,
+       1960
+      ],
+      [
+       "Região Centro-Sul",
+       2757,
+       2757
+      ],
+      [
+       "Região Leste",
+       4127,
+       4111
+      ],
+      [
+       "Região Norte",
+       4303,
+       4303
+      ],
+      [
+       "Região Oeste",
+       2847,
+       2847
+      ],
+      [
+       "Região Sudoeste",
+       6976,
+       6974
+      ],
+      [
+       "Região Sul",
+       5486,
+       5477
+      ],
+      [
+       "URD",
+       4020,
+       4018
+      ],
+      [
+       "Contratado/Credenciado",
+       3466,
+       3465
+      ],
+      [
+       "Serviços Centralizados",
+       1,
+       1
+      ]
+     ],
+     "sem_regiao": {
+      "fila": 255,
+      "pessoas": 255
+     }
+    },
+    "idade": {
+     "cols": [
+      "faixa",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "80",
+       3767,
+       3763
+      ],
+      [
+       "30",
+       1859,
+       1855
+      ],
+      [
+       "10",
+       568,
+       568
+      ],
+      [
+       "0",
+       49,
+       49
+      ],
+      [
+       "70",
+       7864,
+       7860
+      ],
+      [
+       "20",
+       1376,
+       1375
+      ],
+      [
+       "40",
+       3961,
+       3959
+      ],
+      [
+       "60",
+       8947,
+       8941
+      ],
+      [
+       "50",
+       6925,
+       6918
+      ],
+      [
+       "90",
+       882,
+       879
+      ]
+     ]
+    },
+    "cid": {
+     "cols": [
+      "cid",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "I10",
+       6379,
+       6375
+      ],
+      [
+       "I49",
+       5643,
+       5640
+      ],
+      [
+       "R00",
+       4365,
+       4361
+      ],
+      [
+       "I50",
+       2533,
+       2531
+      ],
+      [
+       "I64",
+       1896,
+       1895
+      ],
+      [
+       "I48",
+       1490,
+       1489
+      ],
+      [
+       "I25",
+       1340,
+       1340
+      ],
+      [
+       "R55",
+       1310,
+       1310
+      ],
+      [
+       "I20",
+       1251,
+       1251
+      ],
+      [
+       "R07",
+       1069,
+       1068
+      ],
+      [
+       "I47",
+       1051,
+       1051
+      ],
+      [
+       "B57",
+       746,
+       746
+      ],
+      [
+       "I63",
+       596,
+       596
+      ],
+      [
+       "I45",
+       382,
+       381
+      ],
+      [
+       "I44",
+       342,
+       342
+      ],
+      [
+       "I05",
+       314,
+       314
+      ],
+      [
+       "I42",
+       258,
+       258
+      ],
+      [
+       "R06",
+       256,
+       256
+      ],
+      [
+       "I21",
+       235,
+       235
+      ],
+      [
+       "I15",
+       229,
+       229
+      ]
+     ]
+    },
+    "entrantes": {
+     "cols": [
+      "mes",
+      "abertas",
+      "agendadas"
+     ],
+     "linhas": [
+      [
+       "2024-10",
+       520,
+       159
+      ],
+      [
+       "2024-11",
+       469,
+       123
+      ],
+      [
+       "2024-12",
+       333,
+       131
+      ],
+      [
+       "2025-01",
+       354,
+       260
+      ],
+      [
+       "2025-02",
+       476,
+       98
+      ],
+      [
+       "2025-03",
+       399,
+       146
+      ],
+      [
+       "2025-04",
+       430,
+       105
+      ],
+      [
+       "2025-05",
+       487,
+       129
+      ],
+      [
+       "2025-06",
+       456,
+       102
+      ],
+      [
+       "2025-07",
+       546,
+       143
+      ],
+      [
+       "2025-08",
+       473,
+       111
+      ],
+      [
+       "2025-09",
+       456,
+       142
+      ],
+      [
+       "2025-10",
+       420,
+       134
+      ],
+      [
+       "2025-11",
+       310,
+       165
+      ],
+      [
+       "2025-12",
+       299,
+       131
+      ],
+      [
+       "2026-01",
+       389,
+       162
+      ],
+      [
+       "2026-02",
+       376,
+       160
+      ],
+      [
+       "2026-03",
+       564,
+       82
+      ],
+      [
+       "2026-04",
+       525,
+       27
+      ],
+      [
+       "2026-05",
+       599,
+       17
+      ],
+      [
+       "2026-06",
+       508,
+       26
+      ],
+      [
+       "2026-07",
+       618,
+       24
+      ],
+      [
+       "2026-08",
+       582,
+       20
+      ],
+      [
+       "2026-09",
+       582,
+       3
+      ],
+      [
+       "2026-10",
+       475,
+       1
+      ]
+     ]
+    },
+    "ano": {
+     "cols": [
+      "ano",
+      "fila",
+      "fila_viva"
+     ],
+     "linhas": [
+      [
+       "2020",
+       1978,
+       0
+      ],
+      [
+       "2025",
+       5045,
+       5045
+      ],
+      [
+       "2022",
+       5386,
+       0
+      ],
+      [
+       "2021",
+       4382,
+       0
+      ],
+      [
+       "2026",
+       5195,
+       5195
+      ],
+      [
+       "2023",
+       5456,
+       0
+      ],
+      [
+       "2024",
+       5220,
+       869
+      ],
+      [
+       "2019",
+       1402,
+       0
+      ],
+      [
+       "2012",
+       66,
+       0
+      ],
+      [
+       "2018",
+       240,
+       0
+      ],
+      [
+       "2017",
+       531,
+       0
+      ],
+      [
+       "2016",
+       488,
+       0
+      ],
+      [
+       "2013",
+       227,
+       0
+      ],
+      [
+       "2014",
+       265,
+       0
+      ],
+      [
+       "2015",
+       317,
+       0
+      ]
+     ]
+    },
+    "oferta": {
+     "cols": [
+      "mes",
+      "agendamentos",
+      "realizados",
+      "faltas"
+     ],
+     "linhas": [
+      [
+       "2024-10",
+       106,
+       49,
+       34
+      ],
+      [
+       "2024-11",
+       67,
+       35,
+       17
+      ],
+      [
+       "2024-12",
+       81,
+       37,
+       24
+      ],
+      [
+       "2025-01",
+       96,
+       46,
+       33
+      ],
+      [
+       "2025-02",
+       90,
+       38,
+       33
+      ],
+      [
+       "2025-03",
+       74,
+       29,
+       29
+      ],
+      [
+       "2025-04",
+       46,
+       24,
+       18
+      ],
+      [
+       "2025-05",
+       55,
+       18,
+       27
+      ],
+      [
+       "2025-06",
+       43,
+       23,
+       17
+      ],
+      [
+       "2025-07",
+       61,
+       19,
+       31
+      ],
+      [
+       "2025-08",
+       52,
+       23,
+       20
+      ],
+      [
+       "2025-09",
+       59,
+       28,
+       23
+      ],
+      [
+       "2025-10",
+       101,
+       42,
+       47
+      ],
+      [
+       "2025-11",
+       141,
+       51,
+       61
+      ],
+      [
+       "2025-12",
+       160,
+       75,
+       75
+      ],
+      [
+       "2026-01",
+       185,
+       77,
+       100
+      ],
+      [
+       "2026-02",
+       209,
+       97,
+       89
+      ],
+      [
+       "2026-03",
+       280,
+       108,
+       146
+      ],
+      [
+       "2026-04",
+       214,
+       108,
+       98
+      ],
+      [
+       "2026-05",
+       278,
+       118,
+       121
+      ],
+      [
+       "2026-06",
+       273,
+       111,
+       118
+      ],
+      [
+       "2026-07",
+       257,
+       127,
+       76
+      ],
+      [
+       "2026-08",
+       276,
+       128,
+       99
+      ],
+      [
+       "2026-09",
+       245,
+       125,
+       87
+      ],
+      [
+       "2026-10",
+       255,
+       73,
+       49
+      ],
+      [
+       "2026-11",
+       13,
+       0,
+       0
+      ]
+     ]
+    },
+    "situacao": {
+     "cols": [
+      "situacao",
+      "agendamentos"
+     ],
+     "linhas": [
+      [
+       "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+       122
+      ],
+      [
+       "PROCEDIMENTO REALIZADO",
+       1211
+      ],
+      [
+       "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+       225
+      ],
+      [
+       "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+       37
+      ],
+      [
+       "AGENDAMENTO CANCELADO PELO COORD. DA REGULAÇÃO LOCAL",
+       32
+      ],
+      [
+       "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+       1129
+      ]
+     ]
+    }
+   }
+  },
+  "02.11.02.005-2": {
+   "tipo": "exame",
+   "nomes": {
+    "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL": [
+     "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL"
+    ]
+   },
+   "nomes_ag": {
+    "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL": [
+     "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL"
+    ]
+   },
+   "agendadas_12m": {
+    "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL": 2592
+   },
+   "valores": {
+    "uniao.pessoas": 12670,
+    "uniao.pessoas_viva": 6243,
+    "uniao.fila": 12678,
+    "uniao.fila_viva": 6245,
+    "uniao.espera_media": 1008.4950103501194,
+    "uniao.espera_mediana": 761.3167884722207,
+    "uniao.devolvidas": 1412
+   },
+   "filas": {
+    "cols": [
+     "nome",
+     "fila",
+     "fila_viva",
+     "pessoas",
+     "pessoas_viva",
+     "devolvidas",
+     "espera_media",
+     "espera_mediana",
+     "espera_max",
+     "mais_antiga",
+     "idade_mediana",
+     "total",
+     "recorte hipertensão fila",
+     "recorte hipertensão fila_viva"
+    ],
+    "linhas": [
+     [
+      "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL",
+      12678,
+      6245,
+      12670,
+      6243,
+      1412,
+      1008.4950103501184,
+      761.3167884722207,
+      4243.270425543982,
+      "16/03/2015",
+      60,
+      14090,
+      9000,
+      4076
+     ]
+    ]
+   },
+   "cid_principais": {
+    "hipertensão": {
+     "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL": [
+      [
+       "I10",
+       8162
+      ],
+      [
+       "R03",
+       553
+      ],
+      [
+       "I15",
+       285
+      ]
+     ]
+    }
+   },
+   "dimensoes": {
+    "regiao": {
+     "cols": [
+      "regiao",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "Região Central",
+       504,
+       504
+      ],
+      [
+       "Região Centro-Sul",
+       1325,
+       1324
+      ],
+      [
+       "Região Leste",
+       1226,
+       1224
+      ],
+      [
+       "Região Norte",
+       1327,
+       1327
+      ],
+      [
+       "Região Oeste",
+       644,
+       644
+      ],
+      [
+       "Região Sudoeste",
+       3860,
+       3856
+      ],
+      [
+       "Região Sul",
+       2623,
+       2622
+      ],
+      [
+       "URD",
+       449,
+       449
+      ],
+      [
+       "Contratado/Credenciado",
+       652,
+       652
+      ],
+      [
+       "Serviços Centralizados",
+       1,
+       1
+      ]
+     ],
+     "sem_regiao": {
+      "fila": 67,
+      "pessoas": 67
+     }
+    },
+    "idade": {
+     "cols": [
+      "faixa",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "80",
+       817,
+       817
+      ],
+      [
+       "30",
+       832,
+       832
+      ],
+      [
+       "10",
+       6,
+       6
+      ],
+      [
+       "70",
+       2372,
+       2369
+      ],
+      [
+       "20",
+       365,
+       365
+      ],
+      [
+       "40",
+       1890,
+       1890
+      ],
+      [
+       "60",
+       3243,
+       3241
+      ],
+      [
+       "50",
+       3008,
+       3006
+      ],
+      [
+       "90",
+       145,
+       144
+      ]
+     ]
+    },
+    "cid": {
+     "cols": [
+      "cid",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "I10",
+       8162,
+       8156
+      ],
+      [
+       "R03",
+       553,
+       553
+      ],
+      [
+       "I50",
+       498,
+       498
+      ],
+      [
+       "I25",
+       356,
+       355
+      ],
+      [
+       "I15",
+       285,
+       284
+      ],
+      [
+       "I20",
+       264,
+       264
+      ],
+      [
+       "R07",
+       172,
+       172
+      ],
+      [
+       "I49",
+       156,
+       156
+      ],
+      [
+       "I11",
+       151,
+       151
+      ],
+      [
+       "I64",
+       144,
+       144
+      ],
+      [
+       "Z00",
+       127,
+       127
+      ],
+      [
+       "R00",
+       117,
+       117
+      ],
+      [
+       "Z13",
+       109,
+       109
+      ],
+      [
+       "R55",
+       90,
+       90
+      ],
+      [
+       "Z01",
+       59,
+       59
+      ],
+      [
+       "I95",
+       56,
+       56
+      ],
+      [
+       "I48",
+       51,
+       51
+      ],
+      [
+       "Z95",
+       49,
+       49
+      ],
+      [
+       "I47",
+       45,
+       45
+      ],
+      [
+       "I21",
+       43,
+       43
+      ]
+     ]
+    },
+    "entrantes": {
+     "cols": [
+      "mes",
+      "abertas",
+      "agendadas"
+     ],
+     "linhas": [
+      [
+       "2024-10",
+       101,
+       304
+      ],
+      [
+       "2024-11",
+       100,
+       208
+      ],
+      [
+       "2024-12",
+       96,
+       196
+      ],
+      [
+       "2025-01",
+       115,
+       271
+      ],
+      [
+       "2025-02",
+       110,
+       293
+      ],
+      [
+       "2025-03",
+       129,
+       234
+      ],
+      [
+       "2025-04",
+       120,
+       237
+      ],
+      [
+       "2025-05",
+       192,
+       235
+      ],
+      [
+       "2025-06",
+       296,
+       75
+      ],
+      [
+       "2025-07",
+       338,
+       62
+      ],
+      [
+       "2025-08",
+       321,
+       85
+      ],
+      [
+       "2025-09",
+       327,
+       60
+      ],
+      [
+       "2025-10",
+       321,
+       65
+      ],
+      [
+       "2025-11",
+       266,
+       71
+      ],
+      [
+       "2025-12",
+       229,
+       48
+      ],
+      [
+       "2026-01",
+       286,
+       81
+      ],
+      [
+       "2026-02",
+       303,
+       65
+      ],
+      [
+       "2026-03",
+       369,
+       80
+      ],
+      [
+       "2026-04",
+       323,
+       79
+      ],
+      [
+       "2026-05",
+       357,
+       69
+      ],
+      [
+       "2026-06",
+       340,
+       70
+      ],
+      [
+       "2026-07",
+       355,
+       84
+      ],
+      [
+       "2026-08",
+       379,
+       58
+      ],
+      [
+       "2026-09",
+       325,
+       38
+      ],
+      [
+       "2026-10",
+       302,
+       13
+      ]
+     ]
+    },
+    "ano": {
+     "cols": [
+      "ano",
+      "fila",
+      "fila_viva"
+     ],
+     "linhas": [
+      [
+       "2020",
+       596,
+       0
+      ],
+      [
+       "2025",
+       2729,
+       2729
+      ],
+      [
+       "2022",
+       1885,
+       0
+      ],
+      [
+       "2021",
+       1050,
+       0
+      ],
+      [
+       "2026",
+       3318,
+       3318
+      ],
+      [
+       "2023",
+       1352,
+       0
+      ],
+      [
+       "2024",
+       1014,
+       198
+      ],
+      [
+       "2019",
+       458,
+       0
+      ],
+      [
+       "2018",
+       95,
+       0
+      ],
+      [
+       "2017",
+       29,
+       0
+      ],
+      [
+       "2016",
+       56,
+       0
+      ],
+      [
+       "2015",
+       96,
+       0
+      ]
+     ]
+    },
+    "oferta": {
+     "cols": [
+      "mes",
+      "agendamentos",
+      "realizados",
+      "faltas"
+     ],
+     "linhas": [
+      [
+       "2024-10",
+       241,
+       133,
+       75
+      ],
+      [
+       "2024-11",
+       161,
+       81,
+       62
+      ],
+      [
+       "2024-12",
+       175,
+       95,
+       62
+      ],
+      [
+       "2025-01",
+       203,
+       105,
+       84
+      ],
+      [
+       "2025-02",
+       167,
+       92,
+       53
+      ],
+      [
+       "2025-03",
+       131,
+       69,
+       48
+      ],
+      [
+       "2025-04",
+       136,
+       73,
+       48
+      ],
+      [
+       "2025-05",
+       153,
+       70,
+       66
+      ],
+      [
+       "2025-06",
+       148,
+       83,
+       48
+      ],
+      [
+       "2025-07",
+       177,
+       87,
+       74
+      ],
+      [
+       "2025-08",
+       193,
+       94,
+       73
+      ],
+      [
+       "2025-09",
+       215,
+       126,
+       67
+      ],
+      [
+       "2025-10",
+       216,
+       107,
+       92
+      ],
+      [
+       "2025-11",
+       173,
+       95,
+       69
+      ],
+      [
+       "2025-12",
+       183,
+       97,
+       71
+      ],
+      [
+       "2026-01",
+       179,
+       99,
+       65
+      ],
+      [
+       "2026-02",
+       176,
+       101,
+       61
+      ],
+      [
+       "2026-03",
+       240,
+       123,
+       96
+      ],
+      [
+       "2026-04",
+       182,
+       92,
+       77
+      ],
+      [
+       "2026-05",
+       203,
+       121,
+       67
+      ],
+      [
+       "2026-06",
+       200,
+       113,
+       65
+      ],
+      [
+       "2026-07",
+       227,
+       138,
+       68
+      ],
+      [
+       "2026-08",
+       270,
+       148,
+       91
+      ],
+      [
+       "2026-09",
+       270,
+       142,
+       113
+      ],
+      [
+       "2026-10",
+       285,
+       95,
+       38
+      ],
+      [
+       "2026-11",
+       73,
+       0,
+       0
+      ]
+     ]
+    },
+    "situacao": {
+     "cols": [
+      "situacao",
+      "agendamentos"
+     ],
+     "linhas": [
+      [
+       "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+       135
+      ],
+      [
+       "PROCEDIMENTO REALIZADO",
+       1383
+      ],
+      [
+       "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+       137
+      ],
+      [
+       "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+       24
+      ],
+      [
+       "AGENDAMENTO CANCELADO PELO COORD. DA REGULAÇÃO LOCAL",
+       8
+      ],
+      [
+       "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+       905
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "lacunas": [],
+ "campos_data": [
+  "solicitacao_max",
+  "agendamento_max",
+  "mais_antiga"
+ ],
+ "campos_hora": [
+  "consulta"
+ ],
+ "leitura": {
+  "partes": 1,
+  "tamanho": 10688,
+  "hash": 1934783705
+ }
+}

@@ -1,0 +1,17 @@
+id: "SAES 2799-2025 atualiza tabela"
+arquivo: "SAES 2799-2025 atualiza tabela.pdf"
+processo_sei: ""
+sha256: "deeac256c304a0dd369d1e610ef3e60cec3224450848e9dd3568a6ca3003bc29"
+paginas: 1
+chars_texto: 2611
+tabelas_total: 1
+tabelas_por_pagina:
+  pagina_1: 1
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:27"

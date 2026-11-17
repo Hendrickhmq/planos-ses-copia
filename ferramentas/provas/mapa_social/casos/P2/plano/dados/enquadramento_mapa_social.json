@@ -1,0 +1,73 @@
+{
+ "atualizado": "25/10/2026",
+ "nota": "papel e genérica das filas da coleta de 25/10/2026 do redacao_08 (ramo plano_oci_cardiologia); nenhuma decisão do usuário ainda: todas a decidir",
+ "filas": {
+  "ELETROCARDIOGRAMA": {
+   "papel": "exame",
+   "generica": true
+  },
+  "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2": {
+   "papel": "exame",
+   "generica": false
+  },
+  "HOLTER 24 HORAS": {
+   "papel": "exame",
+   "generica": true
+  },
+  "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO": {
+   "papel": "exame",
+   "generica": true
+  },
+  "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA": {
+   "papel": "consulta",
+   "generica": false
+  },
+  "CONSULTA EM CARDIOLOGIA - ADULTO": {
+   "papel": "consulta",
+   "generica": true
+  },
+  "CONSULTA EM CARDIOLOGIA - CORONARIA": {
+   "papel": "consulta",
+   "generica": false
+  },
+  "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO": {
+   "papel": "exame",
+   "generica": false
+  }
+ },
+ "ocis": {
+  "09.02.01.006-9": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "HOLTER 24 HORAS",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "obrigatorios": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "HOLTER 24 HORAS"
+   ]
+  },
+  "09.02.01.004-2": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "obrigatorios": [
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+   ]
+  }
+ }
+}

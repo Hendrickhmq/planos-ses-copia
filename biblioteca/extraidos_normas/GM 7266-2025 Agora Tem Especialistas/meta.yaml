@@ -1,0 +1,10 @@
+id: "GM 7266-2025 Agora Tem Especialistas"
+arquivo: "GM 7266-2025 Agora Tem Especialistas.html"
+sha256: "30a17dc59e2831db43f67f4704431eb1a40e4da34b97d71af1ed510eb905dd25"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 18412
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

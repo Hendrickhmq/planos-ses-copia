@@ -1,0 +1,922 @@
+# estado.yaml — onde a redação parou
+#
+# Escrito a cada seção fechada. Serve para retomar a conversa dias depois sem
+# recontextualizar o projeto inteiro: quem retoma lê este arquivo, o roteiro.md
+# e as seções já escritas — nunca as fichas nem os texto.md.
+
+objeto_resumo: "35.000 OCI 09.02.01.002-6 (Avaliação Cardiológica) a R$ 200,00,
+  para a fila regulada do SUS/DF. 3 polos, 10 meses, emenda federal de
+  R$ 10.000.000,00 — R$ 7.000.000,00 produção (70%) e R$ 3.000.000,00 apoio.
+  Agendamento dimensionado em ~87.500 horários (fator 1,25 em dois pontos do
+  fluxo) — dimensionamento, não meta."
+modo: "redacao_puxa_estudo"
+nivel: "minimo_viavel"   # melhorias em redacao/melhorias.md, fora do rascunho
+roteiro: "destilados/roteiro.md"
+
+secao_atual: remontagem  # DOCUMENTO MONTADO em redacao/plano_final.md (18/08/2026)
+
+secoes:
+  01_objeto:              {status: com_lacuna, lacunas: 4}  # LC-003, 006, 011, 012 — nenhuma bloqueante
+  02_metas:               {status: com_lacuna, lacunas: 4}  # LC-014, 015, 016, 017 — nenhuma bloqueante
+  03_indicadores:         {status: com_lacuna, lacunas: 4}  # LC-018, 019, 020, 028 — nenhuma bloqueante
+  04_etapas:              {status: com_lacuna, lacunas: 3}  # LC-015, 021, 022 — nenhuma bloqueante
+  05_planilha:            {status: com_lacuna, lacunas: 3}  # PREENCHIDA com referência AC-046; LC-023 (pesquisa de preços), LC-025, LC-032
+  06_desembolso:          {status: com_lacuna, lacunas: 2}  # LC-043, LC-027 · premissa: P1 cobre m1-3 (DV-022 aberta)
+  07_monitoramento:       {status: com_lacuna, lacunas: 3}  # LC-018, 026, 027 — nenhuma bloqueante
+  08_prestacao_contas:    {status: com_lacuna, lacunas: 4}  # LC-019, 027, 032, 033 — LC-032 pode mudar a Seção 5
+  09_equipe:              {status: com_lacuna, lacunas: 4}  # LC-025, 029, 030, 031 — LC-025 decide viabilidade
+  10_contrapartida:       {status: com_lacuna, lacunas: 1}  # LC-039 — falta o dispositivo que dispensa
+  11_riscos:              {status: com_lacuna, lacunas: 1}  # LC-038 — classificação provisória de R-05 e R-07
+  12_justificativa:       {status: com_lacuna, lacunas: 4}  # LC-040, 041, 042, 016 — LC-041 e LC-042 são de MÉRITO
+  13_identificacao:       {status: com_lacuna, lacunas: 4}  # LC-026, 035, 036, 037 — LC-037 impede fechar
+
+# status: nao_iniciada | rascunho | com_lacuna | fechada
+
+# Lacunas bloqueantes — não impedem redigir, impedem fechar.
+bloqueantes:
+  - id: BL-001
+    secao: 13
+    descricao: "Base legal do instrumento."
+    fase: 2
+    status: encerrada
+    resolucao: "Premissa do exercício: a SES-DF não executa por MROSC, salvo
+      exceções na atenção primária; o instrumento é convênio. Quando roda MROSC,
+      é objeto de PAP, nunca de MAC, e em geral vai para outras pastas (esporte,
+      mulher). Logo a Lei 13.019/2014 não é a espinha: art. 199 §1º CF, Lei
+      8.080/90 e camada distrital (Decreto DF 37.843/2016, art. 33 — AC-010).
+      Situação atual da secretaria, pode mudar. Normas cadastradas em
+      2026-08-17: NM-001 a NM-007 no acervo, OB-001 a OB-010 nas obrigações."
+
+  - id: BL-002
+    secao: 1
+    descricao: "Duplo pagamento entre FAEC e convênio."
+    fase: 3
+    status: encerrada
+    resolucao: "O fluxo é cadeia, não duplicidade: MS repassa ao Fundo de Saúde
+      do DF, e a SES paga o executor por meio do convênio. O executor é
+      remunerado uma vez. Desenho (c) confirmado. Resta LC-012, não bloqueante:
+      se a produção custeada por emenda também gera reembolso FAEC ao Fundo,
+      é contabilidade do Fundo, não do convênio."
+    revisao_2026_08_20: "SUPERADA EM PARTE pelo bloco fonte_nao_e_faec, abaixo.
+      O usuário informou que, vindo o recurso de emenda, NÃO há pagamento por
+      FAEC — o Agora Tem Especialistas entra só como BASE. LC-012 deixa de ser
+      'contabilidade do Fundo' e vira questão de segregação: se a mesma produção
+      for apresentada ao FAEC, há duplicidade de financiamento federal do lado do
+      ente. Virou o risco R-18, requalificado."
+
+  - id: BL-003
+    secao: 13
+    descricao: "O Decreto DF 37.843/2016 é decreto de PARCERIA (MROSC), e o plano
+      o usa como camada distrital enquanto nega que o MROSC reja o instrumento."
+    fase: 2
+    status: resolvida_em_parte
+    aberta_em: 2026-08-17
+    resolvida_em_parte: "2026-08-18 — a norma do convênio é a PORTARIA DE
+      CONSOLIDAÇÃO GM/MS Nº 1/2017 (NM-008), informada pelo usuário. O Decreto DF
+      37.843/2016 sai da posição de norma do instrumento e a contradição central
+      se dissolve. RESTA: (a) localizar anexo e artigo na PRC 1/2017, não lida no
+      original; (b) a CAMADA DISTRITAL fica vazia — LC-044, DV-025."
+    origem: "Texto do decreto fornecido pelo usuário. Vocabulário inteiramente
+      MROSC: 'organização da sociedade civil', 'termo de colaboração ou de
+      fomento', 'parceria', 'edital', 'chamamento'. Art. 28 trata do plano de
+      trabalho da parceria; art. 35 fala em inadimplemento da OSC; art. 36 diz
+      que os recursos não são pagamento por prestação de serviços."
+    a_contradicao: "BL-001 fixou que a SES-DF não executa por MROSC e que o
+      instrumento é convênio em participação complementar (art. 199 §1º CF, Lei
+      8.080/90), com a camada distrital sendo o Decreto 37.843/2016, art. 33 —
+      pista herdada do pt_ses_01 (AC-010). As duas coisas não podem valer juntas:
+      ou o regime é de parceria, e a Lei 13.019/2014 volta a ser espinha; ou é
+      convênio, e ESTE decreto não é a norma aplicável."
+    o_que_cai_se_for_convenio:
+      - "OB-006 e OB-015: a âncora do desembolso antecipado. A leitura de AC-032
+        continua plausível, mas perde o dispositivo."
+      - "OB-017: a âncora do degrau 3 da escada da Seção 7 (retenção de parcela)."
+      - "OB-016: conta específica e aplicação financeira obrigatória."
+      - "OB-014: o método de pesquisa de preços que fecharia LC-023."
+      - "A camada distrital da Seção 13 fica vazia, e é justamente a armadilha
+        nomeada no roteiro — citar a federal e esquecer a distrital."
+    o_que_cai_se_for_parceria:
+      - "A premissa de BL-001 e a redação da Seção 13."
+      - "O instrumento deixa de ser convênio e passa a termo de colaboração ou
+        de fomento, com chamamento público."
+      - "Art. 36: os recursos não são pagamento por prestação de serviços — o que
+        colide com a rubrica R1 escrita como 35.000 x R$ 200,00."
+    dado_do_corpus: "AC-045, levantado em 2026-08-17: A MISTURA NÃO É DESTE
+      RASCUNHO, foi herdada de plano aprovado. Contagens (01/02/03/04):
+      'organização da sociedade civil' 17/2/2/1; 'OSC' 37/1/1/1; 'parceria'
+      0/3/3/3; 'convênio' 31/8/8/7; 'termo de colaboração' e 'chamamento' zero
+      nos quatro. O pt_ses_01 chama o instrumento de convênio 31 vezes, a
+      entidade de OSC 37 vezes, e parafraseia o art. 33 como 'vedada a
+      antecipação em desacordo com a natureza do objeto DO CONVÊNIO'. O corpus
+      não resolve BL-003 — ele é a evidência dela. Nenhum dos quatro menciona
+      termo de colaboração, termo de fomento ou chamamento público, o que
+      enfraquece a leitura de que o regime praticado seja o de parceria."
+    como_resolver: "Confirmar a ementa e o âmbito do Decreto 37.843/2016 no
+      SINJ-DF, e localizar a norma distrital que rege CONVÊNIOS fora do MROSC —
+      provavelmente nas normas de execução orçamentária e financeira do DF, a
+      identificar. Pergunta ao professor: DV-025."
+    nao_bloqueia: "A redação das Seções 1 a 12. Bloqueia FECHAR a 13, e muda o
+      fundamento das Seções 5, 6, 7 e 8."
+
+# Decisões tomadas, para não reabrir
+decisoes:
+  - "VIGÊNCIA DE 10 MESES (revista em 2026-08-17, era 9). Pré-produção de 2
+    semanas + 9 meses de janela assistencial. Alinha com o corpus, que compra o
+    tempo de partida esticando a vigência (AC-034, AC-035), em vez de encolher a
+    janela. Custo: perde-se a comparação direta de intensidade com o pt_ses_01.
+    Ganho: entradas caem de 5.000 para 4.125/mês e a carga por polo de ~159 para
+    ~131 consultas/dia útil. M-16 incorporada ao plano."
+  - "Polo de execução separado de região de referência: 3 polos executam, 7
+    Regiões de Saúde são referenciadas, como no pt_ses_01 (AC-021)."
+  - "Desenho (c) — produção + apoio — confirmado pelo fluxo de BL-002."
+  - "OCI de entrada 09.02.01.002-6 — Avaliação Cardiológica — R$ 200,00
+    (comp. 04/2026), Portaria SAES/MS 1.822/2024. Não confundir com
+    09.02.01.004-2, que o pt_ses_04 rotulou errado (AC-017)."
+  - "Meta = 35.000. Rendimento realista dos 36.052 CNS a 20% de absenteísmo,
+    com reagendamento. O 70/30 exato é consequência, não a causa."
+  - "3 polos, desenho B: dois no eixo Sudoeste/Oeste (Taguatinga e Samambaia ou
+    Ceilândia), um em Sobradinho para Norte/Leste. Sudoeste+Oeste concentra 49%
+    da demanda pela chave do pt_ses_01 (AC-021). Volumes pendem de LC-003."
+  - "Fonte federal: produção remunerada estritamente a R$ 200,00, sem incremento
+    sobre o procedimento. A rubrica de apoio custeia só o não assistencial,
+    pelo argumento do pt_ses_01 (AC-009) — leitura do corpus, adotada."
+  - "Nível do rascunho: mínimo viável. Melhorias vão para redacao/melhorias.md
+    e NÃO entram no plano_atual."
+  - "DESEMBOLSO ANTECIPADO. Convênio não é pagamento por produção: o recurso é
+    liberado contra cronograma, antes da despesa, e conciliado na prestação de
+    contas (AC-032). A 1ª parcela custeia a partida do contrato — é por isso que
+    não há contrapartida. O risco migra do repasse para a devolução."
+  - "OCI concluída = fluxo completo até a consulta de retorno. Sem retorno, sem
+    pagamento. Execução física inteira dentro dos 9 meses; pagamento depois."
+  - "Vigência física (9 meses, até o último retorno) separada de vigência
+    financeira (pagamento e prestação de contas, posterior) — ver DV-012."
+  - "Seção 2: três metas. Meta 1 = 35.000 OCI CONCLUÍDAS (unidade da meta),
+    desdobrada em 1.1 a 1.3 por polo — volumes em LC-003. Meta 2 = 87.500 vagas
+    de consulta ofertadas (43.750 entrada + 43.750 retorno). Meta 3 = 3 polos em
+    operação, Etapa 0. Só a Meta 1 soma ao quantitativo do objeto; as demais
+    estão em outra unidade."
+  - "A 1ª parcela se vincula à Meta 3 (implantação com entregas verificáveis:
+    equipe contratada, agenda no SISREG, FPO programada), nunca à Meta 1 —
+    nenhuma OCI estará concluída no mês 1."
+  - "CICLO DA OCI = 30 DIAS. Prazo entre a consulta de entrada e o retorno com
+    exames prontos, informado pelo usuário em 2026-08-17 como factível. Vira
+    PARÂMETRO PACTUADO, não observação (DV-011, respondida)."
+  - "CURVA MENSAL FECHADA (LC-013). Implantação no mês 1; entradas nos meses 2 a
+    8 (5.000/mês); conclusões nos meses 3 a 9 (5.000/mês); vagas 6.250 por ponta
+    por mês, 12.500 nos meses 3 a 8. Totais: 35.000 entradas, 35.000 conclusões,
+    87.500 vagas. Implantação de 1 mês é PREMISSA DECLARADA (LC-015) — se
+    passar disso, a curva inteira desloca."
+  - "Consequências da curva: (a) primeira competência com produção é o mês 3, as
+    duas primeiras parcelas não têm conclusão para conciliar — Seção 6; (b) nos
+    meses 3 a 8 cada polo faz ~1.667 entradas MAIS ~1.667 retornos, cerca de 159
+    consultas por dia útil por polo — é esse o número da Seção 9, não 79;
+    (c) faltoso do mês 8 não tem terceira chance dentro da vigência."
+  - "Apuração da Meta 1 é mensal, por competência do SIA/SUS. Meta apurável só no
+    último mês deixaria a prestação de contas mensal sem lastro."
+  - "A META 1 É A RUBRICA DE PRODUÇÃO. 35.000 x R$ 200,00 = R$ 7.000.000,00 =
+    70% do valor global. Os 30% de apoio NÃO compram OCI e não geram meta
+    assistencial. Isso precisa estar explícito no plano — confirmado pelo
+    usuário em 2026-08-17."
+  - "NÃO EXISTE MEIA OCI. Só se recebe pela OCI concluída; não há pagamento
+    proporcional por consulta, exame ou procedimento secundário isolado. OCI
+    iniciada e não finalizada é custo sem contrapartida e deve ser evitada ao
+    máximo (DV-013, respondida pelo usuário)."
+  - "Tratamento do faltoso: reagendamento e BUSCA ATIVA do usuário, com os dados
+    de contato que a SES-DF fornece para os pacientes regulados. É mecanismo de
+    proteção da meta, não cortesia (DV-014, respondida em substância)."
+  - "Recebimento antecipado para dar partida ao convênio: confirmado pelo
+    usuário, além de AC-032. Sustenta a Meta 3 como lastro da 1ª parcela."
+  - "CICLO DA OCI = 30 DIAS, e 30 é TETO. Tempo médio e mínimo menores, conforme
+    a liberação dos resultados dos exames. Parâmetro pactuado, não observado
+    (DV-011, respondida)."
+  - "Retorno agendado já na consulta de entrada sempre que possível — é o que
+    garante o recebimento. E OCI EM ANDAMENTO É PRIORIDADE sobre entrada nova.
+    Regras operacionais com efeito financeiro; vão para as Seções 7 e 11."
+  - "CURVA MENSAL FECHADA (Seção 2), vigência de 10 meses: pré-produção nas 2
+    primeiras semanas; entradas de meia janela no mês 1 (2.000) e 4.125/mês nos
+    meses 2 a 9; conclusões 2.000 no mês 2 e 4.125/mês nos meses 3 a 10. Mês 10
+    é só conclusão. Carga ~131 consultas/dia útil por polo — número que
+    dimensiona a Seção 9."
+  - "DIVISÃO ENTRE POLOS POR MÉDIA ARITMÉTICA: 11.667 + 11.667 + 11.666 = 35.000.
+    Provisória e declarada como tal — não pondera capacidade instalada, população
+    nem fila. Refinamento vira M-15, não lacuna. LC-003 deixa de ser lacuna da
+    Seção 2."
+  - "MÊS 1 É SÓ IMPLANTAÇÃO, atendimento a partir do mês 2 — decisão do
+    proponente. O corpus faz pré-produção de 2 SEMANAS (AC-034) e declara
+    vigência 1 mês maior que o período assistencial (AC-035): compra o tempo de
+    partida esticando a vigência, não encolhendo a janela. Como a vigência de 9
+    está travada, a janela assistencial cai para 8. Alternativa registrada em
+    M-16 (vigência 10)."
+  - "OFERTA DE AGENDA NÃO É META. As 87.500 eram agendamentos (eventos), não
+    pessoas nem vagas distintas — o teto de pessoas é a fila de 36.052 CNS. Vira
+    dimensionamento da Seção 9 e monitoramento da Seção 7. A Meta 2 passa a ser
+    os 3 polos em operação; o plano tem DUAS metas, não três."
+  - "OCI CONCLUÍDA TEM DUAS PARTES: assistencial (retorno realizado) e documental
+    (todos os formulários carregados nos sistemas de registro). Sem o registro, a
+    OCI é clinicamente concluída e administrativamente inexistente. Amarra o
+    prazo de carga na Seção 8 e reforça DV-012."
+  - "ALERTA DE DIMENSIONAMENTO: 35.000 concluídas sobre 36.052 CNS = 97,1% da
+    fila. Só fecha com busca ativa até a 3ª tentativa nos dois pontos e com todo
+    mundo elegível e localizável. Alívio possível: fluxo de entrada de novos
+    usuários na fila, não medido (LC-016 / DV-015). Vai nomeado na Seção 11."
+  - "FLUXO DA OCI E DIVISÃO DE RESPONSABILIDADE: (1) executor libera horários;
+    (2) SES-DF REGULA e agenda o usuário da fila; (3) consulta de entrada;
+    (4) exames; (5) consulta ou teleconsulta de retorno; (6) carga dos
+    formulários. A etapa 2 NÃO é do executor — ele oferta a vaga, a SES a
+    preenche. Vaga ofertada e não regulada é capacidade ociosa. Vira indicador
+    na Seção 3, risco na Seção 11 e LC-017/DV-016. O fluxo vale para quem JÁ ESTÁ
+    NA FILA: o executor não capta, não seleciona e não recruta usuário."
+  - "Seção 3: 3 indicadores PACTUADOS (IND-01 execução mensal, IND-02 cobertura
+    acumulada, IND-03 implantação 3/3) e 5 de ACOMPANHAMENTO sem consequência
+    contratual (IND-04 preenchimento das vagas reguladas, IND-05 comparecimento
+    separado por entrada e retorno, IND-06 recuperação do faltoso, IND-07 ciclo
+    <= 30 dias, IND-08 completude do registro). Todos com denominador."
+  - "IND-01 usa produção APROVADA no numerador, não apresentada — é a única que
+    sobrevive à crítica do SIA. O executor registra as duas: a diferença separa
+    problema de faturamento de problema de assistência."
+  - "NENHUM DOS 4 PLANOS DECLARA LIMIAR NUMÉRICO de aferição (AC-036, AC-037;
+    zero ocorrências de 'no mínimo N%'). Aqui isso não passa porque o desembolso
+    é antecipado: sem limiar não há critério para decidir quanto DEVOLVER.
+    LC-018 aberta — recomendação: limiar mensal com compensação no acumulado.
+    O proponente não dispõe do número (2026-08-17): virou DV-018, ao professor."
+  - "Meio de verificação nunca é só relatório do executor: sempre ancorado em
+    sistema oficial (SISREG, SIA/SUS, TrakCare), como no corpus (AC-038). A busca
+    ativa se prova pelo reagendamento no SISREG, não pela ligação registrada."
+  - "Seção 4: TRÊS ETAPAS. 1 Pré-produção (5 subetapas, 2 semanas, entrega = 3
+    polos aptos, IND-03 sem tolerância); 2 Execução assistencial (6 subetapas,
+    mês 1 3ª semana a mês 10, entrega = 35.000 OCI concluídas); 3 Encerramento e
+    conciliação (3 subetapas, mês 10 + vigência financeira). Etapas 2 e 3 se
+    SOBREPÕEM no mês 10 — somadas como sequenciais dariam 10,5 meses e
+    estourariam a vigência."
+  - "O que a Seção 2 chamava de Etapa 0 é a ETAPA 1 (pré-produção). Numeração
+    hierárquica sem buraco: 1.1-1.5, 2.1-2.6, 3.1-3.3."
+  - "DEPENDÊNCIAS QUE NÃO SÃO DO EXECUTOR: 1.3 habilitação de acessos (SISREG,
+    TrakCare — LC-021/DV-019) e 1.4 programação da FPO (LC-015/DV-004). As duas
+    juntas são o risco de partida: cada quinzena perdida custa ~240 entradas a
+    mais por mês. Argumento para o instrumento fixar prazo para atos da
+    concedente."
+  - "A Etapa 2 termina na CARGA DOS FORMULÁRIOS (2.6), não no retorno. O registro
+    do mês 10 cai depois do mês 10 (LC-022/DV-008). A última parcela não pode
+    vencer antes do fechamento da última competência."
+  - "Seção 5: duas rubricas. PRODUÇÃO fechada — linha única, 35.000 x R$ 200,00 =
+    R$ 7.000.000,00, como o pt_ses_01 faz (AC-015). APOIO em esqueleto,
+    R$ 3.000.000,00, estruturado pela numeração das etapas da Seção 4."
+  - "TESTE DE NÃO-ASSISTENCIALIDADE, 3 perguntas: (1) é equipamento ou insumo
+    médico/clínico/assistencial? (2) está na composição da OCI? (3) tem origem de
+    preço citável? Reprovar em qualquer uma elimina o item. Consequência: equipe
+    ASSISTENCIAL (cardiologista, ecocardiografista, técnico) sai do apoio e é
+    custeada pelos R$ 7.000.000 da produção; no apoio só recepção, agendamento,
+    busca ativa, administrativo e coordenação não assistencial."
+  - "APOIO É ALUGADO, NÃO COMPRADO (decisão do usuário, 2026-08-17). Todo apoio
+    material entra como locação: unidade = mês, frequência = meses de uso. Fecha
+    com o corpus, que não estrutura apoio como aquisição de bem permanente
+    (AC-039), e evita a questão da destinação do bem ao término."
+  - "ALERTA DE VIABILIDADE: a rubrica de apoio NÃO pode cobrir déficit
+    assistencial — usá-la para complementar assistência é o incremento
+    disfarçado que o teste proíbe. Se R$ 200,00 não cobrir o custo real da OCI,
+    o problema é de viabilidade e não tem solução dentro da planilha. LC-025."
+  - "Seção 7: ESCADA DE CONSEQUÊNCIAS em 4 degraus — notificação, plano de
+    recuperação, retenção da parcela seguinte, devolução proporcional. Nenhum dos
+    4 planos aprovados tem isso: notificação/glosa/retenção/advertência/sanção/
+    plano de recuperação = 0 ocorrências nos quatro (AC-041). É o item do eixo 2
+    que este rascunho cumpre e o corpus não — critério 4 do fechamento."
+  - "REGRA DA CAUSA ANTES DA CONSEQUÊNCIA: cruzar IND-04 com IND-01 para separar
+    sub-regulação de sub-execução. IND-04 baixo + IND-01 baixo = vaga ofertada e
+    não regulada = NÃO é descumprimento do executor. É a razão de existir do
+    IND-04."
+  - "O plano nomeia a FUNÇÃO do interlocutor, não a pessoa — o pt_ses_01 foi
+    aprovado com o responsável do concedente como 'A definir pela SES/DF' e todos
+    os campos em branco (AC-040). LC-026/LC-027, DV-021."
+  - "ESTRUTURA INDICADA PELO PROFESSOR (informada em 2026-08-17): Metodologia;
+    Metas; Indicadores qualitativos E quantitativos; Cronograma de execução;
+    Cronograma de desembolso TRIMESTRAL; Planilha financeira (rubrica ->
+    descritivo -> valor unitário). Tratada como restrição do entregável, acima do
+    roteiro em caso de conflito — o roteiro é ordem de REDAÇÃO, ela é ordem do
+    DOCUMENTO."
+  - "DESEMBOLSO É TRIMESTRAL, não mensal. Apuração continua mensal — compatível,
+    porque o roteiro só proíbe apurar mais devagar do que se paga. Cada parcela
+    trimestral terá 3 competências apuradas por trás. PENDÊNCIA ARITMÉTICA para a
+    Seção 6: 10 meses não dividem em trimestres."
+  - "INDICADORES QUALITATIVOS acrescentados (IND-09 conduta definida, IND-10
+    desfecho registrado, IND-11 conformidade do encaminhamento), sem consequência
+    contratual. Dependem de campo estruturado no TrakCare — LC-028."
+  - "METODOLOGIA não existe como seção do rascunho: o conteúdo está na Seção 2
+    (fluxo, busca ativa, ciclo) e na Seção 4 (etapas). Montar na remontagem do
+    documento, não redigir de novo."
+  - "ESTRUTURA DO DESEMBOLSO (usuário, 2026-08-17): um PRIMEIRO RECEBIMENTO, depois
+    recebimentos TRIMESTRAIS, e um FINAL. Converge com o que a Seção 2 já havia
+    decidido: a 1ª parcela se vincula à Meta 2 (3 polos aptos, IND-03), não à
+    Meta 1. Quantos meses o primeiro recebimento cobre: DV-022, a confirmar com
+    o professor — sem isso a Seção 6 não fecha o calendário."
+  - "PLANILHA POR RUBRICA (orientação do professor, adotada): rubrica no primeiro
+    nível, etapa vira COLUNA. R1 produção (fechada, R$ 7.000.000); R2 RH não
+    assistencial; R3 locação de espaço; R4 equipamentos e TI; R5 conectividade e
+    telefonia; R6 serviços gerais; R7 encerramento. R2-R7 somam R$ 3.000.000.
+    Mantido um RESUMO POR ETAPA como ponte com a Seção 4."
+  - "PENDÊNCIA DE EXPLICAÇÃO: o usuário pediu para eu explicar o que seria um
+    PROTOCOLO CLÍNICO na hora da remontagem, para decidir se a Metodologia
+    precisa de um. Não esquecer."
+  - "Seção 9: a carga sai inteira da curva — 8.250 consultas/mês (4.125 entradas +
+    4.125 retornos), ~131 consultas/polo/dia útil, ~65 ecos/polo/dia útil, ~2.062
+    contatos de busca ativa/mês. Dimensionar por 65 (só a entrada) é o erro a
+    evitar."
+  - "QUANTITATIVO MÉDICO NÃO FOI FIXADO. Tabela paramétrica: 393 consultas/dia
+    útil divididas pela produtividade real. Com o único parâmetro do corpus
+    (8,7/dia, AC-016) daria ~45 médicos; a 16/dia, ~25. Nenhuma linha escolhida —
+    LC-029, do proponente. Usar o parâmetro do corpus como se fosse desta
+    operação seria inventar número com aparência de fonte."
+  - "ECOCARDIOGRAMA É O GARGALO PROVÁVEL: ~65/polo/dia útil, exige equipamento e
+    profissional habilitado ao mesmo tempo. LC-030."
+  - "ESPELHAMENTO SEÇÃO 5 x SEÇÃO 9 vale INTEIRO só para a equipe não
+    assistencial (R2). A equipe assistencial é custeada por R1, que é linha única
+    de produção, e por isso NÃO aparece itemizada na planilha — coerente com
+    AC-015 e com o teste de não-assistencialidade."
+  - "Seção 11: 14 riscos, 8 ALTOS, três categorias (execução, financiamento,
+    regulatório). Critério de classificação escrito e ancorado no objeto: impacto
+    alto = >= 3.500 OCI (10% da meta) ou >= R$ 1.000.000 ou obrigação de
+    devolver. Limiares são convenção da ANÁLISE, não pactuação — o limiar
+    contratual é LC-018."
+  - "R-05 (R$ 200 não cobrir o custo) é o ÚNICO risco da lista que NÃO se
+    administra em execução: a apuração tem que ser prévia à assinatura (LC-025).
+    Nenhum indicador o acusa."
+  - "Concentração dos riscos altos: PARTIDA (R-01, R-06) e TETO DA FILA (R-03).
+    Se a partida atrasar ou a conversão de 97% não se sustentar, os dois derrubam
+    a curva inteira."
+  - "Seção 10: NÃO HÁ CONTRAPARTIDA, e o plano DECLARA a ausência em vez de
+    omiti-la — nenhum dos 4 aprovados menciona a palavra, zero ocorrências
+    (AC-044). Segundo item do eixo 2 que este rascunho cumpre e o corpus não, ao
+    lado da escada de consequências (AC-041/AC-042). Falta o dispositivo: LC-039/DV-010,
+    procurar no Decreto DF 37.843/2016 (sem URL, SINJ-DF), na LDO distrital e na
+    norma federal do repasse. NÃO presumir: exigência de contrapartida costuma
+    escalonar por valor, e R$ 10 milhões não é faixa baixa."
+  - "COLISÃO DE IDs RESOLVIDA em 2026-08-17: duas sessões gravaram achados em
+    paralelo. Renumerados os meus — capa/responsável do concedente virou AC-043
+    (era AC-040) e contrapartida virou AC-044 (era AC-042). AC-040 e AC-042 ficam
+    com a escada de medidas compensatórias, da outra sessão. Referências
+    corrigidas nas Seções 7, 10 e 13. Também colidiram LACUNAS: minhas LC-032
+    (riscos) e LC-033 (contrapartida) viraram LC-038 e LC-039; LC-032 e LC-033
+    ficam com a Seção 8. LC-019 e LC-027 eram a mesma coisa nas duas sessões e
+    foram mantidas únicas."
+  - "Seção 13: PROPONENTE FICTÍCIO por pedido do usuário — 'Instituto Exemplo de
+    Cuidado Cardiovascular (IECC)'. Todo campo de identificação marcado
+    [[exemplo]], com aviso no topo da seção. NENHUM dado real, nenhum CNPJ
+    válido. Substituir antes de qualquer uso real."
+  - "Base legal em 8 normas, por camada, com a DISTRITAL explícita (Decreto DF
+    37.843/2016, art. 33) — a armadilha do roteiro é citar a federal e esquecer a
+    distrital. A Seção 13 DECLARA a fonte do recurso (emenda federal -> Fundo ->
+    convênio), desvio deliberado do corpus, que não declara (AC-011)."
+  - "RESPOSTAS DE 2026-08-18. DV-025: norma do convênio é a PRC GM/MS 1/2017
+    (NM-008) — BL-003 resolvida em parte. DV-003: produção APROVADA, provisório
+    até o professor. DV-023: REFORMULADA, ver entrada seguinte. DV-014: sem
+    série própria, adotados os 20% da entrada como premissa declarada. DV-022,
+    DV-015, DV-009, DV-018: seguem com o professor. LC-040 FECHADA: extração de
+    16/08/2026 (DD-001)."
+  - "REMONTAGEM FEITA em 2026-08-18: redacao/plano_final.md, 865 linhas, 15 seções,
+    na ordem do professor (identificação, objeto, justificativa, METODOLOGIA,
+    METAS, INDICADORES, CRONOGRAMA DE EXECUÇÃO, CRONOGRAMA DE DESEMBOLSO,
+    PLANILHA, contrapartida, monitoramento, prestação de contas, riscos, base
+    legal, Anexo I de pendências). Versão LIMPA por escolha do usuário: sem
+    citação de achados, sem notas de método, sem 'o que a seção não promete' —
+    conferido, zero ocorrências de AC-/DV-/pt_ses_. As 26 lacunas foram
+    preservadas inline e consolidadas no Anexo I."
+  - "As seções em redacao/plano_atual/ CONTINUAM SENDO A FONTE. plano_final.md é
+    derivado: se uma decisão mudar, muda no plano_atual e remonta. Não editar os
+    dois em paralelo."
+  - "PROTOCOLO CLÍNICO entrou como estrutura (6 campos) com conteúdo clínico em
+    LC-046, para o responsável técnico. Explicado ao usuário: é o que dá
+    referência aos indicadores qualitativos IND-09 a IND-11 e o que protege
+    contra a acusação de 'OCI carimbo'. Não escrevi conduta clínica."
+  - "LC-043 COLIDIU de novo (Seção 6 x Seção 8). No plano_final a numeração foi
+    consolidada: alcance da 1ª parcela = LC-036, rendimentos = LC-044, anexo da
+    PRC 1/2017 = LC-045, protocolo clínico = LC-046, norma distrital = LC-047."
+  - "PLANILHA PREENCHIDA em 2026-08-18. LC-006 FECHADA. O apoio saiu em 23 linhas
+    somando exatamente R$ 3.000.000,00, com valores de REFERÊNCIA do pt_ses_01
+    (AC-046) — plano aprovado pela SES —, ajustados para 3 polos e 10 meses.
+    Verificação D confere nas 23 linhas. NÃO É PESQUISA DE PREÇOS: LC-023 segue
+    aberta e cada linha traz a coluna ref. apontando o item de origem."
+  - "O item 4.4 (material de consumo) é a LINHA DE FECHAMENTO: absorve a diferença
+    entre a soma das outras 22 (R$ 2.907.654,50) e o teto da rubrica, ficando em
+    R$ 9.234,55/mês contra R$ 11.740,00 do pt_ses_01. Declarado no texto — quando
+    a pesquisa de preços entrar, a diferença se redistribui."
+  - "TRÊS CARGOS DO CORPUS EXCLUÍDOS DO APOIO por decisão: auxiliar de apoio aos
+    exames, assistente clínico e assistente de preparação. Reprovam na pergunta 2
+    do teste de não-assistencialidade — participam da execução do pacote e já
+    estão no valor de tabela. Diferença deliberada em relação ao pt_ses_01."
+  - "VALIDAÇÃO DE ENVELOPE: apoio do pt_ses_01 = R$ 2.772.671,65 (36.000 OCI, 4
+    polos, 9 meses) contra R$ 3.000.000,00 aqui (35.000 OCI, 3 polos, 10 meses).
+    8% maior para um mês a mais e um polo a menos. Valida o teto de 30% como
+    plausível; NÃO valida preço unitário."
+  - "RESUMO POR ETAPA: Etapa 1 R$ 150.000; Etapa 2 R$ 8.725.000; Etapa 3
+    R$ 1.125.000. Rateio declarado: apoio a R$ 300.000/mês, Etapa 1 com meia
+    mensalidade, Etapa 3 com a do mês 10; produção pela curva de conclusões."
+  - "DV-023 REFORMULADA em 2026-08-18 e a itemização de R1 REVERTIDA. A pergunta
+    original tratava como alternativas duas coisas distintas: como se CALCULA o
+    repasse (35.000 x R$ 200,00, fechado) e como se COMPROVA o uso (em aberto).
+    Itemizar R1 desmontaria o 'sem incremento' — o USUÁRIO apontou isso ao
+    perguntar se a planilha não era só dos R$ 3 milhões, e ele estava certo.
+    ADOTADO: R1 em LINHA ÚNICA, lastro físico por produção aprovada, como o corpus
+    (AC-015). A ITEMIZAÇÃO DE R1 está desenhada e guardada em M-17, com gatilho na
+    resposta da DV-023 reformulada. A PLANILHA ITEMIZA SÓ OS R$ 3.000.000 DE
+    APOIO. Nota: se um dia entrar M-17, ela resolve onde mora o EQUIPAMENTO
+    MÉDICO, que hoje não cabe no apoio nem aparece em R1."
+  - "LC-029 RESPONDIDA: 16 a 24 consultas/dia útil em jornada ambulatorial de 8h
+    (faixa SUS informada pelo usuário, sem fonte documental) -> 17 a 25
+    cardiologistas, 6 a 8 por polo. DESCARTADO o parâmetro do corpus (8,7/dia,
+    AC-016), que dava ~45. R-06 revisto para baixo: continua alto pelo PRAZO de 2
+    semanas, não mais pela escala."
+  - "LC-030: o usuário assume que os polos suportam ~65 ecos/dia útil. É PREMISSA
+    ASSUMIDA, não verificação — R-07 permanece alto."
+  - "DD-002 (comparativo de remuneração): OCI R$ 200 contra R$ 410-560 dos
+    convênios (CBHPM/DF) e R$ 810-1.370 do particular. A OCI paga 36% a 49% do
+    convênio. É REMUNERAÇÃO COMPARADA, NÃO CUSTO — LC-025 segue aberta e R-05
+    continua sem fechar. Serve como economicidade na Seção 12."
+  - "SCHEMA REVISADO: acervo.csv passou a ter tipo 'dado' — DD-001 (painel Mapa
+    Social, extração 16/08/2026) e DD-002 (tabela comparativa, arquivo em
+    registros/fontes/). Era a pendência anotada em schema_a_revisar."
+  - "Seção 6: 4 PARCELAS — P1 inicial (m1-3, lastro Meta 2/IND-03), P2 (m4-6), P3
+    (m7-9), P4 final (m10 + encerramento). PREMISSA DECLARADA, não decisão: a 1ª
+    parcela cobre 3 meses (DV-022 segue aberta). Produção por parcela fecha:
+    6.125 + 12.375 + 12.375 + 4.125 = 35.000 OCI = R$ 7.000.000. Apoio por
+    parcela depende da itemização — LC-043."
+  - "PARCELAS DESIGUAIS DE PROPÓSITO (17,5% / 35,36% / 35,36% / 11,79% da
+    produção). Divisão em partes iguais é o defeito que o roteiro nomeia:
+    desembolso que não conversa com o cronograma físico. P1 cobre 3 meses e só
+    6.125 conclusões, mas concentra o custo de implantação."
+  - "A TRAVA QUE SUBSTITUI A VERIFICAÇÃO 4: como a liberação é antecipada por
+    desenho (AC-032, OB-006), a parcela vence antes do que custeia. No lugar
+    disso: NENHUMA parcela é liberada sem que as competências do período anterior
+    estejam apuradas — P1 é a única exceção, com lastro documental. P2 se
+    condiciona às competências 1 e 2, não à 3, que ainda não fechou (DV-008)."
+  - "Seção 12: justifica o DIMENSIONAMENTO, não só a necessidade — a cadeia fila
+    36.052 -> rendimento com 3 rodadas de busca ativa -> 35.000 -> R$ 7.000.000
+    (70%). A ORDEM está declarada: a fila definiu a meta, a meta definiu a
+    rubrica. Não o contrário."
+  - "A Seção 12 declara o desconforto dos 97,1% em vez de escondê-lo, e remete a
+    R-03 e DV-015. Escrita por último e sem nenhum número novo: todos rastreáveis
+    às Seções 1, 2, 4, 5 e 11 — a armadilha do roteiro é a justificativa ser a
+    única seção bem escrita."
+  - "DUAS EXIGÊNCIAS DE MÉRITO EM ABERTO NA SEÇÃO 12, e nenhuma se resolve
+    escrevendo melhor: (1) INSUFICIÊNCIA DA REDE PRÓPRIA — a Lei 8.080 art. 24
+    (OB-002) exige demonstrar que o SUS não dá conta, e fila comprova demanda, não
+    insuficiência. Sem isso a seção justifica necessidade e não
+    COMPLEMENTARIDADE, que é o fundamento constitucional (OB-001). LC-041.
+    (2) ANCORAGEM no PDS 2024-2027 e na PAS — LC-042/DV-024, nenhum consultado."
+  - "LC-040: falta a DATA DE EXTRAÇÃO do dado da fila. O critério do roteiro é
+    dado com fonte E data; sem data, os 777,28 dias são fortes e não são
+    citáveis. Depende só de voltar ao painel."
+  - "A Seção 13 NÃO cumpre ainda o critério 'base legal confirmada, não assumida':
+    nenhuma das 8 normas foi lida no original. LC-037 impede fechar. Pendências
+    nominais: Decreto DF 37.843/2016 sem URL (SINJ-DF) e Anexo da Portaria
+    1.822/2024 não lido — a lacuna mais cara do plano, sustenta Seções 1, 2 e 5."
+  - "CORREÇÃO 2026-08-17: AC-041 estava forte demais. O pt_ses_01 TEM uma escada,
+    na seção de riscos e com outro vocabulário — remanejamento de quantitativos,
+    ações compensatórias, aplicação do instrumento de medição de resultados,
+    devolução do valor não executado (AC-042). A busca por notificação/glosa/
+    retenção não achou porque o corpus não usa essas palavras. O que o corpus não
+    tem é GATILHO, LIMIAR e PRAZO. Seção 7 corrigida."
+  - "Seção 8: DUAS COMPROVAÇÕES, física (produção aprovada no SIA, 11 indicadores,
+    conciliação oferta x regulação, busca ativa, relação analítica) e financeira
+    (documento fiscal vinculado a ITEM da planilha, extrato, saldo por rubrica).
+    Nota fiscal prova gasto, não prova entrega."
+  - "DEVOLUÇÃO TEM DUAS LÓGICAS QUE NÃO SE SOMAM: R1 devolve (repassado - OCI
+    aprovadas x R$ 200); R2-R7 devolvem saldo não aplicado. A primeira mede
+    ENTREGA, a segunda mede APLICAÇÃO. Antes da devolução vêm as medidas
+    compensatórias na ordem do AC-042."
+  - "DV-023 (nova, ao professor): R1 presta contas por produção aprovada ou por
+    despesa realizada? Se for por despesa, a itemização assistencial VOLTA e a
+    estrutura da Seção 5 muda. Encadeia com LC-025."
+  - "Seção 7: rito mensal com prazo NOS DOIS LADOS — o proponente envia, e a
+    unidade gestora tem prazo para ANALISAR e se manifestar (LC-026). Nenhum dos
+    4 planos fixa prazo para o gestor; a seção de monitoramento deles descreve o
+    envio e para ali."
+  - "ANÁLISE DE CAUSA ANTES DE CONSEQUÊNCIA: meta não atingida se decompõe em
+    (a) vagas ofertadas < previsto = falha do proponente; (b) vagas reguladas <
+    ofertadas = sub-regulação, não é do executor (IND-04, DV-016); (c)
+    comparecimento baixo = absenteísmo (IND-05/IND-06); (d) apresentada >
+    aprovada = falha de faturamento, não de assistência."
+  - "ESCADA DE CONSEQUÊNCIA em 4 graus, ordem do corpus (AC-040): I remanejamento
+    de quantitativos (não é descumprimento — é o ajuste que a cláusula prevê);
+    II plano de recuperação; III notificação e retenção da parcela seguinte;
+    IV devolução do valor não executado. Existe nessa forma porque o desembolso
+    é antecipado: a consequência real é reter e devolver, não deixar de pagar."
+  - "BUSCA ATIVA É OBRIGAÇÃO, NÃO ESFORÇO. O usuário que não retorna é procurado
+    até retornar, por contato reiterado, com os dados fornecidos pela SES-DF.
+    É o que sustenta a premissa de recuperação embutida na meta."
+
+# Dados de demanda — proveniência pendente, ver LC-004
+demanda:
+  fonte: "Mapa Social da Saúde (MPDFT), filtro ecocardiografia. Informado pelo
+    usuário. Falta recorte por Região de Saúde."
+  data_extracao: 2026-08-19
+  solicitacoes: 42724
+  solicitacoes_devolvidas: 21613
+  cns_unicos: 36125
+  espera_media_dias: 776.55
+  absenteismo_estimado: 0.20   # parâmetro do pt_ses_01, AC-022
+  extracao_anterior:            # sem data registrada — LC-004
+    solicitacoes: 42632
+    solicitacoes_devolvidas: 21572
+    cns_unicos: 36052
+    espera_media_dias: 777.28
+    nota: "Variação de +92 solicitações, +41 devolvidas, +73 CNS e −0,73 dia.
+      Não vira taxa de entrada porque o intervalo é desconhecido. Com a próxima
+      extração datada, LC-016 se fecha."
+  leitura: "A meta usa CNS (pessoa), não solicitação — 1,18 solicitação por
+    pessoa, razão inalterada entre as duas extrações. Com 20% de absenteísmo e
+    três rodadas de reagendamento, 36.125 rendem 35.836 comparecimentos
+    possíveis (28.900 + 5.780 + 1.156). Meta = 35.000, folga de 836. Produção
+    R$ 7.000.000 (70%); apoio R$ 3.000.000 (30%). Vagas a ofertar = 43.750."
+  limitacao: "O FILTRO É DE UM EXAME. A extração é por ecocardiografia, logo
+    mede a ponta da demanda por avaliação cardiológica, não a demanda. Não
+    apresentar 36.125 como 'a fila' nem calcular percentual de saturação da meta
+    contra esse denominador. Lacuna do número não filtrado por exame: LC-068
+    (próximo id livre, a v2 termina em LC-067). Informado pelo usuário em
+    2026-08-19."
+  pendente: "LC-011 — o que 'devolvida' significa e se está dentro das 42.724.
+    Se estivessem, restariam 21.111 solicitações para 36.125 CNS: menos pedidos
+    que pessoas, o que não fecha. Leituras opostas em aberto: demanda não
+    absorvida (reforça a justificativa) ou encaminhamento fora de critério
+    regulatório (parte da demanda aparente não é elegível). NÃO CITAR o número
+    antes da definição. A v2 perdeu este dado e esta lacuna — restabelecer."
+
+# Dúvidas — o arquivo canônico é redacao/duvidas.md. Aqui fica só o resumo.
+duvidas_arquivo: "redacao/duvidas.md"
+duvidas_resumo:
+  para_professor: [DV-001, DV-003, DV-004, DV-005, DV-006, DV-017, DV-018, DV-020]
+  nota_dv004: "DV-004 ampliada: o usuário nunca teve contato com FPO. Virou
+    pauta de estudo com 6 perguntas, não pergunta pontual. É a dúvida que
+    destrava LC-015 e provavelmente encerra DV-001."
+  abertas: [DV-007, DV-008, DV-009, DV-010, DV-012, DV-014, DV-015, DV-016, DV-019, DV-021]
+  respondidas: [DV-002, DV-011, DV-013]
+  nota: "DV-003 foi reformulada: a premissa original (repasse com base em
+    produção) estava errada — ver decisão sobre desembolso antecipado.
+    DV-010 respondida em substância; falta só o dispositivo que dispensa.
+    DV-014 respondida em substância (busca ativa); falta só o parâmetro
+    numérico do não comparecimento no retorno. LC-003: usuário verificando
+    acesso à fila por Região de Saúde. DV-004 virou pauta de estudo sobre a FPO —
+    o proponente nunca teve contato com o instrumento."
+
+# Detalhe da DV-001, mantido aqui porque encadeia com BL-002
+duvidas:
+  - id: DV-001
+    titulo: "Produção excedente à meta: quem paga, se é que alguém paga"
+    secoes: [2, 5, 6, 8, 11]
+    pergunta: "Se o executor produzir acima das 35.000 OCI pactuadas, o
+      Ministério da Saúde remunera esse excedente por FAEC, ainda que o convênio
+      não pague?"
+    o_que_ja_se_sabe:
+      - "O convênio NÃO paga. O pt_ses_01 traz cláusula vedando alteração do
+        objeto, da finalidade das despesas e do valor global pactuado (AC-029).
+        Além do valor global só com termo aditivo."
+      - "O SIA valida a produção contra a FPO antes de aprovar. Produção acima do
+        teto programado fica apresentada e não aprovada (AC-026, AC-028)."
+      - "A FPO é programada a partir do que foi pactuado em convênio, com o
+        quantitativo correspondente (AC-028)."
+    desdobramento:
+      - "(a) A FPO é programada no mesmo quantitativo da meta, ou acima dela?
+        Se for igual, o excedente nem chega a ser aprovado — a pergunta morre
+        na FPO, antes de chegar ao Ministério."
+      - "(b) Se o excedente for aprovado, o recurso vai para o Fundo de Saúde do
+        DF ou para o executor? Pelo fluxo de BL-002, o FAEC repassa ao Fundo, e
+        quem paga o executor é a SES via convênio — que está limitado ao valor
+        global. Então produção aprovada não implica executor remunerado."
+      - "(c) Existe caminho pelo qual o executor receba direto do Ministério?
+        Só se ele for prestador contratado/credenciado do SUS por outro
+        instrumento, em paralelo ao convênio. Isso é outra relação jurídica e
+        precisa ser confirmado."
+    hipotese: "Provável que não haja pagamento do excedente: a FPO barra a
+      aprovação e o convênio barra o repasse. Mas é hipótese, não resposta."
+    como_resolver: "Perguntas 3 e 4 ao professor, mais leitura da FPO do
+      estabelecimento e do art. 33 do Decreto DF 37.843/2016."
+    status: aberta
+
+  - id: DV-002
+    titulo: "Quando uma OCI está concluída"
+    secoes: [2, 3, 8]
+    status: respondida
+    resposta: "A OCI conclui quando o usuário completa o fluxo inteiro, até a
+      consulta de retorno. Sem retorno, não há pagamento."
+    consequencias:
+      - "A unidade da meta é OCI CONCLUÍDA, não atendimento realizado."
+      - "Dois pontos de absenteísmo, entrada e retorno. Vagas de consulta a
+        ofertar = 87.500, não 43.750."
+      - "A janela de entrada é menor que a vigência: a última OCI precisa
+        começar com um ciclo de folga. Ver DV-011."
+      - "A 1ª parcela não pode se vincular a OCI concluída no mês 1."
+      - "Teleconsulta de retorno vira alavanca operacional — a OCI admite
+        'consulta ou teleconsulta de retorno', e teleconsulta tem menos falta."
+
+# Normas — CADASTRADAS em 2026-08-17
+normas:
+  status: "NM-001 a NM-007 em acervo.csv; OB-001 a OB-010 em obrigacoes.csv.
+    CONFERIDO em 2026-08-17: os dois arquivos estao preenchidos. A nota do
+    CONTINUAR.md que diz obrigacoes.csv vazio esta DESATUALIZADA."
+  ressalva: "NENHUMA foi lida no original nesta sessão. Todas as exigências
+    derivam de citação no corpus ou de fonte secundária, e estão como
+    status_vigencia: a_verificar. Conferir antes de citar no plano."
+  pendencias:
+    - "NM-004 (Decreto DF 37.843/2016) sem URL — buscar no SINJ-DF."
+    - "Campo url preenchido com a fonte canônica identificada, não com o
+      endereço de onde foi baixado. data_acesso e acesso em branco de
+      propósito — preencher ao acessar de fato."
+    - "OB-010 sem dispositivo identificado: exigência vista no pt_ses_02
+      (AC-023) sem citação. Localizar a norma do PMAE que a fundamenta."
+
+
+# Revisão de schema pendente
+schema_a_revisar:
+  - "acervo.csv não tem tipo para fonte de dado (painel, série estatística).
+    Hoje o número de fila não tem onde morar com url + data_acesso.
+    Sugestão: tipo: dado, com especie: painel | serie_estatistica."
+
+
+# ---------------------------------------------------------------------------
+# VERSÃO 2 do plano — 2026-08-18
+# ---------------------------------------------------------------------------
+versoes:
+  v1:
+    arquivo: "redacao/versoes/plano_v1_2026-08-18.md"
+    status: "arquivada, congelada — não editar"
+    meta: 35000
+    valor_global: "R$ 10.000.000,00"
+  v2:
+    arquivo: "redacao/plano_v2.md"
+    status: "arquivada — não editar"
+    meta: 33000
+    valor_global: "R$ 9.910.704,50"
+  v3:
+    arquivo: "redacao/plano_v3.md"
+    status: "corrente"
+    escrita_em: 2026-08-19
+    meta: 35000
+    valor_global: "R$ 9.991.154,50"
+    producao: "R$ 7.000.000,00 (70,06%)"
+    apoio: "R$ 2.991.154,50 (29,94%)"
+    secoes: 20
+    indicadores: 15
+    riscos: 24
+    changelog: "Anexo II do próprio documento"
+    base: "redacao/ajustes_v3.md (12 pontos + bloco N) e
+      redacao/decreto_48727_leitura.md"
+    norma_do_instrumento: "Decreto DF nº 48.727/2026 — LC-047 e BL-003 encerradas"
+    bloqueantes_restantes: ["LC-025", "LC-041", "LC-056", "LC-023"]
+
+decisoes_v2:
+  - "NÍVEL ABANDONADO: a regra 3 do CONTINUAR.md (mínimo viável = fazer só o
+    que os 4 aprovados fazem) foi SUSPENSA a pedido do usuário em 2026-08-18.
+    A v2 incorpora melhorias e exigências normativas que o corpus não tem.
+    A regra 1 (nunca inventar número) e a regra 2 (fronteira anticópia)
+    PERMANECEM em vigor e foram observadas."
+  - "META 33.000, não 35.000. Derivada como o MENOR entre dois tetos:
+    fila (35.764 comparecimentos possíveis com 3 rodadas a 20% de falta) e
+    orçamento ((10.000.000 - 3.310.704,50) / 200 = 33.446). Folga declarada
+    nos dois. 35.000 era 97,1% da fila — a própria v1 classificava como R-03
+    alto e seguia adiante."
+  - "VALOR GLOBAL R$ 9.910.704,50, com R$ 89.295,50 do teto NÃO solicitados.
+    O teto virou restrição, não objetivo. A v1 fechava em 10.000.000,00
+    exatos porque o item 4.4 absorvia a diferença."
+  - "ITEM 4.4 (material de consumo): plug de R$ 9.234,55 substituído por
+    R$ 8.805,00 = R$ 11.740,00 (pt_ses_01) x 3/4 polos. Método declarado."
+  - "COLUNA `origem` na planilha de apoio, linha a linha: herdado 96,89% /
+    derivado 2,66% / sem origem 0,45%. A dependência do pt_ses_01 passou a
+    ser declarada em vez de mencionada em rodapé. NÃO está resolvida —
+    LC-023 segue aberta e virou risco R-20 alto."
+  - "NGC incluído (item 2.4, R$ 315.000,00). É exigência do art. 7º e do
+    Anexo da SAES/MS 1.640/2024, não melhoria. É o que estoura o teto de
+    10 milhões se a meta ficasse em 35.000 — foi o que forçou a redução."
+
+correcoes_normativas_v2:
+  origem: "redacao/regras_oci_cardiologia.md — normas lidas no original,
+    destiladas em 2026-08-17 e NUNCA incorporadas ao plano_final.md."
+  itens:
+    - "Pacote: obrigatórios são só consulta (ou teleconsulta) + ECG. Eco, RX
+      e laboratório são OPCIONAIS e a ausência não muda o valor (NT 1/2025,
+      item 2.1.6). O pacote ampliado virou compromisso do plano, não da
+      norma. IND-09 reescrito para admitir não indicação justificada."
+    - "Prazo: NÃO são 30 dias. Atributo 054 = APAC com validade de 2
+      competências, da entrada ao último dia da competência seguinte.
+      Entrada dia 28 tem ~31 dias, não 60. Gerou IND-12 e R-16."
+    - "OCI não concluída: gatilho DUPLO (faltar obrigatório OU estourar
+      prazo) e há recuperação residual em BPA-I. A frase 'não existe meia
+      OCI' da v1 afirmava mais do que a norma sustenta."
+    - "RX de tórax deixou de ser obrigatório (SAES/MS 2.930/2025)."
+    - "Idade mínima 18 anos (2.331/2024, Anexo III). A fila de 36.052 NÃO
+      foi filtrada por idade — LC-051."
+    - "Nomenclatura: 'Agora Tem Especialistas' (GM/MS 7.701/2025), PMAE como
+      Componente Ambulatorial; 'Ofertas de CuidadoS IntegradoS'; a 1.822
+      INCLUI NA TABELA, quem institui o PMAE é a GM/MS 3.492/2024."
+    - "Condições de partida (seção 5 nova): PAR + habilitação 38.01 no CNES
+      + relação de executores no InvestSUS + FPO na aba FAEC. Sem elas o
+      atendimento ocorre e NÃO VIRA APAC. Era a omissão mais grave da v1."
+    - "Dispositivos do fluxo do recurso: art. 18 e art. 19 da 3.492/2024
+      (FNS -> Fundos; PT 10.302.5118.8585 / PO 0005 FAEC) e art. 24 da
+      1.640/2024 (FAEC por produção aprovada). Preenche parte de LC-035."
+    - "Teto PMAE do DF: R$ 34.813.717,40 em 2025 (NT 2/2025, Anexo II). A
+      produção do plano é 19,0% do envelope anual inteiro do DF. Virou
+      R-18 e LC-053."
+
+lacunas_novas_v2:
+  faixa: "LC-049 a LC-067"
+  bloqueantes: ["LC-025", "LC-041", "LC-047", "LC-056", "LC-023"]
+  nota: "Anexo I da v2 reclassifica TODAS as lacunas em 3 níveis:
+    I.1 bloqueantes (viabilidade/legalidade), I.2 estruturantes (mudam meta
+    ou valor), I.3 operacionais. A v1 tinha lista plana."
+
+# ---------------------------------------------------------------------------
+# VERSÃO FINAL — 2026-08-20
+# ---------------------------------------------------------------------------
+final:
+  arquivos:
+    markdown: "redacao/plano_final.md"
+    word: "redacao/plano_final.docx"
+    pendencias: "redacao/pendencias_final.md"
+  gerado_de: "redacao/plano_v3.md (congelado, não editar)"
+  arquivado: "redacao/versoes/plano_final_remontagem_2026-08-18.md (a remontagem da v1)"
+  decisoes_do_usuario:
+    - "Campos que só o proponente real preencheria: CAMPO MARCADO, SEM CONTEÚDO.
+      Nenhuma prosa fictícia foi escrita. O proponente fictício IECC foi REMOVIDO
+      inteiro — zero ocorrências de 'Instituto Exemplo' e 'IECC' no documento."
+    - "SAI TUDO O QUE É MÉTODO: Anexo I, Anexo II, identificadores LC-xxx,
+      comparações entre versões, referências ao corpus e a registros/. As
+      pendências migraram para redacao/pendencias_final.md."
+  transformacao:
+    - "71 marcadores [[lacuna: LC-xxx]] convertidos em [preencher: <texto>] no lugar
+      exato; 13 [[exemplo]] convertidos em [preencher]. Total: 95 campos."
+    - "35 reescritas de prosa: toda comparação 'a versão 2 fazia X' virou afirmação
+      positiva da regra. Zero ocorrências de 'versão 2', 'versão anterior',
+      'corpus', 'achados.csv', 'AC-', 'DV-', 'LC-'."
+    - "Acrescentado bloco de Encerramento (local, data e assinaturas)."
+  documento:
+    secoes: 20
+    linhas_md: 1837
+    campos_preencher: 95
+    pendencias_distintas: 43
+    tabelas_docx: 46
+    meta: 35000
+    valor_global: "R$ 9.991.154,50"
+  docx:
+    gerado_por: "conversor md->docx em node (biblioteca docx), sem pandoc/LibreOffice
+      na máquina. Script guardado no scratchpad da sessão."
+    caracteristicas: "capa, sumário automático (TOC, atualiza ao abrir no Word),
+      cabeçalho e rodapé com numeração de página, A4 retrato, seção em PAISAGEM
+      só para a planilha de apoio (10 colunas), quebra de página por seção."
+  bloqueantes_restantes: ["LC-025", "LC-041", "LC-056", "LC-023"]
+  nota: "O documento está pronto como peça. O que falta é dado externo, e a ordem
+    sugerida de ataque está no §7 de pendencias_final.md."
+
+# ---------------------------------------------------------------------------
+# A NORMA DA EMENDA — 2026-08-20, depois da entrega do final
+# ---------------------------------------------------------------------------
+norma_da_emenda:
+  achado: "As Portarias GM/MS 10.297/2026 (emendas individuais, RP 6) e 10.352/2026
+    (coletivas, RP 7 e RP 8) estavam em Estudos/ com texto extraído e um guia de
+    30 KB, mas NUNCA entraram no acervo, nas obrigações nem no plano. O acervo
+    cobria dois eixos — PMAE/OCI e convênio distrital —, ambos específicos deste
+    objeto. Faltava o eixo genérico: a norma da emenda federal, que vale para
+    qualquer plano de trabalho de emenda em saúde, seja qual for o objeto."
+  cadastradas_em: 2026-08-20
+  ids: ["Portaria GM/MS 10.297/2026", "Portaria GM/MS 10.352/2026"]
+  nota_de_id: "Por decisão do usuário, ficaram com o NOME e não com código NM-xxx.
+    Os PDFs foram para normas/ e o texto extraído para extraidos_normas/."
+  obrigacoes: "OB-030 a OB-040."
+  correcoes_no_plano:
+    - "SEÇÃO 20 — a base legal passa a citar a norma da emenda, com os dispositivos,
+      e a alternativa para emenda coletiva. Sumário executivo ajustado."
+    - "SEÇÃO 5 — nova 5.4: o art. 10 da 10.297/2026 condiciona a execução financeira
+      à deliberação da instância de pactuação, às alterações no Plano de Saúde e na
+      PAS e à apresentação ao Conselho de Saúde. No DF não há CIR/CIB: é o Colegiado
+      de Gestão. 'Três condições' virou 'Quatro'."
+    - "SEÇÃO 3.7 — a ancoragem no PDS/PAS deixa de ser mérito e passa a ELEGIBILIDADE
+      (art. 6º, II, na esteira da ADPF 854/STF de 02/12/2024). LC-042 sobe para
+      bloqueante: as anteriores à assinatura passam de 4 para 5."
+    - "SEÇÃO 1.3 — a linha da ação orçamentária foi qualificada: 8585/PO 0005 é FAEC,
+      por onde o MS RESSARCE a produção ao Fundo, e não a ação que a emenda onera.
+      Acrescentados dois campos: tipo da emenda e funcional programática."
+    - "SEÇÃO 18 — ganhou o art. 92 (publicação dos valores recebidos em sítio próprio,
+      desde 2020). A frase sobre o Conselho de Saúde foi corrigida: a apresentação
+      que a norma exige é ato do ente, e está na 5.4."
+  lacunas_novas: ["LC-071 tipo da emenda", "LC-072 funcional programática 2E90 x 8585",
+    "LC-073 limite MAC por entidade (art. 22)", "LC-074 texto-base da 8.283/2025",
+    "LC-075 sítio de publicação (art. 92)", "LC-076 até seis parcelas (art. 32)"]
+  conflito_aberto: "Art. 32 manda a emenda individual de custeio da atenção
+    especializada onerar 10.302.5118.2E90 (Incremento MAC). O plano registrava
+    10.302.5118.8585/PO 0005 (FAEC). São caminhos distintos e a relação entre eles
+    reabre LC-012 e DV-001. Virou DV-049, ao professor. NÃO resolvido aqui."
+
+comparacao_com_o_corpus:
+  arquivo: "redacao/perguntas_ao_professor.md"
+  pedido_do_usuario: "Ter algo que os 4 aprovados não têm NÃO é, por si, virtude —
+    pode ser desnecessário. Mapear o que temos e eles não, separando o que todos
+    deveriam ter (e por quê) do que é peso. Exemplo dado: contrapartida."
+  blocos: "A (norma exige, 5 itens) · B (sem norma, com consequência — pergunta é
+    'plano ou termo?', 7 itens) · C (pode ser desnecessário, 3 itens) · mais DV-049."
+  novas_duvidas: "DV-034 a DV-049. O arquivo canônico de dúvidas segue sendo
+    redacao/duvidas.md, que termina em DV-033 e NÃO foi atualizado."
+  nota_de_calibragem: "Medição contra os 4 aprovados: normas citadas 29 x 1-5;
+    artigos 121 x 0-1; indicadores com denominador 20 x 0; mecânica de faturamento
+    61 x 0-1; contrapartida 12 x 0. E um empate: limiar numérico de aferição é ZERO
+    nos cinco, inclusive no nosso."
+
+# ---------------------------------------------------------------------------
+# A FONTE NÃO É O FAEC — 2026-08-20, informado pelo usuário
+# ---------------------------------------------------------------------------
+fonte_nao_e_faec:
+  premissa_do_usuario: "Quando o recurso vem de emenda não há pagamento por FAEC.
+    O Programa Agora Tem Especialistas, que é programa do FAEC, é utilizado só
+    como BASE. Registro em APAC continua sendo necessário, para comprovar o
+    atendimento."
+  resolve: "DV-049 e o conflito_aberto do bloco norma_da_emenda: 2E90 (Incremento
+    MAC) x 8585/PO 0005 (FAEC). Não são caminhos concorrentes — o segundo
+    simplesmente não custeia este objeto."
+  base_normativa_encontrada: "Portaria GM/MS 10.297/2026, Cap. II do Título de
+    transferências: art. 24 (InvestSUS, componente Incremento MAC, CNES a
+    informar); art. 27, IV (aplicação em ações e serviços do Agora Tem
+    Especialistas); art. 27, II e §3º (convênio com entidade privada sem fins
+    lucrativos, valor contemplando a totalidade dos recursos); art. 23, I, 'a'
+    (produção FAEC entra como parcela de CÁLCULO DO LIMITE MAC, não como
+    pagamento); art. 23, § único (limite adicional para propostas que financiem
+    procedimentos do ATE); art. 32 (funcional 2E90, GND 3, modalidade 31, até
+    seis parcelas)."
+  o_que_mudou_no_plano_final:
+    - "SUMÁRIO — 'Quatro características' virou cinco. Nova: 'O programa federal
+      é base, e não é a fonte do pagamento.'"
+    - "1.3 — saiu a linha da ação 8585/PO 0005 FAEC. Entraram 'Modalidade da
+      transferência' (Incremento MAC, art. 24) e 'Relação com o FAEC' (nenhuma,
+      no pagamento). A linha da funcional programática foi ajustada."
+    - "2.2 — REESCRITA INTEIRA. Diagrama novo: FNS --Incremento MAC--> FSDF
+      --convênio--> executor, e a APAC pendurada como comprovação, sem pagamento
+      federal atrelado. Três blocos novos: 'O FAEC não entra nesta cadeia',
+      'O programa é base, não é caixa', 'A tensão que isso abre, dita por
+      inteiro' (segregação é ato da SES-DF)."
+    - "2.3 — parágrafo novo: a duplicidade tem duas faces, registro e custeio."
+    - "3.6/teto PMAE — reescrito. Os 20,1% do envelope do DF deixam de ser
+      questão financeira: o teto da NT 2/2025 limita o financiamento por
+      produção, que não custeia isto. Sobra como argumento de ESCALA, para o
+      Grupo Condutor do PAR. O limite que vincula é o MAC do art. 23."
+    - "5 (intro) — 'financiável' virou 'registrável e comprovável'."
+    - "5.1 — 'condição de faturar' virou 'condição de registrar'; a cadeia foi
+      explicitada (norma exige APAC, APAC exige 38.01, 38.01 exige PAR) e
+      acrescentado o bloco 'O que não se sabe, e é pergunta à concedente':
+      a NT 3/2025 condiciona ao PAR a execução 'com devido financiamento
+      federal'. Adotada a leitura conservadora."
+    - "5.2 — retitulada 'InvestSUS — dois trâmites que não se confundem'. O que
+      vale para esta emenda é o art. 24 da 10.297; o item 5.1 da NT 3/2025 é do
+      circuito ordinário."
+    - "5.3 — a FPO deixa de ser teto de FATURAMENTO e passa a teto de REGISTRO;
+      acrescentada a pergunta de segregação."
+    - "Meta 2 — 'em condição de operar e de faturar' virou 'de registrar'."
+    - "6.4 — BPA-I por fora do FAEC: aqui não significa pagamento nenhum."
+    - "9.2 — subetapas 1.1 e 1.7 reescritas."
+    - "11.2 — a imutabilidade do valor de R$ 200,00 passa a ser CLÁUSULA
+      CONTRATUAL adotada, não imposição federal: a NT 1/2025, item 2.1.6, rege o
+      faturamento ao financiamento federal. Espelhado em 2.1."
+    - "15.2 — a APAC não serve mais ao ressarcimento; é comprovação. A
+      conciliação ganha razão de ser, não perde."
+    - "19.3/19.4 — R-18 REQUALIFICADO: era 'teto do PMAE não comportar o
+      ressarcimento FAEC' (financiamento), virou 'produção custeada por emenda
+      apresentada também ao FAEC — duplicidade de financiamento federal'
+      (regulatório). R-01 e R-10 ajustados."
+    - "19.5 — o duplo pagamento eliminado passa a ser explicitamente 'ao
+      EXECUTOR'; acrescentado 'Estouro do teto PMAE do DF' como risco extinto."
+    - "20 — linhas da 10.297/2026, da 3.492/2024, da 1.640/2024 e da NT 3/2025
+      requalificadas."
+  lacunas_novas:
+    - "LC-077 — sistema e instância de autorização da APAC no DF (o usuário
+      falou em 'APAC SAS' e pediu para conferir se é o da SES-DF). NÃO
+      CONFERIDO nesta sessão."
+    - "LC-078 — como a SES-DF segrega, na apresentação ao MS, a produção
+      custeada por emenda da apresentada ao FAEC. Virou R-18."
+    - "LC-079 — se PAR e habilitação 38.01 continuam exigidos para executor cuja
+      produção não vai ao FAEC. Usuário: 'não sei te dizer'. Plano adotou a
+      leitura conservadora (exigir os dois)."
+    - "LC-080 — se a SES-DF exige, ainda assim, a inclusão deste executor na
+      relação do item 5.1 da NT 3/2025."
+    - "LC-081 — CNES a informar no InvestSUS (art. 24, III) e situação da
+      proposta."
+  nao_verificado: "Nenhuma das normas foi lida no original nesta sessão além dos
+    trechos extraídos em extraidos_normas/. Os arts. 23, 24 e 27 da 10.297/2026
+    foram lidos no texto extraído (páginas 5 a 7)."
+
+# ---------------------------------------------------------------------------
+# MÉTODO DA PLANILHA — 2026-08-20, orientação do usuário. NÃO APLICADO ao final.
+# ---------------------------------------------------------------------------
+metodo_da_planilha:
+  orientacao: "Montar de baixo para cima, pelo fluxo do atendimento, pensando em
+    três setores: administrativo, financeiro e técnico — este último já muitas
+    vezes contemplado dentro da OCI. Exemplo dado: precisa ter secretaria,
+    precisa ter alguém para lançar no sistema, precisa ter alguém do TI."
+  escopo: "EXPLICITAMENTE para o futuro. O usuário disse: 'não precisa alterar o
+    plano final, apenas ajustar a abordagem'. A Seção 11 do plano_final.md
+    permanece organizada por natureza de despesa (R1 a R6)."
+  registrado_em: "destilados/roteiro.md, Seção 5 — bloco 'Como se monta: de baixo
+    para cima, pelo fluxo do atendimento', quadro dos três setores, três critérios
+    de aceite novos e uma segunda armadilha."
+  o_que_o_plano_atual_ja_faz_certo: "R2 lista os postos por função do fluxo
+    (recepção, agendamento, busca ativa, faturamento/APAC), e 11.3 já veda que
+    item assistencial reapareça no apoio. O que falta, pelo método novo, é a
+    DERIVAÇÃO: os postos estão em 2/polo e 1/polo redondos, sem amarração
+    declarada ao volume do passo que os exige."
+  a_decidir_quando_aplicar: "Onde cai o TI na tripartição — administrativo ou
+    técnico. Importa porque decide se o custo é do apoio ou se já está no valor
+    unitário. No exemplo do usuário o TI aparece como posto do fluxo, logo
+    planilha; a etiqueta ficou em aberto."

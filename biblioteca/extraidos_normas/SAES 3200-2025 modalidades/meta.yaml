@@ -1,0 +1,16 @@
+id: "SAES 3200-2025 modalidades"
+arquivo: "SAES 3200-2025 modalidades.pdf"
+processo_sei: ""
+sha256: "45939168be283cc92d2d2d4e422bc2cb2c2ea09f65b574c8a511f7b7d20057f3"
+paginas: 5
+chars_texto: 18764
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:36:08"

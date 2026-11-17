@@ -1,0 +1,18 @@
+Procedimento,09.07.01.001-6 - OCI - ATENÇÃO EM SAÚDE BUCAL NA ATENÇÃO ESPECIALIZADA PARA MULHERES EM SITUAÇÃO DE VIOLÊNCIA
+Descrição,"ATENÇÃO ODONTOLÓGICA ESPECIALIZADA PARA MULHERES EM SITUAÇÃO DE VIOLÊNCIA, DESTINADA AO DIAGNÓSTICO E TRATAMENTO DE AGRAVOS BUCAIS DE MÉDIA COMPLEXIDADE, COM FOCO NA PRESERVAÇÃO E RECUPERAÇÃO DAS ESTRUTURAS DENTÁRIAS. INCLUI AVALIAÇÃO ESPECIALIZADA, EXAMES COMPLEMENTARES, PROCEDIMENTOS RESTAURADORES, TRATAMENTO ENDODÔNTICO, MANEJO DE TRAUMATISMOS DENTÁRIOS E ACOMPANHAMENTO CLÍNICO PARA GARANTIR A CONTINUIDADE DO CUIDADO. REGISTRADO ATÉ 4 (QUATRO) UNIDADES DENTÁRIAS."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,04-Fundo de Ações Estratégicas e Compensações - FAEC
+Subtipo de Financiamento,0086-Programa Agora Tem Especialistas - Componente Ambulatorial
+Sexo,Ambos
+Idade Mínima,6 meses
+Idade Máxima,130 anos
+Valor do Serviço Ambulatorial,"R$ 400,00"
+Total do Serviço Ambulatorial,"R$ 400,00"
+CID - 10,T74 - Síndrome de maus-tratos;T74.2 - Abuso sexual;Y08.0 - agressão física por outros meios não especificados - em residência;Y04 - agressão por meio de força corporal;Y09 - Agressão por meio não especificados;F43.0 - Reação aguda ao estresse;F43.1 - Transtorno de estresse pós-traumático.
+Categoria CBO,2232 - Cirurgiões-dentistas
+Quantidade Máxima,1
+Atributo Complementar,053 - Programa Mais Acesso a Especialistas (PMAE);058 - Obrigatório CPF;059 - Componente Complementar Modalidade 2;060 - Componente Complementar Modalidade 3.;064- Exige procedimento diagnóstico e procedimento clínico-restaurador.
+Regra Condicionada,0009 - Condiciona aos secundários a terem valor zerado;0013- Gera compensação financeira;0014- Condiciona o tipo de financiamento em MAC;0015- Condiciona o tipo de financiamento em FAEC.
+Habilitação,38.01- Programa Mais Acesso Especialistas; 38.02- Agora Tem Especialistas Modalidade 1;38.03- Agora Tem Especialistas Modalidade 2 Equipes Volantes;38.04 - Agora Tem Especialistas Modalidade 3 Unidades Móveis;38.05- Agora Tem Especialistas- Componente Créditos Financeiro;38.06- Agora Tem Especialistas- Componente Ressarcimento ao SUS;

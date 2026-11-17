@@ -1,0 +1,444 @@
+{
+ "respostas": [
+  {
+   "id": "CLC-A4-06",
+   "status": "aceito",
+   "secao_alterada": "6. Metas e indicadores (meio de verificação do Registro da produção)",
+   "fonte_arquivo": "fontes/fichas/sigtap_0205020160_102026.md",
+   "trecho_fonte": "BPA (Individualizado), AIH (Proc. Especial), APAC (Proc. Principal)",
+   "nota": "O exame avulso se registra em BPA (Individualizado); a APAC principal destes exames é a numeração especial do Agora Tem Especialistas. O meio de verificação passa a ser o BPA-I."
+  },
+  {
+   "id": "CLL-G1-01",
+   "status": "aceito",
+   "secao_alterada": "6. Metas e indicadores (meio de verificação do Registro da produção)",
+   "fonte_arquivo": "fontes/fichas/sigtap_0205020160_102026.md",
+   "trecho_fonte": "BPA (Individualizado), AIH (Proc. Especial), APAC (Proc. Principal)",
+   "nota": "O exame avulso se registra em BPA (Individualizado); a APAC principal destes exames é a numeração especial do Agora Tem Especialistas. O meio de verificação passa a ser o BPA-I."
+  },
+  {
+   "id": "CLL-G2-01",
+   "status": "aceito",
+   "secao_alterada": "6. Metas e indicadores (meio de verificação do Registro da produção)",
+   "fonte_arquivo": "fontes/fichas/sigtap_0205020160_102026.md",
+   "trecho_fonte": "BPA (Individualizado), AIH (Proc. Especial), APAC (Proc. Principal)",
+   "nota": "O exame avulso se registra em BPA (Individualizado); a APAC principal destes exames é a numeração especial do Agora Tem Especialistas. O meio de verificação passa a ser o BPA-I."
+  },
+  {
+   "id": "CLL-G7-04",
+   "status": "aceito",
+   "secao_alterada": "6. Metas e indicadores (meio de verificação do Registro da produção)",
+   "fonte_arquivo": "fontes/fichas/sigtap_0205020160_102026.md",
+   "trecho_fonte": "BPA (Individualizado), AIH (Proc. Especial), APAC (Proc. Principal)",
+   "nota": "O exame avulso se registra em BPA (Individualizado); a APAC principal destes exames é a numeração especial do Agora Tem Especialistas. O meio de verificação passa a ser o BPA-I."
+  },
+  {
+   "id": "CLL-G3-05",
+   "status": "aceito_em_parte",
+   "secao_alterada": "3. Justificativa (linha da mamografia)",
+   "fonte_arquivo": "fontes/fichas/sigtap_0204030188_102026.md",
+   "trecho_fonte": "O código é só de rastreamento, e a fila diagnóstica do SISREG usa o mesmo código.",
+   "nota": "A linha da mamografia passa a usar só a fila de rastreamento do SISREG (6.274, espera de 48 dias); a fila \"diagnóstica\" (187) sai. Os casos de nódulo que ainda estão na fila de rotina ficam para a regulação, no controle interno (pendência P-04)."
+  },
+  {
+   "id": "CLL-G5-03",
+   "status": "aceito_em_parte",
+   "secao_alterada": "3. Justificativa (linha da mamografia)",
+   "fonte_arquivo": "fontes/fichas/sigtap_0204030188_102026.md",
+   "trecho_fonte": "O código é só de rastreamento, e a fila diagnóstica do SISREG usa o mesmo código.",
+   "nota": "A linha da mamografia passa a usar só a fila de rastreamento do SISREG (6.274, espera de 48 dias); a fila \"diagnóstica\" (187) sai. Os casos de nódulo que ainda estão na fila de rotina ficam para a regulação, no controle interno (pendência P-04)."
+  },
+  {
+   "id": "CLL-G7-06",
+   "status": "aceito_em_parte",
+   "secao_alterada": "3. Justificativa (linha da mamografia)",
+   "fonte_arquivo": "fontes/fichas/sigtap_0204030188_102026.md",
+   "trecho_fonte": "O código é só de rastreamento, e a fila diagnóstica do SISREG usa o mesmo código.",
+   "nota": "A linha da mamografia passa a usar só a fila de rastreamento do SISREG (6.274, espera de 48 dias); a fila \"diagnóstica\" (187) sai. Os casos de nódulo que ainda estão na fila de rotina ficam para a regulação, no controle interno (pendência P-04)."
+  },
+  {
+   "id": "CLC-A4-07",
+   "status": "aceito",
+   "secao_alterada": "4. Metodologia (equipe)",
+   "fonte_arquivo": "fontes/fichas/sigtap_0206010079_102026.md",
+   "trecho_fonte": "225320 médico em radiologia e diagnóstico por imagem",
+   "nota": "A equipe médica passa a ser \"da especialidade que a Tabela de Procedimentos do SUS admite para cada exame\", sem listar CBO no documento."
+  },
+  {
+   "id": "CLC-A2-01",
+   "status": "aceito_em_parte",
+   "secao_alterada": "3. Justificativa e 6. Metas e indicadores",
+   "fonte_arquivo": "documento.md",
+   "trecho_fonte": "A programação prioriza as filas de maior espera",
+   "nota": "Fica um critério só: a programação pactuada com a SES/DF, com prioridade às filas de maior espera; saiu \"conforme a demanda regulada\". A quantidade por procedimento continua fora do documento (pactuação)."
+  },
+  {
+   "id": "CLC-A4-08",
+   "status": "aceito",
+   "secao_alterada": "6. Metas e indicadores (parágrafo da meta quantitativa)",
+   "fonte_arquivo": "fontes/normas/GM_8283-2025_emendas_bancada_e_comissao.md",
+   "trecho_fonte": "§ 2º Quando o objeto do plano de trabalho escolhido for o custeio da Média e Alta Complexidade, vinculado o Cadastro Nacional de Estabelecimentos de Saúde - CNES de entidades sem fins lucrativos, deverá conter metas:",
+   "nota": "O parágrafo passa a citar o § 2º do art. 8º da GM/MS 8.283/2025, que rege as emendas de bancada, e mantém a 10.297/2026, que o Ofício 398 cita."
+  },
+  {
+   "id": "CLL-G9-06",
+   "status": "aceito",
+   "secao_alterada": "3. Justificativa",
+   "fonte_arquivo": "documento.md",
+   "trecho_fonte": "As pessoas não se somam entre procedimentos, porque parte dos usuários aguarda mais de um exame.",
+   "nota": "Frase retirada."
+  },
+  {
+   "id": "CLL-G9-09",
+   "status": "aceito",
+   "secao_alterada": "2. Objeto, 4. Metodologia, 5. Objetivos e 6. Metas",
+   "fonte_arquivo": "documento.md",
+   "trecho_fonte": "Os procedimentos que compõem a carteira são:",
+   "nota": "\"Carteira\" trocado por \"objeto\" em todo o documento."
+  },
+  {
+   "id": "CLL-G9-10",
+   "status": "aceito",
+   "secao_alterada": "2. Objeto",
+   "fonte_arquivo": "documento.md",
+   "trecho_fonte": "truncado na segunda casa decimal",
+   "nota": "Retirado; o valor de referência continua na tabela."
+  },
+  {
+   "id": "CLL-G9-04",
+   "status": "contestado",
+   "secao_alterada": null,
+   "fonte_arquivo": "fontes/outras/oficio_398_2026_arins.md",
+   "trecho_fonte": "observando-se a natureza de custeio para a",
+   "nota": "O ofício pede que o plano observe a natureza de custeio; a frase confirma que não há despesa de capital. Fica."
+  },
+  {
+   "id": "CLC-A4-05",
+   "status": "aceito_em_parte",
+   "secao_alterada": "controle interno (pendencias.md, P-12); o documento não muda",
+   "fonte_arquivo": "fontes/normas/RDC_ANVISA_611-2022_servicos_de_radiologia_diagnostica.pdf.md",
+   "trecho_fonte": "Art. 13. O responsável legal deve designar formalmente 1 (um) profissional legalmente",
+   "nota": "Responsável técnico, supervisor de proteção radiológica e equipe dimensionada são condições de habilitação a comprovar na formalização e no plano detalhado; no pré-plano, viram régua contra o proponente."
+  },
+  {
+   "id": "CLL-G3-02",
+   "status": "aceito_em_parte",
+   "secao_alterada": "controle interno (pendencias.md, P-12); o documento não muda",
+   "fonte_arquivo": "fontes/normas/RDC_ANVISA_611-2022_servicos_de_radiologia_diagnostica.pdf.md",
+   "trecho_fonte": "Art. 13. O responsável legal deve designar formalmente 1 (um) profissional legalmente",
+   "nota": "Idem: condição a comprovar, no controle interno."
+  },
+  {
+   "id": "CLL-G7-07",
+   "status": "aceito_em_parte",
+   "secao_alterada": "controle interno (pendencias.md, P-12); o documento não muda",
+   "fonte_arquivo": "fontes/normas/RDC_ANVISA_611-2022_servicos_de_radiologia_diagnostica.pdf.md",
+   "trecho_fonte": "Art. 13. O responsável legal deve designar formalmente 1 (um) profissional legalmente",
+   "nota": "Idem: condição a comprovar, no controle interno."
+  },
+  {
+   "id": "CLL-G3-03",
+   "status": "aceito_em_parte",
+   "secao_alterada": "controle interno (pendencias.md, P-12); o documento não muda",
+   "fonte_arquivo": "fontes/normas/RDC_ANVISA_611-2022_servicos_de_radiologia_diagnostica.pdf.md",
+   "trecho_fonte": "Art. 7º Para o caso de instalações que utilizam equipamentos de radiologia emissores de radiações",
+   "nota": "Projeto de blindagem e licença são condição das clínicas executoras, a conferir antes da formalização: no controle interno."
+  },
+  {
+   "id": "CLL-G3-04",
+   "status": "aceito_em_parte",
+   "secao_alterada": "controle interno (pendencias.md, P-12); o documento não muda",
+   "fonte_arquivo": "fontes/normas/IN_ANVISA_93-2021_tomografia_computadorizada_republicada_2022_.pdf.md",
+   "trecho_fonte": "II - equipamento sem protocolos pediátricos, caso sejam utilizados em pediatria;",
+   "nota": "Protocolo pediátrico do tomógrafo: conferir nas clínicas executoras (controle interno)."
+  },
+  {
+   "id": "CLL-G7-08",
+   "status": "aceito_em_parte",
+   "secao_alterada": "controle interno (pendencias.md, P-12); o documento não muda",
+   "fonte_arquivo": "fontes/normas/IN_ANVISA_93-2021_tomografia_computadorizada_republicada_2022_.pdf.md",
+   "trecho_fonte": "II - equipamento sem protocolos pediátricos, caso sejam utilizados em pediatria;",
+   "nota": "Idem."
+  },
+  {
+   "id": "CLL-G3-06",
+   "status": "aceito_em_parte",
+   "secao_alterada": "controle interno (pendencias.md, P-12); o documento não muda",
+   "fonte_arquivo": "fontes/normas/RDC_ANVISA_611-2022_servicos_de_radiologia_diagnostica.pdf.md",
+   "trecho_fonte": "Art. 7º Para o caso de instalações que utilizam equipamentos de radiologia emissores de radiações",
+   "nota": "Contingência para parada de equipamento é do plano detalhado (mais de uma unidade por modalidade); controle interno."
+  },
+  {
+   "id": "CLC-A4-01",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: valor de referência com o incremento da 4.282 (regra do plano 4; estado.yaml, valor_de_referencia). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G1-02",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: valor de referência com o incremento da 4.282 (regra do plano 4; estado.yaml, valor_de_referencia). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G7-05",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: valor de referência com o incremento da 4.282 (regra do plano 4; estado.yaml, valor_de_referencia). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A1-01",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: gestão e apoio numa frase, sem valor nem rubrica (metodo/pre_plano/procedimento.md, regras 3 e 4; formato aceito pela SUCONV em 08/10/2026 no PT de otorrino desta emenda; 10% decididos pelo usuário em 16/10/2026). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A4-02",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: gestão e apoio numa frase, sem valor nem rubrica (metodo/pre_plano/procedimento.md, regras 3 e 4; formato aceito pela SUCONV em 08/10/2026 no PT de otorrino desta emenda; 10% decididos pelo usuário em 16/10/2026). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G1-03",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: gestão e apoio numa frase, sem valor nem rubrica (metodo/pre_plano/procedimento.md, regras 3 e 4; formato aceito pela SUCONV em 08/10/2026 no PT de otorrino desta emenda; 10% decididos pelo usuário em 16/10/2026). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G5-06",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: gestão e apoio numa frase, sem valor nem rubrica (metodo/pre_plano/procedimento.md, regras 3 e 4; formato aceito pela SUCONV em 08/10/2026 no PT de otorrino desta emenda; 10% decididos pelo usuário em 16/10/2026). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G7-01",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: gestão e apoio numa frase, sem valor nem rubrica (metodo/pre_plano/procedimento.md, regras 3 e 4; formato aceito pela SUCONV em 08/10/2026 no PT de otorrino desta emenda; 10% decididos pelo usuário em 16/10/2026). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A1-02",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 2 em valor, com a quantidade pactuada com a SES (metodo/pre_plano/formulario.md; versão geral decidida pelo usuário). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A7-02",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 2 em valor, com a quantidade pactuada com a SES (metodo/pre_plano/formulario.md; versão geral decidida pelo usuário). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A4-04",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 2 em valor, com a quantidade pactuada com a SES (metodo/pre_plano/formulario.md; versão geral decidida pelo usuário). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G1-04",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 2 em valor, com a quantidade pactuada com a SES (metodo/pre_plano/formulario.md; versão geral decidida pelo usuário). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G7-03",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 2 em valor, com a quantidade pactuada com a SES (metodo/pre_plano/formulario.md; versão geral decidida pelo usuário). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G5-04",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 2 em valor, com a quantidade pactuada com a SES (metodo/pre_plano/formulario.md; versão geral decidida pelo usuário). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G5-05",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 2 em valor, com a quantidade pactuada com a SES (metodo/pre_plano/formulario.md; versão geral decidida pelo usuário). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G9-02",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 2 em valor, com a quantidade pactuada com a SES (metodo/pre_plano/formulario.md; versão geral decidida pelo usuário). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A7-03",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: local e CNES das unidades informados na formalização (metodo/pre_plano/formulario.md, Metodologia). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A4-03",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: local e CNES das unidades informados na formalização (metodo/pre_plano/formulario.md, Metodologia). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G1-05",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: local e CNES das unidades informados na formalização (metodo/pre_plano/formulario.md, Metodologia). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G3-01",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: local e CNES das unidades informados na formalização (metodo/pre_plano/formulario.md, Metodologia). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G7-02",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: local e CNES das unidades informados na formalização (metodo/pre_plano/formulario.md, Metodologia). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A7-01",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A7-04",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLC-A7-05",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G9-07",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G9-08",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G9-11",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G9-01",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G9-03",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G9-05",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: estrutura do formulário da SES, campo a campo, sem planilha nem quadro de equipe (metodo/pre_plano/formulario.md, \"O que não entra\"). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G5-01",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: indicadores em 100% (metodo/comum.md, regra 6). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G7-09",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: indicadores em 100% (metodo/comum.md, regra 6). Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G5-02",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 1 de implantação no mês 1, como no PT aceito pela SUCONV em 08/10/2026. Vai ao usuário com os dois lados (divergencias.md)."
+  },
+  {
+   "id": "CLL-G7-10",
+   "status": "decisao_do_usuario",
+   "secao_alterada": null,
+   "fonte_arquivo": null,
+   "trecho_fonte": null,
+   "nota": "Bate numa decisão travada: Meta 1 de implantação no mês 1, como no PT aceito pela SUCONV em 08/10/2026. Vai ao usuário com os dois lados (divergencias.md)."
+  }
+ ]
+}

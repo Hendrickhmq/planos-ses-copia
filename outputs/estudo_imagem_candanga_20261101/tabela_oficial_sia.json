@@ -1,0 +1,5042 @@
+[
+  {
+    "codigo": "0201010020",
+    "nome": "BIOPSIA / PUNCAO DE TUMOR SUPERFICIAL DA PELE",
+    "preco": 47.04,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010046",
+    "nome": "BIOPSIA DE ANUS E CANAL ANAL",
+    "preco": 168.02,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010062",
+    "nome": "BIOPSIA DE BEXIGA",
+    "preco": 203.06,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010070",
+    "nome": "BIOPSIA DE BOLSA ESCROTAL",
+    "preco": 34.66,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010089",
+    "nome": "BIOPSIA DE CONDUTO AUDITIVO EXTERNO",
+    "preco": 123.07,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010097",
+    "nome": "BIOPSIA DE CONJUNTIVA",
+    "preco": 108.12,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010119",
+    "nome": "BIOPSIA DE CORNEA",
+    "preco": 123.32,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010151",
+    "nome": "BIOPSIA DE ENDOMETRIO",
+    "preco": 141.69,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010160",
+    "nome": "BIOPSIA DE ENDOMETRIO POR ASPIRACAO MANUAL INTRA-UTERINA",
+    "preco": 262.88,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010178",
+    "nome": "BIOPSIA DE EPIDIDIMO",
+    "preco": 164.57,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010186",
+    "nome": "BIOPSIA DE ESCLERA",
+    "preco": 186.95,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010194",
+    "nome": "BIOPSIA DE FARINGE/LARINGE",
+    "preco": 171.05,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010216",
+    "nome": "BIOPSIA DE FIGADO POR PUNCAO",
+    "preco": 293.58,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010224",
+    "nome": "BIOPSIA DE GANGLIO LINFATICO",
+    "preco": 79.63,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010232",
+    "nome": "BIOPSIA DE GLANDULA SALIVAR",
+    "preco": 99.69,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010240",
+    "nome": "BIOPSIA DE IRIS, CORPO CILIAR, RETINA, COROIDE, VITREO E TUMOR INTRA OCULAR",
+    "preco": 487.35,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010267",
+    "nome": "BIOPSIA DE LESAO DE PARTES MOLES (POR AGULHA / CEU ABERTO)",
+    "preco": 198.74,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010275",
+    "nome": "BIOPSIA DE MEDULA OSSEA",
+    "preco": 393.32,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010283",
+    "nome": "BIOPSIA DE MUSCULO (A CEU ABERTO)",
+    "preco": 130.13,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010291",
+    "nome": "BIOPSIA DE NERVO",
+    "preco": 178.72,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010305",
+    "nome": "BIOPSIA DE OSSO / CARTILAGEM DA CINTURA ESCAPULAR (POR AGULHA / CEU ABERTO)",
+    "preco": 378.91,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010313",
+    "nome": "BIOPSIA DE OSSO / CARTILAGEM DA CINTURA PELVICA (POR AGULHA / CEU ABERTO)",
+    "preco": 372.16,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010321",
+    "nome": "BIOPSIA DE OSSO / CARTILAGEM DE MEMBRO INFERIOR (POR AGULHA / CEU ABERTO)",
+    "preco": 388.03,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010330",
+    "nome": "BIOPSIA DE OSSO / CARTILAGEM DE MEMBRO SUPERIOR (POR AGULHA / CEU ABERTO)",
+    "preco": 430.51,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010348",
+    "nome": "BIOPSIA DE OSSO DO CRANIO E DA FACE",
+    "preco": 89.42,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010356",
+    "nome": "BIOPSIA DE PALPEBRA",
+    "preco": 53.44,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010364",
+    "nome": "BIOPSIA DE PAVILHAO AURICULAR",
+    "preco": 47.54,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010372",
+    "nome": "BIOPSIA DE PELE E PARTES MOLES",
+    "preco": 64.78,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010380",
+    "nome": "BIOPSIA DE PENIS",
+    "preco": 122.42,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010399",
+    "nome": "BIOPSIA DE PIRAMIDE NASAL",
+    "preco": 95.0,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010402",
+    "nome": "BIOPSIA DE PLEURA (POR ASPIRAÇÃO/AGULHA / PLEUROSCOPIA)",
+    "preco": 372.07,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010410",
+    "nome": "BIOPSIA DE PROSTATA",
+    "preco": 317.7,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010437",
+    "nome": "BIOPSIA DE RIM POR PUNCAO",
+    "preco": 183.84,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010445",
+    "nome": "BIOPSIA DE SEIO PARANASAL",
+    "preco": 158.83,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010461",
+    "nome": "BIOPSIA DE TESTICULO",
+    "preco": 183.84,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010470",
+    "nome": "BIOPSIA DE TIREOIDE OU PARATIREOIDE - PAAF",
+    "preco": 233.83,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010488",
+    "nome": "BIOPSIA DE URETER",
+    "preco": 231.83,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010496",
+    "nome": "BIOPSIA DE URETRA",
+    "preco": 178.65,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010500",
+    "nome": "BIOPSIA/PUNCAO DE VAGINA",
+    "preco": 148.55,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010518",
+    "nome": "BIOPSIA/PUNCAO DE VULVA",
+    "preco": 110.86,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010526",
+    "nome": "BIOPSIA DOS TECIDOS MOLES DA BOCA",
+    "preco": 58.33,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010542",
+    "nome": "BIOPSIA PERCUTANEA ORIENTADA POR TOMOGRAFIA COMPUTADORIZADA / ULTRASSONOGRAFIA / RESSONANCIA MAGNE",
+    "preco": 221.64,
+    "pagina": 1
+  },
+  {
+    "codigo": "0201010569",
+    "nome": "BIOPSIA/EXERESE DE NODULO DE MAMA",
+    "preco": 239.91,
+    "pagina": 2
+  },
+  {
+    "codigo": "0201010585",
+    "nome": "PUNCAO ASPIRATIVA DE MAMA POR AGULHA FINA",
+    "preco": 192.27,
+    "pagina": 2
+  },
+  {
+    "codigo": "0201010607",
+    "nome": "PUNCAO DE MAMA POR AGULHA GROSSA",
+    "preco": 264.46,
+    "pagina": 2
+  },
+  {
+    "codigo": "0201010615",
+    "nome": "PUNCAO DE VAGINA",
+    "preco": 116.02,
+    "pagina": 2
+  },
+  {
+    "codigo": "0201010623",
+    "nome": "PUNÇÃO EXPLORADORA DO DEFERENTE",
+    "preco": 26.67,
+    "pagina": 2
+  },
+  {
+    "codigo": "0201010640",
+    "nome": "PUNCAO P/ ESVAZIAMENTO",
+    "preco": 25.06,
+    "pagina": 2
+  },
+  {
+    "codigo": "0201010666",
+    "nome": "BIOPSIA DO COLO UTERINO",
+    "preco": 109.65,
+    "pagina": 2
+  },
+  {
+    "codigo": "0201020017",
+    "nome": "COLETA DE LAVADO BRONCO-ALVEOLAR",
+    "preco": 5.83,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010023",
+    "nome": "DETERMINACAO DE CAPACIDADE DE FIXACAO DO FERRO",
+    "preco": 4.44,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010120",
+    "nome": "DOSAGEM DE ACIDO URICO",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010163",
+    "nome": "DOSAGEM DE ALFA-1-GLICOPROTEINA ACIDA",
+    "preco": 11.83,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010180",
+    "nome": "DOSAGEM DE AMILASE",
+    "preco": 4.44,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010201",
+    "nome": "DOSAGEM DE BILIRRUBINA TOTAL E FRACOES",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010210",
+    "nome": "DOSAGEM DE CALCIO",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010279",
+    "nome": "DOSAGEM DE COLESTEROL HDL",
+    "preco": 5.53,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010287",
+    "nome": "DOSAGEM DE COLESTEROL LDL",
+    "preco": 7.33,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010295",
+    "nome": "DOSAGEM DE COLESTEROL TOTAL",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010317",
+    "nome": "DOSAGEM DE CREATININA",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010325",
+    "nome": "DOSAGEM DE CREATINOFOSFOQUINASE (CPK)",
+    "preco": 11.04,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010333",
+    "nome": "DOSAGEM DE CREATINOFOSFOQUINASE FRACAO MB",
+    "preco": 22.26,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010368",
+    "nome": "DOSAGEM DE DESIDROGENASE LATICA",
+    "preco": 7.33,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010384",
+    "nome": "DOSAGEM DE FERRITINA",
+    "preco": 21.1,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010392",
+    "nome": "DOSAGEM DE FERRO SERICO",
+    "preco": 5.53,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010406",
+    "nome": "DOSAGEM DE FOLATO",
+    "preco": 18.93,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010422",
+    "nome": "DOSAGEM DE FOSFATASE ALCALINA",
+    "preco": 5.7,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010430",
+    "nome": "DOSAGEM DE FOSFORO",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010465",
+    "nome": "DOSAGEM DE GAMA-GLUTAMIL-TRANSFERASE (GAMA GT)",
+    "preco": 6.34,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010473",
+    "nome": "DOSAGEM DE GLICOSE",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010503",
+    "nome": "DOSAGEM DE HEMOGLOBINA GLICOSILADA",
+    "preco": 7.86,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010538",
+    "nome": "DOSAGEM DE LACTATO",
+    "preco": 7.33,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010554",
+    "nome": "DOSAGEM DE LIPASE",
+    "preco": 5.13,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010562",
+    "nome": "DOSAGEM DE MAGNESIO",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010600",
+    "nome": "DOSAGEM DE POTASSIO",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010619",
+    "nome": "DOSAGEM DE PROTEINAS TOTAIS",
+    "preco": 3.44,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010627",
+    "nome": "DOSAGEM DE PROTEINAS TOTAIS E FRACOES",
+    "preco": 4.66,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010635",
+    "nome": "DOSAGEM DE SODIO",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010643",
+    "nome": "DOSAGEM DE TRANSAMINASE GLUTAMICO-OXALACETICA (TGO)",
+    "preco": 4.2,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010651",
+    "nome": "DOSAGEM DE TRANSAMINASE GLUTAMICO-PIRUVICA (TGP)",
+    "preco": 4.2,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010678",
+    "nome": "DOSAGEM DE TRIGLICERIDEOS",
+    "preco": 5.53,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010694",
+    "nome": "DOSAGEM DE UREIA",
+    "preco": 4.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010708",
+    "nome": "DOSAGEM DE VITAMINA B12",
+    "preco": 17.77,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010724",
+    "nome": "ELETROFORESE DE PROTEINAS",
+    "preco": 12.67,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010767",
+    "nome": "DOSAGEM DE 25 HIDROXIVITAMINA D",
+    "preco": 18.09,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202010791",
+    "nome": "DOSAGEM DE PEPTIDEOS NATRIURETICOS TIPO B (BNP E NT-PROBNP)",
+    "preco": 68.7,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202020037",
+    "nome": "CONTAGEM DE RETICULOCITOS",
+    "preco": 3.44,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202020134",
+    "nome": "DETERMINACAO DE TEMPO DE TROMBOPLASTINA PARCIAL ATIVADA (TTP ATIVADA)",
+    "preco": 5.77,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202020142",
+    "nome": "DETERMINACAO DE TEMPO E ATIVIDADE DA PROTROMBINA (TAP)",
+    "preco": 5.16,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202020290",
+    "nome": "DOSAGEM DE FIBRINOGENIO",
+    "preco": 5.8,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202020355",
+    "nome": "ELETROFORESE DE HEMOGLOBINA",
+    "preco": 9.29,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202020380",
+    "nome": "HEMOGRAMA COMPLETO",
+    "preco": 8.83,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030075",
+    "nome": "DETERMINACAO DE FATOR REUMATOIDE",
+    "preco": 6.85,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030083",
+    "nome": "DETERMINACAO QUANTITATIVA DE PROTEINA C REATIVA",
+    "preco": 22.0,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030091",
+    "nome": "DOSAGEM DE ALFA-FETOPROTEINA",
+    "preco": 28.95,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030105",
+    "nome": "DOSAGEM DE ANTIGENO PROSTATICO ESPECIFICO (PSA)",
+    "preco": 32.11,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030121",
+    "nome": "DOSAGEM DE COMPLEMENTO C3",
+    "preco": 17.16,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030130",
+    "nome": "DOSAGEM DE COMPLEMENTO C4",
+    "preco": 17.16,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030156",
+    "nome": "DOSAGEM DE IMUNOGLOBULINA A (IGA)",
+    "preco": 17.16,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030164",
+    "nome": "DOSAGEM DE IMUNOGLOBULINA E (IGE)",
+    "preco": 13.74,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030180",
+    "nome": "DOSAGEM DE IMUNOGLOBULINA M (IGM)",
+    "preco": 17.16,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030253",
+    "nome": "PESQUISA DE ANTICORPO IGG ANTICARDIOLIPINA",
+    "preco": 11.83,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030270",
+    "nome": "PESQUISA DE ANTICORPOS ANTI-DNA",
+    "preco": 13.74,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030326",
+    "nome": "PESQUISA DE ANTICORPOS ANTI-RIBONUCLEOPROTEINA (RNP)",
+    "preco": 17.16,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030342",
+    "nome": "PESQUISA DE ANTICORPOS ANTI-SM",
+    "preco": 17.16,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030369",
+    "nome": "PESQUISA DE ANTICORPOS ANTI-SS-B (LA)",
+    "preco": 18.55,
+    "pagina": 2
+  },
+  {
+    "codigo": "0202030415",
+    "nome": "PESQUISA DE ANTICORPOS ANTICISTICERCO",
+    "preco": 22.38,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030458",
+    "nome": "PESQUISA DE ANTICORPOS ANTIESCLERODERMA (SCL 70)",
+    "preco": 13.74,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030474",
+    "nome": "PESQUISA DE ANTICORPOS ANTIESTREPTOLISINA O (ASLO)",
+    "preco": 22.17,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030598",
+    "nome": "PESQUISA DE ANTICORPOS ANTINUCLEO",
+    "preco": 17.16,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030628",
+    "nome": "PESQUISA DE ANTICORPOS ANTITIREOGLOBULINA",
+    "preco": 39.51,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030652",
+    "nome": "PESQUISA DE ANTICORPOS CONTRA HISTOPLASMA",
+    "preco": 9.29,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030741",
+    "nome": "PESQUISA DE ANTICORPOS IGG ANTICITOMEGALOVIRUS",
+    "preco": 18.13,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030768",
+    "nome": "PESQUISA DE ANTICORPOS IGG ANTITOXOPLASMA",
+    "preco": 18.13,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030792",
+    "nome": "PESQUISA DE ANTICORPOS IGG CONTRA ARBOVIRUS",
+    "preco": 199.88,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030857",
+    "nome": "PESQUISA DE ANTICORPOS IGM ANTICITOMEGALOVIRUS",
+    "preco": 22.0,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030873",
+    "nome": "PESQUISA DE ANTICORPOS IGM ANTITOXOPLASMA",
+    "preco": 18.55,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202030962",
+    "nome": "PESQUISA DE ANTIGENO CARCINOEMBRIONARIO (CEA)",
+    "preco": 34.23,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202031110",
+    "nome": "TESTE NAO TREPONEMICO P/ DETECCAO DE SIFILIS",
+    "preco": 3.44,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202031209",
+    "nome": "DOSAGEM DE TROPONINA",
+    "preco": 22.33,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202031217",
+    "nome": "DOSAGEM DO ANTIGENO CA 125",
+    "preco": 34.23,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202040127",
+    "nome": "PESQUISA DE OVOS E CISTOS DE PARASITAS",
+    "preco": 5.13,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202040143",
+    "nome": "PESQUISA DE SANGUE OCULTO NAS FEZES",
+    "preco": 3.44,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202050017",
+    "nome": "ANALISE DE CARACTERES FISICOS, ELEMENTOS E SEDIMENTO DA URINA",
+    "preco": 4.81,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202050092",
+    "nome": "DOSAGEM DE MICROALBUMINA NA URINA",
+    "preco": 18.93,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060136",
+    "nome": "DOSAGEM DE CORTISOL",
+    "preco": 23.77,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060144",
+    "nome": "DOSAGEM DE DEHIDROEPIANDROSTERONA (DHEA)",
+    "preco": 30.51,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060160",
+    "nome": "DOSAGEM DE ESTRADIOL",
+    "preco": 30.43,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060217",
+    "nome": "DOSAGEM DE GONADOTROFINA CORIONICA HUMANA (HCG, BETA HCG)",
+    "preco": 16.83,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060225",
+    "nome": "DOSAGEM DE HORMONIO DE CRESCIMENTO (HGH)",
+    "preco": 23.43,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060233",
+    "nome": "DOSAGEM DE HORMONIO FOLICULO-ESTIMULANTE (FSH)",
+    "preco": 20.61,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060241",
+    "nome": "DOSAGEM DE HORMONIO LUTEINIZANTE (LH)",
+    "preco": 20.61,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060250",
+    "nome": "DOSAGEM DE HORMONIO TIREOESTIMULANTE (TSH)",
+    "preco": 20.54,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060268",
+    "nome": "DOSAGEM DE INSULINA",
+    "preco": 17.44,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060276",
+    "nome": "DOSAGEM DE PARATORMONIO",
+    "preco": 63.37,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060292",
+    "nome": "DOSAGEM DE PROGESTERONA",
+    "preco": 23.43,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060306",
+    "nome": "DOSAGEM DE PROLACTINA",
+    "preco": 26.94,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060322",
+    "nome": "DOSAGEM DE SOMATOMEDINA C (IGF1)",
+    "preco": 54.59,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060349",
+    "nome": "DOSAGEM DE TESTOSTERONA",
+    "preco": 41.29,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202060381",
+    "nome": "DOSAGEM DE TIROXINA LIVRE (T4 LIVRE)",
+    "preco": 25.66,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202080021",
+    "nome": "ANTIBIOGRAMA C/ CONCENTRACAO INIBITORIA MINIMA",
+    "preco": 24.03,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202080048",
+    "nome": "BACILOSCOPIA DIRETA P/ BAAR TUBERCULOSE (DIAGNOSTICA)",
+    "preco": 7.44,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202080056",
+    "nome": "BACILOSCOPIA DIRETA P/ BAAR (HANSENIASE)",
+    "preco": 7.44,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202080080",
+    "nome": "CULTURA DE BACTERIAS P/ IDENTIFICACAO",
+    "preco": 21.6,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202080153",
+    "nome": "HEMOCULTURA",
+    "preco": 18.5,
+    "pagina": 3
+  },
+  {
+    "codigo": "0202100049",
+    "nome": "QUANTIFICAÇÃO/AMPLIFICAÇÃO DO HER-2",
+    "preco": 160.78,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203010019",
+    "nome": "EXAME CITOPATOLOGICO CERVICO-VAGINAL/MICROFLORA",
+    "preco": 30.99,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203010027",
+    "nome": "EXAME CITOPATOLOGICO HORMONAL SERIADO (MINIMO 3 COLETAS)",
+    "preco": 47.1,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203010035",
+    "nome": "EXAME DE CITOLOGIA (EXCETO CERVICO-VAGINAL E DE MAMA)",
+    "preco": 36.0,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203010043",
+    "nome": "EXAME CITOPATOLOGICO DE MAMA",
+    "preco": 36.0,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203010078",
+    "nome": "CONTROLE DE QUALIDADE DO EXAME CITOPATOLÓGICO CERVICO VAGINAL",
+    "preco": 25.37,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203010086",
+    "nome": "EXAME CITOPATOLOGICO CERVICO VAGINAL/MICROFLORA- RASTREAMENTO",
+    "preco": 25.83,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203020014",
+    "nome": "DETERMINACAO DE RECEPTORES TUMORAIS HORMONAIS",
+    "preco": 173.52,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203020022",
+    "nome": "EXAME ANATOMO-PATOLOGICO DO COLO UTERINO - PECA CIRURGICA",
+    "preco": 61.77,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203020030",
+    "nome": "EXAME ANATOMO-PATOLOGICO PARA CONGELAMENTO / PARAFINA POR PECA CIRURGICA OU POR BIOPSIA (EXCETO COL",
+    "preco": 157.68,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203020049",
+    "nome": "IMUNOHISTOQUIMICA DE NEOPLASIAS MALIGNAS (POR MARCADOR)",
+    "preco": 350.21,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203020065",
+    "nome": "EXAME ANATOMOPATOLOGICO DE MAMA - BIOPSIA",
+    "preco": 113.31,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203020073",
+    "nome": "EXAME ANATOMOPATOLOGICO DE MAMA - PECA CIRURGICA",
+    "preco": 133.57,
+    "pagina": 3
+  },
+  {
+    "codigo": "0203020081",
+    "nome": "EXAME ANATOMO-PATOLOGICO DO COLO UTERINO - BIOPSIA",
+    "preco": 68.05,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010012",
+    "nome": "DACRIOCISTOGRAFIA",
+    "preco": 71.38,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010020",
+    "nome": "PLANIGRAFIA DE LARINGE",
+    "preco": 76.06,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010039",
+    "nome": "RADIOGRAFIA BILATERAL DE ORBITAS (PA + OBLIQUAS + HIRTZ)",
+    "preco": 34.72,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010047",
+    "nome": "RADIOGRAFIA DE ARCADA ZIGOMATICO-MALAR (AP+ OBLIQUAS)",
+    "preco": 32.51,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010055",
+    "nome": "RADIOGRAFIA DE ARTICULACAO TEMPORO-MANDIBULAR BILATERAL",
+    "preco": 34.72,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010063",
+    "nome": "RADIOGRAFIA DE CAVUM (LATERAL + HIRTZ)",
+    "preco": 24.92,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010071",
+    "nome": "RADIOGRAFIA DE CRANIO (PA + LATERAL + OBLIQUA / BRETTON + HIRTZ)",
+    "preco": 40.84,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010080",
+    "nome": "RADIOGRAFIA DE CRANIO (PA + LATERAL)",
+    "preco": 31.23,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010098",
+    "nome": "RADIOGRAFIA DE LARINGE",
+    "preco": 43.1,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010101",
+    "nome": "RADIOGRAFIA DE MASTOIDE / ROCHEDOS (BILATERAL)",
+    "preco": 46.17,
+    "pagina": 3
+  },
+  {
+    "codigo": "0204010110",
+    "nome": "RADIOGRAFIA DE MAXILAR (PA + OBLIQUA)",
+    "preco": 31.17,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010128",
+    "nome": "RADIOGRAFIA DE OSSOS DA FACE (MN + LATERAL + HIRTZ)",
+    "preco": 34.67,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010136",
+    "nome": "RADIOGRAFIA DE REGIAO ORBITARIA (LOCALIZACAO DE CORPO ESTRANHO)",
+    "preco": 34.72,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010144",
+    "nome": "RADIOGRAFIA DE SEIOS DA FACE (FN + MN + LATERAL + HIRTZ)",
+    "preco": 25.57,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010152",
+    "nome": "RADIOGRAFIA DE SELA TURSICA (PA + LATERAL + BRETTON)",
+    "preco": 31.17,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010160",
+    "nome": "RADIOGRAFIA OCLUSAL",
+    "preco": 21.56,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010179",
+    "nome": "RADIOGRAFIA PANORAMICA",
+    "preco": 33.25,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010195",
+    "nome": "SIALOGRAFIA (POR GLANDULA)",
+    "preco": 72.39,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010209",
+    "nome": "TELERADIOGRAFIA COM TRACADOS E SEM TRACADOS",
+    "preco": 12.61,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204010217",
+    "nome": "RADIOGRAFIA INTERPROXIMAL (BITE WING)",
+    "preco": 16.57,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020018",
+    "nome": "MIELOGRAFIA",
+    "preco": 195.59,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020026",
+    "nome": "PLANIGRAFIA DE COLUNA VERTEBRAL",
+    "preco": 76.25,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020034",
+    "nome": "RADIOGRAFIA DE COLUNA CERVICAL (AP + LATERAL + TO + OBLIQUAS)",
+    "preco": 30.86,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020042",
+    "nome": "RADIOGRAFIA DE COLUNA CERVICAL (AP + LATERAL + TO / FLEXAO)",
+    "preco": 30.86,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020050",
+    "nome": "RADIOGRAFIA DE COLUNA CERVICAL FUNCIONAL / DINAMICA",
+    "preco": 20.15,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020069",
+    "nome": "RADIOGRAFIA DE COLUNA LOMBO-SACRA",
+    "preco": 32.84,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020077",
+    "nome": "RADIOGRAFIA DE COLUNA LOMBO-SACRA (C/ OBLIQUAS)",
+    "preco": 45.98,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020085",
+    "nome": "RADIOGRAFIA DE COLUNA LOMBO-SACRA FUNCIONAL / DINAMICA",
+    "preco": 33.05,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020093",
+    "nome": "RADIOGRAFIA DE COLUNA TORACICA (AP + LATERAL)",
+    "preco": 34.6,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020107",
+    "nome": "RADIOGRAFIA DE COLUNA TORACO-LOMBAR",
+    "preco": 38.12,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020115",
+    "nome": "RADIOGRAFIA DE COLUNA TORACO-LOMBAR DINAMICA",
+    "preco": 30.5,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020123",
+    "nome": "RADIOGRAFIA DE REGIAO SACRO-COCCIGEA",
+    "preco": 31.98,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204020131",
+    "nome": "RADIOGRAFIA PANORAMICA DE COLUNA TOTAL- TELESPONDILOGRAFIA ( P/ ESCOLIOSE)",
+    "preco": 66.01,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030013",
+    "nome": "BRONCOGRAFIA UNILATERAL",
+    "preco": 216.17,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030021",
+    "nome": "DUCTOGRAFIA (POR MAMA)",
+    "preco": 122.62,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030030",
+    "nome": "MAMOGRAFIA",
+    "preco": 139.09,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030048",
+    "nome": "MARCACAO PRE-CIRURGICA DE LESAO NAO PALPAVEL DE MAMA ASSOCIADA A MAMOGRAFIA",
+    "preco": 181.94,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030056",
+    "nome": "RADIOGRAFIA DE CORACAO E VASOS DA BASE (PA + LATERAL + OBLIQUA)",
+    "preco": 29.95,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030064",
+    "nome": "RADIOGRAFIA DE CORACAO E VASOS DA BASE (PA + LATERAL)",
+    "preco": 29.95,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030072",
+    "nome": "RADIOGRAFIA DE COSTELAS (POR HEMITORAX)",
+    "preco": 33.7,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030080",
+    "nome": "RADIOGRAFIA DE ESOFAGO",
+    "preco": 52.41,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030099",
+    "nome": "RADIOGRAFIA DE ESTERNO",
+    "preco": 27.94,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030102",
+    "nome": "RADIOGRAFIA DE MEDIASTINO (PA E PERFIL)",
+    "preco": 76.97,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030110",
+    "nome": "RADIOGRAFIA DE PNEUMOMEDIASTINO",
+    "preco": 76.97,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030129",
+    "nome": "RADIOGRAFIA DE TORAX (APICO-LORDORTICA)",
+    "preco": 24.61,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030137",
+    "nome": "RADIOGRAFIA DE TORAX (PA + INSPIRACAO + EXPIRACAO + LATERAL)",
+    "preco": 39.68,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030145",
+    "nome": "RADIOGRAFIA DE TORAX (PA + LATERAL + OBLIQUA)",
+    "preco": 34.81,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030153",
+    "nome": "RADIOGRAFIA DE TORAX (PA E PERFIL)",
+    "preco": 29.95,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030161",
+    "nome": "RADIOGRAFIA DE TORAX (PA PADRAO OIT)",
+    "preco": 12.82,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030170",
+    "nome": "RADIOGRAFIA DE TORAX (PA)",
+    "preco": 24.61,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204030188",
+    "nome": "MAMOGRAFIA BILATERAL PARA RASTREAMENTO",
+    "preco": 100.0,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040019",
+    "nome": "RADIOGRAFIA DE ANTEBRACO",
+    "preco": 30.32,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040027",
+    "nome": "RADIOGRAFIA DE ARTICULACAO ACROMIO-CLAVICULAR",
+    "preco": 29.76,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040035",
+    "nome": "RADIOGRAFIA DE ARTICULACAO ESCAPULO-UMERAL",
+    "preco": 29.76,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040043",
+    "nome": "RADIOGRAFIA DE ARTICULACAO ESTERNO-CLAVICULAR",
+    "preco": 30.86,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040051",
+    "nome": "RADIOGRAFIA DE BRACO",
+    "preco": 31.23,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040060",
+    "nome": "RADIOGRAFIA DE CLAVICULA",
+    "preco": 31.23,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040078",
+    "nome": "RADIOGRAFIA DE COTOVELO",
+    "preco": 28.85,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040086",
+    "nome": "RADIOGRAFIA DE DEDOS DA MAO",
+    "preco": 20.48,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040094",
+    "nome": "RADIOGRAFIA DE MAO",
+    "preco": 20.48,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040108",
+    "nome": "RADIOGRAFIA DE MAO E PUNHO (P/ DETERMINACAO DE IDADE OSSEA)",
+    "preco": 28.49,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040116",
+    "nome": "RADIOGRAFIA DE ESCAPULA/OMBRO (TRES POSICOES)",
+    "preco": 29.76,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204040124",
+    "nome": "RADIOGRAFIA DE PUNHO (AP + LATERAL + OBLIQUA)",
+    "preco": 31.06,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050014",
+    "nome": "CLISTER OPACO C/ DUPLO CONTRASTE",
+    "preco": 97.03,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050022",
+    "nome": "COLANGIOGRAFIA PER-OPERATORIA",
+    "preco": 59.33,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050030",
+    "nome": "COLANGIOGRAFIA POS-OPERATORIA",
+    "preco": 59.33,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050049",
+    "nome": "DUODENOGRAFIA HIPOTONICA",
+    "preco": 67.59,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050057",
+    "nome": "FISTULOGRAFIA",
+    "preco": 54.84,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050065",
+    "nome": "HISTEROSSALPINGOGRAFIA",
+    "preco": 80.48,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050073",
+    "nome": "PIELOGRAFIA ANTEROGRADA PERCUTANEA",
+    "preco": 187.93,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050081",
+    "nome": "PIELOGRAFIA ASCENDENTE",
+    "preco": 70.77,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050103",
+    "nome": "PLANIGRAFIA DE RIM S/ CONTRASTE",
+    "preco": 28.35,
+    "pagina": 4
+  },
+  {
+    "codigo": "0204050111",
+    "nome": "RADIOGRAFIA DE ABDOMEN (AP + LATERAL / LOCALIZADA)",
+    "preco": 30.58,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204050120",
+    "nome": "RADIOGRAFIA DE ABDOMEN AGUDO (MINIMO DE 3 INCIDENCIAS)",
+    "preco": 50.96,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204050138",
+    "nome": "RADIOGRAFIA DE ABDOMEN SIMPLES (AP)",
+    "preco": 30.58,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204050146",
+    "nome": "RADIOGRAFIA DE ESTOMAGO E DUODENO",
+    "preco": 79.92,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204050154",
+    "nome": "RADIOGRAFIA DE INTESTINO DELGADO (TRANSITO)",
+    "preco": 85.84,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204050162",
+    "nome": "RADIOGRAFIA P/ ESTUDO DO DELGADO C/ DUPLO CONTRASTE (ENTEROCLISE)",
+    "preco": 97.46,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204050170",
+    "nome": "URETROCISTOGRAFIA",
+    "preco": 116.46,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204050189",
+    "nome": "UROGRAFIA VENOSA",
+    "preco": 103.44,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060010",
+    "nome": "ARTROGRAFIA",
+    "preco": 80.48,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060028",
+    "nome": "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES E/OU FEMUR)",
+    "preco": 220.0,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060036",
+    "nome": "ESCANOMETRIA",
+    "preco": 27.52,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060044",
+    "nome": "PLANIGRAFIA DE OSSO - SUBSIDIARIA A OUTROS EXAMES (POR PLANO)",
+    "preco": 36.57,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060052",
+    "nome": "PLANIGRAFIA DE OSSO EM 2 PLANOS",
+    "preco": 55.09,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060060",
+    "nome": "RADIOGRAFIA DE ARTICULACAO COXO-FEMORAL",
+    "preco": 32.47,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060079",
+    "nome": "RADIOGRAFIA DE ARTICULACAO SACRO-ILIACA",
+    "preco": 31.78,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060087",
+    "nome": "RADIOGRAFIA DE ARTICULACAO TIBIO-TARSICA",
+    "preco": 28.85,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060095",
+    "nome": "RADIOGRAFIA DE BACIA",
+    "preco": 30.58,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060109",
+    "nome": "RADIOGRAFIA DE CALCANEO",
+    "preco": 24.31,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060117",
+    "nome": "RADIOGRAFIA DE COXA",
+    "preco": 30.25,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060125",
+    "nome": "RADIOGRAFIA DE JOELHO (AP + LATERAL)",
+    "preco": 30.32,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060133",
+    "nome": "RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + AXIAL)",
+    "preco": 31.5,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060141",
+    "nome": "RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + OBLIQUA + 3 AXIAIS)",
+    "preco": 18.19,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060150",
+    "nome": "RADIOGRAFIA DE PE / DEDOS DO PE",
+    "preco": 30.32,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060168",
+    "nome": "RADIOGRAFIA DE PERNA",
+    "preco": 32.79,
+    "pagina": 5
+  },
+  {
+    "codigo": "0204060176",
+    "nome": "RADIOGRAFIA PANORAMICA DE MEMBROS INFERIORES",
+    "preco": 34.33,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205010016",
+    "nome": "ECOCARDIOGRAFIA DE ESTRESSE",
+    "preco": 264.41,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205010024",
+    "nome": "ECOCARDIOGRAFIA TRANSESOFAGICA",
+    "preco": 766.63,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205010032",
+    "nome": "ECOCARDIOGRAFIA TRANSTORACICA",
+    "preco": 214.5,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205010040",
+    "nome": "ULTRASSONOGRAFIA DOPPLER COLORIDO DE VASOS",
+    "preco": 115.61,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205010059",
+    "nome": "ULTRASSONOGRAFIA DOPPLER DE FLUXO OBSTETRICO",
+    "preco": 134.44,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020011",
+    "nome": "ECODOPPLER TRANSCRANIANO",
+    "preco": 268.73,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020020",
+    "nome": "PAQUIMETRIA ULTRASSONICA",
+    "preco": 50.41,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020038",
+    "nome": "ULTRASSONOGRAFIA DE ABDOMEN SUPERIOR",
+    "preco": 101.27,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020046",
+    "nome": "ULTRASSONOGRAFIA DE ABDOMEN TOTAL",
+    "preco": 117.51,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020054",
+    "nome": "ULTRASSONOGRAFIA DE APARELHO URINARIO",
+    "preco": 90.53,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020062",
+    "nome": "ULTRASSONOGRAFIA DE ARTICULACAO",
+    "preco": 70.97,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020070",
+    "nome": "ULTRASSONOGRAFIA DE BOLSA ESCROTAL",
+    "preco": 100.0,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020089",
+    "nome": "ULTRASSONOGRAFIA DE GLOBO OCULAR / ORBITA (MONOCULAR)",
+    "preco": 24.2,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020097",
+    "nome": "ULTRASSONOGRAFIA MAMARIA BILATERAL",
+    "preco": 70.97,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020100",
+    "nome": "ULTRASSONOGRAFIA DE PROSTATA POR VIA ABDOMINAL",
+    "preco": 74.19,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020119",
+    "nome": "ULTRASSONOGRAFIA DE PROSTATA (VIA TRANSRETAL)",
+    "preco": 100.0,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020127",
+    "nome": "ULTRASSONOGRAFIA DE TIREOIDE",
+    "preco": 64.07,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020135",
+    "nome": "ULTRASSONOGRAFIA DE TORAX (EXTRACARDIACA)",
+    "preco": 55.39,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020143",
+    "nome": "ULTRASSONOGRAFIA OBSTETRICA",
+    "preco": 62.22,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020151",
+    "nome": "ULTRASSONOGRAFIA OBSTETRICA C/ DOPPLER COLORIDO E PULSADO",
+    "preco": 134.44,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020160",
+    "nome": "ULTRASSONOGRAFIA PELVICA (GINECOLOGICA)",
+    "preco": 43.41,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020178",
+    "nome": "ULTRASSONOGRAFIA TRANSFONTANELA",
+    "preco": 268.73,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020186",
+    "nome": "ULTRASSONOGRAFIA TRANSVAGINAL",
+    "preco": 83.77,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020194",
+    "nome": "MARCACAO DE LESAO PRE-CIRURGICA DE LESAO NAO PALPAVEL DE MAMA ASSOCIADA A ULTRASSONOGRAFIA",
+    "preco": 108.68,
+    "pagina": 5
+  },
+  {
+    "codigo": "0205020224",
+    "nome": "ELASTOGRAFIA HEPÁTICA ULTRASSÔNICA",
+    "preco": 100.0,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010010",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE COLUNA CERVICAL C/ OU S/ CONTRASTE",
+    "preco": 251.29,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010028",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE COLUNA LOMBO-SACRA C/ OU S/ CONTRASTE",
+    "preco": 251.29,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010036",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE COLUNA TORACICA C/ OU S/ CONTRASTE",
+    "preco": 251.29,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010044",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE FACE / SEIOS DA FACE / ARTICULACOES TEMPORO-MANDIBULARES",
+    "preco": 260.09,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010052",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DO PESCOCO",
+    "preco": 309.25,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010060",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE SELA TURCICA",
+    "preco": 371.02,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010079",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DO CRANIO",
+    "preco": 251.29,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010087",
+    "nome": "TOMOMIELOGRAFIA COMPUTADORIZADA",
+    "preco": 138.63,
+    "pagina": 5
+  },
+  {
+    "codigo": "0206010095",
+    "nome": "TOMOGRAFIA POR EMISSAO DE POSITRONS (PET-CT)",
+    "preco": 2107.22,
+    "pagina": 6
+  },
+  {
+    "codigo": "0206020015",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO SUPERIOR",
+    "preco": 309.25,
+    "pagina": 6
+  },
+  {
+    "codigo": "0206020023",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE SEGMENTOS APENDICULARES - (BRACO, ANTEBRACO, MAO, COXA, PERNA, PE)",
+    "preco": 309.25,
+    "pagina": 6
+  },
+  {
+    "codigo": "0206020031",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE TORAX",
+    "preco": 309.25,
+    "pagina": 6
+  },
+  {
+    "codigo": "0206030010",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE ABDOMEN SUPERIOR",
+    "preco": 309.25,
+    "pagina": 6
+  },
+  {
+    "codigo": "0206030029",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO INFERIOR",
+    "preco": 309.25,
+    "pagina": 6
+  },
+  {
+    "codigo": "0206030037",
+    "nome": "TOMOGRAFIA COMPUTADORIZADA DE PELVE / BACIA / ABDOMEN INFERIOR",
+    "preco": 309.25,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207010013",
+    "nome": "ANGIORESSONANCIA CEREBRAL",
+    "preco": 500.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207010021",
+    "nome": "RESSONANCIA MAGNETICA DE ARTICULACAO TEMPORO-MANDIBULAR (BILATERAL)",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207010030",
+    "nome": "RESSONANCIA MAGNETICA DE COLUNA CERVICAL/PESCOCO",
+    "preco": 556.63,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207010048",
+    "nome": "RESSONANCIA MAGNETICA DE COLUNA LOMBO-SACRA",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207010056",
+    "nome": "RESSONANCIA MAGNETICA DE COLUNA TORACICA",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207010064",
+    "nome": "RESSONANCIA MAGNETICA DE CRANIO",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207010072",
+    "nome": "RESSONANCIA MAGNETICA DE SELA TURCICA",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207020019",
+    "nome": "RESSONANCIA MAGNETICA DE CORACAO / AORTA C/ CINE",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207020027",
+    "nome": "RESSONANCIA MAGNETICA DE MEMBRO SUPERIOR (UNILATERAL)",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207020035",
+    "nome": "RESSONANCIA MAGNETICA DE TORAX",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207020060",
+    "nome": "RESSONÂNCIA MAGNÉTICA DA MAMA",
+    "preco": 500.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207030014",
+    "nome": "RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207030022",
+    "nome": "RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207030030",
+    "nome": "RESSONANCIA MAGNETICA DE MEMBRO INFERIOR (UNILATERAL)",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207030049",
+    "nome": "RESSONANCIA MAGNETICA DE VIAS BILIARES/COLANGIORRESSONANCIA",
+    "preco": 463.59,
+    "pagina": 6
+  },
+  {
+    "codigo": "0207030057",
+    "nome": "RESSONÂNCIA MAGNÈTICA MULTIPARAMÈTRICA DA PROSTATA",
+    "preco": 500.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208010017",
+    "nome": "CINTILOGRAFIA DE CORACAO C/ GALIO 67",
+    "preco": 915.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208010025",
+    "nome": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    "preco": 899.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208010033",
+    "nome": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+    "preco": 881.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208010041",
+    "nome": "CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE (MINIMO 3 PROJECOES )",
+    "preco": 666.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208010050",
+    "nome": "CINTILOGRAFIA P/ AVALIACAO DE FLUXO SANGUINEO DE EXTREMIDADES",
+    "preco": 456.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208010068",
+    "nome": "CINTILOGRAFIA P/ QUANTIFICACAO DE SHUNT EXTRACARDIACO",
+    "preco": 570.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208010076",
+    "nome": "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE ESFORCO",
+    "preco": 859.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208010084",
+    "nome": "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE REPOUSO (VENTRICULOGRAFIA)",
+    "preco": 707.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020012",
+    "nome": "CINTILOGRAFIA DE FIGADO E BACO (MINIMO 5 IMAGENS)",
+    "preco": 533.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020020",
+    "nome": "CINTILOGRAFIA DE FIGADO E VIAS BILIARES",
+    "preco": 752.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020039",
+    "nome": "CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTIMULO",
+    "preco": 352.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020055",
+    "nome": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (LIQUIDO)",
+    "preco": 542.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020063",
+    "nome": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO)",
+    "preco": 542.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020071",
+    "nome": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO GASTRICO",
+    "preco": 577.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020080",
+    "nome": "CINTILOGRAFIA P/ PESQUISA DE DIVERTICULOSE DE MECKEL",
+    "preco": 459.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020098",
+    "nome": "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA ATIVA",
+    "preco": 629.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020101",
+    "nome": "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA NAO ATIVA",
+    "preco": 932.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208020110",
+    "nome": "CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFAGICO",
+    "preco": 542.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208030018",
+    "nome": "CINTILOGRAFIA DE PARATIREOIDES",
+    "preco": 974.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208030026",
+    "nome": "CINTILOGRAFIA DE TIREOIDE COM OU SEM CAPTACAO",
+    "preco": 155.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208030034",
+    "nome": "CINTILOGRAFIA DE TIREOIDE C/ TESTE DE SUPRESSAO / ESTIMULO",
+    "preco": 429.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208030042",
+    "nome": "CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO",
+    "preco": 677.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208040021",
+    "nome": "CINTILOGRAFIA DE RIM C/ GALIO 67",
+    "preco": 915.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208040056",
+    "nome": "CINTILOGRAFIA RENAL/RENOGRAMA (QUALITATIVA E/OU QUANTITATIVA)",
+    "preco": 532.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208040064",
+    "nome": "CISTOCINTILOGRAFIA DIRETA",
+    "preco": 492.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208040072",
+    "nome": "CISTOCINTILOGRAFIA INDIRETA",
+    "preco": 578.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208040080",
+    "nome": "DETERMINACAO DE FILTRACAO GLOMERULAR",
+    "preco": 103.4,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208040099",
+    "nome": "DETERMINACAO DE FLUXO PLASMATICO RENAL",
+    "preco": 103.4,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208040102",
+    "nome": "ESTUDO RENAL DINAMICO C/ OU S/ DIURETICO",
+    "preco": 319.18,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208050019",
+    "nome": "CINTILOGRAFIA DE ARTICULACOES E/OU EXTREMIDADES E/OU OSSO",
+    "preco": 721.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208050035",
+    "nome": "CINTILOGRAFIA DE OSSOS COM OU SEM FLUXO SANGUINEO (CORPO INTEIRO)",
+    "preco": 764.0,
+    "pagina": 6
+  },
+  {
+    "codigo": "0208050043",
+    "nome": "CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67",
+    "preco": 915.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208060014",
+    "nome": "CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO)",
+    "preco": 876.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208060022",
+    "nome": "CISTERNOCINTILOGRAFIA (INCLUINDO PESQUISA E/OU AVALIACAO DO TRANSITO LIQUORICO)",
+    "preco": 821.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208060030",
+    "nome": "ESTUDO DE FLUXO SANGUINEO CEREBRAL",
+    "preco": 183.64,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208070010",
+    "nome": "CINTILOGRAFIA DE PULMAO C/ GALIO 67",
+    "preco": 915.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208070028",
+    "nome": "CINTILOGRAFIA DE PULMÃO P/ PESQUISA DE ASPIRAÇÃO",
+    "preco": 510.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208070036",
+    "nome": "CINTILOGRAFIA DE PULMAO POR INALACAO (MINIMO 2 PROJECOES)",
+    "preco": 508.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208070044",
+    "nome": "CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES)",
+    "preco": 522.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208080040",
+    "nome": "LINFOCINTILOGRAFIA",
+    "preco": 565.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208090010",
+    "nome": "CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS",
+    "preco": 907.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208090029",
+    "nome": "CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA)",
+    "preco": 199.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0208090037",
+    "nome": "CINTILOGRAFIA DE MAMA (BILATERAL)",
+    "preco": 868.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209010010",
+    "nome": "COLANGIOPANCREATOGRAFIA RETROGRADA (VIA ENDOSCOPICA)",
+    "preco": 714.33,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209010029",
+    "nome": "COLONOSCOPIA (COLOSCOPIA)",
+    "preco": 497.84,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209010037",
+    "nome": "ESOFAGOGASTRODUODENOSCOPIA",
+    "preco": 335.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209010045",
+    "nome": "LAPAROSCOPIA",
+    "preco": 413.56,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209010053",
+    "nome": "RETOSSIGMOIDOSCOPIA",
+    "preco": 160.52,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209010061",
+    "nome": "VIDEOLAPAROSCOPIA",
+    "preco": 692.46,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209020016",
+    "nome": "CISTOSCOPIA E/OU URETEROSCOPIA E/OU URETROSCOPIA",
+    "preco": 89.51,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209030011",
+    "nome": "HISTEROSCOPIA CIRURGICA",
+    "preco": 562.46,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209040017",
+    "nome": "BRONCOSCOPIA (BRONCOFIBROSCOPIA)",
+    "preco": 393.03,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209040025",
+    "nome": "LARINGOSCOPIA",
+    "preco": 252.53,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209040033",
+    "nome": "TRAQUEOSCOPIA",
+    "preco": 785.32,
+    "pagina": 7
+  },
+  {
+    "codigo": "0209040041",
+    "nome": "VIDEOLARINGOSCOPIA",
+    "preco": 196.64,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010029",
+    "nome": "ANGIOGRAFIA DE ARCO AÓRTICO",
+    "preco": 327.7,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010037",
+    "nome": "ANGIOGRAFIA DE ARCO AORTICO E TRONCOS SUPRA-AORTICOS",
+    "preco": 354.7,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010045",
+    "nome": "AORTOGRAFIA ABDOMINAL",
+    "preco": 371.47,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010053",
+    "nome": "AORTOGRAFIA TORACICA",
+    "preco": 333.7,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010061",
+    "nome": "ARTERIOGRAFIA CERVICO-TORACICA",
+    "preco": 393.55,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010070",
+    "nome": "ARTERIOGRAFIA DE MEMBRO",
+    "preco": 351.36,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010088",
+    "nome": "ARTERIOGRAFIA DIGITAL (POR VIA VENOSA)",
+    "preco": 391.59,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010096",
+    "nome": "ARTERIOGRAFIA P/ INVESTIGACAO DE DOENCA ARTERIOSCLEROTICA AORTO-ILIACA E DISTAL",
+    "preco": 982.78,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010100",
+    "nome": "ARTERIOGRAFIA P/ INVESTIGACAO DE HEMORRAGIA CEREBRAL",
+    "preco": 987.61,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010118",
+    "nome": "ARTERIOGRAFIA P/ INVESTIGACAO DE ISQUEMIA CEREBRAL",
+    "preco": 987.61,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010126",
+    "nome": "ARTERIOGRAFIA PELVICA",
+    "preco": 333.7,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010134",
+    "nome": "ARTERIOGRAFIA SELETIVA DE CAROTIDA",
+    "preco": 462.99,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010142",
+    "nome": "ARTERIOGRAFIA SELETIVA POR CATETER (POR VASO)",
+    "preco": 394.53,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010150",
+    "nome": "ARTERIOGRAFIA SELETIVA VERTEBRAL",
+    "preco": 393.55,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010169",
+    "nome": "ESPLENOPORTOGRAFIA",
+    "preco": 456.16,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010177",
+    "nome": "FLEBOGRAFIA DE MEMBRO",
+    "preco": 405.4,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010185",
+    "nome": "FLEBOGRAFIA DE CAVA INFERIOR E/OU SUPERIOR",
+    "preco": 391.59,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010193",
+    "nome": "LINFANGIOADENOGRAFIA",
+    "preco": 441.22,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210010207",
+    "nome": "PORTOGRAFIA TRANS-HEPATICA",
+    "preco": 516.63,
+    "pagina": 7
+  },
+  {
+    "codigo": "0210020016",
+    "nome": "COLANGIOGRAFIA TRANSCUTANEA",
+    "preco": 146.68,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211020010",
+    "nome": "CATETERISMO CARDIACO",
+    "preco": 730.04,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211020028",
+    "nome": "CATETERISMO CARDIACO EM PEDIATRIA",
+    "preco": 653.72,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211020036",
+    "nome": "ELETROCARDIOGRAMA",
+    "preco": 31.37,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211020044",
+    "nome": "MONITORAMENTO PELO SISTEMA HOLTER 24 HS (3 CANAIS)",
+    "preco": 82.64,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211020052",
+    "nome": "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL (M.A.P.A)",
+    "preco": 85.89,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211020060",
+    "nome": "TESTE DE ESFORCO / TESTE ERGOMETRICO",
+    "preco": 80.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211040010",
+    "nome": "AMNIOSCOPIA",
+    "preco": 12.56,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211040029",
+    "nome": "COLPOSCOPIA",
+    "preco": 28.35,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211040045",
+    "nome": "HISTEROSCOPIA (DIAGNOSTICA)",
+    "preco": 126.13,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211050024",
+    "nome": "ELETROENCEFALOGRAFIA EM VIGILIA C/ OU S/ FOTO-ESTIMULO",
+    "preco": 600.0,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211050032",
+    "nome": "ELETROENCEFALOGRAMA EM SONO INDUZIDO C/ OU S/ MEDICAMENTO (EEG)",
+    "preco": 147.38,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211050040",
+    "nome": "ELETROENCEFALOGRAMA EM VIGILIA E SONO ESPONTANEO C/ OU S/ FOTOESTIMULO (EEG)",
+    "preco": 147.38,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211050059",
+    "nome": "ELETROENCEFALOGRAMA QUANTITATIVO C/ MAPEAMENTO (EEG)",
+    "preco": 289.96,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211050067",
+    "nome": "ELETROMIOGRAMA (EMG)",
+    "preco": 56.24,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211050083",
+    "nome": "ELETRONEUROMIOGRAMA (ENMG)",
+    "preco": 348.93,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211050105",
+    "nome": "POLISSONOGRAFIA",
+    "preco": 819.01,
+    "pagina": 7
+  },
+  {
+    "codigo": "0211050156",
+    "nome": "VIDEO-ELETROENCEFALOGRAMA C/ REGISTRO PROLONGADO",
+    "preco": 563.77,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060011",
+    "nome": "BIOMETRIA ULTRASSONICA (MONOCULAR)",
+    "preco": 48.4,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060020",
+    "nome": "BIOMICROSCOPIA DE FUNDO DE OLHO",
+    "preco": 37.1,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060038",
+    "nome": "CAMPIMETRIA COMPUTADORIZADA OU MANUAL COM GRAFICO",
+    "preco": 94.18,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060062",
+    "nome": "CURVA DIARIA DE PRESSAO OCULAR CDPO (MINIMO 3 MEDIDAS)",
+    "preco": 43.75,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060070",
+    "nome": "ELETRO-OCULOGRAFIA",
+    "preco": 235.97,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060097",
+    "nome": "ESTESIOMETRIA",
+    "preco": 11.62,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060100",
+    "nome": "FUNDOSCOPIA",
+    "preco": 10.11,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060119",
+    "nome": "GONIOSCOPIA",
+    "preco": 19.96,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060127",
+    "nome": "MAPEAMENTO DE RETINA",
+    "preco": 46.97,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060135",
+    "nome": "MEDIDA DE OFUSCAMENTO E CONTRASTE",
+    "preco": 16.68,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060143",
+    "nome": "MICROSCOPIA ESPECULAR DE CORNEA",
+    "preco": 48.48,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060151",
+    "nome": "POTENCIAL DE ACUIDADE VISUAL",
+    "preco": 17.01,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060160",
+    "nome": "POTENCIAL VISUAL EVOCADO",
+    "preco": 39.09,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060178",
+    "nome": "RETINOGRAFIA COLORIDA BINOCULAR",
+    "preco": 43.66,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060186",
+    "nome": "RETINOGRAFIA FLUORESCENTE BINOCULAR",
+    "preco": 100.56,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060208",
+    "nome": "TESTE DE PROVOCACAO DE GLAUCOMA",
+    "preco": 21.35,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060216",
+    "nome": "TESTE DE SCHIRMER",
+    "preco": 33.93,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060224",
+    "nome": "TESTE DE VISAO DE CORES",
+    "preco": 7.02,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060232",
+    "nome": "TESTE ORTOPTICO",
+    "preco": 12.34,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060240",
+    "nome": "TESTE P/ ADAPTACAO DE LENTE DE CONTATO",
+    "preco": 30.31,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060259",
+    "nome": "TONOMETRIA",
+    "preco": 17.53,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211060267",
+    "nome": "TOPOGRAFIA COMPUTADORIZADA DE CORNEA",
+    "preco": 47.46,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211070033",
+    "nome": "AUDIOMETRIA EM CAMPO LIVRE",
+    "preco": 34.73,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211070041",
+    "nome": "AUDIOMETRIA TONAL LIMIAR (VIA AEREA / OSSEA)",
+    "preco": 86.88,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211070424",
+    "nome": "EMISSOES OTOACUSTICAS EVOCADAS PARA TRIAGEM AUDITIVA (TESTE DA ORELHINHA/RETESTE)",
+    "preco": 79.53,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211080055",
+    "nome": "ESPIROMETRIA OU PROVA DE FUNCAO PULMONAR COMPLETA COM BRONCODILATADOR",
+    "preco": 18.25,
+    "pagina": 8
+  },
+  {
+    "codigo": "0211080063",
+    "nome": "PROVA DE FUNCAO PULMONAR SIMPLES",
+    "preco": 6.86,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212010018",
+    "nome": "EXAMES IMUNOHEMATOLOGICOS EM DOADOR DE SANGUE",
+    "preco": 27.52,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212010026",
+    "nome": "EXAMES PRE-TRANSFUSIONAIS I",
+    "preco": 31.77,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212010034",
+    "nome": "EXAMES PRE-TRANSFUSIONAIS II",
+    "preco": 32.08,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212010042",
+    "nome": "FENOTIPAGEM K, FYA, FYB, JKA, JKB EM GEL",
+    "preco": 80.44,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212010050",
+    "nome": "SOROLOGIA DE DOADOR DE SANGUE",
+    "preco": 146.84,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212010069",
+    "nome": "TESTE DO ACIDO NUCLEICO (NAT) EM AMOSTRAS DE SANGUE DO DOADOR DE SANGUE.",
+    "preco": 14.76,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212020013",
+    "nome": "DELEUCOCITACAO DE CONCENTRADO DE HEMACIAS",
+    "preco": 82.81,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212020021",
+    "nome": "DELEUCOCITACAO DE CONCENTRADO DE PLAQUETAS",
+    "preco": 123.27,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212020030",
+    "nome": "IRRADIACAO DE SANGUE E COMPONENTES DESTINADOS A TRANSFUSAO",
+    "preco": 26.71,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212020056",
+    "nome": "PREPARO DE COMPONENTES LAVADOS",
+    "preco": 9.79,
+    "pagina": 8
+  },
+  {
+    "codigo": "0212020064",
+    "nome": "PROCESSAMENTO DE SANGUE",
+    "preco": 14.82,
+    "pagina": 8
+  },
+  {
+    "codigo": "0214010066",
+    "nome": "TESTE RAPIDO DE GRAVIDEZ",
+    "preco": 16.83,
+    "pagina": 8
+  },
+  {
+    "codigo": "0214010120",
+    "nome": "TESTE RAPIDO PARA DENGUE IGG/IGM",
+    "preco": 18.08,
+    "pagina": 8
+  },
+  {
+    "codigo": "0214010163",
+    "nome": "TESTE RAPIDO PARA DETECCAO DE SARS-COVID-2",
+    "preco": 80.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0301010048",
+    "nome": "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)",
+    "preco": 30.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0301010072",
+    "nome": "CONSULTA MEDICA EM ATENCAO ESPECIALIZADA",
+    "preco": 100.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0301040168",
+    "nome": "PROCEDIMENTO PRÉ-OPERATÓRIOS REALIZADOS NA REDE DE SAÚDE – COMPLEMENTAÇÃO",
+    "preco": 56.56,
+    "pagina": 8
+  },
+  {
+    "codigo": "0301060029",
+    "nome": "ATENDIMENTO DE URGENCIA C/ OBSERVACAO ATE 24 HORAS EM ATENCAO ESPECIALIZADA",
+    "preco": 884.1,
+    "pagina": 8
+  },
+  {
+    "codigo": "0301060061",
+    "nome": "ATENDIMENTO DE URGENCIA EM ATENCAO ESPECIALIZADA",
+    "preco": 211.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0301130051",
+    "nome": "ACOMPANHAMENTO MULTIPROFISSIONAL EM DRC ESTAGIO 04 PRE DIALISE",
+    "preco": 82.5,
+    "pagina": 8
+  },
+  {
+    "codigo": "0301130060",
+    "nome": "ACOMPANHAMENTO MULTIPROFISSIONAL EM DRC ESTAGIO 05 PRE DIALISE",
+    "preco": 82.5,
+    "pagina": 8
+  },
+  {
+    "codigo": "0302040030",
+    "nome": "ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM TRANSTORNO CLINICO CARDIOVASCULAR",
+    "preco": 30.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0302040048",
+    "nome": "ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE PRE/POS CIRURGIA CARDIOVASCULAR",
+    "preco": 30.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0302040064",
+    "nome": "ATENDIMENTO FISIOTERAPEUTICO EM PACIENTE COM SINDROME CORONARIANA AGUDA",
+    "preco": 30.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0302050019",
+    "nome": "ATENDIMENTO FISIOTERAPEUTICO EM PACIENTES NO PRE E POS- OPERATORIO NAS DISFUNCOES MUSCULO ESQUE",
+    "preco": 30.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0302050027",
+    "nome": "ATENDIMENTO FISIOTERAPEUTICO NAS ALTERACOES MOTORAS",
+    "preco": 30.0,
+    "pagina": 8
+  },
+  {
+    "codigo": "0304010170",
+    "nome": "NARCOSE DE CRIANÇA (POR PROCEDIMENTO)",
+    "preco": 41.97,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010340",
+    "nome": "NARCOSE PARA BRAQUITERAPIA (POR PROCEDIMENTO)",
+    "preco": 39.21,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010367",
+    "nome": "RADIOTERAPIA DE CABECA E PESCOCO",
+    "preco": 5527.82,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010375",
+    "nome": "RADIOTERAPIA DO APARELHO DIGESTIVO",
+    "preco": 5501.3,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010383",
+    "nome": "RADIOTERAPIA DE TRAQUEIA, BRONQUIO, PULMAO, PLEURA E MEDIASTINO",
+    "preco": 4725.44,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010391",
+    "nome": "RADIOTERAPIA DE OSSOS/CARTILAGENS/PARTES MOLES",
+    "preco": 4462.77,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010405",
+    "nome": "RADIOTERAPIA DE PELE",
+    "preco": 2463.61,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010413",
+    "nome": "RADIOTERAPIA DE MAMA",
+    "preco": 7977.8,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010421",
+    "nome": "RADIOTERAPIA DE CANCER GINECOLOGICO",
+    "preco": 6111.38,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010430",
+    "nome": "BRAQUITERAPIA GINECOLOGICA",
+    "preco": 5363.6,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010448",
+    "nome": "RADIOTERAPIA DE PENIS",
+    "preco": 6140.55,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010456",
+    "nome": "RADIOTERAPIA DE PROSTATA",
+    "preco": 7874.02,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010464",
+    "nome": "BRAQUITERAPIA DE PRÓSTATA",
+    "preco": 10706.71,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010472",
+    "nome": "RADIOTERAPIA DO APARELHO URINARIO",
+    "preco": 5428.36,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010480",
+    "nome": "RADIOTERAPIA DE OLHOS E ANEXOS",
+    "preco": 4340.83,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010502",
+    "nome": "RADIOTERAPIA DE SISTEMA NERVOSO CENTRAL",
+    "preco": 4347.46,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010510",
+    "nome": "RADIOTERAPIA ESTEREOTÁXICA",
+    "preco": 5884.93,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010529",
+    "nome": "RADIOTERAPIA DE METASTASE EM SISTEMA NERVOSO CENTRAL",
+    "preco": 3234.73,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010537",
+    "nome": "RADIOTERAPIA DE PLASMOCITOMA / MIELOMA / METASTASES EM OUTRAS LOCALIZACOES",
+    "preco": 2293.09,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010545",
+    "nome": "RADIOTERAPIA DE CADEIA LINFATICA",
+    "preco": 5527.82,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010553",
+    "nome": "RADIOTERAPIA DE LINFOMA E LEUCEMIA",
+    "preco": 4189.63,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010561",
+    "nome": "RADIOTERAPIA EM CORPO INTEIRO",
+    "preco": 3554.85,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010570",
+    "nome": "RADIOTERAPIA DE QUELOIDE E GINECOMASTIA",
+    "preco": 1263.92,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304010588",
+    "nome": "RADIOTERAPIA DE DOENCA BENIGNA",
+    "preco": 786.47,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020010",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE COLON AVANCADO -1Â¦ LINHA",
+    "preco": 2224.0,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020028",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE COLON AVANCADO - 2Â¦ LINHA",
+    "preco": 4243.11,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020036",
+    "nome": "HORMONIOTERAPIA DO ADENOCARCINOMA DE ENDOMETRIO AVANCADO",
+    "preco": 547.03,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020044",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE ESTOMAGO AVANCADO",
+    "preco": 1090.35,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020052",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE PANCREAS AVANCADO",
+    "preco": 3789.04,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020060",
+    "nome": "HORMONIOTERAPIA DO ADENOCARCINOMA DE PROSTATA AVANCADO - 2Â¦ LINHA",
+    "preco": 283.96,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020079",
+    "nome": "HORMONIOTERAPIA DO ADENOCARCINOMA DE PROSTATA AVANCADO - 1Â¦ LINHA",
+    "preco": 582.01,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020087",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE PROSTATA RESISTENTE A HORMONIOTERAPIA",
+    "preco": 2051.31,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020095",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE RETO AVANCADO -1Â¦ LINHA",
+    "preco": 2660.23,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020109",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE RETO AVANCADO - 2Â¦ LINHA",
+    "preco": 4243.11,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020117",
+    "nome": "QUIMIOTERAPIA DO APUDOMA/TUMOR NEUROENDOCRINO AVANCADO",
+    "preco": 2027.4,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020125",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE ADRENAL AVANCADO",
+    "preco": 1644.49,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020133",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE MAMA AVANCADO -1Â¦ LINHA",
+    "preco": 2204.93,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020141",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE MAMA AVANCADO - 2Â¦ LINHA",
+    "preco": 4598.12,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020150",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE NASOFARINGE AVANCADO",
+    "preco": 1090.35,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020168",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE RIM AVANCADO",
+    "preco": 3693.35,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020176",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE / ADENOCARCINOMA DE ESOFAGO AVANCADO",
+    "preco": 1090.35,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020184",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE / ADENOCARCINOMA DO COLO OU DO CORPO UTERINO AVANCADO",
+    "preco": 1090.35,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020192",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE DE CANAL ANAL/ MARGEM ANAL AVANCADO",
+    "preco": 1307.43,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020206",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE DE CABECA E PESCOCO AVANCADO",
+    "preco": 1307.43,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020214",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA PULMONAR DE CELULAS NAO PEQUENAS AVANCADO",
+    "preco": 1682.71,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020222",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA PULMONAR INDIFERENCIADO DE CELULAS PEQUENAS AVANCADO",
+    "preco": 2062.89,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020230",
+    "nome": "QUIMIOTERAPIA DO MELANOMA MALIGNO AVANCADO",
+    "preco": 9432.06,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020249",
+    "nome": "QUIMIOTERAPIA DE METASTASE DE ADENOCARCINOMA DE ORIGEM DESCONHECIDA",
+    "preco": 1090.35,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020257",
+    "nome": "QUIMIOTERAPIA DE METASTASE DE CARCINOMA EPIDERMOIDE/CARCINOMA NEUROENDOCRINO DE ORIGEM DESCONHECIDA",
+    "preco": 1307.43,
+    "pagina": 9
+  },
+  {
+    "codigo": "0304020265",
+    "nome": "QUIMIOTERAPIA DE METASTASE DE NEOPLASIA MALIGNA INDIFERENCIADA DE ORIGEM DESCONHECIDA",
+    "preco": 2027.4,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020273",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA MALIGNA EPITELIAL DE OVARIO OU DE TUBA UTERINA AVANCADA -1Â¦ LINHA.",
+    "preco": 1924.93,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020281",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA MALIGNA EPITELIAL DE OVARIO OU DE TUBA UTERINA AVANCADA - 2Â¦ LINHA)",
+    "preco": 3530.59,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020290",
+    "nome": "QUIMIOTERAPIA DE SARCOMA DE PARTES MOLES AVANCADO",
+    "preco": 1307.43,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020303",
+    "nome": "QUIMIOTERAPIA DE SARCOMA OSSEO AVANCADO",
+    "preco": 1307.43,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020311",
+    "nome": "QUIMIOTERAPIA DO TUMOR DO ESTROMA GASTROINTESTINAL AVANCADO",
+    "preco": 29.48,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020320",
+    "nome": "QUIMIOTERAPIA DE TUMOR DO SISTEMA NERVOSO CENTRAL AVANCADO",
+    "preco": 1307.43,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020338",
+    "nome": "HORMONIOTERAPIA DO CARCINOMA DE MAMA AVANCADO - 2Â¦ LINHA",
+    "preco": 582.76,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020346",
+    "nome": "HORMONIOTERAPIA DO CARCINOMA DE MAMA AVANCADO- 1Â¦ LINHA",
+    "preco": 154.15,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020362",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE TIREOIDE AVANCADO",
+    "preco": 815.62,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020370",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE PENIS AVANCADO",
+    "preco": 1307.43,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020389",
+    "nome": "QUIMIOTERAPIA DE CARCINOMA DO FIGADO OU DO TRATO BILIAR AVANCADO",
+    "preco": 1014.18,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020397",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA MALIGNA DO TIMO AVANCADA",
+    "preco": 1014.18,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020400",
+    "nome": "QUIMIOTERAPIA DE CARCINOMA UROTELIAL AVANCADO",
+    "preco": 2306.98,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020419",
+    "nome": "POLIQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO ? 1Â¦ LINHA",
+    "preco": 2350.3,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020427",
+    "nome": "MONOQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO ? 1Â¦ LINHA",
+    "preco": 47.01,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020435",
+    "nome": "POLIQUIMIOTERAPIA COM DUPLO ANTI HER-2 DO CARCINOMA DE MAMA HER-2 POSITIVO 1Â¦ LINHA",
+    "preco": 2330.16,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304020443",
+    "nome": "QUIMIOTERAPIA COM DUPLO ANTI-HER-2 DO CARCINOMA DE MAMA HER- 2 POSITIVO ? 1Â¦ LINHA",
+    "preco": 46.74,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030015",
+    "nome": "QUIMIOTERAPIA DE DOENCA LINFOPROLIFERATIVA RARA -1Â¦ LINHA.",
+    "preco": 1017.49,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030023",
+    "nome": "QUIMIOTERAPIA DE DOENCA LINFOPROLIFERATIVA RARA - 2Â¦ LINHA",
+    "preco": 1625.89,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030031",
+    "nome": "QUIMIOTERAPIA DE DOENCA MIELOPROLIFERATIVA RARA - 1Â¦ LINHA",
+    "preco": 182.83,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030040",
+    "nome": "QUIMIOTERAPIA DE DOENCA MIELOPROLIFERATIVA RARA - 2Â¦ LINHA.",
+    "preco": 4038.12,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030058",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA LINFOCITICA CRONICA - 1Â¦ LINHA.",
+    "preco": 427.45,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030066",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA LINFOCITICA CRONICA - 2Â¦ LINHA.",
+    "preco": 2119.49,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030074",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA MIELOIDE CRONICA QUALQUER FASE - CONTROLE SANGUINEO",
+    "preco": 154.06,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030090",
+    "nome": "QUIMIOTERAPIA DA LEUCEMIA MIELOIDE CRONICA EM FASE BLASTICA - MARCADOR POSITIVO - SEM FASE CRONICA",
+    "preco": 29.48,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030104",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA MIELOIDE CRONICA EM FASE BLASTICA - MARCADOR POSITIVO-3Â¦ LINHA",
+    "preco": 3312.45,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030112",
+    "nome": "QUIMIOTERAPIA DA LEUCEMIA MIELOIDE CRONICA EM FASE CRONICA - MARCADOR POSITIVO - 1Â¦ LINHA.",
+    "preco": 29.48,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030120",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA MIELOIDE CRONICA EM FASE CRONICA - MARCADOR POSITIVO - 3Â¦ LINHA",
+    "preco": 4837.42,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030139",
+    "nome": "QUMIOTERAPIA DE LEUCEMIA MIELOIDE CRONICA EM FASE DE TRANSFORMACAO - MARCADOR POSITIVO - 3Â¦ LINH",
+    "preco": 2673.31,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030147",
+    "nome": "QUIMIOTERAPIA DA LEUCEMIA MIELOIDE CRONICA EM FASE DE TRANSFORMACAO - MARCADOR POSITIVO - 2Â¦LINH",
+    "preco": 25.64,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030155",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA MIELOIDE CRONICA EM FASE DE TRANSFORMACAO - MARCADOR POSITIVO - SEM FAS",
+    "preco": 29.48,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030163",
+    "nome": "QUIMIOTERAPIA DE LINFOMA NAO HODGKIN DE BAIXO GRAU DE MALIGNIDADE (1Â¦ LINHA)",
+    "preco": 1017.49,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030171",
+    "nome": "QUIMIOTERAPIA DE LINFOMA NAO HODGKIN DE BAIXO GRAU DE MALIGNIDADE - 2Â¦LINHA",
+    "preco": 2043.89,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030180",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA DE CELULAS PLASMATICAS - 1Â¦ LINHA.",
+    "preco": 815.62,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030198",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA DE CELULAS PLASMATICAS - 2Â¦ LINHA.",
+    "preco": 3273.15,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030201",
+    "nome": "QUIMIOTERAPIA DA TRICOLEUCEMIA - 2Â¦ LINHA",
+    "preco": 3780.83,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030210",
+    "nome": "QUIMIOTERAPIA DE TRICOLEUCEMIA - 1Â¦LINHA.",
+    "preco": 8234.03,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030228",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA MIELOIDE CRONICA EM FASE CRONICA - MARCADOR POSITIVO - 2Â¦ LINHA",
+    "preco": 25.64,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030236",
+    "nome": "QUIMIOTERAPIA DE LINFOMA FOLICULAR- 1Â¦ LINHA",
+    "preco": 3263.35,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030244",
+    "nome": "QUIMIOTERAPIA DE LINFOMA FOLICULAR - 2Â¦ LINHA",
+    "preco": 3931.8,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030252",
+    "nome": "QUIMIOTERAPIA DE MIELOMA MULTIPLO ? 1Â¦ LINHA",
+    "preco": 6819.4,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304030260",
+    "nome": "QUIMIOTERAPIA DE MIELOMA MULTIPLO ? 2Â¦ LINHA",
+    "preco": 6819.4,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304040010",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE RETO (PREVIA)",
+    "preco": 1090.35,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304040029",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE MAMA (PREVIA)",
+    "preco": 2382.89,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304040045",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE / ADENOCARCINOMA DO COLO UTERINO",
+    "preco": 2905.63,
+    "pagina": 10
+  },
+  {
+    "codigo": "0304040053",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE DE RETO/ CANAL ANAL/ MARGEM ANAL",
+    "preco": 1307.43,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040061",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE DE SEIO PARA-NASAL/ LARINGE / HIPOFARINGE/ OROFARINGE /CAVIDA",
+    "preco": 2621.72,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040070",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE BEXIGA",
+    "preco": 1782.43,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040088",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE NASOFARINGE",
+    "preco": 2905.63,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040096",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA PULMONAR DE CELULAS NAO PEQUENAS (PREVIA)",
+    "preco": 3352.06,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040100",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA PULMONAR INDIFERENCIADO DE CELULAS PEQUENAS (PREVIA)",
+    "preco": 3352.06,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040118",
+    "nome": "QUIMIOTERAPIA DE CARCINOMA EPIDERMOIDE / ADENOCARCINOMA DE ESOFAGO",
+    "preco": 2621.72,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040126",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA EPIDERMOIDE DE VULVA",
+    "preco": 2621.72,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040134",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA MALIGNA EPITELIAL DE OVARIO OU DA TUBA UTERINA - 2Â¦ LINHA",
+    "preco": 3530.59,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040142",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA MALIGNA EPITELIAL DE OVARIO OU DA TUBA UTERINA - 1Â¦ LINHA",
+    "preco": 3656.19,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040150",
+    "nome": "QUIMIOTERAPIA DE OSTEOSSARCOMA - 2ª LINHA.",
+    "preco": 15386.06,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040169",
+    "nome": "QUIMIOTERAPIA DE SARCOMA OSSEO / OSTEOSSARCOMA - 1Â¦ LINHA",
+    "preco": 2762.03,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040177",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE ESTOMAGO (PRE- OPERATORIA)",
+    "preco": 2306.98,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040185",
+    "nome": "POLIQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO EM ESTADIO III (PREVIA)",
+    "preco": 2305.39,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040193",
+    "nome": "HORMONIOTERAPIA DO CARCINOMA DE MAMA EM ESTADIO III (PREVIA)",
+    "preco": 119.99,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304040207",
+    "nome": "HORMONIOTERAPIA PREVIA A RADIOTERAPIA EXTERNA DO ADENOCARCINOMA DE PROSTATA",
+    "preco": 440.31,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050016",
+    "nome": "QUIMIOTERAPIA INTRA-VESICAL",
+    "preco": 1300.0,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050024",
+    "nome": "QUIMIOTERAPIA DE ADENOCARCINOMA DE COLON",
+    "preco": 2522.29,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050032",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE RETO (ADJUVANTE)",
+    "preco": 815.62,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050040",
+    "nome": "HORMONIOTERAPIA DO CARCINOMA DE MAMA EM ESTADIO I",
+    "preco": 154.15,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050067",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE MAMA EM ESTADIO III",
+    "preco": 1310.68,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050075",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE MAMA EM ESTADIO II",
+    "preco": 984.41,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050113",
+    "nome": "HORMONIOTERAPIA DO CARCINOMA DE MAMA EM ESTADIO III",
+    "preco": 154.15,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050121",
+    "nome": "HORMONIOTERAPIA DO CARCINOMA DE MAMA EM ESTADIO II",
+    "preco": 154.15,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050130",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA DE MAMA EM ESTADIO I",
+    "preco": 761.62,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050172",
+    "nome": "QUIMIOTERAPIA DO CARCINOMA PULMONAR DE CELULAS NAO PEQUENAS (ADJUVANTE)",
+    "preco": 2062.89,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050180",
+    "nome": "QUIMIOTERAPIA DE CARCINOMA PULMONAR INDIFERENCIADO DE CÉLULAS PEQUENAS (ADJUVANTE)",
+    "preco": 2062.89,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050202",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA MALIGNA EPITELIAL DE OVARIO OU DA TUBA UTERINA",
+    "preco": 2395.39,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050210",
+    "nome": "QUIMIOTERAPIA DO OSTEOSSARCOMA",
+    "preco": 3327.53,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050229",
+    "nome": "QUIMIOTERAPIA DE SARCOMA DE PARTES MOLES DE EXTREMIDADE",
+    "preco": 4081.6,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050253",
+    "nome": "QUIMIOTERAPIA DO ADENOCARCINOMA DE ESTOMAGO (POS OPERATORIA)",
+    "preco": 1014.18,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050261",
+    "nome": "POLIQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO EM ESTADIO I (ADJUVANTE)",
+    "preco": 941.09,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050270",
+    "nome": "POLIQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO EM ESTADIO II (ADJUVANTE)",
+    "preco": 1317.37,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050288",
+    "nome": "POLIQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO EM ESTADIO III (ADJUVANTE)",
+    "preco": 1317.37,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050296",
+    "nome": "MONOQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO EM ESTADIO I (ADJUVANTE)",
+    "preco": 75.34,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050300",
+    "nome": "MONOQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO EM ESTADIO II (ADJUVANTE)",
+    "preco": 56.15,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050318",
+    "nome": "MONOQUIMIOTERAPIA DO CARCINOMA DE MAMA HER-2 POSITIVO EM ESTADIO III (ADJUVANTE)",
+    "preco": 56.15,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050326",
+    "nome": "QUIMIOTERAPIA DE MELANOMA MALIGNO",
+    "preco": 2013.37,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050334",
+    "nome": "QUIMIOTERAPIA DE TUMOR DO ESTROMA GASTRO INTESTINAL",
+    "preco": 26.12,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304050342",
+    "nome": "HORMONIOTERAPIA ADJUVANTE A RADIOTERAPIA EXTERNA DO ADENOCARCINOMA DE PROSTATA",
+    "preco": 440.31,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304060011",
+    "nome": "QUIMIOTERAPIA DA DOENCA DE HODGKIN - 1Â¦ LINHA",
+    "preco": 1605.2,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304060038",
+    "nome": "QUIMIOTERAPIA DA DOENCA DE HODGKIN - 2Â¦ LINHA",
+    "preco": 2582.42,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304060046",
+    "nome": "QUIMIOTERAPIA DA DOENCA DE HODGKIN - 3Â¦ LINHA",
+    "preco": 6865.68,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304060070",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA AGUDA/ MIELODISPLASIA / LINFOMA DE BURKITT - 1Â¦ LINHA",
+    "preco": 2980.53,
+    "pagina": 11
+  },
+  {
+    "codigo": "0304060089",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA AGUDA/ MIELODISPLASIA/LINFOMA LINFOBLASTICO/ LINFOMA DE BURKITT - 2Â¦ LINH",
+    "preco": 2125.53,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060097",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA AGUDA/ MIELODISPLASIA/ LINFOMA LINFOBLASTICO/ LINFOMA DE BURKITT 3Â¦ LINHA",
+    "preco": 1584.53,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060100",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA AGUDA/MIELODISPLASIA/ LINFOMA LINFOBLASTICO/ LINFOMA DE BURKITT - 4Â¦ LINH",
+    "preco": 1201.66,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060119",
+    "nome": "QUIMIOTERAPIA DE LINFOMA NAO HODGKIN GRAU INTERMEDIARIO OU ALTO - 2Â¦ LINHA",
+    "preco": 2762.03,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060127",
+    "nome": "QUIMIOTERAPIA DE LINFOMA NAO HODGKIN GRAU INTERMEDIARIO OU ALTO - 3Â¦ LINHA",
+    "preco": 3682.38,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060135",
+    "nome": "QUIMIOTERAPIA DE LINFOMA NAO HODGKIN DE GRAU DE MALIGNIDADE INTERMEDIARIO OU ALTO - 1Â¦ LINHA",
+    "preco": 1397.71,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060151",
+    "nome": "QUIMIOTERAPIA DE TUMOR GERMINATIVO EXTRA-GONADAL",
+    "preco": 4595.16,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060160",
+    "nome": "QUIMIOTERAPIA DE TUMOR GERMINATIVO DE OVARIO",
+    "preco": 2632.89,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060178",
+    "nome": "QUIMIOTERAPIA DE NEOPLASIA TROFOBLASTICA GESTACIONAL - BAIXO RISCO",
+    "preco": 1860.37,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060208",
+    "nome": "QUIMIOTERAPIA DE TUMOR GERMINATIVO DE TESTICULO - 1Â¦ LINHA",
+    "preco": 3001.72,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060216",
+    "nome": "QUIMIOTERAPIA DE TUMOR GERMINATIVO DE TESTICULO - 2Â¦ LINHA",
+    "preco": 3922.06,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060224",
+    "nome": "QUIMIOTERAPIA DE LINFOMA DIFUSO DE GRANDES CELULAS B ? 1Â¦ LINHA",
+    "preco": 1206.63,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060232",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA LINFOIDE/LINFOBLASTICA AGUDA, LINFOMA LINFOBLASTICO, LEUCEMIA MIELOIDE AG",
+    "preco": 15842.18,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304060240",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA LINFOIDE/LINFOBLASTICA AGUDA , LINFOMA LINFOBLASTICO, LEUCEMIA MIELOIDE A",
+    "preco": 586.67,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304070017",
+    "nome": "QUIMIOTERAPIA DE CANCER NA INFANCIA E ADOLESCENCIA - 1Â¦ LINHA",
+    "preco": 2797.57,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304070025",
+    "nome": "QUIMIOTERAPIA DE CANCER NA INFANCIA E ADOLESCENCIA - 2Â¦ LINHA",
+    "preco": 2636.23,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304070033",
+    "nome": "QUIMIOTERAPIA DE CÂNCER NA INFÂNCIA E ADOLESCÊNCIA - 4ª LINHA",
+    "preco": 1729.68,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304070041",
+    "nome": "QUIMIOTERAPIA DE CANCER NA INFANCIA E ADOLESCENCIA - 3Â¦ LINHA",
+    "preco": 2083.55,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304070050",
+    "nome": "QUIMIOTERAPIA DE ALTA DOSE DE OSTEOSSARCOMA NA INFANCIA E ADOLESCENCIA",
+    "preco": 13900.46,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304070068",
+    "nome": "QUIMIOTERAPIA DE LEUCEMIA LINFOIDE/LINFOBLASTICA AGUDA , LINFOMA LINFOBLASTICO, LEUCEMIA MIELOIDE A",
+    "preco": 11822.65,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304070076",
+    "nome": ".QUIMIOTERAPIA DE LEUCEMIA LINFOIDE/LINFOBLASTICA AGUDA, LEUCEMIA MIELOIDE AGUDA E LEUCEMIA PROMIELO",
+    "preco": 561.21,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304080012",
+    "nome": "FATOR ESTIMULANTE DO CRESCIMENTO DE COLONIAS DE GRANULOCITOS / MACROFAGOS",
+    "preco": 1661.76,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304080055",
+    "nome": "QUIMIOTERAPIA INTRA-TECAL",
+    "preco": 600.85,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304080071",
+    "nome": "INIBIDOR DA OSTEOLISE",
+    "preco": 857.59,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304090050",
+    "nome": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DE TIREOIDE( 30mCi)",
+    "preco": 695.76,
+    "pagina": 12
+  },
+  {
+    "codigo": "0304090069",
+    "nome": "IODOTERAPIA DE CARCINOMA DIFERENCIADO DE TIREOIDE( 50mCi)",
+    "preco": 963.91,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010018",
+    "nome": "DIÁLISE PERITONEAL INTERMITENTE DPI (1 SESSÃO POR SEMANA - EXCEPCIONALIDADE)",
+    "preco": 257.45,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010026",
+    "nome": "DIALISE PERITONEAL INTERMITENTE DPI (MAXIMO 2 SESSOES POR SEMANA)",
+    "preco": 222.52,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010093",
+    "nome": "HEMODIALISE (MAXIMO 1 SESSAO POR SEMANA - EXCEPCIONALIDADE)",
+    "preco": 404.14,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010107",
+    "nome": "HEMODIALISE (MAXIMO 3 SESSOES POR SEMANA)",
+    "preco": 353.12,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010115",
+    "nome": "HEMODIALISE EM PACIENTE COM SOROLOGIA POSITIVA PARA HIV E/OU HEPATITE B E/OU HEPATITE C (MAXIMO 3 S",
+    "preco": 832.39,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010123",
+    "nome": "HEMODIALISE EM PACIENTE COM SOROLOGIA POSITIVA PARA HIV E/OU HEPATITE B E/OU HEPATITE C (EXCEPCIONAL",
+    "preco": 485.36,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010166",
+    "nome": "MANUTENCAO E ACOMPANHAMENTO DOMICILIAR DE PACIENTE SUBMETIDO A DPA /DPAC",
+    "preco": 725.76,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010182",
+    "nome": "TREINAMENTO DE PACIENTE SUBMETIDO A DIALISE PERITONEAL - DPAC- DPA (9 DIAS)",
+    "preco": 203.06,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010204",
+    "nome": "HEMODIALISE PEDIATRICA (MAXIMO 04 SESSOES POR SEMANA)",
+    "preco": 558.33,
+    "pagina": 12
+  },
+  {
+    "codigo": "0305010212",
+    "nome": "IDENTIFICAÇÃO DE PACIENTE SOB TRATAMENTO DIALÍTICO EM TRÂNSITO",
+    "preco": 41.64,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306010011",
+    "nome": "COLETA DE SANGUE P/ TRANSFUSAO",
+    "preco": 32.54,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306010020",
+    "nome": "COLETA DE SANGUE P/ TRANSFUSAO (C/ PROCESSADORA AUTOMATICA)",
+    "preco": 789.45,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306010038",
+    "nome": "TRIAGEM CLINICA DE DOADOR (A) DE SANGUE",
+    "preco": 105.95,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306020017",
+    "nome": "AFERESE TERAPEUTICA",
+    "preco": 3242.59,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306020025",
+    "nome": "APLICACAO DE CONCENTRADO DO FATOR IX DA COAGULACAO.",
+    "preco": 40.36,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306020033",
+    "nome": "APLICACAO DE FATOR VIII DE COAGULACAO",
+    "preco": 10.15,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306020041",
+    "nome": "SANGRIA TERAPEUTICA",
+    "preco": 150.0,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306020068",
+    "nome": "TRANSFUSAO DE CONCENTRADO DE HEMACIAS",
+    "preco": 920.53,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306020076",
+    "nome": "TRANSFUSAO DE CONCENTRADO DE PLAQUETAS",
+    "preco": 704.99,
+    "pagina": 12
+  },
+  {
+    "codigo": "0306020084",
+    "nome": "TRANSFUSAO DE CRIOPRECIPITADO",
+    "preco": 705.84,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020092",
+    "nome": "TRANSFUSAO DE PLAQUETAS POR AFERESE",
+    "preco": 3955.58,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020106",
+    "nome": "TRANSFUSAO DE PLASMA FRESCO",
+    "preco": 697.34,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020114",
+    "nome": "TRANSFUSAO DE PLASMA ISENTO DE CRIOPRECIPITADO",
+    "preco": 15.23,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020122",
+    "nome": "TRANSFUSAO DE SANGUE / COMPONENTES IRRADIADOS",
+    "preco": 61.65,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020130",
+    "nome": "TRANSFUSAO DE SUBSTITUICAO / TROCA (EXSANGUINEOTRANSFUSAO)",
+    "preco": 2260.0,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020149",
+    "nome": "TRANSFUSAO DE UNIDADE DE SANGUE TOTAL",
+    "preco": 15.8,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020157",
+    "nome": "TRANSFUSAO FETAL INTRA-UTERINA",
+    "preco": 33.48,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020165",
+    "nome": "APLICACAO DE CONCENTRADO DE FATOR VIII PARA DOENCA DE VON WILLEBRAND",
+    "preco": 6.87,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020173",
+    "nome": "APLICACAO DE CONCENTRADO DO FATOR DE VII ATIVADO RECOMBINANTE",
+    "preco": 6.87,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020181",
+    "nome": "APLICAÇÃO DE CONCENTRADO DO FATOR XIII DA COAGULAÇÃO",
+    "preco": 6.87,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020190",
+    "nome": "APLICAÇÃO DO COMPLEXO PROTROMBÍNICO",
+    "preco": 6.87,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020203",
+    "nome": "APLICACAO DE COMPLEXO PROTROMBINICO PARCIALMENTE ATIVADO",
+    "preco": 6.87,
+    "pagina": 13
+  },
+  {
+    "codigo": "0306020211",
+    "nome": "APLICAÇÃO DE CONCENTRADO DE FATOR I - FIBRINOGÊNIO",
+    "preco": 6.87,
+    "pagina": 13
+  },
+  {
+    "codigo": "0401010015",
+    "nome": "CURATIVO GRAU II C/ OU S/ DEBRIDAMENTO",
+    "preco": 338.94,
+    "pagina": 13
+  },
+  {
+    "codigo": "0401020088",
+    "nome": "EXERESE DE CISTO SACRO-COCCIGEO",
+    "preco": 119.44,
+    "pagina": 13
+  },
+  {
+    "codigo": "0401020150",
+    "nome": "TRATAMENTO CIRÚRGICO DO SINUS PRÉ-AURICULAR",
+    "preco": 113.76,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404010016",
+    "nome": "ADENOIDECTOMIA",
+    "preco": 4478.19,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404010024",
+    "nome": "AMIGDALECTOMIA",
+    "preco": 2683.05,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404010032",
+    "nome": "AMIGDALECTOMIA COM ADENOIDECTOMIA",
+    "preco": 3000.0,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404010121",
+    "nome": "EXÉRESE DE TUMOR DE VIAS AEREAS SUPERIORES, FACE E PESCOÇO",
+    "preco": 147.88,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404010318",
+    "nome": "RETIRADA DE CORPO ESTRANHO DE OUVIDO / FARINGE / LARINGE / NARIZ",
+    "preco": 105.68,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404010415",
+    "nome": "TURBINECTOMIA",
+    "preco": 1073.21,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404010512",
+    "nome": "SINUSOTOMIA TRANSMAXILAR",
+    "preco": 1865.99,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404020038",
+    "nome": "CORRECAO CIRURGICA DE FISTULA ORO-NASAL / ORO-SINUSAL",
+    "preco": 182.72,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404020089",
+    "nome": "EXCISAO DE RANULA OU FENOMENO DE RETENCAO SALIVAR",
+    "preco": 86.56,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404020313",
+    "nome": "RETIRADA DE CORPO ESTRANHO DOS OSSOS DA FACE",
+    "preco": 392.4,
+    "pagina": 13
+  },
+  {
+    "codigo": "0404020488",
+    "nome": "OSTEOTOMIA DAS FRATURAS ALVEOLO-DENTARIAS",
+    "preco": 208.0,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010010",
+    "nome": "CORRECAO CIRURGICA DE ENTROPIO E ECTROPIO",
+    "preco": 407.48,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010028",
+    "nome": "CORREÇÃO CIRÚRGICA DE EPICANTO E TELECANTO",
+    "preco": 557.8,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010036",
+    "nome": "DACRIOCISTORRINOSTOMIA",
+    "preco": 1363.74,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010044",
+    "nome": "DRENAGEM DE ABSCESSO DE PALPEBRA",
+    "preco": 58.26,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010052",
+    "nome": "EPILACAO A LASER",
+    "preco": 72.17,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010060",
+    "nome": "EPILACAO DE CILIOS",
+    "preco": 193.63,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010079",
+    "nome": "EXERESE DE CALAZIO E OUTRAS PEQUENAS LESOES DA PALPEBRA E SUPERCILIOS",
+    "preco": 157.5,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010109",
+    "nome": "OCLUSAO DE PONTO LACRIMAL",
+    "preco": 49.1,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010117",
+    "nome": "RECONSTITUICAO DE CANAL LACRIMAL",
+    "preco": 1301.42,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010125",
+    "nome": "RECONSTITUICAO PARCIAL DE PALPEBRA COM TARSORRAFIA",
+    "preco": 844.47,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010141",
+    "nome": "SIMBLEFAROPLASTIA",
+    "preco": 504.23,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010168",
+    "nome": "SONDAGEM DE VIAS LACRIMAIS",
+    "preco": 61.16,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010176",
+    "nome": "SUTURA DE PALPEBRAS",
+    "preco": 270.05,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010184",
+    "nome": "TRATAMENTO CIRURGICO DE BLEFAROCALASE",
+    "preco": 474.66,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010192",
+    "nome": "TRATAMENTO CIRURGICO DE TRIQUIASE C/ OU S/ ENXERTO",
+    "preco": 500.39,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405010206",
+    "nome": "PUNCTOPLASTIA",
+    "preco": 49.03,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405020015",
+    "nome": "CORRECAO CIRURGICA DE ESTRABISMO (ACIMA DE 2 MUSCULOS)",
+    "preco": 1661.76,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405020023",
+    "nome": "CORREÇÃO CIRÚRGICA DO ESTRABISMO (ATE 2 MUSCULOS)",
+    "preco": 1167.82,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030029",
+    "nome": "BIOPSIA DE TUMOR INTRA OCULAR",
+    "preco": 302.4,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030037",
+    "nome": "CRIOTERAPIA OCULAR",
+    "preco": 492.7,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030045",
+    "nome": "FOTOCOAGULACAO A LASER",
+    "preco": 284.25,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030053",
+    "nome": "INJECAO INTRA-VITREO",
+    "preco": 461.26,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030070",
+    "nome": "RETINOPEXIA COM INTROFLEXÃO ESCLERAL",
+    "preco": 1798.94,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030096",
+    "nome": "SUTURA DE ESCLERA",
+    "preco": 461.28,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030100",
+    "nome": "TRATAMENTO CIRURGICO DE DEISCENCIA DE SUTURA DE ESCLERA",
+    "preco": 266.9,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030118",
+    "nome": "TRATAMENTO CIRURGICO DE MIIASE PALPEBRAL",
+    "preco": 40.69,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030134",
+    "nome": "VITRECTOMIA ANTERIOR",
+    "preco": 762.16,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030150",
+    "nome": "VITRIOLISE A YAG LASER",
+    "preco": 307.34,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030193",
+    "nome": "PAN-FOTOCOAGULACAO DE RETINA A LASER",
+    "preco": 1106.08,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030215",
+    "nome": "RETINOPEXIA PNEUMATICA",
+    "preco": 847.16,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030223",
+    "nome": "REMOCAO DE OLEO DE SILICONE",
+    "preco": 1058.54,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405030231",
+    "nome": "REMOÇÃO DE IMPLANTE EPISCLERAL",
+    "preco": 788.89,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405040016",
+    "nome": "CORREÇÃO CIRURGICA DE LAGOFTALMO",
+    "preco": 581.87,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405040067",
+    "nome": "ENUCLEAÇÃO DE GLOBO OCULAR",
+    "preco": 867.18,
+    "pagina": 13
+  },
+  {
+    "codigo": "0405040075",
+    "nome": "EVISCERAÇÃO DE GLOBO OCULAR",
+    "preco": 1060.85,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405040105",
+    "nome": "EXPLANTE DE LENTE INTRA OCULAR",
+    "preco": 1447.21,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405040130",
+    "nome": "INJECAO RETROBULBAR / PERIBULBAR",
+    "preco": 96.52,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405040199",
+    "nome": "TRATAMENTO CIRURGICO DE XANTELASMA",
+    "preco": 259.27,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405040202",
+    "nome": "TRATAMENTO DE PTOSE PALPEBRAL",
+    "preco": 898.88,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405040210",
+    "nome": "REPOSICIONAMENTO DE LENTE INTRAOCULAR",
+    "preco": 907.2,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050011",
+    "nome": "CAPSULECTOMIA POSTERIOR CIRURGICA",
+    "preco": 468.0,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050020",
+    "nome": "CAPSULOTOMIA A YAG LASER",
+    "preco": 310.81,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050038",
+    "nome": "CAUTERIZACAO DE CORNEA",
+    "preco": 49.1,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050046",
+    "nome": "CICLOCRIOCOAGULAÇÃO / DIATERMIA",
+    "preco": 1175.02,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050054",
+    "nome": "CICLODIALISE",
+    "preco": 906.82,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050070",
+    "nome": "CORRECAO CIRURGICA DE HERNIA DE IRIS",
+    "preco": 667.19,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050089",
+    "nome": "EXERESE DE TUMOR DE CONJUNTIVA",
+    "preco": 188.06,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050097",
+    "nome": "FACECTOMIA COM IMPLANTE DE LENTE INTRA-OCULAR",
+    "preco": 1063.2,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050100",
+    "nome": "FACECTOMIA S/ IMPLANTE DE LENTE INTRA-OCULAR",
+    "preco": 967.2,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050119",
+    "nome": "FACOEMULSIFICACAO COM IMPLANTE DE LENTE INTRA-OCULAR RIGIDA",
+    "preco": 1303.2,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050127",
+    "nome": "FOTOTRABECULOPLASTIA A LASER",
+    "preco": 90.0,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050143",
+    "nome": "IMPLANTE INTRA-ESTROMAL",
+    "preco": 1839.72,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050151",
+    "nome": "IMPLANTE SECUNDARIO DE LENTE INTRA-OCULAR - LIO",
+    "preco": 1860.92,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050160",
+    "nome": "INJECAO SUBCONJUTIVAL / SUBTENONIANA",
+    "preco": 17.94,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050178",
+    "nome": "IRIDECTOMIA CIRURGICA",
+    "preco": 587.87,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050194",
+    "nome": "IRIDOTOMIA A LASER",
+    "preco": 90.0,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050208",
+    "nome": "PARACENTESE DE CAMARA ANTERIOR",
+    "preco": 210.36,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050216",
+    "nome": "RECOBRIMENTO CONJUNTIVAL",
+    "preco": 444.04,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050224",
+    "nome": "RECONSTITUIÇÃO DE FORNIX CONJUNTIVAL",
+    "preco": 903.9,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050240",
+    "nome": "RETIRADA DE CORPO ESTRANHO DA CAMARA ANTERIOR DO OLHO",
+    "preco": 920.5,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050259",
+    "nome": "RETIRADA DE CORPO ESTRANHO DA CORNEA",
+    "preco": 143.21,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050267",
+    "nome": "SINEQUIOLISE A YAG LASER",
+    "preco": 70.7,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050283",
+    "nome": "SUBSTITUICAO DE LENTE INTRA-OCULAR",
+    "preco": 1272.22,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050291",
+    "nome": "SUTURA DE CONJUNTIVA",
+    "preco": 168.79,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050305",
+    "nome": "SUTURA DE CORNEA",
+    "preco": 366.05,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050321",
+    "nome": "TRABECULECTOMIA",
+    "preco": 1561.31,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050364",
+    "nome": "TRATAMENTO CIRURGICO DE PTERIGIO",
+    "preco": 287.33,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050372",
+    "nome": "FACOEMULSIFICACAO COM IMPLANTE DE LENTE INTRA-OCULAR DOBRAVEL",
+    "preco": 1543.2,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050399",
+    "nome": "TRATAMENTO CIRÚRGICO DE DEISCÊNCIA DE SUTURA DE CÓRNEA",
+    "preco": 522.25,
+    "pagina": 14
+  },
+  {
+    "codigo": "0405050402",
+    "nome": "RADIAÇÃO PARA CROSS LINKING CORNEANO",
+    "preco": 585.44,
+    "pagina": 14
+  },
+  {
+    "codigo": "0406020620",
+    "nome": "RETIRADA DE CATETER DE LONGA PERMANENCIA SEMI OU TOTALMENTE IMPLANTAVEL",
+    "preco": 1351.16,
+    "pagina": 14
+  },
+  {
+    "codigo": "0406030014",
+    "nome": "ANGIOPLASTIA CORONARIANA",
+    "preco": 4325.92,
+    "pagina": 14
+  },
+  {
+    "codigo": "0407020144",
+    "nome": "DRENAGEM DE ABSCESSO ISQUIORRETAL",
+    "preco": 45.44,
+    "pagina": 14
+  },
+  {
+    "codigo": "0407020225",
+    "nome": "EXCISAO DE LESAO / TUMOR ANU-RETAL",
+    "preco": 86.72,
+    "pagina": 14
+  },
+  {
+    "codigo": "0407030085",
+    "nome": "COLOCAÇÃO DE PRÓTESE BILIAR",
+    "preco": 590.92,
+    "pagina": 14
+  },
+  {
+    "codigo": "0407030093",
+    "nome": "DILATACAO PERCUTANEA DE ESTENOSES E ANASTOMOSES BILIARES",
+    "preco": 511.1,
+    "pagina": 14
+  },
+  {
+    "codigo": "0407030107",
+    "nome": "DRENAGEM BILIAR PERCUTANEA EXTERNA",
+    "preco": 610.6,
+    "pagina": 14
+  },
+  {
+    "codigo": "0407030115",
+    "nome": "DRENAGEM BILIAR PERCUTANEA INTERNA",
+    "preco": 610.6,
+    "pagina": 14
+  },
+  {
+    "codigo": "0407040196",
+    "nome": "PARACENTESE ABDOMINAL",
+    "preco": 115.77,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408050330",
+    "nome": "REVISÃO CIRURGICA DE COTO DE AMPUTAÇÃO EM MEMBRO INFERIOR (EXCETO DEDOS DO PÉ)",
+    "preco": 80.0,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408060085",
+    "nome": "BURSECTOMIA",
+    "preco": 113.68,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408060158",
+    "nome": "MANIPULACAO ARTICULAR",
+    "preco": 113.68,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408060212",
+    "nome": "RESSECÇÃO DE CISTO SINOVIAL",
+    "preco": 113.68,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408060301",
+    "nome": "RESSECÇÃO MUSCULAR",
+    "preco": 113.68,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408060352",
+    "nome": "RETIRADA DE FIO OU PINO INTRA-OSSEO",
+    "preco": 113.68,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408060409",
+    "nome": "RETIRADA DE TRAÇÃO TRANS-ESQUELÉTICA",
+    "preco": 113.68,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408060425",
+    "nome": "REVISÃO CIRÚRGICA DE COTO DE AMPUTAÇÃO DOS DEDOS",
+    "preco": 80.0,
+    "pagina": 14
+  },
+  {
+    "codigo": "0408060450",
+    "nome": "TENOMIORRAFIA",
+    "preco": 113.68,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409010090",
+    "nome": "CISTOSTOMIA",
+    "preco": 130.72,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409010170",
+    "nome": "INSTALAÇÃO ENDOSCÓPICA DE CATETER DUPLO J",
+    "preco": 518.4,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409010294",
+    "nome": "NEFROSTOMIA PERCUTÂNEA",
+    "preco": 351.12,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409010383",
+    "nome": "RESSECCAO ENDOSCOPICA DE LESÃO VESICAL",
+    "preco": 130.72,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409020079",
+    "nome": "MEATOTOMIA SIMPLES",
+    "preco": 130.72,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409020087",
+    "nome": "RESSECÇÃO DE CARÚNCULAURETRAL.",
+    "preco": 130.72,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409020095",
+    "nome": "RESSECCAO DE PROLAPSO DA MUCOSA DA URETRA",
+    "preco": 130.72,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409020176",
+    "nome": "URETROTOMIA INTERNA",
+    "preco": 136.4,
+    "pagina": 14
+  },
+  {
+    "codigo": "0409040070",
+    "nome": "EXÈRESE DE CISTO DE EPIDÍDIMO",
+    "preco": 68.2,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409040088",
+    "nome": "EXÉRESE DE LESÃO DO CORDÃO ESPERMÁTICO",
+    "preco": 68.2,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409040142",
+    "nome": "ORQUIECTOMIA SUBCAPSULAR BILATERAL",
+    "preco": 1734.48,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409040169",
+    "nome": "ORQUIECTOMIA UNILATERAL",
+    "preco": 130.72,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409040215",
+    "nome": "TRATAMENTO CIRURGICO DE HIDROCELE",
+    "preco": 136.4,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409040240",
+    "nome": "VASECTOMIA",
+    "preco": 908.31,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409050083",
+    "nome": "POSTECTOMIA",
+    "preco": 438.24,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409060011",
+    "nome": "CERCLAGEM DE COLO DO UTERO",
+    "preco": 51.88,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409060046",
+    "nome": "CURETAGEM SEMIOTICA C/ OU S/ DILATACAO DO COLO DO UTERO",
+    "preco": 90.48,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409060178",
+    "nome": "HISTEROSCOPIA CIRURGICA C/ RESSECTOSCOPIO",
+    "preco": 299.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409070106",
+    "nome": "COLPOTOMIA",
+    "preco": 86.72,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409070149",
+    "nome": "EXERESE DE CISTO VAGINAL",
+    "preco": 90.48,
+    "pagina": 15
+  },
+  {
+    "codigo": "0409070157",
+    "nome": "EXERESE DE GLÂNDULA DE BARTHOLIN / SKENE",
+    "preco": 86.72,
+    "pagina": 15
+  },
+  {
+    "codigo": "0410010014",
+    "nome": "DRENAGEM DE ABSCESSO DE MAMA",
+    "preco": 188.17,
+    "pagina": 15
+  },
+  {
+    "codigo": "0410010081",
+    "nome": "PLASTICA MAMÁRIA MASCULINA",
+    "preco": 62.56,
+    "pagina": 15
+  },
+  {
+    "codigo": "0413040151",
+    "nome": "TRANSFERÊNCIA INTERMEDIÁRIA DE RETALHO",
+    "preco": 61.44,
+    "pagina": 15
+  },
+  {
+    "codigo": "0414010345",
+    "nome": "EXCISAO DE CALCULO DE GLANDULA SALIVAR",
+    "preco": 74.88,
+    "pagina": 15
+  },
+  {
+    "codigo": "0414010370",
+    "nome": "TRATAMENTO CIRÚRGICO DE DENTE INCLUSO EM PACIENTE COM ANOMALIA CRÂNIO E BUCOMAXILOFACIAL",
+    "preco": 252.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0414020421",
+    "nome": "IMPLANTE DENTÁRIO OSTEOINTEGRADO",
+    "preco": 520.2,
+    "pagina": 15
+  },
+  {
+    "codigo": "0417010052",
+    "nome": "ANESTESIA REGIONAL",
+    "preco": 158.78,
+    "pagina": 15
+  },
+  {
+    "codigo": "0417010060",
+    "nome": "SEDACAO",
+    "preco": 150.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418010013",
+    "nome": "CONFECCAO DE FISTULA ARTERIO-VENOSA C/ ENXERTIA DE POLITETRAFLUORETILENO (PTFE)",
+    "preco": 1744.62,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418010021",
+    "nome": "CONFECCAO DE FISTULA ARTERIO-VENOSA C/ ENXERTO AUTOLOGO",
+    "preco": 1371.06,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418010030",
+    "nome": "CONFECCAO DE FISTULA ARTERIO-VENOSA P/ HEMODIALISE",
+    "preco": 1982.7,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418010048",
+    "nome": "IMPLANTE DE CATETER DE LONGA PERMANENCIA P/ HEMODIALISE",
+    "preco": 400.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418010064",
+    "nome": "IMPLANTE DE CATETER DUPLO LUMEN P/HEMODIALISE",
+    "preco": 167.85,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418010080",
+    "nome": "IMPLANTE DE CATETER TIPO TENCKHOFF OU SIMILAR P/ DPA/DPAC",
+    "preco": 800.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418020019",
+    "nome": "INTERVENCAO EM FISTULA ARTERIO-VENOSA",
+    "preco": 1200.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418020027",
+    "nome": "LIGADURA DE FISTULA ARTERIO-VENOSA",
+    "preco": 1200.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0418020035",
+    "nome": "RETIRADA DE CATETER TIPO TENCKHOFF / SIMILAR DE LONGA PERMANENCIA",
+    "preco": 501.72,
+    "pagina": 15
+  },
+  {
+    "codigo": "0501070010",
+    "nome": "SOROLOGIA DE POSSIVEL DOADOR DE CORNEA E ESCLERA",
+    "preco": 194.72,
+    "pagina": 15
+  },
+  {
+    "codigo": "0501070028",
+    "nome": "SOROLOGIA DE POSSIVEL DOADOR DE ORGAO OU TECIDO EXCETO CORNEA",
+    "preco": 253.19,
+    "pagina": 15
+  },
+  {
+    "codigo": "0501070044",
+    "nome": "EXAMES PARA A INCLUSAO EM LISTA DE CANDIDATOS A TRANSPLANTE DE CORACAO",
+    "preco": 7890.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0501070052",
+    "nome": "EXAMES PARA INCLUSAO EM LISTA DE CANDIDATOS A TRANSPLANTE DE FIGADO",
+    "preco": 3694.8,
+    "pagina": 15
+  },
+  {
+    "codigo": "0501070109",
+    "nome": "EXAMES PARA INVESTIGAÇÃO CLÍNICA NO DOADOR VIVO DE RIM- COMPLEMENTAÇÃO DA 1ª FASE.",
+    "preco": 2290.65,
+    "pagina": 15
+  },
+  {
+    "codigo": "0501080090",
+    "nome": "ULTRASSONOGRAFIA DE ORGAO TRANSPLANTADO",
+    "preco": 100.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0503030058",
+    "nome": "RETIRADA DE GLOBO OCULAR UNI / BILATERAL (P/ TRANSPLANTE)",
+    "preco": 2218.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0505010097",
+    "nome": "TRANSPLANTE DE CORNEA",
+    "preco": 13756.69,
+    "pagina": 15
+  },
+  {
+    "codigo": "0505010127",
+    "nome": "TRANSPLANTE DE ESCLERA",
+    "preco": 13756.69,
+    "pagina": 15
+  },
+  {
+    "codigo": "0506010015",
+    "nome": "ACOMPANHAMENTO DE PACIENTE POS-TRANSPLANTE DE CORNEA",
+    "preco": 115.0,
+    "pagina": 15
+  },
+  {
+    "codigo": "0506010058",
+    "nome": "AVALIACAO DO POSSIVEL DOADOR FALECIDO DE ORGAOS OU TECIDOS PARA TRANSPLANTES",
+    "preco": 397.47,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010014",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE CÂNCER DE MAMA",
+    "preco": 159.76,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010049",
+    "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE PRÓSTATA",
+    "preco": 383.41,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010057",
+    "nome": "OCI INVESTIGAÇÃO DIAGNÓSTICA DE CÂNCER DE COLO DO ÚTERO",
+    "preco": 127.8,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010073",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA DE CÂNCER GÁSTRICO",
+    "preco": 600.11,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010081",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA DE CÂNCER COLORRETAL",
+    "preco": 700.63,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010090",
+    "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE MAMA - I",
+    "preco": 508.28,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010103",
+    "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE MAMA-II",
+    "preco": 508.28,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010111",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA E TERAPÊUTICA DE CÂNCER DE COLO DO ÚTERO-I",
+    "preco": 279.56,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010120",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA E TERAPÊUTICA DE CÂNCER DE COLO DO ÚTERO-II",
+    "preco": 279.56,
+    "pagina": 15
+  },
+  {
+    "codigo": "0901010138",
+    "nome": "OCI DE IMUNOHISTOQUIMICA DE NEOPLASI MALIGNA DE MAMA",
+    "preco": 920.5,
+    "pagina": 15
+  },
+  {
+    "codigo": "0902010018",
+    "nome": "OCI AVALIACAO DE RISCO CIRURGICO",
+    "preco": 166.15,
+    "pagina": 15
+  },
+  {
+    "codigo": "0902010026",
+    "nome": "OCI AVALIAÇÃO CARDIOLÓGICA",
+    "preco": 255.61,
+    "pagina": 15
+  },
+  {
+    "codigo": "0902010034",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA INICIAL - SÍNDROME CORONARIANA CRÔNICA",
+    "preco": 345.07,
+    "pagina": 15
+  },
+  {
+    "codigo": "0902010042",
+    "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA I - SÍNDROME CORONARIANA CRÔNICA",
+    "preco": 319.51,
+    "pagina": 16
+  },
+  {
+    "codigo": "0902010050",
+    "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA II - SÍNDROME CORONARIANA CRÔNICA",
+    "preco": 960.95,
+    "pagina": 16
+  },
+  {
+    "codigo": "0902010069",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA - INSUFICIÊNCIA CARDÍACA",
+    "preco": 447.31,
+    "pagina": 16
+  },
+  {
+    "codigo": "0903010011",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA",
+    "preco": 127.8,
+    "pagina": 16
+  },
+  {
+    "codigo": "0903010020",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E ULTRASSONOGRAFIA",
+    "preco": 178.93,
+    "pagina": 16
+  },
+  {
+    "codigo": "0903010038",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E TOMOGRAFIA COMPUTADORIZADA",
+    "preco": 293.95,
+    "pagina": 16
+  },
+  {
+    "codigo": "0903010046",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E RESSONÂNCIA MAGNÉTICA",
+    "preco": 460.09,
+    "pagina": 16
+  },
+  {
+    "codigo": "0904010015",
+    "nome": "OCI AVALIAÇÃO INICIAL DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+    "preco": 127.8,
+    "pagina": 16
+  },
+  {
+    "codigo": "0904010023",
+    "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+    "preco": 191.71,
+    "pagina": 16
+  },
+  {
+    "codigo": "0904010031",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA DE NASOFARINGE E DE OROFARINGE",
+    "preco": 255.61,
+    "pagina": 16
+  },
+  {
+    "codigo": "0905010019",
+    "nome": "OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - 0 A 8 ANOS",
+    "preco": 255.61,
+    "pagina": 16
+  },
+  {
+    "codigo": "0905010027",
+    "nome": "OCI AVALIAÇÃO DE ESTRABISMO",
+    "preco": 255.61,
+    "pagina": 16
+  },
+  {
+    "codigo": "0905010035",
+    "nome": "OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - A PARTIR DE 9 ANOS",
+    "preco": 204.49,
+    "pagina": 16
+  },
+  {
+    "codigo": "0905010043",
+    "nome": "OCI AVALIAÇÃO DE RETINOPATIA DIABÉTICA",
+    "preco": 255.61,
+    "pagina": 16
+  },
+  {
+    "codigo": "0905010051",
+    "nome": "OCI AVALIAÇÃO INICIAL PARA ONCOLOGIA OFTALMOLÓGICA",
+    "preco": 319.51,
+    "pagina": 16
+  },
+  {
+    "codigo": "0905010060",
+    "nome": "OCI AVALIAÇÃO DIAGNÓSTICA EM NEURO OFTALMOLOGIA",
+    "preco": 383.41,
+    "pagina": 16
+  },
+  {
+    "codigo": "0905010078",
+    "nome": "OCI EXAMES OFTALMOLÓGICOS SOB SEDAÇÃO",
+    "preco": 255.61,
+    "pagina": 16
+  },
+  {
+    "codigo": "0906010012",
+    "nome": "GIN1 - AVALIAÇÃO DIAGNÓSTICA INICIAL DE SAÚDE DA MULHER (GINECOLOGIA) I",
+    "preco": 104.55,
+    "pagina": 16
+  },
+  {
+    "codigo": "0906010020",
+    "nome": "OCI - GIN1 - AVALIAÇÃO DIAGNÓSTICA INICIAL DE SAÚDE DA MULHER (GINECOLOGIA) II",
+    "preco": 104.55,
+    "pagina": 16
+  },
+  {
+    "codigo": "0906010039",
+    "nome": "OCI - GIN2 - PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SAÚDE DA MULHER (GINECOLOGIA) - SANGRAMENTO UTERINO ANORMAL I",
+    "preco": 360.55,
+    "pagina": 16
+  },
+  {
+    "codigo": "0906010047",
+    "nome": "OCI - GIN2 - PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SAÚDE DA MULHER (GINECOLOGIA)- SANGRAMENTO UTERINO ANORMAL II",
+    "preco": 382.28,
+    "pagina": 16
+  }
+]

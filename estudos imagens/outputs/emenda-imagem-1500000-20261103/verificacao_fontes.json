@@ -1,0 +1,21 @@
+{
+  "months": [
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "source_sha256": {
+    "/Users/hendrick/.cache/planos-ses/tabela_unificada/TabelaUnificada_202610_v2610271043.zip": "525e5ef197da5133ed3177f42b56cb341057668af8da2fdc7f6674bcc25af5cd",
+    "/Users/hendrick/Projetos/planos-ses/estudos imagens/revisao_carteira1_20261102/dados_revisao.json": "7b03fff218969b968f1b4f4d904d602a058bd04631fa1a4c488c2ca5e303a18f"
+  },
+  "independent_monthly_reconciliation": 51
+}

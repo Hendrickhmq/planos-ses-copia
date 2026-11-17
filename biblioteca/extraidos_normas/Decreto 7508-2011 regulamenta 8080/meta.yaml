@@ -1,0 +1,10 @@
+id: "Decreto 7508-2011 regulamenta 8080"
+arquivo: "Decreto 7508-2011 regulamenta 8080.html"
+sha256: "0b06613776f1beba81a64bccd959887e5ea2611af0946f07de9f7f957e384dad"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 21849
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

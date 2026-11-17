@@ -1,0 +1,89 @@
+id: "pt_ses_05"
+arquivo: "pt_ses_05_031061-2026.pdf"
+processo_sei: "031061-2026"
+sha256: "83afc054e4d959a0fd422aa89934805aab94a7329c37cbc616350478e4c52ca7"
+extrator: "extrair_digitalizados.py"
+paginas: 58
+dpi: 300
+tabelas_total: 17
+tabelas_por_pagina:
+  pagina_8: 1
+  pagina_9: 1
+  pagina_39: 1
+  pagina_41: 1
+  pagina_42: 1
+  pagina_43: 1
+  pagina_44: 1
+  pagina_45: 1
+  pagina_46: 1
+  pagina_47: 1
+  pagina_48: 1
+  pagina_49: 1
+  pagina_50: 1
+  pagina_51: 1
+  pagina_52: 1
+  pagina_53: 1
+  pagina_55: 1
+ocr_confianca_media: 93.2
+ocr_confianca_piso: 75.0
+ocr_paginas_abaixo_do_piso: []
+codigos_de_item_a_conferir: ["2141"]
+ocr_confianca_por_pagina:
+  pagina_1: 91.0
+  pagina_2: 94.6
+  pagina_3: 94.6
+  pagina_4: 94.1
+  pagina_5: 94.3
+  pagina_6: 94.7
+  pagina_7: 94.7
+  pagina_8: 92.6
+  pagina_9: 94.5
+  pagina_10: 94.8
+  pagina_11: 94.7
+  pagina_12: 94.7
+  pagina_13: 94.6
+  pagina_14: 94.5
+  pagina_15: 94.8
+  pagina_16: 94.7
+  pagina_17: 94.4
+  pagina_18: 94.2
+  pagina_19: 93.2
+  pagina_20: 93.2
+  pagina_21: 93.4
+  pagina_22: 94.5
+  pagina_23: 94.5
+  pagina_24: 93.8
+  pagina_25: 94.6
+  pagina_26: 93.2
+  pagina_27: 94.1
+  pagina_28: 93.4
+  pagina_29: 94.2
+  pagina_30: 94.7
+  pagina_31: 94.8
+  pagina_32: 94.1
+  pagina_33: 94.4
+  pagina_34: 93.4
+  pagina_35: 94.6
+  pagina_36: 91.9
+  pagina_37: 91.1
+  pagina_38: 94.1
+  pagina_39: 91.6
+  pagina_40: 93.6
+  pagina_41: 92.0
+  pagina_42: 93.3
+  pagina_43: 93.7
+  pagina_44: 93.0
+  pagina_45: 94.3
+  pagina_46: 93.1
+  pagina_47: 92.6
+  pagina_48: 91.3
+  pagina_49: 92.3
+  pagina_50: 90.7
+  pagina_51: 90.9
+  pagina_52: 94.2
+  pagina_53: 93.5
+  pagina_54: 94.7
+  pagina_55: 83.7
+  pagina_56: 93.6
+  pagina_57: 77.7
+  pagina_58: 91.3

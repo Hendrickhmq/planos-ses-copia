@@ -1,0 +1,97 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/redacao_08",
+ "pedido": "P2, dada a fila: a cardiologia nas OCI de insuficiência cardíaca (09.02.01.006-9) e de síndrome coronariana crônica, progressão I (09.02.01.004-2)",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "regiao",
+  "cid"
+ ],
+ "objetos": [
+  {
+   "id": "09.02.01.006-9",
+   "tipo": "oci",
+   "nome": "insuficiência cardíaca",
+   "ficha": "dados/fontes/sigtap_0902010069_102026.md",
+   "codigos": [
+    "02.11.02.003-6",
+    "02.11.02.006-0",
+    "02.11.02.004-4",
+    "02.05.01.003-2"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "ELETROCARDIOGRAMA",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "HOLTER 24 HORAS",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+     "papel": "exame"
+    }
+   ]
+  },
+  {
+   "id": "09.02.01.004-2",
+   "tipo": "oci",
+   "nome": "síndrome coronariana crônica, progressão I",
+   "ficha": "dados/fontes/sigtap_0902010042_102026.md",
+   "codigos": [
+    "02.05.01.001-6"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - CORONARIA",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+     "papel": "exame",
+     "obrigatorio": true
+    }
+   ]
+  }
+ ]
+}

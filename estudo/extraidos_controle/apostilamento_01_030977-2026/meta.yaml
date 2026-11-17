@@ -1,0 +1,18 @@
+id: "apostilamento_01_030977-2026"
+arquivo: "apostilamento_01_030977-2026.pdf"
+processo_sei: ""
+sha256: "a308d80e538cf574589e6c7eb9f07d0c1e718a8e3d3dbd9f4246c4f55ff07722"
+extrator: "extrair_digitalizados.py"
+ocr_ferramenta: "pytesseract/por, tesseract 5.4.0.20240606"
+paginas: 2
+dpi: 300
+margem_esquerda_px: 220
+tabelas_total: 0
+tabelas_por_pagina:
+ocr_confianca_media: 93.2
+ocr_confianca_piso: 75.0
+ocr_paginas_abaixo_do_piso: []
+codigos_de_item_a_conferir: []
+ocr_confianca_por_pagina:
+  pagina_1: 92.9
+  pagina_2: 93.4

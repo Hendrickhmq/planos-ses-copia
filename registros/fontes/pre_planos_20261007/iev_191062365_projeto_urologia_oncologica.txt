@@ -1,0 +1,209 @@
+PROJETO DUO – DIAGNÓSTICO UROLÓGICO EM ONCOLOGIA
+Proponente: IEV
+Destinatário: Secretaria de Estado de Saúde do Distrito Federal – SES/DF
+Área: Ofertas de Cuidados Integrados (OCI) ONCOLOGIA
+1. Ambientação / Diagnóstico
+O câncer de próstata configura-se como uma das principais neoplasias que acometem
+a população masculina, apresentando impacto significativo na morbimortalidade e na
+organização da atenção especializada no Sistema Único de Saúde. No Distrito Federal, a
+linha de cuidado relacionada à investigação do câncer de próstata demanda avaliação
+urológica especializada, exames diagnósticos específicos e confirmação histopatológica,
+etapas essenciais para a adequada definição da conduta assistencial.
+A suspeita clínica de neoplasia prostática, quando não conduzida de forma oportuna,
+pode resultar em atrasos diagnósticos, progressão da doença e maior complexidade
+terapêutica, com repercussões negativas tanto para o prognóstico do paciente quanto
+para a capacidade resolutiva da rede pública de saúde. A investigação diagnóstica
+dessa condição envolve procedimentos de média complexidade, como a
+ultrassonografia transretal da próstata e a biópsia prostática, que exigem organização
+assistencial, profissionais habilitados e integração com serviços de apoio diagnóstico.
+Observa-se, no âmbito da rede pública, a necessidade de qualificar e organizar a oferta
+desses procedimentos diagnósticos, garantindo que casos com suspeita oncológica
+sejam avaliados em tempo adequado, com segurança clínica e registro apropriado nos
+sistemas oficiais. A ausência de fluxos estruturados para essa etapa diagnóstica
+compromete a continuidade do cuidado e impacta diretamente a efetividade da linha
+oncológica.
+Segundo o INCA, o câncer de próstata responde por uma proporção significativa de
+óbitos por câncer em homens (aproximadamente 13,5% dos óbitos por câncer
+masculino), com concentração maior de casos em homens entre 60 e 69 anos, e os
+óbitos sendo mais frequentes acima de 80 anos.
+Nesse contexto, a estruturação de uma Oferta de Cuidado Integrado voltada à
+avaliação diagnóstica do câncer de próstata, conforme a OCI 09.01.01.004-9,
+apresenta-se como estratégia adequada para fortalecer a Atenção Especializada,
+organizar o percurso assistencial e assegurar que usuários do SUS-DF com suspeita de
+neoplasia prostática tenham acesso a diagnóstico qualificado, tempestivo e integrado à
+rede.
+2. Justificativa
+A investigação diagnóstica do câncer de próstata constitui etapa crítica da linha de
+cuidado oncológica, exigindo avaliação especializada, exames de imagem específicos e
+confirmação histopatológica, de modo a permitir a definição adequada e oportuna da
+
+conduta assistencial. A ausência ou o atraso nessa etapa diagnóstica compromete
+diretamente o prognóstico do paciente, podendo resultar em progressão da doença,
+maior complexidade terapêutica futura e aumento do impacto assistencial sobre a rede
+pública de saúde.
+A suspeita clínica de neoplasia prostática demanda condução organizada e resolutiva,
+uma vez que os procedimentos envolvidos — como a ultrassonografia transretal da
+próstata e a biópsia prostática — possuem natureza invasiva, requerem profissionais
+habilitados, condições adequadas de segurança clínica e integração com serviços de
+apoio diagnóstico. Além disso, parcela dos usuários apresenta comorbidades
+associadas à faixa etária predominante, o que pode justificar, em situações específicas,
+a realização de avaliação de risco cardiológico, reforçando a necessidade de
+organização assistencial estruturada.
+Assim, a implementação deste projeto, no âmbito da Oferta de Cuidado Integrado
+(OCI) 09.01.01.004-9, justifica-se como estratégia para qualificar a avaliação
+diagnóstica da suspeita de câncer de próstata, assegurando acesso a procedimentos
+especializados em tempo adequado, com segurança clínica, registro apropriado e
+articulação com a rede pública. A iniciativa contribui para a organização do fluxo
+assistencial, fortalece a Atenção Especializada e promove maior resolutividade na
+condução dos casos oncológicos prostáticos no SUS-DF.
+O Instituto Esporte e Vida – IEV é detentor de estabelecimento de saúde regularmente
+inscrito no CNES nº 5830427, sendo o responsável técnico e jurídico pela execução das
+ações previstas neste Plano de Trabalho, conforme a legislação vigente, contando com
+capacidade técnica compatível com a natureza dos serviços ofertados.
+3. Compatibilidade com o Plano Distrital de Saúde / PAS da SES/DF
+O Plano Distrital de Saúde do Distrito Federal 2024–2027 orienta a qualificação do
+cuidado por meio do atendimento oportuno às condições que exigem avaliação
+especializada, reconhecendo que atrasos assistenciais estão associados a piores
+desfechos clínicos, maior complexidade terapêutica e impactos negativos sobre a
+saúde e a sobrevida dos usuários.
+Nesse sentido, aborda o enfrentamento das condições oncológicas no âmbito das
+doenças crônicas não transmissíveis, reconhecendo a importância do diagnóstico
+oportuno, da organização das linhas de cuidado e da atuação integrada da Atenção
+Especializada para condições que demandam avaliação clínica e diagnóstica de média
+complexidade.
+Além de enfatizar a promoção da qualidade de vida da população como eixo
+estruturante da política pública de saúde, especialmente no cuidado às condições
+crônicas e complexas, o PDS reconhece que a atuação oportuna e resolutiva contribui
+para minimizar perdas funcionais, sofrimento evitável e impactos sociais associados às
+doenças.
+
+4. Objetivo Geral
+Ofertar avaliação urológica especializada de forma oportuna para usuários do SUS-DF
+regulados pela SES/DF, com foco na realização de ultrassonografia de próstata e na
+coleta de material para confirmação diagnóstica da suspeita de câncer de próstata,
+assegurando investigação adequada, redução de atrasos diagnósticos e fortalecimento
+da continuidade do cuidado na Rede de Atenção à Saúde do Distrito Federal.
+5. Objetivos Específicos
+1. Assegurar acesso oportuno à avaliação especializada para usuários do SUS-DF
+com suspeita clínica de câncer de próstata, conforme critérios regulatórios
+definidos pela SES/DF.
+2. Realizar ultrassonografia de próstata como etapa estruturante da investigação
+diagnóstica, qualificando a identificação de alterações suspeitas e subsidiando a
+decisão clínica.
+3. Viabilizar a coleta de material prostático e posterior análise anatomopatológica
+para confirmação diagnóstica, de forma segura e adequada, garantindo
+integração com os serviços de apoio diagnóstico.
+4. Reduzir atrasos na etapa diagnóstica da suspeita de câncer de próstata,
+mitigando riscos de progressão da doença e impactos negativos associados ao
+diagnóstico tardio.
+5. Apresentar relatórios periódicos de produção, contemplando quantitativos,
+indicadores assistenciais e evidências de conformidade operacional.
+6. Perfil dos Pacientes Atendidos
+ Usuários do SUS-DF com suspeita clínica ou exames sugestivos de neoplasia
+prostática, conforme critérios definidos pela regulação da SES/DF.
+ Casos elegíveis para investigação diagnóstica ambulatorial, incluindo a
+realização de ultrassonografia de próstata e coleta de material prostático para
+confirmação diagnóstica.
+ Pacientes clinicamente estáveis, aptos à realização de procedimentos
+diagnósticos invasivos de média complexidade, sem necessidade de internação
+hospitalar.
+ Caso seja identificada, durante a avaliação clínica, a necessidade de Avaliação
+de Risco Cirúrgico, esta poderá ser realizada mediante justificativa técnica
+individualizada, observando-se integralmente as normativas vigentes da Oferta
+de Cuidado Integrado (OCI) – Avaliação de Risco Cirúrgico, com código de OCI
+09.02.01.001-8.
+
+7. Meta de Atendimento
+O projeto executará, no âmbito da Atenção Especializada em Oncologia, a seguinte Oferta
+de Cuidado Integrado (OCI), conforme definida na Portaria SAES/MS nº 1.823/2024:
+OCI QTDE
+09.01.01.004-9 PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE CÂNCER DE
+PRÓSTATA 1.015
+As metas podem ser ajustadas conforme a capacidade instalada e a demanda pactuada
+ao longo do período de execução.
+8. Cronograma de Implementação e Execução
+Fase 1 – Implantação Operacional Inicial (Semanas 1–2)
+• pactuação com a SES/DF;
+• definição das áreas de referência e mapeamento dos pontos de atendimento;
+• organização das agendas assistenciais conforme capacidade instalada
+• mobilização das equipes assistenciais e administrativas;
+• integração com sistemas de informação.
+Fase 2 – Execução Assistencial Contínua (Meses subsequentes)
+• realização das consultas especializadas conforme demanda regulada;
+• execução dos procedimentos previstos na OCI de Oncologia pactuada;
+• registro mensal da produção;
+• acompanhamento técnico com a SES/DF;
+• ajustes operacionais periódicos conforme avaliação conjunta com a SES/DF.
+• envio de sínteses periódicas de acompanhamento técnico à SES/DF.
+Fase 3 – Encerramento e Consolidação dos Resultados
+• finalização dos atendimentos conforme metas pactuadas;
+• consolidação da produção assistencial por tipo de OCI;
+• elaboração e entrega de relatório técnico final;
+• encerramento administrativo e prestação de contas dos recursos executados.
+9. Resumo da Metodologia
+Público-alvo
+Usuários do Sistema Único de Saúde do Distrito Federal (SUS-DF), regulados pela
+SES/DF para avaliação e acompanhamento oncológico especializado, conforme critérios
+clínicos e prioridades assistenciais estabelecidas pelo gestor.
+Região de atendimento
+Toda a população masculina do DF, conforme distribuição da fila regulatória. Os
+atendimentos poderão ser realizados em unidades físicas fixas ou em estruturas
+
+assistenciais itinerantes, previamente pactuadas com a SES/DF, com o objetivo de
+ampliar o acesso da população e otimizar a distribuição territorial da oferta
+assistencial. Os pontos de atendimento observarão as condições adequadas de
+acolhimento, segurança assistencial, privacidade e registro clínico, conforme normas
+sanitárias vigentes.
+Fluxo e modo de execução
+1. Regulação e Agendamento
+Os usuários serão encaminhados exclusivamente pela SES/DF, por meio do
+SISREG, respeitando os critérios clínicos, prioridades e diretrizes estabelecidas
+pelo gestor.
+2. Realização das Consultas e Procedimentos
+Execução das consultas especializadas e dos procedimentos previstos nas
+Ofertas de Cuidados Integrados (OCI) em Oncologia, conforme indicação clínica
+e escopo pactuado.
+3. Registro Assistencial
+Os atendimentos e os exames serão registrados nos sistemas oficiais da SES/DF
+(TrackCare ou equivalente), assegurando integração com o fluxo regulatório.
+4. Monitoramento
+Encerramento do atendimento no sistema regulatório, permitindo a
+atualização contínua da fila e o monitoramento da produção assistencial pela
+SES/DF.
+5. Entrega dos resultados:
+• Relatórios mensais de produção.
+10. Interface com os Sistemas da SES/DF e com a Fila
+O IEV se compromete a operar totalmente integrado aos sistemas oficiais da SES/DF,
+incluindo:
+• SISREG – recebimento de demandas, agendamento e controle de fila.
+• TrackCare – registro dos atendimentos e laudos.
+• Monitoramento contínuo da produção.
+O Instituto respeitará integralmente o fluxo regulatório, atendendo somente pacientes
+encaminhados pela SES/DF, sem demanda espontânea.
+11. Descrição da Aplicação das Despesas
+Os recursos financeiros serão aplicados em:
+(i) consultas especializadas;
+(ii) procedimentos diagnósticos previstos na OCI Progressão da Avaliação
+Diagnóstica para Câncer de Próstata;
+(iii) pessoal técnico e administrativo;
+
+(iv)equipe de apoio ambulatorial (enfermagem e técnicos), capacitada para
+assistência ao procedimento, preparo do paciente e cuidados pós-
+procedimento.
+(v) Serviço de anatomia patológica, responsável pela análise histopatológica
+do material coletado.;
+(vi) integração com os sistemas oficiais da SES/DF.
+Todas as despesas serão executadas em estrita conformidade com a legislação vigente
+e com os parâmetros assistenciais pactuados com o gestor do SUS-DF.
+12. Capacidade Técnica e Compromisso com Prestação de Contas
+O Instituto Esporte e Vida – IEV declara possuir capacidade técnica, operacional e
+gerencial para execução integral das ações previstas neste Plano de Trabalho, por meio
+de seu estabelecimento de saúde inscrito no CNES nº 5830427.
+O proponente compromete-se a executar o objeto em conformidade com a Portaria
+GM/MS nº 6.928/2025, garantindo:
+(i) registro adequado de toda a produção assistencial nos sistemas oficiais (SISREG,
+TrackCare/PACS, entre outros);
+(ii) entrega de relatórios periódicos de acompanhamento;
+(iii) prestação de contas conforme as normas aplicáveis.
+O IEV reafirma sua responsabilidade pela fidedignidade das informações prestadas e
+pela adequada aplicação dos recursos públicos destinados à execução deste projeto.

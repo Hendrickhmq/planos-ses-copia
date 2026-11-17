@@ -1,0 +1,101 @@
+{
+ "polo": {
+  "nome_fantasia": {
+   "r": "v",
+   "obs": ""
+  },
+  "cnpj": {
+   "r": "v",
+   "obs": ""
+  },
+  "cnes": {
+   "r": "v",
+   "obs": ""
+  },
+  "cep": {
+   "r": "v",
+   "obs": ""
+  },
+  "endereco": {
+   "r": "v",
+   "obs": ""
+  },
+  "razao_social": {
+   "r": "v",
+   "obs": ""
+  },
+  "contato": {
+   "r": "v",
+   "obs": ""
+  },
+  "responsavel": {
+   "r": "sebastião não deu o nome",
+   "obs": ""
+  },
+  "resp_tecnico": {
+   "r": "HUGO HOLANDA DE SOUZA",
+   "obs": ""
+  },
+  "horario": {
+   "r": "Para o nosso plano sera 10h por dia de segunda a sabado 8 as 18 ou 7 as 17",
+   "obs": ""
+  },
+  "atende_sus": {
+   "r": "Sim, convenio junto com o IEV",
+   "obs": ""
+  },
+  "visita_data": {
+   "r": "16/11",
+   "obs": ""
+  },
+  "visita_quem": {
+   "r": "Hendrick",
+   "obs": ""
+  },
+  "visita_recebeu": {
+   "r": "Sebastiao guiou",
+   "obs": ""
+  },
+  "doc_licenca_sanitaria": {
+   "r": "ok",
+   "obs": ""
+  },
+  "doc_alvara": {
+   "r": "ok",
+   "obs": ""
+  },
+  "doc_bombeiros": {
+   "r": "ok",
+   "obs": ""
+  },
+  "doc_vinculo": {
+   "r": "ok",
+   "obs": ""
+  },
+  "fachada": {
+   "r": "ok",
+   "obs": ""
+  },
+  "transporte": {
+   "r": "não tem",
+   "obs": ""
+  },
+  "estacionamento": {
+   "r": "n/a",
+   "obs": ""
+  },
+  "vaga_pcd": {
+   "r": "ok",
+   "obs": ""
+  },
+  "desembarque": {
+   "r": "ok",
+   "obs": ""
+  },
+  "espera_externa": {
+   "r": "ok",
+   "obs": ""
+  }
+ },
+ "TC": {}
+}

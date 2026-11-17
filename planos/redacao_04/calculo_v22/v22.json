@@ -1,0 +1,344 @@
+{
+ "meses": 8,
+ "dias": 168,
+ "h_medico": 1200,
+ "recurso": "11592762.00",
+ "apoio": "919640.00",
+ "quadro": [
+  [
+   "Direção Executiva de Projeto",
+   1,
+   "14500.00",
+   1,
+   "1.1.1",
+   "116000.00"
+  ],
+  [
+   "Coordenação Operacional",
+   1,
+   "9500.00",
+   1,
+   "1.1.2",
+   "76000.00"
+  ],
+  [
+   "Assistente Administrativo",
+   10,
+   "3200.00",
+   2,
+   "2.1.1",
+   "256000.00"
+  ],
+  [
+   "Operador de registro de sistemas",
+   10,
+   "4300.00",
+   3,
+   "3.1.1",
+   "344000.00"
+  ],
+  [
+   "Coordenação Administrativa e Financeira",
+   1,
+   "10500.00",
+   6,
+   "6.1.1",
+   "84000.00"
+  ],
+  [
+   "Assessoria de Prestação de Contas",
+   1,
+   "5455.00",
+   6,
+   "6.1.2",
+   "43640.00"
+  ]
+ ],
+ "envelope": "10673122.00",
+ "acrescimo": 801,
+ "preenchidos": [
+  "carotidas"
+ ],
+ "Q": {
+  "mama": 14721,
+  "transvag": 10565,
+  "abd_total": 10056,
+  "dop_mmii": 9851,
+  "carotidas": 4699,
+  "urinario": 3953,
+  "tireoide": 3224,
+  "prostata": 3208,
+  "parede": 3144,
+  "abd_sup": 2266,
+  "tc_abd": 4541,
+  "tc_pelve": 3885,
+  "tc_torax_c": 3119,
+  "coronarias": 1413,
+  "tc_torax_s": 728
+ },
+ "qc": {
+  "02.05.02.009-7": 14721,
+  "02.05.02.018-6": 10565,
+  "02.05.02.004-6": 13200,
+  "02.05.01.004-0": 14550,
+  "02.05.02.005-4": 3953,
+  "02.05.02.012-7": 3224,
+  "02.05.02.010-0": 3208,
+  "02.05.02.003-8": 2266,
+  "02.06.03.001-0": 4541,
+  "02.06.03.003-7": 3885,
+  "02.06.02.003-1": 5260
+ },
+ "total": 79373,
+ "us_total": 65687,
+ "tc_total": 13686,
+ "producao": "10673026.22",
+ "global": "11592666.22",
+ "sobra": "95.78",
+ "apoio_pct": 0.07932946421017546,
+ "ORD": [
+  "Oeste",
+  "Sudoeste",
+  "Norte e Leste",
+  "Central",
+  "Sul",
+  "Centro-Sul"
+ ],
+ "POLOS": {
+  "Oeste": 1,
+  "Sudoeste": 2,
+  "Norte e Leste": 2,
+  "Central": 2,
+  "Sul": 2,
+  "Centro-Sul": 1
+ },
+ "tot": {
+  "Oeste": 4611,
+  "Sudoeste": 26894,
+  "Norte e Leste": 19054,
+  "Central": 4722,
+  "Sul": 16339,
+  "Centro-Sul": 7753
+ },
+ "us": {
+  "Oeste": 3550,
+  "Sudoeste": 21997,
+  "Norte e Leste": 15654,
+  "Central": 3195,
+  "Sul": 14477,
+  "Centro-Sul": 6814
+ },
+ "tc": {
+  "Oeste": 1061,
+  "Sudoeste": 4897,
+  "Norte e Leste": 3400,
+  "Central": 1527,
+  "Sul": 1862,
+  "Centro-Sul": 939
+ },
+ "hus": {
+  "Oeste": 1322,
+  "Sudoeste": 7936,
+  "Norte e Leste": 5861,
+  "Central": 1269,
+  "Sul": 5530,
+  "Centro-Sul": 2403
+ },
+ "htc": {
+  "Oeste": 353,
+  "Sudoeste": 1609,
+  "Norte e Leste": 1117,
+  "Central": 503,
+  "Sul": 612,
+  "Centro-Sul": 307
+ },
+ "pct": {
+  "Oeste": 0.05809073296304752,
+  "Sudoeste": 0.3388292858330225,
+  "Norte e Leste": 0.2400551844730304,
+  "Central": 0.059494393345364716,
+  "Sul": 0.20585184121875505,
+  "Centro-Sul": 0.0976785621667798
+ },
+ "salas": {
+  "Oeste": 1,
+  "Sudoeste": 6,
+  "Norte e Leste": 5,
+  "Central": 2,
+  "Sul": 5,
+  "Centro-Sul": 2
+ },
+ "tomografos": {
+  "Oeste": 1,
+  "Sudoeste": 2,
+  "Norte e Leste": 1,
+  "Central": 1,
+  "Sul": 1,
+  "Centro-Sul": 1
+ },
+ "mes_us": {
+  "Oeste": 444,
+  "Sudoeste": 2750,
+  "Norte e Leste": 1957,
+  "Central": 400,
+  "Sul": 1810,
+  "Centro-Sul": 852
+ },
+ "mes_tc": {
+  "Oeste": 133,
+  "Sudoeste": 613,
+  "Norte e Leste": 425,
+  "Central": 191,
+  "Sul": 233,
+  "Centro-Sul": 118
+ },
+ "dia_us": {
+  "Oeste": 22,
+  "Sudoeste": 131,
+  "Norte e Leste": 94,
+  "Central": 20,
+  "Sul": 87,
+  "Centro-Sul": 41
+ },
+ "dia_tc": {
+  "Oeste": 7,
+  "Sudoeste": 30,
+  "Norte e Leste": 21,
+  "Central": 10,
+  "Sul": 12,
+  "Centro-Sul": 6
+ },
+ "por_sala": {
+  "Oeste": 22,
+  "Sudoeste": 22,
+  "Norte e Leste": 19,
+  "Central": 10,
+  "Sul": 18,
+  "Centro-Sul": 21
+ },
+ "medicos_us": {
+  "Oeste": 2,
+  "Sudoeste": 7,
+  "Norte e Leste": 5,
+  "Central": 2,
+  "Sul": 5,
+  "Centro-Sul": 3
+ },
+ "radiologistas": {
+  "Oeste": 1,
+  "Sudoeste": 2,
+  "Norte e Leste": 1,
+  "Central": 1,
+  "Sul": 1,
+  "Centro-Sul": 1
+ },
+ "tecnicos": {
+  "Oeste": 3,
+  "Sudoeste": 6,
+  "Norte e Leste": 3,
+  "Central": 3,
+  "Sul": 3,
+  "Centro-Sul": 3
+ },
+ "enfermagem": {
+  "Oeste": 2,
+  "Sudoeste": 4,
+  "Norte e Leste": 2,
+  "Central": 2,
+  "Sul": 2,
+  "Centro-Sul": 2
+ },
+ "rt": {
+  "Oeste": 1,
+  "Sudoeste": 2,
+  "Norte e Leste": 2,
+  "Central": 2,
+  "Sul": 2,
+  "Centro-Sul": 1
+ },
+ "retaguarda": {
+  "Oeste": 1,
+  "Sudoeste": 2,
+  "Norte e Leste": 2,
+  "Central": 2,
+  "Sul": 2,
+  "Centro-Sul": 1
+ },
+ "recepcao": {
+  "Oeste": 2,
+  "Sudoeste": 4,
+  "Norte e Leste": 4,
+  "Central": 4,
+  "Sul": 4,
+  "Centro-Sul": 2
+ },
+ "operadores": {
+  "Oeste": 1,
+  "Sudoeste": 2,
+  "Norte e Leste": 2,
+  "Central": 2,
+  "Sul": 2,
+  "Centro-Sul": 1
+ },
+ "assistentes": {
+  "Oeste": 1,
+  "Sudoeste": 2,
+  "Norte e Leste": 2,
+  "Central": 2,
+  "Sul": 2,
+  "Centro-Sul": 1
+ },
+ "periodos": [
+  [
+   "1º trimestre",
+   "1 a 3",
+   3
+  ],
+  [
+   "2º trimestre",
+   "4 a 6",
+   3
+  ],
+  [
+   "bimestre final",
+   "7 a 8",
+   2
+  ]
+ ],
+ "dias_periodo": [
+  63,
+  63,
+  42
+ ],
+ "apoio_periodo": [
+  "344865.00",
+  "344865.00",
+  "229910.00"
+ ],
+ "curva": [
+  29760,
+  29764,
+  19849
+ ],
+ "pico_dia": 473,
+ "pico_periodo": 2,
+ "prod_b": [
+  "4001448.36",
+  "4002247.12",
+  "2669330.74"
+ ],
+ "parcelas": [
+  "4346313.36",
+  "4347112.12",
+  "2899240.74"
+ ],
+ "contraste": 12958,
+ "coronarias": 1413,
+ "contraste_cod": {
+  "02.06.03.001-0": 4541,
+  "02.06.03.003-7": 3885,
+  "02.06.02.003-1": 4532
+ },
+ "absorvido_contraste": "777480.00",
+ "tomografos_equivalentes": 2.6791666666666667
+}

@@ -1,0 +1,18 @@
+PROCEDIMENTO,09.06.01.005-5 - OCI - GIN3 - PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SAÚDE DA MULHER (GINECOLOGIA)- ENDOMETRIOSE PROFUNDA- CASOS COMPLEXOS E PROGRAMAÇÃO CIRÚRGICA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE MULHERES QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, RESSONÂNCIA MAGNÉTICA DE BACIA/ PELVE/ ABDÔMEN INFERIOR, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,9 anos
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 372,49"
+Total do Serviço Ambulatorial,"R$ 372,49"
+CID-10,"C51, C52, C53, C54, C55, C56, C57, C58D25N70, N71, N72, N73, N74, N75, N76, N77N80, N81, N82, N83, N84, N85, N86, N87, N88, N89, N90, N91, N92, N93, N94, N95, N96, N97, N98, N99"
+Categoria CBO,2251 - Médico
+CBO,2252-50 - Médico Ginecologista e Obstetra
+Quantidade Máxima,1
+Atributo Complementar,058-Obrigatório CPF053 - Programa Mais Acesso a Especialistas (PMAE)54 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - Condiciona aos secundários a terem valor zerados0011 - Condiciona o registro de procedimentos secundários na APAC
+Habilitação,38.01 - Programa Mais Acesso Especialistas

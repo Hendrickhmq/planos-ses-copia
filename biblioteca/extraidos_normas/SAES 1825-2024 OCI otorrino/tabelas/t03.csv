@@ -1,0 +1,18 @@
+PROCEDIMENTO,09.04.01.003-1 -OCI AVALIAÇÃO DIAGNÓSTICA DE NASOFARINGE E DE OROFARINGE
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, VIDEOLARINGOSCOPIA E LARINGOSCOPIA."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 200,00"
+Total do Serviço Ambulatorial,"R$ 200,00"
+CID-10,"J30 - Rinite Alérgica e VasomotoraJ31 - Rinite, Nasofaringite e Faringite CrônicasJ32 - Sinusite CrônicaJ33 - Pólipo NasalJ34 - Outros Transtornos do Nariz e Dos Seios Paranasais"
+,J35 - Doenças Crônicas Das Amígdalas e Das AdenóidesJ36 - Abscesso PeriamigdalianoJ37 - Laringite e Laringotraqueíte CrônicasJ38 - Doenças Das Cordas Vocais e da Laringe Não Classificadas em Outra ParteJ39 - Outras Doenças Das Vias Aéreas Superiores
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

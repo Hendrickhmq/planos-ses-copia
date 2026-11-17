@@ -1,0 +1,13 @@
+{"kind":"table","sheet":"Filas SUS Candanga","address":"A25:I26","rows":2,"cols":9,"values":[["Total",null,null,null,null,78572,73217,null,null],["Base SES nas duas filas a validar",null,null,null,null,4518,null,null,null]]}
+{"kind":"table","sheet":"Metas e valores","address":"A21:J21","rows":1,"cols":10,"values":[["Total assistencial",null,79144,null,null,null,null,10636542.519999998,10390824.04,-245718.48]]}
+{"kind":"table","sheet":"Metas e valores","address":"A24:C31","rows":8,"cols":3,"values":[["Comparação global","Anterior (R$)","Candanga (R$)"],["Produção assistencial",10636542.519999998,10390824.04],["Apoio mantido para comparação",956160,956160],["Total simulado",11592702.519999998,11346984.04],["Diferença novo menos anterior",null,-245718.48],["Recurso indicado no plano",11592762,11592762],["Saldo aritmético frente ao recurso",59.48,245777.96],["Variação assistencial (%)",null,-0.023101348914647133]]}
+{"kind":"notice","message":"Cell search matched 0 entries."}
+{"kind":"table","sheet":"Filas SUS Candanga","address":"M8:O12","rows":5,"cols":3,"values":[["Solicitações 29/10 (pedidos)","Devolvidos 29/10 (pedidos)","Fila válida 29/10 (solicitações − devolvidos)"],[12941,7733,5208],[9286,8952,334],[9887,11565,-1678],[10043,599,9444]]}
+Inspect result written to file: outputs/plano4-sus-candanga-20261102/Plano 4 - readequação SUS Candanga.xlsx.inspect.ndjson
+SAVED {
+  old: 10636542.52,
+  new: 10390824.04,
+  delta: -245718.48,
+  pending_base: 4518,
+  pending_29: 4834
+} reference rows 40

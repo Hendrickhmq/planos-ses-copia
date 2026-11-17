@@ -1,0 +1,1424 @@
+{
+ "N": 79152,
+ "R": {
+  "tot": {
+   "Oeste": 4596,
+   "Sudoeste": 26821,
+   "Norte": 6700,
+   "Leste": 12301,
+   "Central": 4706,
+   "Sul": 16298,
+   "Centro-Sul": 7730
+  },
+  "us": {
+   "Oeste": 3540,
+   "Sudoeste": 21947,
+   "Norte": 4676,
+   "Leste": 10941,
+   "Central": 3187,
+   "Sul": 14444,
+   "Centro-Sul": 6795
+  },
+  "tc": {
+   "Oeste": 1056,
+   "Sudoeste": 4874,
+   "Norte": 2024,
+   "Leste": 1360,
+   "Central": 1519,
+   "Sul": 1854,
+   "Centro-Sul": 935
+  },
+  "hus": {
+   "Oeste": 1318,
+   "Sudoeste": 7917,
+   "Norte": 2147,
+   "Leste": 3700,
+   "Central": 1265,
+   "Sul": 5518,
+   "Centro-Sul": 2396
+  },
+  "htc": {
+   "Oeste": 351,
+   "Sudoeste": 1602,
+   "Norte": 664,
+   "Leste": 448,
+   "Central": 501,
+   "Sul": 609,
+   "Centro-Sul": 306
+  },
+  "N": 79152
+ },
+ "pop": {
+  "Oeste": 444450,
+  "Sudoeste": 795434,
+  "Norte": 345286,
+  "Leste": 305710,
+  "Central": 345423,
+  "Sul": 256089,
+  "Centro-Sul": 324989
+ },
+ "duplas": [
+  {
+   "regioes": [
+    "Sudoeste",
+    "Centro-Sul"
+   ],
+   "sede": "Águas Claras",
+   "exames": 34551,
+   "pct": 0.4365145542753184,
+   "km_a_mais_por_exame": 0.8081133442810766,
+   "ra_mais_longe_km": 9.40844301678019
+  },
+  {
+   "regioes": [
+    "Oeste",
+    "Sudoeste"
+   ],
+   "sede": "Taguatinga",
+   "exames": 31417,
+   "pct": 0.39691985041439254,
+   "km_a_mais_por_exame": 0.82258048894386,
+   "ra_mais_longe_km": 23.308492014714293
+  },
+  {
+   "regioes": [
+    "Sudoeste",
+    "Central"
+   ],
+   "sede": "Taguatinga",
+   "exames": 31527,
+   "pct": 0.39830958156458457,
+   "km_a_mais_por_exame": 2.4389628563166186,
+   "ra_mais_longe_km": 24.106845500811588
+  },
+  {
+   "regioes": [
+    "Leste",
+    "Central"
+   ],
+   "sede": "Jardim Botânico",
+   "exames": 17007,
+   "pct": 0.21486506973923591,
+   "km_a_mais_por_exame": 2.898338211658784,
+   "ra_mais_longe_km": 18.9230917135652
+  },
+  {
+   "regioes": [
+    "Central",
+    "Centro-Sul"
+   ],
+   "sede": "Guará",
+   "exames": 12436,
+   "pct": 0.15711542348898322,
+   "km_a_mais_por_exame": 3.1890574240583813,
+   "ra_mais_longe_km": 16.74577260086855
+  },
+  {
+   "regioes": [
+    "Norte",
+    "Leste"
+   ],
+   "sede": "Paranoá",
+   "exames": 19001,
+   "pct": 0.24005710531635335,
+   "km_a_mais_por_exame": 4.413988996602517,
+   "ra_mais_longe_km": 21.77582375020518
+  },
+  {
+   "regioes": [
+    "Sul",
+    "Centro-Sul"
+   ],
+   "sede": "Gama",
+   "exames": 24028,
+   "pct": 0.30356781888012935,
+   "km_a_mais_por_exame": 4.772663811657458,
+   "ra_mais_longe_km": 26.847891909794335
+  },
+  {
+   "regioes": [
+    "Oeste",
+    "Sul"
+   ],
+   "sede": "Gama",
+   "exames": 20894,
+   "pct": 0.26397311501920356,
+   "km_a_mais_por_exame": 4.7824176101374265,
+   "ra_mais_longe_km": 40.59611434607997
+  },
+  {
+   "regioes": [
+    "Oeste",
+    "Centro-Sul"
+   ],
+   "sede": "Guará",
+   "exames": 12326,
+   "pct": 0.1557256923387912,
+   "km_a_mais_por_exame": 4.948200799697665,
+   "ra_mais_longe_km": 28.817378437324937
+  },
+  {
+   "regioes": [
+    "Sudoeste",
+    "Sul"
+   ],
+   "sede": "Recanto das Emas e Água Quente",
+   "exames": 43119,
+   "pct": 0.5447619769557307,
+   "km_a_mais_por_exame": 5.366045525896544,
+   "ra_mais_longe_km": 13.842326394071192
+  },
+  {
+   "regioes": [
+    "Central",
+    "Sul"
+   ],
+   "sede": "Santa Maria",
+   "exames": 21004,
+   "pct": 0.2653628461693956,
+   "km_a_mais_por_exame": 6.303015103373642,
+   "ra_mais_longe_km": 37.14665260827683
+  },
+  {
+   "regioes": [
+    "Leste",
+    "Centro-Sul"
+   ],
+   "sede": "Jardim Botânico",
+   "exames": 20031,
+   "pct": 0.25307004244996967,
+   "km_a_mais_por_exame": 6.410580768978462,
+   "ra_mais_longe_km": 26.93513133437444
+  },
+  {
+   "regioes": [
+    "Sudoeste",
+    "Norte"
+   ],
+   "sede": "Taguatinga",
+   "exames": 33521,
+   "pct": 0.42350161714170204,
+   "km_a_mais_por_exame": 6.644858388807376,
+   "ra_mais_longe_km": 49.21983340077453
+  },
+  {
+   "regioes": [
+    "Sudoeste",
+    "Leste"
+   ],
+   "sede": "Águas Claras",
+   "exames": 39122,
+   "pct": 0.4942642005255711,
+   "km_a_mais_por_exame": 6.883444331944433,
+   "ra_mais_longe_km": 29.554887920613062
+  },
+  {
+   "regioes": [
+    "Norte",
+    "Central"
+   ],
+   "sede": "Sobradinho",
+   "exames": 11406,
+   "pct": 0.14410248635536688,
+   "km_a_mais_por_exame": 7.013252561323404,
+   "ra_mais_longe_km": 22.190164487898684
+  },
+  {
+   "regioes": [
+    "Oeste",
+    "Leste"
+   ],
+   "sede": "Jardim Botânico",
+   "exames": 16897,
+   "pct": 0.21347533858904386,
+   "km_a_mais_por_exame": 8.930075316058353,
+   "ra_mais_longe_km": 47.72360631804767
+  },
+  {
+   "regioes": [
+    "Oeste",
+    "Central"
+   ],
+   "sede": "Cruzeiro",
+   "exames": 9302,
+   "pct": 0.11752071962805741,
+   "km_a_mais_por_exame": 10.40732591391822,
+   "ra_mais_longe_km": 30.97636034139583
+  },
+  {
+   "regioes": [
+    "Leste",
+    "Sul"
+   ],
+   "sede": "Santa Maria",
+   "exames": 28599,
+   "pct": 0.36131746513038204,
+   "km_a_mais_por_exame": 11.486570684697126,
+   "ra_mais_longe_km": 39.92328769026919
+  },
+  {
+   "regioes": [
+    "Norte",
+    "Centro-Sul"
+   ],
+   "sede": "SIA",
+   "exames": 14430,
+   "pct": 0.18230745906610066,
+   "km_a_mais_por_exame": 12.012024291314308,
+   "ra_mais_longe_km": 38.306229258437845
+  },
+  {
+   "regioes": [
+    "Norte",
+    "Sul"
+   ],
+   "sede": "Santa Maria",
+   "exames": 22998,
+   "pct": 0.29055488174651306,
+   "km_a_mais_por_exame": 13.32101165362232,
+   "ra_mais_longe_km": 58.674669151176296
+  },
+  {
+   "regioes": [
+    "Oeste",
+    "Norte"
+   ],
+   "sede": "Sobradinho II",
+   "exames": 11296,
+   "pct": 0.14271275520517485,
+   "km_a_mais_por_exame": 15.268697670598417,
+   "ra_mais_longe_km": 40.12635169062843
+  }
+ ],
+ "polos": [
+  {
+   "polo": "Oeste",
+   "regioes": [
+    "Oeste"
+   ],
+   "us": 3540,
+   "tc": 1056,
+   "h_us": 1318,
+   "h_tc": 351
+  },
+  {
+   "polo": "Sudoeste",
+   "regioes": [
+    "Sudoeste"
+   ],
+   "us": 21947,
+   "tc": 4874,
+   "h_us": 7917,
+   "h_tc": 1602
+  },
+  {
+   "polo": "Norte",
+   "regioes": [
+    "Norte"
+   ],
+   "us": 4676,
+   "tc": 2024,
+   "h_us": 2147,
+   "h_tc": 664
+  },
+  {
+   "polo": "Leste",
+   "regioes": [
+    "Leste"
+   ],
+   "us": 10941,
+   "tc": 1360,
+   "h_us": 3700,
+   "h_tc": 448
+  },
+  {
+   "polo": "Central e Centro-Sul",
+   "regioes": [
+    "Central",
+    "Centro-Sul"
+   ],
+   "us": 9982,
+   "tc": 2454,
+   "h_us": 3661,
+   "h_tc": 807
+  },
+  {
+   "polo": "Sul",
+   "regioes": [
+    "Sul"
+   ],
+   "us": 14444,
+   "tc": 1854,
+   "h_us": 5518,
+   "h_tc": 609
+  }
+ ],
+ "km_medio_6_polos": 5.618620316634555,
+ "h_por_tc": 0.3289531639994127,
+ "tc6": {
+  "cenario": "6 polos com tomografia",
+  "km_medio": 5.690485520805764,
+  "por_sede": {
+   "Plano Piloto": 2453.9999999999995,
+   "São Sebastião": 1360.0,
+   "Sobradinho": 2024.0,
+   "Ceilândia": 3104.965545852956,
+   "Taguatinga": 2825.034454147044,
+   "Gama": 1854.0
+  },
+  "por_ra": [
+   {
+    "ra": "Plano Piloto",
+    "regiao": "Central",
+    "tc": 873.7714136001366,
+    "vai_a": "Plano Piloto",
+    "km": 0.0
+   },
+   {
+    "ra": "Cruzeiro",
+    "regiao": "Central",
+    "tc": 113.19622318143261,
+    "vai_a": "Plano Piloto",
+    "km": 5.8903055947887735
+   },
+   {
+    "ra": "Sudoeste/Octogonal",
+    "regiao": "Central",
+    "tc": 195.04701771451235,
+    "vai_a": "Plano Piloto",
+    "km": 4.505374568224045
+   },
+   {
+    "ra": "Lago Norte",
+    "regiao": "Central",
+    "tc": 183.71904013340165,
+    "vai_a": "Plano Piloto",
+    "km": 7.342656195138109
+   },
+   {
+    "ra": "Lago Sul",
+    "regiao": "Central",
+    "tc": 115.40816911439018,
+    "vai_a": "Plano Piloto",
+    "km": 5.22919687906279
+   },
+   {
+    "ra": "Varjão",
+    "regiao": "Central",
+    "tc": 37.85813625612655,
+    "vai_a": "Plano Piloto",
+    "km": 9.20228232559728
+   },
+   {
+    "ra": "Guará",
+    "regiao": "Centro-Sul",
+    "tc": 347.0866244703667,
+    "vai_a": "Plano Piloto",
+    "km": 10.938395677611952
+   },
+   {
+    "ra": "Núcleo Bandeirante",
+    "regiao": "Centro-Sul",
+    "tc": 62.24721452110687,
+    "vai_a": "Plano Piloto",
+    "km": 12.466442956994587
+   },
+   {
+    "ra": "Candangolândia",
+    "regiao": "Centro-Sul",
+    "tc": 40.39336716011927,
+    "vai_a": "Plano Piloto",
+    "km": 9.624993506491313
+   },
+   {
+    "ra": "Riacho Fundo",
+    "regiao": "Centro-Sul",
+    "tc": 113.79191295705392,
+    "vai_a": "Plano Piloto",
+    "km": 17.337687273682146
+   },
+   {
+    "ra": "Riacho Fundo II",
+    "regiao": "Centro-Sul",
+    "tc": 188.89940890307057,
+    "vai_a": "Plano Piloto",
+    "km": 21.52057852382226
+   },
+   {
+    "ra": "Park Way",
+    "regiao": "Centro-Sul",
+    "tc": 64.12590887691583,
+    "vai_a": "Plano Piloto",
+    "km": 13.878332032344519
+   },
+   {
+    "ra": "SCIA/Estrutural",
+    "regiao": "Centro-Sul",
+    "tc": 103.69357116702412,
+    "vai_a": "Plano Piloto",
+    "km": 12.061857236760844
+   },
+   {
+    "ra": "SIA",
+    "regiao": "Centro-Sul",
+    "tc": 14.761991944342732,
+    "vai_a": "Plano Piloto",
+    "km": 7.804370570391946
+   },
+   {
+    "ra": "Paranoá",
+    "regiao": "Leste",
+    "tc": 284.3717248372641,
+    "vai_a": "São Sebastião",
+    "km": 14.271695764694536
+   },
+   {
+    "ra": "Itapoã",
+    "regiao": "Leste",
+    "tc": 290.9779856726963,
+    "vai_a": "São Sebastião",
+    "km": 17.173366006697698
+   },
+   {
+    "ra": "São Sebastião",
+    "regiao": "Leste",
+    "tc": 438.6913087566648,
+    "vai_a": "São Sebastião",
+    "km": 0.0
+   },
+   {
+    "ra": "Jardim Botânico",
+    "regiao": "Leste",
+    "tc": 345.95898073337474,
+    "vai_a": "São Sebastião",
+    "km": 4.817634274205548
+   },
+   {
+    "ra": "Sobradinho",
+    "regiao": "Norte",
+    "tc": 423.65039995829545,
+    "vai_a": "Sobradinho",
+    "km": 0.0
+   },
+   {
+    "ra": "Sobradinho II",
+    "regiao": "Norte",
+    "tc": 485.26971843631077,
+    "vai_a": "Sobradinho",
+    "km": 4.1436698710201325
+   },
+   {
+    "ra": "Planaltina e Arapoanga",
+    "regiao": "Norte",
+    "tc": 1054.8908441118376,
+    "vai_a": "Sobradinho",
+    "km": 15.207751313064005
+   },
+   {
+    "ra": "Fercal",
+    "regiao": "Norte",
+    "tc": 60.189037493556064,
+    "vai_a": "Sobradinho",
+    "km": 10.381931419538466
+   },
+   {
+    "ra": "Ceilândia",
+    "regiao": "Oeste",
+    "tc": 681.9581235234559,
+    "vai_a": "Ceilândia",
+    "km": 0.0
+   },
+   {
+    "ra": "Sol Nascente/Pôr do Sol",
+    "regiao": "Oeste",
+    "tc": 242.0305906176173,
+    "vai_a": "Ceilândia",
+    "km": 4.521459941213676
+   },
+   {
+    "ra": "Brazlândia",
+    "regiao": "Oeste",
+    "tc": 132.01128585892675,
+    "vai_a": "Ceilândia",
+    "km": 18.726078073104365
+   },
+   {
+    "ra": "Taguatinga",
+    "regiao": "Sudoeste",
+    "tc": 1184.8509844939995,
+    "vai_a": "Taguatinga",
+    "km": 0.0
+   },
+   {
+    "ra": "Samambaia",
+    "regiao": "Sudoeste",
+    "tc": 1340.936092749367,
+    "vai_a": "Ceilândia",
+    "km": 6.689730936293325
+   },
+   {
+    "ra": "Águas Claras",
+    "regiao": "Sudoeste",
+    "tc": 787.294438004913,
+    "vai_a": "Taguatinga",
+    "km": 3.1941978648793836
+   },
+   {
+    "ra": "Vicente Pires",
+    "regiao": "Sudoeste",
+    "tc": 593.5743933500454,
+    "vai_a": "Taguatinga",
+    "km": 4.330219393979941
+   },
+   {
+    "ra": "Arniqueira",
+    "regiao": "Sudoeste",
+    "tc": 259.3146382980863,
+    "vai_a": "Taguatinga",
+    "km": 5.5369666786066185
+   },
+   {
+    "ra": "Recanto das Emas e Água Quente",
+    "regiao": "Sudoeste",
+    "tc": 708.0294531035887,
+    "vai_a": "Ceilândia",
+    "km": 10.612454946900833
+   },
+   {
+    "ra": "Gama",
+    "regiao": "Sul",
+    "tc": 1009.6951372374448,
+    "vai_a": "Gama",
+    "km": 0.0
+   },
+   {
+    "ra": "Santa Maria",
+    "regiao": "Sul",
+    "tc": 844.3048627625552,
+    "vai_a": "Gama",
+    "km": 5.260998004181336
+   }
+  ]
+ },
+ "tc5": {
+  "cenario": "5 polos com tomografia (Leste sem)",
+  "km_medio": 6.200229054354918,
+  "por_sede": {
+   "Plano Piloto": 3523.022014327303,
+   "Sobradinho": 2314.977985672696,
+   "Ceilândia": 3104.965545852956,
+   "Taguatinga": 2825.034454147044,
+   "Gama": 1854.0
+  },
+  "por_ra": [
+   {
+    "ra": "Plano Piloto",
+    "regiao": "Central",
+    "tc": 873.7714136001366,
+    "vai_a": "Plano Piloto",
+    "km": 0.0
+   },
+   {
+    "ra": "Cruzeiro",
+    "regiao": "Central",
+    "tc": 113.19622318143261,
+    "vai_a": "Plano Piloto",
+    "km": 5.8903055947887735
+   },
+   {
+    "ra": "Sudoeste/Octogonal",
+    "regiao": "Central",
+    "tc": 195.04701771451235,
+    "vai_a": "Plano Piloto",
+    "km": 4.505374568224045
+   },
+   {
+    "ra": "Lago Norte",
+    "regiao": "Central",
+    "tc": 183.71904013340165,
+    "vai_a": "Plano Piloto",
+    "km": 7.342656195138109
+   },
+   {
+    "ra": "Lago Sul",
+    "regiao": "Central",
+    "tc": 115.40816911439018,
+    "vai_a": "Plano Piloto",
+    "km": 5.22919687906279
+   },
+   {
+    "ra": "Varjão",
+    "regiao": "Central",
+    "tc": 37.85813625612655,
+    "vai_a": "Plano Piloto",
+    "km": 9.20228232559728
+   },
+   {
+    "ra": "Guará",
+    "regiao": "Centro-Sul",
+    "tc": 347.0866244703667,
+    "vai_a": "Plano Piloto",
+    "km": 10.938395677611952
+   },
+   {
+    "ra": "Núcleo Bandeirante",
+    "regiao": "Centro-Sul",
+    "tc": 62.24721452110687,
+    "vai_a": "Plano Piloto",
+    "km": 12.466442956994587
+   },
+   {
+    "ra": "Candangolândia",
+    "regiao": "Centro-Sul",
+    "tc": 40.39336716011927,
+    "vai_a": "Plano Piloto",
+    "km": 9.624993506491313
+   },
+   {
+    "ra": "Riacho Fundo",
+    "regiao": "Centro-Sul",
+    "tc": 113.79191295705392,
+    "vai_a": "Plano Piloto",
+    "km": 17.337687273682146
+   },
+   {
+    "ra": "Riacho Fundo II",
+    "regiao": "Centro-Sul",
+    "tc": 188.89940890307057,
+    "vai_a": "Plano Piloto",
+    "km": 21.52057852382226
+   },
+   {
+    "ra": "Park Way",
+    "regiao": "Centro-Sul",
+    "tc": 64.12590887691583,
+    "vai_a": "Plano Piloto",
+    "km": 13.878332032344519
+   },
+   {
+    "ra": "SCIA/Estrutural",
+    "regiao": "Centro-Sul",
+    "tc": 103.69357116702412,
+    "vai_a": "Plano Piloto",
+    "km": 12.061857236760844
+   },
+   {
+    "ra": "SIA",
+    "regiao": "Centro-Sul",
+    "tc": 14.761991944342732,
+    "vai_a": "Plano Piloto",
+    "km": 7.804370570391946
+   },
+   {
+    "ra": "Paranoá",
+    "regiao": "Leste",
+    "tc": 284.3717248372641,
+    "vai_a": "Plano Piloto",
+    "km": 11.251191048062424
+   },
+   {
+    "ra": "Itapoã",
+    "regiao": "Leste",
+    "tc": 290.9779856726963,
+    "vai_a": "Sobradinho",
+    "km": 10.761951495895156
+   },
+   {
+    "ra": "São Sebastião",
+    "regiao": "Leste",
+    "tc": 438.6913087566648,
+    "vai_a": "Plano Piloto",
+    "km": 16.48529647898393
+   },
+   {
+    "ra": "Jardim Botânico",
+    "regiao": "Leste",
+    "tc": 345.95898073337474,
+    "vai_a": "Plano Piloto",
+    "km": 11.859789205546612
+   },
+   {
+    "ra": "Sobradinho",
+    "regiao": "Norte",
+    "tc": 423.65039995829545,
+    "vai_a": "Sobradinho",
+    "km": 0.0
+   },
+   {
+    "ra": "Sobradinho II",
+    "regiao": "Norte",
+    "tc": 485.26971843631077,
+    "vai_a": "Sobradinho",
+    "km": 4.1436698710201325
+   },
+   {
+    "ra": "Planaltina e Arapoanga",
+    "regiao": "Norte",
+    "tc": 1054.8908441118376,
+    "vai_a": "Sobradinho",
+    "km": 15.207751313064005
+   },
+   {
+    "ra": "Fercal",
+    "regiao": "Norte",
+    "tc": 60.189037493556064,
+    "vai_a": "Sobradinho",
+    "km": 10.381931419538466
+   },
+   {
+    "ra": "Ceilândia",
+    "regiao": "Oeste",
+    "tc": 681.9581235234559,
+    "vai_a": "Ceilândia",
+    "km": 0.0
+   },
+   {
+    "ra": "Sol Nascente/Pôr do Sol",
+    "regiao": "Oeste",
+    "tc": 242.0305906176173,
+    "vai_a": "Ceilândia",
+    "km": 4.521459941213676
+   },
+   {
+    "ra": "Brazlândia",
+    "regiao": "Oeste",
+    "tc": 132.01128585892675,
+    "vai_a": "Ceilândia",
+    "km": 18.726078073104365
+   },
+   {
+    "ra": "Taguatinga",
+    "regiao": "Sudoeste",
+    "tc": 1184.8509844939995,
+    "vai_a": "Taguatinga",
+    "km": 0.0
+   },
+   {
+    "ra": "Samambaia",
+    "regiao": "Sudoeste",
+    "tc": 1340.936092749367,
+    "vai_a": "Ceilândia",
+    "km": 6.689730936293325
+   },
+   {
+    "ra": "Águas Claras",
+    "regiao": "Sudoeste",
+    "tc": 787.294438004913,
+    "vai_a": "Taguatinga",
+    "km": 3.1941978648793836
+   },
+   {
+    "ra": "Vicente Pires",
+    "regiao": "Sudoeste",
+    "tc": 593.5743933500454,
+    "vai_a": "Taguatinga",
+    "km": 4.330219393979941
+   },
+   {
+    "ra": "Arniqueira",
+    "regiao": "Sudoeste",
+    "tc": 259.3146382980863,
+    "vai_a": "Taguatinga",
+    "km": 5.5369666786066185
+   },
+   {
+    "ra": "Recanto das Emas e Água Quente",
+    "regiao": "Sudoeste",
+    "tc": 708.0294531035887,
+    "vai_a": "Ceilândia",
+    "km": 10.612454946900833
+   },
+   {
+    "ra": "Gama",
+    "regiao": "Sul",
+    "tc": 1009.6951372374448,
+    "vai_a": "Gama",
+    "km": 0.0
+   },
+   {
+    "ra": "Santa Maria",
+    "regiao": "Sul",
+    "tc": 844.3048627625552,
+    "vai_a": "Gama",
+    "km": 5.260998004181336
+   }
+  ]
+ },
+ "tc6_sem_ajuste": {
+  "cenario": "6 polos, cada Regiao no seu",
+  "km_medio": 5.466974809308627,
+  "por_sede": {
+   "Plano Piloto": 2453.9999999999995,
+   "São Sebastião": 1360.0,
+   "Sobradinho": 2024.0,
+   "Ceilândia": 1056.0,
+   "Taguatinga": 4874.0,
+   "Gama": 1854.0
+  },
+  "por_ra": [
+   {
+    "ra": "Plano Piloto",
+    "regiao": "Central",
+    "tc": 873.7714136001366,
+    "vai_a": "Plano Piloto",
+    "km": 0.0
+   },
+   {
+    "ra": "Cruzeiro",
+    "regiao": "Central",
+    "tc": 113.19622318143261,
+    "vai_a": "Plano Piloto",
+    "km": 5.8903055947887735
+   },
+   {
+    "ra": "Sudoeste/Octogonal",
+    "regiao": "Central",
+    "tc": 195.04701771451235,
+    "vai_a": "Plano Piloto",
+    "km": 4.505374568224045
+   },
+   {
+    "ra": "Lago Norte",
+    "regiao": "Central",
+    "tc": 183.71904013340165,
+    "vai_a": "Plano Piloto",
+    "km": 7.342656195138109
+   },
+   {
+    "ra": "Lago Sul",
+    "regiao": "Central",
+    "tc": 115.40816911439018,
+    "vai_a": "Plano Piloto",
+    "km": 5.22919687906279
+   },
+   {
+    "ra": "Varjão",
+    "regiao": "Central",
+    "tc": 37.85813625612655,
+    "vai_a": "Plano Piloto",
+    "km": 9.20228232559728
+   },
+   {
+    "ra": "Guará",
+    "regiao": "Centro-Sul",
+    "tc": 347.0866244703667,
+    "vai_a": "Plano Piloto",
+    "km": 10.938395677611952
+   },
+   {
+    "ra": "Núcleo Bandeirante",
+    "regiao": "Centro-Sul",
+    "tc": 62.24721452110687,
+    "vai_a": "Plano Piloto",
+    "km": 12.466442956994587
+   },
+   {
+    "ra": "Candangolândia",
+    "regiao": "Centro-Sul",
+    "tc": 40.39336716011927,
+    "vai_a": "Plano Piloto",
+    "km": 9.624993506491313
+   },
+   {
+    "ra": "Riacho Fundo",
+    "regiao": "Centro-Sul",
+    "tc": 113.79191295705392,
+    "vai_a": "Plano Piloto",
+    "km": 17.337687273682146
+   },
+   {
+    "ra": "Riacho Fundo II",
+    "regiao": "Centro-Sul",
+    "tc": 188.89940890307057,
+    "vai_a": "Plano Piloto",
+    "km": 21.52057852382226
+   },
+   {
+    "ra": "Park Way",
+    "regiao": "Centro-Sul",
+    "tc": 64.12590887691583,
+    "vai_a": "Plano Piloto",
+    "km": 13.878332032344519
+   },
+   {
+    "ra": "SCIA/Estrutural",
+    "regiao": "Centro-Sul",
+    "tc": 103.69357116702412,
+    "vai_a": "Plano Piloto",
+    "km": 12.061857236760844
+   },
+   {
+    "ra": "SIA",
+    "regiao": "Centro-Sul",
+    "tc": 14.761991944342732,
+    "vai_a": "Plano Piloto",
+    "km": 7.804370570391946
+   },
+   {
+    "ra": "Paranoá",
+    "regiao": "Leste",
+    "tc": 284.3717248372641,
+    "vai_a": "São Sebastião",
+    "km": 14.271695764694536
+   },
+   {
+    "ra": "Itapoã",
+    "regiao": "Leste",
+    "tc": 290.9779856726963,
+    "vai_a": "São Sebastião",
+    "km": 17.173366006697698
+   },
+   {
+    "ra": "São Sebastião",
+    "regiao": "Leste",
+    "tc": 438.6913087566648,
+    "vai_a": "São Sebastião",
+    "km": 0.0
+   },
+   {
+    "ra": "Jardim Botânico",
+    "regiao": "Leste",
+    "tc": 345.95898073337474,
+    "vai_a": "São Sebastião",
+    "km": 4.817634274205548
+   },
+   {
+    "ra": "Sobradinho",
+    "regiao": "Norte",
+    "tc": 423.65039995829545,
+    "vai_a": "Sobradinho",
+    "km": 0.0
+   },
+   {
+    "ra": "Sobradinho II",
+    "regiao": "Norte",
+    "tc": 485.26971843631077,
+    "vai_a": "Sobradinho",
+    "km": 4.1436698710201325
+   },
+   {
+    "ra": "Planaltina e Arapoanga",
+    "regiao": "Norte",
+    "tc": 1054.8908441118376,
+    "vai_a": "Sobradinho",
+    "km": 15.207751313064005
+   },
+   {
+    "ra": "Fercal",
+    "regiao": "Norte",
+    "tc": 60.189037493556064,
+    "vai_a": "Sobradinho",
+    "km": 10.381931419538466
+   },
+   {
+    "ra": "Ceilândia",
+    "regiao": "Oeste",
+    "tc": 681.9581235234559,
+    "vai_a": "Ceilândia",
+    "km": 0.0
+   },
+   {
+    "ra": "Sol Nascente/Pôr do Sol",
+    "regiao": "Oeste",
+    "tc": 242.0305906176173,
+    "vai_a": "Ceilândia",
+    "km": 4.521459941213676
+   },
+   {
+    "ra": "Brazlândia",
+    "regiao": "Oeste",
+    "tc": 132.01128585892675,
+    "vai_a": "Ceilândia",
+    "km": 18.726078073104365
+   },
+   {
+    "ra": "Taguatinga",
+    "regiao": "Sudoeste",
+    "tc": 1184.8509844939995,
+    "vai_a": "Taguatinga",
+    "km": 0.0
+   },
+   {
+    "ra": "Samambaia",
+    "regiao": "Sudoeste",
+    "tc": 1340.936092749367,
+    "vai_a": "Taguatinga",
+    "km": 5.795248053362341
+   },
+   {
+    "ra": "Águas Claras",
+    "regiao": "Sudoeste",
+    "tc": 787.294438004913,
+    "vai_a": "Taguatinga",
+    "km": 3.1941978648793836
+   },
+   {
+    "ra": "Vicente Pires",
+    "regiao": "Sudoeste",
+    "tc": 593.5743933500454,
+    "vai_a": "Taguatinga",
+    "km": 4.330219393979941
+   },
+   {
+    "ra": "Arniqueira",
+    "regiao": "Sudoeste",
+    "tc": 259.3146382980863,
+    "vai_a": "Taguatinga",
+    "km": 5.5369666786066185
+   },
+   {
+    "ra": "Recanto das Emas e Água Quente",
+    "regiao": "Sudoeste",
+    "tc": 708.0294531035887,
+    "vai_a": "Taguatinga",
+    "km": 8.006322501623327
+   },
+   {
+    "ra": "Gama",
+    "regiao": "Sul",
+    "tc": 1009.6951372374448,
+    "vai_a": "Gama",
+    "km": 0.0
+   },
+   {
+    "ra": "Santa Maria",
+    "regiao": "Sul",
+    "tc": 844.3048627625552,
+    "vai_a": "Gama",
+    "km": 5.260998004181336
+   }
+  ]
+ },
+ "ras": [
+  {
+   "nome": "Plano Piloto",
+   "regiao": "Central",
+   "pop": 198697,
+   "x": 43.16,
+   "y": 32.31,
+   "tot": 2707.023220804637,
+   "us": 1833.2518072045,
+   "tc": 873.7714136001366
+  },
+  {
+   "nome": "Cruzeiro",
+   "regiao": "Central",
+   "pop": 25741,
+   "x": 37.27,
+   "y": 32.25,
+   "tot": 350.69218320725605,
+   "us": 237.49596002582342,
+   "tc": 113.19622318143261
+  },
+  {
+   "nome": "Sudoeste/Octogonal",
+   "regiao": "Central",
+   "pop": 44354,
+   "x": 38.66,
+   "y": 32.53,
+   "tot": 604.273380753453,
+   "us": 409.22636303894063,
+   "tc": 195.04701771451235
+  },
+  {
+   "nome": "Lago Norte",
+   "regiao": "Central",
+   "pop": 41778,
+   "x": 46.05,
+   "y": 25.56,
+   "tot": 569.178277068985,
+   "us": 385.4592369355833,
+   "tc": 183.71904013340165
+  },
+  {
+   "nome": "Lago Sul",
+   "regiao": "Central",
+   "pop": 26244,
+   "x": 45.09,
+   "y": 37.17,
+   "tot": 357.54499266117193,
+   "us": 242.13682354678178,
+   "tc": 115.40816911439018
+  },
+  {
+   "nome": "Varjão",
+   "regiao": "Central",
+   "pop": 8609,
+   "x": 43.8,
+   "y": 23.13,
+   "tot": 117.28794550449739,
+   "us": 79.42980924837084,
+   "tc": 37.85813625612655
+  },
+  {
+   "nome": "Guará",
+   "regiao": "Centro-Sul",
+   "pop": 120641,
+   "x": 32.77,
+   "y": 35.73,
+   "tot": 2869.496906049128,
+   "us": 2522.410281578761,
+   "tc": 347.0866244703667
+  },
+  {
+   "nome": "Núcleo Bandeirante",
+   "regiao": "Centro-Sul",
+   "pop": 21636,
+   "x": 34.05,
+   "y": 40.82,
+   "tot": 514.6213564151402,
+   "us": 452.37414189403336,
+   "tc": 62.24721452110687
+  },
+  {
+   "nome": "Candangolândia",
+   "regiao": "Centro-Sul",
+   "pop": 14040,
+   "x": 35.98,
+   "y": 38.72,
+   "tot": 333.94730283178814,
+   "us": 293.5539356716689,
+   "tc": 40.39336716011927
+  },
+  {
+   "nome": "Riacho Fundo",
+   "regiao": "Centro-Sul",
+   "pop": 39552,
+   "x": 28.81,
+   "y": 42.04,
+   "tot": 940.7609488321143,
+   "us": 826.9690358750604,
+   "tc": 113.79191295705392
+  },
+  {
+   "nome": "Riacho Fundo II",
+   "regiao": "Centro-Sul",
+   "pop": 65658,
+   "x": 25.48,
+   "y": 44.58,
+   "tot": 1561.7031345676314,
+   "us": 1372.803725664561,
+   "tc": 188.89940890307057
+  },
+  {
+   "nome": "Park Way",
+   "regiao": "Centro-Sul",
+   "pop": 22289,
+   "x": 34.91,
+   "y": 43.47,
+   "tot": 530.1532359556785,
+   "us": 466.02732707876265,
+   "tc": 64.12590887691583
+  },
+  {
+   "nome": "SCIA/Estrutural",
+   "regiao": "Centro-Sul",
+   "pop": 36042,
+   "x": 31.16,
+   "y": 31.09,
+   "tot": 857.2741231241673,
+   "us": 753.5805519571431,
+   "tc": 103.69357116702412
+  },
+  {
+   "nome": "SIA",
+   "regiao": "Centro-Sul",
+   "pop": 5131,
+   "x": 35.45,
+   "y": 33.52,
+   "tot": 122.0429922243522,
+   "us": 107.28100028000948,
+   "tc": 14.761991944342732
+  },
+  {
+   "nome": "Paranoá",
+   "regiao": "Leste",
+   "pop": 63923,
+   "x": 54.19,
+   "y": 30.09,
+   "tot": 2572.1004317817537,
+   "us": 2287.7287069444897,
+   "tc": 284.3717248372641
+  },
+  {
+   "nome": "Itapoã",
+   "regiao": "Leste",
+   "pop": 65408,
+   "x": 55.48,
+   "y": 27.22,
+   "tot": 2631.8530895292924,
+   "us": 2340.875103856596,
+   "tc": 290.9779856726963
+  },
+  {
+   "nome": "São Sebastião",
+   "regiao": "Leste",
+   "pop": 98612,
+   "x": 54.41,
+   "y": 44.36,
+   "tot": 3967.898374276275,
+   "us": 3529.2070655196103,
+   "tc": 438.6913087566648
+  },
+  {
+   "nome": "Jardim Botânico",
+   "regiao": "Leste",
+   "pop": 77767,
+   "x": 52.05,
+   "y": 40.16,
+   "tot": 3129.1481044126785,
+   "us": 2783.189123679304,
+   "tc": 345.95898073337474
+  },
+  {
+   "nome": "Sobradinho",
+   "regiao": "Norte",
+   "pop": 72273,
+   "x": 53.12,
+   "y": 16.72,
+   "tot": 1402.4000393876381,
+   "us": 978.7496394293427,
+   "tc": 423.65039995829545
+  },
+  {
+   "nome": "Sobradinho II",
+   "regiao": "Norte",
+   "pop": 82785,
+   "x": 49.16,
+   "y": 15.5,
+   "tot": 1606.377032373163,
+   "us": 1121.1073139368523,
+   "tc": 485.26971843631077
+  },
+  {
+   "nome": "Planaltina e Arapoanga",
+   "regiao": "Norte",
+   "pop": 179960,
+   "x": 67.91,
+   "y": 13.18,
+   "tot": 3491.9805610421504,
+   "us": 2437.089716930313,
+   "tc": 1054.8908441118376
+  },
+  {
+   "nome": "Fercal",
+   "regiao": "Norte",
+   "pop": 10268,
+   "x": 44.55,
+   "y": 10.86,
+   "tot": 199.24236719704825,
+   "us": 139.05332970349218,
+   "tc": 60.189037493556064
+  },
+  {
+   "nome": "Ceilândia",
+   "regiao": "Oeste",
+   "pop": 287023,
+   "x": 19.06,
+   "y": 35.07,
+   "tot": 2968.067742153223,
+   "us": 2286.1096186297673,
+   "tc": 681.9581235234559
+  },
+  {
+   "nome": "Sol Nascente/Pôr do Sol",
+   "regiao": "Oeste",
+   "pop": 101866,
+   "x": 14.56,
+   "y": 34.63,
+   "tot": 1053.3831387107662,
+   "us": 811.3525480931488,
+   "tc": 242.0305906176173
+  },
+  {
+   "nome": "Brazlândia",
+   "regiao": "Oeste",
+   "pop": 55561,
+   "x": 9.2,
+   "y": 19.15,
+   "tot": 574.5491191360107,
+   "us": 442.537833277084,
+   "tc": 132.01128585892675
+  },
+  {
+   "nome": "Taguatinga",
+   "regiao": "Sudoeste",
+   "pop": 193367,
+   "x": 24.63,
+   "y": 36.62,
+   "tot": 6520.0837618205915,
+   "us": 5335.2327773265915,
+   "tc": 1184.8509844939995
+  },
+  {
+   "nome": "Samambaia",
+   "regiao": "Sudoeste",
+   "pop": 218840,
+   "x": 21.31,
+   "y": 41.37,
+   "tot": 7379.000193605,
+   "us": 6038.064100855633,
+   "tc": 1340.936092749367
+  },
+  {
+   "nome": "Águas Claras",
+   "regiao": "Sudoeste",
+   "pop": 128486,
+   "x": 27.73,
+   "y": 37.39,
+   "tot": 4332.380821036063,
+   "us": 3545.0863830311505,
+   "tc": 787.294438004913
+  },
+  {
+   "nome": "Vicente Pires",
+   "regiao": "Sudoeste",
+   "pop": 96871,
+   "x": 27.41,
+   "y": 33.3,
+   "tot": 3266.364137062283,
+   "us": 2672.7897437122374,
+   "tc": 593.5743933500454
+  },
+  {
+   "nome": "Arniqueira",
+   "regiao": "Sudoeste",
+   "pop": 42320,
+   "x": 29.55,
+   "y": 39.16,
+   "tot": 1426.9753618779182,
+   "us": 1167.660723579832,
+   "tc": 259.3146382980863
+  },
+  {
+   "nome": "Recanto das Emas e Água Quente",
+   "regiao": "Sudoeste",
+   "pop": 115550,
+   "x": 23.77,
+   "y": 44.58,
+   "tot": 3896.195724598144,
+   "us": 3188.166271494555,
+   "tc": 708.0294531035887
+  },
+  {
+   "nome": "Gama",
+   "regiao": "Sul",
+   "pop": 139467,
+   "x": 23.98,
+   "y": 56.96,
+   "tot": 8875.950025186556,
+   "us": 7866.254887949111,
+   "tc": 1009.6951372374448
+  },
+  {
+   "nome": "Santa Maria",
+   "regiao": "Sul",
+   "pop": 116622,
+   "x": 29.23,
+   "y": 57.3,
+   "tot": 7422.049974813443,
+   "us": 6577.745112050889,
+   "tc": 844.3048627625552
+  }
+ ]
+}

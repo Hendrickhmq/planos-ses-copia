@@ -1,0 +1,7 @@
+{"contrato": "2026-10-27", "tipo": "panorama", "plano": "planos/redacao_10",
+ "pedido": "pré-plano de colonoscopia do ISHP, R$ 11 mi: tamanho e espera da fila de colonoscopia",
+ "saida": "transcricao", "janela_viva_meses": 24, "dimensoes": ["regiao"], "minimo": 1,
+ "por_codigo": ["entrantes", "oferta", "situacao"],
+ "universo": [{"rotulo": "colonoscopia (código)", "codigos": ["02.09.01.002-9"]},
+              {"rotulo": "colonoscopia (nome)", "termos": ["COLONOSCOPIA"]},
+              {"rotulo": "retossigmoidoscopia", "codigos": ["02.09.01.005-3"]}]}

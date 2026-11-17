@@ -1,0 +1,13 @@
+id: "pt_ses_05"
+fonte: "extraidos_ocr/"
+csvs_tratadas: 18
+correcoes_aplicadas: 9
+cabecalhos_repetidos_removidos: 0
+linhas_vazias_removidas: 0
+decimais_normalizados: 0
+planilha_csvs_de_origem: 13
+planilha_linhas: 25
+planilha_linhas_emendadas: 0
+planilha_costurada_na_extracao: "planilha_p041-p053.csv"
+origem: "extraidos_ocr/ (bruto) + registros/correcoes.csv"
+derivado: "apagar esta pasta e rodar tratar_planos.py reproduz byte a byte"

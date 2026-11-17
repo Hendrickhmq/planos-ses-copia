@@ -1,0 +1,214 @@
+{
+  "data": "2026-11-11",
+  "painel_atualizacao": "11/11/2026 00:32:28",
+  "filas_atuais": [
+    {
+      "nome": "10. ECODOPPLER DE CAROTIDAS",
+      "antes": 4143,
+      "hoje": 4322,
+      "pessoas": 4322,
+      "devolvidas": 2751
+    },
+    {
+      "nome": "ULTRA-SONOGRAFIA DOPPLER VENOSO - MMII ( BILATERAL)",
+      "antes": 10045,
+      "hoje": 9989,
+      "pessoas": 9986,
+      "devolvidas": 597
+    },
+    {
+      "nome": "ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMII (BILATERAL)",
+      "antes": 1800,
+      "hoje": 1799,
+      "pessoas": 1799,
+      "devolvidas": 333
+    }
+  ],
+  "base_0211": [
+    {
+      "codigo": "0205020186",
+      "nome": "ULTRASSONOGRAFIA TRANSVAGINAL",
+      "pendentes": 9295,
+      "recentes": 5699,
+      "candanga": 83.77
+    },
+    {
+      "codigo": "0205020046",
+      "nome": "ULTRASSONOGRAFIA DE ABDOMEN TOTAL",
+      "pendentes": 13656,
+      "recentes": 9872,
+      "candanga": 117.51
+    },
+    {
+      "codigo": "0205020100",
+      "nome": "ULTRASSONOGRAFIA DE PROSTATA POR VIA ABDOMINAL",
+      "pendentes": 2971,
+      "recentes": 2203,
+      "candanga": 74.19
+    },
+    {
+      "codigo": "0205020160",
+      "nome": "ULTRASSONOGRAFIA PELVICA (GINECOLOGICA)",
+      "pendentes": 1016,
+      "recentes": 699,
+      "candanga": 43.41
+    },
+    {
+      "codigo": "0205020062",
+      "nome": "ULTRASSONOGRAFIA DE ARTICULACAO",
+      "pendentes": 14355,
+      "recentes": 10370,
+      "candanga": 70.97
+    },
+    {
+      "codigo": "0205020054",
+      "nome": "ULTRASSONOGRAFIA DE APARELHO URINARIO",
+      "pendentes": 4032,
+      "recentes": 2656,
+      "candanga": 90.53
+    },
+    {
+      "codigo": "0205020143",
+      "nome": "ULTRASSONOGRAFIA OBSTETRICA",
+      "pendentes": 406,
+      "recentes": 404,
+      "candanga": 62.22
+    },
+    {
+      "codigo": "0205010040",
+      "nome": "ULTRASSONOGRAFIA DOPPLER COLORIDO DE VASOS",
+      "pendentes": 16844,
+      "recentes": 12143,
+      "candanga": 115.61
+    },
+    {
+      "codigo": "0205020070",
+      "nome": "ULTRASSONOGRAFIA DE BOLSA ESCROTAL",
+      "pendentes": 961,
+      "recentes": 623,
+      "candanga": 100.0
+    },
+    {
+      "codigo": "0205020097",
+      "nome": "ULTRASSONOGRAFIA MAMARIA BILATERAL",
+      "pendentes": 12952,
+      "recentes": 8510,
+      "candanga": 70.97
+    },
+    {
+      "codigo": "0205020127",
+      "nome": "ULTRASSONOGRAFIA DE TIREOIDE",
+      "pendentes": 3858,
+      "recentes": 3098,
+      "candanga": 64.07
+    },
+    {
+      "codigo": "0205020038",
+      "nome": "ULTRASSONOGRAFIA DE ABDOMEN SUPERIOR",
+      "pendentes": 2229,
+      "recentes": 1240,
+      "candanga": 101.27
+    },
+    {
+      "codigo": "0205020135",
+      "nome": "ULTRASSONOGRAFIA DE TORAX (EXTRACARDIACA)",
+      "pendentes": 17,
+      "recentes": 8,
+      "candanga": 55.39
+    },
+    {
+      "codigo": "0205020119",
+      "nome": "ULTRASSONOGRAFIA DE PROSTATA (VIA TRANSRETAL)",
+      "pendentes": 22,
+      "recentes": 22,
+      "candanga": 100.0
+    },
+    {
+      "codigo": "0205020151",
+      "nome": "ULTRASSONOGRAFIA OBSTETRICA C/ DOPPLER COLORIDO E PULSADO",
+      "pendentes": 139,
+      "recentes": 139,
+      "candanga": 134.44
+    },
+    {
+      "codigo": "0205010059",
+      "nome": "ULTRASSONOGRAFIA DOPPLER DE FLUXO OBSTETRICO",
+      "pendentes": 16,
+      "recentes": 16,
+      "candanga": 134.44
+    },
+    {
+      "codigo": "0205020178",
+      "nome": "ULTRASSONOGRAFIA TRANSFONTANELA",
+      "pendentes": 272,
+      "recentes": 243,
+      "candanga": 268.73
+    }
+  ],
+  "custos": [
+    {
+      "nome": "Doppler de carótidas",
+      "preco": 115.61,
+      "minutos": 20,
+      "custo": 58.98809523809525,
+      "folga": 56.62190476190475,
+      "margem": 0.4897664973782956
+    },
+    {
+      "nome": "Doppler de membros bilateral",
+      "preco": 115.61,
+      "minutos": 40,
+      "custo": 114.9761904761905,
+      "folga": 0.6338095238095036,
+      "margem": 0.005482307099814061
+    },
+    {
+      "nome": "US de abdômen total",
+      "preco": 117.51,
+      "minutos": 20,
+      "custo": 58.98809523809525,
+      "folga": 58.52190476190476,
+      "margem": 0.4980163795583759
+    },
+    {
+      "nome": "US do aparelho urinário",
+      "preco": 90.53,
+      "minutos": 15,
+      "custo": 44.99107142857143,
+      "folga": 45.53892857142857,
+      "margem": 0.5030258320051758
+    },
+    {
+      "nome": "US transvaginal",
+      "preco": 83.77,
+      "minutos": 15,
+      "custo": 44.99107142857143,
+      "folga": 38.778928571428565,
+      "margem": 0.4629214345401524
+    },
+    {
+      "nome": "US de tireoide",
+      "preco": 64.07,
+      "minutos": 15,
+      "custo": 44.99107142857143,
+      "folga": 19.078928571428563,
+      "margem": 0.29778255925438685
+    },
+    {
+      "nome": "US mamária bilateral",
+      "preco": 70.97,
+      "minutos": 20,
+      "custo": 58.98809523809525,
+      "folga": 11.981904761904751,
+      "margem": 0.16883055885451248
+    },
+    {
+      "nome": "US pélvica ginecológica",
+      "preco": 43.41,
+      "minutos": 15,
+      "custo": 44.99107142857143,
+      "folga": -1.581071428571434,
+      "margem": -0.03642182512258545
+    }
+  ]
+}

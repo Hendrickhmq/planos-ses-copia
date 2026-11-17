@@ -1,0 +1,231 @@
+{
+ "recurso": "11592762.00",
+ "apoio": "922260.00",
+ "envelope": "10670502.00",
+ "acrescimo": 785,
+ "acrescimo_proporcional": 784,
+ "preenchidos": [
+  "carotidas"
+ ],
+ "Q": {
+  "mama": 14719,
+  "transvag": 10563,
+  "abd_total": 10054,
+  "dop_mmii": 9850,
+  "carotidas": 4697,
+  "urinario": 3953,
+  "tireoide": 3224,
+  "prostata": 3207,
+  "parede": 3144,
+  "abd_sup": 2265,
+  "tc_abd": 4540,
+  "tc_pelve": 3883,
+  "tc_torax_c": 3117,
+  "coronarias": 1413,
+  "tc_torax_s": 728
+ },
+ "qc": {
+  "02.05.02.009-7": 14719,
+  "02.05.02.018-6": 10563,
+  "02.05.02.004-6": 13198,
+  "02.05.01.004-0": 14547,
+  "02.05.02.005-4": 3953,
+  "02.05.02.012-7": 3224,
+  "02.05.02.010-0": 3207,
+  "02.05.02.003-8": 2265,
+  "02.06.03.001-0": 4540,
+  "02.06.03.003-7": 3883,
+  "02.06.02.003-1": 5258
+ },
+ "total": 79357,
+ "us_total": 65676,
+ "tc_total": 13681,
+ "producao": "10670427.16",
+ "global": "11592687.16",
+ "sobra": "74.84",
+ "apoio_pct_global": 0.07955532546260827,
+ "ORD": [
+  "Ceilândia",
+  "Taguatinga",
+  "Sobradinho",
+  "Plano Piloto",
+  "Gama",
+  "Guará"
+ ],
+ "POLO": {
+  "Ceilândia": [
+   "Região Oeste"
+  ],
+  "Taguatinga": [
+   "Região Sudoeste"
+  ],
+  "Sobradinho": [
+   "Região Norte",
+   "Região Leste"
+  ],
+  "Plano Piloto": [
+   "Região Central"
+  ],
+  "Gama": [
+   "Região Sul"
+  ],
+  "Guará": [
+   "Região Centro-Sul"
+  ]
+ },
+ "tot": {
+  "Ceilândia": 4610,
+  "Taguatinga": 26888,
+  "Sobradinho": 19050,
+  "Plano Piloto": 4721,
+  "Gama": 16336,
+  "Guará": 7752
+ },
+ "us": {
+  "Ceilândia": 3549,
+  "Taguatinga": 21993,
+  "Sobradinho": 15652,
+  "Plano Piloto": 3195,
+  "Gama": 14474,
+  "Guará": 6813
+ },
+ "tc": {
+  "Ceilândia": 1061,
+  "Taguatinga": 4895,
+  "Sobradinho": 3398,
+  "Plano Piloto": 1526,
+  "Gama": 1862,
+  "Guará": 939
+ },
+ "hus": {
+  "Ceilândia": 1322,
+  "Taguatinga": 7934,
+  "Sobradinho": 5860,
+  "Plano Piloto": 1269,
+  "Gama": 5529,
+  "Guará": 2403
+ },
+ "htc": {
+  "Ceilândia": 353,
+  "Taguatinga": 1609,
+  "Sobradinho": 1116,
+  "Plano Piloto": 503,
+  "Gama": 612,
+  "Guará": 307
+ },
+ "pct": {
+  "Ceilândia": 0.058088806938841574,
+  "Taguatinga": 0.3388270752586784,
+  "Sobradinho": 0.24005545353820654,
+  "Plano Piloto": 0.05949136771353075,
+  "Gama": 0.20585867426643253,
+  "Guará": 0.09767862228431022
+ },
+ "mes_us": {
+  "Ceilândia": 296,
+  "Taguatinga": 1833,
+  "Sobradinho": 1305,
+  "Plano Piloto": 267,
+  "Gama": 1207,
+  "Guará": 568
+ },
+ "mes_tc": {
+  "Ceilândia": 89,
+  "Taguatinga": 408,
+  "Sobradinho": 284,
+  "Plano Piloto": 128,
+  "Gama": 156,
+  "Guará": 79
+ },
+ "dia_us": {
+  "Ceilândia": 15,
+  "Taguatinga": 88,
+  "Sobradinho": 63,
+  "Plano Piloto": 13,
+  "Gama": 58,
+  "Guará": 28
+ },
+ "dia_tc": {
+  "Ceilândia": 5,
+  "Taguatinga": 20,
+  "Sobradinho": 14,
+  "Plano Piloto": 7,
+  "Gama": 8,
+  "Guará": 4
+ },
+ "salas": {
+  "Ceilândia": 1,
+  "Taguatinga": 4,
+  "Sobradinho": 3,
+  "Plano Piloto": 1,
+  "Gama": 3,
+  "Guará": 2
+ },
+ "por_sala": {
+  "Ceilândia": 15,
+  "Taguatinga": 22,
+  "Sobradinho": 21,
+  "Plano Piloto": 13,
+  "Gama": 20,
+  "Guará": 14
+ },
+ "operadores": {
+  "Ceilândia": 1,
+  "Taguatinga": 1,
+  "Sobradinho": 1,
+  "Plano Piloto": 1,
+  "Gama": 1,
+  "Guará": 1
+ },
+ "assistentes": {
+  "Ceilândia": 1,
+  "Taguatinga": 2,
+  "Sobradinho": 2,
+  "Plano Piloto": 1,
+  "Gama": 1,
+  "Guará": 1
+ },
+ "medicos_us": {
+  "Ceilândia": 1,
+  "Taguatinga": 5,
+  "Sobradinho": 4,
+  "Plano Piloto": 1,
+  "Gama": 4,
+  "Guará": 2
+ },
+ "radiologistas": {
+  "Ceilândia": 1,
+  "Taguatinga": 1,
+  "Sobradinho": 1,
+  "Plano Piloto": 1,
+  "Gama": 1,
+  "Guará": 1
+ },
+ "curva": [
+  19834,
+  19839,
+  19841,
+  19843
+ ],
+ "pico_dia": 315,
+ "prod_tri": [
+  "2666832.10",
+  "2667531.54",
+  "2667931.82",
+  "2668131.70"
+ ],
+ "parcelas": [
+  "2897397.10",
+  "2898096.54",
+  "2898496.82",
+  "2898696.70"
+ ],
+ "contraste": 12953,
+ "contraste_cod": {
+  "02.06.03.001-0": 4540,
+  "02.06.03.003-7": 3883,
+  "02.06.02.003-1": 4530
+ },
+ "absorvido_contraste": "777180.00",
+ "tomografos_equivalentes": 1.7857142857142858
+}

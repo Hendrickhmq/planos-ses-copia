@@ -1,0 +1,22 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/estudo_holter_mapa",
+ "pedido": "Estudo das filas de Holter 24 h e MAPA como exames avulsos, sem plano: região, idade, CID, ano, entrantes, oferta e situação, com a varredura das filas dos dois códigos",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": ["regiao", "idade", "cid", "entrantes", "ano", "oferta", "situacao"],
+ "objetos": [
+  {"id": "02.11.02.004-4", "tipo": "exame", "nome": "Holter 24 horas",
+   "codigos": ["02.11.02.004-4"],
+   "filas": [{"nome": "HOLTER 24 HORAS", "papel": "exame"}],
+   "termos": ["HOLTER"],
+   "recortes": [{"rotulo": "arritmia e palpitação", "cid": "codigo_cid_solicitado={\"I47*\",\"I48*\",\"I49*\",\"R00*\"}"},
+                {"rotulo": "hipertensão", "cid": "codigo_cid_solicitado={\"I10*\"}"}]},
+  {"id": "02.11.02.005-2", "tipo": "exame", "nome": "Monitorização ambulatorial de pressão arterial (MAPA)",
+   "codigos": ["02.11.02.005-2"],
+   "filas": [{"nome": "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL", "papel": "exame"}],
+   "termos": ["MAPA"],
+   "recortes": [{"rotulo": "hipertensão", "cid": "codigo_cid_solicitado={\"I10*\",\"I15*\",\"R03*\"}"}]}
+ ]
+}

@@ -1,0 +1,21 @@
+PROCEDIMENTO,09.04.01.001-5 -OCI AVALIAÇÃO INICIAL DIAGNÓSTICA DE DÉFICIT AUDITIVO
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, AUDIOMETRIA TONAL E VOCAL E IMITANCIOMETRIA."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 100,00"
+Total do Serviço Ambulatorial,"R$ 100,00"
+CID-10,H60 - Otite ExternaH61 - Outros Transtornos do Ouvido ExternoH62 - Transtornos do Ouvido Externo em Doenças Classificadas em Outra ParteH65 - Otite Média Não-supurativaH66 - Otite Média Supurativa e as Não Especificadas
+,H67 - Otite Média em Doenças Classificadas em Outra ParteH68 - Salpingite e Obstrução da Trompa de EustáquioH69 - Outros Transtornos da Trompa de EustáquioH70 - Mastoidite e Afecções Correlatas
+,H71 - Colesteatoma do Ouvido MédioH72 - Perfuração da Membrana do TímpanoH73 - Outros Transtornos da Membrana do TímpanoH74 - Outros Transtornos do Ouvido Médio e da MastóideH75 - Outros Transtornos do Ouvido Médio e da Mastóide em Doenças Classificadas em Outra Parte
+,H80 - OtoscleroseH81 - Transtornos da Função VestibularH82 - Síndromes Vertiginosas em Doenças Classificadas em Outra ParteH83 - Outros Transtornos do Ouvido InternoH90 - Perda de Audição Por Transtorno de Condução Eou Neuro-sensorial
+,"H91 - Outras Perdas de AudiçãoH92 - Otalgia e Secreção AuditivaH93 - Outros Transtornos do Ouvido Não Classificados em Outra ParteH94 - Outros Transtornos do Ouvido em Doenças Classificadas em Outra ParteH95 - Transtornos do Ouvido e da Apófise Mastóide Pós-procedimentos, Não Classificados em Outra Parte"
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

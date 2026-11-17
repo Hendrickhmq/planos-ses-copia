@@ -1,0 +1,10 @@
+id: "SAES 4104-2026 OCI gestao pre-operatorio"
+arquivo: "SAES 4104-2026 OCI gestao pre-operatorio.html"
+sha256: "7a93bf9f5b29735e9edd707766d5fddab2468e6dc5ef912f0df3fd468ae30541"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 2352
+tabelas_total: 3
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

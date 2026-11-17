@@ -1,0 +1,247 @@
+{
+ "atualizado": "27/10/2026",
+ "nota": "decisões do usuário de 27/10/2026, sobre a proposta do assistente do mesmo dia (output/estudo_enquadramento_cardiologia_20261027.md). Nomes exatos da coleta mapa_social_20261027_ocis",
+ "abertas": [
+  "006-9: qual das três versões do CID, depois de medir",
+  "P-08 na SES, junto com a situação da HAPVIDA e do Hospital de Ceilândia",
+  "SES: converter pedido de exame em OCI (a porta da 002-6 e o caso 2)",
+  "caso 1 ou caso 2 da porta, depois de medir"
+ ],
+ "filas": {
+  "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO": {
+   "decisao": "entra",
+   "motivo": "porta de entrada; na 007-7, a fila inteira com o CID da cirurgia (P-08), a confirmar na SES (usuário, 27/10/2026)",
+   "papel": "consulta",
+   "generica": false,
+   "codigo_sigtap": "03.01.01.007-2"
+  },
+  "CONSULTA EM CARDIOLOGIA - CORONARIA": {
+   "decisao": "entra",
+   "motivo": "porta de entrada da linha coronária, pelo I20 a I25 (usuário, 27/10/2026)",
+   "papel": "consulta",
+   "generica": false,
+   "codigo_sigtap": "03.01.01.007-2"
+  },
+  "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA": {
+   "decisao": "entra",
+   "motivo": "porta de entrada da 006-9, pelo CID da finalidade (a medir em três versões) (usuário, 27/10/2026)",
+   "papel": "consulta",
+   "generica": false,
+   "codigo_sigtap": "03.01.01.007-2"
+  },
+  "CONSULTA EM CARDIOLOGIA - ADULTO": {
+   "decisao": "entra",
+   "motivo": "fila genérica que entra pelo CID da finalidade, como porta de entrada (usuário, 27/10/2026)",
+   "papel": "consulta",
+   "generica": true,
+   "codigo_sigtap": "03.01.01.007-2"
+  },
+  "ELETROCARDIOGRAMA": {
+   "decisao": "entra",
+   "motivo": "porta da 002-6 (Z13.6 e Z84.8), que pode converter o pedido se a SES aceitar; nas outras OCI, só no caso 2 (consulta e exames obrigatórios) (usuário, 27/10/2026)",
+   "papel": "exame",
+   "generica": true,
+   "codigo_sigtap": "02.11.02.003-6"
+  },
+  "TORAX : PA E PERFIL": {
+   "decisao": "fica fora",
+   "motivo": "compatível, não obrigatório: a porta é a consulta, ou a consulta com os obrigatórios (usuário, 27/10/2026)",
+   "papel": "exame",
+   "generica": true,
+   "codigo_sigtap": "02.04.03.015-3"
+  },
+  "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO": {
+   "decisao": "fica fora",
+   "motivo": "compatível, não obrigatório: a porta é a consulta, ou a consulta com os obrigatórios (usuário, 27/10/2026)",
+   "papel": "exame",
+   "generica": true,
+   "codigo_sigtap": "02.05.01.003-2"
+  },
+  "HOLTER 24 HORAS": {
+   "decisao": "a decidir",
+   "motivo": "obrigatório na 006-9: conta só no caso 2 (consulta e exames obrigatórios), que se mede ao lado do caso 1 (só consulta) (usuário, 27/10/2026)",
+   "papel": "exame",
+   "generica": true,
+   "codigo_sigtap": "02.11.02.004-4"
+  },
+  "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2": {
+   "decisao": "a decidir",
+   "motivo": "obrigatório na 003-4 e na 006-9: conta só no caso 2 (consulta e exames obrigatórios), que se mede ao lado do caso 1 (só consulta) (usuário, 27/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.11.02.006-0"
+  },
+  "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO": {
+   "decisao": "fica fora",
+   "motivo": "obrigatório na 004-2: não conta em nenhum dos dois casos; no caso 2, a linha coronária conta só os obrigatórios da 003-4 (eletrocardiograma e ergométrico) (usuário, 27/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.05.01.001-6"
+  },
+  "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)": {
+   "decisao": "fica fora",
+   "motivo": "obrigatório na 005-0: não conta em nenhum dos dois casos; no caso 2, a linha coronária conta só os obrigatórios da 003-4 (eletrocardiograma e ergométrico) (usuário, 27/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.08.01.002-5"
+  },
+  "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)": {
+   "decisao": "fica fora",
+   "motivo": "obrigatório na 005-0: não conta em nenhum dos dois casos; no caso 2, a linha coronária conta só os obrigatórios da 003-4 (eletrocardiograma e ergométrico) (usuário, 27/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.08.01.003-3"
+  }
+ },
+ "ocis": {
+  "09.02.01.001-8": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+    "ELETROCARDIOGRAMA",
+    "TORAX : PA E PERFIL"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+   ],
+   "obrigatorios": [
+    "ELETROCARDIOGRAMA"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "nota": "finalidade = o CID da ficha (raro: 1,5% dos pedidos). É a OCI do IEV no Fila Zero; o caminho A não a usa"
+  },
+  "09.02.01.002-6": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "ELETROCARDIOGRAMA",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "obrigatorios": [
+    "ELETROCARDIOGRAMA"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "nota": "finalidade = o CID da ficha (raro: 1,2% dos pedidos); 417 pessoas em 27/10, 18 anos ou mais",
+   "porta": "eletrocardiograma com Z13.6 ou Z84.8, se a SES aceitar converter o pedido (usuário, 27/10/2026)"
+  },
+  "09.02.01.003-4": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CONSULTA EM CARDIOLOGIA - CORONARIA"
+   ],
+   "obrigatorios": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "nota": "finalidade I20 a I25 (usuário, 27/10/2026): o mesmo CID da 004-2 e da 005-0. A linha coronária conta cada pessoa uma vez, aqui"
+  },
+  "09.02.01.004-2": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "obrigatorios": [
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "nota": "finalidade = o CID da ficha; 1.793 das 2.053 pessoas vêm da consulta adulto. É OCI do IEV no Fila Zero (900). Linha coronária: não se soma à fila; é o passo seguinte de parte de quem fez a 003-4 (usuário, 27/10/2026)"
+  },
+  "09.02.01.005-0": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "obrigatorios": [
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "nota": "finalidade = o CID da ficha; 3.313 pessoas em 27/10. A cintilografia é de serviço de medicina nuclear. Linha coronária: não se soma à fila; é o passo seguinte de parte de quem fez a 003-4 (usuário, 27/10/2026)"
+  },
+  "09.02.01.006-9": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "HOLTER 24 HORAS",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA"
+   ],
+   "obrigatorios": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "HOLTER 24 HORAS"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\"}",
+   "nota": "o CID da ficha é o capítulo I inteiro; a finalidade se mede nas três versões antes de decidir (usuário, 27/10/2026). A cardiopatia chagásica (B57.2) não cabe: fora do capítulo I",
+   "variantes": [
+    {
+     "rotulo": "I50",
+     "cid": "codigo_cid_solicitado={\"I50*\"}"
+    },
+    {
+     "rotulo": "I50 com I11.0, I13.0 e I13.2",
+     "cid": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\"}"
+    },
+    {
+     "rotulo": "IC ampliada (com I42 e I43)",
+     "cid": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\",\"I42*\",\"I43*\"}"
+    }
+   ]
+  },
+  "09.02.01.007-7": {
+   "filas": [
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+    "ELETROCARDIOGRAMA",
+    "TORAX : PA E PERFIL"
+   ],
+   "entrada": [
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+   ],
+   "obrigatorios": [],
+   "cid_aceito": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}",
+   "nota": "P-08: a fila inteira de risco cirúrgico (CID da cirurgia) entra, a confirmar na SES; a 007-7 feita por cardiologista (usuário, 27/10/2026). A conta mostra também o caso sem ela"
+  }
+ },
+ "decisoes": [
+  "porta de entrada: medir dois casos, (1) só a consulta com o CID e (2) a consulta e os exames obrigatórios com o CID, cada pessoa uma vez; na linha coronária, o caso 2 conta só os obrigatórios da 003-4 (eletrocardiograma e ergométrico), sem o eco de estresse e a cintilografia (usuário, 27/10/2026)",
+  "consulta adulto: entra pelo CID da finalidade (usuário, 27/10/2026)",
+  "003-4: finalidade I20 a I25 (usuário, 27/10/2026)",
+  "006-9: medir I50, I50 com I11.0, I13.0 e I13.2, e a ampliada com I42 e I43, e decidir depois (usuário, 27/10/2026)",
+  "P-08: a fila de risco cirúrgico entra na 007-7, a confirmar na SES; a conta mostra também o caso sem ela (usuário, 27/10/2026)",
+  "fila viva na conta e na meta; a fila inteira só na justificativa, ao lado da viva (usuário, 27/10/2026)",
+  "002-6: a porta é o eletrocardiograma com Z13.6 ou Z84.8 (usuário, 27/10/2026)",
+  "linha coronária: cada pessoa conta uma vez, na 003-4; a 004-2 e a 005-0 não se somam (usuário, 27/10/2026)"
+ ]
+}

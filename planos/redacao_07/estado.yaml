@@ -1,0 +1,58 @@
+# redacao_07 — pré-plano de Exames de imagem — ISHP — Emenda de Bancada 71080005 (R$ 1.502.687,00)
+# Aberto em 15/10/2026 para escolher a fila de imagem desta emenda, fora do plano 4. Em 19/10/2026 o usuário
+# pediu o PT simplificado: "eu gostaria de partir para o plano simplificado. Lembrando essa emenda era para
+# otorrino mas vamos fazer para imagem que é como o gestor da emenda solicitou" (Ofício 398/2026 da ARINS).
+# Trilha: pré-plano (metodo/pre_plano/). Substitui, para esta emenda, o pré-plano de otorrino do redacao_05.
+
+proponente: ishp                      # biblioteca/proponentes/ishp/
+cabecalho_documento: "INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA"   # ferramentas/gerar_pre_plano.py
+prefixo_arquivo: "pt_simplificado_exames_de_imagem_bancada_"
+instrumento:
+  processo_sei: "00060-00484181/2026-49"
+  oficio_ses: "Ofício 398/2026 - SES/GAB/ARINS, 13/10/2026 (SEI 216924961): pede a correção do PT simplificado para o projeto do Ofício 88, Exames de imagem; o PT recebido era de OCI em Otorrinolaringologia. Cita a Portaria GM/MS 10.297/2026, art. 6º a 8º"
+  oficio_anterior: "Ofício 387/2026 - SES/GAB/ARINS, 02/10/2026 (SEI 216131810), o primeiro pedido, respondido com o redacao_05"
+  modelo: "Plano de Trabalho 41 - 'Plano de Trabalho Simplificado - Modelo Parceria' (SEI 216131719); o formulário manda na estrutura"
+  fontes: "registros/fontes/sei_00060-00484181-2026-49/"
+recurso:
+  valor: 1502687.00
+  emenda: "Bancada do DF 71080005 (202571080005), OGU 2025"
+  proposta: "36000722999202500"
+  acao: "2E90 - Incremento Temporário ao Custeio dos Serviços de Assistência Hospitalar e Ambulatorial para Cumprimento de Metas"
+  gnd: 3
+  indicacao: "Ofício nº 88/2026 da Bancada (29/09/2026, SEI 216131402): ISHP, objeto 'Exames de imagem'"
+  origem: "federal; a mesma emenda do redacao_05 (usuário, 15/10/2026)"
+custo_acessorio:
+  teto: 0.10                          # usuário, 16/10/2026: "deixe 10% de apoio"
+  teto_valor: 150268.70               # 10% do recurso
+  regra: "não vai ao documento: só a frase de que gestão e apoio completam o Valor Total e serão detalhados no plano de trabalho"
+objeto:
+  carteira: "doze procedimentos de imagem, todos no Anexo I da Portaria SAES/MS 4.282/2026 e nenhum do plano 4 nem das OCI do IEV: mamografia 02.04.03.018-8, densitometria 02.04.06.002-8, US pélvica 02.05.02.016-0, US de bolsa escrotal 02.05.02.007-0, US de globo ocular 02.05.02.008-9, US transfontanela 02.05.02.017-8, US obstétrica 02.05.02.014-3, US obstétrica com doppler 02.05.02.015-1, TC de pescoço 02.06.01.005-2, TC de crânio 02.06.01.007-9, TC de face/seios/ATM 02.06.01.004-4 e TC de sela túrcica 02.06.01.006-0. Eram dezesseis em 19/10/2026; em 20/10/2026 saíram as TC de coluna cervical, torácica e lombo-sacra e a de segmentos apendiculares, compatíveis com a OCI de ortopedia 09.03.01.003-8 que o Fila Zero do IEV executa (usuário). A quantidade de cada um é pactuada com a SES/DF; o plano detalhado pode usar parte da carteira, mas não pode incluir código fora dela"
+  ordem_preferida: "as dez filas de espera longa primeiro, na ordem da espera; mamografia e densitometria de reserva, por último (usuário, 20/10/2026: 'pode deixar as duas de reserva'). As dez custam R$ 1.252.250,57; a reserva recebe os R$ 100.167,73 que sobram. Antes era mamografia primeiro (16/10). Controle interno: no documento só a frase de que a programação prioriza as filas de maior espera. dados/fila.md e cenario_4_espera_longa_com_reserva.xlsx"
+  fora_por_decisao: "ecocardiografia transtorácica e todas as filas de articulação (usuário, 15/10/2026). Em 16/10/2026: todas as cintilografias (medicina nuclear, 02.08) e o resto do código 02.05.02.006-2 (partes moles e outras regiões). Lista em dados/cobertura.md, seção 0"
+  fora_do_plano_4: "nenhum dos dez códigos é do plano 4 (planos/redacao_04/), cujo enquadramento está em planos/redacao_06/dados/fontes/mapa_social_20261009_bruto/coleta_20261009.json"
+  historico_da_escolha: "dados/cobertura.md (seções 3 e 4) e os três cenários em .xlsx, com os números de 15/10/2026"
+procedimentos:                         # valor de referência = tabela x (1 + incremento do Anexo I da 4.282/2026), truncado
+  fonte: "dados/valor_unitario.md - Portaria SAES/MS 4.282/2026, Anexo I; fichas SIGTAP 10/2026 em dados/fontes/"
+  "02.04.03.018-8": 99.90
+  "02.04.06.002-8": 220.40
+  "02.05.02.016-0": 99.94
+  "02.05.02.007-0": 99.94
+  "02.05.02.008-9": 99.94
+  "02.05.02.017-8": 99.94
+  "02.05.02.015-1": 100.18
+  "02.06.01.005-2": 300.15
+  "02.06.01.007-9": 300.11
+  "02.06.01.004-4": 300.15
+  "02.06.01.006-0": 300.11
+  "02.05.02.014-3": 99.94
+numeros:
+  producao: 1352418.30                # recurso - 10%: Meta 2 e aplicação das despesas
+  apoio: 150268.70
+  total_programado: 1502687.00        # Valor Total da seção 1
+  fila_base: "dados/fila.md - Mapa Social, base de 15/10/2026 19:32, coleta do agente mapa-social"
+  recurso_contra_fila: "execução R$ 1.352.418,30 = 56,8% do valor das doze filas (R$ 2.381.702,87); de 51,6% a 74,9% dos pedidos conforme a ordem - o documento diz 'mais da metade' (dados/fila.md)"
+vigencia: "12 meses"                  # usuário, 19/10/2026; como o redacao_05, o pré-plano já enviado desta emenda
+vigencia_meses: 12
+local_execucao: "unidades do proponente, identificadas na formalização com endereço e CNES"
+pendencias: "pendencias.md"
+valor_de_referencia: "dados/valor_unitario.md - Anexo I da Portaria SAES/MS 4.282/2026, como no plano 4"

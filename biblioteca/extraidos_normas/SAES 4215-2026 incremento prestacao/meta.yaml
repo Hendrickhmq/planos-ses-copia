@@ -1,0 +1,10 @@
+id: "SAES 4215-2026 incremento prestacao"
+arquivo: "SAES 4215-2026 incremento prestacao.html"
+sha256: "f4f2ea48179d0323e9644e35a75af8926b3fc3f7817c4b3537ee2580a5d154f3"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 2186
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

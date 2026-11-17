@@ -1,0 +1,18 @@
+PROCEDIMENTO,09.01.01.001-4- OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE CÂNCER DE MAMA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, MAMOGRAFIA, ULTRASSONOGRAFIA DE MAMA, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,10 anos
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 125,00"
+Total do Serviço Ambulatorial,"R$ 125,00"
+CID-10,C50 - Neoplasia Maligna da MamaD05 - Carcinoma in Situ da MamaD24 - Neoplasia benigna da mamaD486 - Neoplasia de comportamento incerto ou desconhecido da mamaN60 - Displasias Mamárias Benignas
+,N61 - Transtornos Inflamatórios da MamaN62 - Hipertrofia da MamaN63 - Nódulo Mamário Não EspecificadoN64 - Outras Doenças da Mama
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

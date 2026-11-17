@@ -1,0 +1,10 @@
+id: "SAES 4795-2026 atributos e compatibilidades"
+arquivo: "SAES 4795-2026 atributos e compatibilidades.html"
+sha256: "81560ad13b7f5853118932dc9aa30522fc8d45374b608c0da22a4ab6b613bfcc"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 2364
+tabelas_total: 3
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

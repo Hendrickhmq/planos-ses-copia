@@ -1,0 +1,30 @@
+id: "convenio_031061-2026"
+arquivo: "convenio_031061-2026.pdf"
+processo_sei: ""
+sha256: "d8e5b586729ff9fffc1db98dff9bcb07b6ac9d97198702ef5b34e4151f590096"
+extrator: "extrair_digitalizados.py"
+ocr_ferramenta: "pytesseract/por, tesseract 5.4.0.20240606"
+paginas: 13
+dpi: 300
+margem_esquerda_px: 220
+tabelas_total: 1
+tabelas_por_pagina:
+  pagina_6: 1
+ocr_confianca_media: 94.6
+ocr_confianca_piso: 75.0
+ocr_paginas_abaixo_do_piso: []
+codigos_de_item_a_conferir: []
+ocr_confianca_por_pagina:
+  pagina_1: 93.8
+  pagina_2: 95.1
+  pagina_3: 93.9
+  pagina_4: 94.6
+  pagina_5: 94.2
+  pagina_6: 94.2
+  pagina_7: 95.3
+  pagina_8: 95.0
+  pagina_9: 94.9
+  pagina_10: 95.1
+  pagina_11: 94.8
+  pagina_12: 95.1
+  pagina_13: 94.2

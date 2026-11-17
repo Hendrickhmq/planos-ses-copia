@@ -1,0 +1,531 @@
+{
+  "answer": "### ACHADO\nclasse: memorial\ntrecho_documento: \"A Nota Técnica nº 3/2025-DAET/SAES/MS organiza a composição de cada OCI em duas colunas — procedimentos obrigatórios e procedimentos opcionais, sem prejuízo da investigação diagnóstica resolutiva — e coloca o exame anatomopatológico desta OCI na segunda.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"A Nota Técnica nº 3/2025-DAET/SAES/MS organiza a composição de cada OCI em duas colunas — procedimentos obrigatórios e procedimentos opcionais, sem prejuízo da investigação diagnóstica resolutiva — e coloca o exame anatomopatológico desta OCI na segunda.\"\ngravidade: diligencia\npor_que: O trecho dedica-se a ensinar ao parecerista a estrutura e a lógica de organização de notas técnicas federais em vez de limitar-se a apresentar a composição do objeto pactuado [1]. Requer-se a remoção da explicação normativa dispensável [1].\n\n### ACHADO\nclasse: memorial\ntrecho_documento: \"O art. 15 da Portaria SAES/MS nº 1.640, de 7 de maio de 2024, determina que a data de início da APAC corresponda à do primeiro procedimento — a consulta médica especializada — e a data de encerramento à do último procedimento do conjunto, que é o retorno.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"O art. 15 da Portaria SAES/MS nº 1.640, de 7 de maio de 2024, determina que a data de início da APAC corresponda à do primeiro procedimento — a consulta médica especializada — e a data de encerramento à do último procedimento do conjunto, que é o retorno.\"\ngravidade: ajuste\npor_que: O texto explica a regra de portaria federal sobre preenchimento de datas de início e encerramento de APAC em vez de apenas declarar a operacionalização do plano [2]. Deve-se focar na descrição do compromisso assumido sem lições normativas [2].\n\n### ACHADO\nclasse: memorial\ntrecho_documento: \"O intervalo de 25 minutos por paciente tem por referência o parecer da Sociedade Portuguesa de Endoscopia Digestiva de 9 de outubro de 2020, que recomenda de 15 a 20 minutos para a endoscopia digestiva alta e registra a recomendação da British Society of Gastroenterology de intervalo mínimo\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"O intervalo de 25 minutos por paciente tem por referência o parecer da Sociedade Portuguesa de Endoscopia Digestiva de 9 de outubro de 2020, que recomenda de 15 a 20 minutos para a endoscopia digestiva alta e registra a recomendação da British Society of Gastroenterology de intervalo mínimo\"\ngravidade: ajuste\npor_que: O documento explica ao parecerista por que referências médicas internacionais sustentam um parâmetro operacional de tempo [3]. A fundamentação teórica extensiva deve ser substituída pela simples fixação da capacidade e do tempo adotados [3].\n\n### ACHADO\nclasse: memorial\ntrecho_documento: \"O art. 1º da Portaria SAES/MS nº 4.653, de 7 de agosto de 2026, alterou o Valor do Serviço Ambulatorial do procedimento 09.01.01.007-3 para R\\$ 600,11, com efeitos operacionais a partir da competência de agosto de 2026. É esse o valor praticado, sem acréscimo, sem índice e sem recomposição.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"O art. 1º da Portaria SAES/MS nº 4.653, de 7 de agosto de 2026, alterou o Valor do Serviço Ambulatorial do procedimento 09.01.01.007-3 para R\\$ 600,11, com efeitos operacionais a partir da competência de agosto de 2026. É esse o valor praticado, sem acréscimo, sem índice e sem recomposição.\"\ngravidade: ajuste\npor_que: O trecho ensina o histórico de alteração do valor na portaria e na tabela do SUS em vez de limitar-se a indicar o valor unitário praticado [4]. Deve-se enxugar a narrativa explicativa sobre a norma de regência [4].\n\n### ACHADO\nclasse: ausencia\ntrecho_documento: \"O objeto reproduz integralmente a OCI federal: mesmo código, mesma composição, mesmo valor unitário, mesmas regras de conclusão e de registro. Não há procedimento adicional, não há variação de escopo e não há valor negociado.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"O objeto reproduz integralmente a OCI federal: mesmo código, mesma composição, mesmo valor unitário, mesmas regras de conclusão e de registro. Não há procedimento adicional, não há variação de escopo e não há valor negociado.\"\ngravidade: ajuste\npor_que: A frase existe para listar o que o documento não tem ou não inclui (\"não há procedimento adicional, não há variação de escopo e não há valor negociado\") [5]. Cabe suprimir negativas desnecessárias e manter a afirmação direta do objeto [5].\n\n### ACHADO\nclasse: ausencia\ntrecho_documento: \"O recurso é de emenda parlamentar, aplicado como incremento do limite financeiro de média e alta complexidade, e não transita pelo Fundo de Ações Estratégicas e Compensação.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"O recurso é de emenda parlamentar, aplicado como incremento do limite financeiro de média e alta complexidade, e não transita pelo Fundo de Ações Estratégicas e Compensação.\"\ngravidade: ajuste\npor_que: O parágrafo foi redigido para responder a uma objeção não formulada e enfatizar por onde o recurso não transita [6]. Basta indicar a fonte e a modalidade do recurso sem justificativas de exclusão [6].\n\n### ACHADO\nclasse: ausencia\ntrecho_documento: \"Terceira — a estrutura assistencial está remunerada no valor unitário. Sala, equipamento de endoscopia, processadora, insumo, sedação, enfermagem e laboratório de anatomia patológica integram o valor unitário e não têm linha na planilha da seção 8.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"Terceira — a estrutura assistencial está remunerada no valor unitário. Sala, equipamento de endoscopia, processadora, insumo, sedação, enfermagem e laboratório de anatomia patológica integram o valor unitário e não têm linha na planilha da seção 8.\"\ngravidade: ajuste\npor_que: O trecho justifica extensivamente a ausência de rubricas na planilha orçamentária e detalha o que não é alugado nem custeado [7, 8]. Recomenda-se suprimir o texto que explicita exceções e não contratações [8].\n\n### ACHADO\nclasse: ausencia\ntrecho_documento: \"Não há rubrica de sistema informatizado, de locação de equipamento de informática nem de conectividade. O agendamento, o registro da produção e o acompanhamento da execução ocorrem nos sistemas oficiais da SES-DF e nos sistemas próprios dos polos, já em operação.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"Não há rubrica de sistema informatizado, de locação de equipamento de informática nem de conectividade. O agendamento, o registro da produção e o acompanhamento da execução ocorrem nos sistemas oficiais da SES-DF e nos sistemas próprios dos polos, já em operação.\"\ngravidade: ajuste\npor_que: O parágrafo dedica-se a declarar itens não incluídos e despesas não previstas na proposta [9]. A redação deve restringir-se aos custos efetivamente alocados [9].\n\n### ACHADO\nclasse: ausencia\ntrecho_documento: \"A planilha é integralmente de pessoal. Não há material de consumo, equipamento nem serviço de terceiro com linha própria: o percurso da seção 5 não produz custo fora de pessoal que já não esteja remunerado no valor unitário da OCI.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"A planilha é integralmente de pessoal. Não há material de consumo, equipamento nem serviço de terceiro com linha própria: o percurso da seção 5 não produz custo fora de pessoal que já não esteja remunerado no valor unitário da OCI.\"\ngravidade: ajuste\npor_que: Texto formulado para enfatizar a inexistência de linhas de insumos ou serviços de terceiros na planilha orçamentária [10]. Deve-se eliminar declarações sobre ausência de despesas [10].\n\n### ACHADO\nclasse: lugar\ntrecho_documento: \"A produção assistencial é remunerada pelo valor de tabela federal vigente. O art. 1º da Portaria SAES/MS nº 4.653, de 7 de agosto de 2026, alterou o Valor do Serviço Ambulatorial do procedimento 09.01.01.007-3 para R\\$ 600,11, com efeitos operacionais a partir da competência de agosto de 2026.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"A produção assistencial é remunerada pelo valor de tabela federal vigente. O art. 1º da Portaria SAES/MS nº 4.653, de 7 de agosto de 2026, alterou o Valor do Serviço Ambulatorial do procedimento 09.01.01.007-3 para R\\$ 600,11, com efeitos operacionais a partir da competência de agosto de 2026.\"\ngravidade: diligencia\npor_que: A narrativa sobre a demonstração de economicidade e o comparativo de preços federais foi inserida na Seção 8 (Planilha e memória de cálculo), quando seu local adequado seria a Seção 3 (Justificativa) [4, 7]. Deve-se realocar o texto conceitual para a seção de justificativa [4].\n\n### ACHADO\nclasse: lugar\ntrecho_documento: \"R-09 é o risco alto que define este objeto: OCI que não se conclui, ou que se conclui fora da janela, não é produção — os atos praticados só podem ser apresentados avulsos, fora do conjunto. As duas medidas estruturais de controle são o agendamento na primeira quinzena\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"R-09 é o risco alto que define este objeto: OCI que não se conclui, ou que se conclui fora da janela, não é produção — os atos praticados só podem ser apresentados avulsos, fora do conjunto. As duas medidas estruturais de controle são o agendamento na primeira quinzena\"\ngravidade: ajuste\npor_que: A subseção 9.3 insere uma justificativa narrativa em prosa após a matriz de riscos (9.2), misturando comentários qualitativos em uma seção estruturada de matriz [11, 12]. Os comentários devem ser integrados à própria matriz ou suprimidos [11].\n\n### ACHADO\nclasse: lugar\ntrecho_documento: \"Capacidade requerida no regime pleno | total | Ceilândia | Sobradinho | Gama | OCI por mês | 1.581 | 613 | 615 | 353 | Entradas por dia útil | 75,29 | 29,19 | 29,29 | 16,81 | Salas de procedimento | 8 | 3 | 3 | 2 | Postos de recuperação | 11 | 4 | 4 | 3 | Lugares na sala de espera | 80 | 30 | 30 | 20\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"Capacidade requerida no regime pleno | total | Ceilândia | Sobradinho | Gama | OCI por mês | 1.581 | 613 | 615 | 353 | Entradas por dia útil | 75,29 | 29,19 | 29,29 | 16,81 | Salas de procedimento | 8 | 3 | 3 | 2 | Postos de recuperação | 11 | 4 | 4 | 3 | Lugares na sala de espera | 80 | 30 | 30 | 20\"\ngravidade: ajuste\npor_que: A tabela de capacidade física instalada foi inserida na Seção 6 (Cronograma físico), duplicando os dados já detalhados na subseção 5.10 [13, 14]. Cronogramas físicos devem conter etapas e prazos de execução, não inventário de capacidade física [14, 15].\n\n### ACHADO\nclasse: registro\ntrecho_documento: \"O quantitativo não foi arbitrado: é o que o recurso disponível compra ao valor de tabela vigente, depois de deduzida a estrutura de gestão e apoio detalhada na seção 8.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"O quantitativo não foi arbitrado: é o que o recurso disponível compra ao valor de tabela vigente, depois de deduzida a estrutura de gestão e apoio detalhada na seção 8.\"\ngravidade: ajuste\npor_que: Uso do termo informal/de mercado \"compra\" e narração do processo de construção do cálculo em um plano de trabalho público [16]. Recomenda-se adotar linguagem formal do setor público (\"corresponde ao quantitativo financiado\") [16].\n\n### ACHADO\nclasse: registro\ntrecho_documento: \"Envelope de produção assistencial | R\\$ 7.781.800,00 | Valor unitário da OCI (Portaria SAES/MS nº 4.653/2026) | R\\$ 600,11 | Quantitativo | 12.967 OCI\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"Envelope de produção assistencial | R\\$ 7.781.800,00 | Valor unitário da OCI (Portaria SAES/MS nº 4.653/2026) | R\\$ 600,11 | Quantitativo | 12.967 OCI\"\ngravidade: ajuste\npor_que: Emprego do vocabulário de consultoria/mercado \"envelope de produção assistencial\" para indicar o saldo orçamentário destinado à execução assistencial [16]. A terminologia deve ser adequada para \"recursos destinados à execução de procedimentos\" [16].\n\n### ACHADO\nclasse: registro\ntrecho_documento: \"A planilha foi construída percorrendo o percurso descrito na seção 5, passo a passo, perguntando de cada um qual custo o torna possível e se esse custo já está remunerado dentro do valor unitário da OCI. A coluna passo registra essa vinculação: toda linha aponta o ponto do percurso que a exige.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"A planilha foi construída percorrendo o percurso descrito na seção 5, passo a passo, perguntando de cada um qual custo o torna possível e se esse custo já está remunerado dentro do valor unitário da OCI. A coluna passo registra essa vinculação: toda linha aponta o ponto do percurso que a exige.\"\ngravidade: ajuste\npor_que: O documento narra meta-textualmente como foi construído (\"percorrendo o percurso... passo a passo, perguntando de cada um\") em estilo de consultoria [8]. A redação deve ser objetiva e impessoal [8].\n\n### ACHADO\nclasse: registro\ntrecho_documento: \"A diferença de R\\$ 173,63 é o resto da divisão do envelope de produção pelo valor unitário da OCI, é menor que uma unidade e não é remanejada.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"A diferença de R\\$ 173,63 é o resto da divisão do envelope de produção pelo valor unitário da OCI, é menor que uma unidade e não é remanejada.\"\ngravidade: ajuste\npor_que: Reiteração do termo de mercado \"envelope de produção\" no texto de consolidação financeira [11]. A terminologia orçamentária oficial deve ser mantida em todo o documento [11].\n\n### ACHADO\nclasse: detalhe\ntrecho_documento: \"O regime pleno de produção é de 1.581 OCI por mês, o que corresponde a 75,29 entradas por dia útil. Distribuídas na proporção da demanda regulada de 3.4, cabem 29,19 entradas diárias a Ceilândia, 29,29 a Sobradinho e 16,81 ao Gama.\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"O regime pleno de produção é de 1.581 OCI por mês, o que corresponde a 75,29 entradas por dia útil. Distribuídas na proporção da demanda regulada de 3.4, cabem 29,19 entradas diárias a Ceilândia, 29,29 a Sobradinho e 16,81 ao Gama.\"\ngravidade: diligencia\npor_que: O documento publica percentuais operacionais e entradas diárias fracionadas (75,29; 29,19; 29,29; 16,81) que viram compromissos rígidos após a publicação [17]. O parecerista necessita apenas das metas mensais por polo [17].\n\n### ACHADO\nclasse: detalhe\ntrecho_documento: \"cada aparelho fica indisponível cerca de 70 minutos por uso — 25 na sala e 45 no processamento —, o que prende 5,7 aparelhos em Ceilândia e em Sobradinho e 3,3 no Gama, e por isso o parque instalado não muda com a distribuição da equipe de apoio\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"cada aparelho fica indisponível cerca de 70 minutos por uso — 25 na sala e 45 no processamento —, o que prende 5,7 aparelhos em Ceilândia e em Sobradinho e 3,3 no Gama, e por isso o parque instalado não muda com a distribuição da equipe de apoio\"\ngravidade: ajuste\npor_que: Apresentação de cálculo de ciclo em minutos (25 min de exame + 45 min de processamento) e frações de equipamentos (5,7 e 3,3 aparelhos) [3, 13]. Trata-se de microdetalhamento interno desnecessário para a aprovação do plano de trabalho [13].\n\n### ACHADO\nclasse: detalhe\ntrecho_documento: \"Memória de dimensionamento, sobre 75,29 entradas por dia útil no regime pleno e jornada efetiva de 6 horas por posto. No polo, por usuário atendido: recepção, conferência da lista do dia, do jejum e do acompanhante; termo de consentimento; ficha da OCI: 8 min; entrega do laudo\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"Memória de dimensionamento, sobre 75,29 entradas por dia útil no regime pleno e jornada efetiva de 6 horas por posto. No polo, por usuário atendido: recepção, conferência da lista do dia, do jejum e do acompanhante; termo de consentimento; ficha da OCI: 8 min; entrega do laudo\"\ngravidade: diligencia\npor_que: Apresentação de tabela de tempos operacionais em minutos por tarefa (8 min, 4 min, 8 min, 5 min, 4 min, 10 min) gerando compromisso publicado desnecessário [18]. Basta apresentar a quantidade final de postos operacionais [19].\n\n### ACHADO\nclasse: detalhe\ntrecho_documento: \"Na coordenação, para os três polos: agendamento do exame e do retorno: 150,58 atos, 4 min, 10,04 h/dia; confirmação ativa de ambos: 150,58 atos, 1,5 min, 3,76 h/dia; busca ativa: 30,12 contatos, 5 min, 2,51 h/dia; reagendamento de falta: 7,53, 5 min, 0,63 h/dia. subtotal — agendamento: 16,94\"\nfonte: DOCUMENTO EM ANÁLISE\ntrecho_fonte: \"Na coordenação, para os três polos: agendamento do exame e do retorno: 150,58 atos, 4 min, 10,04 h/dia; confirmação ativa de ambos: 150,58 atos, 1,5 min, 3,76 h/dia; busca ativa: 30,12 contatos, 5 min, 2,51 h/dia; reagendamento de falta: 7,53, 5 min, 0,63 h/dia. subtotal — agendamento: 16,94\"\ngravidade: diligencia\npor_que: Detalhamento de memória de cálculo com fração de atos (150,58; 30,12; 7,53) e frações de minutos (1,5 min) para justificar a equipe de coordenação [20]. Essa memória interna vira obrigação formal indevida quando publicada [20].",
+  "question": "Leia a fonte \"DOCUMENTO EM ANÁLISE\" como o parecerista que vai decidir se o aprova, e aponte as diligências que ele mandaria sobre como o documento fala. Liste todos os casos, não só o mais grave: o mesmo problema em seções diferentes são achados diferentes. Classes:\n- memorial: texto que ensina ao parecerista o que ele sabe melhor que o proponente (como uma nota técnica se organiza, o que um atributo da tabela significa, por que uma referência científica sustenta um parâmetro) ou que explica a norma em vez de cumpri-la;\n- ausencia: frase ou parágrafo que existe para dizer o que o documento não tem, não contrata ou não inclui, ou para responder a uma objeção que ninguém fez;\n- lugar: conteúdo agrupado numa seção que não devia existir, ou numa seção que não é a dele;\n- registro: vocabulário de mercado, de consultoria ou de método (o recurso \"compra\", \"envelope\", o documento narrando como foi construído) num documento de política pública;\n- detalhe: memória de cálculo, tabela de tempos ou percentual operacional que o parecerista não precisa para decidir e que vira compromisso ao ser publicado.\nFonte é \"DOCUMENTO EM ANÁLISE\" e trecho_fonte repete o trecho, salvo quando outra fonte do caderno mostrar o problema.\n\nResponda só com blocos neste formato, um por achado, sem texto antes nem depois:\n\n### ACHADO\nclasse: <a classe pedida>\ntrecho_documento: \"<cópia literal, contínua, de até 300 caracteres, do DOCUMENTO EM ANÁLISE>\"\nfonte: <o título exato da fonte que sustenta o achado>\ntrecho_fonte: \"<cópia literal do trecho dessa fonte>\"\ngravidade: <reprova, diligencia ou ajuste>\npor_que: <uma ou duas frases>\n\nQuando o problema é uma ausência, trecho_documento é o trecho do documento mais próximo de onde o ponto deveria estar. Se não houver achado numa classe, escreva uma linha: VAZIO: <classe>. Lista vazia é resposta válida; achado sem fonte não vale.",
+  "conversation_id": "1f5e6909-13a0-42c1-9482-57ba99c6e830",
+  "sources_used": [
+    "8114c72d-b0ad-429a-acd0-cb7fdc425626"
+  ],
+  "citations": {
+    "1": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "2": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "3": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "4": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "5": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "6": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "7": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "8": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "9": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "10": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "11": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "12": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "13": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "14": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "15": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "16": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "17": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "18": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "19": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+    "20": "8114c72d-b0ad-429a-acd0-cb7fdc425626"
+  },
+  "references": [
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 1,
+      "cited_text": "A Nota Técnica nº 3/2025-DAET/SAES/MS organiza a composição de cada OCI em duas colunas — procedimentos obrigatórios e procedimentos opcionais, sem prejuízo da investigação diagnóstica resolutiva — e coloca o exame anatomopatológico desta OCI na segunda. A Nota Técnica nº 1/2025-DAET/SAES/MS fixa dois pontos: há procedimentos secundários que não serão necessários por já terem sido realizados ou por não haver indicação após a avaliação do médico especialista, e o valor da OCI não varia ainda que nem todos sejam executados (itens 2.1.5 e 2.1.6); e a alternância entre consulta presencial e teleconsulta é a única hipótese em que o sistema admite marcação individualizada dos procedimentos da OCI (item 2.1.10)."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 2,
+      "cited_text": "2.3 Unidade de aferição A unidade de aferição do convênio é a OCI concluída , e não o exame realizado. A OCI se conclui com a execução dos procedimentos obrigatórios — consulta médica especializada, esofagogastroduodenoscopia e o retorno, em consulta ou teleconsulta —, com ou sem o exame anatomopatológico, conforme haja ou não indicação de biópsia. O art. 15 da Portaria SAES/MS nº 1.640, de 7 de maio de 2024, determina que a data de início da APAC corresponda à do primeiro procedimento — a consulta médica especializada — e a data de encerramento à do último procedimento do conjunto , que é o retorno. O procedimento principal carrega na Tabela de Procedimentos do SUS o atributo complementar 054 — APAC com validade fixa de 2 competências , de modo que o intervalo entre o primeiro e o último procedimento deve estar contido em, no máximo, duas competências ambulatoriais."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 3,
+      "cited_text": "O intervalo de 25 minutos por paciente tem por referência o parecer da Sociedade Portuguesa de Endoscopia Digestiva de 9 de outubro de 2020, que recomenda de 15 a 20 minutos para a endoscopia digestiva alta e registra a recomendação da British Society of Gastroenterology de intervalo mínimo de 20 minutos; ao intervalo do exame somam-se entrada, sedação, saída e higienização da sala. A sala de espera é o ambiente que a exigência de acompanhante mais afeta. Os trinta lugares de Ceilândia e de Sobradinho não atendem trinta pacientes: atendem doze pacientes e doze acompanhantes, com folga. É o efeito direto da exigência de acompanhante sobre o programa de necessidades do serviço, e é a razão pela qual a capacidade de espera é verificada polo a polo antes do início da execução."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 4,
+      "cited_text": "7.3 Ajuste por execução A produção efetivamente executada em cada período é apurada pelas APAC apresentadas nos sistemas oficiais. Havendo diferença entre a produção prevista e a executada, o ajuste é feito na parcela subsequente, e o saldo não executado ao final da vigência é devolvido. -------------------------------------------------------------------------------- 8. Planilha e memória de cálculo 8.1 Economicidade A produção assistencial é remunerada pelo valor de tabela federal vigente. O art. 1º da Portaria SAES/MS nº 4.653, de 7 de agosto de 2026, alterou o Valor do Serviço Ambulatorial do procedimento 09.01.01.007-3 para R$ 600,11, com efeitos operacionais a partir da competência de agosto de 2026. É esse o valor praticado, sem acréscimo, sem índice e sem recomposição."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 5,
+      "cited_text": "A demanda é de avaliação diagnóstica de câncer gástrico, cujo prognóstico depende do momento do diagnóstico. Entre a suspeita levantada na atenção primária e o laudo anatomopatológico, o usuário atravessa três filas sucessivas — a da consulta especializada, a do exame endoscópico e a do exame anatomopatológico —, e o tempo total é a soma das três. 3.2 Modalidade adotada O objeto reproduz integralmente a OCI federal: mesmo código, mesma composição, mesmo valor unitário, mesmas regras de conclusão e de registro. Não há procedimento adicional, não há variação de escopo e não há valor negociado."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 6,
+      "cited_text": "A produção do convênio é registrada nos sistemas oficiais do SUS pelo mesmo caminho de qualquer outra produção ambulatorial — Autorização de Procedimento Ambulatorial com procedimento principal e secundários. A comprovação da execução física se faz pelo registro oficial que a Secretaria já audita. O recurso é de emenda parlamentar, aplicado como incremento do limite financeiro de média e alta complexidade, e não transita pelo Fundo de Ações Estratégicas e Compensação. O Programa Mais Acesso a Especialistas comparece como base paramétrica : dele vêm o código, a composição, a regra de conclusão e o valor unitário. A APAC é meio de comprovação da execução."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 7,
+      "cited_text": "Três consequências: Primeira — o preço é de tabela. O parâmetro de comparação é o valor federal fixado para o conjunto, e o valor praticado é idêntico a ele. Segunda — o conjunto entregue é maior que o exame. Pelos R$ 600,11 o convênio recebe consulta médica especializada, esofagogastroduodenoscopia com sedação, exame anatomopatológico e teleconsulta de retorno com o resultado, além do processamento do endoscópio e da recuperação pós-sedação exigida pela norma sanitária. Para dimensionar o que isso significa em relação ao preço avulso dos componentes, a Portaria SAES/MS nº 4.282, de 19 de junho de 2026, registra o valor SIGTAP da esofagogastroduodenoscopia isolada em R$ 48,16 e admite, no Componente Créditos Financeiros do Programa Agora Tem Especialistas, incremento de 627% sobre ele — o que situa o exame isolado, naquele componente, em R$ 350,12."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 8,
+      "cited_text": "Terceira — a estrutura assistencial está remunerada no valor unitário. Sala, equipamento de endoscopia, processadora, insumo, sedação, enfermagem e laboratório de anatomia patológica integram o valor unitário e não têm linha na planilha da seção 8 . O convênio não aluga imóvel, não custeia energia, água, vigilância nem limpeza predial, porque não implanta serviço: contrata capacidade adicional de serviços de endoscopia já licenciados e em operação. 8.2 Metodologia de composição de custos A planilha foi construída percorrendo o percurso descrito na seção 5, passo a passo, perguntando de cada um qual custo o torna possível e se esse custo já está remunerado dentro do valor unitário da OCI. A coluna passo registra essa vinculação: toda linha aponta o ponto do percurso que a exige."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 9,
+      "cited_text": "Não há rubrica de sistema informatizado, de locação de equipamento de informática nem de conectividade. O agendamento, o registro da produção e o acompanhamento da execução ocorrem nos sistemas oficiais da SES-DF e nos sistemas próprios dos polos, já em operação. Os recursos do convênio são aplicados em pessoal. O convênio contrata capacidade adicional de serviços já licenciados e em operação, na forma da seção 2.5. Os polos existem antes do convênio e permanecem depois dele, e por isso não há linha de locação de imóvel."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 10,
+      "cited_text": "Períodos. A direção, as coordenações, o registro de APAC, o assistente financeiro e os meios tecnológicos atuam nos 10 meses, porque a conclusão das OCI, o encerramento das APAC e a prestação de contas ocorrem no mês 10. O agendamento, a busca ativa e o rastreamento de laudo atuam nos 9 meses de produção. A planilha é integralmente de pessoal. Não há material de consumo, equipamento nem serviço de terceiro com linha própria: o percurso da seção 5 não produz custo fora de pessoal que já não esteja remunerado no valor unitário da OCI."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 11,
+      "cited_text": "A diferença de R$ 173,63 é o resto da divisão do envelope de produção pelo valor unitário da OCI, é menor que uma unidade e não é remanejada. -------------------------------------------------------------------------------- 9. Riscos 9.1 Critério Cada risco é classificado pela combinação entre probabilidade e impacto sobre a execução do objeto, e recebe medida de mitigação atribuída a um responsável determinado. 9.2 Matriz <cited_table>",
+      "cited_table": {
+        "num_columns": 6,
+        "rows": [
+          [
+            "id",
+            "risco",
+            "prob.",
+            "impacto",
+            "classificação",
+            "mitigação"
+          ],
+          [
+            "R-01",
+            "Laudo de anatomia patológica em atraso, impedindo a conclusão da OCI dentro das duas competências",
+            "média",
+            "médio",
+            "médio",
+            "alcança apenas os casos com biópsia — o exame anatomopatológico é procedimento opcional da OCI e a sua ausência por falta de indicação não impede a conclusão; prazo de 15 dias pactuado; rastreamento diário por lote; alerta no 10º dia e escalonamento no 13º; agendamento na primeira quinzena da competência"
+          ],
+          [
+            "R-02",
+            "Absenteísmo ao retorno",
+            "média",
+            "alto",
+            "alto",
+            "confirmação ativa do retorno; teleconsulta, que dispensa deslocamento; busca ativa diária enquanto houver janela"
+          ],
+          [
+            "R-03",
+            "Usuário comparece sem acompanhante",
+            "alta",
+            "médio",
+            "médio",
+            "confirmação nominal do acompanhante 48 h antes; exame sem sedação quando houver condição clínica e concordância; reagendamento com reaproveitamento da vaga"
+          ],
+          [
+            "R-04",
+            "Descumprimento do jejum",
+            "média",
+            "médio",
+            "médio",
+            "orientação escrita no agendamento e repetida na confirmação; lista de espera do dia"
+          ],
+          [
+            "R-05",
+            "Interrupção ou insuficiência do envio da demanda regulada",
+            "média",
+            "alto",
+            "médio",
+            "a fila apurada em 3.1 é de 24.868 solicitações pendentes, 1,9 vez o quantitativo pactuado, de modo que o risco não é de estoque e sim de fluxo; pactuação prévia do ritmo de encaminhamento com o Complexo Regulador na Etapa 1; monitoramento mensal por I-01 e I-06, com alerta à concedente quando o envio ficar abaixo do necessário para a curva"
+          ],
+          [
+            "R-06",
+            "O valor unitário não comporta o conjunto",
+            "média",
+            "alto",
+            "alto",
+            "conferência da composição de custo por polo na Etapa 1, antes da publicação das agendas; renegociação do contrato de anatomia patológica; revisão do parâmetro de sedação"
+          ],
+          [
+            "R-07",
+            "Intercorrência durante a sedação",
+            "baixa",
+            "alto",
+            "médio",
+            "carro de emergência com desfibrilador em cada polo; fluxo de remoção com acompanhamento de profissional habilitado"
+          ],
+          [
+            "R-08",
+            "Indisponibilidade do sistema de registro,",
+            "média",
+            "médio",
+            "médio",
+            "suporte de TI contratado; armazenamento em nuvem; registro em lote com conferência semanal; comunicação imediata à SES-DF quando a indisponibilidade for de sistema dela"
+          ],
+          [
+            "R-09",
+            "Rejeição de APAC por erro de preenchimento ou por conjunto incompleto",
+            "média",
+            "alto",
+            "alto",
+            "conferência dos secundários obrigatórios antes do encerramento; operador de registro dedicado em cada polo, que lança no mesmo dia do atendimento; auditoria mensal da Coordenação Administrativa, Financeira e Assistencial"
+          ],
+          [
+            "R-10",
+            "Concentração da produção em um polo, com desequilíbrio territorial",
+            "média",
+            "baixo",
+            "baixo",
+            "I-06 com faixa de tolerância de 15%; redistribuição de agenda pela Coordenação Administrativa, Financeira e Assistencial"
+          ],
+          [
+            "R-11",
+            "Indisponibilidade de médico endoscopista",
+            "média",
+            "alto",
+            "alto",
+            "escala com profissional de retaguarda em cada polo; redistribuição da agenda entre os três polos, que a Coordenação Administrativa, Financeira e Assistencial opera no mesmo dia; comunicação à concedente quando a reposição exceder cinco dias úteis"
+          ],
+          [
+            "R-12",
+            "Acesso indevido ou vazamento de dado pessoal e de saúde na busca ativa, na teleconsulta ou no registro",
+            "baixa",
+            "alto",
+            "médio",
+            "meio corporativo com registro de acesso, sem aplicativo pessoal; perfis de acesso por posto de trabalho; armazenamento em nuvem com controle de versão"
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 12,
+      "cited_text": "9.3 Os três riscos altos R-09 é o risco alto que define este objeto : OCI que não se conclui, ou que se conclui fora da janela, não é produção — os atos praticados só podem ser apresentados avulsos, fora do conjunto. As duas medidas estruturais de controle são o agendamento na primeira quinzena e a conferência dos procedimentos obrigatórios antes do encerramento da APAC. O R-01 foi classificado como médio, e não alto, por uma razão normativa: o exame anatomopatológico é procedimento opcional desta OCI, de modo que o atraso do laboratório alcança apenas os casos em que houve biópsia, e não a totalidade da produção. R-06 é o risco que o preço de tabela não elimina. O valor unitário é o federal vigente, e a economicidade está demonstrada; isso não garante que cada polo consiga executar o conjunto inteiro dentro dele. A verificação é feita na Etapa 1, polo a polo, antes de qualquer agenda ser publicada — porque a correção depois de iniciada a execução recai sobre a meta, e não sobre o preço."
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 13,
+      "cited_text": "<cited_table>",
+      "cited_table": {
+        "num_columns": 5,
+        "rows": [
+          [
+            "recurso",
+            "Ceilândia",
+            "Sobradinho",
+            "Gama",
+            "como se chega"
+          ],
+          [
+            "Entradas por dia útil",
+            "29,19",
+            "29,29",
+            "16,81",
+            "75,29 rateadas pela participação de 3.4"
+          ],
+          [
+            "Salas de procedimento",
+            "3",
+            "3",
+            "2",
+            "6 horas efetivas e intervalo de 25 minutos produzem 14,4 exames por sala por dia"
+          ],
+          [
+            "Ocupação média das salas",
+            "68%",
+            "68%",
+            "58%",
+            "a folga absorve falta, intercorrência, exame que se estende e o ciclo de processamento"
+          ],
+          [
+            "Chegadas por hora",
+            "4,87",
+            "4,88",
+            "2,80",
+            "entradas ÷ 6 horas"
+          ],
+          [
+            "Postos de recuperação",
+            "4",
+            "4",
+            "3",
+            "chegadas por hora × 45 minutos de permanência"
+          ],
+          [
+            "Lugares na sala de espera",
+            "30",
+            "30",
+            "20",
+            "usuários simultâneos no serviço, cada um com um acompanhante"
+          ],
+          [
+            "Endoscópios",
+            "6",
+            "6",
+            "4",
+            "cada aparelho fica indisponível cerca de 70 minutos por uso — 25 na sala e 45 no processamento —, o que prende 5,7 aparelhos em Ceilândia e em Sobradinho e 3,3 no Gama, e por isso o parque instalado não muda com a distribuição da equipe de apoio"
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 14,
+      "cited_text": "6.3 Capacidade requerida no regime pleno <cited_table> -------------------------------------------------------------------------------- 7. Cronograma de desembolso 7.1 Regime O desembolso é feito em quatro parcelas trimestrais : as três primeiras cobrem os trimestres de produção e a quarta, o mês de conclusão e encerramento. Cada parcela é liberada no início do período a que se refere, condicionada à comprovação da execução física e financeira do período anterior.",
+      "cited_table": {
+        "num_columns": 5,
+        "rows": [
+          [
+            "",
+            "total",
+            "Ceilândia",
+            "Sobradinho",
+            "Gama"
+          ],
+          [
+            "OCI por mês",
+            "1.581",
+            "613",
+            "615",
+            "353"
+          ],
+          [
+            "Entradas por dia útil",
+            "75,29",
+            "29,19",
+            "29,29",
+            "16,81"
+          ],
+          [
+            "Salas de procedimento",
+            "8",
+            "3",
+            "3",
+            "2"
+          ],
+          [
+            "Postos de recuperação",
+            "11",
+            "4",
+            "4",
+            "3"
+          ],
+          [
+            "Lugares na sala de espera",
+            "80",
+            "30",
+            "30",
+            "20"
+          ],
+          [
+            "Endoscópios",
+            "16",
+            "6",
+            "6",
+            "4"
+          ],
+          [
+            "Teleconsultas de retorno por dia útil",
+            "75,29",
+            "—",
+            "—",
+            "—"
+          ],
+          [
+            "Postos de trabalho custeados pelo convênio",
+            "16",
+            "3",
+            "3",
+            "2"
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 15,
+      "cited_text": "-------------------------------------------------------------------------------- 6. Cronograma físico 6.1 Etapas <cited_table>",
+      "cited_table": {
+        "num_columns": 3,
+        "rows": [
+          [
+            "etapa",
+            "conteúdo",
+            "entrega verificável"
+          ],
+          [
+            "Etapa 1 — Implantação",
+            "designação da equipe e do Responsável Técnico de cada polo; habilitação dos acessos aos sistemas oficiais da SES-DF; pactuação do fluxo de encaminhamento com o Complexo Regulador; definição do fluxo de anatomia patológica e do prazo de laudo; publicação das agendas dos três polos; conferência da capacidade instalada de cada polo contra os parâmetros de 5.10",
+            "ato de designação, acessos habilitados, fluxo de anatomia patológica definido, agendas publicadas"
+          ],
+          [
+            "Etapa 2 — Produção",
+            "execução das OCI, na curva de 6.2",
+            "APAC apresentadas e relatório mensal"
+          ],
+          [
+            "Etapa 3 — Conclusão e encerramento",
+            "conclusão das OCI iniciadas, com atenção especial às abertas no mês 9; consolidação da produção; relatório técnico final e prestação de contas",
+            "relatórios mensais, relatório final, prestação de contas"
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 16,
+      "cited_text": "3.3 Dimensionamento O quantitativo não foi arbitrado: é o que o recurso disponível compra ao valor de tabela vigente, depois de deduzida a estrutura de gestão e apoio detalhada na seção 8. <cited_table>",
+      "cited_table": {
+        "num_columns": 2,
+        "rows": [
+          [
+            "",
+            ""
+          ],
+          [
+            "Recurso disponível",
+            "R$ 8.500.000,00"
+          ],
+          [
+            "Estrutura de gestão e apoio (seção 8)",
+            "R$ 718.200,00"
+          ],
+          [
+            "Envelope de produção assistencial",
+            "R$ 7.781.800,00"
+          ],
+          [
+            "Valor unitário da OCI (Portaria SAES/MS nº 4.653/2026)",
+            "R$ 600,11"
+          ],
+          [
+            "Quantitativo",
+            "12.967 OCI"
+          ],
+          [
+            "Produção assistencial (12.967 × R$ 600,11)",
+            "R$ 7.781.626,37"
+          ],
+          [
+            "Valor global",
+            "R$ 8.499.826,37"
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 17,
+      "cited_text": "Falta ao retorno. É a situação mais grave, porque a OCI fica aberta e o conjunto não se conclui. A busca ativa do usuário que não comparece ao retorno é diária enquanto houver janela de competência, e é o indicador I-04 da subseção 5.15. 5.10 Capacidade requerida por polo O regime pleno de produção é de 1.581 OCI por mês , o que corresponde a 75,29 entradas por dia útil. Distribuídas na proporção da demanda regulada de 3.4, cabem 29,19 entradas diárias a Ceilândia, 29,29 a Sobradinho e 16,81 ao Gama. A capacidade exigida de cada polo é, por isso, diferente:"
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 18,
+      "cited_text": "Memória de dimensionamento , sobre 75,29 entradas por dia útil no regime pleno e jornada efetiva de 6 horas por posto. No polo, por usuário atendido: <cited_table>",
+      "cited_table": {
+        "num_columns": 2,
+        "rows": [
+          [
+            "atividade",
+            "tempo unitário"
+          ],
+          [
+            "recepção, conferência da lista do dia, do jejum e do acompanhante; termo de consentimento; ficha da OCI",
+            "8 min"
+          ],
+          [
+            "entrega do laudo, das orientações e do comprovante do retorno",
+            "4 min"
+          ],
+          [
+            "abertura da APAC e registro dos secundários",
+            "8 min"
+          ],
+          [
+            "registro do desfecho e encerramento da APAC",
+            "5 min"
+          ],
+          [
+            "lançamento do resultado no Sistema de Informação do Câncer, nos 30% com biópsia",
+            "4 min"
+          ],
+          [
+            "crítica e reapresentação de registro rejeitado, nos 10% rejeitados",
+            "10 min"
+          ],
+          [
+            "carga por OCI",
+            "27,2 min"
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 19,
+      "cited_text": "No polo: <cited_table> Na coordenação, para os três polos: <cited_table>",
+      "cited_table": {
+        "num_columns": 5,
+        "rows": [
+          [
+            "posto",
+            "Ceilândia",
+            "Sobradinho",
+            "Gama",
+            "passos do percurso"
+          ],
+          [
+            "Operador de registro de sistemas",
+            "1",
+            "1",
+            "1",
+            "5.12"
+          ],
+          [
+            "Recepcionista",
+            "2",
+            "2",
+            "1",
+            "5.4, 5.6 e apoio a 5.12: recepção do usuário, conferência da lista do dia, do jejum e do acompanhante; termo de consentimento; ficha da OCI; entrega do laudo, das orientações e do comprovante do retorno; conferência da completude do conjunto antes do lançamento"
+          ],
+          [
+            "total por polo",
+            "3",
+            "3",
+            "2",
+            ""
+          ]
+        ]
+      }
+    },
+    {
+      "source_id": "8114c72d-b0ad-429a-acd0-cb7fdc425626",
+      "citation_number": 20,
+      "cited_text": "<cited_table> Na coordenação, para os três polos: <cited_table>",
+      "cited_table": {
+        "num_columns": 4,
+        "rows": [
+          [
+            "polo",
+            "entradas por dia útil",
+            "horas/dia",
+            "postos"
+          ],
+          [
+            "Ceilândia",
+            "29,19",
+            "13,23",
+            "3"
+          ],
+          [
+            "Sobradinho",
+            "29,29",
+            "13,28",
+            "3"
+          ],
+          [
+            "Gama",
+            "16,81",
+            "7,62",
+            "2"
+          ]
+        ]
+      }
+    }
+  ]
+}

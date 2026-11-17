@@ -1,0 +1,23 @@
+Procedimento,09.08.01.003-6 OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE SÍNDROME NEUROLÓGICA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS VIVENDO COM HIV/AIDS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA EM ATENÇÃO ESPECIALIZADA; TELECONSULTA MÉDICA EM ATENÇÃO ESPECIALIZADA; PUNÇÃO LOMBAR; TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO; CONTAGEM GLOBAL DE CÉLULAS (NO LÍQUIDO CEFALORRAQUIDIANO); CONTAGEM ESPECÍFICA DE CÉLULAS (NO LÍQUIDO CEFALORRAQUIDIANO) ; DOSAGEM DE GLICOSE (NO LÍQUIDO."
+,"CEFALORRAQUIDIANO); EXAME MICOLÓGICO DIRETO (NO LÍQUIDO CEFALORRAQUIDIANO); DOSAGEM DE PROTEÍNAS TOTAIS; DOSAGEM DE LACTATO; DOSAGEM DE GLICOSE (SÉRICA); CULTURA PARA IDENTIFICAÇÃO MORFOLÓGICA DE FUNGOS; CULTURA SÓLIDA PARA MICOBACTÉRIAS; TESTE MOLECULAR PARA A DETECÇÃO DO COMPLEXOMYCOBACTERIUM TUBERCULOSIS; TESTE NÃO TREPONÊMICO P/ DETECÇÃO DE SÍFILIS PARA POPULAÇÃO GERAL (EXCETO GESTANTE, PARCEIRO OU PARCERIA); TESTE RÁPIDO LF-CRAG PARA CRIPTOCOCOSE; TESTE RÁPIDO LF-LAM PARA TUBERCULOSE; TESTE DE SENSIBILIDADE EM MEIO SÓLIDO PARA OS FÁRMACOS CONTRA MICOBACTÉRIAS"
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,04-Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de Financiamento,040086-Programa Agora Tem Especialistas -Componente Ambulatorial
+Sexo,Ambos
+Idade Mínima,0 meses
+idade Máxima,130 anos
+Valor do Serviço Ambulatorial,"R$ 566,84"
+Total do Serviço Ambulatorial,"R$ 566,84"
+CID-10:,B20: Doença pelo vírus da imunodeficiência humana [HIV] resultando em doenças infecciosas e parasitárias.B21: Doença pelo HIV resultando em neoplasias malignas.B22: Doença pelo HIV resultando em outras doenças especificadas.
+,"B23: Doença pelo HIV resultando em outras condições, incluindo infecção aguda (B23.0) e linfadenopatias (B23.1).B24: Doença pelo vírus da imunodeficiência humana [HIV] não especificada, comumente usada para casos de AIDS/Sida.Z21: Estado de infecção assintomática pelo HIV"
+CID-10 secundário:,B58.2 - Toxoplasmose cerebralB45.1 - Criptococose cerebralA17.0 - Tuberculose das meninges
+,A17.1 - Tuberculoma intracrânianoB25.0 - CitomegaloviroseA81.2 - Leucoencefalopatia multifocal progressiva
+,"G04.9 - Encefalite, mielite e encefalomielite não especificadasB25.9 - Doença por CMV não especificadaC85.9 - Linfoma não Hodgkin não especificado.B38.4 - Coccidioidomicose meníngea.G028 - Meningite em outras doenças infecciosas e parasitárias classificadas em outra parte"
+Categoria CBO,2251 - Médicos Clínicos2252 - Médicos em especialidades cirúrgicas2253 - Médicos em medicina diagnóstica e terapêutica
+Quantidade Máxima,1
+Atributo Complementar,043 - Exige registro de CID de causas associadas058- Obrigatório CPF053 - Programa Mais Acesso a Especialistas (PMAE)059- Componente Complementar - Modalidade 2067 - Exige Procedimento de Punção Lombar ou Tomografia
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC0013-GERA COMPENSAÇÃO FINANCEIRA0014-CONDICIONA O TIPO DE FINANCIAMENTO EM MAC0015-CONDICIONA O TIPO DE FINANCIAMENTO EM FAEC
+Habilitação,38.01 Programa Mais Acesso a Especialistas38.02 Agora Tem Especialistas Modalidade 138.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes38.05 Agora Tem Especialistas - Componente Créditos Financeiros38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS

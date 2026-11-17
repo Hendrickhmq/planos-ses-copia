@@ -1,0 +1,21 @@
+{
+  "collapse-filter": false,
+  "search": "path:conhecimento OR path:curso",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {"query": "path:conhecimento/conceitos", "color": {"a": 1, "rgb": 5431473}},
+    {"query": "path:conhecimento/normas", "color": {"a": 1, "rgb": 14701138}},
+    {"query": "path:conhecimento/orgaos", "color": {"a": 1, "rgb": 1941109}},
+    {"query": "path:conhecimento/casos", "color": {"a": 1, "rgb": 15702054}},
+    {"query": "path:conhecimento/planos", "color": {"a": 1, "rgb": 9013632}},
+    {"query": "path:curso", "color": {"a": 1, "rgb": 3640285}}
+  ],
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1
+}

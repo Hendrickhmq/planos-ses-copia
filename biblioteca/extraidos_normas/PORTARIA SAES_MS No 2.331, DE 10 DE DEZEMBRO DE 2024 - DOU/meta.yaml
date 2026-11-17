@@ -1,0 +1,26 @@
+id: "PORTARIA SAES_MS No 2.331, DE 10 DE DEZEMBRO DE 2024 - DOU"
+arquivo: "PORTARIA SAES_MS No 2.331, DE 10 DE DEZEMBRO DE 2024 - DOU.pdf"
+processo_sei: ""
+sha256: "ae1ffd5a4892de764cec9872c2a54f6d849552303c5c9cfb24e98013942ed637"
+paginas: 9
+chars_texto: 13215
+tabelas_total: 12
+tabelas_por_pagina:
+  pagina_2: 2
+  pagina_3: 1
+  pagina_4: 1
+  pagina_5: 2
+  pagina_6: 2
+  pagina_7: 2
+  pagina_8: 1
+  pagina_9: 1
+prosa_reclassificada_total: 3
+prosa_reclassificada_por_pagina:
+  pagina_3: 1
+  pagina_4: 2
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:45:04"

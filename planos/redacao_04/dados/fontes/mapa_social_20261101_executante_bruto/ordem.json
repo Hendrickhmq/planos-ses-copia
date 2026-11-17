@@ -1,0 +1,12 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "panorama",
+ "plano": "planos/redacao_04",
+ "pedido": "Mama e transvaginal: quem fez a oferta extra de jul. a out. de 2026 (mutirão nas unidades de sempre ou oferta nova)? A oferta por unidade executante e mês, com os entrantes e a oferta do código.",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [],
+ "minimo": 1,
+ "universo": [{"rotulo": "mama e transvaginal", "codigos": ["02.05.02.009-7", "02.05.02.018-6"]}],
+ "por_codigo": ["entrantes", "oferta", "executante"]
+}

@@ -1,0 +1,10 @@
+id: "SAES 1976-2024 altera 1640"
+arquivo: "SAES 1976-2024 altera 1640.html"
+sha256: "caf8944ca35ed65c6f9a3b82b94b4af0b2fe39f8215fa2ff88ab3842ada71716"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 2490
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

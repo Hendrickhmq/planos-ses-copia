@@ -1,0 +1,63 @@
+# redacao_05 — OCI em Otorrinolaringologia (nasofaringe e orofaringe) — ISHP
+# Fase 0 aberta em 08/10/2026. Responde ao Ofício 387/2026 - SES/GAB/ARINS.
+
+proponente: ishp                      # proponentes/ishp/
+cabecalho_documento: "INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA"   # ferramentas/gerar_pre_plano.py
+prefixo_arquivo: "pt_simplificado_otorrino_"
+instrumento:
+  processo_sei: "00060-00484181/2026-49"
+  oficio_ses: "Ofício 387/2026 - SES/GAB/ARINS, 02/10/2026 (SEI 216131810)"
+  modelo: "Plano de Trabalho 41 - 'Plano de Trabalho Simplificado - Modelo Parceria' (SEI 216131719); o formulário manda na estrutura"
+  fontes: "registros/fontes/sei_00060-00484181-2026-49/"
+recurso:
+  emenda: "Bancada do DF 71080005 (202571080005), OGU 2025"
+  proposta: "36000722999202500"
+  acao: "2E90 - Incremento Temporário ao Custeio dos Serviços de Assistência Hospitalar e Ambulatorial para Cumprimento de Metas"
+  gnd: 3
+  valor: 1502687.00
+  norma_da_emenda: "Portaria GM/MS 8.283/2025 (bancada 2025). O Ofício 387 cita a 10.297/2026 (individuais) - fica como está, decisão do usuário em 07/10/2026"
+objeto:
+  decisao_usuario: "OCI em Otorrinolaringologia (08/10/2026). O usuário informa que a troca de objeto se resolve na comissão de saúde"
+  divergencia_registrada: "Ofício nº 88/2026 da Bancada (29/09/2026, SEI 216131402) indica para o ISHP o objeto 'Exames de imagem'. A proposta no FNS (22/12/2025) registra 'PMAE - OCI em Otorrinolaringologia' (09.04.01.001-5 e 09.04.01.002-3, para o IBCS). O Ofício 387 remete ao 88. RISCO ABERTO até a alteração formal do objeto"
+  cenario: "A - so a OCI 09.04.01.003-1 Avaliação Diagnóstica de Nasofaringe e de Orofaringe (decisão de 07-08/10/2026: a que paga melhor perto do mercado)"
+  filas_mapeadas_fora: "CONSULTA PARA RESPIRADOR BUCAL (722) e CONSULTA EM RINOLOGIA (131), com CID J30-J39 - achadas pela varredura da coleta de 08/10/2026; mapeadas em dados/fila.md e fora do objeto, por decisão do usuário em 09/10/2026"
+oci:
+  codigo: "09.04.01.003-1"
+  valor_unitario: 393.55            # SIGTAP 09/2026; Portaria SAES/MS 4.795/2026 (DOU 31/08/2026, extra C)
+  fonte: "dados/fontes/sigtap_0904010031_092026.md"
+custo_acessorio:
+  teto: 0.10                        # fixado pelo usuário em 08/10/2026
+  teto_valor: 150268.70             # 10% do recurso
+  regra: "teto; o apoio se monta de baixo para cima com nome e preço do cargos_no_acervo.md; o percentual não vai ao documento"
+  realizado: 123600.00              # decisão do usuário em 08/10/2026: 8,2% - "justificativa de zerar a fila"
+  realizado_pct_global: 0.0823      # 123.600,00 / 1.502.599,20 - controle interno, não vai ao documento
+  mensal: 10300.00                  # 12 meses; quadro não detalhado no pré-plano (decisão do usuário); referência: Coordenação Adm-Fin R$ 6.000 (pt_ses_02) + Operador de registro R$ 4.300 (pt_ses_02/04)
+numeros:
+  quantitativo: 3504                # piso((1.502.687,00 - 123.600,00) / 393,55)
+  producao: 1378999.20
+  apoio: 123600.00
+  total_programado: 1502599.20
+  sobra: 87.80                      # < 1 unitário
+  curva: "350/mês nos meses 2 a 10 e 354 no mês 11"
+  fila_base: "dados/fila.md - Mapa Social, base de 08/10/2026 07:32: 3.477 pessoas / 3.497 solicitações nas filas de exame, espera média 518 dias"
+vigencia_meses: 12                  # do pré-plano da equipe: mês 1 implantação, 2-11 execução, 12 encerramento
+local_execucao: null                # [decidir] - unidade(s), RA, CNES
+pendencias: "pendencias.md"
+
+versoes_pt_simplificado_20261008:
+  diretriz_usuario: "pré-plano mais geral, sem se comprometer tanto; o certo seria 'OCIs de otorrino'; fazer 2 versões; usar o formulário da ARINS (SEI 216131719)"
+  v1_geral: "plano_v1_geral.md -> pt_simplificado_otorrino_v1_geral.docx/.pdf - carteira das três OCIs de otorrino (09.04.01.001-5, 002-3, 003-1); Meta 2 = R$ 1.378.999,20 em OCIs, quantidade por OCI pactuada com a SES; sem o argumento de zerar a fila (só vale na v2) - correção de 08/10/2026"
+  v2_nasofaringe: "plano_v2_nasofaringe.md -> pt_simplificado_otorrino_v2_nasofaringe.docx/.pdf - só 09.04.01.003-1, Meta 2 = 3.504 OCIs"
+  comuns: "numeração do PT simplificado da ISHP no plano 4 (seções 1 a 9 = campos do formulário); sem curva mensal, sem capacidade, sem polos; local 'unidade do proponente, identificada na formalização'"
+  estrutura_anterior: "versoes/pre_plano_estrutura_equipe_20261008.* - a estrutura de 12 itens do pré-plano da equipe, com nasofaringe"
+  gerador: "python3 gerar_docx.py (HTML -> LibreOffice)"
+
+retorno_final_v1_20261008:
+  recebida: "versoes/pt_simplificado_otorrino_v1_geral_final_recebida_20261008.docx - 'versão final do pré-plano', enviada pelo usuário em 08/10/2026"
+  autor_dos_ajustes: "SUCONV (informado pelo usuário em 08/10/2026)"
+  ressalvas_suconv:
+    - "Campo OSC/MROSC: texto da SUCONV - o ISHP se enquadra como OSC, mas o normativo não será usado por se tratar de convênio (Decreto DF 48.727/2026)"
+    - "Seção 8: só o custo assistencial (execução das OCIs, R$ 1.378.999,20); o custo acessório só aparece no plano detalhado"
+  diff_contra_a_nossa: "três mudanças: (1) resposta do campo OSC; (2) seção 8 sem a linha de gestão/apoio e sem o total; (3) 'corrigidas e reenviadas' virou 'corrigidas e enviadas'"
+  incorporado_no_md: "v1 e v2: campo OSC com o texto da SUCONV, literal (o enquadramento do instrumento é dela, não nosso - usuário, 08/10/2026); seção 8 só com a linha assistencial; 'A gestão e o apoio do projeto, que completam o Valor Total, serão detalhados no plano de trabalho'; saiu a frase da diferença de R$ 87,80, que dependia da linha de apoio para fechar; mantido 'reenviadas' (nome do status no SISREG) - ajustes da seção 8 e 'reenviadas' aprovados pelo usuário em 08/10/2026"
+  valor_total_secao_1: "mantido R$ 1.502.599,20 como na versão recebida"

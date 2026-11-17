@@ -1,0 +1,44 @@
+id: "pt_ses_02"
+arquivo: "pt_ses_02_030975-2026.pdf"
+processo_sei: "030975-2026"
+sha256: "70d00e6d90280dcdfabcc76ee169ce4048283dd8333058220e99e7a2c4155b8a"
+paginas: 37
+chars_texto: 37846
+tabelas_total: 26
+tabelas_por_pagina:
+  pagina_2: 1
+  pagina_4: 1
+  pagina_9: 1
+  pagina_12: 1
+  pagina_13: 1
+  pagina_14: 1
+  pagina_15: 1
+  pagina_17: 1
+  pagina_18: 1
+  pagina_19: 1
+  pagina_20: 1
+  pagina_23: 1
+  pagina_24: 1
+  pagina_25: 1
+  pagina_26: 1
+  pagina_27: 1
+  pagina_28: 1
+  pagina_29: 1
+  pagina_30: 1
+  pagina_31: 1
+  pagina_32: 1
+  pagina_33: 1
+  pagina_34: 1
+  pagina_35: 1
+  pagina_36: 1
+  pagina_37: 1
+prosa_reclassificada_total: 2
+prosa_reclassificada_por_pagina:
+  pagina_7: 1
+  pagina_37: 1
+paginas_ajustadas: []
+paginas_sem_texto: [1]
+paginas_ocr: [1]
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.10"
+data_extracao: "2026-08-17T01:36:51"

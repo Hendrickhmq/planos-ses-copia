@@ -1,0 +1,10 @@
+id: "SAES 3992-2026 incremento prestacao"
+arquivo: "SAES 3992-2026 incremento prestacao.html"
+sha256: "014231896eaa9cf2bcfc2d902c1f049b97076110be32a60d8c5361bf1ac8d36b"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 2340
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

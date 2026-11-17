@@ -1,0 +1,17 @@
+PROCEDIMENTO,09.01.01.005-7OCI INVESTIGAÇÃO DIAGNÓSTICA DE CÂNCER DE COLO DO ÚTERO
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, COLPOSCOPIA, BIÓPSIA DO COLO UTERINO, ANÁTOMOPATOLÓGICO, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Feminino
+Idade mínima,18 anos
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 100,00"
+Total do Serviço Ambulatorial,"R$ 100,00"
+CID-10,C53 - Neoplasia Maligna do Colo do ÚteroD06 - Carcinoma in Situ do Colo do Útero (cérvix)N87 - Displasia do Colo do ÚteroN88 - Outros Transtornos Não-inflamatórios do Colo do Útero
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO0011 - CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

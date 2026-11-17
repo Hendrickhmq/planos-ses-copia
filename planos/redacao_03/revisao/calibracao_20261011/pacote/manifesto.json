@@ -1,0 +1,272 @@
+{
+  "titulo": "OCI de endoscopia (versão enviada em 03/09/2026)",
+  "data": "2026-10-11",
+  "arquivos": [
+    {
+      "arquivo": "documento.md",
+      "o_que_e": "o documento em análise",
+      "origem": "planos/redacao_03/dados/enviado_20260903.md",
+      "mascarados": 0,
+      "sha256": "01cef40c1e078cacfb2bc953e0b3861b89b8763c8dfe35e2b3cdfa97b9c4d832"
+    },
+    {
+      "arquivo": "fontes/normas/Decreto_44330_de_16_03_2023.md",
+      "o_que_e": "norma: Decreto 44330 de 16_03_2023",
+      "origem": "biblioteca/extraidos_normas/Decreto 44330 de 16_03_2023/",
+      "mascarados": 0,
+      "sha256": "60f683aafea8fee90ffde0f08eb1acbd844a81c6589a8438749df33f90d43912"
+    },
+    {
+      "arquivo": "fontes/normas/Decreto_48727_de_09_06_2026.md",
+      "o_que_e": "norma: Decreto 48727 de 09_06_2026",
+      "origem": "biblioteca/extraidos_normas/Decreto 48727 de 09_06_2026/",
+      "mascarados": 0,
+      "sha256": "20554e15081175d46976b800b4becb9838ec672346f44ba14736a9fcca8fb727"
+    },
+    {
+      "arquivo": "fontes/normas/Instrucao_Normativa_1_de_22_12_2005.md",
+      "o_que_e": "norma: Instrução Normativa 1 de 22_12_2005",
+      "origem": "biblioteca/extraidos_normas/Instrução Normativa 1 de 22_12_2005/",
+      "mascarados": 0,
+      "sha256": "a074b900574102fc3389bf54b67ebaaff6f873103de793d06994bd209187486c"
+    },
+    {
+      "arquivo": "fontes/normas/Portaria_187_de_24_03_2026.md",
+      "o_que_e": "norma: Portaria 187 de 24_03_2026",
+      "origem": "biblioteca/extraidos_normas/Portaria 187 de 24_03_2026/",
+      "mascarados": 0,
+      "sha256": "efb703e74e8e193bc2f37637aaa4f176af3295000ba661c304ef880a92e4d699"
+    },
+    {
+      "arquivo": "fontes/normas/Portaria_287_de_07_04_2022.md",
+      "o_que_e": "norma: Portaria 287 de 07_04_2022",
+      "origem": "biblioteca/extraidos_normas/Portaria 287 de 07_04_2022/",
+      "mascarados": 0,
+      "sha256": "3d5f3d4a125359fb8e940e551a07cfb0303a09f01e80f2430f19a212557e1446"
+    },
+    {
+      "arquivo": "fontes/normas/GM_3492-2024_institui_PMAE.md",
+      "o_que_e": "norma: GM 3492-2024 institui PMAE",
+      "origem": "biblioteca/extraidos_normas/GM 3492-2024 institui PMAE/",
+      "mascarados": 0,
+      "sha256": "be4407fee88acf9c21fd868c0f22b9c41f23eea3c8f7479b257dbcfcbb7d1ee3"
+    },
+    {
+      "arquivo": "fontes/normas/GM_7307-2025_hospitais_privados.md",
+      "o_que_e": "norma: GM 7307-2025 hospitais privados",
+      "origem": "biblioteca/extraidos_normas/GM 7307-2025 hospitais privados/",
+      "mascarados": 0,
+      "sha256": "3519794907f093ce19519f87e980519f52194b47085e5af53d62a4bfe3d814b9"
+    },
+    {
+      "arquivo": "fontes/normas/GM_7701-2025_diretrizes_ATE.md",
+      "o_que_e": "norma: GM 7701-2025 diretrizes ATE",
+      "origem": "biblioteca/extraidos_normas/GM 7701-2025 diretrizes ATE/",
+      "mascarados": 0,
+      "sha256": "d8f212d2de30778669651a92e9f9b234636b5d39017fe14f49250971d7ccfd21"
+    },
+    {
+      "arquivo": "fontes/normas/MANUAL_PMAE_-_Registro_da_Producao_Controle_e_Avaliacao.md",
+      "o_que_e": "norma: MANUAL PMAE - Registro da Producao, Controle e Avaliacao",
+      "origem": "biblioteca/extraidos_normas/MANUAL PMAE - Registro da Producao, Controle e Avaliacao/",
+      "mascarados": 0,
+      "sha256": "8130f880e3a3cace04c3a65b7fc5f42f24001a053ce773584d49ac8cffcd682d"
+    },
+    {
+      "arquivo": "fontes/normas/NT_1-2025_formulacao_OCI.md",
+      "o_que_e": "norma: NT 1-2025 formulacao OCI",
+      "origem": "biblioteca/extraidos_normas/NT 1-2025 formulacao OCI/",
+      "mascarados": 0,
+      "sha256": "342b284ab8c8313d34de3d18e4f69bdd5ce78c578a19ca6c20d4ae849481f0a2"
+    },
+    {
+      "arquivo": "fontes/normas/NT_2-2025_teto_orcamentario.md",
+      "o_que_e": "norma: NT 2-2025 teto orcamentario",
+      "origem": "biblioteca/extraidos_normas/NT 2-2025 teto orcamentario/",
+      "mascarados": 0,
+      "sha256": "61b4fd3c3b6302cb1606b1b42ea04a917b7e8ddaaca73bc053c8d5926efc0d0e"
+    },
+    {
+      "arquivo": "fontes/normas/NT_3-2025_orientacoes_gestores.md",
+      "o_que_e": "norma: NT 3-2025 orientacoes gestores",
+      "origem": "biblioteca/extraidos_normas/NT 3-2025 orientacoes gestores/",
+      "mascarados": 0,
+      "sha256": "804fff73151a8da04e444ee26f5e60af2639743b03a119762af2bcf1c3e354c1"
+    },
+    {
+      "arquivo": "fontes/normas/PORTARIA_SAES_MS_No_1.822_DE_11_DE_JUNHO_DE_2024_-_DOU.md",
+      "o_que_e": "norma: PORTARIA SAES_MS No 1.822, DE 11 DE JUNHO DE 2024 - DOU",
+      "origem": "biblioteca/extraidos_normas/PORTARIA SAES_MS No 1.822, DE 11 DE JUNHO DE 2024 - DOU/",
+      "mascarados": 0,
+      "sha256": "0d1dec1194ac1976ae55e8e1fd3c56c55dd5c9bb2b83b08e755a73bf47f85fb0"
+    },
+    {
+      "arquivo": "fontes/normas/PORTARIA_SAES_MS_No_2.331_DE_10_DE_DEZEMBRO_DE_2024_-_DOU.md",
+      "o_que_e": "norma: PORTARIA SAES_MS No 2.331, DE 10 DE DEZEMBRO DE 2024 - DOU",
+      "origem": "biblioteca/extraidos_normas/PORTARIA SAES_MS No 2.331, DE 10 DE DEZEMBRO DE 2024 - DOU/",
+      "mascarados": 0,
+      "sha256": "8e71dba0c572afdd117fae309b0ab42f71b598c8a36fa0b94c8d309cc6bd292e"
+    },
+    {
+      "arquivo": "fontes/normas/PORTARIA_SAES_MS_No_2.930_DE_16_DE_JUNHO_DE_2025_-_DOU.md",
+      "o_que_e": "norma: PORTARIA SAES_MS No 2.930, DE 16 DE JUNHO DE 2025 - DOU",
+      "origem": "biblioteca/extraidos_normas/PORTARIA SAES_MS No 2.930, DE 16 DE JUNHO DE 2025 - DOU/",
+      "mascarados": 0,
+      "sha256": "72ab728e4bf80f8897818657813b47fe9771aaa50bfde68016bdd02eba914029"
+    },
+    {
+      "arquivo": "fontes/normas/Portaria_GM_MS_10.297_de_27_02_2026.md",
+      "o_que_e": "norma: Portaria GM_MS 10.297 de 27_02_2026",
+      "origem": "biblioteca/extraidos_normas/Portaria GM_MS 10.297 de 27_02_2026/",
+      "mascarados": 0,
+      "sha256": "4a4edf302e00b21220efefa0bdb773e91bd230a30c251f316f23391dfb6475ad"
+    },
+    {
+      "arquivo": "fontes/normas/Portaria_GM_MS_10.352_de_17_03_2026.md",
+      "o_que_e": "norma: Portaria GM_MS 10.352 de 17_03_2026",
+      "origem": "biblioteca/extraidos_normas/Portaria GM_MS 10.352 de 17_03_2026/",
+      "mascarados": 0,
+      "sha256": "dfa9f1f00afd0a594300f1c841bca25b74062d95f7627696adc58110d63667f8"
+    },
+    {
+      "arquivo": "fontes/normas/RETIFICACAO_anexo_II_2331.md",
+      "o_que_e": "norma: RETIFICACAO anexo II 2331",
+      "origem": "biblioteca/extraidos_normas/RETIFICACAO anexo II 2331/",
+      "mascarados": 0,
+      "sha256": "78157b162ec64661cc88c2027ba374903d504a4f9884dc03353874f96d664c35"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_1640-2024_operacionalizacao.md",
+      "o_que_e": "norma: SAES 1640-2024 operacionalizacao",
+      "origem": "biblioteca/extraidos_normas/SAES 1640-2024 operacionalizacao/",
+      "mascarados": 0,
+      "sha256": "0316bea62270d80dc3ae5f433c664856e4445ffe4cc4a8b98f4d0964098acae3"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_1976-2024_altera_1640.md",
+      "o_que_e": "norma: SAES 1976-2024 altera 1640",
+      "origem": "biblioteca/extraidos_normas/SAES 1976-2024 altera 1640/",
+      "mascarados": 0,
+      "sha256": "5c5a44de1c2d8f0f0c98736a2195bb9161e36d7f622d3e57a98048ed0614382f"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_2321-2024_altera_1640.md",
+      "o_que_e": "norma: SAES 2321-2024 altera 1640",
+      "origem": "biblioteca/extraidos_normas/SAES 2321-2024 altera 1640/",
+      "mascarados": 0,
+      "sha256": "7d716dd898c35596e7828829b7885fbc4c179ef7ad66fc3ca6db8a15670f3dbb"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_1821-2024_grupo_09.md",
+      "o_que_e": "norma: SAES 1821-2024 grupo 09",
+      "origem": "biblioteca/extraidos_normas/SAES 1821-2024 grupo 09/",
+      "mascarados": 0,
+      "sha256": "90b938e98d0acc5159ef8e32bc69514aabd8730b30c6897a0a78ae0c51d2028a"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_2630-2025_regras_e_compatibilidades.md",
+      "o_que_e": "norma: SAES 2630-2025 regras e compatibilidades",
+      "origem": "biblioteca/extraidos_normas/SAES 2630-2025 regras e compatibilidades/",
+      "mascarados": 0,
+      "sha256": "9c3ad4deb6f065fd05f56c9d04c7531b53ea403ba934da44f5e7a86044b2e873"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_2723-2025_CPF.md",
+      "o_que_e": "norma: SAES 2723-2025 CPF",
+      "origem": "biblioteca/extraidos_normas/SAES 2723-2025 CPF/",
+      "mascarados": 0,
+      "sha256": "98783d49a984d3089588fdfaefe52a62b095a8ca863d581bc4aa75a4ef0b4e10"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_2747-2025_altera_1640.md",
+      "o_que_e": "norma: SAES 2747-2025 altera 1640",
+      "origem": "biblioteca/extraidos_normas/SAES 2747-2025 altera 1640/",
+      "mascarados": 0,
+      "sha256": "dd9fcd33beb80d5343ef343a502b846806bae9539bf3a4d3ff35660bb98fa190"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_2799-2025_atualiza_tabela.md",
+      "o_que_e": "norma: SAES 2799-2025 atualiza tabela",
+      "origem": "biblioteca/extraidos_normas/SAES 2799-2025 atualiza tabela/",
+      "mascarados": 0,
+      "sha256": "c8e3729d9e11a2f2b0f5c847f071f2b5b560e4479152f69969dadfff401e3bd9"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_3200-2025_modalidades.md",
+      "o_que_e": "norma: SAES 3200-2025 modalidades",
+      "origem": "biblioteca/extraidos_normas/SAES 3200-2025 modalidades/",
+      "mascarados": 0,
+      "sha256": "466c8e0288393fed6d9d27ea1e8b2a1a69fa6be0f8da3553f37ac464fde19a99"
+    },
+    {
+      "arquivo": "fontes/normas/RDC_ANVISA_6-2013_boas_praticas_servicos_de_endoscopia.md",
+      "o_que_e": "norma: RDC ANVISA 6-2013 boas praticas servicos de endoscopia",
+      "origem": "biblioteca/normas/RDC ANVISA 6-2013 boas praticas servicos de endoscopia.pdf",
+      "mascarados": 0,
+      "sha256": "72c2d9ef4593d2bdd4533c39c0736216f0114f9bf67d1a929eb9fda798b6a725"
+    },
+    {
+      "arquivo": "fontes/normas/Resolucao_CFM_2174-2017_ato_anestesico.md",
+      "o_que_e": "norma: Resolucao CFM 2174-2017 ato anestesico",
+      "origem": "biblioteca/normas/Resolucao CFM 2174-2017 ato anestesico.pdf",
+      "mascarados": 0,
+      "sha256": "723fa671997a34ce888ff547fb07eedca7861c60c2289c35091fcea31af84d7b"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_4653-2026_altera_valor_e_composicao_das_OCI_de_endoscopia.md",
+      "o_que_e": "norma: SAES 4653-2026 altera valor e composicao das OCI de endoscopia",
+      "origem": "biblioteca/normas/SAES 4653-2026 altera valor e composicao das OCI de endoscopia.pdf",
+      "mascarados": 0,
+      "sha256": "95bbaa4a155c3f3ebd3b017769968dff10f9f7fb7417f2060baf4a551901d73f"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_4282-2026_rol_imagem_e_incremento.md",
+      "o_que_e": "norma: SAES 4282-2026 rol imagem e incremento",
+      "origem": "biblioteca/normas/SAES 4282-2026 rol imagem e incremento.pdf",
+      "mascarados": 0,
+      "sha256": "0432e6153af190e83d83fea66e84ac44e22178d8841d8d052b6f04ac917e8216"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_01.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_01)",
+      "origem": "estudo/normalizados/pt_ses_01/texto.md",
+      "mascarados": 1,
+      "sha256": "e545911aa341ba57e9166aba4f0b00c455a0eee3df2c10047407a3b2161e9610"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_02.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_02)",
+      "origem": "estudo/normalizados/pt_ses_02/texto.md",
+      "mascarados": 1,
+      "sha256": "6ae722cf2d9bdac47dfeeba53d0ad7a015870335ae004bfc9ae1abb280f4a6a0"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_03.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_03)",
+      "origem": "estudo/normalizados/pt_ses_03/texto.md",
+      "mascarados": 1,
+      "sha256": "3ec51e85bca8898837ba9028d3f8ecc6ca9f14ddb24a72c011a879c4a028e601"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_04.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_04)",
+      "origem": "estudo/normalizados/pt_ses_04/texto.md",
+      "mascarados": 1,
+      "sha256": "79679908a5d9ce15af8fcd8b13d74ef80113f1330bae0fded89c6d347fc7b89f"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_05.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_05)",
+      "origem": "estudo/normalizados/pt_ses_05/texto.md",
+      "mascarados": 0,
+      "sha256": "8b7a7d37beabe868ed9678d559aa29674b46fd0d288759fcd51f417958b2806a"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0901010073_082026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_03/dados/fontes/sigtap_0901010073_082026.md",
+      "mascarados": 0,
+      "sha256": "3121ca5fac8a321be196f5721cf83cac5f2883b584d5daca427889e7fe26d547"
+    }
+  ]
+}

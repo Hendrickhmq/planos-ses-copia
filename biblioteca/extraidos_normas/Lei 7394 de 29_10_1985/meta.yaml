@@ -1,0 +1,7 @@
+id: "Lei 7394 de 29_10_1985"
+arquivo: "Lei 7394 de 29_10_1985.pdf"
+sha256: "7904904c41519339253365f19d62df02b3ca22bc35555647fa554fdc6d79b1a6"
+origem: "https://www.planalto.gov.br/ccivil_03/leis/l7394.htm"
+baixado_em: 2026-10-01
+ferramenta: "textutil + cupsfilter (HTML do Planalto -> texto -> PDF)"
+autorizado_por: "usuario, em 01/10/2026"

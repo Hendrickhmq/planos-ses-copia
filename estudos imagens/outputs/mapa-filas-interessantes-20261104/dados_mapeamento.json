@@ -1,0 +1,5018 @@
+{
+  "fronts": [
+    {
+      "label": "Polissonografia",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "why": "Grande fila do sono; comparar basal e modalidades domiciliares.",
+      "difficulty": "Leito/noite, instalação, laudo, perda de sinal e atualização da indicação.",
+      "coverage": "Cobertura contratual específica a confirmar.",
+      "scope": "Sono; validar objeto além de imagem",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 8530,
+      "recent": 4110
+    },
+    {
+      "label": "Otorrino: consultas e OCI",
+      "status": "Sua seleção",
+      "kind": "Consulta/OCI",
+      "why": "Permite mapear nasofaringe e linhas auditivas por indicação.",
+      "difficulty": "Fila de consulta não equivale a OCI; separar pediatria e reabilitação auditiva.",
+      "coverage": "IEV: 6.250 OCI auditivas iniciais e 5.340 progressões; há plano nasofaringe redacao_05.",
+      "scope": "Otorrino; conciliar fonte e plano existente",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 12241,
+      "recent": 10480
+    },
+    {
+      "label": "ENMG",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "why": "Grande demanda de investigação neuromuscular.",
+      "difficulty": "Tempo de especialista, membros/segmentos, insumos e colaboração.",
+      "coverage": "Não assumir cobertura pelo IEV apenas porque o diagnóstico é ortopédico.",
+      "scope": "Neurofisiologia; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 9138,
+      "recent": 6312
+    },
+    {
+      "label": "Videolaringoscopia e nasal",
+      "status": "Sua seleção",
+      "kind": "Exame/OCI",
+      "why": "Fila endoscópica importante; possível percurso OCI nasofaringe.",
+      "difficulty": "Validar nome local e código, pediatria, equipamento e processamento.",
+      "coverage": "Ligada à frente Otorrino. OCI exige laringoscopia ou videolaringoscopia pelo atributo 072.",
+      "scope": "Não duplicar exame avulso e mesmo percurso OCI",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 4382,
+      "recent": 2865
+    },
+    {
+      "label": "Ecocardiograma",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "why": "Frente escolhida para cardiologia; avaliar adultos/pediatria.",
+      "difficulty": "Ecocardiografista, protocolo, tempo e equipamentos.",
+      "coverage": "IEV: até 1.000 OCI de insuficiência cardíaca no acervo.",
+      "scope": "Reservado à emenda de R$ 2 milhões de cardiologia",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 14602,
+      "recent": 14597
+    },
+    {
+      "label": "Endoscopia digestiva alta",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "why": "Grande demanda; oferta local publicada.",
+      "difficulty": "Sedação quando indicada, recuperação, biópsia, patologia e processamento.",
+      "coverage": "Cobertura de outros instrumentos e linha oncológica a conciliar.",
+      "scope": "Diagnóstico digestivo; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 26155,
+      "recent": 18590
+    },
+    {
+      "label": "Colonoscopia",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "why": "Grande fila, inclusive variante com anestesia.",
+      "difficulty": "Preparo, sedação/anestesia, pólipos, patologia e repetição.",
+      "coverage": "Não confundir simples e fila com anestesia/retaguarda.",
+      "scope": "Diagnóstico digestivo; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 22943,
+      "recent": 20242
+    },
+    {
+      "label": "OCT",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "why": "Frente de retina/glaucoma; duas filas locais relevantes.",
+      "difficulty": "Segmento ocular, indicação e equivalência entre modalidades.",
+      "coverage": "Não identificado como componente das duas OCI iniciais ISHP examinadas; outros contratos a conferir.",
+      "scope": "Imagem oftalmológica; tarifa Candanga não localizada no código",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 3906,
+      "recent": 3906
+    },
+    {
+      "label": "Campimetria",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "why": "Complementa avaliação de glaucoma.",
+      "difficulty": "Cooperação, repetibilidade e cobrança por olhos conforme regra.",
+      "coverage": "Conciliar demais contratos oftalmológicos.",
+      "scope": "Oftalmologia; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 3816,
+      "recent": 3816
+    },
+    {
+      "label": "Densitometria",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "why": "Operação relativamente simples em serviço existente.",
+      "difficulty": "Definir coluna/fêmur, laudo e preço integral.",
+      "coverage": "Sem cobertura identificada no plano 4 ou OCI mapeadas.",
+      "scope": "Imagem",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 2178,
+      "recent": 2177
+    },
+    {
+      "label": "Holter",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "why": "Complemento possível da carteira de cardiologia.",
+      "difficulty": "Muitos pedidos antigos; instalação, devolução, aparelhos e laudo.",
+      "coverage": "Conciliar cobertura cardiológica do IEV e demais instrumentos.",
+      "scope": "Avaliar junto da cardiologia; alocação não decidida",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 36217,
+      "recent": 11132
+    },
+    {
+      "label": "MAPA",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "why": "Complemento possível da carteira de cardiologia.",
+      "difficulty": "Atualização da indicação, instalação e logística dos aparelhos.",
+      "coverage": "Conciliar cobertura cardiológica e demais instrumentos.",
+      "scope": "Avaliar junto da cardiologia; alocação não decidida",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 12695,
+      "recent": 6262
+    },
+    {
+      "label": "EEG",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Demanda adicional de neurodiagnóstico.",
+      "difficulty": "Vigília, sono espontâneo e sono induzido precisam de pacotes separados.",
+      "coverage": "Oferta pediátrica HCB documentada; capacidade total SES não medida.",
+      "scope": "Neurofisiologia; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 3472,
+      "recent": 2921
+    },
+    {
+      "label": "Espirometria",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Fila de função pulmonar para possível ação focalizada.",
+      "difficulty": "Qualidade das manobras, broncodilatador e tarifa baixa.",
+      "coverage": "Há oferta SES e HCB; conciliar capacidade e indicação.",
+      "scope": "Pneumologia; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 2561,
+      "recent": 2561
+    },
+    {
+      "label": "VENG e processamento auditivo",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Filas específicas de otoneurologia/audiologia.",
+      "difficulty": "Protocolos e códigos não equivalem às duas OCI auditivas.",
+      "coverage": "Conferir cobertura de saúde auditiva e IEV.",
+      "scope": "Otorrino/fono; confirmar tarifa e objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 1535,
+      "recent": 1394
+    },
+    {
+      "label": "Audiometria e BERA",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Demanda auditiva por idade.",
+      "difficulty": "Código local pode diferir do componente obrigatório da OCI; pediatria/sono.",
+      "coverage": "Forte sobreposição potencial com 11.590 OCI auditivas IEV.",
+      "scope": "Não liberar demanda apenas pelo CID",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 12715,
+      "recent": 11475
+    },
+    {
+      "label": "PAAF de tireoide",
+      "status": "Complemento a investigar",
+      "kind": "Procedimento guiado",
+      "why": "Esclarece nódulo após investigação de imagem.",
+      "difficulty": "Coleta, citologia, adequação da amostra e repetição.",
+      "coverage": "Conciliar outros contratos e percurso diagnóstico.",
+      "scope": "Validar procedimento guiado e patologia no objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 530,
+      "recent": 530
+    },
+    {
+      "label": "Core biópsia guiada",
+      "status": "Complemento a investigar",
+      "kind": "Procedimento guiado",
+      "why": "Completa investigação de achados mamários.",
+      "difficulty": "Guia por US/mamografia/TC, insumos e anatomopatológico.",
+      "coverage": "Conciliar contratos oncológicos; não generalizar custo para todos os órgãos.",
+      "scope": "Validar procedimento e patologia no objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 292,
+      "recent": 292
+    },
+    {
+      "label": "Colposcopia",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Possível complemento de linha diagnóstica da mulher.",
+      "difficulty": "Profissional, eventual biópsia e histologia; tarifa pequena isoladamente.",
+      "coverage": "GIN1 IEV não implica automaticamente colposcopia; verificar outros instrumentos.",
+      "scope": "Ginecologia; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 696,
+      "recent": 672
+    },
+    {
+      "label": "Mamografia",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Fila de rastreamento/diagnóstico; possível escala.",
+      "difficulty": "Laudo, controle de qualidade e investigação dos achados.",
+      "coverage": "Conciliar linha oncológica; mesmo código local reúne duas finalidades.",
+      "scope": "Imagem",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 6630,
+      "recent": 6580
+    },
+    {
+      "label": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Alternativas de crânio, abdômen, vias biliares e protocolos residuais.",
+      "difficulty": "Contraste, pediatria, sedação e protocolos não são o mesmo custo.",
+      "coverage": "Excluída a bacia mista desta frente; demais contratos a conciliar.",
+      "scope": "Imagem",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 2581,
+      "recent": 2579
+    },
+    {
+      "label": "Cintilografias e PET",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Lote nuclear direcionado a demanda demonstrada.",
+      "difficulty": "Serviço licenciado, traçador, insumos, preparo e aquisição tardia.",
+      "coverage": "Oferta HUB/HBDF identificada; conciliar outros contratos.",
+      "scope": "Imagem nuclear; sem cotação integral",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 5764,
+      "recent": 5764
+    },
+    {
+      "label": "Retossigmoidoscopia",
+      "status": "Nova candidata",
+      "kind": "Exame",
+      "why": "Procedimento digestivo adicional com fila própria.",
+      "difficulty": "Preparo, extensão do exame, eventual biópsia e patologia.",
+      "coverage": "Não substituir colonoscopia sem indicação; contratos a conferir.",
+      "scope": "Diagnóstico digestivo; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 387,
+      "recent": 387
+    },
+    {
+      "label": "Escleroterapia não estética",
+      "status": "Nova candidata",
+      "kind": "Tratamento",
+      "why": "Possível linha vascular de tratamento, com fila específica.",
+      "difficulty": "Indicação clínica, sessões, insumos, Doppler quando indicado e seguimento.",
+      "coverage": "SES dispõe de fluxo específico; não é procedimento estético.",
+      "scope": "Tratamento ambulatorial; fora de emenda restrita a imagem",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 467,
+      "recent": 467
+    },
+    {
+      "label": "Exames de córnea e biometria",
+      "status": "Nova candidata",
+      "kind": "Exame",
+      "why": "Complementos de oftalmologia com filas próprias.",
+      "difficulty": "Biometria, microscopia, paquimetria e topografia não são intercambiáveis.",
+      "coverage": "Verificar ligação com cirurgia de catarata e cobertura contratual.",
+      "scope": "Oftalmologia; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 772,
+      "recent": 772
+    },
+    {
+      "label": "Retinografia fluorescente",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Investigação de retina com demanda especializada.",
+      "difficulty": "Contraste, suporte a intercorrências e laudo; difere da colorida.",
+      "coverage": "Conciliar contratos oftalmológicos.",
+      "scope": "Imagem oftalmológica",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 1030,
+      "recent": 710
+    },
+    {
+      "label": "Deglutição por vídeo",
+      "status": "Nova candidata",
+      "kind": "Exame",
+      "why": "Fila pequena, mas espera prolongada e finalidade específica.",
+      "difficulty": "Equipe/protocolo de deglutição; não confundir com exame nasal simples.",
+      "coverage": "Não converter automaticamente para OCI de nasofaringe pelo código local.",
+      "scope": "Otorrino/fono; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 221,
+      "recent": 118
+    },
+    {
+      "label": "Pequena cirurgia: consulta",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Porta de entrada para uma linha de procedimentos ambulatoriais.",
+      "difficulty": "Só há fila de consulta; identificar lesões, procedimentos, patologia e retornos.",
+      "coverage": "Outros contratos e critérios a verificar.",
+      "scope": "Consulta não equivale a cirurgia; objeto próprio",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 7726,
+      "recent": 5530
+    },
+    {
+      "label": "Dermatologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Grande fila; pode orientar investigação de lesões e tratamento.",
+      "difficulty": "Consulta, dermatoscopia e biópsia devem ter composição definida se indicadas.",
+      "coverage": "Oferta e contratos específicos não auditados neste estudo.",
+      "scope": "Especialidade; validar objeto e não presumir OCI",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 23369,
+      "recent": 13570
+    },
+    {
+      "label": "Neurologia adulta",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Grande demanda; relação com EEG/ENMG só quando indicados.",
+      "difficulty": "Consulta, investigação e retorno; exames não são universais.",
+      "coverage": "Oferta e contratos específicos a conciliar.",
+      "scope": "Especialidade; não há conversão automática em OCI",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 9032,
+      "recent": 6051
+    },
+    {
+      "label": "Neurologia pediátrica",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Fila com alta participação de pedidos recentes.",
+      "difficulty": "Equipe pediátrica, seguimento e acesso a investigação quando necessária.",
+      "coverage": "Conciliar rede pediátrica e contratos existentes.",
+      "scope": "Especialidade; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 6213,
+      "recent": 6140
+    },
+    {
+      "label": "Urologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Fila grande; pode sustentar linha diagnóstica após triagem.",
+      "difficulty": "Separar próstata, cálculo, sintomas urinários e necessidade de cirurgia.",
+      "coverage": "IEV possui OCI de próstata; não reservar toda urologia pelo mesmo motivo.",
+      "scope": "Especialidade; validar percurso e objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 14487,
+      "recent": 8512
+    },
+    {
+      "label": "Proctologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Pode orientar linha digestiva com investigação indicada.",
+      "difficulty": "Consulta não equivale a endoscopia, colonoscopia ou cirurgia.",
+      "coverage": "Conciliar rede e contratos digestivos.",
+      "scope": "Especialidade; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 8628,
+      "recent": 5096
+    },
+    {
+      "label": "Reumatologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Grande demanda especializada, com pedidos recentes relevantes.",
+      "difficulty": "Doença crônica, exames e retorno; evitar consulta isolada sem continuidade.",
+      "coverage": "Não confundir com OCI ortopédica do IEV.",
+      "scope": "Especialidade; validar objeto e seguimento",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 12119,
+      "recent": 8769
+    },
+    {
+      "label": "Endocrinologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Fila grande; possível investigação focal por linhas clínicas.",
+      "difficulty": "Seguimento, exames e definição de conduta; custo não é só consulta.",
+      "coverage": "Contratos e capacidade específicos a verificar.",
+      "scope": "Especialidade; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 11871,
+      "recent": 9729
+    },
+    {
+      "label": "Uroginecologia",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Demanda específica de queixas urinárias e assoalho pélvico.",
+      "difficulty": "Separar diagnóstico, urodinâmica se indicada, reabilitação e cirurgia.",
+      "coverage": "Conciliar GIN1 e demais coberturas, sem presumir equivalência.",
+      "scope": "Especialidade; validar objeto",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 3374,
+      "recent": 1931
+    },
+    {
+      "label": "Reabilitação ortopédica",
+      "status": "Nova candidata",
+      "kind": "Consulta/reabilitação",
+      "why": "Grande fila de entrada em reabilitação.",
+      "difficulty": "Avaliação não quantifica sessões; definir plano terapêutico e continuidade.",
+      "coverage": "Conciliar rede de reabilitação e linhas ortopédicas existentes.",
+      "scope": "Reabilitação; fora de emenda restrita a exames",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 24203,
+      "recent": 15805
+    },
+    {
+      "label": "Fonoaudiologia: linguagem",
+      "status": "Nova candidata",
+      "kind": "Consulta/reabilitação",
+      "why": "Grande fila de avaliação e organização de cuidado continuado.",
+      "difficulty": "Número de sessões, idade, metas e alta; não é pacote diagnóstico auditivo.",
+      "coverage": "Conciliar atenção à saúde auditiva e reabilitação.",
+      "scope": "Reabilitação; objeto próprio",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 10695,
+      "recent": 7097
+    },
+    {
+      "label": "Reabilitação intelectual infantil",
+      "status": "Nova candidata",
+      "kind": "Consulta/reabilitação",
+      "why": "Fila grande e espera prolongada.",
+      "difficulty": "Avaliação multidisciplinar e cuidado continuado; fila não mede sessões.",
+      "coverage": "Conciliar rede de reabilitação; cobertura não auditada.",
+      "scope": "Reabilitação; objeto próprio",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 15088,
+      "recent": 10269
+    },
+    {
+      "label": "Terapia ocupacional de membros",
+      "status": "Nova candidata",
+      "kind": "Consulta/reabilitação",
+      "why": "Possibilidade de linha funcional de membros superiores.",
+      "difficulty": "Avaliação, sessões e critérios de alta; não presumir custo único por pessoa.",
+      "coverage": "Conciliar redes ortopédica e de reabilitação.",
+      "scope": "Reabilitação; objeto próprio",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 3281,
+      "recent": 1923
+    },
+    {
+      "label": "Endodontia: consulta",
+      "status": "Nova candidata",
+      "kind": "Consulta odontológica",
+      "why": "Demanda odontológica com muitos pedidos recentes.",
+      "difficulty": "Identificar dentes, complexidade, radiografia e restauração final.",
+      "coverage": "Contrato e linha odontológica específica a verificar.",
+      "scope": "Odontologia; consulta não equivale a tratamento concluído",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 8266,
+      "recent": 8264
+    },
+    {
+      "label": "Prótese dentária: consulta",
+      "status": "Nova candidata",
+      "kind": "Consulta odontológica",
+      "why": "Fila própria para eventual projeto odontológico.",
+      "difficulty": "Moldagens, laboratório, entregas, adaptação e retornos; estoque antigo relevante.",
+      "coverage": "Não usar tarifa de consulta como preço da prótese.",
+      "scope": "Odontologia; objeto próprio",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 8491,
+      "recent": 4132
+    },
+    {
+      "label": "Psiquiatria geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "why": "Fila grande que pode orientar projeto assistencial próprio.",
+      "difficulty": "Continuidade, retorno e articulação com rede de saúde mental.",
+      "coverage": "Cobertura e capacidade existentes a verificar.",
+      "scope": "Saúde mental; não é carteira de exames",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 12143,
+      "recent": 6729
+    },
+    {
+      "label": "Risco cirúrgico: consulta",
+      "status": "Complemento a investigar",
+      "kind": "Consulta/OCI",
+      "why": "Possível articulação à frente de cardiologia.",
+      "difficulty": "Consulta não fecha OCI; compor percurso indicado e registros.",
+      "coverage": "IEV: 4.647 OCI de risco cirúrgico contratadas no acervo.",
+      "scope": "Cardiologia; conciliar cobertura",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 9748,
+      "recent": 8257
+    },
+    {
+      "label": "Teste ergométrico",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "why": "Pode complementar investigação cardiológica indicada.",
+      "difficulty": "Equipe, preparo, contraindicações e suporte a intercorrências.",
+      "coverage": "Ergoespirometria pode compartilhar código local; revisar descrição.",
+      "scope": "Avaliar na cardiologia; alocação não definida",
+      "next": "Confirmar elegibilidade, cobertura e custo integral; selecionar protocolos.",
+      "stock": 3201,
+      "recent": 1701
+    }
+  ],
+  "queues": [
+    {
+      "front": "Polissonografia",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "POLISSONOGRAFIA NOTURNA BASAL",
+      "code": "0211050105",
+      "stock": 8529,
+      "recent": 4110,
+      "median": 763.0519488888895,
+      "age": 55,
+      "scheduled": 631,
+      "returned": 742,
+      "cid": [
+        [
+          "G47",
+          6572
+        ],
+        [
+          "E66",
+          465
+        ],
+        [
+          "I10",
+          227
+        ],
+        [
+          "R06",
+          122
+        ],
+        [
+          "I15",
+          109
+        ]
+      ]
+    },
+    {
+      "front": "Polissonografia",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "POLISSONOGRAFIA CPAP/BIPAP/SPLIT-NIGHT",
+      "code": "0211050105",
+      "stock": 1,
+      "recent": 0,
+      "median": 2405.982592893517,
+      "age": 72,
+      "scheduled": 0,
+      "returned": 37,
+      "cid": [
+        [
+          "G47",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Otorrino: consultas e OCI",
+      "status": "Sua seleção",
+      "kind": "Consulta/OCI",
+      "name": "CONSULTA EM ATENCAO A SAUDE AUDITIVA - MEDIA E ALTA COMPLEXIDADE",
+      "code": "0301010072",
+      "stock": 5704,
+      "recent": 3967,
+      "median": 496.0056249305562,
+      "age": 65,
+      "scheduled": 1665,
+      "returned": 823,
+      "cid": [
+        [
+          "H90",
+          5112
+        ],
+        [
+          "H91",
+          299
+        ],
+        [
+          "H93",
+          128
+        ],
+        [
+          "H80",
+          67
+        ],
+        [
+          "H66",
+          48
+        ]
+      ]
+    },
+    {
+      "front": "Otorrino: consultas e OCI",
+      "status": "Sua seleção",
+      "kind": "Consulta/OCI",
+      "name": "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL",
+      "code": "0301010072",
+      "stock": 5471,
+      "recent": 5461,
+      "median": 80.81270480902822,
+      "age": 33,
+      "scheduled": 16191,
+      "returned": 2768,
+      "cid": [
+        [
+          "J35",
+          1158
+        ],
+        [
+          "H90",
+          666
+        ],
+        [
+          "H93",
+          418
+        ],
+        [
+          "J34",
+          360
+        ],
+        [
+          "H91",
+          255
+        ]
+      ]
+    },
+    {
+      "front": "Otorrino: consultas e OCI",
+      "status": "Sua seleção",
+      "kind": "Consulta/OCI",
+      "name": "CONSULTA PARA RESPIRADOR BUCAL",
+      "code": "0301010072",
+      "stock": 876,
+      "recent": 862,
+      "median": 179.80422826389258,
+      "age": 7,
+      "scheduled": 1088,
+      "returned": 675,
+      "cid": [
+        [
+          "J35",
+          780
+        ],
+        [
+          "R06",
+          35
+        ],
+        [
+          "H65",
+          12
+        ],
+        [
+          "G47",
+          7
+        ],
+        [
+          "J34",
+          6
+        ]
+      ]
+    },
+    {
+      "front": "Otorrino: consultas e OCI",
+      "status": "Sua seleção",
+      "kind": "Consulta/OCI",
+      "name": "CONSULTA EM  RINOLOGIA",
+      "code": "0301010072",
+      "stock": 190,
+      "recent": 190,
+      "median": 34.04654666088027,
+      "age": 40,
+      "scheduled": 944,
+      "returned": 395,
+      "cid": [
+        [
+          "J34",
+          132
+        ],
+        [
+          "J32",
+          26
+        ],
+        [
+          "J33",
+          9
+        ],
+        [
+          "J35",
+          5
+        ],
+        [
+          "J01",
+          3
+        ]
+      ]
+    },
+    {
+      "front": "ENMG",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "ELETRONEUROMIOGRAFIA - MEMBROS INFERIORES (MID/MIE)",
+      "code": "0211050083",
+      "stock": 5079,
+      "recent": 2547,
+      "median": 733.9570195312517,
+      "age": 57,
+      "scheduled": 616,
+      "returned": 1387,
+      "cid": [
+        [
+          "G62",
+          508
+        ],
+        [
+          "G63",
+          500
+        ],
+        [
+          "G57",
+          471
+        ],
+        [
+          "M54",
+          446
+        ],
+        [
+          "R20",
+          368
+        ]
+      ]
+    },
+    {
+      "front": "ENMG",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "ELETRONEUROMIOGRAFIA - MEMBROS SUPERIORES (MSD/MSE)",
+      "code": "0211050083",
+      "stock": 4058,
+      "recent": 3765,
+      "median": 404.0242268171278,
+      "age": 53,
+      "scheduled": 1552,
+      "returned": 4132,
+      "cid": [
+        [
+          "G56",
+          1876
+        ],
+        [
+          "R20",
+          338
+        ],
+        [
+          "G62",
+          156
+        ],
+        [
+          "M79",
+          135
+        ],
+        [
+          "G63",
+          125
+        ]
+      ]
+    },
+    {
+      "front": "ENMG",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "COLUNA TOTAL",
+      "code": "0211050083",
+      "stock": 1,
+      "recent": 0,
+      "median": 2100.0257548148147,
+      "age": 68,
+      "scheduled": 0,
+      "returned": 1,
+      "cid": [
+        [
+          "M21",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Videolaringoscopia e nasal",
+      "status": "Sua seleção",
+      "kind": "Exame/OCI",
+      "name": "VIDEOENDOSCOPIA  NASAL  FLEXIVEL",
+      "code": "0209040041",
+      "stock": 3720,
+      "recent": 2210,
+      "median": 621.7646817129644,
+      "age": 8,
+      "scheduled": 156,
+      "returned": 0,
+      "cid": [
+        [
+          "J35",
+          2664
+        ],
+        [
+          "J34",
+          215
+        ],
+        [
+          "J30",
+          184
+        ],
+        [
+          "R06",
+          154
+        ],
+        [
+          "R04",
+          134
+        ]
+      ]
+    },
+    {
+      "front": "Videolaringoscopia e nasal",
+      "status": "Sua seleção",
+      "kind": "Exame/OCI",
+      "name": "VIDEOENDOSCOPIA NASAL RIGIDA",
+      "code": "0209040041",
+      "stock": 447,
+      "recent": 440,
+      "median": 34.84830206018523,
+      "age": 38,
+      "scheduled": 2833,
+      "returned": 207,
+      "cid": [
+        [
+          "J34",
+          173
+        ],
+        [
+          "G47",
+          67
+        ],
+        [
+          "J35",
+          50
+        ],
+        [
+          "J32",
+          26
+        ],
+        [
+          "J30",
+          25
+        ]
+      ]
+    },
+    {
+      "front": "Videolaringoscopia e nasal",
+      "status": "Sua seleção",
+      "kind": "Exame/OCI",
+      "name": "VIDEOLARINGOSCOPIA",
+      "code": "0209040041",
+      "stock": 215,
+      "recent": 215,
+      "median": 87.07821252314898,
+      "age": 42,
+      "scheduled": 2258,
+      "returned": 226,
+      "cid": [
+        [
+          "R49",
+          46
+        ],
+        [
+          "Q31",
+          21
+        ],
+        [
+          "K21",
+          20
+        ],
+        [
+          "R13",
+          18
+        ],
+        [
+          "G47",
+          15
+        ]
+      ]
+    },
+    {
+      "front": "Ecocardiograma",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+      "code": "0205010032",
+      "stock": 13236,
+      "recent": 13236,
+      "median": 118.36738493634402,
+      "age": 62,
+      "scheduled": 33920,
+      "returned": 13508,
+      "cid": [
+        [
+          "I10",
+          2420
+        ],
+        [
+          "I50",
+          2312
+        ],
+        [
+          "I25",
+          1155
+        ],
+        [
+          "R07",
+          487
+        ],
+        [
+          "I20",
+          481
+        ]
+      ]
+    },
+    {
+      "front": "Ecocardiograma",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+      "code": "0205010032",
+      "stock": 1332,
+      "recent": 1332,
+      "median": 104.91668921296514,
+      "age": 3,
+      "scheduled": 5871,
+      "returned": 2564,
+      "cid": [
+        [
+          "R01",
+          313
+        ],
+        [
+          "Q21",
+          302
+        ],
+        [
+          "Q25",
+          90
+        ],
+        [
+          "Q20",
+          40
+        ],
+        [
+          "P07",
+          35
+        ]
+      ]
+    },
+    {
+      "front": "Ecocardiograma",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "9. ECOCARDIOGRAFIA FETAL",
+      "code": "0205010032",
+      "stock": 29,
+      "recent": 29,
+      "median": 19.67125049768947,
+      "age": 32,
+      "scheduled": 788,
+      "returned": 390,
+      "cid": [
+        [
+          "Z35",
+          13
+        ],
+        [
+          "Q89",
+          2
+        ],
+        [
+          "O24",
+          2
+        ],
+        [
+          "Z34",
+          2
+        ],
+        [
+          "E10",
+          2
+        ]
+      ]
+    },
+    {
+      "front": "Ecocardiograma",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO",
+      "code": "0205010032",
+      "stock": 2,
+      "recent": 0,
+      "median": 6967.40388888889,
+      "age": 89,
+      "scheduled": null,
+      "returned": 0,
+      "cid": [
+        [
+          "R68",
+          2
+        ]
+      ]
+    },
+    {
+      "front": "Ecocardiograma",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO EMERGENCIA",
+      "code": "0205010032",
+      "stock": 1,
+      "recent": 0,
+      "median": 6984.40388888889,
+      "age": 61,
+      "scheduled": null,
+      "returned": 0,
+      "cid": [
+        [
+          "R68",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Ecocardiograma",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER INFANTIL",
+      "code": "0205010032",
+      "stock": 1,
+      "recent": 0,
+      "median": 6978.40388888889,
+      "age": 36,
+      "scheduled": null,
+      "returned": 0,
+      "cid": [
+        [
+          "R68",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Ecocardiograma",
+      "status": "Sua seleção",
+      "kind": "Exame",
+      "name": "16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL",
+      "code": "0205010032",
+      "stock": 1,
+      "recent": 0,
+      "median": 4948.67505943287,
+      "age": 65,
+      "scheduled": 0,
+      "returned": 0,
+      "cid": [
+        [
+          "L81",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Endoscopia digestiva alta",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "ENDOSCOPIA DIGESTIVA ALTA",
+      "code": "0209010037",
+      "stock": 26155,
+      "recent": 18590,
+      "median": 481.7470139467623,
+      "age": 53,
+      "scheduled": 10216,
+      "returned": 8318,
+      "cid": [
+        [
+          "K29",
+          9457
+        ],
+        [
+          "K30",
+          4851
+        ],
+        [
+          "K21",
+          3361
+        ],
+        [
+          "R10",
+          2912
+        ],
+        [
+          "R13",
+          717
+        ]
+      ]
+    },
+    {
+      "front": "Colonoscopia",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "COLONOSCOPIA",
+      "code": "0209010029",
+      "stock": 22560,
+      "recent": 19915,
+      "median": 416.804230439815,
+      "age": 59,
+      "scheduled": 6583,
+      "returned": 4047,
+      "cid": [
+        [
+          "Z12",
+          6112
+        ],
+        [
+          "K92",
+          2855
+        ],
+        [
+          "K59",
+          1441
+        ],
+        [
+          "R19",
+          1389
+        ],
+        [
+          "C18",
+          1273
+        ]
+      ]
+    },
+    {
+      "front": "Colonoscopia",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "COLONOSCOPIA C/ ANESTESIA",
+      "code": "0209010029",
+      "stock": 382,
+      "recent": 327,
+      "median": 175.40642673032562,
+      "age": 63.5,
+      "scheduled": 156,
+      "returned": 450,
+      "cid": [
+        [
+          "Z12",
+          130
+        ],
+        [
+          "K92",
+          41
+        ],
+        [
+          "K63",
+          26
+        ],
+        [
+          "K59",
+          20
+        ],
+        [
+          "K62",
+          16
+        ]
+      ]
+    },
+    {
+      "front": "Colonoscopia",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "COLONOSCOPIA (COLOSCOPIA)",
+      "code": "0209010029",
+      "stock": 1,
+      "recent": 0,
+      "median": 3387.7807223148193,
+      "age": 79,
+      "scheduled": null,
+      "returned": 0,
+      "cid": [
+        [
+          "Z00",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "OCT",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "OCT GLAUCOMA",
+      "code": "0211060283",
+      "stock": 2359,
+      "recent": 2359,
+      "median": 223.98856994212838,
+      "age": 65,
+      "scheduled": 642,
+      "returned": 1,
+      "cid": [
+        [
+          "H40",
+          2184
+        ],
+        [
+          "H70",
+          29
+        ],
+        [
+          "H25",
+          23
+        ],
+        [
+          "H35",
+          21
+        ],
+        [
+          "H47",
+          16
+        ]
+      ]
+    },
+    {
+      "front": "OCT",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "OCT",
+      "code": "0211060283",
+      "stock": 1547,
+      "recent": 1547,
+      "median": 361.7465333680593,
+      "age": 63,
+      "scheduled": 304,
+      "returned": 415,
+      "cid": [
+        [
+          "H35",
+          777
+        ],
+        [
+          "H36",
+          271
+        ],
+        [
+          "H40",
+          192
+        ],
+        [
+          "H34",
+          65
+        ],
+        [
+          "H25",
+          27
+        ]
+      ]
+    },
+    {
+      "front": "Campimetria",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "CAMPIMETRIA COMPUTADORIZADA",
+      "code": "0211060038",
+      "stock": 3816,
+      "recent": 3816,
+      "median": 250.75619942708363,
+      "age": 64,
+      "scheduled": 814,
+      "returned": 357,
+      "cid": [
+        [
+          "H40",
+          3244
+        ],
+        [
+          "H54",
+          70
+        ],
+        [
+          "H35",
+          67
+        ],
+        [
+          "H47",
+          61
+        ],
+        [
+          "H25",
+          41
+        ]
+      ]
+    },
+    {
+      "front": "Densitometria",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "DENSITOMETRIA OSSEA - RADIODIAGNOSTICO",
+      "code": "0204060028",
+      "stock": 2178,
+      "recent": 2177,
+      "median": 38.00194391203695,
+      "age": 66,
+      "scheduled": 12934,
+      "returned": 3670,
+      "cid": [
+        [
+          "M81",
+          1166
+        ],
+        [
+          "M85",
+          228
+        ],
+        [
+          "M80",
+          156
+        ],
+        [
+          "Z13",
+          142
+        ],
+        [
+          "N95",
+          99
+        ]
+      ]
+    },
+    {
+      "front": "Holter",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "HOLTER 24 HORAS",
+      "code": "0211020044",
+      "stock": 36217,
+      "recent": 11132,
+      "median": 1208.057220387731,
+      "age": 63,
+      "scheduled": 2766,
+      "returned": 3493,
+      "cid": [
+        [
+          "I10",
+          6385
+        ],
+        [
+          "I49",
+          5647
+        ],
+        [
+          "R00",
+          4366
+        ],
+        [
+          "I50",
+          2533
+        ],
+        [
+          "I64",
+          1896
+        ]
+      ]
+    },
+    {
+      "front": "MAPA",
+      "status": "Sugerida anteriormente",
+      "kind": "Exame",
+      "name": "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL",
+      "code": "0211020052",
+      "stock": 12695,
+      "recent": 6262,
+      "median": 762.0280348726883,
+      "age": 60,
+      "scheduled": 2590,
+      "returned": 1412,
+      "cid": [
+        [
+          "I10",
+          8172
+        ],
+        [
+          "R03",
+          555
+        ],
+        [
+          "I50",
+          499
+        ],
+        [
+          "I25",
+          356
+        ],
+        [
+          "I15",
+          285
+        ]
+      ]
+    },
+    {
+      "front": "EEG",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ELETROENCEFALOGRAMA /VIGILIA /SONO ESPONTANEO C/OU S/FOTOESTIMULO",
+      "code": "0211050040",
+      "stock": 2380,
+      "recent": 2086,
+      "median": 391.74132163773174,
+      "age": 10,
+      "scheduled": 4960,
+      "returned": 790,
+      "cid": [
+        [
+          "G40",
+          1313
+        ],
+        [
+          "R56",
+          366
+        ],
+        [
+          "F84",
+          132
+        ],
+        [
+          "F90",
+          87
+        ],
+        [
+          "R55",
+          78
+        ]
+      ]
+    },
+    {
+      "front": "EEG",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ELETROENCEFALOGRAFIA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+      "code": "0211050024",
+      "stock": 596,
+      "recent": 494,
+      "median": 285.46407184028067,
+      "age": 37.5,
+      "scheduled": 1537,
+      "returned": 105,
+      "cid": [
+        [
+          "G40",
+          242
+        ],
+        [
+          "R56",
+          158
+        ],
+        [
+          "R55",
+          46
+        ],
+        [
+          "R51",
+          27
+        ],
+        [
+          "R41",
+          14
+        ]
+      ]
+    },
+    {
+      "front": "EEG",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ELETROENCEFALOGRAMA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+      "code": "0211050024",
+      "stock": 496,
+      "recent": 341,
+      "median": 468.71182900462736,
+      "age": 7,
+      "scheduled": 279,
+      "returned": 73,
+      "cid": [
+        [
+          "G40",
+          189
+        ],
+        [
+          "R56",
+          85
+        ],
+        [
+          "F84",
+          61
+        ],
+        [
+          "F90",
+          31
+        ],
+        [
+          "R55",
+          24
+        ]
+      ]
+    },
+    {
+      "front": "Espirometria",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "PROVA DE FUNCAO PULMONAR COMPLETA - ESPIROMETRIA",
+      "code": "0211080055",
+      "stock": 2561,
+      "recent": 2561,
+      "median": 93.86720329861419,
+      "age": 54,
+      "scheduled": 7281,
+      "returned": 4413,
+      "cid": [
+        [
+          "J45",
+          1243
+        ],
+        [
+          "R06",
+          502
+        ],
+        [
+          "J44",
+          341
+        ],
+        [
+          "R05",
+          113
+        ],
+        [
+          "J43",
+          40
+        ]
+      ]
+    },
+    {
+      "front": "VENG e processamento auditivo",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "VECTOELETRONISTAGMOGRAFIA(VENG)",
+      "code": "0211070351",
+      "stock": 1041,
+      "recent": 959,
+      "median": 395.76968236111134,
+      "age": 63,
+      "scheduled": 351,
+      "returned": 1173,
+      "cid": [
+        [
+          "R42",
+          568
+        ],
+        [
+          "H81",
+          251
+        ],
+        [
+          "H83",
+          146
+        ],
+        [
+          "H90",
+          25
+        ],
+        [
+          "H93",
+          19
+        ]
+      ]
+    },
+    {
+      "front": "VENG e processamento auditivo",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "TESTES DE PROCESSAMENTO AUDITIVO",
+      "code": "0211070343",
+      "stock": 494,
+      "recent": 435,
+      "median": 217.00698255786847,
+      "age": 11,
+      "scheduled": 226,
+      "returned": 845,
+      "cid": [
+        [
+          "F81",
+          126
+        ],
+        [
+          "H93",
+          123
+        ],
+        [
+          "F90",
+          77
+        ],
+        [
+          "F80",
+          58
+        ],
+        [
+          "H90",
+          54
+        ]
+      ]
+    },
+    {
+      "front": "Audiometria e BERA",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "AUDIOMETRIA E IMITANCIOMETRIA – ATÉ 7 ANOS",
+      "code": "0211070033",
+      "stock": 3527,
+      "recent": 3143,
+      "median": 340.0647103414376,
+      "age": 5,
+      "scheduled": 1994,
+      "returned": 2446,
+      "cid": [
+        [
+          "F80",
+          1171
+        ],
+        [
+          "F84",
+          709
+        ],
+        [
+          "H90",
+          306
+        ],
+        [
+          "F90",
+          185
+        ],
+        [
+          "H65",
+          167
+        ]
+      ]
+    },
+    {
+      "front": "Audiometria e BERA",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "AUDIOMETRIA E IMITANCIOMETRIA – 8 A 64 ANOS",
+      "code": "0211070033",
+      "stock": 3124,
+      "recent": 3124,
+      "median": 93.70727446759338,
+      "age": 45,
+      "scheduled": 6005,
+      "returned": 813,
+      "cid": [
+        [
+          "H90",
+          1251
+        ],
+        [
+          "H93",
+          490
+        ],
+        [
+          "H91",
+          434
+        ],
+        [
+          "F81",
+          114
+        ],
+        [
+          "F90",
+          102
+        ]
+      ]
+    },
+    {
+      "front": "Audiometria e BERA",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "POTENCIAL EVOCADO AUDITIVO BERA – ACIMA DE 5 ANOS",
+      "code": "0211050113",
+      "stock": 2347,
+      "recent": 1876,
+      "median": 445.6653195254621,
+      "age": 11,
+      "scheduled": 243,
+      "returned": 1089,
+      "cid": [
+        [
+          "H90",
+          805
+        ],
+        [
+          "F84",
+          339
+        ],
+        [
+          "F80",
+          264
+        ],
+        [
+          "F90",
+          230
+        ],
+        [
+          "H93",
+          209
+        ]
+      ]
+    },
+    {
+      "front": "Audiometria e BERA",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "POTENCIAL EVOCADO AUDITIVO BERA – ATÉ 4 ANOS",
+      "code": "0211050113",
+      "stock": 2300,
+      "recent": 1915,
+      "median": 403.3381078356506,
+      "age": 2,
+      "scheduled": 530,
+      "returned": 2606,
+      "cid": [
+        [
+          "H90",
+          596
+        ],
+        [
+          "F80",
+          460
+        ],
+        [
+          "F84",
+          282
+        ],
+        [
+          "P07",
+          258
+        ],
+        [
+          "Z01",
+          107
+        ]
+      ]
+    },
+    {
+      "front": "Audiometria e BERA",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "AUDIOMETRIA E IMITANCIOMETRIA – ACIMA DE 65 ANOS",
+      "code": "0211070033",
+      "stock": 1417,
+      "recent": 1417,
+      "median": 93.77859138888743,
+      "age": 73,
+      "scheduled": 3136,
+      "returned": 623,
+      "cid": [
+        [
+          "H90",
+          781
+        ],
+        [
+          "H91",
+          303
+        ],
+        [
+          "H93",
+          201
+        ],
+        [
+          "R42",
+          26
+        ],
+        [
+          "Z01",
+          15
+        ]
+      ]
+    },
+    {
+      "front": "PAAF de tireoide",
+      "status": "Complemento a investigar",
+      "kind": "Procedimento guiado",
+      "name": "PUNCAO ASPIRATIVA TIREOIDE TELEGUIADA",
+      "code": "0201010470",
+      "stock": 530,
+      "recent": 530,
+      "median": 83.92791224536995,
+      "age": 57,
+      "scheduled": 549,
+      "returned": 90,
+      "cid": [
+        [
+          "E04",
+          289
+        ],
+        [
+          "E07",
+          82
+        ],
+        [
+          "D44",
+          67
+        ],
+        [
+          "D34",
+          27
+        ],
+        [
+          "C73",
+          18
+        ]
+      ]
+    },
+    {
+      "front": "Core biópsia guiada",
+      "status": "Complemento a investigar",
+      "kind": "Procedimento guiado",
+      "name": "PUNCAO DE MAMA POR AGULHA GROSSA (CORE BIOPSIA) GUIADA POR ULTRASSONOGRAFIA",
+      "code": "0201010542",
+      "stock": 215,
+      "recent": 215,
+      "median": 55.0216517824083,
+      "age": 47,
+      "scheduled": 1108,
+      "returned": 185,
+      "cid": [
+        [
+          "N63",
+          152
+        ],
+        [
+          "C50",
+          21
+        ],
+        [
+          "R92",
+          17
+        ],
+        [
+          "D48",
+          14
+        ],
+        [
+          "N64",
+          6
+        ]
+      ]
+    },
+    {
+      "front": "Core biópsia guiada",
+      "status": "Complemento a investigar",
+      "kind": "Procedimento guiado",
+      "name": "PUNCAO DE MAMA POR AGULHA GROSSA (CORE BIOPSIA) GUIADA POR MAMOGRAFIA",
+      "code": "0201010542",
+      "stock": 77,
+      "recent": 77,
+      "median": 75.95430013888836,
+      "age": 56,
+      "scheduled": 202,
+      "returned": 64,
+      "cid": [
+        [
+          "N64",
+          29
+        ],
+        [
+          "C50",
+          15
+        ],
+        [
+          "N63",
+          13
+        ],
+        [
+          "R92",
+          11
+        ],
+        [
+          "D48",
+          6
+        ]
+      ]
+    },
+    {
+      "front": "Colposcopia",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "COLPOSCOPIA",
+      "code": "0211040029",
+      "stock": 696,
+      "recent": 672,
+      "median": 69.26316884259359,
+      "age": 45,
+      "scheduled": 3441,
+      "returned": 813,
+      "cid": [
+        [
+          "R87",
+          270
+        ],
+        [
+          "N87",
+          181
+        ],
+        [
+          "B97",
+          47
+        ],
+        [
+          "N84",
+          46
+        ],
+        [
+          "Z12",
+          35
+        ]
+      ]
+    },
+    {
+      "front": "Mamografia",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA)",
+      "code": "0204030188",
+      "stock": 6448,
+      "recent": 6398,
+      "median": 34.934595416667435,
+      "age": 54,
+      "scheduled": 50738,
+      "returned": 2137,
+      "cid": [
+        [
+          "Z12",
+          4780
+        ],
+        [
+          "Z01",
+          350
+        ],
+        [
+          "N63",
+          247
+        ],
+        [
+          "Z00",
+          240
+        ],
+        [
+          "C50",
+          214
+        ]
+      ]
+    },
+    {
+      "front": "Mamografia",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "MAMOGRAFIA BILATERAL DIAGNOSTICA",
+      "code": "0204030188",
+      "stock": 182,
+      "recent": 182,
+      "median": 31.868399045139086,
+      "age": 52,
+      "scheduled": 5069,
+      "returned": 540,
+      "cid": [
+        [
+          "N63",
+          61
+        ],
+        [
+          "Z12",
+          56
+        ],
+        [
+          "N64",
+          14
+        ],
+        [
+          "R92",
+          12
+        ],
+        [
+          "N60",
+          11
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "005. RM DE CRANIO ADULTO S/CONTRASTE S/SEDACAO",
+      "code": "0207010064",
+      "stock": 719,
+      "recent": 719,
+      "median": 25.78862660879531,
+      "age": 57,
+      "scheduled": 7070,
+      "returned": 566,
+      "cid": [
+        [
+          "R51",
+          123
+        ],
+        [
+          "F03",
+          68
+        ],
+        [
+          "G40",
+          59
+        ],
+        [
+          "R41",
+          44
+        ],
+        [
+          "R42",
+          41
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "007. RM DE CRANIO ADULTO C/CONTRASTE S/SEDACAO",
+      "code": "0207010064",
+      "stock": 623,
+      "recent": 623,
+      "median": 33.75268552083435,
+      "age": 52,
+      "scheduled": 7363,
+      "returned": 654,
+      "cid": [
+        [
+          "R51",
+          63
+        ],
+        [
+          "D33",
+          42
+        ],
+        [
+          "G35",
+          41
+        ],
+        [
+          "D43",
+          39
+        ],
+        [
+          "G40",
+          32
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "055. RM DE ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO",
+      "code": "0207030014",
+      "stock": 465,
+      "recent": 465,
+      "median": 33.90996640046069,
+      "age": 57,
+      "scheduled": 9248,
+      "returned": 501,
+      "cid": [
+        [
+          "C50",
+          38
+        ],
+        [
+          "C53",
+          32
+        ],
+        [
+          "R10",
+          26
+        ],
+        [
+          "C18",
+          26
+        ],
+        [
+          "K86",
+          24
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "053. RM DE ABDOMEN SUPERIOR ADULTO S/CONTRASTE S/SEDACAO",
+      "code": "0207030014",
+      "stock": 104,
+      "recent": 104,
+      "median": 21.92277421875042,
+      "age": 49.5,
+      "scheduled": 1389,
+      "returned": 350,
+      "cid": [
+        [
+          "R10",
+          27
+        ],
+        [
+          "E83",
+          7
+        ],
+        [
+          "D35",
+          6
+        ],
+        [
+          "N80",
+          5
+        ],
+        [
+          "N20",
+          4
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE SELA TURCICA ADULTO C/CONTRASTE S/SEDACAO",
+      "code": "0207010072",
+      "stock": 104,
+      "recent": 104,
+      "median": 31.70082675347294,
+      "age": 47,
+      "scheduled": 1011,
+      "returned": 34,
+      "cid": [
+        [
+          "D35",
+          47
+        ],
+        [
+          "E22",
+          35
+        ],
+        [
+          "E23",
+          8
+        ],
+        [
+          "D44",
+          6
+        ],
+        [
+          "D43",
+          2
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ANGIORESSONANCIA CEREBRAL ARTERIAL",
+      "code": "0207010013",
+      "stock": 82,
+      "recent": 82,
+      "median": 30.66943402777906,
+      "age": 54,
+      "scheduled": 1482,
+      "returned": 32,
+      "cid": [
+        [
+          "I67",
+          29
+        ],
+        [
+          "I64",
+          9
+        ],
+        [
+          "R51",
+          6
+        ],
+        [
+          "I60",
+          3
+        ],
+        [
+          "D57",
+          3
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "063. RM DE VIAS BILIARES ADULTO C/CONTRASTE S/SEDACAO",
+      "code": "0207030049",
+      "stock": 63,
+      "recent": 63,
+      "median": 27.802839953707007,
+      "age": 57,
+      "scheduled": 1083,
+      "returned": 138,
+      "cid": [
+        [
+          "K83",
+          17
+        ],
+        [
+          "K80",
+          10
+        ],
+        [
+          "K86",
+          6
+        ],
+        [
+          "R10",
+          5
+        ],
+        [
+          "K74",
+          3
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE MASTOIDES ADULTO C/CONTRASTE S/SEDACAO",
+      "code": "0207010021",
+      "stock": 61,
+      "recent": 61,
+      "median": 33.79404052083555,
+      "age": 54,
+      "scheduled": 706,
+      "returned": 13,
+      "cid": [
+        [
+          "H90",
+          26
+        ],
+        [
+          "G51",
+          7
+        ],
+        [
+          "H93",
+          7
+        ],
+        [
+          "H91",
+          5
+        ],
+        [
+          "D33",
+          3
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "061. RM DE VIAS BILIARES ADULTO S/CONTRASTE S/SEDACAO",
+      "code": "0207030049",
+      "stock": 52,
+      "recent": 52,
+      "median": 20.95071180555533,
+      "age": 46.5,
+      "scheduled": 2129,
+      "returned": 157,
+      "cid": [
+        [
+          "K80",
+          23
+        ],
+        [
+          "K83",
+          8
+        ],
+        [
+          "R10",
+          4
+        ],
+        [
+          "K85",
+          4
+        ],
+        [
+          "K74",
+          2
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "045. RM DE TORAX ADULTO S/CONTRASTE S/SEDACAO",
+      "code": "0207020035",
+      "stock": 47,
+      "recent": 47,
+      "median": 24.63793262731633,
+      "age": 53,
+      "scheduled": 588,
+      "returned": 231,
+      "cid": [
+        [
+          "R07",
+          12
+        ],
+        [
+          "M54",
+          10
+        ],
+        [
+          "M25",
+          3
+        ],
+        [
+          "R91",
+          3
+        ],
+        [
+          "M75",
+          3
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ANGIORESSONANCIA CEREBRAL VENOSA",
+      "code": "0207010013",
+      "stock": 33,
+      "recent": 33,
+      "median": 30.743985567132768,
+      "age": 39,
+      "scheduled": 633,
+      "returned": 15,
+      "cid": [
+        [
+          "R51",
+          6
+        ],
+        [
+          "G93",
+          4
+        ],
+        [
+          "I67",
+          3
+        ],
+        [
+          "I64",
+          3
+        ],
+        [
+          "G43",
+          2
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE ORBITAS ADULTO C/CONTRASTE S/SEDAÇÃO",
+      "code": "0207010064",
+      "stock": 28,
+      "recent": 28,
+      "median": 27.98654111689757,
+      "age": 45.5,
+      "scheduled": 252,
+      "returned": 1,
+      "cid": [
+        [
+          "G35",
+          3
+        ],
+        [
+          "H46",
+          2
+        ],
+        [
+          "H05",
+          2
+        ],
+        [
+          "G04",
+          2
+        ],
+        [
+          "H47",
+          2
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "047. RM DE TORAX ADULTO C/CONTRASTE S/SEDACAO",
+      "code": "0207020035",
+      "stock": 28,
+      "recent": 28,
+      "median": 34.86813148727015,
+      "age": 58,
+      "scheduled": 480,
+      "returned": 147,
+      "cid": [
+        [
+          "E21",
+          4
+        ],
+        [
+          "C50",
+          4
+        ],
+        [
+          "I42",
+          2
+        ],
+        [
+          "R91",
+          2
+        ],
+        [
+          "R07",
+          2
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "013. RM DE ATM (BILATERAL) ADULTO  S/CONTRASTE S/SEDACAO",
+      "code": "0207010021",
+      "stock": 27,
+      "recent": 27,
+      "median": 24.739345462963684,
+      "age": 48,
+      "scheduled": 218,
+      "returned": 27,
+      "cid": [
+        [
+          "K07",
+          20
+        ],
+        [
+          "K76",
+          3
+        ],
+        [
+          "M54",
+          1
+        ],
+        [
+          "K74",
+          1
+        ],
+        [
+          "K04",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE MASTOIDES ADULTO S/CONTRASTE S/SEDACAO",
+      "code": "0207010021",
+      "stock": 21,
+      "recent": 21,
+      "median": 25.82864039351989,
+      "age": 50,
+      "scheduled": 188,
+      "returned": 7,
+      "cid": [
+        [
+          "H90",
+          6
+        ],
+        [
+          "H93",
+          4
+        ],
+        [
+          "H91",
+          1
+        ],
+        [
+          "J34",
+          1
+        ],
+        [
+          "H66",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE SELA TURCICA ADULTO S/CONTRASTE S/SEDACAO",
+      "code": "0207010072",
+      "stock": 20,
+      "recent": 20,
+      "median": 26.20118129051116,
+      "age": 41,
+      "scheduled": 211,
+      "returned": 27,
+      "cid": [
+        [
+          "E22",
+          6
+        ],
+        [
+          "D35",
+          6
+        ],
+        [
+          "E23",
+          2
+        ],
+        [
+          "D43",
+          1
+        ],
+        [
+          "E29",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "304. RM DE SEIOS DA FACE ADULTO C/CONTRASTE S/SEDACAO",
+      "code": "0207010021",
+      "stock": 19,
+      "recent": 19,
+      "median": 33.92658222222235,
+      "age": 53,
+      "scheduled": 326,
+      "returned": 26,
+      "cid": [
+        [
+          "R43",
+          3
+        ],
+        [
+          "J34",
+          2
+        ],
+        [
+          "J32",
+          2
+        ],
+        [
+          "D48",
+          1
+        ],
+        [
+          "R20",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "002. RM DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO",
+      "code": "0207010064",
+      "stock": 18,
+      "recent": 18,
+      "median": 17.9024131134247,
+      "age": 1,
+      "scheduled": 1027,
+      "returned": 863,
+      "cid": [
+        [
+          "G40",
+          5
+        ],
+        [
+          "G93",
+          2
+        ],
+        [
+          "F79",
+          2
+        ],
+        [
+          "P94",
+          2
+        ],
+        [
+          "G47",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "004. RM DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO",
+      "code": "0207010064",
+      "stock": 13,
+      "recent": 13,
+      "median": 24.019120879631373,
+      "age": 1,
+      "scheduled": 849,
+      "returned": 871,
+      "cid": [
+        [
+          "G40",
+          4
+        ],
+        [
+          "Q85",
+          1
+        ],
+        [
+          "R56",
+          1
+        ],
+        [
+          "Q99",
+          1
+        ],
+        [
+          "G46",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ANGIORESSONANCIA DO PESCOCO",
+      "code": "0207010013",
+      "stock": 8,
+      "recent": 8,
+      "median": 28.39134343171463,
+      "age": 43.5,
+      "scheduled": 104,
+      "returned": 0,
+      "cid": [
+        [
+          "D43",
+          1
+        ],
+        [
+          "I63",
+          1
+        ],
+        [
+          "M31",
+          1
+        ],
+        [
+          "I67",
+          1
+        ],
+        [
+          "T90",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ANGIORESSONANCIA DO ABDOMEN",
+      "code": "0207010013",
+      "stock": 7,
+      "recent": 7,
+      "median": 30.98894519676105,
+      "age": 59,
+      "scheduled": 105,
+      "returned": 39,
+      "cid": [
+        [
+          "M31",
+          1
+        ],
+        [
+          "K70",
+          1
+        ],
+        [
+          "K83",
+          1
+        ],
+        [
+          "I77",
+          1
+        ],
+        [
+          "R10",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "302. RM DE SEIOS DA FACE ADULTO S/CONTRASTE S/SEDACAO",
+      "code": "0207010021",
+      "stock": 7,
+      "recent": 7,
+      "median": 13.885041435183666,
+      "age": 41,
+      "scheduled": 87,
+      "returned": 18,
+      "cid": [
+        [
+          "J01",
+          1
+        ],
+        [
+          "J32",
+          1
+        ],
+        [
+          "G47",
+          1
+        ],
+        [
+          "G43",
+          1
+        ],
+        [
+          "R52",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ANGIORESSONANCIA DO TORAX",
+      "code": "0207010013",
+      "stock": 5,
+      "recent": 5,
+      "median": 23.959889745368855,
+      "age": 60,
+      "scheduled": 90,
+      "returned": 4,
+      "cid": [
+        [
+          "M31",
+          2
+        ],
+        [
+          "I21",
+          1
+        ],
+        [
+          "Q96",
+          1
+        ],
+        [
+          "I50",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "300. ANGIORESSONANCIA DE VASOS CERVICAIS",
+      "code": "0207010013",
+      "stock": 5,
+      "recent": 5,
+      "median": 30.89985642360989,
+      "age": 60,
+      "scheduled": 176,
+      "returned": 15,
+      "cid": [
+        [
+          "I64",
+          2
+        ],
+        [
+          "M35",
+          1
+        ],
+        [
+          "I71",
+          1
+        ],
+        [
+          "R55",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "015. RM DE ATM (BILATERAL) ADULTO C/CONTRASTE S/SEDACAO",
+      "code": "0207010021",
+      "stock": 4,
+      "recent": 4,
+      "median": 23.83616733796225,
+      "age": 46.5,
+      "scheduled": 21,
+      "returned": 6,
+      "cid": [
+        [
+          "M25",
+          1
+        ],
+        [
+          "K07",
+          1
+        ],
+        [
+          "G50",
+          1
+        ],
+        [
+          "C07",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "294. ANGIORESSONANCIA DE ARTERIAS RENAIS",
+      "code": "0207030014",
+      "stock": 3,
+      "recent": 3,
+      "median": 24.87220003472612,
+      "age": 36,
+      "scheduled": 31,
+      "returned": 6,
+      "cid": [
+        [
+          "I15",
+          2
+        ],
+        [
+          "N19",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE S/ SEDAÇÃO",
+      "code": "0207010064",
+      "stock": 3,
+      "recent": 3,
+      "median": 103.8002715509283,
+      "age": 55,
+      "scheduled": 0,
+      "returned": 17,
+      "cid": [
+        [
+          "H05",
+          1
+        ],
+        [
+          "H57",
+          1
+        ],
+        [
+          "C69",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE MASTOIDES INFANTIL S/ CONTRASTE C/ SEDACAO",
+      "code": "0207010021",
+      "stock": 2,
+      "recent": 2,
+      "median": 28.37414805555818,
+      "age": 0,
+      "scheduled": 19,
+      "returned": 6,
+      "cid": [
+        [
+          "H90",
+          1
+        ],
+        [
+          "H49",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE ORBITAS ADULTO C/CONTRASTE C/SEDAÇÃO",
+      "code": "0207010064",
+      "stock": 2,
+      "recent": 2,
+      "median": 27.004457789353182,
+      "age": 57.5,
+      "scheduled": 7,
+      "returned": 2,
+      "cid": [
+        [
+          "H49",
+          1
+        ],
+        [
+          "G37",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE S/ SEDAÇÃO",
+      "code": "0207010064",
+      "stock": 2,
+      "recent": 2,
+      "median": 103.8196021759286,
+      "age": 23,
+      "scheduled": 0,
+      "returned": 7,
+      "cid": [
+        [
+          "D32",
+          1
+        ],
+        [
+          "L03",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ANGIORESSONANCIA CEREBRAL VENOSA C/ SEDACAO",
+      "code": "0207010013",
+      "stock": 1,
+      "recent": 1,
+      "median": 41.7393446874994,
+      "age": 10,
+      "scheduled": 20,
+      "returned": 20,
+      "cid": [
+        [
+          "D18",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE ORBITAS ADULTO S/CONTRASTE S/ SEDAÇÃO",
+      "code": "0207010064",
+      "stock": 1,
+      "recent": 1,
+      "median": 44.7720384490749,
+      "age": 45,
+      "scheduled": 43,
+      "returned": 1,
+      "cid": [
+        [
+          "D33",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE C/ SEDAÇÃO",
+      "code": "0207010064",
+      "stock": 1,
+      "recent": 0,
+      "median": 1384.9550329050908,
+      "age": 50,
+      "scheduled": 0,
+      "returned": 33,
+      "cid": [
+        [
+          "H57",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE C/ SEDAÇÃO",
+      "code": "0207010064",
+      "stock": 1,
+      "recent": 0,
+      "median": 901.8394341203748,
+      "age": 10,
+      "scheduled": 0,
+      "returned": 10,
+      "cid": [
+        [
+          "H49",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "060. RM DE VIAS BILIARES INFANTIL C/CONTRASTE C/SEDACAO",
+      "code": "0207030049",
+      "stock": 1,
+      "recent": 1,
+      "median": 7.926546122689615,
+      "age": 0,
+      "scheduled": 2,
+      "returned": 5,
+      "cid": [
+        [
+          "K80",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "RM não ortopédica",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RM DE ORBITAS INFANTIL C/CONTRASTE C/ SEDAÇÃO",
+      "code": "0207010064",
+      "stock": 1,
+      "recent": 1,
+      "median": 40.77031388889009,
+      "age": 1,
+      "scheduled": 10,
+      "returned": 0,
+      "cid": [
+        [
+          "Q10",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Cintilografias e PET",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "code": "0208010025",
+      "stock": 1737,
+      "recent": 1737,
+      "median": 355.91404728009365,
+      "age": 66,
+      "scheduled": 365,
+      "returned": 148,
+      "cid": [
+        [
+          "I25",
+          646
+        ],
+        [
+          "I20",
+          540
+        ],
+        [
+          "I50",
+          113
+        ],
+        [
+          "R07",
+          101
+        ],
+        [
+          "N18",
+          69
+        ]
+      ]
+    },
+    {
+      "front": "Cintilografias e PET",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO)",
+      "code": "0208050035",
+      "stock": 1587,
+      "recent": 1587,
+      "median": 124.80815184027597,
+      "age": 61,
+      "scheduled": 1677,
+      "returned": 29,
+      "cid": [
+        [
+          "C50",
+          908
+        ],
+        [
+          "C61",
+          330
+        ],
+        [
+          "M46",
+          42
+        ],
+        [
+          "C34",
+          31
+        ],
+        [
+          "D48",
+          30
+        ]
+      ]
+    },
+    {
+      "front": "Cintilografias e PET",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+      "code": "0208010033",
+      "stock": 1496,
+      "recent": 1496,
+      "median": 369.37751218750054,
+      "age": 66,
+      "scheduled": 347,
+      "returned": 34,
+      "cid": [
+        [
+          "I25",
+          562
+        ],
+        [
+          "I20",
+          449
+        ],
+        [
+          "I50",
+          93
+        ],
+        [
+          "R07",
+          86
+        ],
+        [
+          "I10",
+          47
+        ]
+      ]
+    },
+    {
+      "front": "Cintilografias e PET",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT)",
+      "code": "0206010095",
+      "stock": 379,
+      "recent": 379,
+      "median": 158.7570621296327,
+      "age": 61,
+      "scheduled": 714,
+      "returned": 851,
+      "cid": [
+        [
+          "C85",
+          49
+        ],
+        [
+          "C81",
+          42
+        ],
+        [
+          "C83",
+          41
+        ],
+        [
+          "C34",
+          35
+        ],
+        [
+          "C50",
+          33
+        ]
+      ]
+    },
+    {
+      "front": "Cintilografias e PET",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "CINTILOGRAFIA RENAL DINAMICA (DTPA)",
+      "code": "0208040102",
+      "stock": 234,
+      "recent": 234,
+      "median": 165.4150704398162,
+      "age": 46,
+      "scheduled": 125,
+      "returned": 4,
+      "cid": [
+        [
+          "N13",
+          59
+        ],
+        [
+          "N20",
+          43
+        ],
+        [
+          "N18",
+          34
+        ],
+        [
+          "Q62",
+          28
+        ],
+        [
+          "N39",
+          11
+        ]
+      ]
+    },
+    {
+      "front": "Cintilografias e PET",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "CINTILOGRAFIA RENAL ESTATICA (DMSA)",
+      "code": "0208040056",
+      "stock": 179,
+      "recent": 179,
+      "median": 94.0081960995376,
+      "age": 45,
+      "scheduled": 302,
+      "returned": 15,
+      "cid": [
+        [
+          "N20",
+          44
+        ],
+        [
+          "N13",
+          32
+        ],
+        [
+          "Q62",
+          21
+        ],
+        [
+          "N18",
+          19
+        ],
+        [
+          "N39",
+          18
+        ]
+      ]
+    },
+    {
+      "front": "Cintilografias e PET",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "CINTILOGRAFIA DE PARATIREOIDES",
+      "code": "0208030018",
+      "stock": 152,
+      "recent": 152,
+      "median": 154.8096432696766,
+      "age": 60,
+      "scheduled": 203,
+      "returned": 10,
+      "cid": [
+        [
+          "E21",
+          100
+        ],
+        [
+          "N25",
+          22
+        ],
+        [
+          "N18",
+          13
+        ],
+        [
+          "M35",
+          7
+        ],
+        [
+          "E83",
+          3
+        ]
+      ]
+    },
+    {
+      "front": "Retossigmoidoscopia",
+      "status": "Nova candidata",
+      "kind": "Exame",
+      "name": "RETOSSIGMOIDOSCOPIA FLEXÍVEL",
+      "code": "0209010053",
+      "stock": 387,
+      "recent": 387,
+      "median": 62.01843863425893,
+      "age": 49,
+      "scheduled": 1785,
+      "returned": 261,
+      "cid": [
+        [
+          "I84",
+          115
+        ],
+        [
+          "K62",
+          56
+        ],
+        [
+          "K92",
+          50
+        ],
+        [
+          "K60",
+          38
+        ],
+        [
+          "Z12",
+          33
+        ]
+      ]
+    },
+    {
+      "front": "Escleroterapia não estética",
+      "status": "Nova candidata",
+      "kind": "Tratamento",
+      "name": "TRATAMENTO ESCLEROSANTE NÃO ESTÉTICO DE VARIZES DOS MEMBROS INFERIORES (BILATERAL)",
+      "code": "0309070023",
+      "stock": 467,
+      "recent": 467,
+      "median": 82.03777225694648,
+      "age": 62,
+      "scheduled": null,
+      "returned": 33,
+      "cid": [
+        [
+          "I83",
+          463
+        ],
+        [
+          "I80",
+          2
+        ],
+        [
+          "I89",
+          1
+        ],
+        [
+          "I87",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Exames de córnea e biometria",
+      "status": "Nova candidata",
+      "kind": "Exame",
+      "name": "BIOMETRIA ULTRASSONICA",
+      "code": "0211060011",
+      "stock": 498,
+      "recent": 498,
+      "median": 73.31225067129708,
+      "age": 70,
+      "scheduled": 2018,
+      "returned": 341,
+      "cid": [
+        [
+          "H25",
+          423
+        ],
+        [
+          "H26",
+          37
+        ],
+        [
+          "H52",
+          15
+        ],
+        [
+          "H40",
+          10
+        ],
+        [
+          "H36",
+          2
+        ]
+      ]
+    },
+    {
+      "front": "Exames de córnea e biometria",
+      "status": "Nova candidata",
+      "kind": "Exame",
+      "name": "PAQUIMETRIA ULTRASSONICA",
+      "code": "0205020020",
+      "stock": 144,
+      "recent": 144,
+      "median": 25.95743384837988,
+      "age": 62.5,
+      "scheduled": 2096,
+      "returned": 250,
+      "cid": [
+        [
+          "H40",
+          121
+        ],
+        [
+          "H18",
+          14
+        ],
+        [
+          "H35",
+          2
+        ],
+        [
+          "H25",
+          2
+        ],
+        [
+          "Z01",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Exames de córnea e biometria",
+      "status": "Nova candidata",
+      "kind": "Exame",
+      "name": "MICROSCOPIA ESPECULAR DE CORNEA",
+      "code": "0211060143",
+      "stock": 130,
+      "recent": 130,
+      "median": 18.803957146992616,
+      "age": 69,
+      "scheduled": 1172,
+      "returned": 170,
+      "cid": [
+        [
+          "H25",
+          101
+        ],
+        [
+          "H18",
+          12
+        ],
+        [
+          "H26",
+          9
+        ],
+        [
+          "H40",
+          5
+        ],
+        [
+          "H52",
+          1
+        ]
+      ]
+    },
+    {
+      "front": "Retinografia fluorescente",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "RETINOGRAFIA FLUORESCENTE",
+      "code": "0211060186",
+      "stock": 1030,
+      "recent": 710,
+      "median": 552.7535519097219,
+      "age": 60,
+      "scheduled": 304,
+      "returned": 146,
+      "cid": [
+        [
+          "H35",
+          357
+        ],
+        [
+          "H36",
+          277
+        ],
+        [
+          "H34",
+          127
+        ],
+        [
+          "H40",
+          118
+        ],
+        [
+          "H47",
+          22
+        ]
+      ]
+    },
+    {
+      "front": "Deglutição por vídeo",
+      "status": "Nova candidata",
+      "kind": "Exame",
+      "name": "VIDEOENDOSCOPIA DA DEGLUTICAO  ( VED)",
+      "code": "0209040041",
+      "stock": 221,
+      "recent": 118,
+      "median": 709.7874657118082,
+      "age": 66,
+      "scheduled": 35,
+      "returned": 65,
+      "cid": [
+        [
+          "R13",
+          138
+        ],
+        [
+          "R63",
+          7
+        ],
+        [
+          "K22",
+          7
+        ],
+        [
+          "G12",
+          7
+        ],
+        [
+          "K21",
+          6
+        ]
+      ]
+    },
+    {
+      "front": "Pequena cirurgia: consulta",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM PEQUENA CIRURGIA",
+      "code": "0301010072",
+      "stock": 7726,
+      "recent": 5530,
+      "median": 491.060437390046,
+      "age": 52,
+      "scheduled": 4701,
+      "returned": 1680,
+      "cid": [
+        [
+          "D17",
+          2286
+        ],
+        [
+          "L72",
+          2063
+        ],
+        [
+          "R22",
+          649
+        ],
+        [
+          "L98",
+          371
+        ],
+        [
+          "B07",
+          354
+        ]
+      ]
+    },
+    {
+      "front": "Dermatologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM DERMATOLOGIA - GERAL",
+      "code": "0301010072",
+      "stock": 23369,
+      "recent": 13570,
+      "median": 605.022530000002,
+      "age": 50,
+      "scheduled": 8333,
+      "returned": 5899,
+      "cid": [
+        [
+          "L98",
+          2705
+        ],
+        [
+          "L81",
+          2412
+        ],
+        [
+          "D22",
+          1819
+        ],
+        [
+          "L70",
+          992
+        ],
+        [
+          "L20",
+          915
+        ]
+      ]
+    },
+    {
+      "front": "Neurologia adulta",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM NEUROLOGIA - ADULTO",
+      "code": "0301010072",
+      "stock": 9032,
+      "recent": 6051,
+      "median": 537.6668234143544,
+      "age": 55,
+      "scheduled": 3977,
+      "returned": 9227,
+      "cid": [
+        [
+          "G40",
+          1148
+        ],
+        [
+          "R51",
+          678
+        ],
+        [
+          "I64",
+          602
+        ],
+        [
+          "G43",
+          405
+        ],
+        [
+          "I69",
+          334
+        ]
+      ]
+    },
+    {
+      "front": "Neurologia pediátrica",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM NEUROLOGIA PEDIATRICA",
+      "code": "0301010072",
+      "stock": 6213,
+      "recent": 6140,
+      "median": 321.78981770833707,
+      "age": 8,
+      "scheduled": 2371,
+      "returned": 3743,
+      "cid": [
+        [
+          "F84",
+          1900
+        ],
+        [
+          "F90",
+          1158
+        ],
+        [
+          "F81",
+          349
+        ],
+        [
+          "R56",
+          334
+        ],
+        [
+          "G40",
+          263
+        ]
+      ]
+    },
+    {
+      "front": "Urologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM UROLOGIA - GERAL",
+      "code": "0301010072",
+      "stock": 14487,
+      "recent": 8512,
+      "median": 577.7700983854156,
+      "age": 59,
+      "scheduled": 2900,
+      "returned": 4665,
+      "cid": [
+        [
+          "N40",
+          3571
+        ],
+        [
+          "N47",
+          1344
+        ],
+        [
+          "N20",
+          1066
+        ],
+        [
+          "N48",
+          690
+        ],
+        [
+          "F52",
+          678
+        ]
+      ]
+    },
+    {
+      "front": "Proctologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM PROCTOLOGIA - GERAL",
+      "code": "0301010072",
+      "stock": 8628,
+      "recent": 5096,
+      "median": 584.0600280787039,
+      "age": 51,
+      "scheduled": 4044,
+      "returned": 3569,
+      "cid": [
+        [
+          "I84",
+          3561
+        ],
+        [
+          "K60",
+          669
+        ],
+        [
+          "K62",
+          628
+        ],
+        [
+          "L05",
+          484
+        ],
+        [
+          "K59",
+          419
+        ]
+      ]
+    },
+    {
+      "front": "Reumatologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM REUMATOLOGIA - GERAL",
+      "code": "0301010072",
+      "stock": 12119,
+      "recent": 8769,
+      "median": 396.44863405092474,
+      "age": 54,
+      "scheduled": 2245,
+      "returned": 5713,
+      "cid": [
+        [
+          "M79",
+          4528
+        ],
+        [
+          "M25",
+          1171
+        ],
+        [
+          "M06",
+          966
+        ],
+        [
+          "M05",
+          692
+        ],
+        [
+          "R52",
+          439
+        ]
+      ]
+    },
+    {
+      "front": "Endocrinologia geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM ENDOCRINOLOGIA - GERAL",
+      "code": "0301010072",
+      "stock": 11871,
+      "recent": 9729,
+      "median": 369.91718731481524,
+      "age": 54,
+      "scheduled": 5904,
+      "returned": 9547,
+      "cid": [
+        [
+          "E66",
+          2616
+        ],
+        [
+          "E10",
+          1643
+        ],
+        [
+          "E07",
+          1474
+        ],
+        [
+          "E11",
+          1006
+        ],
+        [
+          "E04",
+          884
+        ]
+      ]
+    },
+    {
+      "front": "Uroginecologia",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM GINECOLOGIA - UROGINECOLOGIA",
+      "code": "0301010072",
+      "stock": 3374,
+      "recent": 1931,
+      "median": 636.0380098148162,
+      "age": 58,
+      "scheduled": 826,
+      "returned": 787,
+      "cid": [
+        [
+          "R32",
+          1825
+        ],
+        [
+          "N81",
+          1116
+        ],
+        [
+          "N39",
+          196
+        ],
+        [
+          "N32",
+          65
+        ],
+        [
+          "R39",
+          16
+        ]
+      ]
+    },
+    {
+      "front": "Reabilitação ortopédica",
+      "status": "Nova candidata",
+      "kind": "Consulta/reabilitação",
+      "name": "CONSULTA EM FISIOTERAPIA/REABILITACAO ORTOPEDICA/REUMATOLOGICA",
+      "code": "0301010048",
+      "stock": 24203,
+      "recent": 15805,
+      "median": 524.971756267365,
+      "age": 57,
+      "scheduled": 8654,
+      "returned": 5362,
+      "cid": [
+        [
+          "M54",
+          6492
+        ],
+        [
+          "M51",
+          3146
+        ],
+        [
+          "M75",
+          2682
+        ],
+        [
+          "M25",
+          1563
+        ],
+        [
+          "M17",
+          1224
+        ]
+      ]
+    },
+    {
+      "front": "Fonoaudiologia: linguagem",
+      "status": "Nova candidata",
+      "kind": "Consulta/reabilitação",
+      "name": "CONSULTA EM FONOAUDIOLOGIA - LINGUAGEM",
+      "code": "0301010048",
+      "stock": 10695,
+      "recent": 7097,
+      "median": 503.01818054398245,
+      "age": 8,
+      "scheduled": 866,
+      "returned": 1304,
+      "cid": [
+        [
+          "F80",
+          5548
+        ],
+        [
+          "F84",
+          1488
+        ],
+        [
+          "F81",
+          871
+        ],
+        [
+          "F90",
+          672
+        ],
+        [
+          "R47",
+          441
+        ]
+      ]
+    },
+    {
+      "front": "Reabilitação intelectual infantil",
+      "status": "Nova candidata",
+      "kind": "Consulta/reabilitação",
+      "name": "CONSULTA EM REABILITACAO INTELECTUAL - INFANTIL",
+      "code": "0301010048",
+      "stock": 15088,
+      "recent": 10269,
+      "median": 552.8921696875041,
+      "age": 7,
+      "scheduled": 740,
+      "returned": 778,
+      "cid": [
+        [
+          "F84",
+          9378
+        ],
+        [
+          "F90",
+          1779
+        ],
+        [
+          "F80",
+          922
+        ],
+        [
+          "F81",
+          754
+        ],
+        [
+          "F91",
+          264
+        ]
+      ]
+    },
+    {
+      "front": "Terapia ocupacional de membros",
+      "status": "Nova candidata",
+      "kind": "Consulta/reabilitação",
+      "name": "CONSULTA EM TERAPIA OCUPACIONAL - ORTOPEDIA MMSS",
+      "code": "0301010048",
+      "stock": 3281,
+      "recent": 1923,
+      "median": 601.0426877893551,
+      "age": 55,
+      "scheduled": 1742,
+      "returned": 511,
+      "cid": [
+        [
+          "M75",
+          893
+        ],
+        [
+          "G56",
+          431
+        ],
+        [
+          "M65",
+          354
+        ],
+        [
+          "S52",
+          244
+        ],
+        [
+          "S62",
+          159
+        ]
+      ]
+    },
+    {
+      "front": "Endodontia: consulta",
+      "status": "Nova candidata",
+      "kind": "Consulta odontológica",
+      "name": "CONSULTA ODONTOLOGIA - ENDODONTIA",
+      "code": "0301010048",
+      "stock": 8266,
+      "recent": 8264,
+      "median": 178.01348714120832,
+      "age": 36,
+      "scheduled": 8023,
+      "returned": 2179,
+      "cid": [
+        [
+          "K04",
+          7648
+        ],
+        [
+          "K02",
+          264
+        ],
+        [
+          "K08",
+          229
+        ],
+        [
+          "Z01",
+          54
+        ],
+        [
+          "K01",
+          20
+        ]
+      ]
+    },
+    {
+      "front": "Prótese dentária: consulta",
+      "status": "Nova candidata",
+      "kind": "Consulta odontológica",
+      "name": "CONSULTA EM ODONTOLOGIA - PROTESE DENTARIA",
+      "code": "0301010048",
+      "stock": 8491,
+      "recent": 4132,
+      "median": 776.0328761342607,
+      "age": 62,
+      "scheduled": 1130,
+      "returned": 691,
+      "cid": [
+        [
+          "K08",
+          5551
+        ],
+        [
+          "Z46",
+          1080
+        ],
+        [
+          "K06",
+          662
+        ],
+        [
+          "K07",
+          281
+        ],
+        [
+          "K05",
+          157
+        ]
+      ]
+    },
+    {
+      "front": "Psiquiatria geral",
+      "status": "Nova candidata",
+      "kind": "Consulta",
+      "name": "CONSULTA EM PSIQUIATRIA - GERAL",
+      "code": "0301010072",
+      "stock": 12143,
+      "recent": 6729,
+      "median": 626.9469614004629,
+      "age": 44,
+      "scheduled": 2205,
+      "returned": 8965,
+      "cid": [
+        [
+          "F41",
+          3231
+        ],
+        [
+          "F32",
+          2256
+        ],
+        [
+          "F31",
+          786
+        ],
+        [
+          "F20",
+          774
+        ],
+        [
+          "F33",
+          714
+        ]
+      ]
+    },
+    {
+      "front": "Risco cirúrgico: consulta",
+      "status": "Complemento a investigar",
+      "kind": "Consulta/OCI",
+      "name": "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+      "code": "0301010072",
+      "stock": 9748,
+      "recent": 8257,
+      "median": 426.83860296875355,
+      "age": 58,
+      "scheduled": 5919,
+      "returned": 4247,
+      "cid": [
+        [
+          "I83",
+          1334
+        ],
+        [
+          "K80",
+          1309
+        ],
+        [
+          "K40",
+          661
+        ],
+        [
+          "N40",
+          400
+        ],
+        [
+          "E66",
+          389
+        ]
+      ]
+    },
+    {
+      "front": "Teste ergométrico",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+      "code": "0211020060",
+      "stock": 3200,
+      "recent": 1701,
+      "median": 645.3877890104159,
+      "age": 57,
+      "scheduled": 5631,
+      "returned": 2197,
+      "cid": [
+        [
+          "I10",
+          844
+        ],
+        [
+          "R07",
+          644
+        ],
+        [
+          "I20",
+          338
+        ],
+        [
+          "I25",
+          211
+        ],
+        [
+          "R00",
+          128
+        ]
+      ]
+    },
+    {
+      "front": "Teste ergométrico",
+      "status": "Complemento a investigar",
+      "kind": "Exame",
+      "name": "ERGOESPIROMETRIA",
+      "code": "0211020060",
+      "stock": 1,
+      "recent": 0,
+      "median": 2427.0011280208346,
+      "age": 49,
+      "scheduled": null,
+      "returned": 0,
+      "cid": [
+        [
+          "J45",
+          1
+        ]
+      ]
+    }
+  ],
+  "tariffs": [
+    {
+      "code": "0201010470",
+      "name": "BIOPSIA DE TIREOIDE OU PARATIREOIDE - PAAF",
+      "base": 23.73,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 233.83,
+      "page": 1,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0201010542",
+      "name": "BIOPSIA PERCUTÂNEA ORIENTADA POR TOMOGRAFIA COMPUTADORIZADA / ULTRASSONOGRAFIA / RESSONÂNCIA MAGNÉTICA / RAIO X",
+      "base": 97.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 221.64,
+      "page": 1,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0204030188",
+      "name": "MAMOGRAFIA BILATERAL PARA RASTREAMENTO",
+      "base": 45.0,
+      "increment": 1.22,
+      "with_increment": 99.9,
+      "candanga": 100.0,
+      "page": 4,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0204060028",
+      "name": "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES E/OU FEMUR)",
+      "base": 55.1,
+      "increment": 3.0,
+      "with_increment": 220.4,
+      "candanga": 220.0,
+      "page": 5,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0205010032",
+      "name": "ECOCARDIOGRAFIA TRANSTORACICA",
+      "base": 67.86,
+      "increment": 1.36,
+      "with_increment": 160.15,
+      "candanga": 214.5,
+      "page": 5,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0205020020",
+      "name": "PAQUIMETRIA ULTRASSÔNICA",
+      "base": 14.81,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 50.41,
+      "page": 5,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0206010095",
+      "name": "TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT)",
+      "base": 2107.22,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 2107.22,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0207010013",
+      "name": "ANGIORESSONANCIA CEREBRAL",
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 500.0,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0207010021",
+      "name": "RESSONANCIA MAGNETICA DE ARTICULACAO TEMPORO-MANDIBULAR (BILATERAL)",
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0207010064",
+      "name": "RESSONANCIA MAGNETICA DE CRANIO",
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0207010072",
+      "name": "RESSONANCIA MAGNETICA DE SELA TURCICA",
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0207020035",
+      "name": "RESSONANCIA MAGNETICA DE TORAX",
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0207030014",
+      "name": "RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR",
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0207030049",
+      "name": "RESSONANCIA MAGNETICA DE VIAS BILIARES/COLANGIORRESSONANCIA",
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0208010025",
+      "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "base": 408.52,
+      "increment": 1.2,
+      "with_increment": 898.74,
+      "candanga": 899.0,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0208010033",
+      "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+      "base": 383.07,
+      "increment": 1.3,
+      "with_increment": 881.06,
+      "candanga": 881.0,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0208030018",
+      "name": "CINTILOGRAFIA DE PARATIREOIDES",
+      "base": 324.54,
+      "increment": 2.0,
+      "with_increment": 973.62,
+      "candanga": 974.0,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0208040056",
+      "name": "CINTILOGRAFIA RENAL/RENOGRAMA (QUALITATIVA E/OU QUANTITATIVA)",
+      "base": 133.03,
+      "increment": 3.0,
+      "with_increment": 532.12,
+      "candanga": 532.0,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0208040102",
+      "name": "ESTUDO RENAL DINAMICO C/ OU S/ DIURETICO",
+      "base": 165.24,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 319.18,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0208050035",
+      "name": "CINTILOGRAFIA DE OSSOS COM OU SEM FLUXO SANGUÍNEO (CORPO INTEIRO)",
+      "base": 190.99,
+      "increment": 3.0,
+      "with_increment": 763.96,
+      "candanga": 764.0,
+      "page": 6,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0209010029",
+      "name": "COLONOSCOPIA (COLOSCOPIA)",
+      "base": 112.66,
+      "increment": 3.0,
+      "with_increment": 450.64,
+      "candanga": 497.84,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0209010037",
+      "name": "ESOFAGOGASTRODUODENOSCOPIA",
+      "base": 48.16,
+      "increment": 6.27,
+      "with_increment": 350.12,
+      "candanga": 335.0,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0209010053",
+      "name": "RETOSSIGMOIDOSCOPIA",
+      "base": 23.13,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 160.52,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0209040041",
+      "name": "VIDEOLARINGOSCOPIA",
+      "base": 45.5,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 196.64,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211020044",
+      "name": "MONITORAMENTO PELO SISTEMA HOLTER 24 HS (3 CANAIS)",
+      "base": 30.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 82.64,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211020052",
+      "name": "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL (M.A.P.A)",
+      "base": 10.07,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 85.89,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211020060",
+      "name": "TESTE DE ESFORCO / TESTE ERGOMETRICO",
+      "base": 30.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 80.0,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211040029",
+      "name": "COLPOSCOPIA",
+      "base": 3.38,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 28.35,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211050024",
+      "name": "ELETROENCEFALOGRAFIA EM VIGILIA C/ OU S/ FOTO-ESTIMULO",
+      "base": 11.34,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 600.0,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211050040",
+      "name": "ELETROENCEFALOGRAMA EM VIGILIA E SONO ESPONTANEO C/ OU S/ FOTOESTIMULO (EEG)",
+      "base": 25.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 147.38,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211050083",
+      "name": "ELETRONEUROMIOGRAMA (ENMG)",
+      "base": 27.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 348.93,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211050105",
+      "name": "POLISSONOGRAFIA",
+      "base": 125.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 819.01,
+      "page": 7,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211050113",
+      "name": "POTENCIAL EVOCADO AUDITIVO",
+      "base": 4.06,
+      "increment": null,
+      "with_increment": null,
+      "candanga": null,
+      "page": null,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211060011",
+      "name": "BIOMETRIA ULTRASSÔNICA (MONOCULAR)",
+      "base": 24.24,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 48.4,
+      "page": 8,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211060038",
+      "name": "CAMPIMETRIA COMPUTADORIZADA OU MANUAL COM GRÁFICO",
+      "base": 40.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 94.18,
+      "page": 8,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211060143",
+      "name": "MICROSCOPIA ESPECULAR DE CORNEA",
+      "base": 24.24,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 48.48,
+      "page": 8,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211060186",
+      "name": "RETINOGRAFIA FLUORESCENTE BINOCULAR",
+      "base": 64.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 100.56,
+      "page": 8,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211060283",
+      "name": "TOMOGRAFIA DE COERÊNCIA ÓPTICA",
+      "base": 48.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": null,
+      "page": null,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211070033",
+      "name": "AUDIOMETRIA EM CAMPO LIVRE",
+      "base": 20.13,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 34.73,
+      "page": 8,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211070343",
+      "name": "TESTES DE PROCESSAMENTO AUDITIVO",
+      "base": 9.36,
+      "increment": null,
+      "with_increment": null,
+      "candanga": null,
+      "page": null,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211070351",
+      "name": "TESTES VESTIBULARES / OTONEUROLOGICOS",
+      "base": 12.12,
+      "increment": null,
+      "with_increment": null,
+      "candanga": null,
+      "page": null,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0211080055",
+      "name": "ESPIROMETRIA OU PROVA DE FUNCAO PULMONAR COMPLETA COM BRONCODILATADOR",
+      "base": 6.36,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 18.25,
+      "page": 8,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    },
+    {
+      "code": "0301010048",
+      "name": "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA (EXCETO MÉDICO)",
+      "base": 6.3,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 30.0,
+      "page": 8,
+      "warning": "Preço de consulta não é preço do percurso, tratamento ou OCI"
+    },
+    {
+      "code": "0301010072",
+      "name": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+      "base": 10.0,
+      "increment": null,
+      "with_increment": null,
+      "candanga": 100.0,
+      "page": 8,
+      "warning": "Preço de consulta não é preço do percurso, tratamento ou OCI"
+    },
+    {
+      "code": "0309070023",
+      "name": "TRATAMENTO ESCLEROSANTE NÃO ESTÉTICO DE VARIZES DOS MEMBROS INFERIORES (BILATERAL)",
+      "base": 392.62,
+      "increment": null,
+      "with_increment": null,
+      "candanga": null,
+      "page": null,
+      "warning": "Nome local exige validação; código não padroniza custo de todos os protocolos"
+    }
+  ],
+  "oci": {
+    "0904010015": {
+      "codigo": "09.04.01.001-5",
+      "nome": "OCI AVALIAÇÃO INICIAL DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 100.0,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "H60",
+        "H61",
+        "H62",
+        "H65",
+        "H66",
+        "H67",
+        "H68",
+        "H69",
+        "H70",
+        "H71",
+        "H72",
+        "H73",
+        "H74",
+        "H75",
+        "H80",
+        "H81",
+        "H82",
+        "H83",
+        "H90",
+        "H91",
+        "H92",
+        "H93",
+        "H94",
+        "H95"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.11.07.004-1",
+          "nome": "AUDIOMETRIA TONAL LIMIAR (VIA AEREA / OSSEA)",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.020-3",
+          "nome": "IMITANCIOMETRIA",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    },
+    "0904010023": {
+      "codigo": "09.04.01.002-3",
+      "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 471.57,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "H60",
+        "H61",
+        "H62",
+        "H65",
+        "H66",
+        "H67",
+        "H68",
+        "H69",
+        "H70",
+        "H71",
+        "H72",
+        "H73",
+        "H74",
+        "H75",
+        "H80",
+        "H81",
+        "H82",
+        "H83",
+        "H90",
+        "H91",
+        "H92",
+        "H93",
+        "H94",
+        "H95"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.11.05.011-3",
+          "nome": "POTENCIAL EVOCADO AUDITIVO",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.004-1",
+          "nome": "AUDIOMETRIA TONAL LIMIAR (VIA AEREA / OSSEA)",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.020-3",
+          "nome": "IMITANCIOMETRIA",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.026-2",
+          "nome": "POTENCIAL EVOCADO AUDITIVO DE CURTA MEDIA E LONGA LATENCIA",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    },
+    "0904010031": {
+      "codigo": "09.04.01.003-1",
+      "nome": "OCI AVALIAÇÃO DIAGNÓSTICA DE NASOFARINGE E DE OROFARINGE",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 393.55,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "J30",
+        "J31",
+        "J32",
+        "J33",
+        "J34",
+        "J35",
+        "J36",
+        "J37",
+        "J38",
+        "J39"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.09.04.002-5",
+          "nome": "LARINGOSCOPIA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.09.04.004-1",
+          "nome": "VIDEOLARINGOSCOPIA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    }
+  },
+  "oci_candanga": {
+    "0904010015": 127.8,
+    "0904010023": 191.71,
+    "0904010031": 255.61
+  },
+  "sources": [
+    [
+      "S1",
+      "Filas",
+      "Mapa Social preservado 02/11/2026 10:31:47; solicitações até 28/10. Agendados 12m = 28/10/2025–27/10/2026.",
+      "https://paineis-ext.mpdft.mp.br/extensions/mapasauderegulamentacao/mapasauderegulamentacao.html"
+    ],
+    [
+      "S2",
+      "SIGTAP",
+      "Pacote oficial 10/2026 e incremento habilitação 38.01. Não é competência 11/2026.",
+      "ftp://ftp2.datasus.gov.br/pub/sistemas/tup/downloads/"
+    ],
+    [
+      "S3",
+      "Candanga",
+      "Anexo oficial SIA preservado no acervo. Referência não automaticamente aplicável à emenda federal.",
+      "https://www.sinj.df.gov.br/sinj/TextoArquivoDiario.aspx?id_file=b1ab0081-31d9-3075-89ba-381ea030182a"
+    ],
+    [
+      "S4",
+      "OCI otorrino",
+      "Portaria SAES4795 e pacote SIGTAP: laringoscopia ou videolaringoscopia exigida no atributo072.",
+      "https://www.in.gov.br/web/dou/-/portaria-saes/ms-n-4.795-de-26-de-agosto-de-2026-729109381"
+    ],
+    [
+      "S5",
+      "Registro OCI",
+      "Percurso integrado e registro da produção. Não somar componentes avulsos ao valor da OCI.",
+      "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/guias-e-manuais/2024/manual-pmae-registro-da-producao-controle-e-avaliacao.pdf"
+    ],
+    [
+      "S6",
+      "Sobreposição",
+      "Planos aprovados do acervo: IEV auditiva, cardiologia, ortopedia, GIN1 e próstata; ISHP oftalmologia. Quantidade contratada não é realizada.",
+      "Estudo preservado estudo_outros_planos_imagem_20261102.md; revisão das compatibilidades no pacote oficial"
+    ],
+    [
+      "S7",
+      "Escleroterapia SES",
+      "Nota técnica 08/2021, fluxo de tratamento não estético. Confirmar vigência e aplicação local antes de contratar.",
+      "https://saude.df.gov.br/documents/37101/0/Nota%2BT%C3%A9cnica%2Bn%C2%BA%2B08-2021-Tratamento_esclerosante_nao_estetico_de_varizes_de_membros_inferiores.pdf/c10080f5-1e95-dc69-e25a-daa8ed86ad4f?t=1708799657121"
+    ],
+    [
+      "S8",
+      "Retossigmoidoscopia",
+      "POP hospitalar de outra rede. Referência de organização e preparo, não regra única DF ou cotação.",
+      "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/regiao-nordeste/hulw-ufpb/acesso-a-informacao/gestao-documental/nova-gestao-documental-2024/gas-gerencia-de-atencao-a-saude/dmed-divisao-medica/stesp-setor-de-cuidados-especializados-1/usd-unidade-do-sistema-digestivo/pop-procedimento-operacional-padrao/pop-usd-cecae-008-preparo-para-exame-de-retossigmoidoscopia.pdf/%40%40download/file"
+    ],
+    [
+      "S9",
+      "Endoscopia e colonoscopia",
+      "Oferta privada local publicada; capacidade e preço não confirmados.",
+      "https://clinicagastrocentro.com.br/"
+    ],
+    [
+      "S10",
+      "Sono",
+      "Oferta privada publicada de polissonografia; modalidades precisam ser discriminadas.",
+      "https://www.medsono.com.br/"
+    ],
+    [
+      "S11",
+      "ENMG",
+      "Oferta privada publicada de exame de membros; não define produtividade de outros serviços.",
+      "https://inneb.com.br/exame-eletroneuromiografia/"
+    ],
+    [
+      "S12",
+      "Oftalmologia",
+      "Oferta privada publicada de OCT, campimetria e outros exames; não comprova contratação SES.",
+      "https://www.hobr.com.br/servicos/exames"
+    ]
+  ],
+  "source_dates": {
+    "inicio": {
+      "recarga_utc": "2026-11-02T13:31:47.865Z",
+      "consulta": "02/11/2026 12:19:50",
+      "solicitacao_max": "28/10/2026",
+      "agendamento_max": "04/02/2027",
+      "recarga_brasilia": "02/11/2026 10:31:47"
+    },
+    "fim": {
+      "recarga_utc": "2026-11-02T13:31:47.865Z",
+      "consulta": "02/11/2026 12:20:03",
+      "solicitacao_max": "28/10/2026",
+      "agendamento_max": "04/02/2027",
+      "recarga_brasilia": "02/11/2026 10:31:47"
+    }
+  },
+  "snapshot": "02/11/2026",
+  "analysis_date": "04/11/2026"
+}

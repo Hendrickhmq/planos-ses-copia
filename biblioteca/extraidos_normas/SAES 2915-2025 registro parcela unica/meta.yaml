@@ -1,0 +1,10 @@
+id: "SAES 2915-2025 registro parcela unica"
+arquivo: "SAES 2915-2025 registro parcela unica.html"
+sha256: "b806a9c0d6bd259083577f66be6e7b050e897adfabd92c94094aca68997fa9f2"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 2602
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

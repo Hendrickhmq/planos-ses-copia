@@ -1,0 +1,22 @@
+# redacao_09 — projeto MROSC de saúde mental infantojuvenil (COMPP e Adolescentro)
+# Aberto em 28/10/2026. Fase: estruturação e entendimento (usuário, 28/10/2026: "ainda
+# estamos em fase de estruturação e entendimento"). Ainda não é pré-plano nem plano.
+# O plano da conversa: estudo de estruturação com base em planos aprovados.
+
+fase: estruturacao
+trilha: a_definir                     # o padrão ainda não tem trilha MROSC (PLANEJADO.md, item 10)
+instrumento:
+  tipo: termo_de_fomento              # MROSC, Lei 13.019/2014; Portaria SES-DF 187/2026
+  base_tecnica: "Nota Técnica SEI-GDF nº 1/2018 - SES/SAIS/COASIS/DISSAM, 13/12/2018 (recebidos/)"
+recurso:
+  origem: federal                     # usuário, 28/10/2026
+  funcional: a_confirmar              # premissa: PAP (2E89), nunca MAC — usuário vai verificar
+  valor: a_informar
+proponente: a_informar                # OSC já definida pelo usuário; nome a informar
+objeto:
+  frentes:
+    - "promoção e cuidado: grupos psicoeducativos com crianças, adolescentes e famílias, ações em escolas e na comunidade"
+    - "qualificação do encaminhamento: APS e escolas aplicando os critérios da NT 1/2018"
+  fora: "consulta e tratamento clínico (Decisão TCDF 2426/2026, CT-008; LI-026)"
+  publico: "só o perfil moderado (COMPP e Adolescentro); casos graves, perfil CAPSi e CAPS AD, ficam fora (usuário, 28/10/2026)"
+  destino: "COMPP (até 11 anos) e Adolescentro (12 a 17 anos), transtornos moderados, acesso regulado"

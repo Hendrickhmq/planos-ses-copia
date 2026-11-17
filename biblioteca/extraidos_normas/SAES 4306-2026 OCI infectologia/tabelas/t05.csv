@@ -1,0 +1,25 @@
+Procedimento,09.08.01.005-2 OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE SÍNDROME MUCOCUTÂNEA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS VIVENDO COM HIV/AIDS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA; TELECONSULTA MÉDICA EM ATENÇÃO ESPECIALIZADA; BIÓPSIA DE PELE E PARTES MOLES; EXAME ANATOMO-PATOLÓGICO PARA CONGELAMENTO / PARAFINA POR"
+,PEÇA CIRÚRGICA OU POR BIOPSIA (EXCETO COLO UTERINO E MAMA); EXAME MICOLÓGICO DIRETO; CULTURA PARA IDENTIFICAÇÃO MORFOLÓGICA DE FUNGOS; BACILOSCOPIA DIRETA PARA BAAR TUBERCULOSE (DIAGNÓSTICA); CULTURA SÓLIDA PARA MICOBACTÉRIAS; TESTE DE SENSIBILIDADE EM MEIO SÓLIDO PARA OS FÁRMACOS CONTRA MICOBACTÉRIAS; PESQUISA DE ANTICORPOS CONTRAPARACOCCIDIOIDES BRASILIENSIS.
+Instrumento de registro,APAC (Proc. Principal)
+Modalidade de atendimento,Ambulatorial
+Complexidade:,Média Complexidade
+Tipo de Financiamento,04-Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de Financiamento,040086-Programa Agora Tem Especialistas -Componente Ambulatorial
+Sexo,Ambos
+Idade Mínima,0 meses
+Idade Máxima,130 anos
+Valor do Serviço Ambulatorial,"R$ 283,34"
+Total do Serviço Ambulatorial,"R$ 283,34"
+CID-10 principal:,B20: Doença pelo vírus da imunodeficiência humana [HIV] resultando em doenças infecciosas e parasitárias.B21: Doença pelo HIV resultando em neoplasias malignas.B22: Doença pelo HIV resultando em outras doenças especificadas.
+,"B23: Doença pelo HIV resultando em outras condições, incluindo infecção aguda (B23.0) e linfadenopatias (B23.1).B24: Doença pelo vírus da imunodeficiência humana [HIV] não especificada, comumente usada para casos de AIDS/Sida.Z21: Estado de infecção assintomática pelo HIV"
+CID-10 secundário:,B00.1 - Dermatite vesicular por herpes simplesB00.2 - Estomatite gengivoestomatite herpéticaB37.0 - Candidíase oralB37.8 - Outras formas de candidíase
+,B25.9 - Doença por CMV não especificadaC46.0 - Sarcoma de Kaposi da peleC46.1 - Sarcoma de Kaposi de partes molesC46.3 - Sarcoma de Kaposi de linfonodos
+,C46.9 - Sarcoma de Kaposi não especificadoB42.0 - Esporotricose cutâneaB39.4 - Histoplasmose disseminadaB40.3 - Blastomicose cutâneaB38.3 - Coccidioidomicose cutânea
+,B41.7 - Paracoccidioidomicose disseminadaB41.8 - Outras formas de paracoccidioidomicoseK13.3 - Leucoplasia pilosa oralB21.7 - Doença pelo HIV resultando em múltiplas neoplasias malignasC83.7 - Linfoma de Burkitt.
+,"C44.9 - Neoplasia maligna da pele não especificada.C21.0 - Neoplasia maligna do ânus, não especificada.C21.1 - Neoplasia maligna do canal anal.C21.8 - Neoplasia maligna com lesão invasiva do reto, ânus e canal anal.C44.5 - Neoplasia maligna da pele do tronco (neoplasia maligna da margem do ânus; ou da pele do ânus; mama; perianal"
+Categoria CBO,2251 - Médicos Clínicos2252 - Médicos em especialidades cirúrgicas2253 - Médicos em medicina diagnóstica e terapêutica
+Quantidade Máxima,1
+Atributo Complementar,043 - Exige registro de CID de causas associadas058- Obrigatório CPF053 - Programa Mais Acesso a Especialistas (PMAE)059- Componente Complementar - Modalidade 2068- Exige procedimentos específicos dos subgrupos 02.03 e/ou 02.02
+Regra condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC0013-GERA COMPENSAÇÃO FINANCEIRA0014-CONDICIONA O TIPO DE FINANCIAMENTO EM MAC0015-CONDICIONA O TIPO DE FINANCIAMENTO EM FAEC
+Habilitação,38.01 Programa Mais Acesso a Especialistas38.02 Agora Tem Especialistas Modalidade 138.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes38.05 Agora Tem Especialistas - Componente Créditos Financeiros38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS

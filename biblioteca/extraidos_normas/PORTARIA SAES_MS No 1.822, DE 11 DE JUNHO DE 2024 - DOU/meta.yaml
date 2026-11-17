@@ -1,0 +1,29 @@
+id: "PORTARIA SAES_MS No 1.822, DE 11 DE JUNHO DE 2024 - DOU"
+arquivo: "PORTARIA SAES_MS No 1.822, DE 11 DE JUNHO DE 2024 - DOU.pdf"
+processo_sei: ""
+sha256: "0dfb9fd8b9c8a71906d57dbff6eee91b8e8b8267ee3adb757711079811af22e2"
+paginas: 12
+chars_texto: 31986
+tabelas_total: 7
+tabelas_por_pagina:
+  pagina_6: 1
+  pagina_8: 1
+  pagina_9: 1
+  pagina_10: 2
+  pagina_11: 1
+  pagina_12: 1
+prosa_reclassificada_total: 10
+prosa_reclassificada_por_pagina:
+  pagina_2: 1
+  pagina_3: 2
+  pagina_4: 1
+  pagina_5: 2
+  pagina_6: 2
+  pagina_7: 1
+  pagina_8: 1
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:36:08"

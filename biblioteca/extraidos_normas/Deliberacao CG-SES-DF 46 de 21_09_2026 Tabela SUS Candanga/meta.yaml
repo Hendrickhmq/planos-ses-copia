@@ -1,0 +1,10 @@
+id: "Deliberacao CG-SES-DF 46 de 21_09_2026 Tabela SUS Candanga"
+arquivo: "Deliberacao CG-SES-DF 46 de 21_09_2026 Tabela SUS Candanga.html"
+sha256: "63aeed39a3487c095cc67c83e145a2a78df742cb7197fb1ea253f84101940d3c"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 12612
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-10-09T13:56:25"

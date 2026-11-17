@@ -1,0 +1,10 @@
+id: "SAES 1824-2024 OCI oncologia"
+arquivo: "SAES 1824-2024 OCI oncologia.html"
+sha256: "d677fe762291843f5e4d12c856b01d70c6864585e75f26bb1efc35cb0fc06322"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 5921
+tabelas_total: 10
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

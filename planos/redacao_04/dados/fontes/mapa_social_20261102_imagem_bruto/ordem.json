@@ -1,0 +1,19 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "panorama",
+ "plano": "planos/redacao_04",
+ "pedido": "Estudo das filas de imagem para decidir o plano 4: inventário de todas as filas de imagem, inclusive as pequenas e antigas, com estoque, pessoas, devolvidas, fila viva, espera e agendadas, e o rumo de cada código (entrantes, oferta com realizados e faltas, situação).",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": ["regiao", "ano"],
+ "minimo": 1,
+ "universo": [
+  {"rotulo": "radiologia", "codigos": ["02.04*"]},
+  {"rotulo": "ultrassonografia", "codigos": ["02.05*"]},
+  {"rotulo": "tomografia", "codigos": ["02.06*"]},
+  {"rotulo": "ressonância magnética", "codigos": ["02.07*"]},
+  {"rotulo": "medicina nuclear", "codigos": ["02.08*"]},
+  {"rotulo": "radiologia intervencionista", "codigos": ["02.10*"]}
+ ],
+ "por_codigo": ["entrantes", "oferta", "situacao"]
+}

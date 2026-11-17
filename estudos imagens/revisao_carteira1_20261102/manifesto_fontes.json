@@ -1,0 +1,322 @@
+[
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_outros_planos_imagem_20261102.xlsx",
+    "copia": "versao_anterior/estudo_outros_planos_imagem_20261102.xlsx",
+    "sha256": "182fe6d1275d0c54604103fa28b7f49893f1251a3cc7c097e6250dcf0bb73909"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_filas_imagem_20261102.xlsx",
+    "copia": "versao_anterior/estudo_filas_imagem_20261102.xlsx",
+    "sha256": "b23137460bffb9462e97ab7d0cf3b316aeb23238f8341f841140a7502b124c7d"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_outros_planos_imagem_20261102.md",
+    "copia": "versao_anterior/estudo_outros_planos_imagem_20261102.md",
+    "sha256": "f865071e5228084f209f1068b749e46e68011a77666befa57d2226a27a51a19d"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_filas_imagem_20261102_organizada.xlsx",
+    "copia": "versao_anterior/estudo_filas_imagem_20261102_organizada.xlsx",
+    "sha256": "d1bbc374dda7f38db082a0491e9f6ff6f987d61f84fd8df3f783575c8236304a"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_filas_imagem_20261102.md",
+    "copia": "versao_anterior/estudo_filas_imagem_20261102.md",
+    "sha256": "361e4ca8373ed97a30c82b0abd7e7c3243a8c4f2fe0ad3366cbdc015134d9d15"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_filas_imagem_20261102.json",
+    "copia": "versao_anterior/estudo_filas_imagem_20261102.json",
+    "sha256": "541476b00013289c90120b522a6986ace8ffb7fb7c535c9d02b25693080873f8"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_filas_imagem_20261102.py",
+    "copia": "versao_anterior/estudo_filas_imagem_20261102.py",
+    "sha256": "de2cc2fa476df0d7bbe2af4970e7837fa5e7053ec2097301e48e7b05e2a336c3"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_outros_planos_imagem_20261102.json",
+    "copia": "versao_anterior/estudo_outros_planos_imagem_20261102.json",
+    "sha256": "c3dcc88593ffffe0e5010b90f06427fbf05fa367338d66bbb5f83bc77c95b332"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_outros_planos_imagem_20261102.py",
+    "copia": "versao_anterior/estudo_outros_planos_imagem_20261102.py",
+    "sha256": "8614b0bc4ea8b0a0c84ba0a144c1ac287c17da640aeac3488ecc521074b95289"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/formatar_estudo_filas_imagem_20261102.py",
+    "copia": "versao_anterior/formatar_estudo_filas_imagem_20261102.py",
+    "sha256": "c9f7cc08be8a410e280dcbf997f37c6356a28bf3de17ab71b635c5a386be1054"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/README.md",
+    "copia": "fontes_preservadas/estudos/README.md",
+    "sha256": "888a2337d84f88866db1f577e4b0820da95e5db0e71a9083bcf14c1a147b7f36"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/estudo_polos_rede_capacidade_20261020.md",
+    "copia": "fontes_preservadas/estudos/estudo_polos_rede_capacidade_20261020.md",
+    "sha256": "2265d4f6eca960d31f8f4067ef2ccd524ec4229e6fc57918c2bf77d86c162792"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/estudos/salas_ultrassom_metricas_20261020.xlsx",
+    "copia": "fontes_preservadas/estudos/salas_ultrassom_metricas_20261020.xlsx",
+    "sha256": "75e0c9d50372f233f4daddaf2282054050a300284c5df5fdb18abd0db82606f0"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/calculo_v19/calculo.py",
+    "copia": "fontes_preservadas/calculo_v19/calculo.py",
+    "sha256": "7b1aec25520e7e1d5e491492c41aa9c8cdc5db2ccf8474138191e08f34a93666"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/calculo_v24/polos_capacidade.py",
+    "copia": "fontes_preservadas/calculo_v24/polos_capacidade.py",
+    "sha256": "4b89f0a18f79fa2f98ccc7cab2fa216ac8bdea18f4cccc2fff1b03de4ac4263a"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/calculo_v24/polos_capacidade.json",
+    "copia": "fontes_preservadas/calculo_v24/polos_capacidade.json",
+    "sha256": "ad2c294a1841fa9bc17a16976ecfd6060f4126527d91516c6ab35d3005a2dd11"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_gin1_bruto/motor_parte_1.txt",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_gin1_bruto/motor_parte_1.txt",
+    "sha256": "b5364375bf7cdd635b1b731405351fa4998b223b7209f5870c71a364814920a6"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_gin1_bruto/motor_20261102.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_gin1_bruto/motor_20261102.json",
+    "sha256": "c22e58bff9e18632059519cbeb9fa10e308bb0ebf2bf4ab3a66b8947f2d4fd43"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_gin1_bruto/README.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_gin1_bruto/README.md",
+    "sha256": "63cf9e4a171e4c38bf33e682092d740c2712baa8f3635d7fc96ab947aceb3268"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_gin1_bruto/ordem.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_gin1_bruto/ordem.json",
+    "sha256": "1d867aab5a14715f38ef95d6cc4a2d4757261728337b9ac660eaa764e160c12e"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_gin1_bruto/montagem.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_gin1_bruto/montagem.json",
+    "sha256": "f245f1fac0d1e7d27cc98370f55b7f5fd2cf1832d974cd9a49923be1a4fa59fa"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_gin1_bruto/coleta_20261102.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_gin1_bruto/coleta_20261102.json",
+    "sha256": "4c22cdffb05bd488abd98c4de16160eea63b914e8d9770a25cac9ae623d24757"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_b.xlsx",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_b.xlsx",
+    "sha256": "ba293f7c66a6a0fc59b9fcfaf40b7a659adc5a80182a1157d06d79a64b4fa97a"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_gin1.xlsx",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_gin1.xlsx",
+    "sha256": "42cd9f615d17948eee1e7766e8cab0acfe1301ec6f73e65b51c76cece6bd82cd"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem.xlsx",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem.xlsx",
+    "sha256": "17f11eee5fc66568d6cedb7f52f107a12e27196026b2c7ea4378676693468528"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante.xlsx",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante.xlsx",
+    "sha256": "b8e655e014c2fc9be42a305cd505c113759f6d4202b3bc9d0bc2399239cc1464"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante.md",
+    "sha256": "118d29416708e7e1936c98bea62a1ec8d10816ca1d072d44654f159226c82cef"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_b.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_b.md",
+    "sha256": "a5668b76f34999eeb39935674e56b68f08a4aed6b3d174137217e71b71eb7559"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem_bruto/motor_parte_1.txt",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem_bruto/motor_parte_1.txt",
+    "sha256": "3a7737d86b0e49ef50b41606f1b81a1d5e16eac919178027a41acf0ee3a8898f"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem_bruto/motor_parte_2.txt",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem_bruto/motor_parte_2.txt",
+    "sha256": "3163b5f0c8fdd7249fdd5f610defb0158c13777d624b8d2cb2fab75d0d71139a"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem_bruto/motor_20261102.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem_bruto/motor_20261102.json",
+    "sha256": "937e5837331d3f1ffb918e2474a3a1f09a763360b166d3cea6a16024b6127679"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem_bruto/README.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem_bruto/README.md",
+    "sha256": "ed05b200aa1871db99e3d3a89fd8614ed4ea9f39f46c19b655e2b57492275962"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem_bruto/ordem.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem_bruto/ordem.json",
+    "sha256": "f87996757d291c15170b93dfe173530f100c9eabb7b29b4a4e432eda3dc5baa1"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem_bruto/montagem.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem_bruto/montagem.json",
+    "sha256": "023a5c92fb3012d4d5b590c298b8dfd2bc0d627f88995c05184f090dd8727665"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem_bruto/coleta_20261102.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem_bruto/coleta_20261102.json",
+    "sha256": "02df8b28f221791e85aae90e96dcdfd2e48a121b5eeeee296951d40bdccf723c"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_gin1.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_gin1.md",
+    "sha256": "38363c878d0b2ef27f52583f6bfb24b6ad4d01727fa8c2f1cd54e14741311c7d"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_bruto/motor_parte_1.txt",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_bruto/motor_parte_1.txt",
+    "sha256": "7787c19f9e64d90b7eb7d3419564d5d06131c9e49edac44d5ae3b4cdd9fab456"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_bruto/motor_20261102.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_bruto/motor_20261102.json",
+    "sha256": "b329c95e7c1bc00dac1596bd43bdeaa584eb4e58e38dbb80add3eb5517356a2f"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_bruto/README.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_bruto/README.md",
+    "sha256": "4f456cd4f2080cb5d33c024ba5744201eb447678d3f879ac6b5ea3eacd14a814"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_bruto/ordem.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_bruto/ordem.json",
+    "sha256": "28f23c2e50707ed08d99411f6257a70e8283a859813a3208a04550cd5b591c5b"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_bruto/montagem.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_bruto/montagem.json",
+    "sha256": "0514702b0b8ec9e58610697801974a4b86a01724c74da99d68d6a0327fc20a02"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_bruto/coleta_20261102.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_bruto/coleta_20261102.json",
+    "sha256": "f8e4d39dd3758453ad83ec2bf7505f443942984828150a6a823724f3ce2950ff"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_imagem.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_imagem.md",
+    "sha256": "ae586363d427c50c8e820f742ce9410730d554746a103237c9df3bf016e05748"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_b_bruto/motor_parte_1.txt",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_b_bruto/motor_parte_1.txt",
+    "sha256": "5b54196da4407ce5e855344b8689af9775a66feeba8bdc5ca3de0b2ad2f5dcca"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_b_bruto/motor_20261102.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_b_bruto/motor_20261102.json",
+    "sha256": "fb2fd34c41807af32d628872073c1890b48858154b1c2ccce26e47f5374601de"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_b_bruto/README.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_b_bruto/README.md",
+    "sha256": "f85d156c6f08b2ff23e03901fb028cf3daba03b822f2205289b711aa9a3b42e8"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_b_bruto/ordem.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_b_bruto/ordem.json",
+    "sha256": "b311be9c547a3784ae77d9e07a4d11aab98908b541ffde1ef557542655f16a53"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_b_bruto/montagem.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_b_bruto/montagem.json",
+    "sha256": "a381dea5f20fcb117a9c23f7cc3f24bc4d68d6697b5c40d3a0209b63dbda143d"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261102_executante_b_bruto/coleta_20261102.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261102_executante_b_bruto/coleta_20261102.json",
+    "sha256": "5ee7520b270647dcc8c315b4217aa6262d7860215621118c74a8c87d1850fd86"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/coleta_20261005.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/coleta_20261005.json",
+    "sha256": "d6774145c61b59d331f5b9abeb6541e40b59b076f7278fc11e1d656ed1b06573"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/entrantes_20261005.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/entrantes_20261005.json",
+    "sha256": "1e233e2255510b7db6895a5ca5ea913a3a4cace2a23515d7e20071485f555358"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/entr.py",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/entr.py",
+    "sha256": "c5b4d18ae51d1727b945d09503a114cef400ece8c92052e6da4f5e64a7609ed2"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/rateio_out.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/rateio_out.json",
+    "sha256": "e9ff379e32a3a2745917b2c95d191ea90cb047a56118407a110aef94b1feb40b"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/entr_rows.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/entr_rows.json",
+    "sha256": "d1e260964b461fc327a39baa8e063b11fa9444fccddb0d61680b363d073a9486"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/dev.json",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/dev.json",
+    "sha256": "47f900db546a62ad89f6c4205622a3fab0cf381f1ede9ad39bf05b528a84b067"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/README.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/README.md",
+    "sha256": "274b88b3bd0e36047c2bbae4c6cc5c52e3f9042fe608ec76675f07bfb8363a0f"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/xlsx.py",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/xlsx.py",
+    "sha256": "359d60fb0b9a3d7a627e64d02c58b42c9e970769e71a7d91092508947729b5e8"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/dev.py",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/dev.py",
+    "sha256": "1b5b8a48996a0d13dcd182b43bcd482479eef25ca17064e9bbd7664d08b39d7a"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/xlsx2.py",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/xlsx2.py",
+    "sha256": "08fd50f7af21ef0c3b4368c7082808bcf28304d25dbf00fdf8d6c2e5a78e8f62"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005_bruto/rateio.py",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005_bruto/rateio.py",
+    "sha256": "43c38013355121afa8eca89d03905c2f758b8b8cef910f607f0840e3ccd37ed5"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005.md",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005.md",
+    "sha256": "ce166529e327c6302e113194ecc2624a3a433a0c4a946ef01e40e92bb4ca86d1"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/mapa_social_20261005.xlsx",
+    "copia": "fontes_preservadas/dados/fontes/mapa_social_20261005.xlsx",
+    "sha256": "032213628b50bbd528d4cfcd8759f352a5569b5a277a6a28458599c9eaea5df3"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/fontes/sigtap_0205010040_102026.md",
+    "copia": "fontes_preservadas/dados/fontes/sigtap_0205010040_102026.md",
+    "sha256": "e45e2d524d7e9a18fc4574243f0fb583d9f8415efdbf2ecce6ddecddcf23d4c1"
+  },
+  {
+    "origem": "/Users/hendrick/Projetos/planos-ses/planos/redacao_04/dados/conferencia_procedimentos.md",
+    "copia": "fontes_preservadas/dados/conferencia_procedimentos.md",
+    "sha256": "47ccb91c55f2ce63b838aa6c8211e47ed224ba21faf1166946a4b4c4ce581a83"
+  }
+]

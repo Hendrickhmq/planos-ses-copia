@@ -1,0 +1,25 @@
+Procedimento,09.08.01.008-7 OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SÍNDROME CONSUMPTIVA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS VIVENDO COM HIV/AIDS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA; TELECONSULTA MÉDICA NA ATENÇÃO ESPECIALIZADA; BIÓPSIA DE MEDULA ÓSSEA; MIELOGRAMA; IMUNOHISTOQUÍMICA DE NEOPLASIAS MALIGNAS (POR MARCADOR);"
+,IMUNOFENOTIPAGEM DE HEMOPATIAS MALIGNAS (POR MARCADOR); CITOQUIMICA HEMATOLÓGICA; EXAME ANATOMO-PATOLÓGICO PARA CONGELAMENTO/PARAFINA POR PEÇA CIRÚRGICA OU POR BIOPSIA (EXCETO COLO UTERINO E MAMA) ; BACILOSCOPIA DIRETA PARA BAAR TUBERCULOSE (DIAGNÓSTICA) ; CULTURA SÓLIDA PARA MICOBACTÉRIAS ; TESTE MOLECULAR PARA A DETECÇÃO DO COMPLEXOMYCOBACTERIUM TUBERCULOSIS; TESTE DE SENSIBILIDADE EM MEIO SÓLIDO PARA OS FÁRMACOS CONTRA MICOBACTÉRIAS; EXAME MICOLÓGICO DIRETO; CULTURA PARA IDENTIFICAÇÃO MORFOLÓGICA DE FUNGOS.
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,04-Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de Financiamento,040086- Programa Agora Tem Especialistas -Componente Ambulatorial
+Sexo,Ambos
+Idade Mínima,0 meses
+idade Máxima,130 anos
+Valor do serviço Ambulatorial,"R$ 1.228,61"
+Total do serviço Ambulatorial,"R$ 1.228,61"
+CID-10 principal,B20: Doença pelo vírus da imunodeficiência humana [HIV] resultando em doenças infecciosas e parasitárias.B21: Doença pelo HIV resultando em neoplasias malignas.B22: Doença pelo HIV resultando em outras doenças especificadas.
+,"B23: Doença pelo HIV resultando em outras condições, incluindo infecção aguda (B23.0) e linfadenopatias (B23.1).B24: Doença pelo vírus da imunodeficiência humana [HIV] não especificada, comumente usada para casos de AIDS/Sida.Z21: Estado de infecção assintomática pelo HIV"
+CID-10 secundário,R64 - CaquexiaE43 - Desnutrição graveR63.4 - Perda de peso anormalA19.9 - Tuberculose miliar não especificadaB45.7 - Criptococose disseminada
+,"C80 - Neoplasia maligna, sem especificação de localizaçãoC83.x - Linfoma não Hodgkin difusoC85.x - Outros tipos de linfomas não HodgkinC81.x - Linfoma de HodgkinC81.9 - Linfoma de Hodgkin não especificado"
+,C00-C97 - Neoplasias malignas (especificar conforme localização)B21.1 - Doença pelo HIV resultando em linfoma de Burkitt.C83.7 - Linfoma de Burkitt.C21.1 - Neoplasia maligna do canal anal.C21.8 - Neoplasia maligna do reto e ânus com lesão sobreposta.
+,C53.0 - Neoplasia maligna do colo do útero (endocérvice).C53.1 - Neoplasia maligna do colo do útero (exocérvice).C53.9 - Neoplasia maligna do colo do útero não especificada.C51.9 - Neoplasia maligna da vulva não especificada.C60.9 - Neoplasia maligna do pênis não especificada.
+,"C32.9 - Neoplasia maligna da laringe não especificada.C34.9 - Neoplasia maligna dos brônquios ou pulmão não especificada.C76.0 - Neoplasia maligna de cabeça, face e pescoço.C76.1 - Neoplasia maligna do tórax.C76.2 - Neoplasia maligna do abdome."
+Categoria CBO,2251 - Médicos Clínicos2252 - Médicos em especialidades cirúrgicas2253 - Médicos em medicina diagnóstica e terapêutica
+Quantidade Máxima,1
+Atributo Complementar,043 - Exige registro de CID de causas associadas058- Obrigatório CPF053 - Programa Mais Acesso a Especialistas (PMAE)059- Componente Complementar - Modalidade 2
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC0013-GERA COMPENSAÇÃO FINANCEIRA0014-CONDICIONA O TIPO DE FINANCIAMENTO EM MAC0015-CONDICIONA O TIPO DE FINANCIAMENTO EM FAEC
+Habilitação,38.01 Programa Mais Acesso a Especialistas38.02 Agora Tem Especialistas Modalidade 138.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes38.05 Agora Tem Especialistas - Componente Créditos Financeiros38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS

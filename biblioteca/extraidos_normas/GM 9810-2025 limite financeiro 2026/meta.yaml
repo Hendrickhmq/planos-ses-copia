@@ -1,0 +1,10 @@
+id: "GM 9810-2025 limite financeiro 2026"
+arquivo: "GM 9810-2025 limite financeiro 2026.html"
+sha256: "19cf3d0f5fc11ffc6ec8dca1d244e6581826eb039e07f91d81024850169e6e2b"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 4934
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

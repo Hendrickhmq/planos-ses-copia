@@ -1,0 +1,16 @@
+id: "MANUAL PMAE - Registro da Producao, Controle e Avaliacao"
+arquivo: "MANUAL PMAE - Registro da Producao, Controle e Avaliacao.pdf"
+processo_sei: ""
+sha256: "0a8ba6e0fcaf73f6aa77428a11a5527a07e7cd6ae86fc70784d2132e24d68b26"
+paginas: 37
+chars_texto: 52197
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: [37]
+paginas_ocr: [37]
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:01"

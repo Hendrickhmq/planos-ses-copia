@@ -1,0 +1,20 @@
+PROCEDIMENTO,09.02.01.007-7 - OCI GESTÃO DO PRÉ-OPERATÓRIO
+Descrição,"INDICADO A PACIENTES EM PERCURSO DE CUIDADO QUE CONTEMPLE A REALIZAÇÃO DE PROCEDIMENTOS CIRÚRGICOS, E QUE NECESSITEM DE ""GESTÃO DO PRÉ-OPERATÓRIO"", ENTENDIDO COMO UM CONJUNTO DE AVALIAÇÕES, PROCEDIMENTOS, EXAMES E ATENDIMENTOS PROFISSIONAIS REALIZADOS ENTRE A INDICAÇÃO DO PROCEDIMENTO CIRÚRGICO E A EXECUÇÃO DO MESMO, COM VISTAS A PREPARAR O PACIENTE FÍSICA E PSICOLOGICAMENTE, AVALIAR E REDUZIR RISCO"
+,"CIRÚRGICO E COMPLICAÇÕES, POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA OU TELECONSULTA MÉDICA EM ATENÇÃO ESPECIALIZADA, ELETROCARDIOGRAMA, RADIOGRAFIA DE TÓRAX, EXAMES LABORATORIAIS PARA AVALIAÇÃO PRÉ-OPERATÓRIA, CONSULTA DE PROFISSIONAL DE ENFERMAGEM (NÍVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA - EXCETO MÉDICO)."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,04- Fundo de Ações Estratégicas e Compensações (FAEC)
+Sub-Tipo de Financiamento,040086 - Programa Agora Tem Especialistas -Componente Ambulatorial
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 130,00"
+Total do Serviço Ambulatorial,"R$ 130,00"
+CID-10,Z488: Outro seguimento cirúrgico especificado;Z489: Seguimento cirúrgico não especificado;Z01.8 Outros exames especiais especificados
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,01
+Atributo Complementar,43 - Exige registro de CID de causas associadas058- Obrigatório CPF053 - Programa Mais Acesso a Especialistas (PMAE)
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS TEREM VALOR ZERADO0011 - CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC0013- GERA COMPENSAÇÃO FINANCEIRA0014- CONDICIONA O TIPO DE FINANCIAMENTO EM MAC0015- CONDICIONA O TIPO DE FINANCIAMENTO EM FAEC
+Habilitação,38.01 Programa Mais Acesso a Especialistas38.02 Agora Tem Especialistas Modalidade 138.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes
+,38.04 - Agora Tem Especialistas Modalidade 3 Unidades Móveis38.05 - Agora Tem Especialistas - Componente Créditos Financeiro38.06 -Agora Tem Especialistas - Componente Ressarcimento ao SUS

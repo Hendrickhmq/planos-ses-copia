@@ -1,0 +1,9396 @@
+{
+ "metodo": "2026-10-25",
+ "janela_viva_meses": 24,
+ "app": "7edb02fa-f1f5-4ea6-b348-049a4ac2d095",
+ "titulo_app": "D-PDDC - MAPA DA SAÚDE - REGULAÇÃO (M)",
+ "recarga_utc": "2026-10-25T17:31:55.843Z",
+ "recarga_brasilia": "25/10/2026 14:31:55",
+ "consulta": "25/10/2026 15:19:33 a 15:33:43",
+ "max_data_solicitacao": "25/10/2026",
+ "max_data_agendamento": "27/01/2027",
+ "filtro_fila": "status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}",
+ "filtro_devolvidas": "status_solicitacao_alias={'SOLICITAÇÃO DEVOLVIDA PARA COMPLEMENTAÇÃO PELO SOLICITANTE'}",
+ "janelas": {
+  "viva 24 meses": "data_solicitacao={\">=25/10/2024\"}",
+  "viva 12 meses": "data_solicitacao={\">=25/10/2025\"}",
+  "viva 36 meses": "data_solicitacao={\">=25/10/2023\"}",
+  "agendadas 12 meses": "data_agendamento={\">=25/10/2025<=24/10/2026\"}"
+ },
+ "recortes_cid": {
+  "sem recorte": "",
+  "I00-I99 (I*)": "codigo_cid_solicitado={\"I*\"}",
+  "I20-I25": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+  "I20 e I25": "codigo_cid_solicitado={\"I20*\",\"I25*\"}",
+  "I50": "codigo_cid_solicitado={\"I50*\"}",
+  "IC ampliada (I50, I110, I130, I132, I42, I43)": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\",\"I42*\",\"I43*\"}",
+  "Z136, Z848": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+  "Z018, Z488, Z489": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}"
+ },
+ "recortes_cid_agendamento": {
+  "I00-I99 (I*)": "CID_agendamento={\"I*\"}",
+  "I20-I25": "CID_agendamento={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+  "I20 e I25": "CID_agendamento={\"I20*\",\"I25*\"}",
+  "I50": "CID_agendamento={\"I50*\"}",
+  "IC ampliada (I50, I110, I130, I132, I42, I43)": "CID_agendamento={\"I50*\",\"I110*\",\"I130*\",\"I132*\",\"I42*\",\"I43*\"}",
+  "Z136, Z848": "CID_agendamento={\"Z136*\",\"Z848*\"}",
+  "Z018, Z488, Z489": "CID_agendamento={\"Z018*\",\"Z488*\",\"Z489*\"}"
+ },
+ "nomes_internos": {
+  "ECG": {
+   "nome_sisreg": "ELETROCARDIOGRAMA",
+   "nome_sisreg_agendamento": "ELETROCARDIOGRAMA"
+  },
+  "ERG": {
+   "nome_sisreg": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+   "nome_sisreg_agendamento": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2"
+  },
+  "ECO": {
+   "nome_sisreg": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "nome_sisreg_agendamento": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+  },
+  "ESTR": {
+   "nome_sisreg": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+   "nome_sisreg_agendamento": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+  },
+  "HOL": {
+   "nome_sisreg": "HOLTER 24 HORAS",
+   "nome_sisreg_agendamento": "HOLTER 24 HORAS"
+  },
+  "CINE": {
+   "nome_sisreg": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+   "nome_sisreg_agendamento": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)"
+  },
+  "CINR": {
+   "nome_sisreg": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+   "nome_sisreg_agendamento": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)"
+  },
+  "RX": {
+   "nome_sisreg": "TORAX : PA E PERFIL",
+   "nome_sisreg_agendamento": "TORAX : PA E PERFIL"
+  },
+  "C_ADU": {
+   "nome_sisreg": "CONSULTA EM CARDIOLOGIA - ADULTO",
+   "nome_sisreg_agendamento": "CONSULTA EM CARDIOLOGIA - ADULTO"
+  },
+  "C_RC": {
+   "nome_sisreg": "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+   "nome_sisreg_agendamento": "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+  },
+  "C_IC": {
+   "nome_sisreg": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+   "nome_sisreg_agendamento": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA"
+  },
+  "C_COR": {
+   "nome_sisreg": "CONSULTA EM CARDIOLOGIA - CORONARIA",
+   "nome_sisreg_agendamento": "CONSULTA EM CARDIOLOGIA - CORONARIA"
+  }
+ },
+ "enquadramento": {
+  "09.02.01.001-8": {
+   "teto": "Z136, Z848",
+   "finalidade": "Z136, Z848",
+   "variantes": [],
+   "ex": [
+    "ECG",
+    "RX"
+   ],
+   "co": [
+    "C_RC"
+   ],
+   "obr": [
+    "ECG"
+   ],
+   "consulta_especifica": "C_RC",
+   "genericas": [
+    "ECG",
+    "RX"
+   ]
+  },
+  "09.02.01.002-6": {
+   "teto": "Z136, Z848",
+   "finalidade": "Z136, Z848",
+   "variantes": [],
+   "ex": [
+    "ECG",
+    "ECO"
+   ],
+   "co": [
+    "C_ADU"
+   ],
+   "obr": [
+    "ECG"
+   ],
+   "consulta_especifica": "C_ADU",
+   "genericas": [
+    "ECG",
+    "ECO",
+    "C_ADU"
+   ]
+  },
+  "09.02.01.003-4": {
+   "teto": "I00-I99 (I*)",
+   "finalidade": "I20 e I25",
+   "variantes": [
+    "I20-I25"
+   ],
+   "ex": [
+    "ECG",
+    "ERG",
+    "ECO"
+   ],
+   "co": [
+    "C_ADU",
+    "C_COR"
+   ],
+   "obr": [
+    "ECG",
+    "ERG"
+   ],
+   "consulta_especifica": "C_COR",
+   "genericas": [
+    "ECG",
+    "ECO",
+    "C_ADU"
+   ]
+  },
+  "09.02.01.004-2": {
+   "teto": "I20-I25",
+   "finalidade": "I20-I25",
+   "variantes": [
+    "I20 e I25"
+   ],
+   "ex": [
+    "ESTR"
+   ],
+   "co": [
+    "C_COR",
+    "C_ADU"
+   ],
+   "obr": [
+    "ESTR"
+   ],
+   "consulta_especifica": "C_COR",
+   "genericas": [
+    "C_ADU"
+   ]
+  },
+  "09.02.01.005-0": {
+   "teto": "I20-I25",
+   "finalidade": "I20-I25",
+   "variantes": [
+    "I20 e I25"
+   ],
+   "ex": [
+    "CINE",
+    "CINR"
+   ],
+   "co": [
+    "C_COR",
+    "C_ADU"
+   ],
+   "obr": [
+    "CINE",
+    "CINR"
+   ],
+   "consulta_especifica": "C_COR",
+   "genericas": [
+    "C_ADU"
+   ]
+  },
+  "09.02.01.006-9": {
+   "teto": "I00-I99 (I*)",
+   "finalidade": "I50",
+   "variantes": [
+    "IC ampliada (I50, I110, I130, I132, I42, I43)"
+   ],
+   "ex": [
+    "ECG",
+    "ERG",
+    "HOL",
+    "ECO"
+   ],
+   "co": [
+    "C_ADU",
+    "C_IC"
+   ],
+   "obr": [
+    "ECG",
+    "ERG",
+    "HOL"
+   ],
+   "consulta_especifica": "C_IC",
+   "genericas": [
+    "ECG",
+    "HOL",
+    "ECO",
+    "C_ADU"
+   ]
+  },
+  "09.02.01.007-7": {
+   "teto": "Z018, Z488, Z489",
+   "finalidade": "Z018, Z488, Z489",
+   "variantes": [],
+   "ex": [
+    "ECG",
+    "RX"
+   ],
+   "co": [
+    "C_RC"
+   ],
+   "obr": [],
+   "consulta_especifica": "C_RC",
+   "genericas": [
+    "ECG",
+    "RX"
+   ]
+  }
+ },
+ "filas": {
+  "HOLTER 24 HORAS": {
+   "chave": "HOL",
+   "papel": "exame",
+   "generica": true,
+   "codigo_sigtap": 211020044,
+   "fila": 36178,
+   "fila_viva": 11115,
+   "fila_viva_12m": 5864,
+   "fila_viva_36m": 16392,
+   "pessoas": 36147,
+   "pessoas_viva": 11114,
+   "devolvidas": 3493,
+   "espera_media": 1319.872,
+   "espera_mediana": 1201.949,
+   "espera_max": 5171.884,
+   "idade_mediana": 63,
+   "fila_menor_18": 477,
+   "mais_antiga": "27/08/2012",
+   "fila_solicitada_2026": 5174,
+   "total_todos_status": 39671,
+   "agendadas_12m": 2739,
+   "agendadas_todos_os_anos": 53253,
+   "primeiro_agendamento": "05/01/2009",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 1927,
+    "I20-I25": 181,
+    "I20 e I25": 100,
+    "I50": 152,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 171,
+    "Z136, Z848": 5,
+    "Z018, Z488, Z489": 1
+   },
+   "cid_principais_viva": [
+    [
+     "I10",
+     1815
+    ],
+    [
+     "I49",
+     1467
+    ],
+    [
+     "R00",
+     1421
+    ],
+    [
+     "I50",
+     728
+    ],
+    [
+     "I64",
+     640
+    ],
+    [
+     "I20",
+     527
+    ],
+    [
+     "R55",
+     478
+    ],
+    [
+     "I48",
+     468
+    ],
+    [
+     "I25",
+     416
+    ],
+    [
+     "R07",
+     356
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 36178,
+     "fila_viva": 11115,
+     "pessoas": 36147,
+     "pessoas_viva": 11114,
+     "devolvidas": 3493,
+     "espera_media": 1319.872,
+     "espera_mediana": 1201.949,
+     "cid_principais": [
+      [
+       "I10",
+       6374
+      ],
+      [
+       "I49",
+       5640
+      ],
+      [
+       "R00",
+       4360
+      ],
+      [
+       "I50",
+       2532
+      ],
+      [
+       "I64",
+       1902
+      ],
+      [
+       "I48",
+       1488
+      ],
+      [
+       "I25",
+       1339
+      ],
+      [
+       "R55",
+       1310
+      ],
+      [
+       "I20",
+       1253
+      ],
+      [
+       "R07",
+       1066
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 25271,
+     "fila_viva": 7519,
+     "pessoas": 25253,
+     "pessoas_viva": 7518,
+     "devolvidas": 2457,
+     "espera_media": 1319.708,
+     "espera_mediana": 1213.896,
+     "cid_principais": [
+      [
+       "I10",
+       6374
+      ],
+      [
+       "I49",
+       5640
+      ],
+      [
+       "I50",
+       2532
+      ],
+      [
+       "I64",
+       1902
+      ],
+      [
+       "I48",
+       1488
+      ],
+      [
+       "I25",
+       1339
+      ],
+      [
+       "I20",
+       1253
+      ],
+      [
+       "I47",
+       1049
+      ],
+      [
+       "I63",
+       593
+      ],
+      [
+       "I45",
+       382
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 2854,
+     "fila_viva": 1036,
+     "pessoas": 2854,
+     "pessoas_viva": 1036,
+     "devolvidas": 215,
+     "espera_media": 1144.565,
+     "espera_mediana": 1012.883,
+     "cid_principais": [
+      [
+       "I25",
+       1339
+      ],
+      [
+       "I20",
+       1253
+      ],
+      [
+       "I21",
+       235
+      ],
+      [
+       "I23",
+       19
+      ],
+      [
+       "I24",
+       8
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 2592,
+     "fila_viva": 943,
+     "pessoas": 2592,
+     "pessoas_viva": 943,
+     "devolvidas": 179,
+     "espera_media": 1145.407,
+     "espera_mediana": 1000.096,
+     "cid_principais": [
+      [
+       "I25",
+       1339
+      ],
+      [
+       "I20",
+       1253
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 2532,
+     "fila_viva": 728,
+     "pessoas": 2530,
+     "pessoas_viva": 727,
+     "devolvidas": 234,
+     "espera_media": 1244.65,
+     "espera_mediana": 1217.97,
+     "cid_principais": [
+      [
+       "I50",
+       2532
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 2813,
+     "fila_viva": 806,
+     "pessoas": 2811,
+     "pessoas_viva": 805,
+     "devolvidas": 261,
+     "espera_media": 1247.029,
+     "espera_mediana": 1215.226,
+     "cid_principais": [
+      [
+       "I50",
+       2532
+      ],
+      [
+       "I42",
+       258
+      ],
+      [
+       "I11",
+       15
+      ],
+      [
+       "I43",
+       7
+      ],
+      [
+       "I13",
+       1
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 99,
+     "fila_viva": 42,
+     "pessoas": 99,
+     "pessoas_viva": 42,
+     "devolvidas": 14,
+     "espera_media": 1067.727,
+     "espera_mediana": 895.21,
+     "cid_principais": [
+      [
+       "Z13",
+       99
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 2,
+     "fila_viva": 1,
+     "pessoas": 2,
+     "pessoas_viva": 1,
+     "devolvidas": 0,
+     "espera_media": 900.396,
+     "espera_mediana": 900.396,
+     "cid_principais": [
+      [
+       "Z01",
+       1
+      ],
+      [
+       "Z48",
+       1
+      ]
+     ]
+    }
+   }
+  },
+  "CONSULTA EM CARDIOLOGIA - ADULTO": {
+   "chave": "C_ADU",
+   "papel": "consulta",
+   "generica": true,
+   "codigo_sigtap": 301010072,
+   "fila": 11114,
+   "fila_viva": 8250,
+   "fila_viva_12m": 5189,
+   "fila_viva_36m": 10375,
+   "pessoas": 11099,
+   "pessoas_viva": 8247,
+   "devolvidas": 8740,
+   "espera_media": 480.247,
+   "espera_mediana": 401.895,
+   "espera_max": 2174.82,
+   "idade_mediana": 64,
+   "fila_menor_18": 56,
+   "mais_antiga": "10/11/2020",
+   "fila_solicitada_2026": 4679,
+   "total_todos_status": 19854,
+   "agendadas_12m": 5936,
+   "agendadas_todos_os_anos": 338255,
+   "primeiro_agendamento": "05/01/2009",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 4844,
+    "I20-I25": 1379,
+    "I20 e I25": 966,
+    "I50": 935,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 1034,
+    "Z136, Z848": 10,
+    "Z018, Z488, Z489": 4
+   },
+   "cid_principais_viva": [
+    [
+     "I10",
+     1507
+    ],
+    [
+     "I50",
+     965
+    ],
+    [
+     "I25",
+     666
+    ],
+    [
+     "I49",
+     516
+    ],
+    [
+     "I21",
+     380
+    ],
+    [
+     "R07",
+     288
+    ],
+    [
+     "I20",
+     285
+    ],
+    [
+     "R00",
+     227
+    ],
+    [
+     "B57",
+     215
+    ],
+    [
+     "I48",
+     185
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 11114,
+     "fila_viva": 8250,
+     "pessoas": 11099,
+     "pessoas_viva": 8247,
+     "devolvidas": 8740,
+     "espera_media": 480.247,
+     "espera_mediana": 401.895,
+     "cid_principais": [
+      [
+       "I10",
+       1903
+      ],
+      [
+       "I50",
+       1253
+      ],
+      [
+       "I25",
+       866
+      ],
+      [
+       "I49",
+       689
+      ],
+      [
+       "I21",
+       464
+      ],
+      [
+       "R07",
+       425
+      ],
+      [
+       "I20",
+       390
+      ],
+      [
+       "R00",
+       330
+      ],
+      [
+       "B57",
+       313
+      ],
+      [
+       "I48",
+       226
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 8097,
+     "fila_viva": 6244,
+     "pessoas": 8092,
+     "pessoas_viva": 6243,
+     "devolvidas": 6058,
+     "espera_media": 444.156,
+     "espera_mediana": 370.083,
+     "cid_principais": [
+      [
+       "I10",
+       1903
+      ],
+      [
+       "I50",
+       1253
+      ],
+      [
+       "I25",
+       866
+      ],
+      [
+       "I49",
+       689
+      ],
+      [
+       "I21",
+       464
+      ],
+      [
+       "I20",
+       390
+      ],
+      [
+       "I48",
+       226
+      ],
+      [
+       "I44",
+       202
+      ],
+      [
+       "I45",
+       199
+      ],
+      [
+       "I15",
+       156
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 1794,
+     "fila_viva": 1388,
+     "pessoas": 1793,
+     "pessoas_viva": 1388,
+     "devolvidas": 1228,
+     "espera_media": 422.259,
+     "espera_mediana": 312.157,
+     "cid_principais": [
+      [
+       "I25",
+       866
+      ],
+      [
+       "I21",
+       464
+      ],
+      [
+       "I20",
+       390
+      ],
+      [
+       "I23",
+       49
+      ],
+      [
+       "I24",
+       21
+      ],
+      [
+       "I22",
+       4
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 1256,
+     "fila_viva": 951,
+     "pessoas": 1255,
+     "pessoas_viva": 951,
+     "devolvidas": 873,
+     "espera_media": 439.673,
+     "espera_mediana": 352.888,
+     "cid_principais": [
+      [
+       "I25",
+       866
+      ],
+      [
+       "I20",
+       390
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 1253,
+     "fila_viva": 965,
+     "pessoas": 1252,
+     "pessoas_viva": 965,
+     "devolvidas": 889,
+     "espera_media": 443.513,
+     "espera_mediana": 366.892,
+     "cid_principais": [
+      [
+       "I50",
+       1253
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 1430,
+     "fila_viva": 1102,
+     "pessoas": 1429,
+     "pessoas_viva": 1102,
+     "devolvidas": 1019,
+     "espera_media": 451.373,
+     "espera_mediana": 379.902,
+     "cid_principais": [
+      [
+       "I50",
+       1253
+      ],
+      [
+       "I42",
+       142
+      ],
+      [
+       "I11",
+       30
+      ],
+      [
+       "I13",
+       5
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 41,
+     "fila_viva": 25,
+     "pessoas": 41,
+     "pessoas_viva": 25,
+     "devolvidas": 88,
+     "espera_media": 576.253,
+     "espera_mediana": 612.536,
+     "cid_principais": [
+      [
+       "Z13",
+       41
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 5,
+     "fila_viva": 5,
+     "pessoas": 5,
+     "pessoas_viva": 5,
+     "devolvidas": 6,
+     "espera_media": 96.152,
+     "espera_mediana": 120.786,
+     "cid_principais": [
+      [
+       "Z01",
+       5
+      ]
+     ]
+    }
+   }
+  },
+  "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO": {
+   "chave": "C_RC",
+   "papel": "consulta",
+   "generica": false,
+   "codigo_sigtap": 301010072,
+   "fila": 9704,
+   "fila_viva": 8217,
+   "fila_viva_12m": 4098,
+   "fila_viva_36m": 9620,
+   "pessoas": 9630,
+   "pessoas_viva": 8150,
+   "devolvidas": 4247,
+   "espera_media": 428.468,
+   "espera_mediana": 423.05,
+   "espera_max": 1465.182,
+   "idade_mediana": 58,
+   "fila_menor_18": 11,
+   "mais_antiga": "21/10/2022",
+   "fila_solicitada_2026": 3414,
+   "total_todos_status": 13951,
+   "agendadas_12m": 5816,
+   "agendadas_todos_os_anos": 69342,
+   "primeiro_agendamento": "01/07/2009",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 241,
+    "I20-I25": 24,
+    "I20 e I25": 18,
+    "I50": 11,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 13,
+    "Z136, Z848": 16,
+    "Z018, Z488, Z489": 22
+   },
+   "cid_principais_viva": [
+    [
+     "K80",
+     1185
+    ],
+    [
+     "I83",
+     1071
+    ],
+    [
+     "K40",
+     554
+    ],
+    [
+     "N40",
+     348
+    ],
+    [
+     "E66",
+     310
+    ],
+    [
+     "D25",
+     238
+    ],
+    [
+     "H25",
+     238
+    ],
+    [
+     "K42",
+     207
+    ],
+    [
+     "K43",
+     197
+    ],
+    [
+     "Z48",
+     191
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 9704,
+     "fila_viva": 8217,
+     "pessoas": 9630,
+     "pessoas_viva": 8150,
+     "devolvidas": 4247,
+     "espera_media": 428.468,
+     "espera_mediana": 423.05,
+     "cid_principais": [
+      [
+       "I83",
+       1328
+      ],
+      [
+       "K80",
+       1307
+      ],
+      [
+       "K40",
+       657
+      ],
+      [
+       "N40",
+       399
+      ],
+      [
+       "E66",
+       382
+      ],
+      [
+       "H25",
+       283
+      ],
+      [
+       "K42",
+       256
+      ],
+      [
+       "H02",
+       255
+      ],
+      [
+       "D25",
+       254
+      ],
+      [
+       "Z48",
+       231
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 1765,
+     "fila_viva": 1446,
+     "pessoas": 1744,
+     "pessoas_viva": 1426,
+     "devolvidas": 423,
+     "espera_media": 486.098,
+     "espera_mediana": 487.91,
+     "cid_principais": [
+      [
+       "I83",
+       1328
+      ],
+      [
+       "I10",
+       149
+      ],
+      [
+       "I84",
+       126
+      ],
+      [
+       "I50",
+       29
+      ],
+      [
+       "I25",
+       24
+      ],
+      [
+       "I49",
+       15
+      ],
+      [
+       "I87",
+       11
+      ],
+      [
+       "I73",
+       10
+      ],
+      [
+       "I71",
+       6
+      ],
+      [
+       "I86",
+       6
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 33,
+     "fila_viva": 30,
+     "pessoas": 33,
+     "pessoas_viva": 30,
+     "devolvidas": 17,
+     "espera_media": 369.79,
+     "espera_mediana": 370.191,
+     "cid_principais": [
+      [
+       "I25",
+       24
+      ],
+      [
+       "I21",
+       6
+      ],
+      [
+       "I20",
+       2
+      ],
+      [
+       "I24",
+       1
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 26,
+     "fila_viva": 24,
+     "pessoas": 26,
+     "pessoas_viva": 24,
+     "devolvidas": 13,
+     "espera_media": 365.93,
+     "espera_mediana": 386.006,
+     "cid_principais": [
+      [
+       "I25",
+       24
+      ],
+      [
+       "I20",
+       2
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 29,
+     "fila_viva": 28,
+     "pessoas": 28,
+     "pessoas_viva": 27,
+     "devolvidas": 13,
+     "espera_media": 334.567,
+     "espera_mediana": 389.085,
+     "cid_principais": [
+      [
+       "I50",
+       29
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 34,
+     "fila_viva": 33,
+     "pessoas": 33,
+     "pessoas_viva": 32,
+     "devolvidas": 13,
+     "espera_media": 329.231,
+     "espera_mediana": 391.507,
+     "cid_principais": [
+      [
+       "I50",
+       29
+      ],
+      [
+       "I42",
+       4
+      ],
+      [
+       "I11",
+       1
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 55,
+     "fila_viva": 47,
+     "pessoas": 54,
+     "pessoas_viva": 46,
+     "devolvidas": 31,
+     "espera_media": 453.314,
+     "espera_mediana": 487.094,
+     "cid_principais": [
+      [
+       "Z13",
+       55
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 87,
+     "fila_viva": 86,
+     "pessoas": 87,
+     "pessoas_viva": 86,
+     "devolvidas": 28,
+     "espera_media": 247.303,
+     "espera_mediana": 190.475,
+     "cid_principais": [
+      [
+       "Z01",
+       66
+      ],
+      [
+       "Z48",
+       21
+      ]
+     ]
+    }
+   }
+  },
+  "ELETROCARDIOGRAMA": {
+   "chave": "ECG",
+   "papel": "exame",
+   "generica": true,
+   "codigo_sigtap": 211020036,
+   "fila": 20313,
+   "fila_viva": 15131,
+   "fila_viva_12m": 10517,
+   "fila_viva_36m": 17083,
+   "pessoas": 20293,
+   "pessoas_viva": 15131,
+   "devolvidas": 5221,
+   "espera_media": 763.276,
+   "espera_mediana": 346.265,
+   "espera_max": 5914.569,
+   "idade_mediana": 58,
+   "fila_menor_18": 941,
+   "mais_antiga": "16/08/2010",
+   "fila_solicitada_2026": 9418,
+   "total_todos_status": 25534,
+   "agendadas_12m": 14129,
+   "agendadas_todos_os_anos": 171613,
+   "primeiro_agendamento": "22/01/2009",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 7055,
+    "I20-I25": 419,
+    "I20 e I25": 368,
+    "I50": 309,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 333,
+    "Z136, Z848": 223,
+    "Z018, Z488, Z489": 58
+   },
+   "cid_principais_viva": [
+    [
+     "I10",
+     7400
+    ],
+    [
+     "R07",
+     802
+    ],
+    [
+     "R00",
+     715
+    ],
+    [
+     "Z00",
+     489
+    ],
+    [
+     "K80",
+     482
+    ],
+    [
+     "Z10",
+     465
+    ],
+    [
+     "Z13",
+     414
+    ],
+    [
+     "E11",
+     335
+    ],
+    [
+     "I49",
+     264
+    ],
+    [
+     "K40",
+     225
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 20313,
+     "fila_viva": 15131,
+     "pessoas": 20293,
+     "pessoas_viva": 15131,
+     "devolvidas": 5221,
+     "espera_media": 763.276,
+     "espera_mediana": 346.265,
+     "cid_principais": [
+      [
+       "I10",
+       10223
+      ],
+      [
+       "R07",
+       940
+      ],
+      [
+       "R00",
+       921
+      ],
+      [
+       "Z00",
+       780
+      ],
+      [
+       "Z13",
+       623
+      ],
+      [
+       "Z10",
+       617
+      ],
+      [
+       "K80",
+       506
+      ],
+      [
+       "E11",
+       453
+      ],
+      [
+       "I49",
+       357
+      ],
+      [
+       "F90",
+       269
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 11662,
+     "fila_viva": 8421,
+     "pessoas": 11651,
+     "pessoas_viva": 8421,
+     "devolvidas": 3124,
+     "espera_media": 823.293,
+     "espera_mediana": 382.232,
+     "cid_principais": [
+      [
+       "I10",
+       10223
+      ],
+      [
+       "I49",
+       357
+      ],
+      [
+       "I25",
+       141
+      ],
+      [
+       "I50",
+       141
+      ],
+      [
+       "I15",
+       116
+      ],
+      [
+       "I20",
+       112
+      ],
+      [
+       "I51",
+       101
+      ],
+      [
+       "I11",
+       96
+      ],
+      [
+       "I47",
+       63
+      ],
+      [
+       "I84",
+       40
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 279,
+     "fila_viva": 214,
+     "pessoas": 279,
+     "pessoas_viva": 214,
+     "devolvidas": 105,
+     "espera_media": 824.21,
+     "espera_mediana": 276.979,
+     "cid_principais": [
+      [
+       "I25",
+       141
+      ],
+      [
+       "I20",
+       112
+      ],
+      [
+       "I21",
+       22
+      ],
+      [
+       "I23",
+       4
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 253,
+     "fila_viva": 192,
+     "pessoas": 253,
+     "pessoas_viva": 192,
+     "devolvidas": 91,
+     "espera_media": 862.899,
+     "espera_mediana": 282.963,
+     "cid_principais": [
+      [
+       "I25",
+       141
+      ],
+      [
+       "I20",
+       112
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 141,
+     "fila_viva": 118,
+     "pessoas": 141,
+     "pessoas_viva": 118,
+     "devolvidas": 56,
+     "espera_media": 779.616,
+     "espera_mediana": 207.185,
+     "cid_principais": [
+      [
+       "I50",
+       141
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 155,
+     "fila_viva": 128,
+     "pessoas": 155,
+     "pessoas_viva": 128,
+     "devolvidas": 62,
+     "espera_media": 801.785,
+     "espera_mediana": 209.185,
+     "cid_principais": [
+      [
+       "I50",
+       141
+      ],
+      [
+       "I42",
+       8
+      ],
+      [
+       "I11",
+       4
+      ],
+      [
+       "I43",
+       1
+      ],
+      [
+       "I13",
+       1
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 388,
+     "fila_viva": 261,
+     "pessoas": 387,
+     "pessoas_viva": 261,
+     "devolvidas": 120,
+     "espera_media": 697.846,
+     "espera_mediana": 313.131,
+     "cid_principais": [
+      [
+       "Z13",
+       387
+      ],
+      [
+       "Z84",
+       1
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 46,
+     "fila_viva": 41,
+     "pessoas": 46,
+     "pessoas_viva": 41,
+     "devolvidas": 4,
+     "espera_media": 239.455,
+     "espera_mediana": 137.13,
+     "cid_principais": [
+      [
+       "Z01",
+       39
+      ],
+      [
+       "Z48",
+       7
+      ]
+     ]
+    }
+   }
+  },
+  "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2": {
+   "chave": "ERG",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": 211020060,
+   "fila": 3159,
+   "fila_viva": 1662,
+   "fila_viva_12m": 1126,
+   "fila_viva_36m": 1862,
+   "pessoas": 3159,
+   "pessoas_viva": 1662,
+   "devolvidas": 2198,
+   "espera_media": 831.063,
+   "espera_mediana": 654.099,
+   "espera_max": 1978.909,
+   "idade_mediana": 57,
+   "fila_menor_18": 33,
+   "mais_antiga": "25/05/2021",
+   "fila_solicitada_2026": 1082,
+   "total_todos_status": 5357,
+   "agendadas_12m": 5619,
+   "agendadas_todos_os_anos": 109651,
+   "primeiro_agendamento": "05/01/2009",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 3497,
+    "I20-I25": 1502,
+    "I20 e I25": 1438,
+    "I50": 362,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 438,
+    "Z136, Z848": 57,
+    "Z018, Z488, Z489": 1
+   },
+   "cid_principais_viva": [
+    [
+     "I10",
+     401
+    ],
+    [
+     "R07",
+     313
+    ],
+    [
+     "I20",
+     175
+    ],
+    [
+     "I25",
+     125
+    ],
+    [
+     "Z13",
+     73
+    ],
+    [
+     "R00",
+     71
+    ],
+    [
+     "I50",
+     65
+    ],
+    [
+     "R06",
+     47
+    ],
+    [
+     "I49",
+     40
+    ],
+    [
+     "E78",
+     25
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 3159,
+     "fila_viva": 1662,
+     "pessoas": 3159,
+     "pessoas_viva": 1662,
+     "devolvidas": 2198,
+     "espera_media": 831.063,
+     "espera_mediana": 654.099,
+     "cid_principais": [
+      [
+       "I10",
+       835
+      ],
+      [
+       "R07",
+       637
+      ],
+      [
+       "I20",
+       334
+      ],
+      [
+       "I25",
+       208
+      ],
+      [
+       "R00",
+       128
+      ],
+      [
+       "Z13",
+       115
+      ],
+      [
+       "R06",
+       84
+      ],
+      [
+       "I50",
+       77
+      ],
+      [
+       "I49",
+       71
+      ],
+      [
+       "Z00",
+       62
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 1707,
+     "fila_viva": 908,
+     "pessoas": 1707,
+     "pessoas_viva": 908,
+     "devolvidas": 1243,
+     "espera_media": 834.585,
+     "espera_mediana": 632.318,
+     "cid_principais": [
+      [
+       "I10",
+       835
+      ],
+      [
+       "I20",
+       334
+      ],
+      [
+       "I25",
+       208
+      ],
+      [
+       "I50",
+       77
+      ],
+      [
+       "I49",
+       71
+      ],
+      [
+       "I15",
+       24
+      ],
+      [
+       "I70",
+       19
+      ],
+      [
+       "I47",
+       18
+      ],
+      [
+       "I45",
+       15
+      ],
+      [
+       "I21",
+       14
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 559,
+     "fila_viva": 309,
+     "pessoas": 559,
+     "pessoas_viva": 309,
+     "devolvidas": 363,
+     "espera_media": 813.503,
+     "espera_mediana": 587.95,
+     "cid_principais": [
+      [
+       "I20",
+       334
+      ],
+      [
+       "I25",
+       208
+      ],
+      [
+       "I21",
+       14
+      ],
+      [
+       "I24",
+       3
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 542,
+     "fila_viva": 300,
+     "pessoas": 542,
+     "pessoas_viva": 300,
+     "devolvidas": 342,
+     "espera_media": 814.629,
+     "espera_mediana": 590.146,
+     "cid_principais": [
+      [
+       "I20",
+       334
+      ],
+      [
+       "I25",
+       208
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 77,
+     "fila_viva": 65,
+     "pessoas": 77,
+     "pessoas_viva": 65,
+     "devolvidas": 77,
+     "espera_media": 345.352,
+     "espera_mediana": 52.043,
+     "cid_principais": [
+      [
+       "I50",
+       77
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 87,
+     "fila_viva": 73,
+     "pessoas": 87,
+     "pessoas_viva": 73,
+     "devolvidas": 89,
+     "espera_media": 343.606,
+     "espera_mediana": 46.98,
+     "cid_principais": [
+      [
+       "I50",
+       77
+      ],
+      [
+       "I42",
+       10
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 56,
+     "fila_viva": 37,
+     "pessoas": 56,
+     "pessoas_viva": 37,
+     "devolvidas": 26,
+     "espera_media": 652.658,
+     "espera_mediana": 374.614,
+     "cid_principais": [
+      [
+       "Z13",
+       56
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 2,
+     "fila_viva": 1,
+     "pessoas": 2,
+     "pessoas_viva": 1,
+     "devolvidas": 0,
+     "espera_media": 504.494,
+     "espera_mediana": 504.494,
+     "cid_principais": [
+      [
+       "Z01",
+       2
+      ]
+     ]
+    }
+   }
+  },
+  "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)": {
+   "chave": "CINR",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": 208010033,
+   "fila": 1484,
+   "fila_viva": 1484,
+   "fila_viva_12m": 742,
+   "fila_viva_36m": 1484,
+   "pessoas": 1484,
+   "pessoas_viva": 1484,
+   "devolvidas": 34,
+   "espera_media": 286.312,
+   "espera_mediana": 364.121,
+   "espera_max": 452.792,
+   "idade_mediana": 66,
+   "fila_menor_18": 0,
+   "mais_antiga": "29/07/2025",
+   "fila_solicitada_2026": 636,
+   "total_todos_status": 1518,
+   "agendadas_12m": 347,
+   "agendadas_todos_os_anos": 481,
+   "primeiro_agendamento": "30/07/2025",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 298,
+    "I20-I25": 223,
+    "I20 e I25": 205,
+    "I50": 28,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 31,
+    "Z136, Z848": 0,
+    "Z018, Z488, Z489": 0
+   },
+   "cid_principais_viva": [
+    [
+     "I25",
+     555
+    ],
+    [
+     "I20",
+     448
+    ],
+    [
+     "I50",
+     93
+    ],
+    [
+     "R07",
+     84
+    ],
+    [
+     "N18",
+     47
+    ],
+    [
+     "I10",
+     47
+    ],
+    [
+     "I21",
+     32
+    ],
+    [
+     "I49",
+     16
+    ],
+    [
+     "R06",
+     12
+    ],
+    [
+     "B57",
+     10
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 1484,
+     "fila_viva": 1484,
+     "pessoas": 1484,
+     "pessoas_viva": 1484,
+     "devolvidas": 34,
+     "espera_media": 286.312,
+     "espera_mediana": 364.121,
+     "cid_principais": [
+      [
+       "I25",
+       555
+      ],
+      [
+       "I20",
+       448
+      ],
+      [
+       "I50",
+       93
+      ],
+      [
+       "R07",
+       84
+      ],
+      [
+       "N18",
+       47
+      ],
+      [
+       "I10",
+       47
+      ],
+      [
+       "I21",
+       32
+      ],
+      [
+       "I49",
+       16
+      ],
+      [
+       "R06",
+       12
+      ],
+      [
+       "B57",
+       10
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 1253,
+     "fila_viva": 1253,
+     "pessoas": 1253,
+     "pessoas_viva": 1253,
+     "devolvidas": 31,
+     "espera_media": 281.592,
+     "espera_mediana": 359.883,
+     "cid_principais": [
+      [
+       "I25",
+       555
+      ],
+      [
+       "I20",
+       448
+      ],
+      [
+       "I50",
+       93
+      ],
+      [
+       "I10",
+       47
+      ],
+      [
+       "I21",
+       32
+      ],
+      [
+       "I49",
+       16
+      ],
+      [
+       "I48",
+       9
+      ],
+      [
+       "I47",
+       8
+      ],
+      [
+       "I35",
+       4
+      ],
+      [
+       "I42",
+       4
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 1038,
+     "fila_viva": 1038,
+     "pessoas": 1038,
+     "pessoas_viva": 1038,
+     "devolvidas": 27,
+     "espera_media": 284.062,
+     "espera_mediana": 368.878,
+     "cid_principais": [
+      [
+       "I25",
+       555
+      ],
+      [
+       "I20",
+       448
+      ],
+      [
+       "I21",
+       32
+      ],
+      [
+       "I24",
+       3
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 1003,
+     "fila_viva": 1003,
+     "pessoas": 1003,
+     "pessoas_viva": 1003,
+     "devolvidas": 24,
+     "espera_media": 285.37,
+     "espera_mediana": 370.071,
+     "cid_principais": [
+      [
+       "I25",
+       555
+      ],
+      [
+       "I20",
+       448
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 93,
+     "fila_viva": 93,
+     "pessoas": 93,
+     "pessoas_viva": 93,
+     "devolvidas": 3,
+     "espera_media": 287.674,
+     "espera_mediana": 366.874,
+     "cid_principais": [
+      [
+       "I50",
+       93
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 98,
+     "fila_viva": 98,
+     "pessoas": 98,
+     "pessoas_viva": 98,
+     "devolvidas": 3,
+     "espera_media": 285.936,
+     "espera_mediana": 350.397,
+     "cid_principais": [
+      [
+       "I50",
+       93
+      ],
+      [
+       "I42",
+       4
+      ],
+      [
+       "I11",
+       1
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 4,
+     "fila_viva": 4,
+     "pessoas": 4,
+     "pessoas_viva": 4,
+     "devolvidas": 0,
+     "espera_media": 262.844,
+     "espera_mediana": 242.041,
+     "cid_principais": [
+      [
+       "Z13",
+       4
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 0,
+     "fila_viva": 0,
+     "pessoas": 0,
+     "pessoas_viva": 0,
+     "devolvidas": 0,
+     "espera_media": null,
+     "espera_mediana": null,
+     "cid_principais": []
+    }
+   }
+  },
+  "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)": {
+   "chave": "CINE",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": 208010025,
+   "fila": 1720,
+   "fila_viva": 1720,
+   "fila_viva_12m": 898,
+   "fila_viva_36m": 1720,
+   "pessoas": 1720,
+   "pessoas_viva": 1720,
+   "devolvidas": 152,
+   "espera_media": 289.539,
+   "espera_mediana": 350.552,
+   "espera_max": 452.791,
+   "idade_mediana": 66,
+   "fila_menor_18": 0,
+   "mais_antiga": "29/07/2025",
+   "fila_solicitada_2026": 742,
+   "total_todos_status": 1872,
+   "agendadas_12m": 365,
+   "agendadas_todos_os_anos": 518,
+   "primeiro_agendamento": "31/07/2025",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 317,
+    "I20-I25": 245,
+    "I20 e I25": 227,
+    "I50": 23,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 26,
+    "Z136, Z848": 0,
+    "Z018, Z488, Z489": 0
+   },
+   "cid_principais_viva": [
+    [
+     "I25",
+     637
+    ],
+    [
+     "I20",
+     539
+    ],
+    [
+     "I50",
+     113
+    ],
+    [
+     "R07",
+     97
+    ],
+    [
+     "N18",
+     69
+    ],
+    [
+     "I10",
+     41
+    ],
+    [
+     "I21",
+     30
+    ],
+    [
+     "I49",
+     16
+    ],
+    [
+     "R06",
+     15
+    ],
+    [
+     "I48",
+     11
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 1720,
+     "fila_viva": 1720,
+     "pessoas": 1720,
+     "pessoas_viva": 1720,
+     "devolvidas": 152,
+     "espera_media": 289.539,
+     "espera_mediana": 350.552,
+     "cid_principais": [
+      [
+       "I25",
+       637
+      ],
+      [
+       "I20",
+       539
+      ],
+      [
+       "I50",
+       113
+      ],
+      [
+       "R07",
+       97
+      ],
+      [
+       "N18",
+       69
+      ],
+      [
+       "I10",
+       41
+      ],
+      [
+       "I21",
+       30
+      ],
+      [
+       "I49",
+       16
+      ],
+      [
+       "R06",
+       15
+      ],
+      [
+       "I48",
+       11
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 1452,
+     "fila_viva": 1452,
+     "pessoas": 1452,
+     "pessoas_viva": 1452,
+     "devolvidas": 126,
+     "espera_media": 284.325,
+     "espera_mediana": 341.593,
+     "cid_principais": [
+      [
+       "I25",
+       637
+      ],
+      [
+       "I20",
+       539
+      ],
+      [
+       "I50",
+       113
+      ],
+      [
+       "I10",
+       41
+      ],
+      [
+       "I21",
+       30
+      ],
+      [
+       "I49",
+       16
+      ],
+      [
+       "I48",
+       11
+      ],
+      [
+       "I47",
+       9
+      ],
+      [
+       "I27",
+       4
+      ],
+      [
+       "I44",
+       4
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 1211,
+     "fila_viva": 1211,
+     "pessoas": 1211,
+     "pessoas_viva": 1211,
+     "devolvidas": 95,
+     "espera_media": 282.608,
+     "espera_mediana": 341.236,
+     "cid_principais": [
+      [
+       "I25",
+       637
+      ],
+      [
+       "I20",
+       539
+      ],
+      [
+       "I21",
+       30
+      ],
+      [
+       "I24",
+       4
+      ],
+      [
+       "I22",
+       1
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 1176,
+     "fila_viva": 1176,
+     "pessoas": 1176,
+     "pessoas_viva": 1176,
+     "devolvidas": 90,
+     "espera_media": 282.554,
+     "espera_mediana": 341.593,
+     "cid_principais": [
+      [
+       "I25",
+       637
+      ],
+      [
+       "I20",
+       539
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 113,
+     "fila_viva": 113,
+     "pessoas": 113,
+     "pessoas_viva": 113,
+     "devolvidas": 11,
+     "espera_media": 300.404,
+     "espera_mediana": 361.139,
+     "cid_principais": [
+      [
+       "I50",
+       113
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 117,
+     "fila_viva": 117,
+     "pessoas": 117,
+     "pessoas_viva": 117,
+     "devolvidas": 11,
+     "espera_media": 299.739,
+     "espera_mediana": 361.139,
+     "cid_principais": [
+      [
+       "I50",
+       113
+      ],
+      [
+       "I42",
+       4
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 4,
+     "fila_viva": 4,
+     "pessoas": 4,
+     "pessoas_viva": 4,
+     "devolvidas": 1,
+     "espera_media": 245.604,
+     "espera_mediana": 242.041,
+     "cid_principais": [
+      [
+       "Z13",
+       4
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 0,
+     "fila_viva": 0,
+     "pessoas": 0,
+     "pessoas_viva": 0,
+     "devolvidas": 0,
+     "espera_media": null,
+     "espera_mediana": null,
+     "cid_principais": []
+    }
+   }
+  },
+  "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO": {
+   "chave": "ECO",
+   "papel": "exame",
+   "generica": true,
+   "codigo_sigtap": 205010032,
+   "fila": 13477,
+   "fila_viva": 13477,
+   "fila_viva_12m": 13037,
+   "fila_viva_36m": 13477,
+   "pessoas": 13477,
+   "pessoas_viva": 13477,
+   "devolvidas": 13454,
+   "espera_media": 126.73,
+   "espera_mediana": 116.881,
+   "espera_max": 531.118,
+   "idade_mediana": 62,
+   "fila_menor_18": 138,
+   "mais_antiga": "12/05/2025",
+   "fila_solicitada_2026": 12905,
+   "total_todos_status": 26931,
+   "agendadas_12m": 33740,
+   "agendadas_todos_os_anos": 435350,
+   "primeiro_agendamento": "05/01/2009",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 21551,
+    "I20-I25": 5536,
+    "I20 e I25": 3250,
+    "I50": 5485,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 5772,
+    "Z136, Z848": 90,
+    "Z018, Z488, Z489": 15
+   },
+   "cid_principais_viva": [
+    [
+     "I10",
+     2452
+    ],
+    [
+     "I50",
+     2364
+    ],
+    [
+     "I25",
+     1178
+    ],
+    [
+     "I20",
+     498
+    ],
+    [
+     "R07",
+     491
+    ],
+    [
+     "R06",
+     439
+    ],
+    [
+     "Z95",
+     295
+    ],
+    [
+     "B57",
+     292
+    ],
+    [
+     "N18",
+     281
+    ],
+    [
+     "I49",
+     277
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 13477,
+     "fila_viva": 13477,
+     "pessoas": 13477,
+     "pessoas_viva": 13477,
+     "devolvidas": 13454,
+     "espera_media": 126.73,
+     "espera_mediana": 116.881,
+     "cid_principais": [
+      [
+       "I10",
+       2452
+      ],
+      [
+       "I50",
+       2364
+      ],
+      [
+       "I25",
+       1178
+      ],
+      [
+       "I20",
+       498
+      ],
+      [
+       "R07",
+       491
+      ],
+      [
+       "R06",
+       439
+      ],
+      [
+       "Z95",
+       295
+      ],
+      [
+       "B57",
+       292
+      ],
+      [
+       "N18",
+       281
+      ],
+      [
+       "I49",
+       277
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 9152,
+     "fila_viva": 9152,
+     "pessoas": 9152,
+     "pessoas_viva": 9152,
+     "devolvidas": 8131,
+     "espera_media": 126.974,
+     "espera_mediana": 117.145,
+     "cid_principais": [
+      [
+       "I10",
+       2452
+      ],
+      [
+       "I50",
+       2364
+      ],
+      [
+       "I25",
+       1178
+      ],
+      [
+       "I20",
+       498
+      ],
+      [
+       "I49",
+       277
+      ],
+      [
+       "I35",
+       200
+      ],
+      [
+       "I48",
+       200
+      ],
+      [
+       "I21",
+       183
+      ],
+      [
+       "I05",
+       183
+      ],
+      [
+       "I27",
+       162
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 1869,
+     "fila_viva": 1869,
+     "pessoas": 1869,
+     "pessoas_viva": 1869,
+     "devolvidas": 1227,
+     "espera_media": 117.112,
+     "espera_mediana": 114.148,
+     "cid_principais": [
+      [
+       "I25",
+       1178
+      ],
+      [
+       "I20",
+       498
+      ],
+      [
+       "I21",
+       183
+      ],
+      [
+       "I23",
+       8
+      ],
+      [
+       "I24",
+       2
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 1676,
+     "fila_viva": 1676,
+     "pessoas": 1676,
+     "pessoas_viva": 1676,
+     "devolvidas": 924,
+     "espera_media": 117.099,
+     "espera_mediana": 114.217,
+     "cid_principais": [
+      [
+       "I25",
+       1178
+      ],
+      [
+       "I20",
+       498
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 2364,
+     "fila_viva": 2364,
+     "pessoas": 2364,
+     "pessoas_viva": 2364,
+     "devolvidas": 1646,
+     "espera_media": 124.781,
+     "espera_mediana": 121.206,
+     "cid_principais": [
+      [
+       "I50",
+       2364
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 2499,
+     "fila_viva": 2499,
+     "pessoas": 2499,
+     "pessoas_viva": 2499,
+     "devolvidas": 1782,
+     "espera_media": 125.388,
+     "espera_mediana": 122.162,
+     "cid_principais": [
+      [
+       "I50",
+       2364
+      ],
+      [
+       "I42",
+       122
+      ],
+      [
+       "I11",
+       8
+      ],
+      [
+       "I13",
+       5
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 90,
+     "fila_viva": 90,
+     "pessoas": 90,
+     "pessoas_viva": 90,
+     "devolvidas": 136,
+     "espera_media": 131.203,
+     "espera_mediana": 133.551,
+     "cid_principais": [
+      [
+       "Z13",
+       90
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 13,
+     "fila_viva": 13,
+     "pessoas": 13,
+     "pessoas_viva": 13,
+     "devolvidas": 3,
+     "espera_media": 116.053,
+     "espera_mediana": 129.131,
+     "cid_principais": [
+      [
+       "Z01",
+       10
+      ],
+      [
+       "Z48",
+       3
+      ]
+     ]
+    }
+   }
+  },
+  "CONSULTA EM CARDIOLOGIA - CORONARIA": {
+   "chave": "C_COR",
+   "papel": "consulta",
+   "generica": false,
+   "codigo_sigtap": 301010072,
+   "fila": 320,
+   "fila_viva": 320,
+   "fila_viva_12m": 320,
+   "fila_viva_36m": 320,
+   "pessoas": 320,
+   "pessoas_viva": 320,
+   "devolvidas": 539,
+   "espera_media": 111.01,
+   "espera_mediana": 109.525,
+   "espera_max": 303.12,
+   "idade_mediana": 65,
+   "fila_menor_18": 0,
+   "mais_antiga": "26/12/2025",
+   "fila_solicitada_2026": 319,
+   "total_todos_status": 859,
+   "agendadas_12m": 604,
+   "agendadas_todos_os_anos": 10762,
+   "primeiro_agendamento": "02/06/2011",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 559,
+    "I20-I25": 509,
+    "I20 e I25": 379,
+    "I50": 17,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 18,
+    "Z136, Z848": 1,
+    "Z018, Z488, Z489": 0
+   },
+   "cid_principais_viva": [
+    [
+     "I25",
+     153
+    ],
+    [
+     "I21",
+     64
+    ],
+    [
+     "I20",
+     51
+    ],
+    [
+     "I50",
+     7
+    ],
+    [
+     "N18",
+     6
+    ],
+    [
+     "R07",
+     5
+    ],
+    [
+     "I70",
+     4
+    ],
+    [
+     "Z95",
+     3
+    ],
+    [
+     "I23",
+     2
+    ],
+    [
+     "Z00",
+     2
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 320,
+     "fila_viva": 320,
+     "pessoas": 320,
+     "pessoas_viva": 320,
+     "devolvidas": 539,
+     "espera_media": 111.01,
+     "espera_mediana": 109.525,
+     "cid_principais": [
+      [
+       "I25",
+       153
+      ],
+      [
+       "I21",
+       64
+      ],
+      [
+       "I20",
+       51
+      ],
+      [
+       "I50",
+       7
+      ],
+      [
+       "N18",
+       6
+      ],
+      [
+       "R07",
+       5
+      ],
+      [
+       "I70",
+       4
+      ],
+      [
+       "Z95",
+       3
+      ],
+      [
+       "I23",
+       2
+      ],
+      [
+       "Z00",
+       2
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 293,
+     "fila_viva": 293,
+     "pessoas": 293,
+     "pessoas_viva": 293,
+     "devolvidas": 467,
+     "espera_media": 111.256,
+     "espera_mediana": 109.211,
+     "cid_principais": [
+      [
+       "I25",
+       153
+      ],
+      [
+       "I21",
+       64
+      ],
+      [
+       "I20",
+       51
+      ],
+      [
+       "I50",
+       7
+      ],
+      [
+       "I70",
+       4
+      ],
+      [
+       "I23",
+       2
+      ],
+      [
+       "I24",
+       1
+      ],
+      [
+       "I77",
+       1
+      ],
+      [
+       "I71",
+       1
+      ],
+      [
+       "I69",
+       1
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 271,
+     "fila_viva": 271,
+     "pessoas": 271,
+     "pessoas_viva": 271,
+     "devolvidas": 396,
+     "espera_media": 109.562,
+     "espera_mediana": 103.951,
+     "cid_principais": [
+      [
+       "I25",
+       153
+      ],
+      [
+       "I21",
+       64
+      ],
+      [
+       "I20",
+       51
+      ],
+      [
+       "I23",
+       2
+      ],
+      [
+       "I24",
+       1
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 204,
+     "fila_viva": 204,
+     "pessoas": 204,
+     "pessoas_viva": 204,
+     "devolvidas": 288,
+     "espera_media": 113.405,
+     "espera_mediana": 112.717,
+     "cid_principais": [
+      [
+       "I25",
+       153
+      ],
+      [
+       "I20",
+       51
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 7,
+     "fila_viva": 7,
+     "pessoas": 7,
+     "pessoas_viva": 7,
+     "devolvidas": 15,
+     "espera_media": 149.823,
+     "espera_mediana": 151.259,
+     "cid_principais": [
+      [
+       "I50",
+       7
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 8,
+     "fila_viva": 8,
+     "pessoas": 8,
+     "pessoas_viva": 8,
+     "devolvidas": 22,
+     "espera_media": 134.999,
+     "espera_mediana": 137.627,
+     "cid_principais": [
+      [
+       "I50",
+       7
+      ],
+      [
+       "I42",
+       1
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 0,
+     "fila_viva": 0,
+     "pessoas": 0,
+     "pessoas_viva": 0,
+     "devolvidas": 1,
+     "espera_media": null,
+     "espera_mediana": null,
+     "cid_principais": []
+    },
+    "Z018, Z488, Z489": {
+     "fila": 0,
+     "fila_viva": 0,
+     "pessoas": 0,
+     "pessoas_viva": 0,
+     "devolvidas": 0,
+     "espera_media": null,
+     "espera_mediana": null,
+     "cid_principais": []
+    }
+   }
+  },
+  "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO": {
+   "chave": "ESTR",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": 205010016,
+   "fila": 69,
+   "fila_viva": 69,
+   "fila_viva_12m": 69,
+   "fila_viva_36m": 69,
+   "pessoas": 69,
+   "pessoas_viva": 69,
+   "devolvidas": 1437,
+   "espera_media": 25.416,
+   "espera_mediana": 27.083,
+   "espera_max": 46.858,
+   "idade_mediana": 68,
+   "fila_menor_18": 0,
+   "mais_antiga": "08/09/2026",
+   "fila_solicitada_2026": 69,
+   "total_todos_status": 1506,
+   "agendadas_12m": 750,
+   "agendadas_todos_os_anos": 16859,
+   "primeiro_agendamento": "07/01/2009",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 590,
+    "I20-I25": 428,
+    "I20 e I25": 417,
+    "I50": 45,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 53,
+    "Z136, Z848": 3,
+    "Z018, Z488, Z489": 1
+   },
+   "cid_principais_viva": [
+    [
+     "I20",
+     17
+    ],
+    [
+     "I25",
+     14
+    ],
+    [
+     "R07",
+     10
+    ],
+    [
+     "I50",
+     9
+    ],
+    [
+     "I10",
+     8
+    ],
+    [
+     "E11",
+     3
+    ],
+    [
+     "R06",
+     2
+    ],
+    [
+     "Z13",
+     2
+    ],
+    [
+     "I15",
+     1
+    ],
+    [
+     "R42",
+     1
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 69,
+     "fila_viva": 69,
+     "pessoas": 69,
+     "pessoas_viva": 69,
+     "devolvidas": 1437,
+     "espera_media": 25.416,
+     "espera_mediana": 27.083,
+     "cid_principais": [
+      [
+       "I20",
+       17
+      ],
+      [
+       "I25",
+       14
+      ],
+      [
+       "R07",
+       10
+      ],
+      [
+       "I50",
+       9
+      ],
+      [
+       "I10",
+       8
+      ],
+      [
+       "E11",
+       3
+      ],
+      [
+       "R06",
+       2
+      ],
+      [
+       "Z13",
+       2
+      ],
+      [
+       "I15",
+       1
+      ],
+      [
+       "R42",
+       1
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 51,
+     "fila_viva": 51,
+     "pessoas": 51,
+     "pessoas_viva": 51,
+     "devolvidas": 1090,
+     "espera_media": 23.23,
+     "espera_mediana": 24.116,
+     "cid_principais": [
+      [
+       "I20",
+       17
+      ],
+      [
+       "I25",
+       14
+      ],
+      [
+       "I50",
+       9
+      ],
+      [
+       "I10",
+       8
+      ],
+      [
+       "I15",
+       1
+      ],
+      [
+       "I21",
+       1
+      ],
+      [
+       "I64",
+       1
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 32,
+     "fila_viva": 32,
+     "pessoas": 32,
+     "pessoas_viva": 32,
+     "devolvidas": 713,
+     "espera_media": 22.275,
+     "espera_mediana": 24.653,
+     "cid_principais": [
+      [
+       "I20",
+       17
+      ],
+      [
+       "I25",
+       14
+      ],
+      [
+       "I21",
+       1
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 31,
+     "fila_viva": 31,
+     "pessoas": 31,
+     "pessoas_viva": 31,
+     "devolvidas": 677,
+     "espera_media": 21.701,
+     "espera_mediana": 23.142,
+     "cid_principais": [
+      [
+       "I20",
+       17
+      ],
+      [
+       "I25",
+       14
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 9,
+     "fila_viva": 9,
+     "pessoas": 9,
+     "pessoas_viva": 9,
+     "devolvidas": 81,
+     "espera_media": 26.946,
+     "espera_mediana": 24.116,
+     "cid_principais": [
+      [
+       "I50",
+       9
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 9,
+     "fila_viva": 9,
+     "pessoas": 9,
+     "pessoas_viva": 9,
+     "devolvidas": 88,
+     "espera_media": 26.946,
+     "espera_mediana": 24.116,
+     "cid_principais": [
+      [
+       "I50",
+       9
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 1,
+     "fila_viva": 1,
+     "pessoas": 1,
+     "pessoas_viva": 1,
+     "devolvidas": 8,
+     "espera_media": 38.944,
+     "espera_mediana": 38.944,
+     "cid_principais": [
+      [
+       "Z13",
+       1
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 0,
+     "fila_viva": 0,
+     "pessoas": 0,
+     "pessoas_viva": 0,
+     "devolvidas": 0,
+     "espera_media": null,
+     "espera_mediana": null,
+     "cid_principais": []
+    }
+   }
+  },
+  "TORAX : PA E PERFIL": {
+   "chave": "RX",
+   "papel": "exame",
+   "generica": true,
+   "codigo_sigtap": 204030153,
+   "fila": 669,
+   "fila_viva": 669,
+   "fila_viva_12m": 669,
+   "fila_viva_36m": 669,
+   "pessoas": 669,
+   "pessoas_viva": 669,
+   "devolvidas": 188,
+   "espera_media": 103.035,
+   "espera_mediana": 103.002,
+   "espera_max": 215.955,
+   "idade_mediana": 53,
+   "fila_menor_18": 43,
+   "mais_antiga": "23/03/2026",
+   "fila_solicitada_2026": 669,
+   "total_todos_status": 857,
+   "agendadas_12m": 13009,
+   "agendadas_todos_os_anos": 74818,
+   "primeiro_agendamento": "20/02/2019",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 1000,
+    "I20-I25": 50,
+    "I20 e I25": 38,
+    "I50": 141,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 150,
+    "Z136, Z848": 32,
+    "Z018, Z488, Z489": 110
+   },
+   "cid_principais_viva": [
+    [
+     "R07",
+     64
+    ],
+    [
+     "R06",
+     39
+    ],
+    [
+     "R05",
+     34
+    ],
+    [
+     "K80",
+     33
+    ],
+    [
+     "I83",
+     28
+    ],
+    [
+     "I10",
+     28
+    ],
+    [
+     "M05",
+     25
+    ],
+    [
+     "J45",
+     25
+    ],
+    [
+     "K40",
+     24
+    ],
+    [
+     "N40",
+     20
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 669,
+     "fila_viva": 669,
+     "pessoas": 669,
+     "pessoas_viva": 669,
+     "devolvidas": 188,
+     "espera_media": 103.035,
+     "espera_mediana": 103.002,
+     "cid_principais": [
+      [
+       "R07",
+       64
+      ],
+      [
+       "R06",
+       39
+      ],
+      [
+       "R05",
+       34
+      ],
+      [
+       "K80",
+       33
+      ],
+      [
+       "I83",
+       28
+      ],
+      [
+       "I10",
+       28
+      ],
+      [
+       "M05",
+       25
+      ],
+      [
+       "J45",
+       25
+      ],
+      [
+       "K40",
+       24
+      ],
+      [
+       "N40",
+       20
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 75,
+     "fila_viva": 75,
+     "pessoas": 75,
+     "pessoas_viva": 75,
+     "devolvidas": 17,
+     "espera_media": 88.302,
+     "espera_mediana": 76.125,
+     "cid_principais": [
+      [
+       "I83",
+       28
+      ],
+      [
+       "I10",
+       28
+      ],
+      [
+       "I50",
+       4
+      ],
+      [
+       "I20",
+       2
+      ],
+      [
+       "I84",
+       2
+      ],
+      [
+       "I49",
+       2
+      ],
+      [
+       "I82",
+       2
+      ],
+      [
+       "I25",
+       1
+      ],
+      [
+       "I15",
+       1
+      ],
+      [
+       "I21",
+       1
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 4,
+     "fila_viva": 4,
+     "pessoas": 4,
+     "pessoas_viva": 4,
+     "devolvidas": 1,
+     "espera_media": 67.358,
+     "espera_mediana": 49.033,
+     "cid_principais": [
+      [
+       "I20",
+       2
+      ],
+      [
+       "I25",
+       1
+      ],
+      [
+       "I21",
+       1
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 3,
+     "fila_viva": 3,
+     "pessoas": 3,
+     "pessoas_viva": 3,
+     "devolvidas": 1,
+     "espera_media": 76.783,
+     "espera_mediana": 58.983,
+     "cid_principais": [
+      [
+       "I20",
+       2
+      ],
+      [
+       "I25",
+       1
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 4,
+     "fila_viva": 4,
+     "pessoas": 4,
+     "pessoas_viva": 4,
+     "devolvidas": 4,
+     "espera_media": 115.852,
+     "espera_mediana": 117.874,
+     "cid_principais": [
+      [
+       "I50",
+       4
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 4,
+     "fila_viva": 4,
+     "pessoas": 4,
+     "pessoas_viva": 4,
+     "devolvidas": 4,
+     "espera_media": 115.852,
+     "espera_mediana": 117.874,
+     "cid_principais": [
+      [
+       "I50",
+       4
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 4,
+     "fila_viva": 4,
+     "pessoas": 4,
+     "pessoas_viva": 4,
+     "devolvidas": 0,
+     "espera_media": 161.769,
+     "espera_mediana": 165.575,
+     "cid_principais": [
+      [
+       "Z13",
+       4
+      ]
+     ]
+    },
+    "Z018, Z488, Z489": {
+     "fila": 9,
+     "fila_viva": 9,
+     "pessoas": 9,
+     "pessoas_viva": 9,
+     "devolvidas": 1,
+     "espera_media": 87.356,
+     "espera_mediana": 81.792,
+     "cid_principais": [
+      [
+       "Z01",
+       9
+      ]
+     ]
+    }
+   }
+  },
+  "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA": {
+   "chave": "C_IC",
+   "papel": "consulta",
+   "generica": false,
+   "codigo_sigtap": 301010072,
+   "fila": 1105,
+   "fila_viva": 1105,
+   "fila_viva_12m": 917,
+   "fila_viva_36m": 1105,
+   "pessoas": 1105,
+   "pessoas_viva": 1105,
+   "devolvidas": 882,
+   "espera_media": 206.711,
+   "espera_mediana": 185.958,
+   "espera_max": 648.1,
+   "idade_mediana": 65,
+   "fila_menor_18": 0,
+   "mais_antiga": "15/01/2025",
+   "fila_solicitada_2026": 765,
+   "total_todos_status": 1987,
+   "agendadas_12m": 599,
+   "agendadas_todos_os_anos": 7342,
+   "primeiro_agendamento": "02/07/2009",
+   "agendadas_12m_por_recorte": {
+    "I00-I99 (I*)": 561,
+    "I20-I25": 21,
+    "I20 e I25": 13,
+    "I50": 491,
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": 515,
+    "Z136, Z848": 0,
+    "Z018, Z488, Z489": 0
+   },
+   "cid_principais_viva": [
+    [
+     "I50",
+     892
+    ],
+    [
+     "I25",
+     31
+    ],
+    [
+     "I42",
+     20
+    ],
+    [
+     "B57",
+     14
+    ],
+    [
+     "I10",
+     13
+    ],
+    [
+     "I21",
+     12
+    ],
+    [
+     "I34",
+     9
+    ],
+    [
+     "I11",
+     9
+    ],
+    [
+     "I35",
+     7
+    ],
+    [
+     "I48",
+     7
+    ]
+   ],
+   "recortes": {
+    "sem recorte": {
+     "fila": 1105,
+     "fila_viva": 1105,
+     "pessoas": 1105,
+     "pessoas_viva": 1105,
+     "devolvidas": 882,
+     "espera_media": 206.711,
+     "espera_mediana": 185.958,
+     "cid_principais": [
+      [
+       "I50",
+       892
+      ],
+      [
+       "I25",
+       31
+      ],
+      [
+       "I42",
+       20
+      ],
+      [
+       "B57",
+       14
+      ],
+      [
+       "I10",
+       13
+      ],
+      [
+       "I21",
+       12
+      ],
+      [
+       "I34",
+       9
+      ],
+      [
+       "I11",
+       9
+      ],
+      [
+       "I35",
+       7
+      ],
+      [
+       "I48",
+       7
+      ]
+     ]
+    },
+    "I00-I99 (I*)": {
+     "fila": 1056,
+     "fila_viva": 1056,
+     "pessoas": 1056,
+     "pessoas_viva": 1056,
+     "devolvidas": 783,
+     "espera_media": 206.375,
+     "espera_mediana": 184.931,
+     "cid_principais": [
+      [
+       "I50",
+       892
+      ],
+      [
+       "I25",
+       31
+      ],
+      [
+       "I42",
+       20
+      ],
+      [
+       "I10",
+       13
+      ],
+      [
+       "I21",
+       12
+      ],
+      [
+       "I34",
+       9
+      ],
+      [
+       "I11",
+       9
+      ],
+      [
+       "I35",
+       7
+      ],
+      [
+       "I48",
+       7
+      ],
+      [
+       "I20",
+       6
+      ]
+     ]
+    },
+    "I20-I25": {
+     "fila": 51,
+     "fila_viva": 51,
+     "pessoas": 51,
+     "pessoas_viva": 51,
+     "devolvidas": 52,
+     "espera_media": 197.223,
+     "espera_mediana": 148.895,
+     "cid_principais": [
+      [
+       "I25",
+       31
+      ],
+      [
+       "I21",
+       12
+      ],
+      [
+       "I20",
+       6
+      ],
+      [
+       "I23",
+       2
+      ]
+     ]
+    },
+    "I20 e I25": {
+     "fila": 37,
+     "fila_viva": 37,
+     "pessoas": 37,
+     "pessoas_viva": 37,
+     "devolvidas": 38,
+     "espera_media": 223.496,
+     "espera_mediana": 278.943,
+     "cid_principais": [
+      [
+       "I25",
+       31
+      ],
+      [
+       "I20",
+       6
+      ]
+     ]
+    },
+    "I50": {
+     "fila": 892,
+     "fila_viva": 892,
+     "pessoas": 892,
+     "pessoas_viva": 892,
+     "devolvidas": 590,
+     "espera_media": 204.518,
+     "espera_mediana": 184.522,
+     "cid_principais": [
+      [
+       "I50",
+       892
+      ]
+     ]
+    },
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "fila": 921,
+     "fila_viva": 921,
+     "pessoas": 921,
+     "pessoas_viva": 921,
+     "devolvidas": 620,
+     "espera_media": 205.166,
+     "espera_mediana": 184.964,
+     "cid_principais": [
+      [
+       "I50",
+       892
+      ],
+      [
+       "I42",
+       20
+      ],
+      [
+       "I11",
+       6
+      ],
+      [
+       "I13",
+       2
+      ],
+      [
+       "I43",
+       1
+      ]
+     ]
+    },
+    "Z136, Z848": {
+     "fila": 0,
+     "fila_viva": 0,
+     "pessoas": 0,
+     "pessoas_viva": 0,
+     "devolvidas": 0,
+     "espera_media": null,
+     "espera_mediana": null,
+     "cid_principais": []
+    },
+    "Z018, Z488, Z489": {
+     "fila": 0,
+     "fila_viva": 0,
+     "pessoas": 0,
+     "pessoas_viva": 0,
+     "devolvidas": 0,
+     "espera_media": null,
+     "espera_mediana": null,
+     "cid_principais": []
+    }
+   }
+  }
+ },
+ "ocis": {
+  "09.02.01.001-8": {
+   "nome": "avaliação de risco cirúrgico",
+   "cid_aceito": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "finalidade_igual_ao_teto": true,
+   "recorte_teto": "Z136, Z848",
+   "recorte_finalidade": "Z136, Z848",
+   "filas": [
+    "ELETROCARDIOGRAMA",
+    "TORAX : PA E PERFIL",
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+   ],
+   "exames": [
+    "ELETROCARDIOGRAMA",
+    "TORAX : PA E PERFIL"
+   ],
+   "consultas": [
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+   ],
+   "obrigatorios_com_fila": [
+    "ELETROCARDIOGRAMA"
+   ],
+   "filas_genericas": [
+    "ELETROCARDIOGRAMA",
+    "TORAX : PA E PERFIL"
+   ],
+   "teto": {
+    "pessoas": 441,
+    "pessoas_viva": 307,
+    "fila": 447,
+    "fila_viva": 312,
+    "espera_media": 661.102,
+    "espera_mediana": 324.824,
+    "espera_max": 5120.202,
+    "devolvidas": 151,
+    "espera_media_viva": 250.045,
+    "espera_mediana_viva": 198.495
+   },
+   "finalidade": {
+    "pessoas": 441,
+    "pessoas_viva": 307,
+    "fila": 447,
+    "fila_viva": 312,
+    "espera_media": 661.102,
+    "espera_mediana": 324.824,
+    "espera_max": 5120.202,
+    "devolvidas": 151,
+    "espera_media_viva": 250.045,
+    "espera_mediana_viva": 198.495,
+    "pessoas_viva12": 238,
+    "pessoas_viva36": 367,
+    "fila_viva12": 242,
+    "fila_viva36": 372,
+    "idade_mediana": 52,
+    "mais_antiga": "18/10/2012",
+    "pessoas_18_ou_mais": 360
+   },
+   "variantes": {},
+   "nucleo": {
+    "pessoas": 387,
+    "pessoas_viva": 261,
+    "como": "exames obrigatórios com fila ao mesmo tempo (ECG)",
+    "a_consultas": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+     ],
+     "pessoas": 54,
+     "pessoas_viva": 46
+    },
+    "a_so_a_consulta_especifica": {
+     "fila": "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+     "pessoas": 54,
+     "pessoas_viva": 46
+    },
+    "b_exames_obrigatorios": {
+     "filas": [
+      "ELETROCARDIOGRAMA"
+     ],
+     "pessoas": 387,
+     "pessoas_viva": 261
+    }
+   },
+   "finalidade_sem_genericas": {
+    "filas": [
+     "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+    ],
+    "pessoas": 54,
+    "pessoas_viva": 46
+   },
+   "a_decidir": {
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO sem recorte de CID (P-08)": {
+     "fila": 9704,
+     "fila_viva": 8217,
+     "pessoas": 9630,
+     "pessoas_viva": 8150,
+     "pessoas_viva12": 4081,
+     "pessoas_viva36": 9546,
+     "espera_media": 428.468,
+     "espera_mediana": 423,
+     "espera_max": 1465,
+     "idade_mediana": 58,
+     "mais_exames_pessoas": 10011,
+     "mais_exames_pessoas_viva": 8408
+    }
+   }
+  },
+  "09.02.01.002-6": {
+   "nome": "avaliação cardiológica",
+   "cid_aceito": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "finalidade_igual_ao_teto": true,
+   "recorte_teto": "Z136, Z848",
+   "recorte_finalidade": "Z136, Z848",
+   "filas": [
+    "ELETROCARDIOGRAMA",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "exames": [
+    "ELETROCARDIOGRAMA",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+   ],
+   "consultas": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "obrigatorios_com_fila": [
+    "ELETROCARDIOGRAMA"
+   ],
+   "filas_genericas": [
+    "ELETROCARDIOGRAMA",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "teto": {
+    "pessoas": 502,
+    "pessoas_viva": 360,
+    "fila": 519,
+    "fila_viva": 376,
+    "espera_media": 589.952,
+    "espera_mediana": 256.922,
+    "espera_max": 5120.202,
+    "devolvidas": 344,
+    "espera_media_viva": 210.198,
+    "espera_mediana_viva": 164.95
+   },
+   "finalidade": {
+    "pessoas": 502,
+    "pessoas_viva": 360,
+    "fila": 519,
+    "fila_viva": 376,
+    "espera_media": 589.952,
+    "espera_mediana": 256.922,
+    "espera_max": 5120.202,
+    "devolvidas": 344,
+    "espera_media_viva": 210.198,
+    "espera_mediana_viva": 164.95,
+    "pessoas_viva12": 300,
+    "pessoas_viva36": 424,
+    "fila_viva12": 316,
+    "fila_viva36": 440,
+    "idade_mediana": 52,
+    "mais_antiga": "18/10/2012",
+    "pessoas_18_ou_mais": 420
+   },
+   "variantes": {},
+   "nucleo": {
+    "pessoas": 387,
+    "pessoas_viva": 261,
+    "como": "exames obrigatórios com fila ao mesmo tempo (ECG)",
+    "a_consultas": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO"
+     ],
+     "pessoas": 41,
+     "pessoas_viva": 25
+    },
+    "a_so_a_consulta_especifica": {
+     "fila": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "pessoas": 41,
+     "pessoas_viva": 25
+    },
+    "b_exames_obrigatorios": {
+     "filas": [
+      "ELETROCARDIOGRAMA"
+     ],
+     "pessoas": 387,
+     "pessoas_viva": 261
+    }
+   },
+   "finalidade_sem_genericas": {
+    "filas": [],
+    "pessoas": 0,
+    "pessoas_viva": 0
+   }
+  },
+  "09.02.01.003-4": {
+   "nome": "SCC, avaliação inicial",
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I25*\"}",
+   "finalidade_igual_ao_teto": false,
+   "recorte_teto": "I00-I99 (I*)",
+   "recorte_finalidade": "I20 e I25",
+   "filas": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CONSULTA EM CARDIOLOGIA - CORONARIA"
+   ],
+   "exames": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+   ],
+   "consultas": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CONSULTA EM CARDIOLOGIA - CORONARIA"
+   ],
+   "obrigatorios_com_fila": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2"
+   ],
+   "filas_genericas": [
+    "ELETROCARDIOGRAMA",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "teto": {
+    "pessoas": 28734,
+    "pessoas_viva": 23140,
+    "fila": 30911,
+    "fila_viva": 25018,
+    "espera_media": 511.628,
+    "espera_mediana": 206.862,
+    "espera_max": 5914.569,
+    "devolvidas": 19023,
+    "espera_media_viva": 218.536,
+    "espera_mediana_viva": 159.12
+   },
+   "finalidade": {
+    "pessoas": 3683,
+    "pessoas_viva": 3087,
+    "fila": 3931,
+    "fila_viva": 3323,
+    "espera_media": 364.396,
+    "espera_mediana": 159.918,
+    "espera_max": 5708.569,
+    "devolvidas": 2518,
+    "espera_media_viva": 172.997,
+    "espera_mediana_viva": 130.2,
+    "pessoas_viva12": 2659,
+    "pessoas_viva36": 3366,
+    "fila_viva12": 2869,
+    "fila_viva36": 3605,
+    "idade_mediana": 65,
+    "mais_antiga": "10/03/2011",
+    "pessoas_18_ou_mais": 3677
+   },
+   "variantes": {
+    "I20-I25": {
+     "pessoas": 4450,
+     "pessoas_viva": 3750,
+     "fila": 4772,
+     "fila_viva": 4051,
+     "espera_media": 354.571,
+     "espera_mediana": 162.935,
+     "espera_max": 5708.569,
+     "devolvidas": 3319,
+     "espera_media_viva": 177.04,
+     "espera_mediana_viva": 131.933,
+     "cid": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}"
+    }
+   },
+   "nucleo": {
+    "pessoas": 1437,
+    "pessoas_viva": 1133,
+    "como": "consulta de entrada (C_ADU + C_COR)",
+    "a_consultas": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "CONSULTA EM CARDIOLOGIA - CORONARIA"
+     ],
+     "pessoas": 1437,
+     "pessoas_viva": 1133
+    },
+    "a_so_a_consulta_especifica": {
+     "fila": "CONSULTA EM CARDIOLOGIA - CORONARIA",
+     "pessoas": 204,
+     "pessoas_viva": 204
+    },
+    "b_exames_obrigatorios": {
+     "filas": [
+      "ELETROCARDIOGRAMA",
+      "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2"
+     ],
+     "pessoas": 15,
+     "pessoas_viva": 15
+    }
+   },
+   "finalidade_sem_genericas": {
+    "filas": [
+     "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+     "CONSULTA EM CARDIOLOGIA - CORONARIA"
+    ],
+    "pessoas": 745,
+    "pessoas_viva": 503
+   }
+  },
+  "09.02.01.004-2": {
+   "nome": "SCC, progressão I",
+   "cid_aceito": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "finalidade_igual_ao_teto": true,
+   "recorte_teto": "I20-I25",
+   "recorte_finalidade": "I20-I25",
+   "filas": [
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "exames": [
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+   ],
+   "consultas": [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "obrigatorios_com_fila": [
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+   ],
+   "filas_genericas": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "teto": {
+    "pessoas": 2055,
+    "pessoas_viva": 1651,
+    "fila": 2097,
+    "fila_viva": 1691,
+    "espera_media": 375.988,
+    "espera_mediana": 230.098,
+    "espera_max": 2049.932,
+    "devolvidas": 2337,
+    "espera_media_viva": 230.923,
+    "espera_mediana_viva": 173.103
+   },
+   "finalidade": {
+    "pessoas": 2055,
+    "pessoas_viva": 1651,
+    "fila": 2097,
+    "fila_viva": 1691,
+    "espera_media": 375.988,
+    "espera_mediana": 230.098,
+    "espera_max": 2049.932,
+    "devolvidas": 2337,
+    "espera_media_viva": 230.923,
+    "espera_mediana_viva": 173.103,
+    "pessoas_viva12": 1233,
+    "pessoas_viva36": 1988,
+    "fila_viva12": 1269,
+    "fila_viva36": 2029,
+    "idade_mediana": 64,
+    "mais_antiga": "15/03/2021",
+    "pessoas_18_ou_mais": 2053
+   },
+   "variantes": {
+    "I20 e I25": {
+     "pessoas": 1466,
+     "pessoas_viva": 1162,
+     "fila": 1491,
+     "fila_viva": 1186,
+     "espera_media": 386.592,
+     "espera_mediana": 239.351,
+     "espera_max": 2049.932,
+     "devolvidas": 1838,
+     "espera_media_viva": 232.354,
+     "espera_mediana_viva": 179.032,
+     "cid": "codigo_cid_solicitado={\"I20*\",\"I25*\"}"
+    }
+   },
+   "nucleo": {
+    "pessoas": 2026,
+    "pessoas_viva": 1621,
+    "como": "consulta de entrada (C_COR + C_ADU)",
+    "a_consultas": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - CORONARIA",
+      "CONSULTA EM CARDIOLOGIA - ADULTO"
+     ],
+     "pessoas": 2026,
+     "pessoas_viva": 1621
+    },
+    "a_so_a_consulta_especifica": {
+     "fila": "CONSULTA EM CARDIOLOGIA - CORONARIA",
+     "pessoas": 271,
+     "pessoas_viva": 271
+    },
+    "b_exames_obrigatorios": {
+     "filas": [
+      "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+     ],
+     "pessoas": 32,
+     "pessoas_viva": 32
+    }
+   },
+   "finalidade_sem_genericas": {
+    "filas": [
+     "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+     "CONSULTA EM CARDIOLOGIA - CORONARIA"
+    ],
+    "pessoas": 303,
+    "pessoas_viva": 303
+   }
+  },
+  "09.02.01.005-0": {
+   "nome": "SCC, progressão II",
+   "cid_aceito": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "finalidade_igual_ao_teto": true,
+   "recorte_teto": "I20-I25",
+   "recorte_finalidade": "I20-I25",
+   "filas": [
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "exames": [
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)"
+   ],
+   "consultas": [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "obrigatorios_com_fila": [
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)"
+   ],
+   "filas_genericas": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "teto": {
+    "pessoas": 3310,
+    "pessoas_viva": 2911,
+    "fila": 4314,
+    "fila_viva": 3908,
+    "espera_media": 330.396,
+    "espera_mediana": 292.19,
+    "espera_max": 2049.932,
+    "devolvidas": 1746,
+    "espera_media_viva": 262.672,
+    "espera_mediana_viva": 247.092
+   },
+   "finalidade": {
+    "pessoas": 3310,
+    "pessoas_viva": 2911,
+    "fila": 4314,
+    "fila_viva": 3908,
+    "espera_media": 330.396,
+    "espera_mediana": 292.19,
+    "espera_max": 2049.932,
+    "devolvidas": 1746,
+    "espera_media_viva": 262.672,
+    "espera_mediana_viva": 247.092,
+    "pessoas_viva12": 1909,
+    "pessoas_viva36": 3243,
+    "fila_viva12": 2395,
+    "fila_viva36": 4246,
+    "idade_mediana": 65,
+    "mais_antiga": "15/03/2021",
+    "pessoas_18_ou_mais": 3308
+   },
+   "variantes": {
+    "I20 e I25": {
+     "pessoas": 2696,
+     "pessoas_viva": 2396,
+     "fila": 3639,
+     "fila_viva": 3334,
+     "espera_media": 328.292,
+     "espera_mediana": 324.886,
+     "espera_max": 2049.932,
+     "devolvidas": 1275,
+     "espera_media_viva": 267.894,
+     "espera_mediana_viva": 264.138,
+     "cid": "codigo_cid_solicitado={\"I20*\",\"I25*\"}"
+    }
+   },
+   "nucleo": {
+    "pessoas": 2026,
+    "pessoas_viva": 1621,
+    "como": "consulta de entrada (C_COR + C_ADU)",
+    "a_consultas": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - CORONARIA",
+      "CONSULTA EM CARDIOLOGIA - ADULTO"
+     ],
+     "pessoas": 2026,
+     "pessoas_viva": 1621
+    },
+    "a_so_a_consulta_especifica": {
+     "fila": "CONSULTA EM CARDIOLOGIA - CORONARIA",
+     "pessoas": 271,
+     "pessoas_viva": 271
+    },
+    "b_exames_obrigatorios": {
+     "filas": [
+      "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)"
+     ],
+     "pessoas": 917,
+     "pessoas_viva": 917
+    }
+   },
+   "finalidade_sem_genericas": {
+    "filas": [
+     "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+     "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+     "CONSULTA EM CARDIOLOGIA - CORONARIA"
+    ],
+    "pessoas": 1595,
+    "pessoas_viva": 1595
+   }
+  },
+  "09.02.01.006-9": {
+   "nome": "insuficiência cardíaca",
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\"}",
+   "finalidade_igual_ao_teto": false,
+   "recorte_teto": "I00-I99 (I*)",
+   "recorte_finalidade": "I50",
+   "filas": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "HOLTER 24 HORAS",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA"
+   ],
+   "exames": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "HOLTER 24 HORAS",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+   ],
+   "consultas": [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA"
+   ],
+   "obrigatorios_com_fila": [
+    "ELETROCARDIOGRAMA",
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    "HOLTER 24 HORAS"
+   ],
+   "filas_genericas": [
+    "ELETROCARDIOGRAMA",
+    "HOLTER 24 HORAS",
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    "CONSULTA EM CARDIOLOGIA - ADULTO"
+   ],
+   "teto": {
+    "pessoas": 50055,
+    "pessoas_viva": 29097,
+    "fila": 56945,
+    "fila_viva": 33300,
+    "espera_media": 1005.644,
+    "espera_mediana": 737.969,
+    "espera_max": 5914.569,
+    "devolvidas": 21796,
+    "espera_media_viva": 266.072,
+    "espera_mediana_viva": 200.085
+   },
+   "finalidade": {
+    "pessoas": 6510,
+    "pessoas_viva": 4620,
+    "fila": 7259,
+    "fila_viva": 5132,
+    "espera_media": 762.767,
+    "espera_mediana": 430.88,
+    "espera_max": 5197.979,
+    "devolvidas": 3492,
+    "espera_media_viva": 222.535,
+    "espera_mediana_viva": 169.837,
+    "pessoas_viva12": 3764,
+    "pessoas_viva36": 5204,
+    "fila_viva12": 4193,
+    "fila_viva36": 5795,
+    "idade_mediana": 67,
+    "mais_antiga": "01/08/2012",
+    "pessoas_18_ou_mais": 6502
+   },
+   "variantes": {
+    "IC ampliada (I50, I110, I130, I132, I42, I43)": {
+     "pessoas": 7092,
+     "pessoas_viva": 4982,
+     "fila": 7905,
+     "fila_viva": 5529,
+     "espera_media": 775.551,
+     "espera_mediana": 447.162,
+     "espera_max": 5197.979,
+     "devolvidas": 3833,
+     "espera_media_viva": 225.314,
+     "espera_mediana_viva": 170.239,
+     "cid": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\",\"I42*\",\"I43*\"}"
+    }
+   },
+   "nucleo": {
+    "pessoas": 2077,
+    "pessoas_viva": 1793,
+    "como": "consulta de entrada (C_ADU + C_IC)",
+    "a_consultas": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA"
+     ],
+     "pessoas": 2077,
+     "pessoas_viva": 1793
+    },
+    "a_so_a_consulta_especifica": {
+     "fila": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "pessoas": 892,
+     "pessoas_viva": 892
+    },
+    "b_exames_obrigatorios": {
+     "filas": [
+      "ELETROCARDIOGRAMA",
+      "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+      "HOLTER 24 HORAS"
+     ],
+     "pessoas": 1,
+     "pessoas_viva": 0
+    }
+   },
+   "finalidade_sem_genericas": {
+    "filas": [
+     "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+     "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA"
+    ],
+    "pessoas": 969,
+    "pessoas_viva": 957
+   }
+  },
+  "09.02.01.007-7": {
+   "nome": "gestão do pré-operatório",
+   "cid_aceito": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}",
+   "finalidade_igual_ao_teto": true,
+   "recorte_teto": "Z018, Z488, Z489",
+   "recorte_finalidade": "Z018, Z488, Z489",
+   "filas": [
+    "ELETROCARDIOGRAMA",
+    "TORAX : PA E PERFIL",
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+   ],
+   "exames": [
+    "ELETROCARDIOGRAMA",
+    "TORAX : PA E PERFIL"
+   ],
+   "consultas": [
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+   ],
+   "obrigatorios_com_fila": [],
+   "filas_genericas": [
+    "ELETROCARDIOGRAMA",
+    "TORAX : PA E PERFIL"
+   ],
+   "teto": {
+    "pessoas": 136,
+    "pessoas_viva": 130,
+    "fila": 142,
+    "fila_viva": 136,
+    "espera_media": 234.712,
+    "espera_mediana": 150.106,
+    "espera_max": 933.872,
+    "devolvidas": 33,
+    "espera_media_viva": 201.46,
+    "espera_mediana_viva": 144.691
+   },
+   "finalidade": {
+    "pessoas": 136,
+    "pessoas_viva": 130,
+    "fila": 142,
+    "fila_viva": 136,
+    "espera_media": 234.712,
+    "espera_mediana": 150.106,
+    "espera_max": 933.872,
+    "devolvidas": 33,
+    "espera_media_viva": 201.46,
+    "espera_mediana_viva": 144.691,
+    "pessoas_viva12": 103,
+    "pessoas_viva36": 136,
+    "fila_viva12": 109,
+    "fila_viva36": 142,
+    "idade_mediana": 61,
+    "mais_antiga": "04/04/2024",
+    "pessoas_18_ou_mais": 135
+   },
+   "variantes": {},
+   "nucleo": {
+    "pessoas": 87,
+    "pessoas_viva": 86,
+    "como": "consulta de entrada (C_RC)",
+    "a_consultas": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+     ],
+     "pessoas": 87,
+     "pessoas_viva": 86
+    },
+    "a_so_a_consulta_especifica": {
+     "fila": "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+     "pessoas": 87,
+     "pessoas_viva": 86
+    },
+    "b_exames_obrigatorios": {
+     "filas": [],
+     "nota": "a 007-7 não tem componente obrigatório"
+    }
+   },
+   "finalidade_sem_genericas": {
+    "filas": [
+     "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+    ],
+    "pessoas": 87,
+    "pessoas_viva": 86
+   },
+   "a_decidir": {
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO sem recorte de CID (a mesma da 001-8)": {
+     "fila": 9704,
+     "fila_viva": 8217,
+     "pessoas": 9630,
+     "pessoas_viva": 8150,
+     "pessoas_viva12": 4081,
+     "pessoas_viva36": 9546,
+     "espera_media": 428.468,
+     "espera_mediana": 423,
+     "espera_max": 1465,
+     "idade_mediana": 58,
+     "mais_exames_pessoas": 10011,
+     "mais_exames_pessoas_viva": 8408
+    }
+   }
+  }
+ },
+ "regiao_finalidade": {
+  "cols": [
+   "09.02.01.001-8 fila",
+   "09.02.01.001-8 pessoas",
+   "09.02.01.001-8 pessoas viva",
+   "09.02.01.002-6 fila",
+   "09.02.01.002-6 pessoas",
+   "09.02.01.002-6 pessoas viva",
+   "09.02.01.003-4 fila",
+   "09.02.01.003-4 pessoas",
+   "09.02.01.003-4 pessoas viva",
+   "09.02.01.004-2 fila",
+   "09.02.01.004-2 pessoas",
+   "09.02.01.004-2 pessoas viva",
+   "09.02.01.005-0 fila",
+   "09.02.01.005-0 pessoas",
+   "09.02.01.005-0 pessoas viva",
+   "09.02.01.006-9 fila",
+   "09.02.01.006-9 pessoas",
+   "09.02.01.006-9 pessoas viva",
+   "09.02.01.007-7 fila",
+   "09.02.01.007-7 pessoas",
+   "09.02.01.007-7 pessoas viva"
+  ],
+  "rows": [
+   [
+    "Região Central",
+    145,
+    143,
+    54,
+    163,
+    159,
+    70,
+    237,
+    219,
+    158,
+    43,
+    42,
+    34,
+    144,
+    116,
+    108,
+    268,
+    243,
+    194,
+    5,
+    4,
+    4
+   ],
+   [
+    "Região Centro-Sul",
+    66,
+    66,
+    48,
+    72,
+    68,
+    51,
+    468,
+    447,
+    350,
+    272,
+    270,
+    182,
+    503,
+    387,
+    301,
+    965,
+    842,
+    516,
+    21,
+    20,
+    19
+   ],
+   [
+    "Região Leste",
+    41,
+    41,
+    32,
+    50,
+    49,
+    38,
+    250,
+    233,
+    204,
+    212,
+    207,
+    204,
+    241,
+    231,
+    228,
+    492,
+    450,
+    302,
+    8,
+    8,
+    8
+   ],
+   [
+    "Região Norte",
+    15,
+    14,
+    14,
+    13,
+    12,
+    12,
+    382,
+    360,
+    330,
+    319,
+    315,
+    311,
+    418,
+    381,
+    377,
+    646,
+    598,
+    422,
+    24,
+    22,
+    22
+   ],
+   [
+    "Região Oeste",
+    37,
+    37,
+    23,
+    45,
+    45,
+    31,
+    357,
+    330,
+    302,
+    57,
+    56,
+    56,
+    141,
+    123,
+    123,
+    627,
+    569,
+    515,
+    27,
+    26,
+    21
+   ],
+   [
+    "Região Sudoeste",
+    52,
+    51,
+    48,
+    49,
+    45,
+    40,
+    846,
+    781,
+    683,
+    424,
+    415,
+    382,
+    585,
+    528,
+    495,
+    1075,
+    980,
+    812,
+    45,
+    44,
+    44
+   ],
+   [
+    "Região Sul",
+    72,
+    70,
+    69,
+    101,
+    98,
+    92,
+    655,
+    623,
+    378,
+    655,
+    648,
+    382,
+    712,
+    690,
+    424,
+    1094,
+    1013,
+    516,
+    9,
+    9,
+    9
+   ],
+   [
+    "URD",
+    0,
+    0,
+    0,
+    3,
+    3,
+    3,
+    533,
+    516,
+    511,
+    103,
+    103,
+    103,
+    417,
+    292,
+    292,
+    1186,
+    1106,
+    830,
+    0,
+    0,
+    0
+   ],
+   [
+    "Contratado/Credenciado",
+    0,
+    0,
+    0,
+    3,
+    3,
+    3,
+    192,
+    191,
+    187,
+    2,
+    2,
+    2,
+    1139,
+    588,
+    588,
+    859,
+    782,
+    533,
+    0,
+    0,
+    0
+   ],
+   [
+    "-",
+    19,
+    19,
+    19,
+    20,
+    20,
+    20,
+    11,
+    10,
+    8,
+    10,
+    10,
+    7,
+    14,
+    13,
+    10,
+    47,
+    46,
+    44,
+    3,
+    3,
+    3
+   ]
+  ],
+  "sem": [
+   19,
+   19,
+   19,
+   20,
+   20,
+   20,
+   11,
+   10,
+   8,
+   10,
+   10,
+   7,
+   14,
+   13,
+   10,
+   47,
+   46,
+   44,
+   3,
+   3,
+   3
+  ]
+ },
+ "sobreposicao_finalidade": {
+  "uniao_pessoas": 12380,
+  "uniao_pessoas_viva": 9714,
+  "uniao_fila": 14796,
+  "uniao_fila_viva": 11803,
+  "distribuicao": {
+   "1": 9655,
+   "2": 1246,
+   "3": 1426,
+   "4": 53
+  },
+  "pares": {
+   "09.02.01.001-8 x 09.02.01.002-6": 387,
+   "09.02.01.001-8 x 09.02.01.003-4": 0,
+   "09.02.01.001-8 x 09.02.01.004-2": 0,
+   "09.02.01.001-8 x 09.02.01.005-0": 3,
+   "09.02.01.001-8 x 09.02.01.006-9": 7,
+   "09.02.01.001-8 x 09.02.01.007-7": 1,
+   "09.02.01.002-6 x 09.02.01.003-4": 1,
+   "09.02.01.002-6 x 09.02.01.004-2": 1,
+   "09.02.01.002-6 x 09.02.01.005-0": 3,
+   "09.02.01.002-6 x 09.02.01.006-9": 5,
+   "09.02.01.002-6 x 09.02.01.007-7": 1,
+   "09.02.01.003-4 x 09.02.01.004-2": 1458,
+   "09.02.01.003-4 x 09.02.01.005-0": 1603,
+   "09.02.01.003-4 x 09.02.01.006-9": 117,
+   "09.02.01.003-4 x 09.02.01.007-7": 2,
+   "09.02.01.004-2 x 09.02.01.005-0": 2026,
+   "09.02.01.004-2 x 09.02.01.006-9": 64,
+   "09.02.01.004-2 x 09.02.01.007-7": 1,
+   "09.02.01.005-0 x 09.02.01.006-9": 157,
+   "09.02.01.005-0 x 09.02.01.007-7": 1,
+   "09.02.01.006-9 x 09.02.01.007-7": 4
+  },
+  "teto_uniao_pessoas": 51632,
+  "teto_uniao_pessoas_viva": 30717,
+  "teto_uniao_fila": 60239,
+  "var_uniao_pessoas": 13131,
+  "conferencia_P_erg_hol_I": 382,
+  "conferencia_Aggr_erg_hol_I": 382,
+  "cintilografias_duas_sem_recorte_pessoas": 1316
+ },
+ "pessoas_por_ano": {
+  "cols": [
+   "09.02.01.001-8 finalidade pessoas",
+   "09.02.01.001-8 teto pessoas",
+   "09.02.01.002-6 finalidade pessoas",
+   "09.02.01.002-6 teto pessoas",
+   "09.02.01.003-4 finalidade pessoas",
+   "09.02.01.003-4 teto pessoas",
+   "09.02.01.004-2 finalidade pessoas",
+   "09.02.01.004-2 teto pessoas",
+   "09.02.01.005-0 finalidade pessoas",
+   "09.02.01.005-0 teto pessoas",
+   "09.02.01.006-9 finalidade pessoas",
+   "09.02.01.006-9 teto pessoas",
+   "09.02.01.007-7 finalidade pessoas",
+   "09.02.01.007-7 teto pessoas"
+  ],
+  "rows": [
+   [
+    "2010",
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    0,
+    0
+   ],
+   [
+    "2011",
+    0,
+    0,
+    0,
+    0,
+    2,
+    28,
+    0,
+    0,
+    0,
+    0,
+    0,
+    28,
+    0,
+    0
+   ],
+   [
+    "2012",
+    1,
+    1,
+    1,
+    1,
+    8,
+    304,
+    0,
+    0,
+    0,
+    0,
+    14,
+    337,
+    0,
+    0
+   ],
+   [
+    "2013",
+    15,
+    15,
+    15,
+    15,
+    16,
+    577,
+    0,
+    0,
+    0,
+    0,
+    16,
+    702,
+    0,
+    0
+   ],
+   [
+    "2014",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    174,
+    0,
+    0
+   ],
+   [
+    "2015",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    15,
+    211,
+    0,
+    0
+   ],
+   [
+    "2016",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    307,
+    0,
+    0
+   ],
+   [
+    "2017",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    329,
+    0,
+    0
+   ],
+   [
+    "2018",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    8,
+    172,
+    0,
+    0
+   ],
+   [
+    "2019",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    62,
+    990,
+    0,
+    0
+   ],
+   [
+    "2020",
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    106,
+    1366,
+    0,
+    0
+   ],
+   [
+    "2021",
+    0,
+    0,
+    0,
+    0,
+    91,
+    251,
+    6,
+    6,
+    6,
+    6,
+    365,
+    3482,
+    0,
+    0
+   ],
+   [
+    "2022",
+    27,
+    27,
+    26,
+    26,
+    108,
+    890,
+    8,
+    8,
+    8,
+    8,
+    463,
+    4662,
+    0,
+    0
+   ],
+   [
+    "2023",
+    38,
+    38,
+    43,
+    43,
+    156,
+    1436,
+    122,
+    122,
+    122,
+    122,
+    525,
+    5189,
+    0,
+    0
+   ],
+   [
+    "2024",
+    69,
+    69,
+    70,
+    70,
+    269,
+    3059,
+    315,
+    315,
+    315,
+    315,
+    613,
+    6684,
+    9,
+    9
+   ],
+   [
+    "2025",
+    83,
+    83,
+    77,
+    77,
+    494,
+    5812,
+    452,
+    452,
+    1147,
+    1147,
+    1050,
+    9317,
+    31,
+    31
+   ],
+   [
+    "2026",
+    209,
+    209,
+    270,
+    270,
+    2570,
+    16923,
+    1159,
+    1159,
+    1745,
+    1745,
+    3546,
+    19262,
+    96,
+    96
+   ]
+  ]
+ },
+ "cid_so_categoria_Z13_Z84_Z01_Z48": [
+  [
+   "HOLTER 24 HORAS",
+   82,
+   82
+  ],
+  [
+   "CONSULTA EM CARDIOLOGIA - ADULTO",
+   25,
+   25
+  ],
+  [
+   "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+   271,
+   269
+  ],
+  [
+   "ELETROCARDIOGRAMA",
+   338,
+   338
+  ],
+  [
+   "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+   58,
+   58
+  ],
+  [
+   "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+   6,
+   6
+  ],
+  [
+   "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+   5,
+   5
+  ],
+  [
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   71,
+   71
+  ],
+  [
+   "CONSULTA EM CARDIOLOGIA - CORONARIA",
+   1,
+   1
+  ],
+  [
+   "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+   1,
+   1
+  ],
+  [
+   "TORAX : PA E PERFIL",
+   13,
+   13
+  ]
+ ],
+ "alarmes": [
+  [
+   "CID raro",
+   "09.02.01.001-8",
+   null,
+   "a finalidade pega 447 de 30686 solicitações das filas da composição (1.5%)"
+  ],
+  [
+   "fila velha",
+   "09.02.01.001-8",
+   null,
+   "134 de 441 pessoas da finalidade (30.4%) só têm pedido de antes de 25/10/2024; o pedido mais antigo é de 18/10/2012"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.001-8",
+   "ELETROCARDIOGRAMA",
+   "ELETROCARDIOGRAMA na composição da 09.02.01.001-8"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.001-8",
+   "TORAX : PA E PERFIL",
+   "TORAX : PA E PERFIL na composição da 09.02.01.001-8"
+  ],
+  [
+   "CID raro",
+   "09.02.01.002-6",
+   null,
+   "a finalidade pega 519 de 44904 solicitações das filas da composição (1.2%)"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.002-6",
+   "ELETROCARDIOGRAMA",
+   "ELETROCARDIOGRAMA na composição da 09.02.01.002-6"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.002-6",
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO na composição da 09.02.01.002-6"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.002-6",
+   "CONSULTA EM CARDIOLOGIA - ADULTO",
+   "CONSULTA EM CARDIOLOGIA - ADULTO na composição da 09.02.01.002-6"
+  ],
+  [
+   "CID largo",
+   "09.02.01.003-4",
+   null,
+   "o CID aceito é o capítulo I inteiro (I*, 77 categorias na ficha)"
+  ],
+  [
+   "CID dominante",
+   "09.02.01.003-4",
+   "ELETROCARDIOGRAMA",
+   "I10 em 88% de ELETROCARDIOGRAMA no teto (10223 de 11662)"
+  ],
+  [
+   "CID dominante",
+   "09.02.01.003-4",
+   "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+   "I10 em 49% de TESTE DE ESFORCO OU TESTE ERGOMETRICO 2 no teto (835 de 1707)"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.003-4",
+   "ELETROCARDIOGRAMA",
+   "ELETROCARDIOGRAMA na composição da 09.02.01.003-4"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.003-4",
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO na composição da 09.02.01.003-4"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.003-4",
+   "CONSULTA EM CARDIOLOGIA - ADULTO",
+   "CONSULTA EM CARDIOLOGIA - ADULTO na composição da 09.02.01.003-4"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.004-2",
+   "CONSULTA EM CARDIOLOGIA - ADULTO",
+   "CONSULTA EM CARDIOLOGIA - ADULTO na composição da 09.02.01.004-2"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.005-0",
+   "CONSULTA EM CARDIOLOGIA - ADULTO",
+   "CONSULTA EM CARDIOLOGIA - ADULTO na composição da 09.02.01.005-0"
+  ],
+  [
+   "CID largo",
+   "09.02.01.006-9",
+   null,
+   "o CID aceito é o capítulo I inteiro (I*, 77 categorias na ficha)"
+  ],
+  [
+   "CID dominante",
+   "09.02.01.006-9",
+   "ELETROCARDIOGRAMA",
+   "I10 em 88% de ELETROCARDIOGRAMA no teto (10223 de 11662)"
+  ],
+  [
+   "CID dominante",
+   "09.02.01.006-9",
+   "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+   "I10 em 49% de TESTE DE ESFORCO OU TESTE ERGOMETRICO 2 no teto (835 de 1707)"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.006-9",
+   "ELETROCARDIOGRAMA",
+   "ELETROCARDIOGRAMA na composição da 09.02.01.006-9"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.006-9",
+   "HOLTER 24 HORAS",
+   "HOLTER 24 HORAS na composição da 09.02.01.006-9"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.006-9",
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO na composição da 09.02.01.006-9"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.006-9",
+   "CONSULTA EM CARDIOLOGIA - ADULTO",
+   "CONSULTA EM CARDIOLOGIA - ADULTO na composição da 09.02.01.006-9"
+  ],
+  [
+   "CID raro",
+   "09.02.01.007-7",
+   null,
+   "a finalidade pega 142 de 30686 solicitações das filas da composição (0.5%)"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.007-7",
+   "ELETROCARDIOGRAMA",
+   "ELETROCARDIOGRAMA na composição da 09.02.01.007-7"
+  ],
+  [
+   "fila genérica",
+   "09.02.01.007-7",
+   "TORAX : PA E PERFIL",
+   "TORAX : PA E PERFIL na composição da 09.02.01.007-7"
+  ],
+  [
+   "estoque",
+   null,
+   "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+   "1720 na fila e 365 agendadas em 12 meses: 4.7 anos de agendamentos (viva: 4.7)"
+  ],
+  [
+   "estoque",
+   null,
+   "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+   "1484 na fila e 347 agendadas em 12 meses: 4.3 anos de agendamentos (viva: 4.3)"
+  ],
+  [
+   "estoque",
+   null,
+   "HOLTER 24 HORAS",
+   "36178 na fila e 2739 agendadas em 12 meses: 13.2 anos de agendamentos (viva: 4.1)"
+  ]
+ ],
+ "diferenca_20261022": {
+  "nota": "coleta de 22/10/2026 (recarga 08:32, método anterior): pessoas \"exames + consultas\" com o CID aceito, o mesmo conjunto do teto de agora",
+  "ocis": {
+   "09.02.01.001-8": {
+    "22/10 exames + consultas": 442,
+    "25/10 teto": 441,
+    "diferenca_teto": -1,
+    "25/10 finalidade": 441,
+    "25/10 finalidade viva": 307
+   },
+   "09.02.01.002-6": {
+    "22/10 exames + consultas": 504,
+    "25/10 teto": 502,
+    "diferenca_teto": -2,
+    "25/10 finalidade": 502,
+    "25/10 finalidade viva": 360
+   },
+   "09.02.01.003-4": {
+    "22/10 exames + consultas": 29111,
+    "25/10 teto": 28734,
+    "diferenca_teto": -377,
+    "25/10 finalidade": 3683,
+    "25/10 finalidade viva": 3087
+   },
+   "09.02.01.004-2": {
+    "22/10 exames + consultas": 2119,
+    "25/10 teto": 2055,
+    "diferenca_teto": -64,
+    "25/10 finalidade": 2055,
+    "25/10 finalidade viva": 1651
+   },
+   "09.02.01.005-0": {
+    "22/10 exames + consultas": 3413,
+    "25/10 teto": 3310,
+    "diferenca_teto": -103,
+    "25/10 finalidade": 3310,
+    "25/10 finalidade viva": 2911
+   },
+   "09.02.01.006-9": {
+    "22/10 exames + consultas": 50317,
+    "25/10 teto": 50055,
+    "diferenca_teto": -262,
+    "25/10 finalidade": 6510,
+    "25/10 finalidade viva": 4620
+   },
+   "09.02.01.007-7": {
+    "22/10 exames + consultas": 132,
+    "25/10 teto": 136,
+    "diferenca_teto": 4,
+    "25/10 finalidade": 136,
+    "25/10 finalidade viva": 130
+   }
+  },
+  "uniao": {
+   "22/10 exames + consultas": 51918,
+   "25/10 teto": 51632,
+   "25/10 teto viva": 30717,
+   "25/10 finalidade": 12380,
+   "25/10 finalidade viva": 9714
+  },
+  "filas": {
+   "HOLTER 24 HORAS": {
+    "22/10 fila": 36152,
+    "25/10 fila": 36178,
+    "22/10 pessoas": 36121,
+    "25/10 pessoas": 36147
+   },
+   "CONSULTA EM CARDIOLOGIA - ADULTO": {
+    "22/10 fila": 11425,
+    "25/10 fila": 11114,
+    "22/10 pessoas": 11409,
+    "25/10 pessoas": 11099
+   },
+   "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO": {
+    "22/10 fila": 10123,
+    "25/10 fila": 9704,
+    "22/10 pessoas": 10041,
+    "25/10 pessoas": 9630
+   },
+   "ELETROCARDIOGRAMA": {
+    "22/10 fila": 20194,
+    "25/10 fila": 20313,
+    "22/10 pessoas": 20174,
+    "25/10 pessoas": 20293
+   },
+   "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2": {
+    "22/10 fila": 3183,
+    "25/10 fila": 3159,
+    "22/10 pessoas": 3183,
+    "25/10 pessoas": 3159
+   },
+   "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)": {
+    "22/10 fila": 1510,
+    "25/10 fila": 1484,
+    "22/10 pessoas": 1510,
+    "25/10 pessoas": 1484
+   },
+   "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)": {
+    "22/10 fila": 1824,
+    "25/10 fila": 1720,
+    "22/10 pessoas": 1824,
+    "25/10 pessoas": 1720
+   },
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO": {
+    "22/10 fila": 13676,
+    "25/10 fila": 13477,
+    "22/10 pessoas": 13676,
+    "25/10 pessoas": 13477
+   },
+   "CONSULTA EM CARDIOLOGIA - CORONARIA": {
+    "22/10 fila": 322,
+    "25/10 fila": 320,
+    "22/10 pessoas": 322,
+    "25/10 pessoas": 320
+   },
+   "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO": {
+    "22/10 fila": 67,
+    "25/10 fila": 69,
+    "22/10 pessoas": 67,
+    "25/10 pessoas": 69
+   },
+   "TORAX : PA E PERFIL": {
+    "22/10 fila": 653,
+    "25/10 fila": 669,
+    "22/10 pessoas": 653,
+    "25/10 pessoas": 669
+   },
+   "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA": {
+    "22/10 fila": 1090,
+    "25/10 fila": 1105,
+    "22/10 pessoas": 1090,
+    "25/10 pessoas": 1105
+   }
+  }
+ },
+ "varredura": {
+  "nota": "Varredura das filas, saída do motor como veio (25/10/2026, mesma sessão). Solicitações: hipercubo sobre descrição_procedimento_solicitacao, 1.570 nomes; guardadas as 125 filas de nome cardiológico (CARDI, ECOCARD, HOLTER, ERGOMETR, ESFORCO, CINTILOGRAFIA DE MIOC, CORONAR, MACC, TORAX : PA E PERFIL) ou com fila I* >= 50, ou I20-I25 >= 5, ou I50 >= 5, ou Z136/Z848 >= 1, ou Z018/Z488/Z489 >= 1. Agendamentos: hipercubo sobre descrição_procedimento_agendamento, 2.247 nomes; guardadas as 132 de nome cardiológico ou com agendadas em 12 meses (25/10/2025 a 24/10/2026) I* >= 100, ou I20-I25 >= 10, ou I50 >= 10, ou Z136/Z848 >= 2, ou Z018/Z488/Z489 >= 2. Fila = os três status; devolvidas à parte. 'primeiro agendamento' em número de série (dias desde 30/12/1899). codigo_sigtap 0 = sem código. Grafia: o espaço não separável (U+00A0) das cinco angiotomografias (coronárias adulto e infantil, aorta torácica, aorta abdominal, abdome superior) chegou como espaço comum na saída do navegador e foi reposto aqui no lugar exato que o motor mostrou (conferido no motor, 25/10/2026).",
+  "solicitacoes_cols": [
+   "nome",
+   "fila NONE",
+   "fila I",
+   "fila ISC",
+   "fila SCC",
+   "fila IC",
+   "fila ICA",
+   "fila ZAV",
+   "fila ZPO",
+   "fila viva 24m NONE",
+   "devolvidas",
+   "devolvidas I",
+   "codigo_sigtap"
+  ],
+  "solicitacoes": [
+   [
+    "ECOGRAFIA TRANSVAGINAL",
+    9632,
+    27,
+    0,
+    0,
+    0,
+    1,
+    0,
+    5,
+    6016,
+    8948,
+    75,
+    205020186
+   ],
+   [
+    "HOLTER 24 HORAS",
+    36178,
+    25271,
+    2854,
+    2592,
+    2532,
+    2813,
+    99,
+    2,
+    11115,
+    3493,
+    2457,
+    211020044
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    11114,
+    8097,
+    1794,
+    1256,
+    1253,
+    1430,
+    41,
+    5,
+    8250,
+    8740,
+    6058,
+    301010072
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+    9704,
+    1765,
+    33,
+    26,
+    29,
+    34,
+    55,
+    87,
+    8217,
+    4247,
+    423,
+    301010072
+   ],
+   [
+    "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL",
+    12715,
+    10605,
+    683,
+    631,
+    497,
+    537,
+    36,
+    0,
+    6286,
+    1411,
+    1155,
+    211020052
+   ],
+   [
+    "005. RM DE CRANIO ADULTO S/CONTRASTE S/SEDACAO",
+    673,
+    50,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    673,
+    567,
+    72,
+    207010064
+   ],
+   [
+    "ELETROCARDIOGRAMA",
+    20313,
+    11662,
+    279,
+    253,
+    141,
+    155,
+    388,
+    46,
+    15131,
+    5221,
+    3124,
+    211020036
+   ],
+   [
+    "COLONOSCOPIA",
+    22597,
+    539,
+    4,
+    4,
+    5,
+    5,
+    0,
+    1,
+    19908,
+    4041,
+    155,
+    209010029
+   ],
+   [
+    "ECOGRAFIA DE ABDOMEN TOTAL ADULTO",
+    10083,
+    199,
+    19,
+    18,
+    19,
+    19,
+    1,
+    7,
+    7575,
+    11568,
+    327,
+    205020046
+   ],
+   [
+    "CONSULTA EM FISIOTERAPIA/REABILITACAO ORTOPEDICA/REUMATOLOGICA",
+    24205,
+    87,
+    1,
+    0,
+    3,
+    3,
+    0,
+    1,
+    15817,
+    5364,
+    376,
+    301010048
+   ],
+   [
+    "CONSULTA EM OFTALMOLOGIA - GERAL",
+    17626,
+    933,
+    5,
+    4,
+    5,
+    5,
+    3,
+    0,
+    11058,
+    5424,
+    117,
+    301010072
+   ],
+   [
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    3159,
+    1707,
+    559,
+    542,
+    77,
+    87,
+    56,
+    2,
+    1662,
+    2198,
+    1243,
+    211020060
+   ],
+   [
+    "CONSULTA  EM CARDIOLOGIA - PEDIATRIA",
+    1808,
+    430,
+    6,
+    5,
+    6,
+    29,
+    6,
+    3,
+    1497,
+    513,
+    108,
+    301010072
+   ],
+   [
+    "9. ECOCARDIOGRAFIA FETAL",
+    35,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    35,
+    385,
+    23,
+    205010032
+   ],
+   [
+    "CONSULTA EM REABILITACAO FISICA  - ADULTO",
+    232,
+    85,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    232,
+    499,
+    101,
+    301010048
+   ],
+   [
+    "TILT TEST",
+    452,
+    40,
+    4,
+    4,
+    3,
+    4,
+    1,
+    0,
+    375,
+    83,
+    6,
+    0
+   ],
+   [
+    "CONSULTA EM FISIOTERAPIA DE NEURO-ADULTO",
+    1252,
+    540,
+    1,
+    0,
+    2,
+    2,
+    0,
+    0,
+    829,
+    280,
+    63,
+    301010048
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA  - CIRURGIA DA  AORTA",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    12,
+    12,
+    301010072
+   ],
+   [
+    "CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE",
+    50,
+    28,
+    19,
+    16,
+    3,
+    6,
+    0,
+    0,
+    50,
+    2,
+    2,
+    208010041
+   ],
+   [
+    "TORAX PA + LAT. + OBLIQUA",
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    5,
+    1,
+    0,
+    204030145
+   ],
+   [
+    "ATENDIMENTO MULTIDICIPLINAR EM CARDIOLOGIA E ENDOCRINOLOGIA - MACC",
+    239,
+    77,
+    17,
+    16,
+    5,
+    5,
+    0,
+    0,
+    239,
+    323,
+    129,
+    301010072
+   ],
+   [
+    "CONSULTA EM GENETICA",
+    3855,
+    33,
+    0,
+    0,
+    2,
+    6,
+    6,
+    0,
+    1977,
+    364,
+    2,
+    301010072
+   ],
+   [
+    "ANGIOTOMOGRAFIA DO CRANIO ADULTO S/SEDACAO",
+    372,
+    256,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    372,
+    256,
+    167,
+    206010079
+   ],
+   [
+    "ANGIOTOMOGRAFIA DA AORTA TORÁCICA E SEUS RAMOS  ADULTO S/SEDACAO ",
+    355,
+    301,
+    13,
+    10,
+    16,
+    16,
+    0,
+    0,
+    355,
+    176,
+    147,
+    206020031
+   ],
+   [
+    "ULTRA-SONOGRAFIA DOPPLER VENOSO - MMII ( BILATERAL)",
+    10003,
+    8770,
+    19,
+    14,
+    7,
+    7,
+    3,
+    2,
+    6026,
+    599,
+    485,
+    205010040
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA NEUROVASCULAR",
+    626,
+    545,
+    2,
+    2,
+    0,
+    2,
+    0,
+    0,
+    626,
+    206,
+    149,
+    301010072
+   ],
+   [
+    "ANGIOTOMOGRAFIA  DAS ARTÉRIAS CORONARIAS ADULTO S/SEDACAO",
+    1528,
+    1266,
+    886,
+    854,
+    128,
+    149,
+    9,
+    0,
+    1527,
+    138,
+    108,
+    206020031
+   ],
+   [
+    "ULTRASONOGRAFIA DE PAREDE ABDOMINAL",
+    3285,
+    6,
+    0,
+    0,
+    1,
+    2,
+    0,
+    2,
+    2183,
+    1280,
+    12,
+    205020046
+   ],
+   [
+    "CONSULTA EM NUTRIÇÃO",
+    5180,
+    89,
+    12,
+    9,
+    5,
+    5,
+    0,
+    0,
+    3422,
+    2734,
+    109,
+    301010048
+   ],
+   [
+    "ANGIOTOMOGRAFIA  DAS ARTÉRIAS CORONARIAS INFANTIL S/SEDACAO",
+    11,
+    2,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    11,
+    4,
+    0,
+    206020031
+   ],
+   [
+    "ANGIOTOMOGRAFIA DAS ARTERIAS CAROTIDAS E VERTEBRAIS ADULTO S/SEDACAO",
+    239,
+    201,
+    26,
+    24,
+    2,
+    2,
+    0,
+    0,
+    239,
+    130,
+    113,
+    206030010
+   ],
+   [
+    "ANGIOTOMOGRAFIA DA AORTA ABDOMINAL E DOS SEUS RAMOS ADULTO S/SEDACAO ",
+    315,
+    250,
+    5,
+    2,
+    6,
+    6,
+    0,
+    0,
+    315,
+    145,
+    120,
+    206030010
+   ],
+   [
+    "CONSULTA EM FISIOTERAPIA UROGINECOLOGICA -  ADULTO",
+    1089,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1089,
+    806,
+    3,
+    301010048
+   ],
+   [
+    "ANGIOTOMOGRAFIA DA PELVE ADULTO S/SEDACAO",
+    254,
+    156,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    254,
+    142,
+    80,
+    206030037
+   ],
+   [
+    "ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMII (BILATERAL)",
+    1786,
+    1462,
+    15,
+    14,
+    5,
+    5,
+    0,
+    1,
+    1347,
+    331,
+    267,
+    205010040
+   ],
+   [
+    "ANGIOTOMOGRAFIA DO PESCOCO ADULTO S/SEDACAO",
+    171,
+    139,
+    6,
+    6,
+    2,
+    2,
+    0,
+    0,
+    171,
+    188,
+    142,
+    206010052
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - HIPERTENSO/DIABETICO",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    60,
+    41,
+    301010072
+   ],
+   [
+    "CATETERISMO CARDIACO EM PEDIATRIA",
+    3,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    12,
+    9,
+    211020028
+   ],
+   [
+    "ANGIOTOMOGRAFIA DO ABDOME SUPERIOR ADULTO S/SEDACAO ",
+    245,
+    130,
+    2,
+    2,
+    2,
+    2,
+    0,
+    0,
+    245,
+    130,
+    68,
+    206030010
+   ],
+   [
+    "ANGIOTOMOGRAFIA DO TORAX OU PULMONAR ADULTO S/SEDACAO",
+    318,
+    234,
+    7,
+    4,
+    1,
+    1,
+    0,
+    0,
+    318,
+    596,
+    453,
+    206020031
+   ],
+   [
+    "ATENDIMENTO MULTIDISCIPLINAR EM CARDIOLOGIA - MACC",
+    66,
+    55,
+    15,
+    9,
+    7,
+    8,
+    0,
+    0,
+    66,
+    148,
+    127,
+    301010072
+   ],
+   [
+    "CONSULTA EM FONOAUDIOLOGIA  ADULTO",
+    619,
+    202,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    417,
+    370,
+    49,
+    301010048
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA > 14 ANOS (HIPERTENSAO/DIABETES)  CENTRO DE REFERENCIA",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    136,
+    90,
+    301010072
+   ],
+   [
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+    1484,
+    1253,
+    1038,
+    1003,
+    93,
+    98,
+    4,
+    0,
+    1484,
+    34,
+    31,
+    208010033
+   ],
+   [
+    "ATENDIMENTO MULTIDICIPLINAR EM ENDOCRINOLOGIA PEDIATRICA - MACC",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    301010072
+   ],
+   [
+    "TRATAMENTO ESCLEROSANTE NÃO ESTÉTICO DE VARIZES DOS MEMBROS INFERIORES (BILATERAL)",
+    461,
+    461,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    461,
+    31,
+    31,
+    309070023
+   ],
+   [
+    "ULTRA-SONOGRAFIA  DOPPLER DE CAROTIDAS E VERTEBRAIS",
+    190,
+    123,
+    7,
+    5,
+    1,
+    1,
+    4,
+    0,
+    20,
+    26,
+    13,
+    205010040
+   ],
+   [
+    "ULTRASSONOGRAFIA COM DOPPLER COLORIDO DE REGIAO CERVICAL",
+    17,
+    4,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    14,
+    33,
+    13,
+    205020062
+   ],
+   [
+    "ULTRA-SONOGRAFIA DOPPLER DE TIREOIDE",
+    801,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    683,
+    541,
+    10,
+    205020127
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA PEDIATRIA - POS OPERATORIO",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    2,
+    301010072
+   ],
+   [
+    "ATENDIMENTO MULTIDISCIPLINAR EM ENDOCRINOLOGIA - MACC",
+    136,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    135,
+    205,
+    11,
+    301010072
+   ],
+   [
+    "ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMSS (BILATERAL)",
+    54,
+    31,
+    5,
+    5,
+    0,
+    0,
+    0,
+    0,
+    52,
+    85,
+    69,
+    205010040
+   ],
+   [
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    1720,
+    1452,
+    1211,
+    1176,
+    113,
+    117,
+    4,
+    0,
+    1720,
+    152,
+    126,
+    208010025
+   ],
+   [
+    "8. ECOCARDIOGRAFIA TRANSEOFAGICA INFANTIL",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    46,
+    3,
+    205010024
+   ],
+   [
+    "CONSULTA EM REABILITACAO INTELECTUAL  - ADULTO",
+    2580,
+    58,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2123,
+    143,
+    13,
+    301010048
+   ],
+   [
+    "ULTRA-SONOGRAFIA DOPPLER VENOSO - MMSS ( BILATERAL)",
+    143,
+    101,
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    138,
+    208,
+    164,
+    205010040
+   ],
+   [
+    "ULTRASSONOGRAFIA COM DOPPLER COLORIDO DE ARTERIAS RENAIS",
+    91,
+    69,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    91,
+    5,
+    2,
+    205010040
+   ],
+   [
+    "ECOGRAFIA DE TIREOIDE ADULTO",
+    2981,
+    25,
+    1,
+    0,
+    2,
+    3,
+    3,
+    0,
+    2357,
+    2751,
+    45,
+    205020127
+   ],
+   [
+    "CONSULTA EM CIRURGIA VASCULAR - DOENCAS ARTERIAIS",
+    2025,
+    1708,
+    34,
+    32,
+    11,
+    11,
+    1,
+    0,
+    2019,
+    1028,
+    743,
+    301010072
+   ],
+   [
+    "CONSULTA EM DERMATOLOGIA - GERAL",
+    23274,
+    115,
+    9,
+    9,
+    2,
+    2,
+    1,
+    0,
+    13494,
+    5907,
+    57,
+    301010072
+   ],
+   [
+    "ENDOSCOPIA DIGESTIVA ALTA",
+    26145,
+    97,
+    10,
+    8,
+    7,
+    7,
+    0,
+    6,
+    18559,
+    8316,
+    62,
+    209010037
+   ],
+   [
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    13477,
+    9152,
+    1869,
+    1676,
+    2364,
+    2499,
+    90,
+    13,
+    13477,
+    13454,
+    8131,
+    205010032
+   ],
+   [
+    "CONSULTA EM CIRURGIA VASCULAR - DOENCAS VENOSAS E LINFATICAS",
+    579,
+    536,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    577,
+    6001,
+    5096,
+    301010072
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA - ADULTO",
+    8989,
+    1274,
+    3,
+    2,
+    3,
+    3,
+    0,
+    0,
+    6026,
+    9228,
+    1253,
+    301010072
+   ],
+   [
+    "CONSULTA EM NEFROLOGIA - GERAL",
+    3459,
+    205,
+    2,
+    2,
+    13,
+    23,
+    0,
+    0,
+    3168,
+    2766,
+    177,
+    301010072
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CHECK LIST",
+    3,
+    3,
+    3,
+    2,
+    0,
+    0,
+    0,
+    0,
+    3,
+    208,
+    133,
+    301010072
+   ],
+   [
+    "ESTUDO ELETROFISIOLOGICO TERAPEUTICO",
+    391,
+    385,
+    59,
+    59,
+    0,
+    0,
+    0,
+    0,
+    391,
+    51,
+    38,
+    406050040
+   ],
+   [
+    "AUDIOMETRIA E IMITANCIOMETRIA – 8 A 64 ANOS",
+    3050,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3050,
+    813,
+    0,
+    211070033
+   ],
+   [
+    "CONSULTA EM HEMATOLOGIA E HEMOTERAPIA",
+    945,
+    54,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    708,
+    1780,
+    100,
+    301010072
+   ],
+   [
+    "CONSULTA EM CIRURGIA PLASTICA - TRIAGEM",
+    3844,
+    8,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    3844,
+    556,
+    2,
+    301010072
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    320,
+    293,
+    271,
+    204,
+    7,
+    8,
+    0,
+    0,
+    320,
+    539,
+    467,
+    301010072
+   ],
+   [
+    "CONSULTA EM OFTALMOLOGIA - RETINA GERAL",
+    7125,
+    67,
+    0,
+    0,
+    2,
+    3,
+    0,
+    0,
+    7125,
+    1431,
+    48,
+    301010072
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - VALVULOPATIA",
+    322,
+    264,
+    4,
+    2,
+    11,
+    12,
+    0,
+    0,
+    321,
+    354,
+    289,
+    301010072
+   ],
+   [
+    "248. TC CARDIACA ADULTO C/ CONTRASTE C/ SEDACAO",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    2,
+    206030010
+   ],
+   [
+    "262. RM DO CORACAO OU AORTA ADULTO S/CONTRASTE S/SEDACAO",
+    79,
+    66,
+    11,
+    10,
+    26,
+    33,
+    0,
+    0,
+    79,
+    263,
+    213,
+    207020019
+   ],
+   [
+    "CONSULTA EM REUMATOLOGIA - GERAL",
+    12079,
+    131,
+    3,
+    2,
+    1,
+    1,
+    0,
+    0,
+    8724,
+    5713,
+    139,
+    301010072
+   ],
+   [
+    "ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) ADULTO",
+    3766,
+    134,
+    1,
+    1,
+    10,
+    10,
+    1,
+    0,
+    2487,
+    3434,
+    126,
+    205020054
+   ],
+   [
+    "ECOGRAFIA  DE PARTES MOLES",
+    3113,
+    27,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1870,
+    1456,
+    54,
+    205020062
+   ],
+   [
+    "TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA",
+    389,
+    95,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    376,
+    80,
+    26,
+    206010079
+   ],
+   [
+    "CONSULTA EM PNEUMOLOGIA - GERAL",
+    1807,
+    126,
+    11,
+    10,
+    10,
+    12,
+    0,
+    2,
+    1788,
+    2362,
+    155,
+    301010072
+   ],
+   [
+    "CONSULTA EM PROCTOLOGIA - GERAL",
+    8619,
+    3600,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    5080,
+    3567,
+    1142,
+    301010072
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - MARCAPASSO",
+    507,
+    45,
+    2,
+    2,
+    9,
+    9,
+    0,
+    0,
+    506,
+    83,
+    57,
+    301010072
+   ],
+   [
+    "244. TC CARDIACA INFANTIL C/ CONTRASTE C/ SEDACAO",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    206030010
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - FIBRILACAO ATRIAL",
+    241,
+    230,
+    2,
+    2,
+    9,
+    9,
+    0,
+    0,
+    241,
+    164,
+    153,
+    301010072
+   ],
+   [
+    "ECOGRAFIA DE MAMAS - BILATERAL",
+    13157,
+    13,
+    1,
+    0,
+    1,
+    1,
+    0,
+    4,
+    8724,
+    7747,
+    31,
+    205020097
+   ],
+   [
+    "CONSULTA EM UROLOGIA - GERAL",
+    14454,
+    510,
+    2,
+    2,
+    1,
+    1,
+    0,
+    2,
+    8487,
+    4656,
+    80,
+    301010072
+   ],
+   [
+    "DENSITOMETRIA OSSEA - RADIODIAGNOSTICO",
+    2154,
+    5,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    2151,
+    3672,
+    14,
+    204060028
+   ],
+   [
+    "ECOGRAFIA DE ABDOMEN SUPERIOR ADULTO",
+    2221,
+    24,
+    1,
+    1,
+    2,
+    2,
+    0,
+    2,
+    1239,
+    985,
+    11,
+    205020038
+   ],
+   [
+    "CONSULTA EM GERIATRIA",
+    2259,
+    285,
+    12,
+    9,
+    42,
+    45,
+    0,
+    1,
+    2156,
+    2230,
+    233,
+    301010072
+   ],
+   [
+    "CONSULTA EM CIRURGIA GERAL",
+    18814,
+    37,
+    4,
+    2,
+    4,
+    4,
+    0,
+    2,
+    10627,
+    5422,
+    102,
+    301010072
+   ],
+   [
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+    69,
+    51,
+    32,
+    31,
+    9,
+    9,
+    1,
+    0,
+    69,
+    1437,
+    1090,
+    205010016
+   ],
+   [
+    "CONSULTA EM ENDOCRINOLOGIA - GERAL",
+    11847,
+    111,
+    30,
+    23,
+    7,
+    7,
+    0,
+    2,
+    9707,
+    9546,
+    205,
+    301010072
+   ],
+   [
+    "POLISSONOGRAFIA NOTURNA BASAL",
+    8498,
+    573,
+    53,
+    51,
+    42,
+    50,
+    2,
+    0,
+    4085,
+    742,
+    65,
+    211050105
+   ],
+   [
+    "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+    1313,
+    176,
+    3,
+    3,
+    16,
+    37,
+    2,
+    1,
+    1313,
+    2553,
+    363,
+    205010032
+   ],
+   [
+    "TORAX : PA E PERFIL",
+    669,
+    75,
+    4,
+    3,
+    4,
+    4,
+    4,
+    9,
+    669,
+    188,
+    17,
+    204030153
+   ],
+   [
+    "CATETERISMO",
+    17,
+    16,
+    14,
+    10,
+    1,
+    1,
+    0,
+    0,
+    17,
+    878,
+    789,
+    211020010
+   ],
+   [
+    "MAPEAMENTO DE RETINA",
+    9497,
+    1977,
+    5,
+    4,
+    4,
+    5,
+    3,
+    0,
+    8801,
+    918,
+    7,
+    211060127
+   ],
+   [
+    "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO",
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1052,
+    725,
+    205010024
+   ],
+   [
+    "ANGIOPLASTIA CORONARIANA",
+    55,
+    54,
+    51,
+    48,
+    3,
+    3,
+    0,
+    0,
+    55,
+    229,
+    210,
+    406030014
+   ],
+   [
+    "PROVA DE FUNCAO PULMONAR COMPLETA - ESPIROMETRIA",
+    2527,
+    42,
+    6,
+    5,
+    11,
+    11,
+    0,
+    0,
+    2527,
+    4413,
+    131,
+    211080055
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CIRURGIA CARDIACA - INTERNADOS",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    65,
+    47,
+    301010072
+   ],
+   [
+    "RETOSSIGMOIDOSCOPIA FLEXÍVEL",
+    506,
+    137,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    506,
+    260,
+    25,
+    209010053
+   ],
+   [
+    "264. RM DO CORACAO OU AORTA ADULTO C/CONTRASTE S/SEDACAO",
+    166,
+    143,
+    26,
+    19,
+    51,
+    78,
+    0,
+    0,
+    166,
+    318,
+    272,
+    207020019
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CIRURGIA CARDIACA",
+    48,
+    40,
+    16,
+    12,
+    2,
+    2,
+    0,
+    0,
+    48,
+    292,
+    220,
+    301010072
+   ],
+   [
+    "ECOGRAFIA DE TORAX (EXTRACARDIACO) ADULTO",
+    13,
+    3,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    6,
+    12,
+    3,
+    205020135
+   ],
+   [
+    "10. ECODOPPLER DE CAROTIDAS",
+    4209,
+    3013,
+    715,
+    672,
+    427,
+    444,
+    56,
+    1,
+    4208,
+    2769,
+    1700,
+    205010040
+   ],
+   [
+    "243. TC CARDIACA INFANTIL C/ CONTRASTE S/ SEDACAO",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    206030010
+   ],
+   [
+    "ELETRONEUROMIOGRAFIA - MEMBROS INFERIORES (MID/MIE)",
+    5064,
+    65,
+    3,
+    3,
+    2,
+    2,
+    0,
+    0,
+    2539,
+    1387,
+    27,
+    211050083
+   ],
+   [
+    "ECOGRAFIA DE BOLSA ESCROTAL ADULTO",
+    705,
+    60,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    430,
+    430,
+    41,
+    205020070
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - ARRITMIA",
+    439,
+    360,
+    11,
+    8,
+    25,
+    32,
+    0,
+    0,
+    439,
+    1099,
+    868,
+    301010072
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+    1105,
+    1056,
+    51,
+    37,
+    892,
+    921,
+    0,
+    0,
+    1105,
+    882,
+    783,
+    301010072
+   ],
+   [
+    "245. TC CARDIACA ADULTO S/ CONTRASTE S/ SEDACAO",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    17,
+    11,
+    206030010
+   ],
+   [
+    "247. TC CARDIACA ADULTO C/ CONTRASTE S/ SEDACAO",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    43,
+    41,
+    206030010
+   ],
+   [
+    "CONSULTA EM PEQUENA CIRURGIA",
+    7748,
+    28,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    5552,
+    1676,
+    5,
+    301010072
+   ],
+   [
+    "TC DO TORAX  ADULTO S/CONTRASTE S/SEDACAO  EMERGENCIA",
+    895,
+    119,
+    82,
+    75,
+    14,
+    14,
+    0,
+    0,
+    858,
+    79,
+    10,
+    206020031
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - POS-OPERATORIO",
+    29,
+    23,
+    19,
+    10,
+    1,
+    1,
+    0,
+    1,
+    29,
+    115,
+    54,
+    301010072
+   ],
+   [
+    "246. TC CARDIACA ADULTO S/ CONTRASTE C/ SEDACAO",
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    2,
+    206030010
+   ],
+   [
+    "ECOGRAFIA DE TORAX (EXTRACARDIACO) INFANTIL",
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0,
+    205020135
+   ],
+   [
+    "ULTRA-SONOGRAFIA DOPPLER COLORIDO DE VASOS",
+    157,
+    113,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    157,
+    0,
+    0,
+    205010040
+   ],
+   [
+    "16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010032
+   ],
+   [
+    "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO",
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010032
+   ],
+   [
+    "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER INFANTIL",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010032
+   ],
+   [
+    "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO EMERGENCIA",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010032
+   ],
+   [
+    "CONSULTA EM PNEUMOLOGIA - HIPERTENSAO ARTERIAL PULMONAR",
+    197,
+    166,
+    2,
+    1,
+    1,
+    2,
+    0,
+    0,
+    151,
+    0,
+    0,
+    301010072
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - GERAL",
+    2,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072
+   ]
+  ],
+  "agendamentos_cols": [
+   "nome_agendamento",
+   "agendadas todos os anos",
+   "agendadas 12m",
+   "12m I",
+   "12m ISC",
+   "12m SCC",
+   "12m IC",
+   "12m ICA",
+   "12m ZAV",
+   "12m ZPO",
+   "codigo_sigtap_agendamento",
+   "primeiro agendamento"
+  ],
+  "agendamentos": [
+   [
+    "ELETROCARDIOGRAMA",
+    171613,
+    14129,
+    7055,
+    419,
+    368,
+    309,
+    333,
+    223,
+    58,
+    211020036,
+    39835
+   ],
+   [
+    "055. TC DO TORAX ADULTO C/CONTRASTE S/SEDACAO",
+    84076,
+    5929,
+    152,
+    19,
+    14,
+    11,
+    11,
+    0,
+    2,
+    206020031,
+    39815
+   ],
+   [
+    "CONSULTA EM GERIATRIA",
+    21642,
+    1954,
+    156,
+    6,
+    4,
+    26,
+    27,
+    0,
+    0,
+    301010072,
+    43377
+   ],
+   [
+    "CONSULTA EM PROCTOLOGIA - GERAL",
+    32457,
+    4020,
+    883,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    43378
+   ],
+   [
+    "CATETERISMO",
+    57532,
+    7566,
+    6938,
+    5696,
+    3140,
+    415,
+    430,
+    3,
+    0,
+    211020010,
+    39815
+   ],
+   [
+    "ANGIOPLASTIA CORONARIANA - INTERNADOS",
+    4276,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    406030014,
+    39820
+   ],
+   [
+    "111. TC DE PELVE OU BACIA ADULTO C/CONTRASTE S/SEDACAO",
+    92285,
+    6980,
+    129,
+    10,
+    4,
+    8,
+    8,
+    0,
+    4,
+    206030037,
+    39814
+   ],
+   [
+    "ESTUDO ELETROFISIOLOGICO DIAGNOSTICO",
+    2453,
+    175,
+    128,
+    27,
+    27,
+    8,
+    9,
+    0,
+    0,
+    406050015,
+    39833
+   ],
+   [
+    "CONSULTA EM NEFROLOGIA - GERAL",
+    23957,
+    2718,
+    118,
+    5,
+    5,
+    6,
+    9,
+    0,
+    0,
+    301010072,
+    43403
+   ],
+   [
+    "063. TC DO ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO",
+    106314,
+    8098,
+    157,
+    11,
+    5,
+    7,
+    7,
+    0,
+    5,
+    206030010,
+    39815
+   ],
+   [
+    "CONSULTA EM HEMATOLOGIA E HEMOTERAPIA",
+    12606,
+    1918,
+    206,
+    6,
+    2,
+    1,
+    1,
+    0,
+    0,
+    301010072,
+    43409
+   ],
+   [
+    "ESTUDO ELETROFISIOLOGICO TERAPEUTICO",
+    4864,
+    594,
+    574,
+    40,
+    40,
+    11,
+    14,
+    0,
+    0,
+    406050040,
+    39835
+   ],
+   [
+    "031. TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO",
+    25672,
+    1899,
+    149,
+    5,
+    2,
+    2,
+    2,
+    1,
+    0,
+    206010079,
+    39815
+   ],
+   [
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    435350,
+    33740,
+    21551,
+    5536,
+    3250,
+    5485,
+    5772,
+    90,
+    15,
+    205010032,
+    39818
+   ],
+   [
+    "TC DO TORAX  ADULTO S/CONTRASTE S/SEDACAO  EMERGENCIA",
+    10906,
+    1974,
+    261,
+    94,
+    39,
+    63,
+    63,
+    1,
+    4,
+    206020031,
+    39827
+   ],
+   [
+    "9. ECOCARDIOGRAFIA FETAL",
+    3660,
+    782,
+    22,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    205010032,
+    39821
+   ],
+   [
+    "HOLTER 24 HORAS",
+    53253,
+    2739,
+    1927,
+    181,
+    100,
+    152,
+    171,
+    5,
+    1,
+    211020044,
+    39818
+   ],
+   [
+    "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO",
+    13907,
+    1124,
+    800,
+    47,
+    22,
+    57,
+    64,
+    1,
+    0,
+    205010024,
+    39829
+   ],
+   [
+    "TC DO TORAX  ADULTO C/CONTRASTE  S/SEDACAO  EMERGENCIA",
+    16278,
+    974,
+    149,
+    3,
+    0,
+    3,
+    3,
+    0,
+    0,
+    206020031,
+    39827
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - MARCAPASSO",
+    16961,
+    1986,
+    1885,
+    11,
+    9,
+    76,
+    79,
+    0,
+    0,
+    301010072,
+    40868
+   ],
+   [
+    "CONSULTA  EM CARDIOLOGIA - PEDIATRIA",
+    57140,
+    2707,
+    1896,
+    5,
+    5,
+    12,
+    32,
+    2,
+    1,
+    301010072,
+    39819
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - ADULTO - PARECER PACIENTE INTERNADO",
+    637,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    40739
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - FIBRILACAO ATRIAL",
+    1831,
+    220,
+    214,
+    2,
+    1,
+    6,
+    7,
+    0,
+    0,
+    301010072,
+    40798
+   ],
+   [
+    "300. ANGIORESSONANCIA DE VASOS CERVICAIS",
+    1611,
+    175,
+    120,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    207010013,
+    40795
+   ],
+   [
+    "8. ECOCARDIOGRAFIA TRANSEOFAGICA INFANTIL",
+    241,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010024,
+    39857
+   ],
+   [
+    "242. TC CARDIACA INFANTIL S/ CONTRASTE C/ SEDACAO",
+    7,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    206030010,
+    40863
+   ],
+   [
+    "244. TC CARDIACA INFANTIL C/ CONTRASTE C/ SEDACAO",
+    89,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    206030010,
+    40842
+   ],
+   [
+    "MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA)",
+    395539,
+    50631,
+    43,
+    0,
+    0,
+    3,
+    3,
+    0,
+    2,
+    204030188,
+    39883
+   ],
+   [
+    "CONSULTA EM CLINICA MEDICA",
+    27522,
+    2976,
+    639,
+    20,
+    19,
+    13,
+    13,
+    0,
+    0,
+    301010064,
+    43420
+   ],
+   [
+    "005. RM DE CRANIO ADULTO S/CONTRASTE S/SEDACAO",
+    51518,
+    7040,
+    932,
+    3,
+    3,
+    0,
+    0,
+    0,
+    1,
+    207010064,
+    39818
+   ],
+   [
+    "262. RM DO CORACAO OU AORTA ADULTO S/CONTRASTE S/SEDACAO",
+    2534,
+    724,
+    551,
+    94,
+    65,
+    219,
+    300,
+    2,
+    0,
+    207020019,
+    40612
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CORONARIA",
+    10762,
+    604,
+    559,
+    509,
+    379,
+    17,
+    18,
+    1,
+    0,
+    301010072,
+    40696
+   ],
+   [
+    "CONSULTA PRE - TRANSPLANTE - CARDÍACO - GERAL",
+    13172,
+    2033,
+    169,
+    2,
+    2,
+    157,
+    161,
+    0,
+    0,
+    301010072,
+    43441
+   ],
+   [
+    "245. TC CARDIACA ADULTO S/ CONTRASTE S/ SEDACAO",
+    308,
+    71,
+    58,
+    7,
+    6,
+    8,
+    9,
+    0,
+    0,
+    206030010,
+    40461
+   ],
+   [
+    "247. TC CARDIACA ADULTO C/ CONTRASTE S/ SEDACAO",
+    787,
+    140,
+    116,
+    44,
+    43,
+    13,
+    14,
+    0,
+    0,
+    206030010,
+    40589
+   ],
+   [
+    "ENDOSCOPIA DIGESTIVA ALTA",
+    73485,
+    10147,
+    114,
+    5,
+    3,
+    9,
+    9,
+    0,
+    0,
+    209010037,
+    43405
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - ADULTO - HIPERTENSAO ARTERIAL REFRATARIA",
+    542,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    40700
+   ],
+   [
+    "CONSULTA EM NEUROCIRURGIA - GERAL",
+    12577,
+    1715,
+    354,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    301010072,
+    43411
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - VALVULOPATIA",
+    6297,
+    293,
+    256,
+    2,
+    2,
+    21,
+    25,
+    0,
+    0,
+    301010072,
+    40701
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CIRURGIA CARDIACA - PRE-OPERATORIO",
+    151,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    40693
+   ],
+   [
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+    109651,
+    5619,
+    3497,
+    1502,
+    1438,
+    362,
+    438,
+    57,
+    1,
+    211020060,
+    39818
+   ],
+   [
+    "ELETROENCEFALOGRAMA /VIGILIA /SONO ESPONTANEO C/OU S/FOTOESTIMULO",
+    39070,
+    4954,
+    90,
+    5,
+    2,
+    5,
+    5,
+    0,
+    2,
+    211050040,
+    43451
+   ],
+   [
+    "CARDIOLOGIA - ADULTO - PARECER",
+    901,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    39822
+   ],
+   [
+    "ELETROENCEFALOGRAFIA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+    8446,
+    1521,
+    86,
+    5,
+    2,
+    3,
+    3,
+    0,
+    6,
+    211050024,
+    43451
+   ],
+   [
+    "ECOGRAFIA DE TORAX (EXTRACARDIACO) INFANTIL",
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205020135,
+    40375
+   ],
+   [
+    "029. TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO",
+    95350,
+    8440,
+    776,
+    13,
+    6,
+    10,
+    10,
+    0,
+    1,
+    206010079,
+    39815
+   ],
+   [
+    "PROVA DE FUNCAO PULMONAR COMPLETA - ESPIROMETRIA",
+    45541,
+    7257,
+    218,
+    77,
+    49,
+    34,
+    35,
+    0,
+    3,
+    211080055,
+    43409
+   ],
+   [
+    "061. TC DO ABDOMEN SUPERIOR ADULTO S/CONTRASTE S/SEDACAO",
+    53552,
+    5480,
+    104,
+    9,
+    3,
+    6,
+    6,
+    1,
+    0,
+    206030010,
+    39814
+   ],
+   [
+    "053. TC DO TORAX  ADULTO S/CONTRASTE S/SEDACAO",
+    116066,
+    18343,
+    692,
+    161,
+    112,
+    113,
+    122,
+    1,
+    3,
+    206020031,
+    39814
+   ],
+   [
+    "264. RM DO CORACAO OU AORTA ADULTO C/CONTRASTE S/SEDACAO",
+    3794,
+    1074,
+    900,
+    145,
+    107,
+    377,
+    527,
+    1,
+    0,
+    207020019,
+    39818
+   ],
+   [
+    "16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL",
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010032,
+    41288
+   ],
+   [
+    "007. RM DE CRANIO ADULTO C/CONTRASTE S/SEDACAO",
+    62986,
+    7406,
+    585,
+    2,
+    1,
+    0,
+    0,
+    1,
+    0,
+    207010064,
+    39819
+   ],
+   [
+    "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+    89062,
+    5833,
+    623,
+    15,
+    11,
+    27,
+    94,
+    32,
+    1,
+    205010032,
+    39819
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA - ADULTO",
+    41936,
+    3946,
+    724,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    43364
+   ],
+   [
+    "CONSULTA EM PRE-NATAL DE ALTO RISCO",
+    49530,
+    5207,
+    203,
+    2,
+    2,
+    6,
+    7,
+    0,
+    0,
+    301010072,
+    43395
+   ],
+   [
+    "CONSULTA EM PNEUMOLOGIA - GERAL",
+    28056,
+    2689,
+    213,
+    9,
+    7,
+    15,
+    15,
+    0,
+    3,
+    301010072,
+    43361
+   ],
+   [
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+    16859,
+    750,
+    590,
+    428,
+    417,
+    45,
+    53,
+    3,
+    1,
+    205010016,
+    39820
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CHECK LIST",
+    1625,
+    317,
+    280,
+    233,
+    139,
+    8,
+    8,
+    0,
+    0,
+    301010072,
+    43367
+   ],
+   [
+    "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL",
+    61633,
+    2574,
+    2113,
+    224,
+    208,
+    144,
+    157,
+    6,
+    0,
+    211020052,
+    39818
+   ],
+   [
+    "CONSULTA EM CIRURGIA VASCULAR - DOENCAS VENOSAS E LINFATICAS",
+    51363,
+    8210,
+    7464,
+    1,
+    1,
+    8,
+    8,
+    0,
+    2,
+    301010072,
+    41061
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CIRURGIA CARDIACA - INTERNADOS",
+    5423,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    41680
+   ],
+   [
+    "TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA",
+    14754,
+    1086,
+    397,
+    9,
+    0,
+    3,
+    3,
+    0,
+    0,
+    206010079,
+    39819
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - CIRURGIA CARDIACA",
+    10801,
+    942,
+    790,
+    313,
+    242,
+    77,
+    84,
+    0,
+    4,
+    301010072,
+    39983
+   ],
+   [
+    "CONSULTA EM CIRURGIA VASCULAR - DOENCAS ARTERIAIS",
+    11769,
+    893,
+    755,
+    14,
+    13,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    41061
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - POS-OPERATORIO",
+    2849,
+    347,
+    300,
+    252,
+    210,
+    19,
+    19,
+    3,
+    1,
+    301010072,
+    42075
+   ],
+   [
+    "ECOGRAFIA TRANSVAGINAL",
+    81778,
+    17923,
+    34,
+    0,
+    0,
+    2,
+    2,
+    0,
+    3,
+    205020186,
+    40120
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+    69342,
+    5816,
+    241,
+    24,
+    18,
+    11,
+    13,
+    16,
+    22,
+    301010072,
+    39995
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - ARRITMIA",
+    28281,
+    1950,
+    1729,
+    22,
+    19,
+    110,
+    133,
+    2,
+    0,
+    301010072,
+    40001
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - REVISAO",
+    445,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    39997
+   ],
+   [
+    "241. TC CARDIACA INFANTIL S/ CONTRASTE S/ SEDACAO",
+    11,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    206030010,
+    43894
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - ADULTO",
+    338255,
+    5936,
+    4844,
+    1379,
+    966,
+    935,
+    1034,
+    10,
+    4,
+    301010072,
+    39818
+   ],
+   [
+    "10. ECODOPPLER DE CAROTIDAS",
+    77576,
+    8216,
+    6178,
+    1848,
+    1375,
+    681,
+    697,
+    28,
+    3,
+    205010040,
+    40120
+   ],
+   [
+    "GRUPO - 1.ECOCARDIOGRAFIA",
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    39906
+   ],
+   [
+    "ANGIOPLASTIA CORONARIANA",
+    14950,
+    2324,
+    2235,
+    2184,
+    1682,
+    15,
+    16,
+    0,
+    0,
+    406030014,
+    39959
+   ],
+   [
+    "MAPEAMENTO DE RETINA",
+    25727,
+    3123,
+    446,
+    1,
+    0,
+    2,
+    2,
+    1,
+    0,
+    211060127,
+    39895
+   ],
+   [
+    "ULTRASONOGRAFIA DE PAREDE ABDOMINAL",
+    7900,
+    1465,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    205020046,
+    43650
+   ],
+   [
+    "ECOGRAFIA DE TORAX (EXTRACARDIACO) ADULTO",
+    8,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205020135,
+    43656
+   ],
+   [
+    "ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) ADULTO",
+    30165,
+    4106,
+    188,
+    2,
+    2,
+    6,
+    7,
+    1,
+    0,
+    205020054,
+    40087
+   ],
+   [
+    "ECOGRAFIA DE ABDOMEN TOTAL ADULTO",
+    44095,
+    8119,
+    125,
+    8,
+    8,
+    15,
+    15,
+    4,
+    4,
+    205020046,
+    40091
+   ],
+   [
+    "ECOGRAFIA DE REGIÃO INGUINAL ESQUERDO",
+    489,
+    216,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    205020062,
+    44931
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA PEDIATRIA - POS OPERATORIO",
+    153,
+    37,
+    4,
+    1,
+    1,
+    1,
+    2,
+    0,
+    0,
+    301010072,
+    44704
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA NEUROVASCULAR",
+    1212,
+    216,
+    193,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    44840
+   ],
+   [
+    "ATENDIMENTO MULTIDICIPLINAR EM CARDIOLOGIA E ENDOCRINOLOGIA - MACC",
+    705,
+    142,
+    60,
+    14,
+    11,
+    4,
+    5,
+    0,
+    0,
+    301010072,
+    44915
+   ],
+   [
+    "ULTRA-SONOGRAFIA DOPPLER VENOSO - MMII ( BILATERAL)",
+    8441,
+    3460,
+    3190,
+    6,
+    3,
+    6,
+    6,
+    0,
+    0,
+    205010040,
+    44866
+   ],
+   [
+    "ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMII (BILATERAL)",
+    1842,
+    504,
+    383,
+    5,
+    4,
+    2,
+    2,
+    0,
+    0,
+    205010040,
+    44866
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - EGRESSO ICDF",
+    9329,
+    4641,
+    4636,
+    4,
+    4,
+    61,
+    61,
+    0,
+    0,
+    301010072,
+    45615
+   ],
+   [
+    "ANGIOTOMOGRAFIA  DAS ARTÉRIAS CORONARIAS ADULTO S/SEDACAO",
+    340,
+    137,
+    114,
+    76,
+    67,
+    13,
+    16,
+    0,
+    0,
+    206020031,
+    45495
+   ],
+   [
+    "ANGIOTOMOGRAFIA DO CRANIO ADULTO S/SEDACAO",
+    3387,
+    1635,
+    1152,
+    7,
+    6,
+    1,
+    2,
+    0,
+    1,
+    206010079,
+    45318
+   ],
+   [
+    "ANGIOTOMOGRAFIA DAS ARTERIAS CAROTIDAS E VERTEBRAIS ADULTO S/SEDACAO",
+    973,
+    544,
+    475,
+    48,
+    39,
+    16,
+    16,
+    1,
+    0,
+    206030010,
+    45323
+   ],
+   [
+    "ANGIOTOMOGRAFIA DO PESCOCO ADULTO S/SEDACAO",
+    1241,
+    414,
+    308,
+    5,
+    4,
+    1,
+    1,
+    0,
+    0,
+    206010052,
+    45317
+   ],
+   [
+    "ANGIOTOMOGRAFIA DO TORAX OU PULMONAR ADULTO S/SEDACAO",
+    3162,
+    1310,
+    894,
+    21,
+    14,
+    13,
+    14,
+    1,
+    0,
+    206020031,
+    45317
+   ],
+   [
+    "ANGIOTOMOGRAFIA DA AORTA ABDOMINAL E DOS SEUS RAMOS ADULTO S/SEDACAO ",
+    1041,
+    604,
+    502,
+    14,
+    11,
+    11,
+    11,
+    1,
+    0,
+    206030010,
+    45318
+   ],
+   [
+    "CONSULTA EM REABILITACAO FISICA  - ADULTO",
+    2642,
+    776,
+    378,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    301010048,
+    45293
+   ],
+   [
+    "ANGIOTOMOGRAFIA DO ABDOME SUPERIOR ADULTO S/SEDACAO ",
+    730,
+    311,
+    140,
+    3,
+    2,
+    5,
+    5,
+    0,
+    0,
+    206030010,
+    45317
+   ],
+   [
+    "ANGIOTOMOGRAFIA DA PELVE ADULTO S/SEDACAO",
+    750,
+    329,
+    187,
+    3,
+    3,
+    5,
+    5,
+    0,
+    0,
+    206030037,
+    45318
+   ],
+   [
+    "ANGIOTOMOGRAFIA DA AORTA TORÁCICA E SEUS RAMOS  ADULTO S/SEDACAO ",
+    1027,
+    656,
+    552,
+    35,
+    27,
+    20,
+    20,
+    1,
+    0,
+    206020031,
+    45320
+   ],
+   [
+    "CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES)",
+    141,
+    141,
+    121,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    208070044,
+    45964
+   ],
+   [
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    518,
+    365,
+    317,
+    245,
+    227,
+    23,
+    26,
+    0,
+    0,
+    208010025,
+    45869
+   ],
+   [
+    "ANGIORESSONANCIA CEREBRAL ARTERIAL",
+    3075,
+    1473,
+    830,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    207010013,
+    45041
+   ],
+   [
+    "ATENDIMENTO MULTIDICIPLINAR EM ENDOCRINOLOGIA PEDIATRICA - MACC",
+    72,
+    26,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    45065
+   ],
+   [
+    "ATENDIMENTO MULTIDISCIPLINAR EM CARDIOLOGIA - MACC",
+    1053,
+    349,
+    328,
+    54,
+    41,
+    38,
+    41,
+    0,
+    0,
+    301010072,
+    44980
+   ],
+   [
+    "ATENDIMENTO MULTIDISCIPLINAR EM ENDOCRINOLOGIA - MACC",
+    1395,
+    414,
+    10,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    301010072,
+    44966
+   ],
+   [
+    "ANGIORESSONANCIA CEREBRAL VENOSA",
+    1385,
+    628,
+    248,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    207010013,
+    45041
+   ],
+   [
+    "CATETERISMO CARDIACO EM PEDIATRIA",
+    278,
+    85,
+    15,
+    9,
+    9,
+    1,
+    3,
+    0,
+    0,
+    211020028,
+    45222
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - HIPERTENSO/DIABETICO",
+    328,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    44138
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA > 14 ANOS (HIPERTENSAO/DIABETES)  CENTRO DE REFERENCIA",
+    570,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    44139
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - HIPERTENSAO ARTERIAL",
+    572,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    40088
+   ],
+   [
+    "CONSULTA DE PRE-NATAL RISCO INTERMEDIARIO GERAL",
+    5934,
+    2582,
+    127,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    301010072,
+    44501
+   ],
+   [
+    "CONSULTA EM FISIOTERAPIA DE NEURO-ADULTO",
+    2725,
+    752,
+    411,
+    2,
+    1,
+    2,
+    2,
+    0,
+    0,
+    301010048,
+    44440
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+    7342,
+    599,
+    561,
+    21,
+    13,
+    491,
+    515,
+    0,
+    0,
+    301010072,
+    39996
+   ],
+   [
+    "246. TC CARDIACA ADULTO S/ CONTRASTE C/ SEDACAO",
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    206030010,
+    44410
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - URGENCIA",
+    659,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    39993
+   ],
+   [
+    "CONSULTA EM OFTALMOLOGIA - GERAL",
+    481700,
+    49774,
+    1413,
+    14,
+    11,
+    14,
+    17,
+    5,
+    0,
+    301010072,
+    39815
+   ],
+   [
+    "TORAX : PA E PERFIL",
+    74818,
+    13009,
+    1000,
+    50,
+    38,
+    141,
+    150,
+    32,
+    110,
+    204030153,
+    43516
+   ],
+   [
+    "ANGIOTOMOGRAFIA",
+    4616,
+    268,
+    146,
+    22,
+    13,
+    10,
+    10,
+    0,
+    1,
+    206020031,
+    40316
+   ],
+   [
+    "RETOSSIGMOIDOSCOPIA FLEXÍVEL",
+    10500,
+    1771,
+    325,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    209010053,
+    43587
+   ],
+   [
+    "COLONOSCOPIA",
+    50091,
+    6543,
+    149,
+    2,
+    2,
+    1,
+    1,
+    0,
+    2,
+    209010029,
+    43559
+   ],
+   [
+    "11. ECOCARDIOGRAFIA DE ARTERIAS VERTEBRAIS",
+    787,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010040,
+    40311
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - GERIATRICA",
+    229,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    40182
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - GESTACAO DE ALTO RISCO",
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    40182
+   ],
+   [
+    "CONSULTA EM PEQUENA CIRURGIA",
+    27364,
+    4663,
+    18,
+    0,
+    0,
+    0,
+    0,
+    0,
+    13,
+    301010072,
+    43493
+   ],
+   [
+    "ELETROCARDIOGRAMA COM LAUDO",
+    1475,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    211020036,
+    43501
+   ],
+   [
+    "ECOGRAFIA DE TORAX (EXTRACARDIACO) INFANTIL EMERGENCIA",
+    24,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205020135,
+    40319
+   ],
+   [
+    "6. ECOCARDIOGRAFIA DE ESTRESSE INFANTIL",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010016,
+    40798
+   ],
+   [
+    "243. TC CARDIACA INFANTIL C/ CONTRASTE S/ SEDACAO",
+    22,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    206030010,
+    43514
+   ],
+   [
+    "CONSULTA ESPECIALIZADA EM CARDIOLOGIA - AGENDA LOCAL",
+    56,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    44166
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA  - CIRURGIA DA  AORTA",
+    15,
+    15,
+    15,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    45964
+   ],
+   [
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+    481,
+    347,
+    298,
+    223,
+    205,
+    28,
+    31,
+    0,
+    0,
+    208010033,
+    45868
+   ],
+   [
+    "CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE",
+    17,
+    8,
+    4,
+    3,
+    3,
+    0,
+    1,
+    0,
+    0,
+    208010041,
+    45924
+   ],
+   [
+    "CONSULTA EM CARDIOLOGIA - GERAL",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    301010072,
+    45744
+   ],
+   [
+    "248. TC CARDIACA ADULTO C/ CONTRASTE C/ SEDACAO",
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    206030010,
+    45414
+   ],
+   [
+    "ECOCARDIOGRAMA",
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    205010024,
+    46199
+   ]
+  ],
+  "laboratorio": {
+   "nota": "filas de laboratório e BNP na tabela de solicitações (fila sem recorte, fila I*, devolvidas) e na de agendamentos (todos os anos, 12 meses); BNP/peptídeo natriurético sem fila nenhuma",
+   "solicitacoes": [
+    [
+     "TGO",
+     1,
+     0,
+     0
+    ],
+    [
+     "TGP",
+     1,
+     0,
+     0
+    ],
+    [
+     "UREIA",
+     2,
+     0,
+     0
+    ],
+    [
+     "HEMOGLOBINA GLICOSILADA",
+     1,
+     0,
+     0
+    ],
+    [
+     "CREATININA",
+     2,
+     0,
+     0
+    ],
+    [
+     "HEMOGRAMA COMPLETO",
+     2,
+     0,
+     0
+    ],
+    [
+     "TRANSAMINASE PIRUVICA (ALANINA AMINO TRANSFERASE)",
+     1,
+     0,
+     0
+    ],
+    [
+     "LIPIDOGRAMA COMPLETO (LIPIDIOS TOTAIS, COLESTEROL, TRIGLICERIDEOS)",
+     2,
+     0,
+     0
+    ],
+    [
+     "TRANSAMINASE OXALACETICA (ASPARTATO AMINO TRANSFERASE)",
+     1,
+     0,
+     0
+    ]
+   ],
+   "agendamentos": [
+    [
+     "HEMOGRAMA COMPLETO",
+     11,
+     0
+    ]
+   ]
+  }
+ },
+ "conferencias": {
+  "viva_ecg_por_ano": {
+   "nota": "ELETROCARDIOGRAMA, fila por Ano_Solicitacao: inteira e viva (>= 25/10/2024). A viva bate com 594 (2024) + 5.119 (2025) + 9.418 (2026) e nunca passa da inteira.",
+   "fila": 20313,
+   "fila_viva": 15131,
+   "por_ano": [
+    [
+     "2010",
+     34,
+     0
+    ],
+    [
+     "2011",
+     77,
+     0
+    ],
+    [
+     "2012",
+     457,
+     0
+    ],
+    [
+     "2013",
+     883,
+     0
+    ],
+    [
+     "2022",
+     836,
+     0
+    ],
+    [
+     "2023",
+     1098,
+     0
+    ],
+    [
+     "2024",
+     2391,
+     594
+    ],
+    [
+     "2025",
+     5119,
+     5119
+    ],
+    [
+     "2026",
+     9418,
+     9418
+    ]
+   ],
+   "primeira_data_viva": "25/10/2024"
+  },
+  "P_contra_Aggr": [
+   382,
+   382
+  ]
+ }
+}

@@ -1,0 +1,10 @@
+id: "SAES 1825-2024 OCI otorrino"
+arquivo: "SAES 1825-2024 OCI otorrino.html"
+sha256: "e89944b199fc9528506a360521616a1b6b5ae993f3de264536d61d72a03566ef"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 4661
+tabelas_total: 5
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

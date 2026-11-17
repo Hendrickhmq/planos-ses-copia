@@ -1,0 +1,10 @@
+id: "SAES 4695-2026 rol imagem ressarcimento"
+arquivo: "SAES 4695-2026 rol imagem ressarcimento.html"
+sha256: "ef61287986d33acc3fe611155427a3928840feea1cf94e2ea1043360eebf4077"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 3588
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

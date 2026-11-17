@@ -1,0 +1,10 @@
+id: "SAES 3958-2026 atributo complementar"
+arquivo: "SAES 3958-2026 atributo complementar.html"
+sha256: "6bad123e925e662141bc34cc02db9ca142aab8e07c842767b18e1132447a3ce1"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 1464
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

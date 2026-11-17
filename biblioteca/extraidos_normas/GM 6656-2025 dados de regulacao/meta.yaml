@@ -1,0 +1,10 @@
+id: "GM 6656-2025 dados de regulacao"
+arquivo: "GM 6656-2025 dados de regulacao.html"
+sha256: "6187c1fcd3859248603b51d686f1617c15da6464a354da273ce771d98e36ab9a"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 5244
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

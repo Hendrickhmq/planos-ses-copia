@@ -1,0 +1,168 @@
+plano: 4
+diretorio: redacao_04
+aberto_em: 2026-09-15
+metodo: redacao_02/00_metodo.md   # vale integralmente; redacao_04/00_metodo.md so registra o que difere
+
+parametros:
+  origem_recurso:
+    tipo: emenda_parlamentar_federal   # confirmado em 15/09/2026
+    autor: null                        # [preencher]
+    numero: null                       # [preencher]
+    rp: null                           # [preencher]
+    valor: 11688862.74             # DERIVADO: a fila define o valor (D-001, 15/09/2026)
+    direcao: fila_define_recurso
+    fonte: usuario
+    data: 2026-09-15
+  objeto:
+    tipo: exame_diagnostico_por_imagem
+    oci: null                      # nao ha OCI neste plano - a verificacao N nao se aplica
+    denominacao: "Realizacao de exames de ultrassonografia e tomografia computadorizada com entrega de laudo"
+    unidade_afericao: "exame laudado e entregue"
+    obrigacao: "realizacao do exame e encaminhamento do resultado ao usuario e/ou a unidade solicitante"
+    fonte: usuario
+    data: 2026-09-15
+  valor_unitario:
+    valor: null                    # nao ha unitario unico - ver dados/valor_unitario.md
+    por_codigo:
+      "02.05.02.009-7": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 14608}
+      "02.05.02.018-6": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 10481}
+      "02.05.01.004-0": {tabela: 39.60, incremento: 1.53, unitario: 100.18, exames: 14401}
+      "02.05.02.004-6": {tabela: 37.95, incremento: 1.64, unitario: 100.18, exames: 13080}  # abdomen total + parede abdominal
+      "02.05.02.006-2": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 2974}   # partes moles
+      "02.05.02.005-4": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 3921}
+      "02.05.02.012-7": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 3195}
+      "02.05.02.010-0": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 3185}
+      "02.05.02.003-8": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 2249}
+      "02.06.03.001-0": {tabela: 138.63, incremento: 1.16, unitario: 299.44, exames: 4453, contraste: 4453}
+      "02.06.03.003-7": {tabela: 138.63, incremento: 1.16, unitario: 299.44, exames: 3808, contraste: 3808}
+      "02.06.02.003-1": {tabela: 136.41, incremento: 1.20, unitario: 300.10, exames: 5191, contraste: 4465}  # inclui 1.397 angiotomografias de coronarias
+    secundario_contraste:
+      codigo: "02.06.03.004-5"
+      valor: 60.00
+      incremento: null             # nao consta do Anexo I
+      status: "FORA DA PLANILHA - decidido em 15/09/2026, duvida registrada em L-004"
+      absorvido_no_unitario: 679740.00   # 11.329 exames x R$ 60,00 - materia da secao 8
+    fonte: "Portaria SAES/MS 4.282 de 19/06/2026, DOU 114 de 22/06/2026, s.1, p.76, Anexo I"
+    criterio_centavo: truncamento
+    data: 2026-09-15
+  custo_acessorio:
+    teto: 0.08
+    base: valor_global             # por dentro (D-002, 15/09/2026)
+    cobertura: ["coordenador", "assistentes administrativos", "prestador de contas"]
+    realizado: null                # sai de posto x preco x meses, de baixo para cima
+    percentual_realizado: null     # DERIVADO do realizado, nunca o contrario
+    fonte: usuario
+    data: 2026-09-15
+  polos:
+    modelo: polos_multiplos        # travado em 15/09/2026
+    quantidade: 3
+    nomes: ["Ceilandia", "Sobradinho", "Gama"]
+    cobertura:
+      Ceilandia: ["Oeste", "Sudoeste"]
+      Sobradinho: ["Norte", "Leste", "Central"]
+      Gama: ["Sul", "Centro-Sul"]
+    criterio: "as sete Regioes de Saude da SES-DF agrupadas em tres territorios"
+    fonte: "mesma estrutura do plano 3, por decisao do usuario em 15/09/2026"
+    rateio_tomografia:             # Mapa Social, coleta de 15/09/2026, os 5 procedimentos do objeto
+      base: 14762                  # solicitacoes com Regiao de Saude nomeada
+      Ceilandia: 0.4258
+      Sobradinho: 0.3624
+      Gama: 0.2118
+    rateio_objeto:                 # ponderado procedimento a procedimento, US + TC
+      Ceilandia: {pct: 0.4056, exames: 33073}
+      Sobradinho: {pct: 0.2967, exames: 24196}
+      Gama: {pct: 0.2977, exames: 24277}
+    sem_regiao_pct: 0.142          # 14,2% do universo do painel, US e TC juntos
+  capacidade_instalada:
+    situacao: proponente_ja_possui  # declarado pelo usuario em 15/09/2026
+    confirmada: false               # o usuario nao conseguiu confirmar o parque em 15/09/2026
+    salas_us: null                  # NAO SE PUBLICA inventario nao confirmado - ver L-006
+    tomografos: null
+    turno_horas: null
+    tratamento: "o plano declara CAPACIDADE REQUERIDA derivada da meta, nao parque instalado"
+  vigencia_meses: 12               # travado em 15/09/2026
+  meses_producao: null             # [preencher] - 11 ou 12, decide a curva
+  dias_uteis: 21
+
+filas:
+  fonte: "painel interno da SES-DF, sem acesso publico - planilha do usuario, aba 'Exames de imagem', recebida 15/09/2026"
+  fonte_publica: false             # confirmado pelo usuario em 15/09/2026
+  prevalencia: "o numero da planilha prevalece sobre qualquer outro painel"
+  arquivo: "dados/fontes/filas_ultrassom_tomografia_20260915.xlsx"
+  data_extracao: "2026-09-10"      # quinta-feira, informado pelo usuario em 15/09/2026
+  sistema_origem: null             # [preencher] - qual painel ou sistema de regulacao
+  distribuicao_por_regiao: completa  # US e TC - ver dados/fontes/validacao_ultrassom.md
+  painel:
+    tempo_espera_pendente_dias: 791
+    tempo_espera_devolvida_dias: 1294
+    pessoas_na_fila_tomografia: 12543
+    prioridade_1: 22390
+    prioridade_2: 23863
+    prioridade_3: 1302
+    pico_faixa_etaria: "60 a 65 anos"
+    ressalva: "o painel publica tres totais do mesmo universo - 47.555, 47.655 e 48.901"
+    sem_regiao_vai_ao_documento: true   # decisao do usuario em 15/09/2026 - ver secao 3
+
+  ultrassom:
+    total_planilha: 68094
+    codigo_fechado: 68094
+    em_aberto: 0                # parede abdominal + partes moles - L-001
+  tomografia:
+    total_planilha: 13452
+    codigo_fechado: 13452
+    em_aberto: 0                # angiotomografia de coronarias - L-002
+  total_planilha: 81546
+  total_codigo_fechado: 81546
+
+derivados:
+  soma_procedimentos: 10843402.74
+  valor_global: 11688862.74        # soma + apoio realizado
+  apoio_total: 845460.00           # o realizado, montado de baixo para cima
+  apoio_percentual_teto: 0.08
+  apoio_realizado: 845460.00       # quadro de 15 lancamentos x 12 meses, nomes do cargos_no_acervo.md
+  apoio_percentual_realizado: 0.07233   # DERIVADO do quadro, nunca o contrario
+  apoio_teto_valor: 942904.59           # soma x 0,08 / 0,92
+  valor_global_derivado: 11688862.74    # soma + apoio realizado
+  horas_sala_us: 25098
+  horas_sala_tc: 4424
+  quantitativo_exames: 81546
+  media_por_exame: 132.97
+
+conferencia:
+  locais: nao_rodadas
+  notebooklm: nao_rodada
+
+metas:                             # seis blocos, cada um com dotacao propria na planilha
+  1: {nome: "Estruturacao e coordenacao da execucao", quantitativo: "3 polos em operacao", dotacao: 126000.00}
+  2: {nome: "Gestao da fila", quantitativo: "81.546 solicitacoes agendadas e confirmadas", dotacao: 230400.00}
+  3: {nome: "Registro da producao", quantitativo: "81.546 exames registrados", dotacao: 309600.00}
+  4: {nome: "Execucao assistencial em ultrassonografia", quantitativo: 68094, dotacao: 6811909.80}
+  5: {nome: "Execucao assistencial em tomografia", quantitativo: 13452, dotacao: 4031492.94}
+  6: {nome: "Monitoramento, conclusao e prestacao de contas", quantitativo: "12 relatorios mensais e 1 final", dotacao: 179460.00}
+  qualitativa: "entrega do laudo ao usuario e a unidade solicitante em 100% dos exames realizados"
+
+indicadores:                       # todos pactuados em 100%
+  I-01: "execucao fisica"
+  I-02: "execucao por procedimento"
+  I-03: "entrega do laudo"
+  I-04: "registro da producao"
+  I-05: "tempestividade do registro"
+  I-06: "relatorios de execucao"
+
+riscos: 15                         # R-01 a R-15, com probabilidade, impacto e classificacao
+
+versoes:
+  v1: {arquivo: "versoes/plano_v1_20260915.md", data: 2026-09-15, linhas: 439}
+  v2: {arquivo: "versoes/plano_v2_20260915.md", data: 2026-09-15, linhas: 621, prosa: 2596,
+       mudou: "secao 5 expandida, 5.10 removida, seis metas, seis indicadores, quinze riscos"}
+  v3: {arquivo: "versoes/plano_v3_20260917.md", data: 2026-09-17, linhas: 792, prosa: 4101,
+       mudou: "prosa de 2.596 para 4.101; 5.6 e 5.7 reescritas; tabela de espera na 3.1 com fonte nomeada;
+               lotacao por polo na 5.10 e 9.4; linha de postos da 6.3 corrigida; SISREG nomeado"}
+
+decisoes_de_redacao:
+  sisreg: "nomeado - Sistema Nacional de Regulacao (SISREG) na 5.1 e na 3.1; producao continua
+    em 'sistemas oficiais de informacao do SUS' porque o registro vai ao SIA, nao ao SISREG"
+  fonte_da_espera: "Mapa Social da Saude (MPDFT), consultado em 15/09/2026 - publica dados do SISREG"
+  fonte_do_quantitativo: "extracao de 10/09/2026 no sistema de regulacao da SES-DF; painel interno, sem acesso publico"
+  espera_maxima: "fora do documento - maximos acima de 5.800 dias podem ser residuo de base"
+  classificacao_de_risco: "fora do documento - 17% do objeto em Prioridade 4, com hipotese de ausencia de classificacao na origem"

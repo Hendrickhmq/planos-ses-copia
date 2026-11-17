@@ -1,0 +1,10 @@
+id: "Lei 9504-1997 eleicoes"
+arquivo: "Lei 9504-1997 eleicoes.html"
+sha256: "f548bd95a9231c93e4a5c5bb776b5b4915fdc9f2211b014679f955dd21f0d26b"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 248663
+tabelas_total: 13
+trechos_riscados: 186
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

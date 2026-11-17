@@ -1,0 +1,1133 @@
+[
+  {
+    "code": "02.07.01.001-3",
+    "name": "ANGIORESSONANCIA CEREBRAL",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.11.02.001-0",
+    "name": "CATETERISMO CARDÍACO",
+    "base": 730.04,
+    "increment": 2.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.11.02.002-8",
+    "name": "CATETERISMO CARDIACO EM PEDIATRIA",
+    "base": 653.72,
+    "increment": 2.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.05.001-9",
+    "name": "CINTILOGRAFIA DE ARTICULACOES E/OU EXTREMIDADES E/OU OSSO",
+    "base": 180.32,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.01.001-7",
+    "name": "CINTILOGRAFIA DE CORACAO C/ GALIO 67",
+    "base": 457.55,
+    "increment": 1.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.09.001-0",
+    "name": "CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS",
+    "base": 906.8,
+    "increment": "N/A",
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.001-2",
+    "name": "CINTILOGRAFIA DE FIGADO E BACO (MINIMO 5 IMAGENS)",
+    "base": 133.26,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.002-0",
+    "name": "CINTILOGRAFIA DE FIGADO E VIAS BILIARES",
+    "base": 187.93,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.09.002-9",
+    "name": "CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA)",
+    "base": 66.23,
+    "increment": 2.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.003-9",
+    "name": "CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTÍMULO",
+    "base": 87.89,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.09.003-7",
+    "name": "CINTILOGRAFIA DE MAMA (BILATERAL)",
+    "base": 289.43,
+    "increment": 2.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.01.002-5",
+    "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    "base": 408.52,
+    "increment": 1.2,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.01.003-3",
+    "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+    "base": 383.07,
+    "increment": 1.3,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.01.004-1",
+    "name": "CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE (MINIMO 3 PROJEÇOES)",
+    "base": 166.47,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.05.003-5",
+    "name": "CINTILOGRAFIA DE OSSOS COM OU SEM FLUXO SANGUÍNEO (CORPO INTEIRO)",
+    "base": 190.99,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.03.001-8",
+    "name": "CINTILOGRAFIA DE PARATIREOIDES",
+    "base": 324.54,
+    "increment": 2.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.06.001-4",
+    "name": "CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO)",
+    "base": 438.01,
+    "increment": 1.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.07.001-0",
+    "name": "CINTILOGRAFIA DE PULMAO C/ GALIO 67",
+    "base": 457.55,
+    "increment": 1.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.07.002-8",
+    "name": "CINTILOGRAFIA DE PULMÃO P/ PESQUISA DE ASPIRAÇÃO",
+    "base": 127.51,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.07.003-6",
+    "name": "CINTILOGRAFIA DE PULMAO POR INALACAO (MINIMO 2 PROJECOES)",
+    "base": 127.12,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.07.004-4",
+    "name": "CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES)",
+    "base": 130.5,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.04.002-1",
+    "name": "CINTILOGRAFIA DE RIM C/ GALIO 67",
+    "base": 457.55,
+    "increment": 1.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.05.004-3",
+    "name": "CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67",
+    "base": 457.55,
+    "increment": 1.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.08.001-5",
+    "name": "CINTILOGRAFIA DE SISTEMA RETICULO-ENDOTELIAL (MEDULA OSSEA)",
+    "base": 112.61,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.04.003-0",
+    "name": "CINTILOGRAFIA DE TESTICULO E BOLSA ESCROTAL",
+    "base": 108.94,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.03.003-4",
+    "name": "CINTILOGRAFIA DE TIREOIDE C/ TESTE DE SUPRESSAO / Estímulo",
+    "base": 107.3,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.03.002-6",
+    "name": "CINTILOGRAFIA DE TIREÓIDE COM OU SEM CAPTAÇÃO",
+    "base": 77.28,
+    "increment": 1.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.01.005-0",
+    "name": "CINTILOGRAFIA P/ AVALIACAO DE FLUXO SANGUINEO DE EXTREMIDADES",
+    "base": 114.02,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.005-5",
+    "name": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (Líquido)",
+    "base": 135.38,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.006-3",
+    "name": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO)",
+    "base": 135.38,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.007-1",
+    "name": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO GASTRICO",
+    "base": 144.22,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.008-0",
+    "name": "CINTILOGRAFIA P/ PESQUISA DE DIVERTICULOSE DE MECKEL",
+    "base": 114.86,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.009-8",
+    "name": "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA ATIVA",
+    "base": 157.23,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.010-1",
+    "name": "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA NAO ATIVA",
+    "base": 310.82,
+    "increment": 2.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.011-0",
+    "name": "CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFÁGICO",
+    "base": 135.38,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.03.004-2",
+    "name": "CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO",
+    "base": 338.7,
+    "increment": 1.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.01.006-8",
+    "name": "CINTILOGRAFIA P/ QUANTIFICACAO DE SHUNT EXTRACARDIACO",
+    "base": 142.57,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.04.005-6",
+    "name": "CINTILOGRAFIA RENAL/RENOGRAMA (QUALITATIVA E/OU QUANTITATIVA)",
+    "base": 133.03,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.01.007-6",
+    "name": "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE ESFORCO",
+    "base": 214.85,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.01.008-4",
+    "name": "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE REPOUSO (VENTRICULOGRAFIA)",
+    "base": 176.72,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.06.002-2",
+    "name": "CISTERNOCINTILOGRAFIA (INCLUINDO PESQUISA E/OU AVALIACAO DO TRANSITO LIQUORICO)",
+    "base": 205.34,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.04.006-4",
+    "name": "CISTOCINTILOGRAFIA DIRETA",
+    "base": 122.97,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.04.007-2",
+    "name": "CISTOCINTILOGRAFIA INDIRETA",
+    "base": 144.5,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.09.01.001-0",
+    "name": "COLANGIOPANCREATOGRAFIA RETROGRADA (VIA ENDOSCÓPICA)",
+    "base": 90.68,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.09.01.002-9",
+    "name": "COLONOSCOPIA (COLOSCOPIA)",
+    "base": 112.66,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.04.06.002-8",
+    "name": "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES E/OU FÊMUR)",
+    "base": 55.1,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.01.003-2",
+    "name": "ECOCARDIOGRAFIA TRANSTORACICA",
+    "base": 67.86,
+    "increment": 1.36,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.022-4",
+    "name": "ELASTOGRAFIA HEPÁTICA ULTRASSÔNICA",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.09.01.003-7",
+    "name": "ESOFAGOGASTRODUODENOSCOPIA",
+    "base": 48.16,
+    "increment": 6.27,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.02.012-8",
+    "name": "IMUNO-CINTILOGRAFIA (ANTICORPO MONOCLONAL)",
+    "base": 1103.26,
+    "increment": "N/A",
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.08.08.004-0",
+    "name": "LINFOCINTILOGRAFIA",
+    "base": 141.33,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.04.03.018-8",
+    "name": "MAMOGRAFIA BILATERAL PARA RASTREAMENTO",
+    "base": 45.0,
+    "increment": 1.22,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.02.006-0",
+    "name": "RESSONÂNCIA MAGNÉTICA DA MAMA",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.03.001-4",
+    "name": "RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.01.002-1",
+    "name": "RESSONANCIA MAGNETICA DE ARTICULACAO TEMPORO-MANDIBULAR (BILATERAL)",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.03.002-2",
+    "name": "RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.01.003-0",
+    "name": "RESSONANCIA MAGNETICA DE COLUNA CERVICAL/PESCOÇO",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.01.004-8",
+    "name": "RESSONANCIA MAGNETICA DE COLUNA LOMBO-SACRA",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.01.005-6",
+    "name": "RESSONANCIA MAGNETICA DE COLUNA TORACICA",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.02.001-9",
+    "name": "RESSONANCIA MAGNETICA DE CORACAO / AORTA C/ CINE",
+    "base": 361.25,
+    "increment": 0.38,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.01.006-4",
+    "name": "RESSONANCIA MAGNETICA DE CRANIO",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.03.003-0",
+    "name": "RESSONANCIA MAGNETICA DE MEMBRO INFERIOR (UNILATERAL)",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.02.002-7",
+    "name": "RESSONANCIA MAGNETICA DE MEMBRO SUPERIOR (UNILATERAL)",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.01.007-2",
+    "name": "RESSONANCIA MAGNETICA DE SELA TURCICA",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.02.003-5",
+    "name": "RESSONANCIA MAGNETICA DE TORAX",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.03.004-9",
+    "name": "RESSONANCIA MAGNETICA DE VIAS BILIARES / COLANGIORESSONÂNCIA",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.07.03.005-7",
+    "name": "RESSONÂNCIA MAGNÉTICA MULTIPARAMÉTRICA DA PRÓSTATA",
+    "base": 268.75,
+    "increment": 0.86,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "04.07.01.025-4",
+    "name": "RETIRADA DE PÓLIPO DO TUBO DIGESTIVO POR ENDOSCOPIA",
+    "base": 29.84,
+    "increment": 2.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "04.17.01.006-0",
+    "name": "SEDAÇÃO",
+    "base": 15.15,
+    "increment": 8.9,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.03.001-0",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE ABDOMEN SUPERIOR",
+    "base": 138.63,
+    "increment": 1.16,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.03.002-9",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO INFERIOR",
+    "base": 86.75,
+    "increment": 2.46,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.02.001-5",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO SUPERIOR",
+    "base": 86.75,
+    "increment": 2.46,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.01.001-0",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE COLUNA CERVICAL C/ OU S/ CONTRASTE",
+    "base": 86.76,
+    "increment": 2.46,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.01.002-8",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE COLUNA LOMBO-SACRA C/ OU S/ CONTRASTE",
+    "base": 101.1,
+    "increment": 1.97,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.01.003-6",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE COLUNA TORACICA C/ OU S/ CONTRASTE",
+    "base": 86.76,
+    "increment": 2.46,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.01.004-4",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE FACE / SEIOS DA FACE / ARTICULACOES TEMPORO-MANDIBULARES",
+    "base": 86.75,
+    "increment": 2.46,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.03.003-7",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE PELVE / BACIA / ABDOMEN INFERIOR",
+    "base": 138.63,
+    "increment": 1.16,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.02.002-3",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE SEGMENTOS APENDICULARES (BRAÇO, ANTEBRAÇO, MÃO, COXA, PERNA, PE)",
+    "base": 86.75,
+    "increment": 2.46,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.01.006-0",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE SELA TURCICA",
+    "base": 97.44,
+    "increment": 2.08,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.02.003-1",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DE TÓRAX",
+    "base": 136.41,
+    "increment": 1.2,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.01.007-9",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO",
+    "base": 97.44,
+    "increment": 2.08,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.01.005-2",
+    "name": "TOMOGRAFIA COMPUTADORIZADA DO PESCOCO",
+    "base": 86.75,
+    "increment": 2.46,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.003-8",
+    "name": "ULTRASSONOGRAFIA DE ABDOMEN SUPERIOR",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.004-6",
+    "name": "ULTRASSONOGRAFIA DE ABDOMEN TOTAL",
+    "base": 37.95,
+    "increment": 1.64,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.005-4",
+    "name": "ULTRASSONOGRAFIA DE APARELHO URINARIO",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.006-2",
+    "name": "ULTRASSONOGRAFIA DE ARTICULACAO",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.007-0",
+    "name": "ULTRASSONOGRAFIA DE BOLSA ESCROTAL",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.008-9",
+    "name": "ULTRASSONOGRAFIA DE GLOBO OCULAR / ORBITA (MONOCULAR)",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "05.01.08.009-0",
+    "name": "ULTRASSONOGRAFIA DE ORGAO TRANSPLANTADO",
+    "base": 12.0,
+    "increment": 3.0,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.011-9",
+    "name": "ULTRASSONOGRAFIA DE PROSTATA (VIA TRANSRETAL)",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.010-0",
+    "name": "ULTRASSONOGRAFIA DE PROSTATA POR VIA ABDOMINAL",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.012-7",
+    "name": "ULTRASSONOGRAFIA DE TIREOIDE",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.013-5",
+    "name": "ULTRASSONOGRAFIA DE TORAX (EXTRACARDIACA)",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.01.004-0",
+    "name": "ULTRASSONOGRAFIA DOPPLER COLORIDO DE VASOS",
+    "base": 39.6,
+    "increment": 1.53,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.01.005-9",
+    "name": "ULTRASSONOGRAFIA DOPPLER DE FLUXO OBSTETRICO",
+    "base": 42.9,
+    "increment": 1.33,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.009-7",
+    "name": "ULTRASSONOGRAFIA MAMARIA BILATERAL",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.014-3",
+    "name": "ULTRASSONOGRAFIA OBSTÉTRICA",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.015-1",
+    "name": "ULTRASSONOGRAFIA OBSTETRICA C/ DOPPLER COLORIDO E PULSADO",
+    "base": 39.6,
+    "increment": 1.53,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.016-0",
+    "name": "ULTRASSONOGRAFIA PELVICA (GINECOLOGICA)",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.017-8",
+    "name": "ULTRASSONOGRAFIA TRANSFONTANELA",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.05.02.018-6",
+    "name": "ULTRASSONOGRAFIA TRANSVAGINAL",
+    "base": 24.2,
+    "increment": 3.13,
+    "newValue": null,
+    "annexes": [
+      "I",
+      "III"
+    ]
+  },
+  {
+    "code": "02.06.03.004-5",
+    "name": "CONTRASTE PARA TOMOGRAFIA COMPUTADORIZADA",
+    "base": null,
+    "increment": "Não informado",
+    "newValue": 60.0,
+    "annexes": [
+      "II"
+    ]
+  },
+  {
+    "code": "02.06.03.005-3",
+    "name": "CONTRASTE PARA RESSONÂNCIA MAGNÉTICA",
+    "base": null,
+    "increment": "Não informado",
+    "newValue": 100.0,
+    "annexes": [
+      "II"
+    ]
+  }
+]

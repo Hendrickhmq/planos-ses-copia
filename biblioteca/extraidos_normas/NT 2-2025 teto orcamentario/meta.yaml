@@ -1,0 +1,20 @@
+id: "NT 2-2025 teto orcamentario"
+arquivo: "NT 2-2025 teto orcamentario.pdf"
+processo_sei: ""
+sha256: "82806d8dbc89dfbd18283601919a40fc78688dfde18bdd2cc26c0f5f5907b47d"
+paginas: 5
+chars_texto: 8940
+tabelas_total: 25
+tabelas_por_pagina:
+  pagina_1: 6
+  pagina_2: 7
+  pagina_3: 11
+  pagina_4: 1
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:04"

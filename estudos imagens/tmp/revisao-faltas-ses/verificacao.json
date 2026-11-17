@@ -1,0 +1,58 @@
+{
+  "before": {
+    "vagas": 120389,
+    "melhoria": 99032,
+    "us": 1.3212476167516272,
+    "tc": 1.0775096844231795,
+    "salas": 28,
+    "meta": 79219,
+    "transfer": 0,
+    "ganho": 79219,
+    "margem": 3275272.1534301946
+  },
+  "improvement": {
+    "vagas": 99032,
+    "melhoria": 99032,
+    "us": 1.1117078993055556,
+    "tc": 0.8815104166666666,
+    "salas": 25,
+    "meta": 79219,
+    "transfer": 0,
+    "ganho": 79219,
+    "margem": 4022909.8652777784
+  },
+  "recovery": {
+    "vagas": 120389,
+    "melhoria": 99032,
+    "us": 0.8893663194444444,
+    "tc": 0.7052083333333333,
+    "salas": 20,
+    "meta": 79219,
+    "transfer": 0,
+    "ganho": 79219,
+    "margem": 4816224.622222222
+  },
+  "noReturn": {
+    "vagas": 120389,
+    "melhoria": 99032,
+    "us": 1.3212476167516272,
+    "tc": 1.0775096844231795,
+    "salas": 28,
+    "meta": 79219,
+    "transfer": 15959.35263255449,
+    "ganho": 69903.5709264708,
+    "margem": 3275272.1534301946
+  },
+  "final": {
+    "vagas": 120389,
+    "melhoria": 99032,
+    "us": 1.3212476167516272,
+    "tc": 1.0775096844231795,
+    "salas": 28,
+    "meta": 79219,
+    "transfer": 0,
+    "ganho": 79219,
+    "margem": 3275272.1534301946
+  },
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

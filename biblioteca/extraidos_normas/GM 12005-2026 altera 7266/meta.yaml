@@ -1,0 +1,10 @@
+id: "GM 12005-2026 altera 7266"
+arquivo: "GM 12005-2026 altera 7266.html"
+sha256: "b48d4d071ea5fea7d4a9e6c74a2b2b4f0483e2f9834395526938f24601489955"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 1342
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

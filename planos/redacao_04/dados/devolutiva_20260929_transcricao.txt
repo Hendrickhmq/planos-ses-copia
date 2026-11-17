@@ -1,0 +1,10 @@
+Transcricao automatica (faster-whisper small, pt) de dados/devolutiva_20260929_audio.opus
+Pode conter erros de reconhecimento - conferir contra o audio antes de citar.
+
+[   0.7-   2.7] Olá, tudo bem?
+[   4.7-  10.7] Bom, quando acaba uma fila, mas tem uma oportunidade de trabalhar em outra fila,
+[  10.7-  12.7] o que a gente tem que escrever no plano de trabalho?
+[  12.7-  18.7] Caso uma fila acabe, mas ainda existe outra fila para ser tratada,
+[  18.7-  28.7] a OSCA aciona a administração pública para avaliar a conveniência da troca do ajuste de meta.
+[  28.7-  32.7] Então vai inserir o procedimento que ainda tem meta.
+[  32.7-  38.7] E a administração do público que não vai ok, faz som auditivo e depois continua a execução.

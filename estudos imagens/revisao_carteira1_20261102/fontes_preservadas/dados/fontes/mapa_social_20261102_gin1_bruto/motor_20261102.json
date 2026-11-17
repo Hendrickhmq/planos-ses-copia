@@ -1,0 +1,710 @@
+{
+ "kit": {
+  "versao": "2026-10-27",
+  "assinatura": 2089625745
+ },
+ "ordem_hash": 3270919603,
+ "tipo": "medicao",
+ "app": "7edb02fa-f1f5-4ea6-b348-049a4ac2d095",
+ "titulo_app": "D-PDDC - MAPA DA SAÚDE - REGULAÇÃO (M)",
+ "filtro_fila": "status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}",
+ "filtro_devolvidas": "status_solicitacao_alias={'SOLICITAÇÃO DEVOLVIDA PARA COMPLEMENTAÇÃO PELO SOLICITANTE'}",
+ "janelas": {
+  "meses_viva": 24,
+  "viva": "data_solicitacao={\">=28/10/2024\"}",
+  "agendadas_12m": "data_agendamento={\">=28/10/2025<=27/10/2026\"}",
+  "entrantes_sol": "data_solicitacao={\">=01/10/2024\"}",
+  "entrantes_ag": "Ano_Agendamento={\">=2024\"}",
+  "entrantes_desde": "2024-10",
+  "oferta": "data_agendamento={\">=01/10/2024\"}"
+ },
+ "datas": {
+  "inicio": {
+   "recarga_utc": "2026-11-02T15:31:57.837Z",
+   "consulta": "02/11/2026 12:50:07",
+   "solicitacao_max": "28/10/2026",
+   "agendamento_max": "04/02/2027",
+   "recarga_brasilia": "02/11/2026 12:31:57"
+  },
+  "fim": {
+   "recarga_utc": "2026-11-02T15:31:57.837Z",
+   "consulta": "02/11/2026 12:50:18",
+   "solicitacao_max": "28/10/2026",
+   "agendamento_max": "04/02/2027",
+   "recarga_brasilia": "02/11/2026 12:31:57"
+  }
+ },
+ "varredura": {
+  "cols": [
+   "tabela",
+   "nome",
+   "codigo",
+   "por",
+   "objetos",
+   "fila",
+   "fila_viva",
+   "pessoas",
+   "pessoas_viva",
+   "devolvidas",
+   "espera_media",
+   "espera_mediana",
+   "espera_max",
+   "mais_antiga",
+   "idade_mediana",
+   "total",
+   "agendadas_12m",
+   "cid_principais"
+  ],
+  "linhas": [
+   [
+    "sol",
+    "ECOGRAFIA TRANSVAGINAL",
+    "205020186",
+    [
+     "codigo",
+     "nome"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    9294,
+    5699,
+    9293,
+    5698,
+    8953,
+    658.6563617069831,
+    528.0635957175909,
+    5893.485150462962,
+    "14/09/2010",
+    50,
+    18247,
+    18028,
+    [
+     [
+      "Z01",
+      2704
+     ],
+     [
+      "N95",
+      1210
+     ],
+     [
+      "R10",
+      711
+     ],
+     [
+      "Z12",
+      690
+     ],
+     [
+      "Z00",
+      592
+     ]
+    ]
+   ],
+   [
+    "sol",
+    "ULTRASSONOGRAFIA TRANSVAGINAL",
+    "205020186",
+    [
+     "codigo"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    0,
+    0,
+    0,
+    0,
+    1,
+    null,
+    null,
+    null,
+    null,
+    null,
+    1,
+    null,
+    []
+   ],
+   [
+    "sol",
+    "ECOGRAFIA TRANSVAGINAL COM DOPPLER",
+    "205010040",
+    [
+     "nome"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    133,
+    89,
+    133,
+    89,
+    151,
+    562.7576083377706,
+    419.1615073842622,
+    1397.1193658101838,
+    "05/01/2023",
+    49,
+    284,
+    140,
+    [
+     [
+      "Z01",
+      21
+     ],
+     [
+      "N95",
+      17
+     ],
+     [
+      "R10",
+      14
+     ],
+     [
+      "Z12",
+      10
+     ],
+     [
+      "D25",
+      7
+     ]
+    ]
+   ],
+   [
+    "sol",
+    "ULTRA-SONOGRAFIA TRANSVAGINAL",
+    "205020186",
+    [
+     "codigo"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    0,
+    0,
+    0,
+    0,
+    2,
+    null,
+    null,
+    null,
+    null,
+    null,
+    2,
+    0,
+    []
+   ],
+   [
+    "sol",
+    "USG TRANSVAGINAL",
+    "205020186",
+    [
+     "codigo",
+     "nome"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    1,
+    0,
+    1,
+    0,
+    0,
+    3969.147538668978,
+    3969.147538668978,
+    3969.147538668978,
+    "21/12/2015",
+    33,
+    1,
+    null,
+    [
+     [
+      "Z00",
+      1
+     ]
+    ]
+   ],
+   [
+    "ag",
+    "ECOGRAFIA TRANSVAGINAL",
+    "205020186",
+    [
+     "codigo",
+     "nome"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    18028,
+    []
+   ],
+   [
+    "ag",
+    "ECOGRAFIA TRANSVAGINAL EMERGENCIA",
+    "205020186",
+    [
+     "codigo",
+     "nome"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0,
+    []
+   ],
+   [
+    "ag",
+    "ECOGRAFIA TRANSVAGINAL COM DOPPLER",
+    "205010040",
+    [
+     "nome"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    140,
+    []
+   ],
+   [
+    "ag",
+    "ECOGRAFIA TRANSVAGINAL COM DOPPLER",
+    "205020151",
+    [
+     "nome"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0,
+    []
+   ],
+   [
+    "ag",
+    "ECOGRAFIA TRANSVAGINAL COM DOPPLER EMERGENCIA",
+    "205010040",
+    [
+     "nome"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0,
+    []
+   ],
+   [
+    "ag",
+    "ULTRA-SONOGRAFIA TRANSVAGINAL",
+    "205020186",
+    [
+     "codigo"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0,
+    []
+   ],
+   [
+    "ag",
+    "ULTRASONOGRAFIA TRANSVAGINAL COM PREPARO INTESTINAL",
+    "205020186",
+    [
+     "codigo"
+    ],
+    [
+     "02.05.02.018-6"
+    ],
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    0,
+    []
+   ]
+  ]
+ },
+ "objetos": {
+  "02.05.02.018-6": {
+   "tipo": "exame",
+   "nomes": {
+    "ECOGRAFIA TRANSVAGINAL": [
+     "ECOGRAFIA TRANSVAGINAL"
+    ],
+    "USG TRANSVAGINAL": [
+     "USG TRANSVAGINAL"
+    ]
+   },
+   "nomes_ag": {
+    "ECOGRAFIA TRANSVAGINAL": [
+     "ECOGRAFIA TRANSVAGINAL"
+    ],
+    "USG TRANSVAGINAL": []
+   },
+   "agendadas_12m": {
+    "ECOGRAFIA TRANSVAGINAL": 18028,
+    "USG TRANSVAGINAL": null
+   },
+   "valores": {
+    "uniao.pessoas": 9276,
+    "uniao.pessoas_viva": 5688,
+    "uniao.fila": 9277,
+    "uniao.fila_viva": 5689,
+    "uniao.espera_media": 658.7639089011581,
+    "uniao.espera_mediana": 528.0663909780087,
+    "uniao.devolvidas": 8923
+   },
+   "filas": {
+    "cols": [
+     "nome",
+     "fila",
+     "fila_viva",
+     "pessoas",
+     "pessoas_viva",
+     "devolvidas",
+     "espera_media",
+     "espera_mediana",
+     "espera_max",
+     "mais_antiga",
+     "idade_mediana",
+     "total",
+     "recorte CID da OCI GIN1 09.06.01.001-2 (IEV) fila",
+     "recorte CID da OCI GIN1 09.06.01.001-2 (IEV) fila_viva"
+    ],
+    "linhas": [
+     [
+      "ECOGRAFIA TRANSVAGINAL",
+      9294,
+      5699,
+      9293,
+      5698,
+      8953,
+      658.6563617069833,
+      528.0635957175909,
+      5893.485150462962,
+      "14/09/2010",
+      50,
+      18247,
+      3068,
+      2162
+     ],
+     [
+      "USG TRANSVAGINAL",
+      1,
+      0,
+      1,
+      0,
+      0,
+      3969.147538668978,
+      3969.147538668978,
+      3969.147538668978,
+      "21/12/2015",
+      33,
+      1,
+      0,
+      0
+     ]
+    ]
+   },
+   "cid_principais": {
+    "CID da OCI GIN1 09.06.01.001-2 (IEV)": {
+     "ECOGRAFIA TRANSVAGINAL": [
+      [
+       "N95",
+       1210
+      ],
+      [
+       "D25",
+       387
+      ],
+      [
+       "N93",
+       365
+      ],
+      [
+       "N92",
+       213
+      ],
+      [
+       "N80",
+       165
+      ],
+      [
+       "N83",
+       142
+      ],
+      [
+       "N94",
+       139
+      ],
+      [
+       "N84",
+       101
+      ],
+      [
+       "N91",
+       100
+      ],
+      [
+       "N81",
+       88
+      ]
+     ],
+     "USG TRANSVAGINAL": []
+    }
+   },
+   "dimensoes": {
+    "ano": {
+     "cols": [
+      "ano",
+      "fila",
+      "fila_viva"
+     ],
+     "linhas": [
+      [
+       "2025",
+       1744,
+       1744
+      ],
+      [
+       "2023",
+       1184,
+       0
+      ],
+      [
+       "2022",
+       428,
+       0
+      ],
+      [
+       "2026",
+       3690,
+       3690
+      ],
+      [
+       "2021",
+       677,
+       0
+      ],
+      [
+       "2024",
+       1549,
+       255
+      ],
+      [
+       "2019",
+       2,
+       0
+      ],
+      [
+       "2010",
+       2,
+       0
+      ],
+      [
+       "2015",
+       1,
+       0
+      ]
+     ]
+    },
+    "cid": {
+     "cols": [
+      "cid",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "Z01",
+       2699,
+       2699
+      ],
+      [
+       "N95",
+       1209,
+       1209
+      ],
+      [
+       "R10",
+       710,
+       710
+      ],
+      [
+       "Z12",
+       690,
+       690
+      ],
+      [
+       "Z00",
+       592,
+       592
+      ],
+      [
+       "D25",
+       384,
+       384
+      ],
+      [
+       "N93",
+       364,
+       364
+      ],
+      [
+       "Z30",
+       300,
+       300
+      ],
+      [
+       "N92",
+       212,
+       212
+      ],
+      [
+       "Z10",
+       202,
+       202
+      ],
+      [
+       "Z97",
+       185,
+       185
+      ],
+      [
+       "N80",
+       165,
+       165
+      ],
+      [
+       "E28",
+       148,
+       148
+      ],
+      [
+       "N83",
+       142,
+       142
+      ],
+      [
+       "N94",
+       139,
+       139
+      ],
+      [
+       "N91",
+       100,
+       100
+      ],
+      [
+       "N84",
+       100,
+       100
+      ],
+      [
+       "N81",
+       88,
+       88
+      ],
+      [
+       "R32",
+       84,
+       84
+      ],
+      [
+       "Z13",
+       80,
+       80
+      ]
+     ]
+    }
+   }
+  }
+ },
+ "lacunas": [],
+ "campos_data": [
+  "solicitacao_max",
+  "agendamento_max",
+  "mais_antiga"
+ ],
+ "campos_hora": [
+  "consulta"
+ ],
+ "leitura": {
+  "partes": 1,
+  "tamanho": 5515,
+  "hash": 1692150465
+ }
+}

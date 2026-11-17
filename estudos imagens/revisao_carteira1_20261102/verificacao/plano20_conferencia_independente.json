@@ -1,0 +1,18 @@
+{
+  "conferencias": 104,
+  "abas": [
+    "Plano em 20 salas",
+    "Exames e metas",
+    "Filas atendidas",
+    "Agenda e absenteismo",
+    "Encaminhamento SES"
+  ],
+  "salas": 20,
+  "dias_uteis_mes": 21,
+  "horas_dia": 10,
+  "sabados": false,
+  "meta": 79219,
+  "perda_liquida_com_reposicao_meta": 0.047619047619047616,
+  "recuperacao_minima_20pct_faltas": 0.7265500794912566,
+  "erros": []
+}

@@ -1,0 +1,16 @@
+id: "SAES 2723-2025 CPF"
+arquivo: "SAES 2723-2025 CPF.pdf"
+processo_sei: ""
+sha256: "8094a74db34e29f0c8c30efba56caa9184178b7b6dfad88c77b5f3ddb0149d60"
+paginas: 4
+chars_texto: 7842
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: [3, 4]
+paginas_ocr: [3, 4]
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:26"

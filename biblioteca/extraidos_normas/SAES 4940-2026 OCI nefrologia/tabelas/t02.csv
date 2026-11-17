@@ -1,0 +1,40 @@
+Procedimento,09.09.01.005-6 - OCI PREPARAÇÃO DE PACIENTE COM DOENÇA RENAL CRÔNICA PARA DIÁLISE PERITONEAL - IMPLANTE DE CATETER
+Descrição,"PROCEDIMENTO DE OFERTA DE CUIDADO INTEGRADO QUE TEM A FINALIDADE DE ORGANIZAR O PERCURSO ASSISTENCIAL DO PACIENTE COM DOENÇA RENAL CRÔNICA AVANÇADA, COM INDICAÇÃO DE TERAPIA RENAL SUBSTITUTIVA NA MODALIDADE DE DIÁLISE PERITONEAL, PROMOVENDO AVALIAÇÃO"
+,"ESPECIALIZADA, PREPARO PRÉ- PROCEDIMENTO E REALIZAÇÃO DO IMPLANTE DE CATETER PARA DIÁLISE PERITONEAL, POR MEIO DE CONSULTA OU TELECONSULTA COM NEFROLOGISTA, ASSISTENTE SOCIAL, ENFERMEIRA, ANESTESIOLOGISTA, CIRURGIÃO, DE EXAMES LABORATORIAIS, DE"
+,IMPLANTE DE CATÉTER E RETORNO COM ESPECIALISTA.
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Instrumento de Registro,APAC (Proc. Principal)
+Tipo de Financiamento,04 Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de Financiamento,04.0086 Programa Agora Tem Especialistas - Componente Ambulatorial
+Valor Serviço Ambulatorial (SA),"R$ 1.654,38"
+Valor Ambulatorial Total,"R$ 1.654,38"
+Sexo,Ambos
+Idade Mínima,0 meses
+Idade Máxima,130 anos
+Quantidade Máxima,1
+Atributo Complementar,052 Componente Complementar - Modalidade 2 058 Obrigatório CPF 053 Programa Mais Acesso a Especialistas (PMAE)
+Categoria CBO,2251-09 Médico Nefrologista 2252-25 Médico cirurgião geral
+CID-10 principal,N18 Insuficiência renal crônica N18.0 Doença renal em estádio final N18.8 Outra insuficiência renal crônica N18.9 Insuficiência renal crônica não especificada
+Habilitação,38.01 Programa Mais Acesso a Especialistas 38.02 Agora Tem Especialistas Modalidade 1 38.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes 38.05 Agora Tem Especialistas - Componente Créditos Financeiros 38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS
+Regra Condicionada,0009 Condiciona aos secundários a terem valor zerado 0011 Condiciona o registro de procedimentos secundários na APAC 0013 Gera compensação financeira 0014 Condiciona o tipo de financiamento em MAC 0015 Condiciona o tipo de financiamento em FAEC
+Procedimento,09.09.01.006-4 - OCI PREPRAÇÃO DE PACIENTES COM DOENÇA RENAL CRÔNICA PARA HEMODIÁLISE - FÍSTULA ARTERIOVENOSA
+Descrição,"PROCEDIMENTO DE OFERTA DE CUIDADO INTEGRADO QUE TEM A FINALIDADE DE ORGANIZAR O PERCURSO ASSISTENCIAL DO PACIENTE COM DOENÇA RENAL CRÔNICA AVANÇADA, COM INDICAÇÃO DE TERAPIA RENAL SUBSTITUTIVA NA MODALIDADE DE HEMODIÁLISE, PROMOVENDO AVALIAÇÃO"
+,"ESPECIALIZADA, PREPARO PRÉ-PROCEDIMENTO E CONFECÇÃO DE FÍSTULA ARTERIOVENOSA POR MEIO DE CONSULTA OU TELECONSULTA COM NEFROLOGISTA, CIRURGIÃO VASCULAR, AVALIAÇÃO DE ANESTESIOLOGISTA, EXAMES LABORATORIAIS, CONFECÇÃO DE FÍSTULA E RETORNO COM"
+,ESPECIALISTA.
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Instrumento de Registro,APAC (Proc. Principal)
+Tipo de Financiamento,04 Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de Financiamento,04.0086 Programa Agora Tem Especialistas - Componente Ambulatorial
+Valor Serviço Ambulatorial (SA),"R$ 3.000,63"
+Valor Ambulatorial Total,"R$ 3.000,63"
+Sexo,Ambos
+Idade Mínima,0 meses
+Idade Máxima,130 anos
+Quantidade Máxima,1
+Atributo Complementar,052 Componente Complementar - Modalidade 2 058 Obrigatório CPF 053 Programa Mais Acesso a Especialistas (PMAE)
+Categoria CBO,2251-09 Médico Nefrologista 2252-03 Médico em cirurgia vascular 2252-10 Médico cirurgião cardiovascular
+CID-10,N18 Insuficiência renal crônica N18.0 Doença renal em estádio final N18.8 Outra insuficiência renal crônica N18.9 Insuficiência renal crônica não especificada
+Habilitação,38.01 Programa Mais Acesso a Especialistas 38.02 Agora Tem Especialistas Modalidade 1 38.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes 38.05 Agora Tem Especialistas - Componente Créditos Financeiros 38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS
+Regra Condicionada,0009 Condiciona aos secundários a terem valor zerado 0011 Condiciona o registro de procedimentos secundários na APAC 0013 Gera compensação financeira 0014 Condiciona o tipo de financiamento em MAC 0015 Condiciona o tipo de financiamento em FAEC

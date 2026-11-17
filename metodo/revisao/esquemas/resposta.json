@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["respostas"],
+  "properties": {
+    "respostas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "status", "secao_alterada", "fonte_arquivo", "trecho_fonte", "nota"],
+        "properties": {
+          "id": {"type": "string"},
+          "status": {"type": "string", "enum": ["aceito", "aceito_em_parte", "contestado", "decisao_do_usuario", "citacao_invalida"]},
+          "secao_alterada": {"type": ["string", "null"]},
+          "fonte_arquivo": {"type": ["string", "null"]},
+          "trecho_fonte": {"type": ["string", "null"]},
+          "nota": {"type": "string"}
+        }
+      }
+    }
+  }
+}

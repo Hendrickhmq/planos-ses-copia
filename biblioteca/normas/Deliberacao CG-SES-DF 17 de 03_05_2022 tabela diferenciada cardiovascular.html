@@ -1,0 +1,3084 @@
+<!DOCTYPE html>
+    <html>
+
+    <head id="Head1"><meta content="IE=Edge" http-equiv="X-UA-Compatible"/><meta content="pt-br" http-equiv="Content-Language"/><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/><title>
+	
+            Deliberação 17 de 03/05/2022
+        
+</title><meta name="keywords" content="Deliberação 17 de 03/05/2022,sinj,distrito,federal,df"/><meta name="description" content="[Aprova, por unanimidade, a necessidade manifestada dos serviços complementares de saúde nas áreas de doação e captação de órgãos e tecidos, transplantes de órgãos sólidos e transplantes de tecidos e serviços eletivos e emergenciais, de média e alta complexidade nas especialidades de Cirurgia Cardíaca (adulto e pediátrica), Cirurgia Vascular, Radiologia, Cardiologia (adulto e pediátrica), Terapia Intensiva Coronariana e Serviços Intervencionistas Endovasculares nas áreas de Cardiologia, Cirurgia Vascular, Neurocirurgia, visando atender as necessidades de assistência da Secretaria de Estado de Saúde do Distrito Federal - SES/DF]."/><meta content="index,follow" name="robots"/><meta content="index,follow" name="googlebot"/><script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/platform.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/liblight.js"></script>
+
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/funcoes_norma.js?4.4.00134"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/ckeditor/adapters/jquery.js"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.form.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.cookie.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/on_error.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/liblight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/stacktrace.js"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.ajaxLight.js?3.2.00001"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.autocompleteLight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jMenu.jquery.min.js"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.modalLight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/login.js?3.2.00001"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/funcoes_sinj.js?3.2.00001"
+            charset="utf-8"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/sessao_sinj.js?3.2.00001"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/stacktable.js"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/platform.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/tooltip.js"></script>
+
+        <script type="text/javascript" language="javascript">
+            function Print() {
+                $('div.control').hide();
+                window.print();
+                $('div.control').show();
+            }
+            function exibirAlteracoes(el) {
+                if (el.getAttribute('refresh')) {
+                    location.reload();
+                }
+                else {
+
+                    // NOTE: Essa funcionalidade faz com o que o texto alterado "se transforme" 
+                    // em compilado (basicamente remove informações de vide), mas define 
+                    // um comportamento diferenciado para para os parágrafos que contiverem 
+                    // vides com os seguintes textos no link "revogado pelo(a)" ou 
+                    // "declarado(a) inconstitucional pelo(a)". By Questor
+                    
+                    var regex = undefined;
+                    regex = new RegExp(/Revogado.*?pelo\(a\)/);
+                    $('p[replaced_by]:contains("Revogado")').each(function (k, p) {
+                        if (regex.test($(p).text())) {
+                            var aLinkVide = $('a.link_vide', $(p));
+                            if (aLinkVide.length > 0) {
+                                var aTexto = $(aLinkVide[aLinkVide.length - 1]).text();
+                                if (regex.test(aTexto)) {
+                                    var ds = generateDescriptionToParagraph($(p).text());
+                                    $(p).text(ds + ' ');
+                                    $(aLinkVide[aLinkVide.length - 1]).appendTo($(p));
+                                    $(p).removeAttr('replaced_by');
+                                }
+                            }
+                        }
+                    });
+                    regex = new RegExp(/Inconstitucional.*?pelo\(a\)/);
+                    $('p[replaced_by]:contains("Inconstitucional")').each(function (k, p) {
+                        if (regex.test($(p).text())) {
+                            var aLinkVide = $('a.link_vide', $(p));
+                            if (aLinkVide.length > 0) {
+                                var aTexto = $(aLinkVide[aLinkVide.length - 1]).text();
+                                if (regex.test(aTexto)) {
+                                    var ds = generateDescriptionToParagraph($(p).text());
+                                    $(p).text(ds + ' ');
+                                    $(aLinkVide[aLinkVide.length - 1]).appendTo($(p));
+                                    $(p).removeAttr('replaced_by');
+                                }
+                            }
+                        }
+                    });
+                    $('p[replaced_by]').remove();
+                    $(el).attr('refresh', '1');
+                    $(el).text('Exibir Alterações');
+                }
+            }
+
+            //Verifica os links de LECO, ordena e insere o link 'exibir mais...' e 'exibir menos...' caso exista mais de 3 links de LECO
+            function verificarLinks() {
+                var aP = $('#div_texto > p');
+                var i = 0;
+                var length = aP.length;
+                var pAfter = null;
+                var aOrder = [];
+                for (; i < length; i++) {
+                    if ($('a[href]', aP[i]).length == 1 && $('a[href]', aP[i]).text().toLowerCase().indexOf('legislação correlata') == 0) {
+                        $('a[href]', aP[i]).attr('show', '1').attr('leco', 'leco');
+                        aOrder.push({ 'text': $('a[href]', aP[i]).text(), 'href': $('a[href]', aP[i]).attr('href') });
+                        if (i >= 3) {
+                            $('a[href]', aP[i]).attr('show', '0');
+                            pAfter = aP[i];
+                        }
+                    }
+                    else {
+                        break;
+                    }
+                }
+                aOrder.sort(function (a1, a2) {
+                    return a1.text > a2.text ? 1 : a1.text < a2.text ? -1 : 0;
+                });
+                $('#div_texto a[leco="leco"]').each(function (i, o) {
+                    o.innerText = aOrder[i].text;
+                    o.href = aOrder[i].href;
+                });
+                if (pAfter != null && $('a[show="0"]').length > 3) {
+                    $('a[show="0"]').closest('p').hide();
+                    $('<p id="p_show"><a href="javascript:void(0);" onclick="exibirLinks()">Exibir mais...</a></p>').insertAfter($(pAfter));
+                    $('<p id="p_hide" style="display:none"><a href="javascript:void(0);" onclick="esconderLinks()">Exibir menos...</a></p>').insertAfter($(pAfter));
+                }
+            }
+            function exibirLinks() {
+                $('a[show="0"]').closest('p').show();
+                $('#p_hide').show();
+                $('#p_show').hide();
+            }
+            function esconderLinks() {
+                $('a[show="0"]').closest('p').hide();
+                $('#p_hide').hide();
+                $('#p_show').show();
+            }
+
+            function generateDescriptionToParagraph(text) {
+                var ds = '';
+                text = $.trim(text);
+                if (text != "") {
+                    var palavras = text.split(' ');
+                    if (palavras[0] == 'ANEXO' || palavras[0] == 'TÍTULO' || palavras[0] == 'CAPÍTULO' || palavras[0] == 'Art.' || (palavras[0] == 'Parágrafo' && palavras[1] == 'Único') || palavras[0] == '§') {
+                        ds = palavras[0] + ' ' + palavras[1];
+                    }
+                    else if (ehInciso(palavras[0]) || ehAlinea(palavras[0]) || ehNum(palavras[0])) {
+                        ds = palavras[0];
+                    }
+                    else {
+                        ds = "...";
+                    }
+                }
+                return ds;
+            }
+
+            function ehInciso(termo) {
+                var lastIndex = termo.indexOf("-");
+                if (lastIndex > 0) {
+                    termo = termo.substring(0, lastIndex);
+                }
+                return termo.match(/^[IVXLCDM]+$/i);
+            }
+
+            function ehAlinea(termo) {
+                var lastIndex = termo.indexOf(")");
+                if (lastIndex < 0) {
+                    return false;
+                }
+                if (termo.length == (lastIndex + 1)) {
+                    termo = termo.substring(0, lastIndex);
+                    return termo.match(/[a-z]/i);
+                }
+                return false;
+            }
+
+            function ehNum(termo) {
+                var lastIndex = termo.indexOf(".");
+                if (lastIndex < 0) {
+                    return false;
+                }
+                if (termo.length == (lastIndex + 1)) {
+                    termo = termo.substring(0, lastIndex);
+                    return isInt(termo);
+                }
+                return false;
+            }
+
+            $(document).ready(function () {
+                //A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378
+
+
+
+                var urlPath = window.location.pathname;
+                var urlSplited = urlPath.split("/");
+                var numeroNorma = urlSplited[3];
+
+                //Pegar o texto do h1
+                var elementoh1 = $('#div_texto > h1')[0].textContent;
+                //Adicionar a tag 'a'
+                $('#div_texto > h1')[0].innerHTML = '<a>' + elementoh1 + '</a>';
+
+                //Adicionar o link
+                $("#div_texto h1 a").attr('href', '/' + urlSplited[1] + '/DetalhesDeNorma.aspx?id_norma=' + numeroNorma).attr("target", '_blank');
+                //--------------------------------------------------------------------------------------
+
+
+
+
+                // var paragrafo = $('p');
+                // for (var i = 0; i < paragrafo.length; i++) {
+                //     if (paragrafo[i].innerText.match(/Os anexos constam no DODF/g)) {
+    
+                //         var spanParagrafo = paragrafo[i].textContent;
+                //         var form_consultar_diario = "\"form_consultar_diario\"";
+                //         var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+    
+                //         $(paragrafo)[i].innerHTML = _form + _button + "<span>" + spanParagrafo + "<span>" + "</a></form>";
+    
+                //     }
+
+                //     if (paragrafo[i].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                //         var span = paragrafo[i].textContent;
+                //         var form_consultar_diario = "\"form_consultar_diario\"";
+                //         var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var arraySpan = $("p > span");
+                //         $(paragrafo)[i].innerHTML = _form + _button + "<span style='text-decoration: underline red; color: red;' >" + span + "<span>" + "</a></form>";
+                //     }
+                // }
+                // if (!paragrafo[i - 1].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                //     $('#paginaEColuna').hide();
+                // }
+                //--------------------------------------------------------------------------------------
+
+
+
+                if ($('#div_erro').length > 0) {
+                    $('#div_norma').hide();
+                }
+                else {
+                    if ($('p[replaced_by]').length <= 0 || $('p').length == $('p[replaced_by]').length) {
+                        $('.compilado').hide();
+                    }
+                    verificarLinks();
+                }
+            });
+
+
+            var normaOVEmFunction = new normaOVEmFunction();
+            
+                //A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378
+
+
+            if (normaOVEmFunction != true) {
+
+                    var urlPath = window.location.pathname;
+                    var urlSplited = urlPath.split("/");
+                    var numeroNorma = urlSplited[3];
+
+                    //Pegar o texto do h1
+                    var elementoh1 = $('#div_texto > h1')[0].textContent;
+                    //Adicionar a tag 'a'
+                    $('#div_texto > h1')[0].innerHTML = '<a>' + elementoh1 + '</a>';
+
+                    //Adicionar o link
+                    $("#div_texto h1").attr('href', '/' + urlSplited[1] + '/DetalhesDeNorma.aspx?id_norma=' + numeroNorma).attr("target", '_blank');
+                    //--------------------------------------------------------------------------------------
+
+                //consultarDiarioAspErro
+                    var paragrafo = $('p');
+
+                    for (var i = 0; i < paragrafo.length; i++) {
+
+                        if (paragrafo[i].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                            var span = paragrafo[i].textContent;
+                            var form_consultar_diario = "\"form_consultar_diario\"";
+                            var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                            var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioAspErro(" + form_consultar_diario + ")\'>";
+                            var arraySpan = $("p > span");
+                            $(paragrafo)[i].innerHTML = _form + _button + "<span style='text-decoration: underline red; color: red;' >" + span + "<span>" + "</a></form>";
+                        }
+                    }
+                    if (!paragrafo[i - 1].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                        $('#paginaEColuna').hide();
+                    }
+                    //--------------------------------------------------------------------------------------
+
+                    if ($('#div_erro').length > 0) {
+                        $('#div_norma').hide();
+                    }
+                    else {
+                        if ($('p[replaced_by]').length <= 0 || $('p').length == $('p[replaced_by]').length) {
+                            $('.compilado').hide();
+                        }
+                        verificarLinks();
+                    }
+             }
+        </script>
+        <style type="text/css">
+            .control {
+                width: 100%;
+                float: left;
+            }
+
+            .print {
+                float: right;
+            }
+
+            .compilado {
+                float: left;
+            }
+
+            div.strike {
+                text-decoration: line-through;
+            }
+
+            body,
+            p,
+            h1 {
+                font-family: Tahoma;
+                font-size: 14px;
+            }
+
+            p[nota=nota] {
+                font-size: 12px;
+                border: 1px solid #777;
+                padding: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="div_norma">
+            <!-- A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378-->
+            
+            <!-- corpo dela epigrafe-->
+
+            <a href="/sinj/ ~/" title="Visitar o SINJ-DF - Sistema Integrado de Normas Jurídicas do
+                DF"><img src="http://www.sinj.df.gov.br/sinjpadrao/Imagens/logo_sinj.png" alt="SINJ-DF" /></a>
+
+            <div class="control">
+                <div class="compilado">
+                    <a href="javascript:void(0)" onclick="javascript:exibirAlteracoes(this);">
+                        Texto Compilado
+                    </a>
+                </div>
+                <div class="print">
+                    <a href="javascript:void(0);" onclick="javascript:Print();" title="Imprimir">
+                        <img alt="print" src="http://www.sinj.df.gov.br/sinjpadrao/Imagens/ico_print_p.png" />
+                    </a>
+                </div>
+            </div>
+            <div id="div_texto"><p ch_norma_info="8f576121de0b4f8984257b30af0ab399" class="adicionado"><a href="/sinj/Norma/8f576121de0b4f8984257b30af0ab399/csdf_res_565_2022.html#art2">Legislação Correlata - Resolução 565 de 21/06/2022</a><p ch_norma_info="b276ef6d4a154738b1a6efe30a9a9c13" class="adicionado"><a href="/sinj/Norma/b276ef6d4a154738b1a6efe30a9a9c13/ses_cg_dlb_17_2024_rep.html">Legislação Correlata - Deliberação 17 de 17/04/2024</a><p ch_norma_info="193b914320924e23858afc77a4c976de" class="adicionado"><a href="/sinj/Norma/193b914320924e23858afc77a4c976de/ses_cg_del_24_2024_rep.html#art4">Legislação Correlata - Deliberação 24 de 10/06/2024</a><p ch_norma_info="7ad7de68f5fd4e54ab8f2a56b81d658c" class="adicionado"><a href="/sinj/Norma/7ad7de68f5fd4e54ab8f2a56b81d658c/ses_csdf_res_611_2024_ret.html#art2">Legislação Correlata - Resolução 611 de 09/07/2024</a><h1 epigrafe="epigrafe" noindex="" nota="" style="font-weight:bold; text-align:center">DELIBERAÇÃO Nº 17, DE 03 DE MAIO DE 2022 (*)</h1><p style="text-align:justify" linkname="txt_0439f2b37ada4994dded5a176845bea1" class=""><a id="txt_0439f2b37ada4994dded5a176845bea1" name="txt_0439f2b37ada4994dded5a176845bea1" class="linkname"></a>O PLENÁRIO DO COLEGIADO DE GESTÃO, DA SECRETARIA DE ESTADO DE SAÚDE DO DISTRITO FEDERAL, instituído pela Resolução do Conselho de Saúde do Distrito Federal - CSDF nº 35, de 11 de dezembro de 2007, republicada no DODF nº 107, de 5 de junho de 2008, página 12, alterada pelas Resoluções do CSDF nº 282, de 05 de maio de 2009, nº 338, de 16 de novembro de 2010, nº 364, de 13 de setembro de 2011 (resoluções estas renumeradas conforme Ordem de Serviço do CSDF nº 01, de 23 de março de 2012, publicada no DODF nº 79, de 20 de abril de 2012, páginas 46 a 49) e nº 384, de 27 de março de 2012, em sua 2ª Reunião Extraordinária, realizada por videoconferência, em 28 de abril de 2022, e:<p style="text-align:justify" linkname="txt_5a8a9360b7d74d97872b5ed40204bf0c" class=""><a id="txt_5a8a9360b7d74d97872b5ed40204bf0c" name="txt_5a8a9360b7d74d97872b5ed40204bf0c" class="linkname"></a>Conforme a Portaria nº 1.606, de 11 de setembro de 2001 – MS e Norma Operacional Básica - NOB 01/96 que atribuiu aos estados e municípios habilitados em Gestão Plena do Sistema a prerrogativa de normatização complementar relativa ao pagamento de prestadores de serviços assistenciais em seu território, inclusive quanto à alteração de valores de procedimentos, tendo a tabela nacional como referência mínima, desde que aprovada pelo Conselho Municipal de Saúde/ CMS e pela Comissão Intergestores Bipartite/CIB;<p style="text-align:justify" linkname="txt_5a450ce234bb40565a3137b1753fc5e7" class=""><a id="txt_5a450ce234bb40565a3137b1753fc5e7" name="txt_5a450ce234bb40565a3137b1753fc5e7" class="linkname"></a>Considerando a necessidade de disciplinar, no âmbito da Pasta, a relação entre os estabelecimentos de saúde, com ou sem fins lucrativos, na participação, no Sistema Único de Saúde, de forma complementar de assistência à saúde aos usuários do SUS/DF;<p style="text-align:justify" linkname="txt_88ee4c479a9b4fd99ee22cccda8645c4" class=""><a id="txt_88ee4c479a9b4fd99ee22cccda8645c4" name="txt_88ee4c479a9b4fd99ee22cccda8645c4" class="linkname"></a>Considerando a necessidade de ampliar a rede assistencial aos usuários do SUS/DF, vez que a rede própria encontra-se com sua capacidade esgotada;<p style="text-align:justify" linkname="txt_87f170314e854eb42992edb5c5d0e457" class=""><a id="txt_87f170314e854eb42992edb5c5d0e457" name="txt_87f170314e854eb42992edb5c5d0e457" class="linkname"></a>Considerando que a participação complementar da iniciativa privada no Sistema Único de Saúde está prevista na Constituição Federal e regulamentada pela Lei Orgânica de Saúde nº 8080/90;<p style="text-align:justify" linkname="txt_f9c992283d074f1e8719b07478dfa1d8" class=""><a id="txt_f9c992283d074f1e8719b07478dfa1d8" name="txt_f9c992283d074f1e8719b07478dfa1d8" class="linkname"></a>Considerando que o posicionamento do Ministério Público do Distrito Federal, em Ações Civis Públicas, acatado pelos Magistrados, é no sentido de que o SUS/DF deve propiciar aos seus usuários assistência integral à saúde;<p style="text-align:justify" linkname="txt_c8bc811274a94a61eaa2dbfee626402c" class=""><a id="txt_c8bc811274a94a61eaa2dbfee626402c" name="txt_c8bc811274a94a61eaa2dbfee626402c" class="linkname"></a>Considerando a existência de demanda reprimida nos atendimentos médico-assistenciais nas áreas de doação e captação de órgãos e tecidos, transplantes de órgãos sólidos e transplantes de tecidos e serviços eletivos e emergenciais, de média e alta complexidade nas especialidades de Cirurgia Cardíaca (adulto e pediátrica), Cirurgia Vascular, Radiologia, Cardiologia (adulto e pediátrica), Terapia Intensiva Coronariana e Serviços Intervencionistas Endovasculares nas áreas de Cardiologia, Cirurgia Vascular, Neurocirurgia no Distrito Federal;<p style="text-align:justify" linkname="txt_03d43503dc8746092f07bb96843d1ed4" class=""><a id="txt_03d43503dc8746092f07bb96843d1ed4" name="txt_03d43503dc8746092f07bb96843d1ed4" class="linkname"></a>Considerando os projetos básicos registrados nos processos 00060-00193330/2020-78, 00060-00484351/2020-08 e 00060-00042094/2021-11;<p style="text-align:justify" linkname="txt_52d19166201141d96f76d1171ff9fdf8" class=""><a id="txt_52d19166201141d96f76d1171ff9fdf8" name="txt_52d19166201141d96f76d1171ff9fdf8" class="linkname"></a>Considerando a Resolução do CSDF nº 558, de 26 de abril de 2022, que consagra a efetiva participação da sociedade civil organizada, pelos polos de qualificação de cidadãos para o Controle Social;<p style="text-align:justify" linkname="txt_49391480a65d427c307ecd29a0efe1e2" class=""><a id="txt_49391480a65d427c307ecd29a0efe1e2" name="txt_49391480a65d427c307ecd29a0efe1e2" class="linkname"></a>Considerando a necessidade de manutenção de serviços essenciais à Saúde, nos termos do Art. 196, da Constituição Federal;<p style="text-align:justify" linkname="txt_1f9766821f9a450880fd4d59ec3c50c5" class=""><a id="txt_1f9766821f9a450880fd4d59ec3c50c5" name="txt_1f9766821f9a450880fd4d59ec3c50c5" class="linkname"></a>Considerando que os valores pagos pela realização dos procedimentos de média e alta complexidade, constantes da Tabela de Procedimentos, Medicamentos Órteses, Próteses e Materiais Especiais do Sistema Único de Saúde do Ministério da Saúde foram estabelecidos baseados em sua série histórica de produção, em conformidade com as normas técnicas do Ministério da Saúde e da Secretaria;<p style="text-align:justify" linkname="txt_56ee6a8b815840f5cc8f93f6e649e347" class=""><a id="txt_56ee6a8b815840f5cc8f93f6e649e347" name="txt_56ee6a8b815840f5cc8f93f6e649e347" class="linkname"></a>Considerando que os processos foram instruídos, consubstanciado pela análise de mercado, pela justificativa da necessidade de complementaridade de serviços em atenção aos incisos I e II, do art. 2 da Portaria MS/GM 1.034/2010, pelo devido Plano Operativo, e pela justificativa do uso dos índices complementares a tabela do SUS;<p style="text-align:justify" linkname="txt_e3a7774df33c4675a0f030b3505ac186" class=""><a id="txt_e3a7774df33c4675a0f030b3505ac186" name="txt_e3a7774df33c4675a0f030b3505ac186" class="linkname"></a>Considerando Ofício MS/SE/GSB nº 2.433/2009, que informa o reconhecimento do Colegiado de Gestão da SES/DF – CGSES/DF, pela Comissão Intergestores Tripartite – CIT, como uma instância que cumprirá as atribuições e competências estabelecidas para as Comissões Intergestores Bipartite – CIB, no tocante à operacionalização do Sistema Único de Saúde;<p style="text-align:justify" linkname="txt_27de80f891694ee13fdb61f05301bf43" class=""><a id="txt_27de80f891694ee13fdb61f05301bf43" name="txt_27de80f891694ee13fdb61f05301bf43" class="linkname"></a>Considerando a Portaria GM/MS nº 598, de 23 de março de 2006, a qual define que os processos administrativos relativos à gestão do SUS sejam definidos e pactuados no âmbito das Comissões Intergestores Bipartites – CIBs, resolve:<p style="text-align:justify" linkname="art1" class=""><a id="art1" name="art1" class="linkname"></a>Art. 1º Aprovar, por unanimidade, a necessidade manifestada dos serviços complementares de saúde nas áreas de doação e captação de órgãos e tecidos, transplantes de órgãos sólidos e transplantes de tecidos e serviços eletivos e emergenciais, de média e alta complexidade nas especialidades de Cirurgia Cardíaca (adulto e pediátrica), Cirurgia Vascular, Radiologia, Cardiologia (adulto e pediátrica), Terapia Intensiva Coronariana e Serviços Intervencionistas Endovasculares nas áreas de Cardiologia, Cirurgia Vascular, Neurocirurgia, visando atender as necessidades de assistência da Secretaria de Estado de Saúde do Distrito Federal - SES/DF, nos termos apresentados nos processos 00060-00193330/2020-78, 00060-00484351/2020-08 e 00060-00042094/2021-11 da Secretaria de Saúde do Distrito Federal.<p style="text-align:justify" linkname="art2" class=""><a id="art2" name="art2" class="linkname"></a>Art. 2° Aprovar tabela diferenciada de remuneração de serviços complementares de Saúde para pagamento dos procedimentos do Art. 1º, exclusivamente para os serviços efetivamente realizados.<p style="text-align:justify" linkname="art3" class=""><a id="art3" name="art3" class="linkname"></a>Art. 3º A complementariedade definida pela tabela diferenciada para remuneração de serviços assistenciais de saúde, Artigo 2º, para efeito de complementação financeira, empregar recursos próprios, sendo vedada a utilização de recursos federais para esta finalidade.<p style="text-align:justify" linkname="art4" class=""><a id="art4" name="art4" class="linkname"></a>Art. 4º Esta Deliberação entra em vigor na data de sua aprovação.<p style="text-align:justify" linkname="art5" class=""><a id="art5" name="art5" class="linkname"></a>Art. 5º Revogam-se as disposições em contrário.<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_fb7b0bf19623467628cc1704d9ca20fe" class=""><a id="txt_fb7b0bf19623467628cc1704d9ca20fe" name="txt_fb7b0bf19623467628cc1704d9ca20fe" class="linkname"></a>MANOEL LUIZ NARVAZ PAFIADACHE<p style="font-weight:bold; margin-top:0px; text-align:center" linkname="txt_acd45bfcd8fb424cbece9b7613a5c651" class=""><a id="txt_acd45bfcd8fb424cbece9b7613a5c651" name="txt_acd45bfcd8fb424cbece9b7613a5c651" class="linkname"></a>Secretário de Saúde<p style="color:#ff0000; text-align:right" linkname="txt_15a5b3b8b5c341f1f2af1c39a185dd55" class=""><a id="txt_15a5b3b8b5c341f1f2af1c39a185dd55" name="txt_15a5b3b8b5c341f1f2af1c39a185dd55" class="linkname"></a>___________________<p style="color:#ff0000; text-align:right" linkname="txt_043e5a2323db40a1205186905b221d23" class=""><a id="txt_043e5a2323db40a1205186905b221d23" name="txt_043e5a2323db40a1205186905b221d23" class="linkname"></a>(*) Republicado por ter sido encaminhado com incorreção no original, publicado no DODF nº 83, de 05 de maio de 2022, páginas 6 a 14.<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_8271abd8574d44037b0f310aa657a59c" class=""><a id="txt_8271abd8574d44037b0f310aa657a59c" name="txt_8271abd8574d44037b0f310aa657a59c" class="linkname"></a>Tabela Diferenciada De Remuneração De Serviços Complementares De Saúde<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_ecbd9ab22b874c225d7a7bfd2dec3ea2" class=""><a id="txt_ecbd9ab22b874c225d7a7bfd2dec3ea2" name="txt_ecbd9ab22b874c225d7a7bfd2dec3ea2" class="linkname"></a>TABELA REGIONALIZADA SUS/DF<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA ADULTA</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">ARTERIAL</td>
+		</tr>
+		<tr>
+			<td>0406010064</td>
+			<td>ANASTOMOSE CAVO PULMONAR BIDIRECIONAL</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>0406010072</td>
+			<td>ANASTOMOSE CAVO PULMONAR TOTAL</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>0406011230</td>
+			<td>ANASTOMOSE SISTEMICO PULMONAR COM CEC</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>0406010080</td>
+			<td>ANASTOMOSE SISTEMICO-PULMONAR</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>0406010099</td>
+			<td>BANDAGEM DA ARTÉRIA PULMONAR</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>0406010137</td>
+			<td>CORREÇÃO DE ANEURISMA / DISSECÇÃO DA AORTA TORACO ABDOMINAL</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>0406010188</td>
+			<td>CORREÇÃO DE COARCTAÇÃO DA AORTA</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406011249</td>
+			<td>CORRECAO DE COARCTACAO DA AORTA COM CEC</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010382</td>
+			<td>CORREÇÃO DE JANELA AORTO PULMONAR</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010439</td>
+			<td>CORRECAO DE TETRALOGIA DE FALLOT E VARIANTES</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010501</td>
+			<td>CORREÇÕES DE ANOMALIAS DO ARCO AÓRTICO</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010846</td>
+			<td>RECONSTRUÇÃO DA RAIZ DA AORTA C/ TUBO VALVADO</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010994</td>
+			<td>TROCA DE ARCO AÓRTICO</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010838</td>
+			<td>RECONSTRUÇÃO DA RAIZ DA AORTA</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010986</td>
+			<td>TROCA DE AORTA ASCENDENTE</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010455</td>
+			<td>CORREÇÃO DE TRANSPOSIÇÃO DE GRANDES VASOS DA BASE</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td>406010048</td>
+			<td>AMPLIAÇÃO DE VIA DE SAÍDA DO VENTRICULO DIREITO E/OU RAMOS PULMONARES</td>
+			<td>R$ 48.456,07</td>
+		</tr>
+		<tr>
+			<td colspan="3">CORONARIOPATIA</td>
+		</tr>
+		<tr>
+			<td>406010927</td>
+			<td>REVASCULARIZAÇÃO MIOCÁRDICA C/ USO DE EXTRACÓRPOREA</td>
+			<td>R$ 40.255,91</td>
+		</tr>
+		<tr>
+			<td>406010935</td>
+			<td>REVASCULARIZAÇÃO MIOCÁRDICA C/ USO DE EXTRACÓRPOREA (C/ 2 OU MAIS ENXERTOS)</td>
+			<td>R$ 40.255,91</td>
+		</tr>
+		<tr>
+			<td>406010943</td>
+			<td>REVASCULARIZAÇÃO MIOCÁRDICA S/ USO DE EXTRACORPÓREA</td>
+			<td>R$ 40.255,91</td>
+		</tr>
+		<tr>
+			<td>406010951</td>
+			<td>REVASCULARIZAÇÃO MIOCÁRDICA S/ USO DE EXTRACORPÓREA (C/ 2 OU MAIS ENXERTOS)</td>
+			<td>R$ 40.255,91</td>
+		</tr>
+		<tr>
+			<td>406011257</td>
+			<td>CORREÇÃO DE CORONARIA ANOMALA (19 A 110)</td>
+			<td>R$ 40.255,91</td>
+		</tr>
+		<tr>
+			<td colspan="3">MIOCARDIO</td>
+		</tr>
+		<tr>
+			<td>406010102</td>
+			<td>CARDIORRAFIA</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>406010110</td>
+			<td>CARDIOTOMIA P/ RETIRADA DE CORPO ESTRANHO</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>406010706</td>
+			<td>INFARTECTOMIA / ANEURISMECTOMIA ASSOCIADA OU NÃO A REVASCULARIZAÇÃO MIOCÁRDICA</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>406010889</td>
+			<td>RESSECÇÃO DE ENDOMIOCARDIOFIBROSE</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>406010900</td>
+			<td>RESSECÇÃO DE TUMOR INTRACARDÍACO</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>406010960</td>
+			<td>TRATAMENTO DE CONTUSÃO MIOCÁRDICA</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>406010978</td>
+			<td>TRATAMENTO DE FERIMENTO CARDÍACO PERFURO CORTANTE</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td colspan="3">PERICARDIO</td>
+		</tr>
+		<tr>
+			<td>406010510</td>
+			<td>DRENAGEM C/ BIOPSIA DE PERICÁRDIO</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010528</td>
+			<td>EXERESE DE CISTO PERICÁRDICO</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010757</td>
+			<td>PERICARDIECTOMIA</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010765</td>
+			<td>PERICARDIECTOMIA PARCIAL</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010773</td>
+			<td>PERICARDIOCENTESE</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td colspan="3">VALVULOPATIA</td>
+		</tr>
+		<tr>
+			<td>406010021</td>
+			<td>ABERTURA DE ESTENOSE AORTICA VALVAR</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406010030</td>
+			<td>ABERTURA DE ESTENOSE PULMONAR VALVAR</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406010056</td>
+			<td>AMPLIAÇÃO DE VIA DE SAÍDA DO VENTRÍCULO ESQUERDO</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406010552</td>
+			<td>IMPLANTE C/ TROCA DE POSIÇÃO DE VALVAS (CIRURGIA DE ROSS)</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406010692</td>
+			<td>IMPLANTE DE PRÓTESE VALVAR</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406010803</td>
+			<td>PLÁSTICA VALVAR</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406010811</td>
+			<td>PLÁSTICA VALVAR C/ REVASCULARIZAÇÃO MIOCÁRDICA</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406010820</td>
+			<td>PLÁSTICA VALVAR E/OU TROCA VALVAR MÚLTIPLA</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406010897</td>
+			<td>RESSECÇÃO DE MEMBRANA SUB AÓRTICA</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td>406011206</td>
+			<td>TROCA VALVAR C/ REVASCULARIZAÇÃO MIOCÁRDICA</td>
+			<td>R$ 46.200,73</td>
+		</tr>
+		<tr>
+			<td colspan="3">CORREÇÕES DE CARDIOPATIA CONGÊNICA (ADULTO)</td>
+		</tr>
+		<tr>
+			<td>406010013</td>
+			<td>ABERTURA DE COMUNICAÇÃO INTER-ATRIAL</td>
+			<td>R$ 28.174,67</td>
+		</tr>
+		<tr>
+			<td>406010196</td>
+			<td>CORREÇÃO DE COMUNICAÇÃO INTERVENTRICULAR</td>
+			<td>R$ 28.174,67</td>
+		</tr>
+		<tr>
+			<td>406010200</td>
+			<td>CORREÇÃO DE COMUNICAÇÃO INTER-VENTRICULAR E INSUFICIÊNCIA AORTICA</td>
+			<td>R$ 28.174,67</td>
+		</tr>
+		<tr>
+			<td>406010471</td>
+			<td>CORREÇÃO DE VENTRÍCULO ÚNICO</td>
+			<td>R$ 28.174,67</td>
+		</tr>
+		<tr>
+			<td>406010480</td>
+			<td>CORREÇÃO DO CANAL ÁTRIO VENTRICULAR (PARCIAL/INTERMEDIÁRIO)</td>
+			<td>R$ 28.174,67</td>
+		</tr>
+		<tr>
+			<td>406010498</td>
+			<td>CORREÇÃO DO CANAL ÁTRIO VENTRICULAR (TOTAL)</td>
+			<td>R$ 28.174,67</td>
+		</tr>
+		<tr>
+			<td>406010536</td>
+			<td>FECHAMENTO DE COMUNICAÇÃO INTERATRIAL</td>
+			<td>R$ 28.174,67</td>
+		</tr>
+		<tr>
+			<td>406010544</td>
+			<td>FECHAMENTO DE COMUNICAÇÃO INTERVENTRICULAR</td>
+			<td>R$ 28.174,67</td>
+		</tr>
+	</tbody>
+</table><p style="text-align:center" linkname="txt_df93411379a5473c5c669bd8e52534d6" class=""><a id="txt_df93411379a5473c5c669bd8e52534d6" name="txt_df93411379a5473c5c669bd8e52534d6" class="linkname"></a>CIRURGIA CARDÍACA ADULTA – SEQUENCIAIS - ARTERIAIS<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA ADULTA PROCEDIMENTOS COM CIRURGIAS SEQUENCIAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>ARTERIAIS SEQUENCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>ARTERIAL (100%)   CORONARIOPATIA (75%)</td>
+			<td>R$ 78.123,00</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>ARTERIAIS SEQUENCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>ARTERIAL (100%)   VALVULOPATIA (75%)</td>
+			<td>R$ 82.581,62</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>ARTERIAIS SEQUENCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>ARTERIAL (100%)   VALVULOPATIA (75%)   CORONARIOPATIA (50%)</td>
+			<td>R$ 102.359,57</td>
+		</tr>
+	</tbody>
+</table><p linkname="txt_9ca67525b1444cfb80bbd61fe0252ba5" class=""><a id="txt_9ca67525b1444cfb80bbd61fe0252ba5" name="txt_9ca67525b1444cfb80bbd61fe0252ba5" class="linkname"></a>*AS CIRURGIAS SEQUENCIAS: SÃO ATOS CIRÚRGICOS COM VÍNCULO DE CONTINUIDADE, INTERDEPENDÊNCIA E COMPLEMENTARIEDADE, REALIZADOS EM CONJUNTO PELA MESMA EQUIPE OU EQUIPES DISTINTAS, APLICADOS A ÓRGÃO ÚNICO OU REGIÕES CONTÍGUAS, BILATERAIS OU NÃO, DEVIDOS A MESMA DOENÇA, EXECUTADOS POR UMA OU VÁRIAS VIAS DE ACESSO E PRATICADOS SOB O MESMO ATO ANESTÉSICO E PERMITINDO O REGISTRO DE PROCEDIMENTOS SEQÜENCIAIS.<p linkname="txt_db11cb09a12144104af143a032600c95" class=""><a id="txt_db11cb09a12144104af143a032600c95" name="txt_db11cb09a12144104af143a032600c95" class="linkname"></a>O CÓDIGO DE CIRUGIA SEQUENCIAL (415020034) É UM CÓDIGO SEM VALOR, SENDO UTILIZADO APENAS PARA DEFINIR AS CIRURGIAS COMPOSTAS POR DOIS OU MAIS PROCEDIMENTOS EM UM MESMO ATO ANESTESICO.<p linkname="txt_376bb83df36e4b6b66a69ae702424223" class=""><a id="txt_376bb83df36e4b6b66a69ae702424223" name="txt_376bb83df36e4b6b66a69ae702424223" class="linkname"></a>OS VALORES DEFINIDOS NO GRUPO I PARA PROCEDIMENTOS DE CIRURGIA CARDIACA ADULTA: ARTERIAIS,<p linkname="txt_3c81229ba3534f908744259b9a649b8b" class=""><a id="txt_3c81229ba3534f908744259b9a649b8b" name="txt_3c81229ba3534f908744259b9a649b8b" class="linkname"></a>CORONARIOPATIAS E VALVULOPATIAS. QUANDO REALIZADOS CIRURGIAS SEQUENCIAIS O VALOR DO PROCEDIMENTO CIRÚRGICO SERÁ PAGO COM A SEGUINTE COMPOSIÇÃO:<p linkname="txt_23df70de91544a00e211be9287e83fdf" class=""><a id="txt_23df70de91544a00e211be9287e83fdf" name="txt_23df70de91544a00e211be9287e83fdf" class="linkname"></a>(CÓDICO PRINCIPAL) CÓGICO DE CIRURGIA SEQUENCIAL Nº 415020034 (SEQUIDOS DE ATÉ 03 (TRÊS) CÓDIGOS SEQUENCIAS<p linkname="txt_f2c92025e34a4697d4876a872451207d" class=""><a id="txt_f2c92025e34a4697d4876a872451207d" name="txt_f2c92025e34a4697d4876a872451207d" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 100% DO VALOR DO CÓDIGO PRINCIPAL<p linkname="txt_5ee9a77428af41b8d85daa64e895605d" class=""><a id="txt_5ee9a77428af41b8d85daa64e895605d" name="txt_5ee9a77428af41b8d85daa64e895605d" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 75% DO VALOR DO CÓDIGO SEQUENCIAL<p linkname="txt_f4bf5e32eb104c71438c68c8a27bdd49" class=""><a id="txt_f4bf5e32eb104c71438c68c8a27bdd49" name="txt_f4bf5e32eb104c71438c68c8a27bdd49" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 50% DO VALOR DO CÓDIGO SEQUENCIAL<p style="text-align:center" linkname="txt_f3281e0fe0d8442076f683709ee4e196" class=""><a id="txt_f3281e0fe0d8442076f683709ee4e196" name="txt_f3281e0fe0d8442076f683709ee4e196" class="linkname"></a>CIRURGIA CARDÍACA ADULTA SEQUENCIAIS – CORONARIOPATIAS<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA ADULTA PROCEDIMENTOS COM CIRURGIAS SEQUENCIAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CORONARIOPATIAS SEQUENCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CORONARIOPATIA (100%)   MIOCARDIO (75%)</td>
+			<td>R$ 66.849,77</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CORONARIOPATIAS SEQUENCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CORONARIOPATIA (100%)   CONGÊNITA (75%)</td>
+			<td>R$ 60.861,91</td>
+		</tr>
+	</tbody>
+</table><p linkname="txt_8143d389f4e34e690b8519314dabe583" class=""><a id="txt_8143d389f4e34e690b8519314dabe583" name="txt_8143d389f4e34e690b8519314dabe583" class="linkname"></a>*AS CIRURGIAS SEQUENCIAS: SÃO ATOS CIRÚRGICOS COM VÍNCULO DE CONTINUIDADE, INTERDEPENDÊNCIA E COMPLEMENTARIEDADE, REALIZADOS EM CONJUNTO PELA MESMA EQUIPE OU EQUIPES DISTINTAS, APLICADOS A ÓRGÃO ÚNICO OU REGIÕES CONTÍGUAS, BILATERAIS OU NÃO, DEVIDOS A MESMA DOENÇA, EXECUTADOS POR UMA OU VÁRIAS VIAS DE ACESSO E PRATICADOS SOB O MESMO ATO ANESTÉSICO E PERMITINDO O REGISTRO DE PROCEDIMENTOS SEQÜENCIAIS.<p linkname="txt_4ad22b18276345aa8aa13cd5eb7b184a" class=""><a id="txt_4ad22b18276345aa8aa13cd5eb7b184a" name="txt_4ad22b18276345aa8aa13cd5eb7b184a" class="linkname"></a>O CÓDIGO DE CIRUGIA SEQUENCIAL (415020034) É UM CÓDIGO SEM VALOR, SENDO UTILIZADO APENAS PARA DEFINIR AS CIRURGIAS COMPOSTAS POR DOIS OU MAIS PROCEDIMENTOS EM UM MESMO ATO ANESTESICO.<p linkname="txt_4c978f7f1f374fdee16b6fb692463b8f" class=""><a id="txt_4c978f7f1f374fdee16b6fb692463b8f" name="txt_4c978f7f1f374fdee16b6fb692463b8f" class="linkname"></a>OS VALORES DEFINIDOS NO GRUPO I PARA PROCEDIMENTOS DE CIRURGIA CARDIACA ADULTA: ARTERIAIS, CORONARIOPATIAS E VALVULOPATIAS. QUANDO REALIZADOS CIRURGIAS SEQUENCIAIS O VALOR DO PROCEDIMENTO CIRÚRGICO SERÁ PAGO COM A SEGUINTE COMPOSIÇÃO:<p linkname="txt_56343a7d6afe4400dd7d2c15c16635ae" class=""><a id="txt_56343a7d6afe4400dd7d2c15c16635ae" name="txt_56343a7d6afe4400dd7d2c15c16635ae" class="linkname"></a>(CÓDICO PRINCIPAL) CÓGICO DE CIRURGIA SEQUENCIAL Nº 415020034 (SEQUIDOS DE ATÉ 03 (TRÊS) CÓDIGOS SEQUENCIAS<p linkname="txt_da1c123776eb47a331744e3cc35c7628" class=""><a id="txt_da1c123776eb47a331744e3cc35c7628" name="txt_da1c123776eb47a331744e3cc35c7628" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 100% DO VALOR DO CÓDIGO PRINCIPAL<p linkname="txt_32b07bc7ace74e91667a68fc631f31b1" class=""><a id="txt_32b07bc7ace74e91667a68fc631f31b1" name="txt_32b07bc7ace74e91667a68fc631f31b1" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 75% DO VALOR DO CÓDIGO SEQUENCIAL<p linkname="txt_3a2e5a938e7544db03220c6d13adb6b3" class=""><a id="txt_3a2e5a938e7544db03220c6d13adb6b3" name="txt_3a2e5a938e7544db03220c6d13adb6b3" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 50% DO VALOR DO CÓDIGO SEQUENCIAL<p style="text-align:center" linkname="txt_adc0213d47d9405b890332f2582a3f69" class=""><a id="txt_adc0213d47d9405b890332f2582a3f69" name="txt_adc0213d47d9405b890332f2582a3f69" class="linkname"></a>CIRURGIA CARDÍACA ADULTA – SEQUENCIAIS – CORONARIOPATIAS VALVULOPATIAS<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA ADULTA PROCEDIMENTOS COM CIRURGIAS SEQUENCIAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>VALVULOPATIAS SEQUENCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>VALVULOPATIA (100%)   CORONARIOPATIA (75%)</td>
+			<td>R$ 75.867,65</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>VALVULOPATIAS SEQUENCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>VALVULOPATIA (100%)   VALVULOPATIA (75%)</td>
+			<td>R$ 80.326,27</td>
+		</tr>
+	</tbody>
+</table><p linkname="txt_e63cd96d08774603d2508a11d1cfd31c" class=""><a id="txt_e63cd96d08774603d2508a11d1cfd31c" name="txt_e63cd96d08774603d2508a11d1cfd31c" class="linkname"></a>*AS CIRURGIAS SEQUENCIAS: SÃO ATOS CIRÚRGICOS COM VÍNCULO DE CONTINUIDADE, INTERDEPENDÊNCIA E COMPLEMENTARIEDADE, REALIZADOS EM CONJUNTO PELA MESMA EQUIPE OU EQUIPES DISTINTAS, APLICADOS A ÓRGÃO ÚNICO OU REGIÕES CONTÍGUAS, BILATERAIS OU NÃO, DEVIDOS A MESMA DOENÇA, EXECUTADOS POR UMA OU VÁRIAS VIAS DE ACESSO E PRATICADOS SOB O MESMO ATO ANESTÉSICO E PERMITINDO O REGISTRO DE PROCEDIMENTOS SEQÜENCIAIS.<p linkname="txt_17522eca77344c04a4d3444993ce6d7e" class=""><a id="txt_17522eca77344c04a4d3444993ce6d7e" name="txt_17522eca77344c04a4d3444993ce6d7e" class="linkname"></a>O CÓDIGO DE CIRUGIA SEQUENCIAL (415020034) É UM CÓDIGO SEM VALOR, SENDO UTILIZADO APENAS PARA DEFINIR AS CIRURGIAS COMPOSTAS POR DOIS OU MAIS PROCEDIMENTOS EM UM MESMO ATO ANESTESICO.<p linkname="txt_d38c16e869e844e365ec4be05c820146" class=""><a id="txt_d38c16e869e844e365ec4be05c820146" name="txt_d38c16e869e844e365ec4be05c820146" class="linkname"></a>OS VALORES DEFINIDOS NO GRUPO I PARA PROCEDIMENTOS DE CIRURGIA CARDIACA ADULTA: ARTERIAIS, CORONARIOPATIAS E VALVULOPATIAS. QUANDO REALIZADOS CIRURGIAS SEQUENCIAIS O VALOR DO PROCEDIMENTO CIRÚRGICO SERÁ PAGO COM A SEGUINTE COMPOSIÇÃO:<p linkname="txt_4641dce7138446101fc11fad5325fc24" class=""><a id="txt_4641dce7138446101fc11fad5325fc24" name="txt_4641dce7138446101fc11fad5325fc24" class="linkname"></a>(CÓDICO PRINCIPAL) CÓGICO DE CIRURGIA SEQUENCIAL Nº 415020034 (SEQUIDOS DE ATÉ 03 (TRÊS) CÓDIGOS SEQUENCIAS<p linkname="txt_025a1a2454c64326c78c4c9db4ea7f9b" class=""><a id="txt_025a1a2454c64326c78c4c9db4ea7f9b" name="txt_025a1a2454c64326c78c4c9db4ea7f9b" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 100% DO VALOR DO CÓDIGO PRINCIPAL<p linkname="txt_0afc94cd33034489f81602795cba7e88" class=""><a id="txt_0afc94cd33034489f81602795cba7e88" name="txt_0afc94cd33034489f81602795cba7e88" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 75% DO VALOR DO CÓDIGO SEQUENCIAL<p linkname="txt_5f059d937f1d4a71134f00c568966497" class=""><a id="txt_5f059d937f1d4a71134f00c568966497" name="txt_5f059d937f1d4a71134f00c568966497" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 50% DO VALOR DO CÓDIGO SEQUENCIAL<p style="text-align:center" linkname="txt_2aa16f1256184e403164fbd51c1715bd" class=""><a id="txt_2aa16f1256184e403164fbd51c1715bd" name="txt_2aa16f1256184e403164fbd51c1715bd" class="linkname"></a>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAIS<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="2">CARDIOPATIAS CONGENITAS MODERADAS</td>
+		</tr>
+		<tr>
+			<td>406011281</td>
+			<td>AMPLIAÇÃO DE VIA DE SAÍDA DO VENTRÍCULO DIREITO E/OU RAMOS PULMONARES (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406011290</td>
+			<td>AMPLIAÇÃO DE VIA DE SAÍDA DO VENTRÍCULO ESQUERDO (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>406011362</td>
+			<td>CORRECAO DE ESTENOSE MITRAL CONGENITA (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406011389</td>
+			<td>CORRECAO DE FISTULA AORTO CAVITARIAS (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406011397</td>
+			<td>CORREÇÃO DE HIPERTROFIA SEPTAL ASSIMETRICA (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406010358</td>
+			<td>CORREÇÃO DE INSUFICIÊNCIA MITRAL CONGÊNITA</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406011427</td>
+			<td>CORRECAO DE PERSISTENCIA DO CANAL ARTERIAL (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406010412</td>
+			<td>CORREÇÃO DE PERSISTÊNCIA DO CANAL ARTERIAL NO RÉCEM NASCIDO</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406011486</td>
+			<td>LIGADURA DE FISTULA SISTEMICO-PULMONAR (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406011222</td>
+			<td>UNIFOCALIZAÇÃO DE RAMOS DA ARTÉRIA PULMONAR S/ CIRCULAÇÃO EXTRACORPÓREA</td>
+			<td>R$ 26.028,65</td>
+		</tr>
+		<tr>
+			<td>406010510</td>
+			<td>DRENAGEM C/ BIOPSIA DE PERICÁRDIO</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010528</td>
+			<td>EXERESE DE CISTO PERICÁRDICO</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010757</td>
+			<td>PERICARDIECTOMIA</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010765</td>
+			<td>PERICARDIECTOMIA PARCIAL</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010773</td>
+			<td>PERICARDIOCENTESE</td>
+			<td>R$ 11.196,50</td>
+		</tr>
+		<tr>
+			<td>406010102</td>
+			<td>CARDIORRAFIA</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>406010110</td>
+			<td>CARDIOTOMIA P/ RETIRADA DE CORPO ESTRANHO</td>
+			<td>R$ 36.158,49</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">CARDIOPATIAS CONGÊNITAS GRAVES</td>
+		</tr>
+		<tr>
+			<td>406010072</td>
+			<td>ANASTOMOSE CAVO PULMONAR TOTAL</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011303</td>
+			<td>ANASTOMOSE CAVO PULMONAR BIDIRECIONAL (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011311</td>
+			<td>ANASTOMOSE SISTEMICO PULMONAR (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406010781</td>
+			<td>PLÁSTICA / TROCA DE VÁLVULA TRICÚSPIDE (ANOMALIA DE EBSTEIN)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011281</td>
+			<td>AMPLIAÇÃO DE VIA DE SAÍDA DO VENTRÍCULO DIREITO E/OU RAMOS PULMONARES (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011290</td>
+			<td>AMPLIAÇÃO DE VIA DE SAÍDA DO VENTRÍCULO ESQUERDO (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011508</td>
+			<td>ANASTOMOSE SISTEMICO PULMONAR COM CEC (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011320</td>
+			<td>BANDAGEM DA ARTERIA PULMONAR (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406010161</td>
+			<td>CORREÇÃO DE ÁTRIO ÚNICO</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406010170</td>
+			<td>CORREÇÃO DE BANDA ANÔMALA DO VENTRÍCULO DIREITO</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011338</td>
+			<td>CORRECAO DE COARCTACAO DA AORTA (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011516</td>
+			<td>CORRECAO DE COARCTACAO DA AORTA COM CEC (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406010218</td>
+			<td>CORREÇÃO DE COR TRIATRIATUM</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406010226</td>
+			<td>CORREÇÃO DE CORONÁRIA ANÔMALA (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>406011370</td>
+			<td>CORREÇÃO DE ESTENOSE SUPRA-AÓRTICA (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011400</td>
+			<td>CORRECAO DE INSUFICIENCIA DA VALVULA TRICUSPIDE (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011419</td>
+			<td>CORRECAO DE INSUFICIENCIA MITRAL CONGENITA (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406010374</td>
+			<td>CORREÇÃO DE JANELA AORTO PULMONAR (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011435</td>
+			<td>CORRECAO DO CANAL ATRIO VENTRICULAR PARCIAL/INTERMEDIARIO (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011443</td>
+			<td>CORRECOES DE ANOMALIAS DO ARCO AORTICO (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011451</td>
+			<td>FECHAMENTO DE COMUNICACAO INTERATRIAL (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011460</td>
+			<td>FECHAMENTO DE COMUNICACAO INTERVENTRICULAR (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011494</td>
+			<td>RESSECCAO DE MEMBRANA SUB AORTICA (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>406011214</td>
+			<td>UNIFOCALIZAÇÃO DE RAMOS DA ARTÉRIA PULMONAR C/ CIRCULAÇÃO EXTRACORPÓREA</td>
+			<td>R$ 37.392,59</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">CARDIOPATIAS CONGÊNITAS CRÍTICAS</td>
+		</tr>
+		<tr>
+			<td>406011265</td>
+			<td>ABERTURA DE ESTENOSE AORTICA VALVAR (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406011273</td>
+			<td>ABERTURA DE ESTENOSE PULMONAR VALVAR (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010153</td>
+			<td>CORREÇÃO DE ATRESIA PULMONAR E COMUNICAÇÃO INTERVENTRICULAR</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406011346</td>
+			<td>CORRECAO DE DRENAGEM ANOMALA DO RETORNO SISTEMICO (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406011354</td>
+			<td>CORREÇÃO DE DRENAGEM ANOMALA PARCIAL DE VEIAS PULMONARES (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010250</td>
+			<td>CORREÇÃO DE DRENAGEM ANÔMALA TOTAL DE VEIAS PULMONARES</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010269</td>
+			<td>CORREÇÃO DE DUPLA VIA DE SAÍDA DO VENTRÍCULO DIREITO</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010277</td>
+			<td>CORREÇÃO DE DUPLA VIA DE SAÍDA DO VENTRÍCULO ESQUERDO</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010285</td>
+			<td>CORREÇÃO DE ESTENOSE AÓRTICA (0 A 3 ANOS)</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010331</td>
+			<td>CORREÇÃO DE HIPOPLASIA DE VENTRÍCULO ESQUERDO</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010366</td>
+			<td>CORREÇÃO DE INTERRUPÇÃO DO ARCO AÓRTICO</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010390</td>
+			<td>CORREÇÃO DE LESÕES NA TRANSPOSIÇÃO CORRIGIDA DOS VASOS DA BASE</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010420</td>
+			<td>CORREÇÃO DE TETRALOGIA DE FALLOT E VARIANTES (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010447</td>
+			<td>CORREÇÃO DE TRANSPOSIÇÃO DOS GRANDES VASOS DA BASE (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010463</td>
+			<td>CORREÇÃO DE TRONCO ARTERIOSO PERSISTENTE</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406011478</td>
+			<td>IMPLANTE C/ TROCA DE POSICAO DE VALVAS (CIRURGIA DE ROSS) (CRIANÇA E ADOLESCENTE)</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010803</td>
+			<td>PLÁSTICA VALVAR</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+		<tr>
+			<td>406010820</td>
+			<td>PLÁSTICA VALVAR E/OU TROCA VALVAR MÚLTIPLA</td>
+			<td>R$ 41.122,85</td>
+		</tr>
+	</tbody>
+</table><p style="text-align:center" linkname="txt_3e77a99ee69f4b056d7314b7f8437f5d" class=""><a id="txt_3e77a99ee69f4b056d7314b7f8437f5d" name="txt_3e77a99ee69f4b056d7314b7f8437f5d" class="linkname"></a>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAIS – SEQUENCIAIS – MODERADAS<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAL PROCEDIMENTOS COM CIRURGIAS SEQUENCIAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td colspan="2">CARDIOPATIAS CONGÊNITAS MODERADAS SEQUÊNCIAIS</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>MODERADA (100%)   MODERADA (75%)</td>
+			<td>R$ 45.025,14</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td colspan="2">CARDIOPATIAS CONGÊNITAS MODERADAS SEQUÊNCIAIS</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>MODERADA (100%)   MODERADA (75%)   MODERADA (50%)</td>
+			<td>R$ 57.689,46</td>
+		</tr>
+	</tbody>
+</table><p linkname="txt_e10de615701e40dd3b4f0cf47c2f8435" class=""><a id="txt_e10de615701e40dd3b4f0cf47c2f8435" name="txt_e10de615701e40dd3b4f0cf47c2f8435" class="linkname"></a>*AS CIRURGIAS SEQUENCIAS: SÃO ATOS CIRÚRGICOS COM VÍNCULO DE CONTINUIDADE, INTERDEPENDÊNCIA E COMPLEMENTARIEDADE, REALIZADOS EM CONJUNTO PELA MESMA EQUIPE OU EQUIPES DISTINTAS, APLICADOS A ÓRGÃO ÚNICO OU REGIÕES CONTÍGUAS, BILATERAIS OU NÃO, DEVIDOS A MESMA DOENÇA, EXECUTADOS POR UMA OU VÁRIAS VIAS DE ACESSO E PRATICADOS SOB O MESMO ATO ANESTÉSICO E PERMITINDO O REGISTRO DE PROCEDIMENTOS SEQÜENCIAIS.<p linkname="txt_f1e8c30312f74a0d1b64ff5ef0ba1fac" class=""><a id="txt_f1e8c30312f74a0d1b64ff5ef0ba1fac" name="txt_f1e8c30312f74a0d1b64ff5ef0ba1fac" class="linkname"></a>O CÓDIGO DE CIRUGIA SEQUENCIAL (415020034) É UM CÓDIGO SEM VALOR, SENDO UTILIZADO APENAS PARA DEFINIR AS<p linkname="txt_4cbe888fc4704fa91b19f1d27ae7eda4" class=""><a id="txt_4cbe888fc4704fa91b19f1d27ae7eda4" name="txt_4cbe888fc4704fa91b19f1d27ae7eda4" class="linkname"></a>CIRURGIAS COMPOSTAS POR DOIS OU MAIS PROCEDIMENTOS EM UM MESMO ATO ANESTESICO.<p linkname="txt_7949774520d640e7dc2d72e7886c2e5c" class=""><a id="txt_7949774520d640e7dc2d72e7886c2e5c" name="txt_7949774520d640e7dc2d72e7886c2e5c" class="linkname"></a>OS VALORES DEFINIDOS NO GRUPO II PARA PROCEDIMENTOS DE CIRURGIA CARDIACA PEDIÁTRICA/NEONATAIS: MODERADAS, GRAVES E CRÍTICA. QUANDO REALIZADOS CIRURGIAS SEQUENCIAIS O VALOR DO PROCEDIMENTO CIRÚRGICO SERÁ PAGO COM A SEGUINTE COMPOSIÇÃO:<p linkname="txt_235062ad15e04d3a55684fa64f9a1ebf" class=""><a id="txt_235062ad15e04d3a55684fa64f9a1ebf" name="txt_235062ad15e04d3a55684fa64f9a1ebf" class="linkname"></a>(CÓDICO PRINCIPAL) CÓGICO DE CIRURGIA SEQUENCIAL Nº 415020034 (SEQUIDOS DE ATÉ 03 (TRÊS) CÓDIGOS SEQUENCIAS<p linkname="txt_35e0e4aa6f494f4750a1edd9898a8ebc" class=""><a id="txt_35e0e4aa6f494f4750a1edd9898a8ebc" name="txt_35e0e4aa6f494f4750a1edd9898a8ebc" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 100% DO VALOR DO CÓDIGO PRINCIPAL<p linkname="txt_05d7d7ea617a48df30b43c639efc733c" class=""><a id="txt_05d7d7ea617a48df30b43c639efc733c" name="txt_05d7d7ea617a48df30b43c639efc733c" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 75% DO VALOR DO CÓDIGO SEQUENCIAL<p linkname="txt_3d2d204406734562aa5bf348fdf85612" class=""><a id="txt_3d2d204406734562aa5bf348fdf85612" name="txt_3d2d204406734562aa5bf348fdf85612" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 50% DO VALOR DO CÓDIGO SEQUENCIAL<p style="text-align:center" linkname="txt_4da8e66523404284a12e97937be52534" class=""><a id="txt_4da8e66523404284a12e97937be52534" name="txt_4da8e66523404284a12e97937be52534" class="linkname"></a>CIRURGIA CARDÍACA<p style="text-align:center" linkname="txt_4bab1cdfa7134bec5a92a61b2f43b20c" class=""><a id="txt_4bab1cdfa7134bec5a92a61b2f43b20c" name="txt_4bab1cdfa7134bec5a92a61b2f43b20c" class="linkname"></a>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAIS – SEQUENCIAIS – GRAVES<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAL PROCEDIMENTOS COM CIRURGIAS SEQUENCIAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CARDIOPATIAS CONGÊNITAS GRAVES SEQUÊNCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>GRAVE (100%)   MODERADA (75%)</td>
+			<td>R$ 56.389,08</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>GRAVE (100%)   GRAVE (75%)</td>
+			<td>R$ 64.912,03</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CARDIOPATIAS CONGÊNITAS MODERADAS SEQUÊNCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>GRAVE (100%)   MODERADA (75%)   MODERADA (50%)</td>
+			<td>R$ 69.053,40</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>GRAVE (100%)   GRAVE (75%)   MODERADA (50%)</td>
+			<td>R$ 77.576,36</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>GRAVE (100%)   GRAVE (75%)   GRAVE (50%)</td>
+			<td>R$ 83.258,33</td>
+		</tr>
+	</tbody>
+</table><p linkname="txt_a10a8d9cac6c4cc162589f4acfe9cde6" class=""><a id="txt_a10a8d9cac6c4cc162589f4acfe9cde6" name="txt_a10a8d9cac6c4cc162589f4acfe9cde6" class="linkname"></a>*AS CIRURGIAS SEQUENCIAS: SÃO ATOS CIRÚRGICOS COM VÍNCULO DE CONTINUIDADE, INTERDEPENDÊNCIA E COMPLEMENTARIEDADE, REALIZADOS EM CONJUNTO PELA MESMA EQUIPE OU EQUIPES DISTINTAS, APLICADOS A ÓRGÃO ÚNICO OU REGIÕES CONTÍGUAS, BILATERAIS OU NÃO, DEVIDOS A MESMA DOENÇA, EXECUTADOS POR UMA OU VÁRIAS VIAS DE ACESSO E PRATICADOS SOB O MESMO ATO ANESTÉSICO E PERMITINDO O REGISTRO DE PROCEDIMENTOS SEQÜENCIAIS.<p linkname="txt_89c4c20d59a243ba329b36971f801b55" class=""><a id="txt_89c4c20d59a243ba329b36971f801b55" name="txt_89c4c20d59a243ba329b36971f801b55" class="linkname"></a>O CÓDIGO DE CIRUGIA SEQUENCIAL (415020034) É UM CÓDIGO SEM VALOR, SENDO UTILIZADO APENAS PARA DEFINIR AS CIRURGIAS COMPOSTAS POR DOIS OU MAIS PROCEDIMENTOS EM UM MESMO ATO ANESTESICO.<p linkname="txt_f0fa7a0c06354d87dc0f48fce42a0abd" class=""><a id="txt_f0fa7a0c06354d87dc0f48fce42a0abd" name="txt_f0fa7a0c06354d87dc0f48fce42a0abd" class="linkname"></a>OS VALORES DEFINIDOS NO GRUPO II PARA PROCEDIMENTOS DE CIRURGIA CARDIACA PEDIÁTRICA/NEONATAIS: MODERADAS, GRAVES E CRÍTICA. QUANDO REALIZADOS CIRURGIAS SEQUENCIAIS O VALOR DO PROCEDIMENTO CIRÚRGICO SERÁ PAGO COM A SEGUINTE COMPOSIÇÃO:<p linkname="txt_7b556b403cfd47047f910677349a4bd8" class=""><a id="txt_7b556b403cfd47047f910677349a4bd8" name="txt_7b556b403cfd47047f910677349a4bd8" class="linkname"></a>(CÓDICO PRINCIPAL) CÓGICO DE CIRURGIA SEQUENCIAL Nº 415020034 (SEQUIDOS DE ATÉ 03 (TRÊS) CÓDIGOS SEQUENCIAS<p linkname="txt_98e4c79bd1124a30bf90d6d219b3ef60" class=""><a id="txt_98e4c79bd1124a30bf90d6d219b3ef60" name="txt_98e4c79bd1124a30bf90d6d219b3ef60" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 100% DO VALOR DO CÓDIGO PRINCIPAL<p linkname="txt_ec6c61fbd7104901689b6740da40f7c6" class=""><a id="txt_ec6c61fbd7104901689b6740da40f7c6" name="txt_ec6c61fbd7104901689b6740da40f7c6" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 75% DO VALOR DO CÓDIGO SEQUENCIAL<p linkname="txt_26c500944ea34bed8465f569ac13aebc" class=""><a id="txt_26c500944ea34bed8465f569ac13aebc" name="txt_26c500944ea34bed8465f569ac13aebc" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 50% DO VALOR DO CÓDIGO SEQUENCIAL<p style="text-align:center" linkname="txt_483387b38ffe4b76afb3cf1d2d343e34" class=""><a id="txt_483387b38ffe4b76afb3cf1d2d343e34" name="txt_483387b38ffe4b76afb3cf1d2d343e34" class="linkname"></a>CIRURGIA CARDÍACA<p style="text-align:center" linkname="txt_d43f1e6975b44be7c768c2aa27cd86d6" class=""><a id="txt_d43f1e6975b44be7c768c2aa27cd86d6" name="txt_d43f1e6975b44be7c768c2aa27cd86d6" class="linkname"></a>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAIS – SEQUENCIAIS – CRÍTICAS<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDÍACA PEDIÁTRICA/NEONATAL PROCEDIMENTOS COM CIRURGIAS SEQUENCIAIS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CARDIOPATIAS CONGÊNITAS CRÍTICAS SEQUÊNCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   MODERADA (75%)</td>
+			<td>R$ 60.119,34</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   GRAVE (75%)</td>
+			<td>R$ 68.642,29</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   CRÍTICA (75%)</td>
+			<td>R$ 71.439,99</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CARDIOPATIAS CONGÊNITAS MODERADAS SEQUÊNCIAIS</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   MODERADA (75%)   MODERADA (50%)</td>
+			<td>R$ 72.783,66</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   GRAVE (75%)   MODERADA (50%)</td>
+			<td>R$ 81.306,62</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   GRAVE (75%)   GRAVE (50%)</td>
+			<td>R$ 86.988,59</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   CRÍTICA (75%)   MODERADA (50%)</td>
+			<td>R$ 84.104,31</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   CRÍTICA (75%)   GRAVE (50%)</td>
+			<td>R$ 89.786,28</td>
+		</tr>
+		<tr>
+			<td>415020034</td>
+			<td>CRÍTICA (100%)   CRÍTICA (75%)   CRÍTICA (50%)</td>
+			<td>R$ 91.651,41</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><p linkname="txt_aef73edcd83c4f7e564b2dd83b11f223" class=""><a id="txt_aef73edcd83c4f7e564b2dd83b11f223" name="txt_aef73edcd83c4f7e564b2dd83b11f223" class="linkname"></a>*AS CIRURGIAS SEQUENCIAS: SÃO ATOS CIRÚRGICOS COM VÍNCULO DE CONTINUIDADE, INTERDEPENDÊNCIA E COMPLEMENTARIEDADE, REALIZADOS EM CONJUNTO PELA MESMA EQUIPE OU EQUIPES DISTINTAS, APLICADOS A ÓRGÃO ÚNICO OU REGIÕES CONTÍGUAS, BILATERAIS OU NÃO, DEVIDOS A MESMA DOENÇA, EXECUTADOS POR UMA OU VÁRIAS VIAS DE ACESSO E PRATICADOS SOB O MESMO ATO ANESTÉSICO E PERMITINDO O REGISTRO DE PROCEDIMENTOS SEQÜENCIAIS.<p linkname="txt_406ea203f7ee490df0d380291db9b003" class=""><a id="txt_406ea203f7ee490df0d380291db9b003" name="txt_406ea203f7ee490df0d380291db9b003" class="linkname"></a>O CÓDIGO DE CIRUGIA SEQUENCIAL (415020034) É UM CÓDIGO SEM VALOR, SENDO UTILIZADO APENAS PARA DEFINIR AS CIRURGIAS COMPOSTAS POR DOIS OU MAIS PROCEDIMENTOS EM UM MESMO ATO ANESTESICO.<p linkname="txt_d73c6d7e05d84ecee37923389d0ef1cc" class=""><a id="txt_d73c6d7e05d84ecee37923389d0ef1cc" name="txt_d73c6d7e05d84ecee37923389d0ef1cc" class="linkname"></a>OS VALORES DEFINIDOS NO GRUPO II PARA PROCEDIMENTOS DE CIRURGIA CARDIACA PEDIÁTRICA/NEONATAIS: MODERADAS, GRAVES E CRÍTICA. QUANDO REALIZADOS CIRURGIAS SEQUENCIAIS O VALOR DO PROCEDIMENTO CIRÚRGICO SERÁ PAGO COM A SEGUINTE COMPOSIÇÃO:<p linkname="txt_ffcdc071da20479c8b3fe8e5adef9d45" class=""><a id="txt_ffcdc071da20479c8b3fe8e5adef9d45" name="txt_ffcdc071da20479c8b3fe8e5adef9d45" class="linkname"></a>(CÓDICO PRINCIPAL) CÓGICO DE CIRURGIA SEQUENCIAL Nº 415020034 (SEQUIDOS DE ATÉ 03 (TRÊS) CÓDIGOS SEQUENCIAS<p linkname="txt_dfc51ecbb12e4fabc2bf16d59ce3546f" class=""><a id="txt_dfc51ecbb12e4fabc2bf16d59ce3546f" name="txt_dfc51ecbb12e4fabc2bf16d59ce3546f" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 100% DO VALOR DO CÓDIGO PRINCIPAL<p linkname="txt_e0bad965290f44ac873a10af338e649a" class=""><a id="txt_e0bad965290f44ac873a10af338e649a" name="txt_e0bad965290f44ac873a10af338e649a" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 75% DO VALOR DO CÓDIGO SEQUENCIAL<p linkname="txt_b3edcceac7db41f08640469debdf1d10" class=""><a id="txt_b3edcceac7db41f08640469debdf1d10" name="txt_b3edcceac7db41f08640469debdf1d10" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 50% DO VALOR DO CÓDIGO SEQUENCIAL<p style="text-align:center" linkname="txt_f40b9bef15e649ddb5c713028eaf90c6" class=""><a id="txt_f40b9bef15e649ddb5c713028eaf90c6" name="txt_f40b9bef15e649ddb5c713028eaf90c6" class="linkname"></a>CIRURGIA CARDIOVASCULAR MARCAPASSO<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CIRURGIA CARDIOVASCULAR MARCAPASSO</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">MARCAPASSO CAMARA ÚNICA/DUPLA</td>
+		</tr>
+		<tr>
+			<td>406011133</td>
+			<td>TROCA DE GERADOR DE MARCAPASSO DE CÂMARA ÚNICA</td>
+			<td>R$ 12.952,63</td>
+		</tr>
+		<tr>
+			<td>406010668</td>
+			<td>IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA EPIMIOCÁRDICO</td>
+			<td>R$ 12.952,63</td>
+		</tr>
+		<tr>
+			<td>406010676</td>
+			<td>IMPLANTE DE MARCAPASSO DE CÂMARA ÚNICA TRANSVENOSO</td>
+			<td>R$ 12.952,63</td>
+		</tr>
+		<tr>
+			<td>406011150</td>
+			<td>TROCA DE GERADOR E DE ELETRODO DE MARCAPASSO DE CÂMARA ÚNICA</td>
+			<td>R$ 12.952,63</td>
+		</tr>
+		<tr>
+			<td>406010641</td>
+			<td>IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA EPIMIOCÁRDICO</td>
+			<td>R$ 13.647,57</td>
+		</tr>
+		<tr>
+			<td>406010650</td>
+			<td>IMPLANTE DE MARCAPASSO DE CÂMARA DUPLA TRANSVENOSO</td>
+			<td>R$ 13.647,57</td>
+		</tr>
+		<tr>
+			<td>406011125</td>
+			<td>TROCA DE GERADOR DE MARCAPASSO DE CÂMARA DUPLA</td>
+			<td>R$ 13.647,57</td>
+		</tr>
+		<tr>
+			<td>406011184</td>
+			<td>TROCA DE GERADOR E DE ELETRODOS DE MARCAPASSO DE CÂMARA DUPLA</td>
+			<td>R$ 13.647,57</td>
+		</tr>
+		<tr>
+			<td colspan="3">MARCAPASSO MULTI-SÍTIO</td>
+		</tr>
+		<tr>
+			<td>406010617</td>
+			<td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO ENDOCAVITÁRIO C/ REVERSÃO P/ EPIMIOCÁRDICO (POR TORACOTOMIA)</td>
+			<td>R$ 28.847,39</td>
+		</tr>
+		<tr>
+			<td>406010625</td>
+			<td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO EPIMIOCÁRDICO POR TORACOTOMIA P/IMPLANTE DE ELETRODO</td>
+			<td>R$ 28.847,39</td>
+		</tr>
+		<tr>
+			<td>406010633</td>
+			<td>IMPLANTE DE MARCAPASSO CARDÍACO MULTI-SITIO TRANSVENOSO</td>
+			<td>R$ 28.847,39</td>
+		</tr>
+		<tr>
+			<td>406011141</td>
+			<td>TROCA DE GERADOR DE MARCAPASSO MULTI-SITIO</td>
+			<td>R$ 28.847,39</td>
+		</tr>
+		<tr>
+			<td>406011192</td>
+			<td>TROCA DE GERADOR E DE ELETRODOS NO MARCAPASSO MULTI-SITIO</td>
+			<td>R$ 28.847,39</td>
+		</tr>
+		<tr>
+			<td colspan="3">CARDIODESFIBRILADOR CAMARA ÚNICA / DUPLA</td>
+		</tr>
+		<tr>
+			<td>406010560</td>
+			<td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÂMARA ÚNICA TRANSVENOSO</td>
+			<td>R$ 43.929,80</td>
+		</tr>
+		<tr>
+			<td>406010587</td>
+			<td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR DE CÃMARA DUPLA TRANSVENOSO</td>
+			<td>R$ 43.929,80</td>
+		</tr>
+		<tr>
+			<td>406011109</td>
+			<td>TROCA DE GERADOR DE CARDIO-DESFIBRILADOR DE CÂMARA ÚNICA / DUPLA</td>
+			<td>R$ 43.929,80</td>
+		</tr>
+		<tr>
+			<td>406011168</td>
+			<td>TROCA DE GERADOR E DE ELETRODOS DE CARDIO-DESFIBRILADOR</td>
+			<td>R$ 43.929,80</td>
+		</tr>
+		<tr>
+			<td colspan="3">CARDIODESFIBRILADOR MULTI-SÍTIO</td>
+		</tr>
+		<tr>
+			<td>406010579</td>
+			<td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO EPIMIOCÁRDICO POR TORACOTOMIA P/ IMPLANTE DE ELETRODO</td>
+			<td>R$ 55.839,38</td>
+		</tr>
+		<tr>
+			<td>406010595</td>
+			<td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR MULTI-SÍTIO ENDOCAVITÁRIO C/ REVERSÃO PARA EPIMIOCÁRDICO POR TORACOTOMIA</td>
+			<td>R$ 55.839,38</td>
+		</tr>
+		<tr>
+			<td>406010609</td>
+			<td>IMPLANTE DE CARDIOVERSOR DESFIBRILADOR (CDI) MULTI-SITIO TRANSVENOSO</td>
+			<td>R$ 55.839,38</td>
+		</tr>
+		<tr>
+			<td>406011117</td>
+			<td>TROCA DE GERADOR DE CARDIO-DESFIBRILADOR SITIO</td>
+			<td>R$ 55.839,38</td>
+		</tr>
+		<tr>
+			<td>406011176</td>
+			<td>TROCA DE GERADOR E DE ELETRODOS DE CARDIO-DESFIBRILADOR MULTISITIO</td>
+			<td>R$ 55.839,38</td>
+		</tr>
+		<tr>
+			<td colspan="3">RETIRADA DE SISTEMA DE ESTIMULAÇÃO CARDÍACA ARTIFICIAL</td>
+		</tr>
+		<tr>
+			<td>406010919</td>
+			<td>RETIRADA DE SISTEMA DE ESTIMULAÇÃO CARDÍACA ARTIFICIAL</td>
+			<td>R$ 60.459,90</td>
+		</tr>
+		<tr>
+			<td colspan="3">TROCA / REPOSICIONAMENTO DE ELETRODO</td>
+		</tr>
+		<tr>
+			<td>406011036</td>
+			<td>TROCA DE ELETRODOS DE MARCAPASSO DE CÂMARA DUPLA</td>
+			<td>R$ 8.970,16</td>
+		</tr>
+		<tr>
+			<td>406011044</td>
+			<td>TROCA DE ELETRODOS DE MARCAPASSO DE CÂMARA ÚNICA</td>
+			<td>R$ 8.970,16</td>
+		</tr>
+		<tr>
+			<td>406010862</td>
+			<td>REPOSICIONAMENTO DE ELETRODOS DE MARCAPASSO</td>
+			<td>R$ 8.970,16</td>
+		</tr>
+		<tr>
+			<td>406011087</td>
+			<td>TROCA DE ELETRODOS DE MARCAPASSO NO MARCAPASSO MULTI-SITIO</td>
+			<td>R$ 14.075,08</td>
+		</tr>
+		<tr>
+			<td>406010870</td>
+			<td>REPOSICIONAMENTO DE ELETRODOS DE MARCAPASSO MULTI SITIO</td>
+			<td>R$ 8.970,16</td>
+		</tr>
+		<tr>
+			<td>406011052</td>
+			<td>TROCA DE ELETRODOS DE MARCAPASSO EM CARDIO-DESFIBRILADOR DE CAMARA DUPLA TRANSVENOSO</td>
+			<td>R$ 14.075,08</td>
+		</tr>
+		<tr>
+			<td>406011010</td>
+			<td>TROCA DE ELETRODOS DE DESFIBRILADOR DE CARDIO-DESFIBRILADOR TRANSVENOSO</td>
+			<td>R$ 14.075,08</td>
+		</tr>
+		<tr>
+			<td>406010854</td>
+			<td>REPOSICIONAMENTO DE ELETRODOS DE CARDIOVERSOR DESFIBRILADOR</td>
+			<td>R$ 8.970,16</td>
+		</tr>
+		<tr>
+			<td>406011079</td>
+			<td>TROCA DE ELETRODOS DE MARCAPASSO NO CARDIO-DESFIBRILADOR MULTI</td>
+			<td>R$ 14.075,08</td>
+		</tr>
+		<tr>
+			<td>406011095</td>
+			<td>TROCA DE ELETRODOS DE SEIO CORONÁRIO NO CARDIOVERSOR DESFIBRILADOR MULTI-SITIO</td>
+			<td>R$ 14.075,08</td>
+		</tr>
+		<tr>
+			<td>406011028</td>
+			<td>TROCA DE ELETRODOS DE DESFIBRILADOR NO CARDIO-DESFIBRILADOR MULTI</td>
+			<td>R$ 14.075,08</td>
+		</tr>
+		<tr>
+			<td>406010684</td>
+			<td>IMPLANTE DE MARCAPASSO TEMPORÁRIO TRANSVENOSO</td>
+			<td>R$ 5.581,01</td>
+		</tr>
+		<tr>
+			<td>406011001</td>
+			<td>TROCA DE CONJUNTO DO SEIO CORONÁRIO NO MARCAPASSO MULTI-SITIO</td>
+			<td>R$ 14.075,08</td>
+		</tr>
+		<tr>
+			<td>406010790</td>
+			<td>PLÁSTICA DE LOJA DE GERADOR DE SISTEMA DE ESTIMULAÇÃO CARDÍACA ARTIFICIAL</td>
+			<td>R$ 8.198,62</td>
+		</tr>
+	</tbody>
+</table><p style="text-align:center" linkname="txt_54f92e72fc8f44946450f821b5566937" class=""><a id="txt_54f92e72fc8f44946450f821b5566937" name="txt_54f92e72fc8f44946450f821b5566937" class="linkname"></a>CARDIOLOGÍA INTERVENCIONISTA<p style="text-align:center" linkname="txt_244e2e99c860471fdb91ac59b5ccd031" class=""><a id="txt_244e2e99c860471fdb91ac59b5ccd031" name="txt_244e2e99c860471fdb91ac59b5ccd031" class="linkname"></a>ASSISTENCIA INTERVENSIONISTA<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTA</td>
+			<td>ASSISTENCIA INTERVENSIONISTA</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">CARDIOLOGÍA INTERVENCIONISTA</td>
+		</tr>
+		<tr>
+			<td>211020028</td>
+			<td>CATETERISMO CARDIACO EM PEDIATRIA</td>
+			<td>R$ 10.950,63</td>
+		</tr>
+		<tr>
+			<td>211020010</td>
+			<td>CATETERISMO CARDIACO</td>
+			<td>R$ 4.988,41</td>
+		</tr>
+		<tr>
+			<td>406030014</td>
+			<td>ANGIOPLASTIA CORONARIANA</td>
+			<td>R$ 9.259,08</td>
+		</tr>
+		<tr>
+			<td>406030065</td>
+			<td>ANGIOPLASTIA EM ENXERTO CORONARIANO</td>
+			<td>R$ 9.259,08</td>
+		</tr>
+		<tr>
+			<td>406030030</td>
+			<td>ANGIOPLASTIA CORONARIANA COM IMPLANTE DE STENT</td>
+			<td>R$ 9.259,08</td>
+		</tr>
+		<tr>
+			<td>406030073</td>
+			<td>ANGIOPLASTIA EM ENXERTO CORONARIANO (COM IMPLANTE DE STENT)</td>
+			<td>R$ 12.467,75</td>
+		</tr>
+		<tr>
+			<td>406030022</td>
+			<td>ANGIOPLASTIA CORONARIANA C/ IMPLANTE DE DOIS STENTS</td>
+			<td>R$ 12.467,75</td>
+		</tr>
+		<tr>
+			<td>406030049</td>
+			<td>ANGIOPLASTIA CORONARIANA PRIMÁRIA</td>
+			<td>R$ 18.321,25</td>
+		</tr>
+		<tr>
+			<td>406030057</td>
+			<td>ANGIOPLASTIA COM IMPLANTE DE DUPLO STENT EM AORTA/ARTERIA PULMONAR E RAMOS</td>
+			<td>R$ 17.817,13</td>
+		</tr>
+		<tr>
+			<td>406030081</td>
+			<td>ATRIOSEPTOSTOMIA COM CATETER BALÃO</td>
+			<td>R$ 11.717,08</td>
+		</tr>
+		<tr>
+			<td>406030138</td>
+			<td>VALVULOPLASTIA PULMONAR PERCUTÂNEA</td>
+			<td>R$ 15.509,30</td>
+		</tr>
+		<tr>
+			<td>406030146</td>
+			<td>VALVULOPLASTIA TRICUSPIDE PERCUTANEA</td>
+			<td>R$ 15.509,30</td>
+		</tr>
+		<tr>
+			<td>406030120</td>
+			<td>VALVULOPLASTIA MITRAL PERCUTÂNEA</td>
+			<td>R$ 15.509,30</td>
+		</tr>
+		<tr>
+			<td>406030111</td>
+			<td>VALVULOPLASTIA AÓRTICA PERCUTÂNEA</td>
+			<td>R$ 15.509,30</td>
+		</tr>
+		<tr>
+			<td>406030090</td>
+			<td>FECHAMENTO PERCUTÂNEO DO CANAL ARTERIAL/ FISTULAS ARTERIOVENOSAS COM LIBERAÇÃO DE COILS</td>
+			<td>R$ 26.425,98</td>
+		</tr>
+		<tr>
+			<td>406030154</td>
+			<td>FECHAMENTO PERCUTÂNEO DE COMUNICAÇÃO INTERATRIAL SEPTAL</td>
+			<td>R$ 39.141,58</td>
+		</tr>
+		<tr>
+			<td>406030103</td>
+			<td>RETIRADA DE CORPO ESTRANHO DE SISTEMA CARDIOVASCULAR POR TÉCNICAS HEMODINÂMICAS</td>
+			<td>R$ 22.473,05</td>
+		</tr>
+		<tr>
+			<td colspan="3">ELETROFISIOLOGIA</td>
+		</tr>
+		<tr>
+			<td>406050015</td>
+			<td>ESTUDO ELETROFISIOLÓGICO DIAGNÓSTICO</td>
+			<td>R$ 20.461,80</td>
+		</tr>
+		<tr>
+			<td>406050058</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO I (ABLAÇÃO DO NÓDULO ARCHOV-TAWARA)</td>
+			<td>R$ 30.250,36</td>
+		</tr>
+		<tr>
+			<td>406050040</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO I (ABLAÇÃO DE TAQUICARDIA POR REENTRADA NODAL DE VIAS ANÔMALAS DIREITAS-DE TV IDIOPÁTICA-DE VENTRÍCULO DIREITO E VENTRÍCULO ESQUERDO).</td>
+			<td>R$ 30.250,36</td>
+		</tr>
+		<tr>
+			<td>406050023</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO I (ABLAÇÃO DE FLUTTER ATRIAL)</td>
+			<td>R$ 30.250,36</td>
+		</tr>
+		<tr>
+			<td>406050031</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO I (ABLAÇÃO DE TAQUICARDIA ATRIAL DIREITA)</td>
+			<td>R$ 30.250,36</td>
+		</tr>
+		<tr>
+			<td>406050066</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO II (ABLAÇÃO DAS VIAS ANÔMALAS MÚLTIPLAS)</td>
+			<td>R$ 30.250,36</td>
+		</tr>
+		<tr>
+			<td>406050139</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO II (ABLAÇÃO DE VIAS ANÔMALAS ESQUERDAS)</td>
+			<td>R$ 30.250,36</td>
+		</tr>
+		<tr>
+			<td>406050082</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO II (ABLAÇÃO DE TAQUICARDIA ATRIAL CICATRICIAL)</td>
+			<td>R$ 30.250,36</td>
+		</tr>
+		<tr>
+			<td>406050074</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO II (ABLAÇÃO DE FIBRILAÇÃO ATRIAL)</td>
+			<td>R$ 93.582,66</td>
+		</tr>
+		<tr>
+			<td>406050120</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO II (ABLAÇÃO DE TAQUICARDIA VENTRICULAR SUSTENTADA COM CARDIOPATIA ESTRUTURAL)</td>
+			<td>R$ 93.582,66</td>
+		</tr>
+		<tr>
+			<td>406050112</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO II (ABLAÇÃO DE TAQUICARDIA VENTRICULAR IDIOPÁTICA DO SEIO DE VALSALVA ESQUERDO)</td>
+			<td>R$ 93.582,66</td>
+		</tr>
+		<tr>
+			<td>406050104</td>
+			<td>ESTUDO ELETROFISIOLÓGICO TERAPÊUTICO II (ABLAÇÃO DE TAQUICARDIA ATRIAL ESQUERDA)</td>
+			<td>R$ 93.582,66</td>
+		</tr>
+		<tr>
+			<td colspan="3">ARTERIOGRAFIA</td>
+		</tr>
+		<tr>
+			<td>210010070</td>
+			<td>ARTERIOGRAFIA DE MEMBRO</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010126</td>
+			<td>ARTERIOGRAFIA PELVICA</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010134</td>
+			<td>ARTERIOGRAFIA SELETIVA DE CAROTIDA</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010061</td>
+			<td>ARTERIOGRAFIA CERVICO-TORACICA</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010150</td>
+			<td>ARTERIOGRAFIA SELETIVA VERTEBRAL</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010100</td>
+			<td>ARTERIOGRAFIA P/ INVESTIGACAO DE HEMORRAGIA CEREBRAL</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010142</td>
+			<td>ARTERIOGRAFIA SELETIVA POR CATETER (POR VASO)</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010061</td>
+			<td>ARTERIOGRAFIA CERVICO-TORACICA</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010088</td>
+			<td>ARTERIOGRAFIA DIGITAL (POR VIA VENOSA)</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010118</td>
+			<td>ARTERIOGRAFIA P/ INVESTIGACAO DE ISQUEMIA CEREBRAL</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010096</td>
+			<td>ARTERIOGRAFIA P/ INVESTIGACAO DE DOENCA ARTERIOSCLEROTICA AORTO-ILIACA E DISTAL</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010045</td>
+			<td>AORTOGRAFIA ABDOMINAL</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+		<tr>
+			<td>210010053</td>
+			<td>AORTOGRAFIA TORACICA</td>
+			<td>R$ 4.812,60</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td colspan="4">ANGIOPLASTIA DE CARÓTIDA</td>
+		</tr>
+		<tr>
+			<td>406040028</td>
+			<td colspan="2">ANGIOPLASTIA INTRALUMINAL DE AORTA, VEIA CAVA / VASOS ILÍACOS (COM STENT)</td>
+			<td>R$ 13.606,31</td>
+		</tr>
+		<tr>
+			<td>406040095</td>
+			<td colspan="2">ANGIOPLASTIA INTRALUMINAL DE VASOS DO PESCOÇO OU TRONCOS SUPRA-AÓRTICOS (COM STENT NÃO RECOBERTO)</td>
+			<td>R$ 13.606,31</td>
+		</tr>
+		<tr>
+			<td>406040133</td>
+			<td colspan="2">ANGIOPLASTIA INTRALUMINAL DOS VASOS DO PESCOÇO / TRONCOS SUPRA-AÓRTICOS (COM STENT RECOBERTO)</td>
+			<td>R$ 13.606,31</td>
+		</tr>
+		<tr>
+			<td colspan="4">ANGIOPLASTIA VASOS VICERAIS</td>
+		</tr>
+		<tr>
+			<td>406040109</td>
+			<td colspan="2">ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS COM STENT NÃO RECOBERTO</td>
+			<td>R$ 14.060,05</td>
+		</tr>
+		<tr>
+			<td>406040117</td>
+			<td colspan="2">ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS COM STENT RECOBERTO</td>
+			<td>R$ 14.060,05</td>
+		</tr>
+		<tr>
+			<td>406040125</td>
+			<td colspan="2">ANGIOPLASTIA INTRALUMINAL DE VASOS VISCERAIS / RENAIS</td>
+			<td>R$ 14.060,05</td>
+		</tr>
+		<tr>
+			<td colspan="4">ANGIOPLASTIA PERIFERICA</td>
+		</tr>
+		<tr>
+			<td>406040060</td>
+			<td colspan="2">ANGIOPLASTIA INTRALUMINAL DE VASOS DAS EXTREMIDADES (COM STENT NÃO RECOBERTO)</td>
+			<td>R$ 17.936,41</td>
+		</tr>
+		<tr>
+			<td>406040079</td>
+			<td colspan="2">ANGIOPLASTIA INTRALUMINAL DE VASOS DAS EXTREMIDADES (COM STENT RECOBERTO)</td>
+			<td>R$ 17.936,41</td>
+		</tr>
+		<tr>
+			<td>406040281</td>
+			<td colspan="2">RECONSTRUÇÃO DA BIFURCAÇÃO AORTO-ILÍACA COM ANGIOPLASTIA E STENTS</td>
+			<td>R$ 17.936,41</td>
+		</tr>
+		<tr>
+			<td>406040338</td>
+			<td colspan="2">TRATAMENTO ENDOVASCULAR DO PSEUDOANEURISMA</td>
+			<td>R$ 17.936,41</td>
+		</tr>
+		<tr>
+			<td>406040320</td>
+			<td colspan="2">TRATAMENTO ENDOVASCULAR DE FISTULAS ARTERIOVENOSAS</td>
+			<td>R$ 17.936,41</td>
+		</tr>
+		<tr>
+			<td colspan="4">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA TORÁCICA COM ENDOPRÓTESE RETA OU CÔNICA</td>
+		</tr>
+		<tr>
+			<td>406040176</td>
+			<td colspan="2">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA TORÁCICA COM ENDOPRÓTESE RETA OU CÔNICA</td>
+			<td>R$ 53.577,06</td>
+		</tr>
+		<tr>
+			<td colspan="4">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA ABDOMINAL E ILÍACAS COM ENDOPRÓTESE BIFURCADA</td>
+		</tr>
+		<tr>
+			<td>406040168</td>
+			<td colspan="2">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA ABDOMINAL E ILÍACAS COM ENDOPRÓTESE BIFURCADA</td>
+			<td>R$ 92.899,69</td>
+		</tr>
+		<tr>
+			<td colspan="4">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA ABDOMINAL COM ENDOPRÓTESE RETA / CÔNICA</td>
+		</tr>
+		<tr>
+			<td>406040150</td>
+			<td colspan="2">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA ABDOMINAL COM ENDOPRÓTESE RETA / CÔNICA</td>
+			<td>R$ 42.970,05</td>
+		</tr>
+		<tr>
+			<td colspan="4">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DAS ILÍACAS COM ENDOPRÓTESE TUBULAR</td>
+		</tr>
+		<tr>
+			<td>406040184</td>
+			<td colspan="2">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DAS ILÍACAS COM ENDOPRÓTESE TUBULAR</td>
+			<td>R$ 42.970,05</td>
+		</tr>
+		<tr>
+			<td colspan="4">EMBOLIZAÇÃO</td>
+		</tr>
+		<tr>
+			<td>406040273</td>
+			<td colspan="2">OCLUSÃO PERCUTÂNEA ENDOVASCULAR DE ARTÉRIA / VEIA</td>
+			<td>R$ 24.926,19</td>
+		</tr>
+		<tr>
+			<td>406040222</td>
+			<td colspan="2">FECHAMENTO PERCUTÂNEO DE FISTULAS ARTERIOVENOSAS COM LIBERAÇÃO DE COILS</td>
+			<td>R$ 24.926,19</td>
+		</tr>
+		<tr>
+			<td>406040214</td>
+			<td colspan="2">EMBOLIZAÇÃO DE MALFORMAÇÃO VASCULAR POR PUNÇÃO DIRETA (INCLUI DROGAS EMBOLIZANTES)</td>
+			<td>R$ 24.926,19</td>
+		</tr>
+		<tr>
+			<td>406040206</td>
+			<td colspan="2">EMBOLIZAÇÃO DE MALFORMAÇÃO VASCULAR ARTÉRIO-VENOSA (INCLUI ESTUDO ANGIOGRÁFICO)</td>
+			<td>R$ 24.926,19</td>
+		</tr>
+		<tr>
+			<td>406040010</td>
+			<td colspan="2">ALCOOLIZAÇÃO PERCUTÂNEA DE HEMANGIOMA E MALFORMAÇÃO VENOSAS (INCLUI ESTUDO ANGIOGRAFICO)</td>
+			<td>R$ 24.926,19</td>
+		</tr>
+		<tr>
+			<td colspan="4">COLOCAÇÃO PERCUTÂNEA DE FILTRO DE VEIA CAVA (NA TROMBOSE VENOSA PERIFÉRICA E EMBOLIA PULMONAR)</td>
+		</tr>
+		<tr>
+			<td>406040141</td>
+			<td colspan="2">COLOCAÇÃO PERCUTÂNEA DE FILTRO DE VEIA CAVA (NA TROMBOSE VENOSA PERIFÉRICA E EMBOLIA PULMONAR)</td>
+			<td>R$ 9.026,85</td>
+		</tr>
+		<tr>
+			<td colspan="4">IMPLANTE DE CATETER LONGA PERMANENCIA</td>
+		</tr>
+		<tr>
+			<td>406020612</td>
+			<td colspan="2">IMPLANTAÇÃO DE CATETER DE LONGA PERMANÊNCIA SEMI OU TOTALMENTE IMPLANTAVEL (PROCEDIMENTO ESPECIAL)</td>
+			<td>R$ 5.351,16</td>
+		</tr>
+		<tr>
+			<td>406020078</td>
+			<td colspan="2">IMPLANTAÇÃO DE CATETER DE LONGA PERMANÊNCIA SEMI OU TOTALMENTE IMPLANTAVEL (PROCEDIMENTO PRINCIPAL)</td>
+			<td>R$ 5.351,16</td>
+		</tr>
+		<tr>
+			<td>406020620</td>
+			<td colspan="2">RETIRADA DE CATETER DE LONGA PERMANÊNCIA SEMI OU TOTALMENTE IMPLANTÁVEL</td>
+			<td>R$ 1.351,16</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="2">&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="4">CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA-TORÁCO ABDOMINAL</td>
+		</tr>
+		<tr>
+			<td>
+			<p linkname="txt_d8b12cbb62324cc2f755af6f8c06af5f" class=""><a id="txt_d8b12cbb62324cc2f755af6f8c06af5f" name="txt_d8b12cbb62324cc2f755af6f8c06af5f" class="linkname"></a>CÓDIGO SIGTAP
+
+			<p linkname="txt_00e0a54301a44122155575a9450b3b4c" class=""><a id="txt_00e0a54301a44122155575a9450b3b4c" name="txt_00e0a54301a44122155575a9450b3b4c" class="linkname"></a>PRINCIPAL
+			</td>
+			<td>
+			<p linkname="txt_b577610177a54e0224a16506eb03f5b8" class=""><a id="txt_b577610177a54e0224a16506eb03f5b8" name="txt_b577610177a54e0224a16506eb03f5b8" class="linkname"></a>CÓDIGO SIGTAP
+
+			<p linkname="txt_f5d63db0854a454bbd6abf5922724284" class=""><a id="txt_f5d63db0854a454bbd6abf5922724284" name="txt_f5d63db0854a454bbd6abf5922724284" class="linkname"></a>SEQUENCIAL
+			</td>
+			<td>DISSECÇÃO DA AORTA-TORÁCO ABDOMINAL</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td rowspan="3">415020034 (*)</td>
+			<td>406040168</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA ABDOMINAL E ILÍACAS COM ENDOPRÓTESE BIFURCADA</td>
+			<td rowspan="3">R$ 154.567,75</td>
+		</tr>
+		<tr>
+			<td>406040176</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA TORÁCICA COM ENDOPRÓTESE RETA OU CÔNICA</td>
+		</tr>
+		<tr>
+			<td>406040184</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DAS ILÍACAS COM ENDOPRÓTESE TUBULAR</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td rowspan="2">415020034 (*)</td>
+			<td>406040168</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA ABDOMINAL E ILÍACAS COM ENDOPRÓTESE BIFURCADA</td>
+			<td rowspan="2">R$ 133.082,48</td>
+		</tr>
+		<tr>
+			<td>406040176</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA TORÁCICA COM ENDOPRÓTESE RETA OU CÔNICA</td>
+		</tr>
+		<tr>
+			<td rowspan="2">415020034 (*)</td>
+			<td>406040168</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA ABDOMINAL E ILÍACAS COM ENDOPRÓTESE BIFURCADA</td>
+			<td rowspan="2">R$ 125.127,22</td>
+		</tr>
+		<tr>
+			<td>406040184</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DAS ILÍACAS COM ENDOPRÓTESE TUBULAR</td>
+		</tr>
+		<tr>
+			<td rowspan="3">415020034 (*)</td>
+			<td>406040176</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA TORÁCICA COM ENDOPRÓTESE RETA OU CÔNICA</td>
+			<td rowspan="2">R$ 85.804,60</td>
+		</tr>
+		<tr>
+			<td>406040184</td>
+			<td>CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DAS ILÍACAS COM ENDOPRÓTESE TUBULAR</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table><p linkname="txt_9913a666a86f4b5a613c9d81e56013f2" class=""><a id="txt_9913a666a86f4b5a613c9d81e56013f2" name="txt_9913a666a86f4b5a613c9d81e56013f2" class="linkname"></a>*AS CIRURGIAS SEQUENCIAS: SÃO ATOS CIRÚRGICOS COM VÍNCULO DE CONTINUIDADE, INTERDEPENDÊNCIA E COMPLEMENTARIEDADE, REALIZADOS EM CONJUNTO PELA MESMA EQUIPE OU EQUIPES DISTINTAS, APLICADOS A ÓRGÃO ÚNICO OU REGIÕES CONTÍGUAS, BILATERAIS OU NÃO, DEVIDOS A MESMA DOENÇA, EXECUTADOS POR UMA OU VÁRIAS VIAS DE ACESSO E PRATICADOS SOB O MESMO ATO ANESTÉSICO E PERMITINDO O REGISTRO DE PROCEDIMENTOS SEQÜENCIAIS.<p linkname="txt_676c22a61627423d8d2f0bf8c8a6dfa6" class=""><a id="txt_676c22a61627423d8d2f0bf8c8a6dfa6" name="txt_676c22a61627423d8d2f0bf8c8a6dfa6" class="linkname"></a>O CÓDIGO DE CIRUGIA SEQUENCIAL (415020034) É UM CÓDIGO SEM VALOR, SENDO UTILIZADO APENAS PARA DEFINIR AS CIRURGIAS COMPOSTAS POR DOIS OU MAIS PROCEDIMENTOS EM UM MESMO ATO ANESTESICO.<p linkname="txt_1529481731c849ca7b75f4991758c341" class=""><a id="txt_1529481731c849ca7b75f4991758c341" name="txt_1529481731c849ca7b75f4991758c341" class="linkname"></a>OS VALORES DEFINIDOS NO GRUPO II PARA PROCEDIMENTOS DE CIRURGIA CORREÇÃO ENDOVASCULAR DE ANEURISMA / DISSECÇÃO DA AORTA-TORÁCO ABDOMINAL: 406040168, 406040176 E 406040184. QUANDO REALIZADOS CIRURGIAS SEQUENCIAIS O VALOR DO PROCEDIMENTO CIRÚRGICO SERÁ PAGO COM A SEGUINTE COMPOSIÇÃO:<p linkname="txt_e490873a8e30405c6173a878fc4501c4" class=""><a id="txt_e490873a8e30405c6173a878fc4501c4" name="txt_e490873a8e30405c6173a878fc4501c4" class="linkname"></a>(CÓDICO PRINCIPAL) CÓGICO DE CIRURGIA SEQUENCIAL Nº 415020034 (SEQUIDOS DE ATÉ 03 (TRÊS) CÓDIGOS SEQUENCIAS<p linkname="txt_f9f0c9b26b494a840be932e9560039a4" class=""><a id="txt_f9f0c9b26b494a840be932e9560039a4" name="txt_f9f0c9b26b494a840be932e9560039a4" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 100% DO VALOR DO CÓDIGO PRINCIPAL<p linkname="txt_66d7fc7dffc54a2bacfba94e03e4bdf2" class=""><a id="txt_66d7fc7dffc54a2bacfba94e03e4bdf2" name="txt_66d7fc7dffc54a2bacfba94e03e4bdf2" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 75% DO VALOR DO CÓDIGO SEQUENCIAL<p linkname="txt_825e789ee12c42d467891d3f286d5a12" class=""><a id="txt_825e789ee12c42d467891d3f286d5a12" name="txt_825e789ee12c42d467891d3f286d5a12" class="linkname"></a>(CÓDIGO SECUNDÁRIO) 50% DO VALOR DO CÓDIGO SEQUENCIAL<p style="text-align:center" linkname="txt_e6e5cbcc6c3e4fc17eaa09e3e059fc19" class=""><a id="txt_e6e5cbcc6c3e4fc17eaa09e3e059fc19" name="txt_e6e5cbcc6c3e4fc17eaa09e3e059fc19" class="linkname"></a>DIÁRIA<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>DIÁRIA</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">DIÁRIA DE UTI</td>
+		</tr>
+		<tr>
+			<td>802010091</td>
+			<td>DIARIA DE UNIDADE DE TERAPIA INTENSIVA ADULTO (UTI III)</td>
+			<td>R$ 3.000,00</td>
+		</tr>
+		<tr>
+			<td>802010075</td>
+			<td>DIARIA DE UNIDADE DE TERAPIA INTENSIVA PEDIÁTRICA (UTI III)</td>
+			<td>R$ 3.500,00</td>
+		</tr>
+		<tr>
+			<td>802010156</td>
+			<td>DIARIA DE UNIDADE DE TERAPIA INTENSIVA PEDIÁTRICA (UTI II)</td>
+			<td>R$ 3.500,00</td>
+		</tr>
+		<tr>
+			<td>802010130</td>
+			<td>DIÁRIA DE UNIDADE DE TERAPIA INTENSIVA NEONATAL - UTIN (TIPO III)</td>
+			<td>R$ 3.500,00</td>
+		</tr>
+		<tr>
+			<td>802010121</td>
+			<td>DIARIA DE UNIDADE DE TERAPIA INTENSIVA NEONATAL - UTIN (TIPO II)</td>
+			<td>R$ 3.500,00</td>
+		</tr>
+		<tr>
+			<td>503040045</td>
+			<td>DIARIA DE UNIDADE DE TERAPIA INTENSIVA PROVÁVEL DOADOR DE ÓRGÃOS</td>
+			<td>R$ 3.000,00</td>
+		</tr>
+	</tbody>
+</table><p style="text-align:center" linkname="txt_c7cc6b6e1d0e413e924fdc6a757277fc" class=""><a id="txt_c7cc6b6e1d0e413e924fdc6a757277fc" name="txt_c7cc6b6e1d0e413e924fdc6a757277fc" class="linkname"></a>PROCEDIMENTO COMPLEMENTARES<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>PROCEDIMENTOS COMPLEMENTARES</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">OXIGENAÇÃO POR MEMBRANA EXTRACORPÓREA</td>
+		</tr>
+		<tr>
+			<td>406010714</td>
+			<td>INSTALAÇÃO DE ASSISTÊNCIA CIRCULATÓRIA</td>
+			<td>R$ 55.902,11</td>
+		</tr>
+		<tr>
+			<td>406010749</td>
+			<td>MANUTENÇÃO DE ASSISTÊNCIA CIRCULATÓRIA 24 HORAS</td>
+			<td>R$ 1.957,21</td>
+		</tr>
+		<tr>
+			<td colspan="3">BALÃO INTRAÓRTICO</td>
+		</tr>
+		<tr>
+			<td>406010129</td>
+			<td>COLOCAÇÃO DE BALÃO INTRA-AÓRTICO</td>
+			<td>R$ 10.362,30</td>
+		</tr>
+		<tr>
+			<td colspan="3">ELETROENCEFALOGRAMA</td>
+		</tr>
+		<tr>
+			<td>211050024</td>
+			<td>ELETROENCEFALOGRAFIA EM VIGILIA C/ OU S/ FOTO-ESTIMULO</td>
+			<td>R$ 600,00</td>
+		</tr>
+	</tbody>
+</table><p style="text-align:center" linkname="txt_17bab5cf55d140467dd9c158914c4710" class=""><a id="txt_17bab5cf55d140467dd9c158914c4710" name="txt_17bab5cf55d140467dd9c158914c4710" class="linkname"></a>ASSISTÊNCIA AMBULATORIAL<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>ASSISTÊNCIA AMBULATORIAL</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">CONSULTA</td>
+		</tr>
+		<tr>
+			<td>301010072</td>
+			<td>CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA</td>
+			<td>R$ 100,00</td>
+		</tr>
+		<tr>
+			<td>301010048</td>
+			<td>CONSULTA DE PROFISSIONAIS DE NÍVEL SUPERIOR NA ATENÇÃO ESPECIALIZADA (EXCETO MÉDICO)</td>
+			<td>R$ 30,00</td>
+		</tr>
+		<tr>
+			<td colspan="3">REABILITACAO CARDIACA AMBULATÓRIO DE FISIOTERAPIA</td>
+		</tr>
+		<tr>
+			<td>302040030</td>
+			<td>ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE COM TRANSTORNO CLÍNICO CARDIOVASCULAR</td>
+			<td>R$ 30,00</td>
+		</tr>
+		<tr>
+			<td>302040048</td>
+			<td>ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE PRÉ/PÓS CIRURGIA CARDIOVASCULAR</td>
+			<td>R$ 30,00</td>
+		</tr>
+		<tr>
+			<td>302040064</td>
+			<td>ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTE COM SÍNDROME CORONARIANA AGUDA</td>
+			<td>R$ 30,00</td>
+		</tr>
+		<tr>
+			<td>302050019</td>
+			<td>ATENDIMENTO FISIOTERAPÊUTICO EM PACIENTES NO PRÉ E PÓS-OPERATÓRIO NAS DISFUNÇÕES MÚSCULO ESQUELÉTICAS</td>
+			<td>R$ 30,00</td>
+		</tr>
+		<tr>
+			<td>30205002-7</td>
+			<td>ATENDIMENTO FISIOTERAPÊUTICO NAS ALTERAÇÕES MOTORAS</td>
+			<td>R$ 30,00</td>
+		</tr>
+		<tr>
+			<td>401010015</td>
+			<td>CURATIVO GRAU II COM OU SEM DEBRIDAMENTO</td>
+			<td>R$ 338,94</td>
+		</tr>
+	</tbody>
+</table><p style="text-align:center" linkname="txt_e2909d9e40a84d4ff69d1e6455e786a7" class=""><a id="txt_e2909d9e40a84d4ff69d1e6455e786a7" name="txt_e2909d9e40a84d4ff69d1e6455e786a7" class="linkname"></a>ASSISTÊNCIA EM APOIO DIAGNÓSTICO<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>ASSISTÊNCIA EM APOIO DIAGNÓSTICO</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">ECOCARDIOGRAMA TRANSTORÁCICO</td>
+		</tr>
+		<tr>
+			<td>205010032</td>
+			<td>ECOCARDIOGRAFIA TRANSTORÁCICA ADULTO</td>
+			<td>R$ 214,50</td>
+		</tr>
+		<tr>
+			<td>205010032</td>
+			<td>ECOCARDIOGRAFIA TRANSTORACICA PEDIÁTRICO</td>
+			<td>R$ 214,50</td>
+		</tr>
+		<tr>
+			<td colspan="3">ECOCARDIOGRAMA DE STRESS</td>
+		</tr>
+		<tr>
+			<td>205010016</td>
+			<td>ECOCARDIOGRAFIA DE ESTRESSE</td>
+			<td>R$ 264,41</td>
+		</tr>
+		<tr>
+			<td>205010016</td>
+			<td>ECOCARDIOGRAMA DE STRESS FÍSICO</td>
+			<td>R$ 264,41</td>
+		</tr>
+		<tr>
+			<td>205010016</td>
+			<td>ECOCARDIOGRAMA DE STRESS COM DOBUTAMINA E C/ CONTRASTE</td>
+			<td>R$ 264,41</td>
+		</tr>
+		<tr>
+			<td colspan="3">ECOCARDIOGRAMA TRANSESOFÁGICO</td>
+		</tr>
+		<tr>
+			<td>205010024</td>
+			<td>ECOCARDIOGRAMA TRANSESOFÁGICO INTRA-OPERATORIO ADULTO E PEDIÁTRICO</td>
+			<td>R$ 766,63</td>
+		</tr>
+		<tr>
+			<td>205010024</td>
+			<td>ECOCARDIOGRAFIA TRANSESOFÁGICA ADULTO OU PEDIÁTRICO</td>
+			<td>R$ 766,63</td>
+		</tr>
+		<tr>
+			<td colspan="3">ECODOPLER DE CARÓTIDAS</td>
+		</tr>
+		<tr>
+			<td>205010040</td>
+			<td>ULTRASSONOGRAFIA DOPPLER COLORIDO DE VASOS</td>
+			<td>R$ 214,50</td>
+		</tr>
+		<tr>
+			<td colspan="3">ECOCARDIOGRAMA FETAL</td>
+		</tr>
+		<tr>
+			<td>205010059</td>
+			<td>ULTRASSONOGRAFIA DOPPLER DE FLUXO OBSTETRICO (ECOCARDIOGRAFIA FETAL)</td>
+			<td>R$ 515,31</td>
+		</tr>
+		<tr>
+			<td colspan="3">MÉTODOS GRÁFICOS</td>
+		</tr>
+		<tr>
+			<td>211020044</td>
+			<td>MONITORAMENTO PELO SISTEMA HOLTER 24 HS (3 CANAIS)</td>
+			<td>R$ 82,64</td>
+		</tr>
+		<tr>
+			<td>211020052</td>
+			<td>MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL (M.A.P.A)</td>
+			<td>R$ 85,89</td>
+		</tr>
+		<tr>
+			<td>211020060</td>
+			<td>TESTE DE ESFORCO / TESTE ERGOMETRICO</td>
+			<td>R$ 80,00</td>
+		</tr>
+		<tr>
+			<td>NÃO POSSUÍ CÓDIGO SIGTAP</td>
+			<td>ERGOESPIROMETRIA</td>
+			<td>R$ 150,00</td>
+		</tr>
+		<tr>
+			<td colspan="3">TOMOGRAFIA GERAL COM E SEM CONTRASTE SEM SEDAÇÃO</td>
+		</tr>
+		<tr>
+			<td>206010079</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206010052</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DO PESCOCO</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206010010</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE COLUNA CERVICAL C/ OU S/ CONTRASTE</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206020031</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE TORAX</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206020023</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE SEGMENTOS APENDICULARES - (BRACO, ANTEBRAÇO, MÃO, COXA, PERNA, PÉ)</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206020015</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO SUPERIOR</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206020040</td>
+			<td>TOMOGRAFIA DE HEMITORAX, PULMÃO OU DO MEDIASTINO</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206030010</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE ABDOMEN SUPERIOR</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206030037</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE PELVE / BACIA / ABDOMEN INFERIOR</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206010036</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE COLUNA TORACICA C/ OU S/ CONTRASTE</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206010028</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE COLUNA LOMBO-SACRA C/ OU S/ CONTRASTE</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206010044</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE FACE / SEIOS DA FACE / ARTICULACOES TEMPORO-MANDIBULARES</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206030029</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO INFERIOR</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206010060</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE SELA TURCICA</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td>206030029</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO INFERIOR</td>
+			<td>R$ 371,02</td>
+		</tr>
+		<tr>
+			<td colspan="3">TOTOMOGRAFIA GERAL COM E SEM CONTRASTE COM SEDAÇÃO</td>
+		</tr>
+		<tr>
+			<td>206010079</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206010052</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DO PESCOCO</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206010010</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE COLUNA CERVICAL C/ OU S/ CONTRASTE</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206020031</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE TORAX</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206020023</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE SEGMENTOS APENDICULARES - (BRACO, ANTEBRAÇO, MÃO, COXA, PERNA, PÉ)</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206020015</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO SUPERIOR</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206020040</td>
+			<td>TOMOGRAFIA DE HEMITORAX, PULMÃO OU DO MEDIASTINO</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206030010</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE ABDOMEN SUPERIOR</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206030037</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE PELVE / BACIA / ABDOMEN INFERIOR</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206010036</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE COLUNA TORACICA C/ OU S/ CONTRASTE</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206010028</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE COLUNA LOMBO-SACRA C/ OU S/ CONTRASTE</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206010044</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE FACE / SEIOS DA FACE / ARTICULACOES TEMPORO-MANDIBULARES</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206030029</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO INFERIOR</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206010060</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE SELA TURCICA</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td>206030029</td>
+			<td>TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO INFERIOR</td>
+			<td>R$ 771,78</td>
+		</tr>
+		<tr>
+			<td colspan="3">ANGIOTOMOGRAFIAS</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>ANGIOTOMOGRAFIA</td>
+			<td>R$ 1.693,21</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>ANGIOTOMOGRAFIA COM SEDAÇÃO</td>
+			<td>R$ 2.041,69</td>
+		</tr>
+		<tr>
+			<td colspan="3">RESSONANCIA NUCLEAR MAGNETICA COM E SEM CONTRASTE SEM SEDAÇÃO</td>
+		</tr>
+		<tr>
+			<td>207010021</td>
+			<td>RESSONANCIA MAGNETICA DE ARTICULACAO TEMPORO-MANDIBULAR (BILATERAL)</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207010064</td>
+			<td>RESSONANCIA MAGNETICA DE CRANIO</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207020027</td>
+			<td>RESSONANCIA MAGNETICA DE MEMBRO SUPERIOR (UNILATERAL)</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207020035</td>
+			<td>RESSONANCIA MAGNETICA DE TORAX</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207020019</td>
+			<td>RESSONANCIA MAGNETICA DE CORACAO / AORTA C/ CINE</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207030030</td>
+			<td>RESSONANCIA MAGNETICA DE MEMBRO INFERIOR (UNILATERAL)</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207030022</td>
+			<td>RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207030049</td>
+			<td>RESSONANCIA MAGNETICA DE VIAS BILIARES/COLANGIORRESSONANCIA</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207010056</td>
+			<td>RESSONANCIA MAGNETICA DE COLUNA TORACICA</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207010048</td>
+			<td>RESSONANCIA MAGNETICA DE COLUNA LOMBO-SACRA</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207010072</td>
+			<td>RESSONANCIA MAGNETICA DE SELA TURCICA</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td>207030014</td>
+			<td>RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR</td>
+			<td>R$ 463,59</td>
+		</tr>
+		<tr>
+			<td colspan="3">RESSONANCIA NUCLEAR MAGNETICA GERAL COM E SEM CONTRASTE COM SEDAÇÃO</td>
+		</tr>
+		<tr>
+			<td>207010021</td>
+			<td>RESSONANCIA MAGNETICA DE ARTICULACAO TEMPORO-MANDIBULAR (BILATERAL)</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207010064</td>
+			<td>RESSONANCIA MAGNETICA DE CRANIO</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207020027</td>
+			<td>RESSONANCIA MAGNETICA DE MEMBRO SUPERIOR (UNILATERAL)</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207020035</td>
+			<td>RESSONANCIA MAGNETICA DE TORAX</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207020019</td>
+			<td>RESSONANCIA MAGNETICA DE CORACAO / AORTA C/ CINE</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207030030</td>
+			<td>RESSONANCIA MAGNETICA DE MEMBRO INFERIOR (UNILATERAL)</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207030022</td>
+			<td>RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207030049</td>
+			<td>RESSONANCIA MAGNETICA DE VIAS BILIARES/COLANGIORRESSONANCIA</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207010056</td>
+			<td>RESSONANCIA MAGNETICA DE COLUNA TORACICA</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207010048</td>
+			<td>RESSONANCIA MAGNETICA DE COLUNA LOMBO-SACRA</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207010072</td>
+			<td>RESSONANCIA MAGNETICA DE SELA TURCICA</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td>207030014</td>
+			<td>RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR</td>
+			<td>R$ 1.055,68</td>
+		</tr>
+		<tr>
+			<td colspan="3">RESSONANCIA NUCLEAR MAGNETICA CARDÍACA</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>RESSONÂNCIA NUCLEAR MAGNÉTICA CARDÍACA</td>
+			<td>R$ 1.060,80</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>RESSONÂNCIA NUCLEAR MAGNÉTICA CARDÍACA COM SEDAÇÃO</td>
+			<td>R$ 1.409,28</td>
+		</tr>
+		<tr>
+			<td colspan="3">RESSONANCIA NUCLEAR MAGNETICA CARDÍACA</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>ANGIORESSONÂNCIA NUCLEAR MAGNÉTICA</td>
+			<td>R$ 1.251,74</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>ANGIORESSONÂNCIA NUCLEAR MAGNÉTICA COM SEDAÇÃO</td>
+			<td>R$ 1.662,95</td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>TESTE DE ESTRESSE POSTURAL (TILT-TESTE)</td>
+			<td>R$ 158,80</td>
+		</tr>
+	</tbody>
+</table><p linkname="txt_c23bf073c53d472a11a4a208fc625474" class=""><a id="txt_c23bf073c53d472a11a4a208fc625474" name="txt_c23bf073c53d472a11a4a208fc625474" class="linkname"></a>*PARA RESSÔNANCIA MAGNETICA E TOMOGRAFIA SERÁ UTILIZADO O MESMO CÓDIGO SIGTAP PARA PROCEDIMENTOS COM SEDAÇÃO E SEM SEDAÇÃO APRESENTANDO VALORES DISTINTOS, NO QUAL SERÁ PAGO CONFORME COMPROVAÇÃO DE REGULAÇÃO E UTILIZAÇÃO DA SEDAÇÃO.<p style="text-align:center" linkname="txt_491b06f39c7b4cdea22087f545128bb2" class=""><a id="txt_491b06f39c7b4cdea22087f545128bb2" name="txt_491b06f39c7b4cdea22087f545128bb2" class="linkname"></a>SERVIÇOS DE TRANSPLANTE<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>TRANSPLANTE – INCLUSÃO EM FILA</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">INCLUSÃO EM FILA</td>
+		</tr>
+		<tr>
+			<td>501070060</td>
+			<td>EXAMES PARA INCLUSÃO EM LISTA DE CANDIDATOS A TRANSPLANTE DE PÂNCREAS, PULMÃO OU RIM</td>
+			<td>R$ 2.501,59</td>
+		</tr>
+		<tr>
+			<td>501070109</td>
+			<td>EXAMES PARA INVESTIGAÇÃO CLÍNICA NO DOADOR VIVO DE RIM- COMPLEMENTAÇÃO DA 1ª FASE</td>
+			<td>R$ 2.290,65</td>
+		</tr>
+		<tr>
+			<td>501070052</td>
+			<td>EXAMES PARA INCLUSÃO EM LISTA DE CANDIDATOS A TRANSPLANTE DE FIGADO</td>
+			<td>R$ 3.694,80</td>
+		</tr>
+		<tr>
+			<td>501070044</td>
+			<td>EXAMES PARA A INCLUSAO EM LISTA DE CANDIDATOS A TRANSPLANTE DE CORACAO</td>
+			<td>R$ 7.890,00</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>CONSULTAS E ACOMPANHAMENTO</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>506010015</td>
+			<td>ACOMPANHAMENTO DE PACIENTE POS-TRANSPLANTE DE CORNEA</td>
+			<td>R$ 115,00</td>
+		</tr>
+		<tr>
+			<td>506010023</td>
+			<td>ACOMPANHAMENTO DE PACIENTE POS-TRANSPLANTE DE RIM FIGADO CORACAO PULMAO CELULAS-TRONCO HEMATOPOETICAS E/OU PANCREAS</td>
+			<td>R$ 135,00</td>
+		</tr>
+		<tr>
+			<td>506010031</td>
+			<td>ACOMPANHAMENTO DE DOADOR VIVO POS-DOAÇAO DE FIGADO, PULMAO OU RIM</td>
+			<td>R$ 135,00</td>
+		</tr>
+		<tr>
+			<td>506010040</td>
+			<td>ACOMPANHAMENTO DE PACIENTES NO PRÉ TRANSPLANTE DE ÓRGÃOS</td>
+			<td>R$ 135,00</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>ATENDIMENTO MEDICO DE URGENCIA EMERGENCIA</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>301060029</td>
+			<td>ATENDIMENTO DE URGENCIA C/ OBSERVACAO ATE 24 HORAS EM ATENCAO ESPECIALIZADA</td>
+			<td>R$ 884,10</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>TRANSPLANTES</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>505020092</td>
+			<td>TRANSPLANTE DE RIM (ORGAO DE DOADOR FALECIDO)</td>
+			<td>R$ 54.957,09</td>
+		</tr>
+		<tr>
+			<td>505020106</td>
+			<td>TRANSPLANTE DE RIM (ORGAO DE DOADOR VIVO)</td>
+			<td>R$ 42.544,37</td>
+		</tr>
+		<tr>
+			<td>505020050</td>
+			<td>TRANSPLANTE DE FIGADO (ORGAO E DOADOR FALECIDO)</td>
+			<td>R$ 112.010,43</td>
+		</tr>
+		<tr>
+			<td>505020041</td>
+			<td>TRANSPLANTE DE CORAÇÃO</td>
+			<td>R$ 104.501,37</td>
+		</tr>
+		<tr>
+			<td>505010127</td>
+			<td>TRANSPLANTE DE ESCLERA</td>
+			<td>R$ 1.241,60</td>
+		</tr>
+		<tr>
+			<td>505010097</td>
+			<td>TRANSPLANTE DE CORNEA</td>
+			<td>R$ 13.756,69</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>TRANSPLANTES – TMO</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td colspan="3">TRANSPLANTE AUTOGENICO DE CELULAS-TRONCO HEMATOPOETICAS Fase 1</td>
+		</tr>
+		<tr>
+			<td>406020078</td>
+			<td>IMPLANTAÇÃO DE CATETER OE LONGA PERMANÊNCIA SEMI OU TOTALMENTE IMPLANTAVEL</td>
+			<td rowspan="4">
+			<p linkname="txt_a52ec1f1d6c0497752e39a66cec5661b" class=""><a id="txt_a52ec1f1d6c0497752e39a66cec5661b" name="txt_a52ec1f1d6c0497752e39a66cec5661b" class="linkname"></a>R$ 20.000,00
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>201010275</td>
+			<td>BIOPSIA DE MEDULA OSSEA</td>
+		</tr>
+		<tr>
+			<td>501030077</td>
+			<td>MOBILIZAÇÃO, COLETA E ACONDICIONAMENTO DE CELULAS TRONCO HEMATOPOETICAS DE SANGUE PERIFERICO NO BRASIL PARA TRANSPLANTE AUTOGENICO OU DE DOADOR APARENTADO OU NÃO APARENTADO</td>
+		</tr>
+		<tr>
+			<td>501030093</td>
+			<td>PROCESSAMENTO DE CRIOPRESEVAÇÃO DE MEDULA OSSEA OU DE CELULAS TRONCO HEMATOPOETICAS DE SANGUE PERIFERICO NO BRASIL PARA TRANSPLANTE AUTOGENICO</td>
+		</tr>
+		<tr>
+			<td colspan="3">TRANSPLANTE AUTOGENICO DE CELULAS-TRONCO HEMATOPOETICAS Fase 2</td>
+		</tr>
+		<tr>
+			<td>505010089</td>
+			<td>TRANSPLANTE AUTOGENICO DE CELULAS-TRONCO HEMATOPOETICAS DE SANGUE PERIFERICO -</td>
+			<td>R$ 40.000,00</td>
+		</tr>
+		<tr>
+			<td>505010070</td>
+			<td>TRANSPLANTE AUTOGENICO DE CELULAS-TRONCO HEMATOPOETICAS DE MEDULA OSSEA</td>
+			<td>R$ 40.000,00</td>
+		</tr>
+		<tr>
+			<td colspan="3">TRANSPLANTE ALOGENICO DE CÉLULAS-TRONCO HEMATOPOÉTICAS NÃO APARENTADO FASE 1</td>
+		</tr>
+		<tr>
+			<td>406020078</td>
+			<td>IMPLANTAÇÃO DE CATETER DE LONGA PERMANÊNCIA SEMI OU TOTALMENTE IMPLANTAVEL</td>
+			<td rowspan="7">
+			<p linkname="txt_ae2c86a9e3b04f8499fc75da4be84a0f" class=""><a id="txt_ae2c86a9e3b04f8499fc75da4be84a0f" name="txt_ae2c86a9e3b04f8499fc75da4be84a0f" class="linkname"></a>R$ 54.000,00
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>501010025</td>
+			<td>IDENTIFICACAO DE DOADOR APARENTADO DE CELULAS-TRONCO HEMATOPOETICAS 1A FASE (POR DOADOR TIPADO)</td>
+		</tr>
+		<tr>
+			<td>501010106</td>
+			<td>IDENTIFICAÇÃO DE DOADOR APARENTADO DE CÉLULAS TRONCO HEMATOPOETICAS 2" FASE (POR DOADOR TIPADO)</td>
+		</tr>
+		<tr>
+			<td>501030077</td>
+			<td>MOBILIZAÇÃO, COLETA E ACONDICIONAMENTO DE CELULAS TRONCO HEMATOPOETICAS DE SANGUE PERIFERICO NO BRASIL PARA TRANSPLANTE AUTOGENICO OU DE DOADOR APARENTADO OU NAO APARENTADO</td>
+		</tr>
+		<tr>
+			<td>501030069</td>
+			<td>COLETA E ACONDICIONAMENTO DE MEDULA OSSEA NO BRASIL PARA TRANSPLANTE AUTOGENICO OU DE DOADOR APARENTADO OU NAO APARENTADO</td>
+		</tr>
+		<tr>
+			<td>501040102</td>
+			<td>PROVAS CRUZADAS EM DOADORES DE ÓRGÃOS E DE MEDULA ÓSSEA (APARENTADO NÃO IDÊNTICO)</td>
+		</tr>
+		<tr>
+			<td>501020039</td>
+			<td>CONFIRMAÇAO DE IDENTIFICAÇÃO DE RECEPTOR DE CÉLULAS TRONCO HEMATOPOÉTICAS</td>
+		</tr>
+		<tr>
+			<td colspan="3">TRANSPLANTE ALOGENICO DE CÉLULAS-TRONCO HEMATOPOÉTICAS NÃO APARENTADO FASE 2</td>
+		</tr>
+		<tr>
+			<td>505010062</td>
+			<td>TRANSPLANTE ALOGENICO DE CÉLULAS-TRONCO HEMATOPOÉTICAS DE SANGUE PERIFÉRICO – NÃO APARENTADO</td>
+			<td rowspan="2">
+			<p linkname="txt_ee25fc76e6ed479f3c7bca1805f1f255" class=""><a id="txt_ee25fc76e6ed479f3c7bca1805f1f255" name="txt_ee25fc76e6ed479f3c7bca1805f1f255" class="linkname"></a>R$ 126.000,00
+
+			<p>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>304010561</td>
+			<td>RADIOTERAPIA EM CORPO INTEIRO</td>
+		</tr>
+		<tr>
+			<td>505010020</td>
+			<td>TRANSPLANTE ALOGÊNICO DE CÉLULAS TRONCO HEMATOPOÉTICAS DE MEDULA ÓSSEA NÃO APARENTADO</td>
+			<td rowspan="2">
+			<p linkname="txt_9ec2b7cc2ee7493df57673474eeb35b9" class=""><a id="txt_9ec2b7cc2ee7493df57673474eeb35b9" name="txt_9ec2b7cc2ee7493df57673474eeb35b9" class="linkname"></a>R$ 126.000,00
+
+			<p>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>304010561</td>
+			<td>RADIOTERAPIA EM CORPO INTEIRO</td>
+		</tr>
+		<tr>
+			<td colspan="3">TRANSPLANTE ALOGÊNICO DE CÉLULAS- TRONCO HEMATOPOÉTICAS APARENTADO FASE 1</td>
+		</tr>
+		<tr>
+			<td>406020078</td>
+			<td>IMPLANTAÇÃO DE CATETER DE LONGA PERMANÊNCIA SEMI OU TOTALMENTE IMPLANTAVEL</td>
+			<td rowspan="3">
+			<p linkname="txt_1a0aba607f874798d7b0ee6e88ad2c52" class=""><a id="txt_1a0aba607f874798d7b0ee6e88ad2c52" name="txt_1a0aba607f874798d7b0ee6e88ad2c52" class="linkname"></a>R$ 54.000,00
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+
+			<p>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>501010025</td>
+			<td>IDENTIFICACAO DE DOADOR APARENTADO DE CELULAS-TRONCO HEMATOPOETICAS 1A FASE (POR DOADOR TIPADO)</td>
+		</tr>
+		<tr>
+			<td>501010106</td>
+			<td>IDENTIFICAÇÃO DE DOADOR APARENTADO DE CÉLULAS TRONCO HEMATOPOETICAS 2° FASE (POR DOADOR TIPADO)</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>501030077</td>
+			<td>MOBILIZAÇÃO, COLETA E ACONDICIONAMENTO DE CELULAS TRONCO HEMATOPOETICAS DE SANGUE PERIFERICO NO BRASIL PARA TRANSPLANTE AUTOGENICO OU DE DOADOR APARENTADO OU NAO APARENTADO</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="3">TRANSPLANTE ALOGÊNICO DE CÉLULAS- TRONCO HEMATOPOÉTICAS APARENTADO FASE 2</td>
+		</tr>
+		<tr>
+			<td>505010054</td>
+			<td>TRANSPLANTE ALOGÊNICO DE CÉLULAS- TRONCO HEMATOPOÉTICAS DE SANGUE PERIFÉRICO - APARENTADO</td>
+			<td rowspan="2">
+			<p linkname="txt_5147cd720d144d2298c9c5501b95efcc" class=""><a id="txt_5147cd720d144d2298c9c5501b95efcc" name="txt_5147cd720d144d2298c9c5501b95efcc" class="linkname"></a>R$ 126.000,00
+
+			<p>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>304010561</td>
+			<td>RADIOTERAPIA EM CORPO INTEIRO</td>
+		</tr>
+		<tr>
+			<td>505010011</td>
+			<td>TRANSPLANTE ALOGÊNICO DE CÉLULAS TRONCO HEMATOPOÉTICAS DE MEDULA ÓSSEA APARENTADO</td>
+			<td rowspan="2">
+			<p linkname="txt_351ab4fd371b42f5af50fe6dd0c2cfeb" class=""><a id="txt_351ab4fd371b42f5af50fe6dd0c2cfeb" name="txt_351ab4fd371b42f5af50fe6dd0c2cfeb" class="linkname"></a>R$ 126.000,00
+
+			<p>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>304010561</td>
+			<td>RADIOTERAPIA EM CORPO INTEIRO</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>ASSISTÊNCIA NO PÓS-TRANSPLANTE</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>506020118</td>
+			<td>TRATAMENTO DE INTERCORRENCIA PÓS TRANSPLANTE AUTOLÓGO DE CÉLULAS TRONCO HEMATOPOÉTICAS PÓS TRANSPLANTE CRÍTICO</td>
+			<td>R$ 3.000,00</td>
+		</tr>
+		<tr>
+			<td>506020100</td>
+			<td>TRATAMENTO DE INTERCORRENCIA PÓS TRANSPLANTE ALOGÊNICO DE CÉLULAS TRONCO HEMATOPOÉTICAS PÓS TRANSPLANTE CRÍTICO</td>
+			<td>R$ 3.000,00</td>
+		</tr>
+		<tr>
+			<td>506020045</td>
+			<td>TRATAMENTO DE INTERCORRÊNCIA PÓS TRANSPLANTE DE ÓRGÃOS / CÉLULAS TRONCO HEMATOPOÉTICAS</td>
+			<td>R$ 3.000,00</td>
+		</tr>
+		<tr>
+			<td>506020037</td>
+			<td>TRATAMENTO DE INTERCORRENCIA POS TRANSPLANTE ALOGENICO DE CELULAS TRONCO HEMATOPOETICAS DE APARENTADO (HOSPITAL DIA)</td>
+			<td>R$ 884,10</td>
+		</tr>
+		<tr>
+			<td>506020029</td>
+			<td>INTERCORRENCIA POSTRANSPLANTE AUTOGENICO DE CELULAS TRONCO HEMATOPOETICAS (HOSPITAL DIA)</td>
+			<td>R$ 884,10</td>
+		</tr>
+		<tr>
+			<td>506020010</td>
+			<td>INTERCORRENCIA POS TRANSPLANTE ALOGÊNICO DE CELULAS TRONCO HEMATOPOÉTICAS NAO APARENTADO (HOSPITAL DIA)</td>
+			<td>R$ 884,10</td>
+		</tr>
+		<tr>
+			<td>506020096</td>
+			<td>TRATAMENTO DE INTERCORRENCIA PÓS TRANSPLANTE DE FIGADO PÓS TRANSPLANTE CRÍTICO</td>
+			<td>
+			<p linkname="txt_0eef25d1906d4b4510e91b5ce15d5ac3" class=""><a id="txt_0eef25d1906d4b4510e91b5ce15d5ac3" name="txt_0eef25d1906d4b4510e91b5ce15d5ac3" class="linkname"></a>VALOR DA DIÁRIA
+
+			<p linkname="txt_b99d1aa3533f4c0bc7ba78ec5521a396" class=""><a id="txt_b99d1aa3533f4c0bc7ba78ec5521a396" name="txt_b99d1aa3533f4c0bc7ba78ec5521a396" class="linkname"></a>DE ENFERMARIA OU UTI
+			</td>
+		</tr>
+		<tr>
+			<td>506020061</td>
+			<td>TRATAMENTO DE INTERCORRENCIA PÓS TRANSPLANTE DE CORAÇÃO PÓS TRANSPLANTE CRÍTICO</td>
+			<td>
+			<p linkname="txt_8f4c0dd142704617958c92ebb5b70423" class=""><a id="txt_8f4c0dd142704617958c92ebb5b70423" name="txt_8f4c0dd142704617958c92ebb5b70423" class="linkname"></a>VALOR DA DIÁRIA
+
+			<p linkname="txt_db547719bf1a443e1aaae79ba0f91973" class=""><a id="txt_db547719bf1a443e1aaae79ba0f91973" name="txt_db547719bf1a443e1aaae79ba0f91973" class="linkname"></a>DE ENFERMARIA OU UTI
+			</td>
+		</tr>
+		<tr>
+			<td>506020053</td>
+			<td>TRATAMENTO DE INTERCORRÊNCIA PÓS TRANSPLANTE DE RIM PÓS TRANSPLANTE CRÍTICO</td>
+			<td>
+			<p linkname="txt_8dff7e43eb644c7f8d64ca0c855ed372" class=""><a id="txt_8dff7e43eb644c7f8d64ca0c855ed372" name="txt_8dff7e43eb644c7f8d64ca0c855ed372" class="linkname"></a>VALOR DA DIÁRIA
+
+			<p linkname="txt_4aa385d75b71481b3e20bfb9bd139ebf" class=""><a id="txt_4aa385d75b71481b3e20bfb9bd139ebf" name="txt_4aa385d75b71481b3e20bfb9bd139ebf" class="linkname"></a>DE ENFERMARIA OU UTI
+			</td>
+		</tr>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>ASSISTÊNCIA PARA CAPTAÇÃO DE ÓRGÃOS</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>503030040</td>
+			<td>
+			<p linkname="txt_c6b5343f8ebe4c3d2d72be3b8a7155d7" class=""><a id="txt_c6b5343f8ebe4c3d2d72be3b8a7155d7" name="txt_c6b5343f8ebe4c3d2d72be3b8a7155d7" class="linkname"></a>RETIRADA DE FÍGADO (PARA TRANSPLANTE)
+
+			<p>&nbsp;
+			</td>
+			<td>R$ 3.744,00</td>
+		</tr>
+		<tr>
+			<td>503030031</td>
+			<td>RETIRADA DE CORACAO P/ PROCESSAMENTO DE VALVULA / TUBO VALVADO P/ TRANSPLANTE</td>
+			<td>
+			<p linkname="txt_40df11b331e24ed0b451b386a052bfd2" class=""><a id="txt_40df11b331e24ed0b451b386a052bfd2" name="txt_40df11b331e24ed0b451b386a052bfd2" class="linkname"></a>R$ 416,00
+
+			<p>&nbsp;
+			</td>
+		</tr>
+		<tr>
+			<td>503030023</td>
+			<td>RETIRADA DE CORAÇÃO (PARA TRANSPLANTE)</td>
+			<td>R$ 1.872,00</td>
+		</tr>
+		<tr>
+			<td>503030058</td>
+			<td>RETIRADA DE GLOBO OCULAR UNI / BILATERAL (P/ TRANSPLANTE)</td>
+			<td>R$ 515,80</td>
+		</tr>
+		<tr>
+			<td>503030082</td>
+			<td>CAPTAÇÃO RIM CADAVER</td>
+			<td>R$ 1.872,00</td>
+		</tr>
+		<tr>
+			<td>503020028</td>
+			<td>NEFROURETERECTOMIA UNILATERAL P/ TRANSPLANTE (Doador vivo)</td>
+			<td>R$ 3.397,76</td>
+		</tr>
+	</tbody>
+</table><p style="text-align:center" linkname="txt_0f3a4c0c5282416164ed26918e0b6d30" class=""><a id="txt_0f3a4c0c5282416164ed26918e0b6d30" name="txt_0f3a4c0c5282416164ed26918e0b6d30" class="linkname"></a>SERVIÇOS DE TRANSPLANTE - BIÓPSIA<table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>BIÓPSIA</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>201010275</td>
+			<td>BIOPSIA DE MEDULA OSSEA</td>
+			<td>R$ 4.302,75</td>
+		</tr>
+		<tr>
+			<td>201010119</td>
+			<td>BIOPSIA DE CORNEA</td>
+			<td>R$ 2.132,49</td>
+		</tr>
+		<tr>
+			<td>201010186</td>
+			<td>BIOPSIA DE ESCLERA</td>
+			<td>R$ 2.132,49</td>
+		</tr>
+		<tr>
+			<td>201010143</td>
+			<td>BIOPSIA DE ENDOCARDIO / MIOCARDIO</td>
+			<td>R$ 15.858,01</td>
+		</tr>
+		<tr>
+			<td>201010208</td>
+			<td>BIOPSIA DE FIGADO EM CUNHA / FRAGMENTO</td>
+			<td>R$ 5.634,07</td>
+		</tr>
+		<tr>
+			<td>201010437</td>
+			<td>BIOPSIA DE RIM POR PUNCAO</td>
+			<td>R$ 5.231,84</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>CÓDIGO SIGTAP</td>
+			<td>PROCEDIMENTOS DE INTERCORRÊNCIAS E COMPLICAÇÕES</td>
+			<td>VALOR UNITÁRIO</td>
+		</tr>
+		<tr>
+			<td>306020017</td>
+			<td>AFERESE TERAPEUTICA</td>
+			<td>R$ 6.000,00</td>
+		</tr>
+		<tr>
+			<td>407030018</td>
+			<td>ANASTOMOSE BILEO-DIGESTIVA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407020039</td>
+			<td>APENDICECTOMIA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>301060061</td>
+			<td>ATENDIMENTO DE URGENCIA EM ATENCAO ESPECIALIZADA</td>
+			<td>R$ 211,00</td>
+		</tr>
+		<tr>
+			<td>211020010</td>
+			<td>CATETERISMO CARDÍACO</td>
+			<td>R$ 4.988,41</td>
+		</tr>
+		<tr>
+			<td>211020028</td>
+			<td>CATETERISMO CARDIACO EM PEDIATRIA</td>
+			<td>R$ 10.950,63</td>
+		</tr>
+		<tr>
+			<td>407030026</td>
+			<td>COLECISTECTOMIA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407030042</td>
+			<td>COLECISTOSTOMIA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407030050</td>
+			<td>COLEDOCOPLASTIA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407030069</td>
+			<td>COLEDOCOTOMIA C/ OU S/ COLECISTECTOMIA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407030085</td>
+			<td>COLOCACAO DE PROTESE BILIAR</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407030093</td>
+			<td>DILATACAO PERCUTANEA DE ESTENOSES E ANASTOMOSES BILIARES</td>
+			<td>R$ 10.837,40</td>
+		</tr>
+		<tr>
+			<td>407030107</td>
+			<td>DRENAGEM BILIAR PERCUTANEA EXTERNA</td>
+			<td>R$ 10.837,40</td>
+		</tr>
+		<tr>
+			<td>407030115</td>
+			<td>DRENAGEM BILIAR PERCUTANEA INTERNA</td>
+			<td>R$ 10.837,40</td>
+		</tr>
+		<tr>
+			<td>407040013</td>
+			<td>DRENAGEM DE ABSCESSO PELVICO</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407040030</td>
+			<td>DRENAGEM DE HEMATOMA / ABSCESSO PRE-PERITONEAL</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>406020124</td>
+			<td>EMBOLECTOMIA ARTERIAL</td>
+			<td>R$ 12.362,24</td>
+		</tr>
+		<tr>
+			<td>406040192</td>
+			<td>EMBOLIZAÇÃO ARTERIAL DE HEMORRAGIA DIGESTIVA (INCLUI PROCEDIMENTO ENDOSCÓPICO E/OU ESTUDO ANGIOGRÁFICO)</td>
+			<td>R$ 11.306,06</td>
+		</tr>
+		<tr>
+			<td>407030123</td>
+			<td>ESPLENECTOMIA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>406020167</td>
+			<td>FASCIOTOMIA P/ DESCOMPRESSÃO</td>
+			<td>R$ 12.362,24</td>
+		</tr>
+		<tr>
+			<td>407030131</td>
+			<td>HEPATECTOMIA PARCIAL</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407030140</td>
+			<td>HEPATORRAFIA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407030158</td>
+			<td>HEPATORRAFIA COMPLEXA C/ LESAO DE ESTRUTURAS VASCULARES BILIARES</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407030166</td>
+			<td>HEPATOTOMIA E DRENAGEM DE ABSCESSO / CISTO</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407040048</td>
+			<td>HERNIOPLASTIA DIAFRAGMATICA (VIA ABDOMINAL)</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407040056</td>
+			<td>HERNIOPLASTIA DIAFRAGMATICA (VIA TORACICA)</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407040064</td>
+			<td>HERNIOPLASTIA EPIGASTRICA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407040080</td>
+			<td>HERNIOPLASTIA INCISIONAL</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407040099</td>
+			<td>HERNIOPLASTIA INGUINAL (BILATERAL)</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>407040129</td>
+			<td>HERNIOPLASTIA UMBILICAL</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>406040265</td>
+			<td>IMPLANTAÇÃO DE SHUNT INTRA-HEPÁTICO PORTO-SISTÊMICO (TIPS) COM STENT NÃO RECOBERTO</td>
+			<td>R$ 20.672,26</td>
+		</tr>
+		<tr>
+			<td>407040161</td>
+			<td>LAPAROTOMIA EXPLORADORA</td>
+			<td>R$ 15.606,92</td>
+		</tr>
+		<tr>
+			<td>41202003</td>
+			<td>MEDIASTINOTOMIA P/ DRENAGEM</td>
+			<td>R$ 13.155,45</td>
+		</tr>
+		<tr>
+			<td>407040196</td>
+			<td>PARACENTESE ABDOMINAL</td>
+			<td>R$ 530,00</td>
+		</tr>
+		<tr>
+			<td>416040195</td>
+			<td>QUIMIOEMBOLIZAÇÃO DE CARCINOMA HEPÁTICO</td>
+			<td>R$ 24.894,39</td>
+		</tr>
+		<tr>
+			<td>412040115</td>
+			<td>RETIRADA DE CORPO ESTRANHO DA PAREDE TORÁCICA</td>
+			<td>R$ 13.155,45</td>
+		</tr>
+		<tr>
+			<td>412040166</td>
+			<td>TORACOSTOMIA COM DRENAGEM PLEURAL FECHADA</td>
+			<td>R$ 13.155,45</td>
+		</tr>
+		<tr>
+			<td>412040174</td>
+			<td>TORACOTOMIA EXPLORADORA</td>
+			<td>R$ 13.155,45</td>
+		</tr>
+		<tr>
+			<td>406020590</td>
+			<td>TROMBECTOMIA DO SISTEMA VENOSO</td>
+			<td>R$ 12.362,24</td>
+		</tr>
+	</tbody>
+</table><p style="text-align:right"><span style="color:#FF0000"><a href=http://www.sinj.df.gov.br/sinj/BaixarArquivoDiario.aspx?id_file=426a4144-7285-3805-8e0c-e7fc9e29aa50 target='_blank'>Este texto não substitui o publicado no DODF nº 83, seção 1, 2 e 3 de 05/05/2022<span id='paginaEColuna'> p. 6, col. 1<a/></span><p style="text-align:right"><span style="color:#FF0000"><a href=http://www.sinj.df.gov.br/sinj/BaixarArquivoDiario.aspx?id_file=f2c62a3f-8599-3419-a679-d5508205cf94 target='_blank'>Este texto não substitui o publicado no DODF nº 86, seção 1, 2 e 3 de 10/05/2022<span id='paginaEColuna'> p. 42, col. 2<a/></span><p style="text-align:right"><span style="color:#FF0000"><a href=http://www.sinj.df.gov.br/sinj/BaixarArquivoDiario.aspx?id_file=2e574e14-9497-3dc9-bfa2-36fb794eff13 target='_blank'>Este texto não substitui o publicado no DODF nº 89, seção 1, 2 e 3 de 13/05/2022<span id='paginaEColuna'> p. 9, col. 2<a/></span></div>
+        </div>
+
+        <script type="text/javascript">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-20776101-1', 'auto');
+            ga('create', 'UA-90051523-1', 'auto', 'brlightTracker');
+            ga('send', 'pageview');
+            ga('brlightTracker.send', 'pageview');
+        </script>
+    </body>
+
+    </html>

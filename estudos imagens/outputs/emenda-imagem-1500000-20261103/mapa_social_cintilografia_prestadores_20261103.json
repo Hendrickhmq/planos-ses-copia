@@ -1,0 +1,28 @@
+{
+  "consulta": "03/11/2026",
+  "atualizacao_painel": "03/11/2026 08:33:00",
+  "modo": "Interface do navegador; agregados, sem extração do motor",
+  "nome_procedimento": "CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO)",
+  "filtros_finais": {
+    "descricao_procedimento_agendamento": "CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO)"
+  },
+  "ano_sem_selecao": true,
+  "categoria_sem_selecao": true,
+  "unidades_executantes": 1,
+  "executante": "HUB",
+  "classificacao_exibida": "Contratado/Credenciado",
+  "series": [
+    {
+      "ano": 2025,
+      "agendamentos": 813,
+      "realizados": 503
+    },
+    {
+      "ano": 2026,
+      "agendamentos": 1523,
+      "realizados": 710
+    }
+  ],
+  "agendamentos_kpi": 2336,
+  "realizados_soma_anos": 1213
+}

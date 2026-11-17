@@ -1,0 +1,659 @@
+# Mapa Social da Saúde — panorama: carteira 1 do plano 4, coleta de 02/11/2026
+
+Ordem de coleta: Quem oferta cada exame da carteira 1 do plano 4: agendamentos, realizados e faltas por unidade executante e por mês, nos 17 códigos da carteira, para a aba Quem oferta.
+
+Coleta montada por `ferramentas/montar_coleta.py` a partir da saída do kit do motor: o modelo não escreveu número nenhum, e o resumo não se edita à mão (conferência K). A decisão de cada fila vem do enquadramento do plano.
+
+| campo | conteúdo |
+|---|---|
+| Fonte | Mapa Social da Saúde – Regulamentação (MPDFT) · Lista de Espera – Exames e Consultas · `https://paineis-ext.mpdft.mp.br/extensions/mapasauderegulamentacao/mapasauderegulamentacao.html` · app Qlik `7edb02fa-f1f5-4ea6-b348-049a4ac2d095` · dados SISREG/DATASUS |
+| Última recarga da base | 02/11/2026 20:31:39 (qLastReloadTime 2026-11-02T23:31:39.619Z) |
+| Consulta | 02/11/2026 21:31:43 a 21:32:06 (relógio do motor), sem recarga no meio |
+| Solicitação mais recente na base | 28/10/2026 (agendamento mais distante: 04/02/2027) |
+| Medida | **fila** = os três status: pendente de regulação, corrigida e reenviada para regulação, pendente de regulação por fila de espera. Devolvidas para complementação ficam fora e são contadas à parte |
+| Fila viva | só as solicitações a partir de `data_solicitacao={">=28/10/2024"}` (24 meses contados da solicitação mais recente) |
+| Agendadas em 12 meses | `data_agendamento={">=28/10/2025<=27/10/2026"}`, todos os status |
+| Ordem | panorama; `ordem.json` (hash 2181923685) |
+| Via | kit do motor `ferramentas/mapa_social/motor.js` (versão 2026-10-27, assinatura 2089625745); saída pela área de transferência, 2 parte(s) conferidas por hash (`ferramentas/ler_motor.py`) |
+
+Pessoas = CNS distintos no conjunto (quem espera por mais de um exame conta uma vez); só a contagem sai do motor. Espera em dias, calculada no motor sobre os registros do conjunto.
+
+## Alarmes
+
+Não se aplicam ao panorama: os alarmes são do objeto (CID, composição, fila viva), e o panorama não tem objeto.
+
+## Lacunas
+
+nenhuma
+
+## O universo
+
+O total de cada universo é do motor, com cada pedido e cada pessoa uma vez: a soma das filas pode passar dele, porque o mesmo pedido pode estar em dois pares nome × código.
+
+| recorte | o que entra | filas | fila | fila viva | pessoas |
+|---|---|---|---|---|---|
+| carteira 1 do plano 4 | codigos: 02.05.01.004-0, 02.05.02.003-8, 02.05.02.004-6, 02.05.02.005-4, 02.05.02.007-0, 02.05.02.009-7, 02.05.02.010-0, 02.05.02.012-7, 02.05.02.016-0, 02.05.02.017-8, 02.05.02.018-6, 02.06.01.004-4, 02.06.01.005-2, 02.06.01.007-9, 02.06.02.003-1, 02.06.03.001-0, 02.06.03.003-7 | 162 | 88.040 | 66.728 | 67.619 |
+
+## Varredura das filas (panorama)
+
+Cada fila do universo (nome exato × código), sem decisão: o panorama só mostra. Anos de estoque = fila ÷ agendadas em 12 meses pelo mesmo nome e código (**calculado**).
+
+### carteira 1 do plano 4: por pessoas
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ECOGRAFIA DE MAMAS - BILATERAL | 02.05.02.009-7 | 12.950 | 8.510 | 12.928 | 7.731 | 628,9 | 518,5 | 6.129,8 | 21/01/2010 | 10.474 | 1,2 | N63 3.381, Z12 2.707, N64 2.092 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MMII ( BILATERAL) | 02.05.01.004-0 | 10.045 | 6.060 | 10.043 | 599 | 631,3 | 578,2 | 1.477,4 | 17/10/2022 | 3.496 | 2,9 | I83 5.333, I87 2.042, I82 577 |
+| ECOGRAFIA DE ABDOMEN TOTAL ADULTO | 02.05.02.004-6 | 9.895 | 7.386 | 9.890 | 11.564 | 554,3 | 357,0 | 6.124,8 | 26/01/2010 | 8.207 | 1,2 | R10 3.302, K76 1.277, K80 725 |
+| ECOGRAFIA TRANSVAGINAL | 02.05.02.018-6 | 9.294 | 5.699 | 9.293 | 8.953 | 659,0 | 528,4 | 5.893,8 | 14/09/2010 | 18.028 | 0,5 | Z01 2.704, N95 1.210, R10 711 |
+| 10. ECODOPPLER DE CAROTIDAS | 02.05.01.004-0 | 4.143 | 4.143 | 4.143 | 2.776 | 136,7 | 125,1 | 592,5 | 20/03/2025 | 8.258 | 0,5 | I10 944, I25 419, I50 419 |
+| 063. TC DO ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO | 02.06.03.001-0 | 4.116 | 4.101 | 4.112 | 5.271 | 129,6 | 126,4 | 850,5 | 05/07/2024 | 8.164 | 0,5 | C50 762, C18 388, R10 321 |
+| ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) ADULTO | 02.05.02.005-4 | 3.677 | 2.398 | 3.675 | 3.434 | 653,3 | 431,2 | 5.794,8 | 22/12/2010 | 4.119 | 0,9 | N20 832, N18 468, N39 332 |
+| 111. TC DE PELVE OU BACIA ADULTO C/CONTRASTE S/SEDACAO | 02.06.03.003-7 | 3.639 | 3.629 | 3.637 | 3.718 | 129,2 | 130,2 | 850,4 | 05/07/2024 | 7.036 | 0,5 | C50 613, C18 361, R10 305 |
+| ULTRASONOGRAFIA DE PAREDE ABDOMINAL | 02.05.02.004-6 | 3.304 | 2.199 | 3.304 | 1.278 | 598,7 | 508,2 | 2.453,0 | 14/02/2020 | 1.470 | 2,2 | K42 870, K40 842, K46 486 |
+| ECOGRAFIA DE TIREOIDE ADULTO | 02.05.02.012-7 | 2.988 | 2.360 | 2.988 | 2.749 | 496,4 | 376,4 | 2.125,2 | 07/01/2021 | 3.443 | 0,9 | E07 710, E04 590, E03 428 |
+| ECOGRAFIA DE PROSTATA ( VIA ABDOMINAL ) | 02.05.02.010-0 | 2.969 | 2.203 | 2.966 | 2.714 | 600,8 | 467,4 | 6.004,8 | 26/05/2010 | 4.158 | 0,7 | N40 1.749, Z12 246, N42 136 |
+| 055. TC DO TORAX ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.003-1 | 2.349 | 2.340 | 2.347 | 1.864 | 132,6 | 131,2 | 966,4 | 11/03/2024 | 5.981 | 0,4 | C50 557, C18 246, C20 123 |
+| ECOGRAFIA DE ABDOMEN SUPERIOR ADULTO | 02.05.02.003-8 | 2.213 | 1.229 | 2.211 | 984 | 688,2 | 622,8 | 5.885,8 | 22/09/2010 | 2.449 | 0,9 | K76 663, R10 382, K80 236 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMII (BILATERAL) | 02.05.01.004-0 | 1.800 | 1.358 | 1.800 | 331 | 475,2 | 396,5 | 1.442,4 | 21/11/2022 | 519 | 3,5 | I70 398, I83 379, I73 356 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS CORONARIAS ADULTO S/SEDACAO | 02.06.02.003-1 | 1.532 | 1.531 | 1.532 | 138 | 293,0 | 265,5 | 748,3 | 15/10/2024 | 137 | 11,2 | I20 447, I25 410, I50 128 |
+| TC DO TORAX ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.003-1 | 895 | 857 | 895 | 79 | 356,0 | 333,4 | 3.618,1 | 06/12/2016 | 1.983 | 0,5 | J18 178, I25 75, J44 43 |
+| ULTRA-SONOGRAFIA DOPPLER DE TIREOIDE | 02.05.02.012-7 | 806 | 687 | 806 | 542 | 441,9 | 355,4 | 1.979,1 | 02/06/2021 | 433 | 1,9 | E07 241, E04 183, E03 114 |
+| TC DO ABDOMEN SUPER.ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.001-0 | 726 | 696 | 726 | 85 | 364,3 | 363,4 | 766,4 | 27/09/2024 | 1.516 | 0,5 | R10 158, C50 33, C18 33 |
+| ECOGRAFIA DE BOLSA ESCROTAL ADULTO | 02.05.02.007-0 | 700 | 428 | 700 | 430 | 605,1 | 523,3 | 2.105,3 | 27/01/2021 | 627 | 1,1 | N51 164, N43 91, K40 80 |
+| TC DE PELVE OU BACIA ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 674 | 645 | 674 | 68 | 356,4 | 340,2 | 766,2 | 27/09/2024 | 1.328 | 0,5 | R10 133, Z54 33, C18 30 |
+| ECOGRAFIA PELVICA (GINECOLOGICA) - ADULTO | 02.05.02.016-0 | 573 | 339 | 573 | 837 | 722,3 | 445,4 | 2.126,2 | 06/01/2021 | 950 | 0,6 | R10 117, N94 81, N92 55 |
+| 119. TC DE PESCOCO ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.005-2 | 479 | 477 | 478 | 337 | 126,9 | 123,3 | 847,4 | 08/07/2024 | 1.361 | 0,4 | C32 41, C73 28, C83 25 |
+| ECOGRAFIA DE ABDOMEN TOTAL INFANTIL | 02.05.02.004-6 | 452 | 286 | 452 | 433 | 586,5 | 350,1 | 2.079,4 | 22/02/2021 | 1.067 | 0,4 | R10 178, E66 75, Q90 16 |
+| ECOGRAFIA PELVICA (GINECOLOGICA) - INFANTIL | 02.05.02.016-0 | 441 | 360 | 441 | 83 | 473,8 | 348,4 | 2.113,1 | 19/01/2021 | 417 | 1,1 | E30 181, E22 56, R10 39 |
+| TC DO ABDOMEN SUPER.ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.001-0 | 393 | 380 | 393 | 69 | 371,3 | 362,2 | 3.618,1 | 06/12/2016 | 721 | 0,5 | R10 105, N20 23, Z54 13 |
+| TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.007-9 | 386 | 373 | 386 | 80 | 380,2 | 380,8 | 770,4 | 23/09/2024 | 1.087 | 0,4 | I64 57, R51 33, S06 23 |
+| ANGIOTOMOGRAFIA DO CRANIO ADULTO S/SEDACAO | 02.06.01.007-9 | 385 | 385 | 385 | 255 | 79,6 | 74,5 | 724,3 | 08/11/2024 | 1.634 | 0,2 | I67 119, I64 50, R51 36 |
+| 031. TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.007-9 | 372 | 365 | 372 | 1.117 | 128,7 | 116,3 | 850,4 | 05/07/2024 | 1.909 | 0,2 | R51 77, C50 42, G43 15 |
+| TC DE PELVE OU BACIA ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 370 | 356 | 370 | 65 | 373,0 | 357,5 | 3.618,1 | 06/12/2016 | 658 | 0,6 | R10 93, N20 15, Z54 13 |
+| ANGIOTOMOGRAFIA DA AORTA TORÁCICA E SEUS RAMOS ADULTO S/SEDACAO | 02.06.02.003-1 | 357 | 357 | 357 | 176 | 200,6 | 174,2 | 544,0 | 07/05/2025 | 653 | 0,5 | I71 173, I35 46, I50 16 |
+| ANGIOTOMOGRAFIA DO TORAX OU PULMONAR ADULTO S/SEDACAO | 02.06.02.003-1 | 328 | 328 | 328 | 596 | 134,5 | 111,2 | 545,1 | 06/05/2025 | 1.311 | 0,3 | I26 121, I71 36, R06 23 |
+| ANGIOTOMOGRAFIA DA AORTA ABDOMINAL E DOS SEUS RAMOS ADULTO S/SEDACAO | 02.06.03.001-0 | 323 | 323 | 323 | 145 | 199,6 | 171,5 | 475,2 | 15/07/2025 | 605 | 0,5 | I71 141, I70 26, I35 24 |
+| TC DO TORAX ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.003-1 | 305 | 292 | 305 | 30 | 361,1 | 336,5 | 767,8 | 26/09/2024 | 979 | 0,3 | I26 19, C50 18, J18 14 |
+| ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) INFANTIL | 02.05.02.005-4 | 276 | 211 | 276 | 655 | 474,7 | 208,8 | 2.111,1 | 21/01/2021 | 789 | 0,3 | N39 50, Q17 15, Q62 14 |
+| ULTRA-SONOGRAFIA TRANSFONTANELA | 02.05.02.017-8 | 270 | 243 | 270 | 201 | 309,1 | 251,4 | 1.594,4 | 22/06/2022 | 818 | 0,3 | Q75 61, P21 44, P07 21 |
+| ANGIOTOMOGRAFIA DA PELVE ADULTO S/SEDACAO | 02.06.03.003-7 | 253 | 253 | 253 | 142 | 218,7 | 182,4 | 473,4 | 17/07/2025 | 330 | 0,8 | N18 40, I82 39, I71 37 |
+| ANGIOTOMOGRAFIA DO ABDOME SUPERIOR ADULTO S/SEDACAO | 02.06.03.001-0 | 245 | 245 | 245 | 130 | 220,3 | 188,2 | 544,0 | 07/05/2025 | 309 | 0,8 | I71 46, N18 36, K55 20 |
+| ANGIOTOMOGRAFIA DAS ARTERIAS CAROTIDAS E VERTEBRAIS ADULTO S/SEDACAO | 02.06.03.001-0 | 243 | 243 | 243 | 130 | 135,1 | 122,1 | 440,2 | 19/08/2025 | 541 | 0,4 | I65 76, I64 33, I63 25 |
+| ECOGRAFIA DE BOLSA ESCROTAL INFANTIL | 02.05.02.007-0 | 234 | 171 | 234 | 71 | 490,9 | 237,4 | 2.090,2 | 11/02/2021 | 316 | 0,7 | Q53 97, N43 49, K40 21 |
+| TOMOGRAFIA CONE BEAN | 02.06.01.004-4 | 195 | 195 | 195 | 203 | 94,7 | 91,4 | 283,4 | 23/01/2026 | 343 | 0,6 | K01 116, K04 27, S02 15 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS E VERTEBRAIS | 02.05.01.004-0 | 190 | 19 | 190 | 26 | 971,5 | 942,9 | 1.363,1 | 08/02/2023 | 0 | sem agendamento | I10 71, E11 23, I70 21 |
+| 053. TC DO TORAX ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.003-1 | 180 | 177 | 180 | 2.167 | 37,1 | 7,2 | 1.057,3 | 11/12/2023 | 18.474 | 0,0 | C50 25, J44 16, R91 12 |
+| ANGIOTOMOGRAFIA DO PESCOCO ADULTO S/SEDACAO | 02.06.01.005-2 | 178 | 178 | 178 | 188 | 103,0 | 97,7 | 252,4 | 23/02/2026 | 414 | 0,4 | I65 37, I64 32, I63 22 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE VASOS | 02.05.01.004-0 | 169 | 169 | 169 | 0 | 31,1 | 34,4 | 61,1 | 02/09/2026 | — | — | I83 56, I87 25, M79 8 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MMSS ( BILATERAL) | 02.05.01.004-0 | 144 | 139 | 144 | 207 | 165,2 | 113,7 | 866,4 | 19/06/2024 | 100 | 1,4 | I83 39, I87 23, I82 17 |
+| TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.007-9 | 134 | 127 | 134 | 10 | 372,7 | 383,4 | 769,3 | 24/09/2024 | 461 | 0,3 | C50 18, I64 10, C79 7 |
+| ECOGRAFIA TRANSVAGINAL COM DOPPLER | 02.05.01.004-0 | 133 | 89 | 133 | 151 | 563,1 | 419,5 | 1.397,5 | 05/01/2023 | 140 | 0,9 | Z01 21, N95 17, R10 14 |
+| ULTRASSONOGRAFIA COM DOPPLER COLORIDO DE ARTERIAS RENAIS | 02.05.01.004-0 | 92 | 92 | 92 | 5 | 199,4 | 167,3 | 515,4 | 05/06/2025 | 16 | 5,8 | I10 37, I15 22, N18 15 |
+| 071. TC DE FACE ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 88 | 87 | 88 | 60 | 132,2 | 129,1 | 850,3 | 05/07/2024 | 211 | 0,4 | C44 9, C04 6, C10 5 |
+| ULTRASSONOGRAFIA RENAL | 02.05.02.005-4 | 72 | 45 | 72 | 15 | 629,4 | 534,1 | 1.348,3 | 23/02/2023 | 18 | 4,0 | N20 16, N18 9, R31 6 |
+| 061. TC DO ABDOMEN SUPERIOR ADULTO S/CONTRASTE S/SEDACAO | 02.06.03.001-0 | 68 | 68 | 68 | 1.489 | 19,2 | 7,2 | 222,2 | 25/03/2026 | 5.496 | 0,0 | N20 22, R10 15, N18 3 |
+| TC DE CRANIO INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.007-9 | 68 | 67 | 68 | 4 | 344,7 | 329,9 | 747,4 | 16/10/2024 | 40 | 1,7 | R56 15, G40 9, P35 7 |
+| ECOGRAFIA DE TIREOIDE INFANTIL | 02.05.02.012-7 | 60 | 51 | 60 | 36 | 476,5 | 499,7 | 966,4 | 11/03/2024 | 97 | 0,6 | E03 26, E04 8, E07 6 |
+| TC DE PESCOCO ADULTO C/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 60 | 56 | 60 | 3 | 359,8 | 284,8 | 769,3 | 24/09/2024 | 123 | 0,5 | L02 4, C76 3, C15 3 |
+| 109. TC DE PELVE OU BACIA ADULTO S/CONTRASTE S/SEDACAO | 02.06.03.003-7 | 57 | 57 | 57 | 952 | 21,5 | 7,2 | 279,2 | 27/01/2026 | 5.469 | 0,0 | N20 18, R10 13, N18 3 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMSS (BILATERAL) | 02.05.01.004-0 | 54 | 52 | 54 | 85 | 249,1 | 267,3 | 787,3 | 06/09/2024 | 92 | 0,6 | I25 5, I77 5, N18 5 |
+| 079. TC DE SEIOS DE FACE ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 51 | 50 | 51 | 87 | 117,1 | 98,3 | 845,2 | 10/07/2024 | 152 | 0,3 | J34 5, J32 4, J01 4 |
+| 029. TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.007-9 | 44 | 44 | 44 | 764 | 33,1 | 7,1 | 325,5 | 12/12/2025 | 8.489 | 0,0 | R51 12, G44 4, R42 4 |
+| TC DO TORAX INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.003-1 | 44 | 43 | 44 | 0 | 343,8 | 389,8 | 760,2 | 03/10/2024 | 8 | 5,5 | J18 14, J15 4, P27 4 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS RENAIS ADULTO S/SEDACAO | 02.06.03.001-0 | 36 | 36 | 36 | 11 | 160,5 | 132,8 | 430,2 | 29/08/2025 | 47 | 0,8 | I15 15, I10 4, I77 3 |
+| TC DO ABDOMEN SUPER.INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.001-0 | 33 | 33 | 33 | 1 | 349,6 | 314,3 | 725,5 | 07/11/2024 | 16 | 2,1 | R10 9, R16 2, A09 2 |
+| TC DE PELVE OU BACIA INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 31 | 30 | 31 | 3 | 348,0 | 315,3 | 755,2 | 08/10/2024 | 18 | 1,7 | R10 6, C34 2, C18 2 |
+| TC DE PESCOCO ADULTO S/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 29 | 29 | 29 | 1 | 293,6 | 289,4 | 716,3 | 16/11/2024 | 25 | 1,2 | J95 4, R63 1, C78 1 |
+| 095. TC DE MASTOIDES ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 28 | 28 | 28 | 68 | 99,8 | 70,9 | 243,2 | 04/03/2026 | 127 | 0,2 | H66 5, H90 4, C44 3 |
+| TC DE CRANIO INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.007-9 | 23 | 23 | 23 | 1 | 347,1 | 363,4 | 587,3 | 25/03/2025 | 10 | 2,3 | R56 5, G40 2, G11 2 |
+| TC DO TORAX INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.003-1 | 23 | 23 | 23 | 0 | 344,4 | 335,4 | 726,2 | 06/11/2024 | 11 | 2,1 | J18 8, R10 3, J15 1 |
+| TC DE FACE ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 18 | 18 | 18 | 4 | 354,7 | 387,3 | 724,2 | 08/11/2024 | 25 | 0,7 | J01 3, I64 2, R51 2 |
+| ULTRASSONOGRAFIA COM DOPPLER COLORIDO DA BOLSA ESCROTAL | 02.05.02.007-0 | 18 | 15 | 18 | 2 | 412,2 | 358,9 | 860,5 | 25/06/2024 | 0 | sem agendamento | N51 5, Q53 4, I86 2 |
+| ECOGRAFIA DE ABDOMEN SUPERIOR INFANTIL | 02.05.02.003-8 | 15 | 11 | 15 | 17 | 525,7 | 249,5 | 2.048,4 | 25/03/2021 | 124 | 0,1 | K76 3, R10 3, R16 1 |
+| TC DE PELVE OU BACIA INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 15 | 15 | 15 | 1 | 463,4 | 523,2 | 675,2 | 27/12/2024 | 9 | 1,7 | R10 3, M79 1, N20 1 |
+| TC DE SEIOS DE FACE ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 13 | 13 | 13 | 3 | 341,2 | 342,5 | 634,2 | 06/02/2025 | 35 | 0,4 | J01 2, R51 2, H66 1 |
+| TC DO ABDOMEN SUPER.INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.001-0 | 13 | 12 | 13 | 0 | 386,1 | 364,1 | 762,4 | 01/10/2024 | 12 | 1,1 | R50 2, J15 1, R10 1 |
+| ANGIOTOMOGRAFIA DO SISTEMA PORTA (VASOS HEPÁTICOS) ADULTO S/SEDACAO | 02.06.03.001-0 | 12 | 12 | 12 | 8 | 229,4 | 198,3 | 426,3 | 02/09/2025 | 10 | 1,2 | I82 4, I81 4, I83 1 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS CORONARIAS INFANTIL S/SEDACAO | 02.06.02.003-1 | 12 | 12 | 12 | 4 | 267,0 | 225,8 | 640,4 | 31/01/2025 | — | — | Q24 4, Q25 3, I25 1 |
+| TC DE MASTOIDES INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 11 | 11 | 11 | 1 | 409,8 | 465,4 | 714,4 | 18/11/2024 | 0 | sem agendamento | H70 5, H66 3, H65 2 |
+| ULTRA-SONOGRAFIA DOPPLER DE AORTA E VASOS ILIACOS | 02.05.01.004-0 | 11 | 11 | 11 | 1 | 55,6 | 63,2 | 81,4 | 13/08/2026 | 20 | 0,6 | N18 3, I10 1, I25 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MIE | 02.05.01.004-0 | 10 | 0 | 10 | 439 | 1.608,9 | 1.592,4 | 1.874,2 | 15/09/2021 | 0 | sem agendamento | I83 8, M79 1, G83 1 |
+| 077. TC DE SEIOS DE FACE ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 9 | 9 | 9 | 121 | 6,9 | 7,2 | 7,4 | 26/10/2026 | 1.987 | 0,0 | J32 3, J34 2, C44 1 |
+| 093. TC DE MASTOIDES ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 9 | 9 | 9 | 55 | 6,6 | 6,4 | 7,5 | 26/10/2026 | 1.167 | 0,0 | H72 2, H91 1, H83 1 |
+| ANGIOTOMOGRAFIA DA AORTA TORÁCICA E SEUS RAMOS INFANTIL S/SEDACAO | 02.06.02.003-1 | 9 | 9 | 9 | 10 | 162,5 | 96,2 | 459,4 | 31/07/2025 | 14 | 0,6 | Q25 5, I10 1, I71 1 |
+| ULTRASSONOGRAFIA COM DOPPLER COLORIDO DOS TESTICULOS | 02.05.02.007-0 | 9 | 9 | 9 | 2 | 405,4 | 385,2 | 651,4 | 20/01/2025 | 1 | 9,0 | N51 6, E29 1, N49 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 8 | 0 | 8 | 483 | 1.568,5 | 1.537,1 | 1.704,2 | 04/03/2022 | 0 | sem agendamento | I83 5, I87 2, G63 1 |
+| TC DE MASTOIDES INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 7 | 7 | 7 | 0 | 415,8 | 460,4 | 598,4 | 14/03/2025 | 1 | 7,0 | H70 4, H66 2, H65 1 |
+| TC DE PESCOCO INFANTIL C/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 6 | 6 | 6 | 0 | 398,5 | 439,3 | 516,4 | 04/06/2025 | 4 | 1,5 | L04 2, J39 2, R45 1 |
+| 103. TC DE OUVIDOS ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 5 | 5 | 5 | 23 | 102,3 | 84,1 | 200,5 | 16/04/2026 | 40 | 0,1 | H90 2, Q17 1, H93 1 |
+| 117. TC DE PESCOCO ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.005-2 | 5 | 5 | 5 | 58 | 6,4 | 6,2 | 7,2 | 26/10/2026 | 479 | 0,0 | D44 1, R49 1, M35 1 |
+| TC DE FACE ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 5 | 5 | 5 | 3 | 403,5 | 531,6 | 635,4 | 05/02/2025 | 29 | 0,2 | L02 1, L30 1, C69 1 |
+| ULTRA-SONOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) | 02.05.02.005-4 | 5 | 0 | 5 | 0 | 1.533,4 | 1.525,3 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | N20 1, N40 1, I70 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE ARTERIA AORTA ABDOMINAL | 02.05.01.004-0 | 5 | 5 | 5 | 3 | 35,7 | 32,4 | 53,1 | 10/09/2026 | 16 | 0,3 | I25 2, I50 1, I71 1 |
+| ULTRASSONOGRAFIA DAS GLANDULAS PAROTIDAS | 02.05.01.004-0 | 5 | 5 | 5 | 2 | 81,1 | 82,2 | 82,3 | 12/08/2026 | 18 | 0,3 | K11 2, Q76 1, M35 1 |
+| 025. TC DE CRANIO INFANTIL S/CONTRASTE S/SEDACAO | 02.06.01.007-9 | 4 | 4 | 4 | 96 | 24,3 | 24,3 | 29,4 | 04/10/2026 | 829 | 0,0 | R56 1, S06 1, H53 1 |
+| 027. TC DE CRANIO INFANTIL C/CONTRASTE S/SEDACAO | 02.06.01.007-9 | 4 | 4 | 4 | 48 | 24,6 | 24,3 | 29,4 | 04/10/2026 | 149 | 0,0 | G06 2, H53 1, R51 1 |
+| TC DE PESCOCO INFANTIL S/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 4 | 4 | 4 | 0 | 292,7 | 301,3 | 516,2 | 04/06/2025 | 0 | sem agendamento | L04 1, L03 1, R50 1 |
+| TC DE FACE INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 4 | 4 | 4 | 1 | 514,9 | 525,5 | 581,4 | 31/03/2025 | 4 | 1,0 | G51 1, L02 1, J01 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS E VERTEBRAIS | 02.05.01.004-0 | 4 | 0 | 4 | 17 | 1.668,3 | 1.668,4 | 1.701,2 | 07/03/2022 | 0 | sem agendamento | I10 1, E14 1, E11 1 |
+| 069. TC DE FACE ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 3 | 3 | 3 | 95 | 7,4 | 7,4 | 7,4 | 26/10/2026 | 613 | 0,0 | J33 1, Q38 1, J34 1 |
+| 087. TC ARTIC. TEMP. MAND. (ATM) ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 3 | 3 | 3 | 2 | 123,9 | 132,3 | 206,1 | 10/04/2026 | 7 | 0,4 | C03 1, R22 1, C91 1 |
+| ANGIOTOMOGRAFIA | 02.06.02.003-1 | 3 | 3 | 3 | 0 | 10,6 | 9,1 | 14,4 | 19/10/2026 | 268 | 0,0 | I26 2, I25 1 |
+| ANGIOTOMOGRAFIA DO CRANIO INFANTIL S/SEDACAO | 02.06.01.007-9 | 3 | 3 | 3 | 5 | 253,0 | 328,2 | 349,2 | 18/11/2025 | 7 | 0,4 | I61 1, D18 1, Q75 1 |
+| TC DE MASTOIDES ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 3 | 3 | 3 | 0 | 325,5 | 336,3 | 628,1 | 12/02/2025 | 4 | 0,8 | H70 1, G96 1, A49 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE UM VASO | 02.05.01.004-0 | 3 | 0 | 3 | 2 | 1.525,4 | 1.525,4 | 1.525,5 | 30/08/2022 | 0 | sem agendamento | N18 2, I73 1 |
+| ULTRA-SONOGRAFIA DE ABDOMEN TOTAL | 02.05.02.004-6 | 3 | 0 | 3 | 1 | 1.525,3 | 1.525,3 | 1.525,3 | 30/08/2022 | 0 | sem agendamento | C44 1, R10 1, Z10 1 |
+| ULTRA-SONOGRAFIA DE TIREOIDE | 02.05.02.012-7 | 3 | 0 | 3 | 0 | 1.525,2 | 1.525,2 | 1.525,4 | 30/08/2022 | 0 | sem agendamento | D44 1, E35 1, N18 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL-M I D | 02.05.01.004-0 | 3 | 0 | 3 | 0 | 1.536,4 | 1.525,2 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | M79 1, I73 1, L98 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 3 | 0 | 3 | 0 | 1.536,4 | 1.525,2 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | M79 1, I73 1, L98 1 |
+| 026. TC DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO | 02.06.01.007-9 | 2 | 2 | 2 | 38 | 46,4 | 46,4 | 68,4 | 26/08/2026 | 271 | 0,0 | S06 1, Q67 1 |
+| 051. TC DO TORAX INFANTIL C/CONTRASTE S/SEDACAO | 02.06.02.003-1 | 2 | 2 | 2 | 52 | 328,9 | 328,9 | 646,4 | 25/01/2025 | 58 | 0,0 | D21 1, C18 1 |
+| ANGIOTOMOGRAFIA DA AORTA ABDOMINAL E DOS SEUS RAMOS INFANTIL S/SEDACAO | 02.06.03.001-0 | 2 | 2 | 2 | 2 | 309,7 | 309,7 | 320,2 | 17/12/2025 | 3 | 0,7 | N39 1, I70 1 |
+| ANGIOTOMOGRAFIA DO TORAX OU PULMONAR INFANTIL S/SEDACAO | 02.06.02.003-1 | 2 | 2 | 2 | 7 | 136,2 | 136,2 | 266,1 | 09/02/2026 | 19 | 0,1 | Q24 1, Q21 1 |
+| DOPPLER ARTERIAL DE MI | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | M79 1, I73 1 |
+| DOPPLER VENOSO DE MI | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | M79 1, I73 1 |
+| ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) INFANTIL EMERG | 02.05.02.005-4 | 2 | 2 | 2 | 0 | 6,9 | 6,9 | 7,4 | 26/10/2026 | 0 | sem agendamento | N20 1, N39 1 |
+| TC DE FACE INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 2 | 2 | 2 | 1 | 404,9 | 404,9 | 426,5 | 02/09/2025 | 1 | 2,0 | L02 1, L03 1 |
+| TC DE OUVIDOS ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 2 | 2 | 2 | 0 | 432,3 | 432,3 | 528,2 | 23/05/2025 | 0 | sem agendamento | H70 1, G96 1 |
+| TC DE SEIOS DE FACE ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 2 | 2 | 2 | 0 | 263,3 | 263,3 | 514,5 | 06/06/2025 | 12 | 0,2 | M86 1, A49 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I D | 02.05.01.004-0 | 2 | 0 | 2 | 288 | 1.538,3 | 1.538,3 | 1.545,3 | 10/08/2022 | 0 | sem agendamento | I83 1, Z10 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I E | 02.05.01.004-0 | 2 | 0 | 2 | 246 | 1.523,1 | 1.519,0 | 1.531,2 | 24/08/2022 | 0 | sem agendamento | I83 1, Z10 1 |
+| ULTRA-SONOGRAFIA DE PROSTATA (VIA ABDOMINAL) | 02.05.02.010-0 | 2 | 0 | 2 | 0 | 1.528,9 | 1.528,9 | 1.532,5 | 23/08/2022 | 0 | sem agendamento | C44 1, N40 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE ARTERIAS VERTEBRAIS | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.447,1 | 1.447,1 | 1.480,1 | 14/10/2022 | — | — | I10 1, R42 1 |
+| ULTRA-SONOGRAFIA TRANSFONTANELAR | 02.05.02.017-8 | 2 | 0 | 2 | 0 | 1.525,3 | 1.525,3 | 1.525,4 | 30/08/2022 | 0 | sem agendamento | P07 1, R56 1 |
+| ULTRASSONOGRAFIA DOPPLER ARTERIAL MEMBRO SUPERIOR E | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.525,5 | 1.525,5 | 1.525,5 | 30/08/2022 | 0 | sem agendamento | N18 2 |
+| 028. TC DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO | 02.06.01.007-9 | 1 | 1 | 1 | 36 | 20,4 | 20,4 | 20,4 | 13/10/2026 | 52 | 0,0 | G06 1 |
+| 030. TC DE CRANIO ADULTO S/CONTRASTE C/SEDACAO | 02.06.01.007-9 | 1 | 1 | 1 | 223 | 94,2 | 94,2 | 94,2 | 31/07/2026 | 72 | 0,0 | G80 1 |
+| 032. TC DE CRANIO ADULTO C/CONTRASTE C/SEDACAO | 02.06.01.007-9 | 1 | 1 | 1 | 67 | 103,5 | 103,5 | 103,5 | 22/07/2026 | 20 | 0,1 | F10 1 |
+| 049. TC DO TORAX INFANTIL S/CONTRASTE S/SEDACAO | 02.06.02.003-1 | 1 | 1 | 1 | 56 | 284,1 | 284,1 | 284,1 | 22/01/2026 | 153 | 0,0 | C56 1 |
+| 059. TC DO ABDOMEN SUPERIOR INFANTIL C/CONTRASTE S/SEDACAO | 02.06.03.001-0 | 1 | 1 | 1 | 122 | 11,4 | 11,4 | 11,4 | 22/10/2026 | 98 | 0,0 | D21 1 |
+| 060. TC DO ABDOMEN SUPERIOR INFANTIL C/CONTRASTE C/SEDACAO | 02.06.03.001-0 | 1 | 1 | 1 | 20 | 291,4 | 291,4 | 291,4 | 15/01/2026 | 21 | 0,0 | R50 1 |
+| 064. TC DO ABDOMEN SUPERIOR ADULTO C/CONTRASTE C/SEDACAO | 02.06.03.001-0 | 1 | 1 | 1 | 238 | 223,5 | 223,5 | 223,5 | 24/03/2026 | 26 | 0,0 | N18 1 |
+| 073. TC DE SEIOS DE FACE INFANTIL S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 1 | 1 | 1 | 10 | 21,4 | 21,4 | 21,4 | 12/10/2026 | 132 | 0,0 | J01 1 |
+| 085. TC ARTIC. TEMP. MAND. (ATM) ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 1 | 1 | 1 | 10 | 6,4 | 6,4 | 6,4 | 27/10/2026 | 77 | 0,0 | H92 1 |
+| 091. TC DE MASTOIDES INFANTIL C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 1 | 1 | 1 | 1 | 5,5 | 5,5 | 5,5 | 28/10/2026 | 10 | 0,1 | H65 1 |
+| 107. TC DE PELVE OU BACIA INFANTIL C/CONTRASTE S/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 138 | 11,4 | 11,4 | 11,4 | 22/10/2026 | 88 | 0,0 | D21 1 |
+| 108. TC DE PELVE OU BACIA INFANTIL C/CONTRASTE C/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 13 | 291,4 | 291,4 | 291,4 | 15/01/2026 | 9 | 0,1 | R50 1 |
+| 110. TC DE PELVE OU BACIA ADULTO S/CONTRASTE C/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 116 | 7,0 | 7,0 | 7,0 | 26/10/2026 | 13 | 0,1 | R10 1 |
+| 112. TC DE PELVE OU BACIA ADULTO C/CONTRASTE C/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 219 | 646,4 | 646,4 | 646,4 | 25/01/2025 | 23 | 0,0 | C18 1 |
+| ANGIOTOMOGRAFIA DA PELVE INFANTIL S/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 0 | 51,2 | 51,2 | 51,2 | 12/09/2026 | 1 | 1,0 | I80 1 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS RENAIS INFANTIL S/SEDACAO | 02.06.03.001-0 | 1 | 1 | 1 | 1 | 320,2 | 320,2 | 320,2 | 17/12/2025 | 2 | 0,5 | N39 1 |
+| ANGIOTOMOGRAFIA DO PESCOCO INFANTIL S/SEDACAO | 02.06.01.005-2 | 1 | 1 | 1 | 0 | 51,2 | 51,2 | 51,2 | 12/09/2026 | 2 | 0,5 | I82 1 |
+| ECOGRAFIA DE ABDOMEN TOTAL ADULTO EMERGENCIA | 02.05.02.004-6 | 1 | 1 | 1 | 0 | 8,8 | 8,8 | 8,8 | 25/10/2026 | 0 | sem agendamento | R10 1 |
+| ECOGRAFIA DE TIREOIDE ADULTO EMERGENCIA | 02.05.02.012-7 | 1 | 0 | 1 | 0 | 7.007,8 | 7.007,8 | 7.007,8 | 27/08/2007 | 0 | sem agendamento | R68 1 |
+| ECOGRAFIA DOPPLER COLORIDO DE ORGAO | 02.05.01.004-0 | 1 | 1 | 1 | 2 | 143,1 | 143,1 | 143,1 | 12/06/2026 | — | — | I65 1 |
+| TC ARTIC.TEMP.MAND.(ATM)ADULT.S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 502,1 | 502,1 | 502,1 | 18/06/2025 | 0 | sem agendamento | S02 1 |
+| TC DE MASTOIDES ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 634,2 | 634,2 | 634,2 | 06/02/2025 | 6 | 0,2 | H71 1 |
+| TC DE OUVIDOS ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 76,5 | 76,5 | 76,5 | 18/08/2026 | 1 | 1,0 | H80 1 |
+| TC DE SEIOS DE FACE INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 389,4 | 389,4 | 389,4 | 09/10/2025 | 1 | 1,0 | H65 1 |
+| TC DE SEIOS DE FACE INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 515,5 | 515,5 | 515,5 | 05/06/2025 | 1 | 1,0 | J00 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M S D | 02.05.01.004-0 | 1 | 0 | 1 | 30 | 1.644,1 | 1.644,1 | 1.644,1 | 03/05/2022 | 0 | sem agendamento | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE DOIS VASOS | 02.05.01.004-0 | 1 | 0 | 1 | 12 | 1.700,4 | 1.700,4 | 1.700,4 | 08/03/2022 | — | — | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE ORGAO OU ESTRUTURA ISO | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS | 02.05.01.004-0 | 1 | 0 | 1 | 8 | 1.637,4 | 1.637,4 | 1.637,4 | 10/05/2022 | 0 | sem agendamento | I10 1 |
+| ULTRA-SONOGRAFIA DE ABDOMEN SUPERIOR | 02.05.02.003-8 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | K80 1 |
+| ULTRA-SONOGRAFIA DE BOLSA ESCROTAL COM DOPPLER | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | E29 1 |
+| ULTRA-SONOGRAFIA DE MAMAS (BILATERAL) | 02.05.02.009-7 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | N60 1 |
+| ULTRA-SONOGRAFIA DE PAREDE ABDOMINAL | 02.05.02.004-6 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | N18 1 |
+| ULTRA-SONOGRAFIA DOPPLER - ARTERIAS RENAIS | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.558,9 | 1.558,9 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | I70 1 |
+| ULTRA-SONOGRAFIA DOPPLER - CERVICAL | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.383,2 | 1.383,2 | 1.383,2 | 19/01/2023 | 0 | sem agendamento | E04 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL-M I E | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE MAMAS | 02.05.02.009-7 | 1 | 0 | 1 | 0 | 1.525,1 | 1.525,1 | 1.525,1 | 30/08/2022 | 0 | sem agendamento | Z12 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MIE | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | I73 1 |
+| ULTRA-SONOGRAFIA PELVICA | 02.05.02.016-0 | 1 | 0 | 1 | 0 | 1.525,3 | 1.525,3 | 1.525,3 | 30/08/2022 | 0 | sem agendamento | E30 1 |
+| USG PELVICA | 02.05.02.016-0 | 1 | 0 | 1 | 0 | 3.588,5 | 3.588,5 | 3.588,5 | 05/01/2017 | — | — | Z00 1 |
+| USG TRANSVAGINAL | 02.05.02.018-6 | 1 | 0 | 1 | 0 | 3.969,5 | 3.969,5 | 3.969,5 | 21/12/2015 | — | — | Z00 1 |
+
+### carteira 1 do plano 4: as 20 de maior espera média
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ECOGRAFIA DE TIREOIDE ADULTO EMERGENCIA | 02.05.02.012-7 | 1 | 0 | 1 | 0 | 7.007,8 | 7.007,8 | 7.007,8 | 27/08/2007 | 0 | sem agendamento | R68 1 |
+| USG TRANSVAGINAL | 02.05.02.018-6 | 1 | 0 | 1 | 0 | 3.969,5 | 3.969,5 | 3.969,5 | 21/12/2015 | — | — | Z00 1 |
+| USG PELVICA | 02.05.02.016-0 | 1 | 0 | 1 | 0 | 3.588,5 | 3.588,5 | 3.588,5 | 05/01/2017 | — | — | Z00 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE DOIS VASOS | 02.05.01.004-0 | 1 | 0 | 1 | 12 | 1.700,4 | 1.700,4 | 1.700,4 | 08/03/2022 | — | — | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS E VERTEBRAIS | 02.05.01.004-0 | 4 | 0 | 4 | 17 | 1.668,3 | 1.668,4 | 1.701,2 | 07/03/2022 | 0 | sem agendamento | I10 1, E14 1, E11 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M S D | 02.05.01.004-0 | 1 | 0 | 1 | 30 | 1.644,1 | 1.644,1 | 1.644,1 | 03/05/2022 | 0 | sem agendamento | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS | 02.05.01.004-0 | 1 | 0 | 1 | 8 | 1.637,4 | 1.637,4 | 1.637,4 | 10/05/2022 | 0 | sem agendamento | I10 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MIE | 02.05.01.004-0 | 10 | 0 | 10 | 439 | 1.608,9 | 1.592,4 | 1.874,2 | 15/09/2021 | 0 | sem agendamento | I83 8, M79 1, G83 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 8 | 0 | 8 | 483 | 1.568,5 | 1.537,1 | 1.704,2 | 04/03/2022 | 0 | sem agendamento | I83 5, I87 2, G63 1 |
+| ULTRA-SONOGRAFIA DOPPLER - ARTERIAS RENAIS | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.558,9 | 1.558,9 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | I70 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I D | 02.05.01.004-0 | 2 | 0 | 2 | 288 | 1.538,3 | 1.538,3 | 1.545,3 | 10/08/2022 | 0 | sem agendamento | I83 1, Z10 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL-M I D | 02.05.01.004-0 | 3 | 0 | 3 | 0 | 1.536,4 | 1.525,2 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | M79 1, I73 1, L98 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 3 | 0 | 3 | 0 | 1.536,4 | 1.525,2 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | M79 1, I73 1, L98 1 |
+| ULTRA-SONOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) | 02.05.02.005-4 | 5 | 0 | 5 | 0 | 1.533,4 | 1.525,3 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | N20 1, N40 1, I70 1 |
+| ULTRA-SONOGRAFIA DE PROSTATA (VIA ABDOMINAL) | 02.05.02.010-0 | 2 | 0 | 2 | 0 | 1.528,9 | 1.528,9 | 1.532,5 | 23/08/2022 | 0 | sem agendamento | C44 1, N40 1 |
+| ULTRASSONOGRAFIA DOPPLER ARTERIAL MEMBRO SUPERIOR E | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.525,5 | 1.525,5 | 1.525,5 | 30/08/2022 | 0 | sem agendamento | N18 2 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE UM VASO | 02.05.01.004-0 | 3 | 0 | 3 | 2 | 1.525,4 | 1.525,4 | 1.525,5 | 30/08/2022 | 0 | sem agendamento | N18 2, I73 1 |
+| ULTRA-SONOGRAFIA TRANSFONTANELAR | 02.05.02.017-8 | 2 | 0 | 2 | 0 | 1.525,3 | 1.525,3 | 1.525,4 | 30/08/2022 | 0 | sem agendamento | P07 1, R56 1 |
+| ULTRA-SONOGRAFIA PELVICA | 02.05.02.016-0 | 1 | 0 | 1 | 0 | 1.525,3 | 1.525,3 | 1.525,3 | 30/08/2022 | 0 | sem agendamento | E30 1 |
+| ULTRA-SONOGRAFIA DE ABDOMEN TOTAL | 02.05.02.004-6 | 3 | 0 | 3 | 1 | 1.525,3 | 1.525,3 | 1.525,3 | 30/08/2022 | 0 | sem agendamento | C44 1, R10 1, Z10 1 |
+
+### carteira 1 do plano 4: as 20 de mais anos de estoque
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| DOPPLER ARTERIAL DE MI | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | M79 1, I73 1 |
+| DOPPLER VENOSO DE MI | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | M79 1, I73 1 |
+| ECOGRAFIA DE ABDOMEN TOTAL ADULTO EMERGENCIA | 02.05.02.004-6 | 1 | 1 | 1 | 0 | 8,8 | 8,8 | 8,8 | 25/10/2026 | 0 | sem agendamento | R10 1 |
+| ECOGRAFIA DE TIREOIDE ADULTO EMERGENCIA | 02.05.02.012-7 | 1 | 0 | 1 | 0 | 7.007,8 | 7.007,8 | 7.007,8 | 27/08/2007 | 0 | sem agendamento | R68 1 |
+| ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) INFANTIL EMERG | 02.05.02.005-4 | 2 | 2 | 2 | 0 | 6,9 | 6,9 | 7,4 | 26/10/2026 | 0 | sem agendamento | N20 1, N39 1 |
+| TC DE PESCOCO INFANTIL S/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 4 | 4 | 4 | 0 | 292,7 | 301,3 | 516,2 | 04/06/2025 | 0 | sem agendamento | L04 1, L03 1, R50 1 |
+| TC ARTIC.TEMP.MAND.(ATM)ADULT.S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 502,1 | 502,1 | 502,1 | 18/06/2025 | 0 | sem agendamento | S02 1 |
+| TC DE MASTOIDES INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 11 | 11 | 11 | 1 | 409,8 | 465,4 | 714,4 | 18/11/2024 | 0 | sem agendamento | H70 5, H66 3, H65 2 |
+| TC DE OUVIDOS ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 2 | 2 | 2 | 0 | 432,3 | 432,3 | 528,2 | 23/05/2025 | 0 | sem agendamento | H70 1, G96 1 |
+| ULTRA-SONOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) | 02.05.02.005-4 | 5 | 0 | 5 | 0 | 1.533,4 | 1.525,3 | 1.558,9 | 27/07/2022 | 0 | sem agendamento | N20 1, N40 1, I70 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I D | 02.05.01.004-0 | 2 | 0 | 2 | 288 | 1.538,3 | 1.538,3 | 1.545,3 | 10/08/2022 | 0 | sem agendamento | I83 1, Z10 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I E | 02.05.01.004-0 | 2 | 0 | 2 | 246 | 1.523,1 | 1.519,0 | 1.531,2 | 24/08/2022 | 0 | sem agendamento | I83 1, Z10 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M S D | 02.05.01.004-0 | 1 | 0 | 1 | 30 | 1.644,1 | 1.644,1 | 1.644,1 | 03/05/2022 | 0 | sem agendamento | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE ORGAO OU ESTRUTURA ISO | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE UM VASO | 02.05.01.004-0 | 3 | 0 | 3 | 2 | 1.525,4 | 1.525,4 | 1.525,5 | 30/08/2022 | 0 | sem agendamento | N18 2, I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS | 02.05.01.004-0 | 1 | 0 | 1 | 8 | 1.637,4 | 1.637,4 | 1.637,4 | 10/05/2022 | 0 | sem agendamento | I10 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS E VERTEBRAIS | 02.05.01.004-0 | 190 | 19 | 190 | 26 | 971,5 | 942,9 | 1.363,1 | 08/02/2023 | 0 | sem agendamento | I10 71, E11 23, I70 21 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 8 | 0 | 8 | 483 | 1.568,5 | 1.537,1 | 1.704,2 | 04/03/2022 | 0 | sem agendamento | I83 5, I87 2, G63 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MIE | 02.05.01.004-0 | 10 | 0 | 10 | 439 | 1.608,9 | 1.592,4 | 1.874,2 | 15/09/2021 | 0 | sem agendamento | I83 8, M79 1, G83 1 |
+| ULTRA-SONOGRAFIA DE ABDOMEN SUPERIOR | 02.05.02.003-8 | 1 | 0 | 1 | 0 | 1.525,2 | 1.525,2 | 1.525,2 | 30/08/2022 | 0 | sem agendamento | K80 1 |
+
+## Rumo por código
+
+Um código por linha, com as filas do universo somadas (cada par nome × código uma vez). Tudo **calculado** no montador sobre a série mensal do motor (abas "Por código" da planilha). Os 12 meses fechados vão de 2025-10 a 2026-09, e os 12 de antes, de 2024-10 a 2025-09. Entrantes = pedidos abertos mais os já agendados, pelo mês do pedido. Oferta = agendamentos pelo mês em que acontecem, em todas as situações. Falta = faltas ÷ (realizados + faltas). Saldo por mês = (entrantes − oferta) ÷ 12: positivo, a fila cresce. Maior mês de oferta e média dos 3 últimos meses fechados, para ver o esforço que parou.
+
+| código | fila mais pedida do código | fila | fila viva | devolvidas | entrantes 12 m | entrantes 12 m antes | oferta 12 m | oferta 12 m antes | saldo por mês | falta 12 m | maior mês de oferta | oferta média 3 últimos meses |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 02.05.01.004-0 | ULTRA-SONOGRAFIA DOPPLER VENOSO - MMII ( BILATERAL) | 16.844 | 12.143 | 5.713 | 0 | 0 | 12.637 | 11.188 | -1.053,1 | 25% | 2026-04 (1.272) | 1.099,7 |
+| 02.05.02.004-6 | ECOGRAFIA DE ABDOMEN TOTAL ADULTO | 13.656 | 9.872 | 13.276 | 0 | 0 | 10.667 | 8.974 | -888,9 | 37% | 2026-07 (1.685) | 1.169,0 |
+| 02.05.02.009-7 | ECOGRAFIA DE MAMAS - BILATERAL | 12.952 | 8.510 | 7.731 | 0 | 0 | 9.776 | 4.884 | -814,7 | 38% | 2026-09 (2.821) | 1.777,3 |
+| 02.05.02.018-6 | ECOGRAFIA TRANSVAGINAL | 9.295 | 5.699 | 8.953 | 0 | 0 | 17.599 | 10.016 | -1.466,6 | 43% | 2026-09 (2.210) | 2.063,7 |
+| 02.06.03.001-0 | 063. TC DO ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO | 6.214 | 6.155 | 7.722 | 0 | 0 | 17.711 | 15.805 | -1.475,9 | 36% | 2026-03 (1.829) | 1.504,0 |
+| 02.06.02.003-1 | 055. TC DO TORAX ADULTO C/CONTRASTE S/SEDACAO | 6.042 | 5.977 | 5.179 | 0 | 0 | 29.553 | 24.461 | -2.462,8 | 33% | 2026-09 (3.572) | 2.949,7 |
+| 02.06.03.003-7 | 111. TC DE PELVE OU BACIA ADULTO C/CONTRASTE S/SEDACAO | 5.044 | 4.990 | 5.435 | 0 | 0 | 14.962 | 13.999 | -1.246,8 | 34% | 2026-03 (1.536) | 1.309,0 |
+| 02.05.02.005-4 | ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) ADULTO | 4.032 | 2.656 | 4.104 | 0 | 0 | 4.796 | 4.697 | -399,7 | 32% | 2025-06 (520) | 470,3 |
+| 02.05.02.012-7 | ECOGRAFIA DE TIREOIDE ADULTO | 3.858 | 3.098 | 3.327 | 0 | 0 | 3.592 | 3.502 | -299,3 | 24% | 2026-04 (490) | 309,0 |
+| 02.05.02.010-0 | ECOGRAFIA DE PROSTATA ( VIA ABDOMINAL ) | 2.971 | 2.203 | 2.714 | 0 | 0 | 4.120 | 3.402 | -343,3 | 29% | 2026-03 (456) | 311,7 |
+| 02.05.02.003-8 | ECOGRAFIA DE ABDOMEN SUPERIOR ADULTO | 2.229 | 1.240 | 1.001 | 0 | 0 | 2.513 | 2.572 | -209,4 | 33% | 2024-10 (311) | 221,3 |
+| 02.06.01.007-9 | TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 1.428 | 1.400 | 2.744 | 0 | 0 | 15.317 | 13.431 | -1.276,4 | 34% | 2026-04 (1.757) | 1.363,0 |
+| 02.05.02.016-0 | ECOGRAFIA PELVICA (GINECOLOGICA) - ADULTO | 1.016 | 699 | 920 | 0 | 0 | 1.389 | 1.027 | -115,8 | 38% | 2025-11 (192) | 132,0 |
+| 02.05.02.007-0 | ECOGRAFIA DE BOLSA ESCROTAL ADULTO | 961 | 623 | 505 | 0 | 0 | 834 | 968 | -69,5 | 35% | 2026-05 (132) | 60,7 |
+| 02.06.01.005-2 | 119. TC DE PESCOCO ADULTO C/CONTRASTE S/SEDACAO | 762 | 756 | 587 | 0 | 0 | 2.409 | 2.160 | -200,8 | 36% | 2025-08 (271) | 214,0 |
+| 02.06.01.004-4 | TOMOGRAFIA CONE BEAN | 466 | 464 | 748 | 0 | 0 | 5.367 | 4.276 | -447,2 | 27% | 2026-04 (679) | 592,0 |
+| 02.05.02.017-8 | ULTRA-SONOGRAFIA TRANSFONTANELA | 272 | 243 | 201 | 0 | 0 | 849 | 734 | -70,8 | 42% | 2026-05 (124) | 76,3 |
+
+## Oferta por unidade executante
+
+Agendamentos pelo mês em que acontecem, por unidade que executa, em todas as situações. A média mensal é a dos seis meses fechados de 2025-10 a 2026-03; depois, mês a mês, com o mês corrente e o já agendado para depois. 
+A última linha é a oferta do código no mesmo mês: o que passa da soma das unidades é agendamento sem unidade. As 25 unidades de maior oferta na janela; as outras, somadas. Planilha: aba "Por código executante".
+
+### 02.05.01.004-0
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ICDF | 3276678 | Contratado/Credenciado | 453,2 | 526 | 231 | 441 | 467 | 429 | 411 | 418 | 411 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 129,0 | 127 | 244 | 225 | 162 | 216 | 205 | 190 | 49 | 0 | 0 |
+| CRDF | 3044432 | URD | 148,2 | 260 | 154 | 132 | 204 | 186 | 184 | 150 | 113 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 43,5 | 154 | 84 | 92 | 59 | 100 | 96 | 106 | 51 | 0 | 0 |
+| HUB | 0010510 | Contratado/Credenciado | 41,7 | 80 | 29 | 51 | 39 | 44 | 49 | 46 | 61 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 50,0 | 56 | 71 | 62 | 32 | 56 | 45 | 56 | 0 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 81,8 | 54 | 61 | 72 | 37 | 42 | 56 | 38 | 6 | 0 | 0 |
+| HBDF | 0010456 | URD | 48,8 | 2 | 48 | 50 | 46 | 62 | 48 | 42 | 18 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 4,8 | 12 | 9 | 2 | 2 | 3 | 2 | 1 | 14 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 0,0 | 0 | 0 | 0 | 0 | 16 | 0 | 0 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 0,0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 3 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 0,3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 1.001,3 | 1.272 | 931 | 1.127 | 1.048 | 1.155 | 1.096 | 1.047 | 726 | 0 | 0 |
+| **oferta do código** |  |  | 1.001,3 | 1.272 | 931 | 1.127 | 1.048 | 1.155 | 1.096 | 1.047 | 726 | — | — |
+
+### 02.05.02.003-8
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRS | 0010502 | Região Norte | 23,7 | 24 | 49 | 46 | 47 | 59 | 94 | 41 | 0 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 24,0 | 62 | 121 | 13 | 11 | 17 | 0 | 76 | 0 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 26,2 | 17 | 2 | 86 | 11 | 53 | 16 | 0 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 18,2 | 9 | 39 | 2 | 37 | 6 | 3 | 60 | 16 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 17,5 | 1 | 2 | 5 | 0 | 15 | 11 | 26 | 97 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 20,8 | 41 | 21 | 16 | 20 | 10 | 15 | 12 | 5 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 12,5 | 9 | 15 | 17 | 25 | 10 | 17 | 12 | 8 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 5,7 | 2 | 2 | 1 | 42 | 45 | 0 | 10 | 0 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 14,3 | 16 | 12 | 3 | 9 | 13 | 25 | 6 | 0 | 0 | 0 |
+| Hospital Dia | 0010596 | Região Central | 9,5 | 11 | 3 | 17 | 12 | 5 | 2 | 7 | 0 | 0 | 0 |
+| HRBz | 0010545 | Região Oeste | 9,0 | 6 | 13 | 3 | 0 | 3 | 3 | 4 | 16 | 0 | 0 |
+| Policlínica Gama | 5598575 | Região Sul | 5,0 | 16 | 5 | 4 | 5 | 10 | 2 | 1 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 2,0 | 1 | 4 | 3 | 4 | 4 | 3 | 0 | 1 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 188,3 | 215 | 288 | 216 | 223 | 250 | 191 | 255 | 143 | 0 | 0 |
+| **oferta do código** |  |  | 188,3 | 215 | 288 | 216 | 223 | 250 | 191 | 255 | 143 | — | — |
+
+### 02.05.02.004-6
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRS | 0010502 | Região Norte | 46,8 | 131 | 156 | 118 | 145 | 141 | 369 | 98 | 0 | 0 | 0 |
+| Policlínica Ceilândia II | 9578501 | Região Oeste | 0,0 | 0 | 0 | 51 | 1.060 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 133,3 | 64 | 49 | 60 | 2 | 77 | 47 | 252 | 446 | 1 | 1 |
+| HRAN | 0010464 | Região Central | 100,3 | 158 | 132 | 188 | 95 | 154 | 139 | 72 | 0 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 53,2 | 218 | 101 | 36 | 50 | 84 | 80 | 110 | 84 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 42,3 | 141 | 166 | 135 | 14 | 48 | 30 | 48 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 64,8 | 67 | 63 | 76 | 115 | 38 | 90 | 36 | 5 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 70,0 | 61 | 81 | 44 | 43 | 57 | 45 | 69 | 11 | 0 | 0 |
+| HRBz | 0010545 | Região Oeste | 43,3 | 93 | 64 | 85 | 1 | 27 | 26 | 55 | 16 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 41,2 | 34 | 38 | 52 | 73 | 72 | 24 | 37 | 13 | 0 | 0 |
+| Hospital Dia | 0010596 | Região Central | 31,0 | 52 | 75 | 33 | 25 | 30 | 16 | 12 | 4 | 0 | 0 |
+| Policlínica Gama | 5598575 | Região Sul | 11,3 | 19 | 26 | 21 | 18 | 36 | 15 | 3 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 16,8 | 10 | 16 | 12 | 15 | 30 | 10 | 21 | 11 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 0 | 102 | 0 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 6,0 | 2 | 0 | 4 | 29 | 35 | 0 | 0 | 0 | 0 | 0 |
+| HRSM | 5717515 | Região Sul | 36,0 | 49 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 696,5 | 1.099 | 967 | 915 | 1.685 | 829 | 993 | 813 | 590 | 1 | 1 |
+| **oferta do código** |  |  | 696,5 | 1.099 | 967 | 915 | 1.685 | 829 | 993 | 813 | 590 | 1 | 1 |
+
+### 02.05.02.005-4
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRL | 2645157 | Região Leste | 24,3 | 19 | 27 | 46 | 38 | 41 | 47 | 147 | 308 | 3 | 0 |
+| HRS | 0010502 | Região Norte | 28,8 | 39 | 35 | 62 | 67 | 51 | 150 | 69 | 0 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 66,2 | 58 | 57 | 36 | 84 | 76 | 51 | 74 | 0 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 35,7 | 48 | 17 | 76 | 92 | 50 | 43 | 30 | 3 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 24,8 | 90 | 49 | 31 | 18 | 48 | 21 | 28 | 33 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 29,8 | 34 | 17 | 30 | 35 | 28 | 39 | 29 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 32,2 | 24 | 35 | 23 | 22 | 24 | 9 | 31 | 5 | 0 | 0 |
+| HRBz | 0010545 | Região Oeste | 15,8 | 28 | 14 | 2 | 3 | 64 | 7 | 20 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 11,2 | 6 | 15 | 9 | 18 | 38 | 18 | 27 | 0 | 0 | 0 |
+| Policlínica Gama | 5598575 | Região Sul | 30,2 | 8 | 21 | 24 | 11 | 28 | 23 | 7 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 25,8 | 23 | 6 | 6 | 14 | 23 | 22 | 21 | 0 | 0 | 0 |
+| Hospital Dia | 0010596 | Região Central | 17,8 | 21 | 9 | 22 | 6 | 8 | 8 | 21 | 4 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 0 | 57 | 30 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 7,8 | 5 | 15 | 6 | 6 | 13 | 10 | 6 | 4 | 0 | 0 |
+| HRSM | 5717515 | Região Sul | 30,0 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 380,5 | 412 | 317 | 373 | 414 | 492 | 505 | 540 | 357 | 3 | 0 |
+| **oferta do código** |  |  | 380,5 | 412 | 317 | 373 | 414 | 492 | 505 | 540 | 357 | 3 | — |
+
+### 02.05.02.007-0
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRL | 2645157 | Região Leste | 7,5 | 10 | 3 | 6 | 0 | 3 | 0 | 177 | 44 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 4,7 | 9 | 61 | 31 | 2 | 6 | 0 | 0 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 4,8 | 10 | 2 | 7 | 22 | 15 | 9 | 12 | 0 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 3,3 | 9 | 6 | 3 | 12 | 12 | 8 | 2 | 0 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 5,8 | 10 | 8 | 8 | 4 | 6 | 8 | 6 | 0 | 0 | 0 |
+| HRBz | 0010545 | Região Oeste | 6,5 | 0 | 39 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 3,5 | 0 | 1 | 16 | 12 | 3 | 14 | 0 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 9,3 | 10 | 6 | 7 | 6 | 2 | 7 | 2 | 4 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 4,5 | 0 | 4 | 3 | 12 | 3 | 8 | 2 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 1,3 | 2 | 2 | 2 | 0 | 1 | 6 | 4 | 6 | 0 | 0 |
+| HRSM | 5717515 | Região Sul | 8,8 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 60,2 | 69 | 132 | 90 | 70 | 51 | 61 | 205 | 54 | 0 | 0 |
+| **oferta do código** |  |  | 60,2 | 69 | 132 | 90 | 70 | 51 | 61 | 205 | 54 | — | — |
+
+### 02.05.02.009-7
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRS | 0010502 | Região Norte | 0,0 | 0 | 0 | 0 | 0 | 1.012 | 1.186 | 17 | 0 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 45,5 | 24 | 64 | 33 | 14 | 65 | 65 | 313 | 578 | 2 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 0 | 718 | 276 | 0 | 0 | 0 |
+| HMIB | 0010537 | URD | 118,5 | 132 | 90 | 86 | 144 | 160 | 48 | 56 | 32 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 45,0 | 52 | 97 | 32 | 50 | 31 | 67 | 212 | 22 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 27,3 | 20 | 48 | 12 | 50 | 136 | 200 | 0 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 33,0 | 48 | 44 | 36 | 24 | 84 | 97 | 99 | 28 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 27,7 | 24 | 26 | 20 | 24 | 23 | 231 | 81 | 2 | 0 | 0 |
+| Policlínica Ceilândia II | 9578501 | Região Oeste | 0,0 | 0 | 0 | 0 | 240 | 0 | 0 | 127 | 50 | 0 | 0 |
+| Hospital Dia | 0010596 | Região Central | 38,0 | 28 | 48 | 48 | 49 | 44 | 52 | 40 | 22 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 76,7 | 16 | 99 | 3 | 104 | 59 | 0 | 0 | 0 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 34,8 | 48 | 17 | 28 | 13 | 52 | 51 | 31 | 1 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 25,3 | 24 | 26 | 38 | 34 | 22 | 29 | 16 | 0 | 0 | 0 |
+| Policlínica Gama | 5598575 | Região Sul | 19,5 | 38 | 29 | 2 | 2 | 9 | 42 | 10 | 0 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 19,3 | 0 | 0 | 0 | 5 | 25 | 25 | 20 | 10 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 0,0 | 0 | 0 | 0 | 25 | 11 | 10 | 10 | 11 | 0 | 0 |
+| **soma das unidades** |  |  | 510,7 | 454 | 588 | 338 | 778 | 1.733 | 2.821 | 1.308 | 756 | 2 | 0 |
+| **oferta do código** |  |  | 510,7 | 454 | 588 | 338 | 778 | 1.733 | 2.821 | 1.308 | 756 | 2 | — |
+
+### 02.05.02.010-0
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRL | 2645157 | Região Leste | 15,5 | 16 | 30 | 35 | 42 | 46 | 30 | 110 | 301 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 47,3 | 66 | 55 | 118 | 57 | 36 | 64 | 0 | 9 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 17,7 | 47 | 56 | 25 | 12 | 26 | 29 | 90 | 77 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 59,5 | 35 | 34 | 36 | 37 | 32 | 24 | 64 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 22,8 | 30 | 36 | 44 | 41 | 31 | 40 | 25 | 0 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 13,7 | 25 | 48 | 37 | 28 | 29 | 17 | 29 | 7 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 24,7 | 38 | 14 | 33 | 27 | 24 | 22 | 24 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 37,0 | 15 | 31 | 32 | 33 | 27 | 16 | 15 | 2 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 20,3 | 28 | 25 | 13 | 22 | 29 | 26 | 6 | 8 | 0 | 0 |
+| Hospital Dia | 0010596 | Região Central | 19,5 | 11 | 7 | 19 | 13 | 16 | 16 | 20 | 1 | 0 | 0 |
+| Policlínica Gama | 5598575 | Região Sul | 1,3 | 7 | 5 | 22 | 0 | 18 | 0 | 3 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 6,2 | 1 | 10 | 6 | 4 | 3 | 7 | 8 | 0 | 0 | 0 |
+| HRBz | 0010545 | Região Oeste | 14,5 | 10 | 11 | 2 | 4 | 7 | 0 | 1 | 0 | 0 | 0 |
+| HRSM | 5717515 | Região Sul | 43,0 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 343,0 | 343 | 362 | 422 | 320 | 324 | 291 | 395 | 405 | 0 | 0 |
+| **oferta do código** |  |  | 343,0 | 343 | 362 | 422 | 320 | 324 | 291 | 395 | 405 | — | — |
+
+### 02.05.02.012-7
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRL | 2645157 | Região Leste | 7,2 | 75 | 41 | 35 | 18 | 10 | 45 | 374 | 127 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 40,5 | 89 | 112 | 51 | 8 | 63 | 40 | 25 | 24 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 16,5 | 81 | 68 | 49 | 19 | 56 | 38 | 64 | 15 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 57,0 | 24 | 48 | 30 | 34 | 63 | 71 | 24 | 0 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 29,3 | 41 | 30 | 40 | 33 | 32 | 39 | 27 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 17,7 | 53 | 21 | 17 | 28 | 35 | 27 | 4 | 1 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 9,0 | 18 | 21 | 26 | 16 | 35 | 6 | 59 | 0 | 0 | 0 |
+| Hospital Dia | 0010596 | Região Central | 23,3 | 23 | 10 | 38 | 25 | 14 | 22 | 37 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 11,3 | 18 | 10 | 2 | 1 | 16 | 52 | 7 | 9 | 0 | 0 |
+| HRBz | 0010545 | Região Oeste | 12,2 | 34 | 27 | 10 | 0 | 11 | 0 | 21 | 4 | 0 | 0 |
+| Policlínica Gama | 5598575 | Região Sul | 1,8 | 12 | 1 | 2 | 0 | 17 | 16 | 36 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 8,0 | 4 | 6 | 4 | 13 | 14 | 7 | 16 | 1 | 0 | 0 |
+| HRSM | 5717515 | Região Sul | 12,2 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 246,0 | 490 | 395 | 304 | 195 | 366 | 366 | 694 | 181 | 0 | 0 |
+| **oferta do código** |  |  | 246,0 | 490 | 395 | 304 | 195 | 366 | 366 | 694 | 181 | — | — |
+
+### 02.05.02.016-0
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRT | 0010499 | Região Sudoeste | 36,8 | 35 | 17 | 47 | 20 | 31 | 29 | 18 | 3 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 13,7 | 34 | 9 | 9 | 20 | 20 | 36 | 6 | 17 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 25,0 | 13 | 12 | 12 | 8 | 32 | 23 | 6 | 1 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 3,3 | 0 | 0 | 0 | 20 | 0 | 24 | 27 | 0 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 7,3 | 4 | 4 | 4 | 3 | 50 | 1 | 0 | 0 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 5,8 | 10 | 8 | 8 | 6 | 8 | 10 | 6 | 4 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 0,0 | 0 | 0 | 0 | 0 | 49 | 4 | 0 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 3,0 | 0 | 0 | 0 | 0 | 0 | 0 | 47 | 0 | 0 | 0 |
+| HRSM | 5717515 | Região Sul | 16,0 | 39 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Hospital Dia | 0010596 | Região Central | 4,8 | 3 | 6 | 6 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 0,5 | 0 | 1 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 |
+| Policlínica Gama | 5598575 | Região Sul | 2,2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 118,5 | 139 | 57 | 86 | 77 | 190 | 129 | 110 | 25 | 0 | 0 |
+| **oferta do código** |  |  | 118,5 | 139 | 57 | 86 | 77 | 190 | 129 | 110 | 25 | — | — |
+
+### 02.05.02.017-8
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRL | 2645157 | Região Leste | 0,7 | 49 | 43 | 15 | 13 | 1 | 12 | 0 | 20 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 12,3 | 10 | 14 | 6 | 17 | 24 | 14 | 22 | 16 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 13,5 | 9 | 18 | 0 | 39 | 17 | 9 | 17 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 15,0 | 7 | 39 | 20 | 10 | 6 | 9 | 4 | 0 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 8,0 | 9 | 0 | 12 | 0 | 16 | 20 | 12 | 4 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 7,8 | 5 | 10 | 10 | 11 | 11 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 57,3 | 89 | 124 | 63 | 90 | 75 | 64 | 55 | 40 | 0 | 0 |
+| **oferta do código** |  |  | 57,3 | 89 | 124 | 63 | 90 | 75 | 64 | 55 | 40 | — | — |
+
+### 02.05.02.018-6
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| HRG | 0010472 | Região Sul | 19,2 | 40 | 145 | 715 | 1.095 | 480 | 9 | 10 | 0 | 0 | 0 |
+| Cent Radiologia Tagua | 0011193 | Região Sudoeste | 239,3 | 283 | 353 | 185 | 132 | 267 | 252 | 441 | 38 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 133,0 | 84 | 90 | 50 | 90 | 725 | 640 | 96 | 0 | 0 | 0 |
+| Policlínica Ceilândia II | 9578501 | Região Oeste | 0,0 | 0 | 0 | 243 | 400 | 0 | 58 | 404 | 106 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 59,8 | 100 | 84 | 85 | 129 | 131 | 444 | 160 | 15 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 35,8 | 213 | 82 | 38 | 53 | 36 | 59 | 139 | 439 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 148,3 | 155 | 124 | 44 | 2 | 27 | 290 | 51 | 9 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 243,5 | 85 | 84 | 168 | 105 | 57 | 25 | 75 | 39 | 0 | 0 |
+| Hospital Dia | 0010596 | Região Central | 56,8 | 42 | 72 | 72 | 84 | 66 | 78 | 61 | 26 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 0 | 276 | 53 | 0 | 0 | 0 |
+| Policlínica 514 Sul | 9580816 | Região Central | 30,8 | 44 | 16 | 25 | 12 | 48 | 48 | 32 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 15,5 | 18 | 18 | 24 | 18 | 24 | 30 | 0 | 6 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 181,7 | 0 | 3 | 6 | 0 | 0 | 1 | 17 | 0 | 0 | 0 |
+| HRGu | 2814897 | Região Centro-Sul | 44,0 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRSM | 5717515 | Região Sul | 58,8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 1.266,7 | 1.082 | 1.071 | 1.655 | 2.120 | 1.861 | 2.210 | 1.539 | 678 | 0 | 0 |
+| **oferta do código** |  |  | 1.266,7 | 1.082 | 1.071 | 1.655 | 2.120 | 1.861 | 2.210 | 1.539 | 678 | — | — |
+
+### 02.06.01.004-4
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CRDF | 3044432 | URD | 130,5 | 436 | 220 | 263 | 316 | 326 | 320 | 220 | 29 | 0 | 0 |
+| ICDF | 3276678 | Contratado/Credenciado | 86,2 | 126 | 100 | 108 | 75 | 58 | 95 | 97 | 2 | 1 | 0 |
+| HUB | 0010510 | Contratado/Credenciado | 38,7 | 40 | 55 | 92 | 104 | 78 | 70 | 46 | 0 | 0 | 0 |
+| HCB | 6876617 | URD | 31,2 | 35 | 40 | 52 | 50 | 42 | 37 | 44 | 10 | 2 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 56 | 93 | 16 | 0 | 0 | 0 |
+| HBDF | 0010456 | URD | 17,8 | 4 | 0 | 0 | 6 | 8 | 9 | 31 | 0 | 0 | 0 |
+| HMIB | 0010537 | URD | 8,5 | 31 | 8 | 9 | 0 | 0 | 2 | 3 | 0 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 6,2 | 4 | 8 | 5 | 9 | 4 | 10 | 5 | 0 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 0,2 | 1 | 4 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 1,2 | 0 | 3 | 1 | 0 | 3 | 0 | 0 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 1,2 | 0 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 0,3 | 0 | 0 | 0 | 2 | 0 | 0 | 2 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 1,2 | 2 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 323,0 | 679 | 444 | 530 | 565 | 575 | 636 | 464 | 41 | 3 | 0 |
+| **oferta do código** |  |  | 323,0 | 679 | 444 | 530 | 565 | 575 | 636 | 464 | 41 | 3 | — |
+
+### 02.06.01.005-2
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CRDF | 3044432 | URD | 70,5 | 49 | 162 | 119 | 110 | 93 | 103 | 85 | 29 | 0 | 0 |
+| HUB | 0010510 | Contratado/Credenciado | 52,2 | 77 | 57 | 57 | 56 | 51 | 75 | 34 | 0 | 0 | 0 |
+| ICDF | 3276678 | Contratado/Credenciado | 15,0 | 31 | 25 | 24 | 18 | 17 | 16 | 21 | 11 | 0 | 0 |
+| HBDF | 0010456 | URD | 22,3 | 10 | 0 | 0 | 5 | 8 | 17 | 64 | 1 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 7,5 | 7 | 6 | 10 | 10 | 5 | 6 | 9 | 1 | 0 | 0 |
+| HMIB | 0010537 | URD | 7,0 | 6 | 7 | 1 | 0 | 0 | 9 | 2 | 6 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 8 | 15 | 1 | 0 | 0 | 0 |
+| HCB | 6876617 | URD | 2,5 | 2 | 1 | 2 | 5 | 4 | 2 | 4 | 1 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 2,2 | 0 | 0 | 0 | 0 | 0 | 7 | 7 | 0 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 0,8 | 1 | 5 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 1,3 | 0 | 1 | 2 | 0 | 0 | 0 | 2 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 1,7 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 0,0 | 0 | 0 | 0 | 0 | 1 | 0 | 1 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 0,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Hosp S Mateus | 6730914 | Contratado/Credenciado | 0,7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 183,7 | 184 | 266 | 215 | 205 | 187 | 250 | 230 | 49 | 0 | 0 |
+| **oferta do código** |  |  | 183,7 | 184 | 266 | 215 | 205 | 187 | 250 | 230 | 49 | — | — |
+
+### 02.06.01.007-9
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CRDF | 3044432 | URD | 366,2 | 1.090 | 595 | 640 | 499 | 694 | 648 | 368 | 25 | 0 | 0 |
+| ICDF | 3276678 | Contratado/Credenciado | 233,5 | 238 | 199 | 291 | 172 | 121 | 173 | 159 | 12 | 5 | 0 |
+| HUB | 0010510 | Contratado/Credenciado | 198,3 | 123 | 127 | 138 | 256 | 204 | 147 | 197 | 0 | 0 | 0 |
+| HCB | 6876617 | URD | 91,8 | 96 | 94 | 100 | 117 | 84 | 90 | 98 | 37 | 11 | 0 |
+| HRAN | 0010464 | Região Central | 58,2 | 63 | 56 | 59 | 74 | 51 | 54 | 42 | 2 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 166 | 181 | 51 | 0 | 0 | 0 |
+| HBDF | 0010456 | URD | 95,5 | 52 | 0 | 0 | 40 | 57 | 74 | 121 | 4 | 0 | 3 |
+| HRL | 2645157 | Região Leste | 18,0 | 17 | 22 | 17 | 12 | 19 | 23 | 12 | 0 | 0 | 0 |
+| HMIB | 0010537 | URD | 27,7 | 25 | 39 | 10 | 0 | 0 | 10 | 20 | 0 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 15,5 | 8 | 0 | 0 | 16 | 29 | 22 | 15 | 0 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 13,8 | 8 | 25 | 16 | 15 | 8 | 3 | 8 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 23,2 | 16 | 18 | 19 | 19 | 0 | 0 | 8 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 19,2 | 21 | 27 | 0 | 0 | 0 | 0 | 5 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 0,0 | 0 | 0 | 0 | 0 | 6 | 4 | 4 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 0,0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Hosp S Mateus | 6730914 | Contratado/Credenciado | 2,3 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 1.163,2 | 1.757 | 1.202 | 1.290 | 1.220 | 1.440 | 1.429 | 1.108 | 80 | 16 | 3 |
+| **oferta do código** |  |  | 1.163,2 | 1.757 | 1.202 | 1.290 | 1.220 | 1.440 | 1.429 | 1.108 | 80 | 16 | 3 |
+
+### 02.06.02.003-1
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CRDF | 3044432 | URD | 685,2 | 1.373 | 1.176 | 1.060 | 1.031 | 1.172 | 1.655 | 1.212 | 164 | 0 | 0 |
+| HUB | 0010510 | Contratado/Credenciado | 467,2 | 696 | 504 | 609 | 517 | 468 | 454 | 462 | 0 | 0 | 0 |
+| ICDF | 3276678 | Contratado/Credenciado | 390,0 | 439 | 461 | 423 | 517 | 566 | 425 | 375 | 43 | 1 | 0 |
+| HRAN | 0010464 | Região Central | 124,7 | 147 | 138 | 124 | 140 | 128 | 131 | 118 | 1 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 254 | 582 | 71 | 0 | 0 | 0 |
+| HBDF | 0010456 | URD | 188,5 | 83 | 0 | 0 | 47 | 81 | 166 | 392 | 8 | 0 | 0 |
+| HMIB | 0010537 | URD | 78,3 | 60 | 245 | 10 | 0 | 0 | 63 | 40 | 26 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 44,5 | 38 | 72 | 54 | 81 | 41 | 16 | 27 | 0 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 23,5 | 22 | 34 | 19 | 36 | 36 | 32 | 23 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 32,7 | 33 | 46 | 35 | 33 | 4 | 0 | 10 | 0 | 0 | 0 |
+| HCB | 6876617 | URD | 17,8 | 16 | 22 | 21 | 24 | 19 | 12 | 16 | 7 | 3 | 0 |
+| HRC | 0010480 | Região Oeste | 26,2 | 11 | 0 | 0 | 30 | 42 | 30 | 27 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 28,0 | 24 | 23 | 0 | 0 | 0 | 0 | 8 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 0,0 | 0 | 0 | 0 | 0 | 7 | 6 | 3 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 0,0 | 0 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 0 | 0 |
+| Hosp S Mateus | 6730914 | Contratado/Credenciado | 7,8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 2.114,3 | 2.942 | 2.721 | 2.355 | 2.456 | 2.821 | 3.572 | 2.784 | 249 | 4 | 0 |
+| **oferta do código** |  |  | 2.114,3 | 2.942 | 2.721 | 2.355 | 2.456 | 2.821 | 3.572 | 2.784 | 249 | 4 | — |
+
+### 02.06.03.001-0
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CRDF | 3044432 | URD | 535,5 | 467 | 738 | 476 | 703 | 490 | 627 | 544 | 72 | 0 | 0 |
+| HUB | 0010510 | Contratado/Credenciado | 369,8 | 181 | 382 | 389 | 362 | 358 | 351 | 314 | 0 | 0 | 0 |
+| ICDF | 3276678 | Contratado/Credenciado | 194,5 | 149 | 185 | 175 | 187 | 158 | 191 | 200 | 53 | 0 | 0 |
+| HBDF | 0010456 | URD | 131,7 | 81 | 0 | 0 | 44 | 73 | 149 | 354 | 10 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 90,0 | 98 | 106 | 85 | 87 | 88 | 81 | 100 | 1 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 123 | 133 | 19 | 0 | 0 | 0 |
+| HMIB | 0010537 | URD | 92,0 | 41 | 33 | 4 | 0 | 0 | 20 | 39 | 37 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 24,5 | 15 | 24 | 29 | 21 | 23 | 20 | 19 | 0 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 25,3 | 13 | 27 | 19 | 26 | 26 | 9 | 12 | 0 | 0 | 0 |
+| HCB | 6876617 | URD | 14,3 | 15 | 12 | 16 | 16 | 21 | 18 | 14 | 4 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 17,2 | 10 | 0 | 0 | 33 | 17 | 28 | 28 | 0 | 0 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 26,7 | 29 | 30 | 30 | 14 | 0 | 0 | 9 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 20,8 | 26 | 19 | 0 | 0 | 0 | 0 | 6 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 0,0 | 0 | 0 | 0 | 0 | 6 | 7 | 4 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 0,0 | 0 | 0 | 0 | 0 | 2 | 0 | 0 | 0 | 0 | 0 |
+| Hosp S Mateus | 6730914 | Contratado/Credenciado | 6,8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 1.549,2 | 1.125 | 1.556 | 1.223 | 1.493 | 1.385 | 1.634 | 1.662 | 177 | 0 | 0 |
+| **oferta do código** |  |  | 1.549,2 | 1.125 | 1.556 | 1.223 | 1.493 | 1.385 | 1.634 | 1.662 | 177 | — | — |
+
+### 02.06.03.003-7
+
+| unidade executante | CNES | tipo | média mensal antes | 2026-04 | 2026-05 | 2026-06 | 2026-07 | 2026-08 | 2026-09 | 2026-10 | 2026-11 | 2026-12 | 2027-01 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CRDF | 3044432 | URD | 448,2 | 381 | 645 | 395 | 653 | 435 | 513 | 344 | 30 | 0 | 0 |
+| HUB | 0010510 | Contratado/Credenciado | 276,0 | 108 | 325 | 355 | 299 | 325 | 303 | 283 | 0 | 0 | 0 |
+| ICDF | 3276678 | Contratado/Credenciado | 170,7 | 109 | 163 | 138 | 176 | 127 | 150 | 162 | 47 | 0 | 0 |
+| HBDF | 0010456 | URD | 119,7 | 52 | 0 | 0 | 38 | 62 | 113 | 283 | 9 | 0 | 0 |
+| HRAN | 0010464 | Região Central | 85,2 | 78 | 78 | 74 | 76 | 66 | 75 | 93 | 1 | 0 | 0 |
+| FHB | 0011339 | Serviços Centralizados | 0,0 | 0 | 0 | 0 | 0 | 115 | 130 | 23 | 0 | 0 | 0 |
+| HRL | 2645157 | Região Leste | 26,7 | 17 | 22 | 32 | 23 | 24 | 24 | 18 | 0 | 0 | 0 |
+| HMIB | 0010537 | URD | 77,5 | 36 | 31 | 7 | 0 | 0 | 11 | 39 | 28 | 0 | 0 |
+| HRG | 0010472 | Região Sul | 25,0 | 12 | 27 | 21 | 26 | 27 | 9 | 13 | 0 | 0 | 0 |
+| HRC | 0010480 | Região Oeste | 10,8 | 9 | 0 | 0 | 32 | 17 | 18 | 21 | 0 | 0 | 0 |
+| HCB | 6876617 | URD | 13,0 | 16 | 8 | 9 | 9 | 12 | 14 | 14 | 2 | 1 | 0 |
+| HRSam | 2672197 | Região Sudoeste | 14,2 | 23 | 14 | 23 | 10 | 1 | 0 | 7 | 0 | 0 | 0 |
+| HRS | 0010502 | Região Norte | 22,3 | 29 | 21 | 0 | 0 | 0 | 0 | 5 | 0 | 0 | 0 |
+| HRPl | 0010529 | Região Norte | 0,0 | 0 | 0 | 0 | 0 | 6 | 7 | 5 | 0 | 0 | 0 |
+| HRT | 0010499 | Região Sudoeste | 0,0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Hosp S Mateus | 6730914 | Contratado/Credenciado | 7,0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| **soma das unidades** |  |  | 1.296,2 | 870 | 1.334 | 1.054 | 1.342 | 1.218 | 1.367 | 1.310 | 117 | 1 | 0 |
+| **oferta do código** |  |  | 1.296,2 | 870 | 1.334 | 1.054 | 1.342 | 1.218 | 1.367 | 1.310 | 117 | 1 | — |
+
+## Região de Saúde
+
+Região de Saúde: não pedida na ordem.
+
+## Diferença para a coleta anterior
+
+Contra `dados/fontes/mapa_social_20261102_regiao_bruto/coleta_20261102.json` (recarga 02/11/2026 18:31:39). Diferença **calculada** no montador.
+
+A coleta anterior não tem as mesmas filas nem os mesmos objetos.

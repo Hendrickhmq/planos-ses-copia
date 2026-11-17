@@ -1,0 +1,10 @@
+id: "SAES 3935-2026 saude da mulher"
+arquivo: "SAES 3935-2026 saude da mulher.html"
+sha256: "99a10ca3ab645a1b07607c3a195444769988abaf4ecee02a56a10a290bc3b0dc"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 5588
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

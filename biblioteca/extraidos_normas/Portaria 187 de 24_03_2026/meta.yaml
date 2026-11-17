@@ -1,0 +1,16 @@
+id: "Portaria 187 de 24_03_2026"
+arquivo: "Portaria 187 de 24_03_2026.pdf"
+processo_sei: ""
+sha256: "10eb8f0b5f411bde6fd40d12502a4e55f51eb770e4cc64a918754bbedc63d756"
+paginas: 23
+chars_texto: 83120
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:11"

@@ -1,0 +1,36 @@
+id: "pt_ses_03"
+arquivo: "pt_ses_03_030976-2026.pdf"
+processo_sei: "030976-2026"
+sha256: "ebbeb5f2aa0dc590ab2f2758733fceb3648efba9ede8bef5285f6b8e20e9f520"
+paginas: 29
+chars_texto: 36320
+tabelas_total: 18
+tabelas_por_pagina:
+  pagina_2: 1
+  pagina_4: 1
+  pagina_9: 1
+  pagina_11: 1
+  pagina_12: 1
+  pagina_14: 1
+  pagina_15: 1
+  pagina_16: 1
+  pagina_17: 1
+  pagina_20: 1
+  pagina_21: 1
+  pagina_22: 1
+  pagina_23: 1
+  pagina_24: 1
+  pagina_25: 1
+  pagina_26: 1
+  pagina_27: 1
+  pagina_28: 1
+prosa_reclassificada_total: 2
+prosa_reclassificada_por_pagina:
+  pagina_7: 1
+  pagina_29: 1
+paginas_ajustadas: []
+paginas_sem_texto: [1]
+paginas_ocr: [1]
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.10"
+data_extracao: "2026-08-17T01:36:55"

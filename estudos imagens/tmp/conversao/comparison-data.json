@@ -1,0 +1,2009 @@
+[
+  [
+    "0201010542",
+    "BIOPSIA PERCUTANEA ORIENTADA POR TOMOGRAFIA COMPUTADORIZADA / ULTRASSONOGRAFIA / RESSONANCIA MAGNE",
+    1,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Biópsia guiada por imagem"
+  ],
+  [
+    "0204010012",
+    "DACRIOCISTOGRAFIA",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010020",
+    "PLANIGRAFIA DE LARINGE",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010039",
+    "RADIOGRAFIA BILATERAL DE ORBITAS (PA + OBLIQUAS + HIRTZ)",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010047",
+    "RADIOGRAFIA DE ARCADA ZIGOMATICO-MALAR (AP+ OBLIQUAS)",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010055",
+    "RADIOGRAFIA DE ARTICULACAO TEMPORO-MANDIBULAR BILATERAL",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010063",
+    "RADIOGRAFIA DE CAVUM (LATERAL + HIRTZ)",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010071",
+    "RADIOGRAFIA DE CRANIO (PA + LATERAL + OBLIQUA / BRETTON + HIRTZ)",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010080",
+    "RADIOGRAFIA DE CRANIO (PA + LATERAL)",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010098",
+    "RADIOGRAFIA DE LARINGE",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010101",
+    "RADIOGRAFIA DE MASTOIDE / ROCHEDOS (BILATERAL)",
+    3,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010110",
+    "RADIOGRAFIA DE MAXILAR (PA + OBLIQUA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010128",
+    "RADIOGRAFIA DE OSSOS DA FACE (MN + LATERAL + HIRTZ)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010136",
+    "RADIOGRAFIA DE REGIAO ORBITARIA (LOCALIZACAO DE CORPO ESTRANHO)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010144",
+    "RADIOGRAFIA DE SEIOS DA FACE (FN + MN + LATERAL + HIRTZ)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010152",
+    "RADIOGRAFIA DE SELA TURSICA (PA + LATERAL + BRETTON)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010160",
+    "RADIOGRAFIA OCLUSAL",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010179",
+    "RADIOGRAFIA PANORAMICA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010195",
+    "SIALOGRAFIA (POR GLANDULA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010209",
+    "TELERADIOGRAFIA COM TRACADOS E SEM TRACADOS",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204010217",
+    "RADIOGRAFIA INTERPROXIMAL (BITE WING)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020018",
+    "MIELOGRAFIA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020026",
+    "PLANIGRAFIA DE COLUNA VERTEBRAL",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020034",
+    "RADIOGRAFIA DE COLUNA CERVICAL (AP + LATERAL + TO + OBLIQUAS)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020042",
+    "RADIOGRAFIA DE COLUNA CERVICAL (AP + LATERAL + TO / FLEXAO)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020050",
+    "RADIOGRAFIA DE COLUNA CERVICAL FUNCIONAL / DINAMICA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020069",
+    "RADIOGRAFIA DE COLUNA LOMBO-SACRA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020077",
+    "RADIOGRAFIA DE COLUNA LOMBO-SACRA (C/ OBLIQUAS)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020085",
+    "RADIOGRAFIA DE COLUNA LOMBO-SACRA FUNCIONAL / DINAMICA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020093",
+    "RADIOGRAFIA DE COLUNA TORACICA (AP + LATERAL)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020107",
+    "RADIOGRAFIA DE COLUNA TORACO-LOMBAR",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020115",
+    "RADIOGRAFIA DE COLUNA TORACO-LOMBAR DINAMICA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020123",
+    "RADIOGRAFIA DE REGIAO SACRO-COCCIGEA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204020131",
+    "RADIOGRAFIA PANORAMICA DE COLUNA TOTAL- TELESPONDILOGRAFIA ( P/ ESCOLIOSE)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030013",
+    "BRONCOGRAFIA UNILATERAL",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030021",
+    "DUCTOGRAFIA (POR MAMA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030030",
+    "MAMOGRAFIA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Mamografia e procedimentos associados"
+  ],
+  [
+    "0204030048",
+    "MARCACAO PRE-CIRURGICA DE LESAO NAO PALPAVEL DE MAMA ASSOCIADA A MAMOGRAFIA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Mamografia e procedimentos associados"
+  ],
+  [
+    "0204030056",
+    "RADIOGRAFIA DE CORACAO E VASOS DA BASE (PA + LATERAL + OBLIQUA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030064",
+    "RADIOGRAFIA DE CORACAO E VASOS DA BASE (PA + LATERAL)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030072",
+    "RADIOGRAFIA DE COSTELAS (POR HEMITORAX)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030080",
+    "RADIOGRAFIA DE ESOFAGO",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030099",
+    "RADIOGRAFIA DE ESTERNO",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030102",
+    "RADIOGRAFIA DE MEDIASTINO (PA E PERFIL)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030110",
+    "RADIOGRAFIA DE PNEUMOMEDIASTINO",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030129",
+    "RADIOGRAFIA DE TORAX (APICO-LORDORTICA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030137",
+    "RADIOGRAFIA DE TORAX (PA + INSPIRACAO + EXPIRACAO + LATERAL)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030145",
+    "RADIOGRAFIA DE TORAX (PA + LATERAL + OBLIQUA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030153",
+    "RADIOGRAFIA DE TORAX (PA E PERFIL)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030161",
+    "RADIOGRAFIA DE TORAX (PA PADRAO OIT)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030170",
+    "RADIOGRAFIA DE TORAX (PA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204030188",
+    "MAMOGRAFIA BILATERAL PARA RASTREAMENTO",
+    4,
+    "Sim",
+    "MAMOGRAFIA BILATERAL PARA RASTREAMENTO",
+    "Idêntica",
+    "Mamografia e procedimentos associados"
+  ],
+  [
+    "0204040019",
+    "RADIOGRAFIA DE ANTEBRACO",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040027",
+    "RADIOGRAFIA DE ARTICULACAO ACROMIO-CLAVICULAR",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040035",
+    "RADIOGRAFIA DE ARTICULACAO ESCAPULO-UMERAL",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040043",
+    "RADIOGRAFIA DE ARTICULACAO ESTERNO-CLAVICULAR",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040051",
+    "RADIOGRAFIA DE BRACO",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040060",
+    "RADIOGRAFIA DE CLAVICULA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040078",
+    "RADIOGRAFIA DE COTOVELO",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040086",
+    "RADIOGRAFIA DE DEDOS DA MAO",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040094",
+    "RADIOGRAFIA DE MAO",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040108",
+    "RADIOGRAFIA DE MAO E PUNHO (P/ DETERMINACAO DE IDADE OSSEA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040116",
+    "RADIOGRAFIA DE ESCAPULA/OMBRO (TRES POSICOES)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204040124",
+    "RADIOGRAFIA DE PUNHO (AP + LATERAL + OBLIQUA)",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050014",
+    "CLISTER OPACO C/ DUPLO CONTRASTE",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050022",
+    "COLANGIOGRAFIA PER-OPERATORIA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050030",
+    "COLANGIOGRAFIA POS-OPERATORIA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050049",
+    "DUODENOGRAFIA HIPOTONICA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050057",
+    "FISTULOGRAFIA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050065",
+    "HISTEROSSALPINGOGRAFIA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050073",
+    "PIELOGRAFIA ANTEROGRADA PERCUTANEA",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050081",
+    "PIELOGRAFIA ASCENDENTE",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050103",
+    "PLANIGRAFIA DE RIM S/ CONTRASTE",
+    4,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050111",
+    "RADIOGRAFIA DE ABDOMEN (AP + LATERAL / LOCALIZADA)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050120",
+    "RADIOGRAFIA DE ABDOMEN AGUDO (MINIMO DE 3 INCIDENCIAS)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050138",
+    "RADIOGRAFIA DE ABDOMEN SIMPLES (AP)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050146",
+    "RADIOGRAFIA DE ESTOMAGO E DUODENO",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050154",
+    "RADIOGRAFIA DE INTESTINO DELGADO (TRANSITO)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050162",
+    "RADIOGRAFIA P/ ESTUDO DO DELGADO C/ DUPLO CONTRASTE (ENTEROCLISE)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050170",
+    "URETROCISTOGRAFIA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204050189",
+    "UROGRAFIA VENOSA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060010",
+    "ARTROGRAFIA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060028",
+    "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES E/OU FEMUR)",
+    5,
+    "Sim",
+    "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES E/OU FÊMUR)",
+    "Texto diferente",
+    "Densitometria óssea"
+  ],
+  [
+    "0204060036",
+    "ESCANOMETRIA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060044",
+    "PLANIGRAFIA DE OSSO - SUBSIDIARIA A OUTROS EXAMES (POR PLANO)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060052",
+    "PLANIGRAFIA DE OSSO EM 2 PLANOS",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060060",
+    "RADIOGRAFIA DE ARTICULACAO COXO-FEMORAL",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060079",
+    "RADIOGRAFIA DE ARTICULACAO SACRO-ILIACA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060087",
+    "RADIOGRAFIA DE ARTICULACAO TIBIO-TARSICA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060095",
+    "RADIOGRAFIA DE BACIA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060109",
+    "RADIOGRAFIA DE CALCANEO",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060117",
+    "RADIOGRAFIA DE COXA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060125",
+    "RADIOGRAFIA DE JOELHO (AP + LATERAL)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060133",
+    "RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + AXIAL)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060141",
+    "RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + OBLIQUA + 3 AXIAIS)",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060150",
+    "RADIOGRAFIA DE PE / DEDOS DO PE",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060168",
+    "RADIOGRAFIA DE PERNA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0204060176",
+    "RADIOGRAFIA PANORAMICA DE MEMBROS INFERIORES",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia"
+  ],
+  [
+    "0205010016",
+    "ECOCARDIOGRAFIA DE ESTRESSE",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Ecocardiografia"
+  ],
+  [
+    "0205010024",
+    "ECOCARDIOGRAFIA TRANSESOFAGICA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Ecocardiografia"
+  ],
+  [
+    "0205010032",
+    "ECOCARDIOGRAFIA TRANSTORACICA",
+    5,
+    "Sim",
+    "ECOCARDIOGRAFIA TRANSTORACICA",
+    "Idêntica",
+    "Ecocardiografia"
+  ],
+  [
+    "0205010040",
+    "ULTRASSONOGRAFIA DOPPLER COLORIDO DE VASOS",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DOPPLER COLORIDO DE VASOS",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205010059",
+    "ULTRASSONOGRAFIA DOPPLER DE FLUXO OBSTETRICO",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DOPPLER DE FLUXO OBSTETRICO",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020011",
+    "ECODOPPLER TRANSCRANIANO",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020020",
+    "PAQUIMETRIA ULTRASSONICA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020038",
+    "ULTRASSONOGRAFIA DE ABDOMEN SUPERIOR",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE ABDOMEN SUPERIOR",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020046",
+    "ULTRASSONOGRAFIA DE ABDOMEN TOTAL",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE ABDOMEN TOTAL",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020054",
+    "ULTRASSONOGRAFIA DE APARELHO URINARIO",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE APARELHO URINARIO",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020062",
+    "ULTRASSONOGRAFIA DE ARTICULACAO",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE ARTICULACAO",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020070",
+    "ULTRASSONOGRAFIA DE BOLSA ESCROTAL",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE BOLSA ESCROTAL",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020089",
+    "ULTRASSONOGRAFIA DE GLOBO OCULAR / ORBITA (MONOCULAR)",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE GLOBO OCULAR / ORBITA (MONOCULAR)",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020097",
+    "ULTRASSONOGRAFIA MAMARIA BILATERAL",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA MAMARIA BILATERAL",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020100",
+    "ULTRASSONOGRAFIA DE PROSTATA POR VIA ABDOMINAL",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE PROSTATA POR VIA ABDOMINAL",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020119",
+    "ULTRASSONOGRAFIA DE PROSTATA (VIA TRANSRETAL)",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE PROSTATA (VIA TRANSRETAL)",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020127",
+    "ULTRASSONOGRAFIA DE TIREOIDE",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE TIREOIDE",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020135",
+    "ULTRASSONOGRAFIA DE TORAX (EXTRACARDIACA)",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA DE TORAX (EXTRACARDIACA)",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020143",
+    "ULTRASSONOGRAFIA OBSTETRICA",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA OBSTÉTRICA",
+    "Texto diferente",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020151",
+    "ULTRASSONOGRAFIA OBSTETRICA C/ DOPPLER COLORIDO E PULSADO",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA OBSTETRICA C/ DOPPLER COLORIDO E PULSADO",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020160",
+    "ULTRASSONOGRAFIA PELVICA (GINECOLOGICA)",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA PELVICA (GINECOLOGICA)",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020178",
+    "ULTRASSONOGRAFIA TRANSFONTANELA",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA TRANSFONTANELA",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020186",
+    "ULTRASSONOGRAFIA TRANSVAGINAL",
+    5,
+    "Sim",
+    "ULTRASSONOGRAFIA TRANSVAGINAL",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020194",
+    "MARCACAO DE LESAO PRE-CIRURGICA DE LESAO NAO PALPAVEL DE MAMA ASSOCIADA A ULTRASSONOGRAFIA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Ultrassonografia"
+  ],
+  [
+    "0205020224",
+    "ELASTOGRAFIA HEPÁTICA ULTRASSÔNICA",
+    5,
+    "Sim",
+    "ELASTOGRAFIA HEPÁTICA ULTRASSÔNICA",
+    "Idêntica",
+    "Ultrassonografia"
+  ],
+  [
+    "0206010010",
+    "TOMOGRAFIA COMPUTADORIZADA DE COLUNA CERVICAL C/ OU S/ CONTRASTE",
+    5,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE COLUNA CERVICAL C/ OU S/ CONTRASTE",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206010028",
+    "TOMOGRAFIA COMPUTADORIZADA DE COLUNA LOMBO-SACRA C/ OU S/ CONTRASTE",
+    5,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE COLUNA LOMBO-SACRA C/ OU S/ CONTRASTE",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206010036",
+    "TOMOGRAFIA COMPUTADORIZADA DE COLUNA TORACICA C/ OU S/ CONTRASTE",
+    5,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE COLUNA TORACICA C/ OU S/ CONTRASTE",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206010044",
+    "TOMOGRAFIA COMPUTADORIZADA DE FACE / SEIOS DA FACE / ARTICULACOES TEMPORO-MANDIBULARES",
+    5,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE FACE / SEIOS DA FACE / ARTICULACOES TEMPORO-MANDIBULARES",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206010052",
+    "TOMOGRAFIA COMPUTADORIZADA DO PESCOCO",
+    5,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DO PESCOCO",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206010060",
+    "TOMOGRAFIA COMPUTADORIZADA DE SELA TURCICA",
+    5,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE SELA TURCICA",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206010079",
+    "TOMOGRAFIA COMPUTADORIZADA DO CRANIO",
+    5,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DO CRÂNIO",
+    "Texto diferente",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206010087",
+    "TOMOMIELOGRAFIA COMPUTADORIZADA",
+    5,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206010095",
+    "TOMOGRAFIA POR EMISSAO DE POSITRONS (PET-CT)",
+    6,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Medicina nuclear"
+  ],
+  [
+    "0206020015",
+    "TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO SUPERIOR",
+    6,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO SUPERIOR",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206020023",
+    "TOMOGRAFIA COMPUTADORIZADA DE SEGMENTOS APENDICULARES - (BRACO, ANTEBRACO, MAO, COXA, PERNA, PE)",
+    6,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE SEGMENTOS APENDICULARES (BRAÇO, ANTEBRAÇO, MÃO, COXA, PERNA, PE)",
+    "Texto diferente",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206020031",
+    "TOMOGRAFIA COMPUTADORIZADA DE TORAX",
+    6,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE TÓRAX",
+    "Texto diferente",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206030010",
+    "TOMOGRAFIA COMPUTADORIZADA DE ABDOMEN SUPERIOR",
+    6,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE ABDOMEN SUPERIOR",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206030029",
+    "TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO INFERIOR",
+    6,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE ARTICULACOES DE MEMBRO INFERIOR",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0206030037",
+    "TOMOGRAFIA COMPUTADORIZADA DE PELVE / BACIA / ABDOMEN INFERIOR",
+    6,
+    "Sim",
+    "TOMOGRAFIA COMPUTADORIZADA DE PELVE / BACIA / ABDOMEN INFERIOR",
+    "Idêntica",
+    "Tomografia computadorizada"
+  ],
+  [
+    "0207010013",
+    "ANGIORESSONANCIA CEREBRAL",
+    6,
+    "Sim",
+    "ANGIORESSONANCIA CEREBRAL",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207010021",
+    "RESSONANCIA MAGNETICA DE ARTICULACAO TEMPORO-MANDIBULAR (BILATERAL)",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE ARTICULACAO TEMPORO-MANDIBULAR (BILATERAL)",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207010030",
+    "RESSONANCIA MAGNETICA DE COLUNA CERVICAL/PESCOCO",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE COLUNA CERVICAL/PESCOÇO",
+    "Texto diferente",
+    "Ressonância magnética"
+  ],
+  [
+    "0207010048",
+    "RESSONANCIA MAGNETICA DE COLUNA LOMBO-SACRA",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE COLUNA LOMBO-SACRA",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207010056",
+    "RESSONANCIA MAGNETICA DE COLUNA TORACICA",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE COLUNA TORACICA",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207010064",
+    "RESSONANCIA MAGNETICA DE CRANIO",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE CRANIO",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207010072",
+    "RESSONANCIA MAGNETICA DE SELA TURCICA",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE SELA TURCICA",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207020019",
+    "RESSONANCIA MAGNETICA DE CORACAO / AORTA C/ CINE",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE CORACAO / AORTA C/ CINE",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207020027",
+    "RESSONANCIA MAGNETICA DE MEMBRO SUPERIOR (UNILATERAL)",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE MEMBRO SUPERIOR (UNILATERAL)",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207020035",
+    "RESSONANCIA MAGNETICA DE TORAX",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE TORAX",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207020060",
+    "RESSONÂNCIA MAGNÉTICA DA MAMA",
+    6,
+    "Sim",
+    "RESSONÂNCIA MAGNÉTICA DA MAMA",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207030014",
+    "RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207030022",
+    "RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207030030",
+    "RESSONANCIA MAGNETICA DE MEMBRO INFERIOR (UNILATERAL)",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE MEMBRO INFERIOR (UNILATERAL)",
+    "Idêntica",
+    "Ressonância magnética"
+  ],
+  [
+    "0207030049",
+    "RESSONANCIA MAGNETICA DE VIAS BILIARES/COLANGIORRESSONANCIA",
+    6,
+    "Sim",
+    "RESSONANCIA MAGNETICA DE VIAS BILIARES / COLANGIORESSONÂNCIA",
+    "Texto diferente",
+    "Ressonância magnética"
+  ],
+  [
+    "0207030057",
+    "RESSONÂNCIA MAGNÈTICA MULTIPARAMÈTRICA DA PROSTATA",
+    6,
+    "Sim",
+    "RESSONÂNCIA MAGNÉTICA MULTIPARAMÉTRICA DA PRÓSTATA",
+    "Texto diferente",
+    "Ressonância magnética"
+  ],
+  [
+    "0208010017",
+    "CINTILOGRAFIA DE CORACAO C/ GALIO 67",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE CORACAO C/ GALIO 67",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208010025",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208010033",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208010041",
+    "CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE (MINIMO 3 PROJECOES )",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE (MINIMO 3 PROJEÇOES)",
+    "Texto diferente",
+    "Medicina nuclear"
+  ],
+  [
+    "0208010050",
+    "CINTILOGRAFIA P/ AVALIACAO DE FLUXO SANGUINEO DE EXTREMIDADES",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ AVALIACAO DE FLUXO SANGUINEO DE EXTREMIDADES",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208010068",
+    "CINTILOGRAFIA P/ QUANTIFICACAO DE SHUNT EXTRACARDIACO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ QUANTIFICACAO DE SHUNT EXTRACARDIACO",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208010076",
+    "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE ESFORCO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE ESFORCO",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208010084",
+    "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE REPOUSO (VENTRICULOGRAFIA)",
+    6,
+    "Sim",
+    "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE REPOUSO (VENTRICULOGRAFIA)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020012",
+    "CINTILOGRAFIA DE FIGADO E BACO (MINIMO 5 IMAGENS)",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE FIGADO E BACO (MINIMO 5 IMAGENS)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020020",
+    "CINTILOGRAFIA DE FIGADO E VIAS BILIARES",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE FIGADO E VIAS BILIARES",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020039",
+    "CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTIMULO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTÍMULO",
+    "Texto diferente",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020055",
+    "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (LIQUIDO)",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (Líquido)",
+    "Texto diferente",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020063",
+    "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO)",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020071",
+    "CINTILOGRAFIA P/ ESTUDO DE TRANSITO GASTRICO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ ESTUDO DE TRANSITO GASTRICO",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020080",
+    "CINTILOGRAFIA P/ PESQUISA DE DIVERTICULOSE DE MECKEL",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ PESQUISA DE DIVERTICULOSE DE MECKEL",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020098",
+    "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA ATIVA",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA ATIVA",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020101",
+    "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA NAO ATIVA",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA NAO ATIVA",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208020110",
+    "CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFAGICO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFÁGICO",
+    "Texto diferente",
+    "Medicina nuclear"
+  ],
+  [
+    "0208030018",
+    "CINTILOGRAFIA DE PARATIREOIDES",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE PARATIREOIDES",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208030026",
+    "CINTILOGRAFIA DE TIREOIDE COM OU SEM CAPTACAO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE TIREÓIDE COM OU SEM CAPTAÇÃO",
+    "Texto diferente",
+    "Medicina nuclear"
+  ],
+  [
+    "0208030034",
+    "CINTILOGRAFIA DE TIREOIDE C/ TESTE DE SUPRESSAO / ESTIMULO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE TIREOIDE C/ TESTE DE SUPRESSAO / Estímulo",
+    "Texto diferente",
+    "Medicina nuclear"
+  ],
+  [
+    "0208030042",
+    "CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208040021",
+    "CINTILOGRAFIA DE RIM C/ GALIO 67",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE RIM C/ GALIO 67",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208040056",
+    "CINTILOGRAFIA RENAL/RENOGRAMA (QUALITATIVA E/OU QUANTITATIVA)",
+    6,
+    "Sim",
+    "CINTILOGRAFIA RENAL/RENOGRAMA (QUALITATIVA E/OU QUANTITATIVA)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208040064",
+    "CISTOCINTILOGRAFIA DIRETA",
+    6,
+    "Sim",
+    "CISTOCINTILOGRAFIA DIRETA",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208040072",
+    "CISTOCINTILOGRAFIA INDIRETA",
+    6,
+    "Sim",
+    "CISTOCINTILOGRAFIA INDIRETA",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208040080",
+    "DETERMINACAO DE FILTRACAO GLOMERULAR",
+    6,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208040099",
+    "DETERMINACAO DE FLUXO PLASMATICO RENAL",
+    6,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208040102",
+    "ESTUDO RENAL DINAMICO C/ OU S/ DIURETICO",
+    6,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208050019",
+    "CINTILOGRAFIA DE ARTICULACOES E/OU EXTREMIDADES E/OU OSSO",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE ARTICULACOES E/OU EXTREMIDADES E/OU OSSO",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208050035",
+    "CINTILOGRAFIA DE OSSOS COM OU SEM FLUXO SANGUINEO (CORPO INTEIRO)",
+    6,
+    "Sim",
+    "CINTILOGRAFIA DE OSSOS COM OU SEM FLUXO SANGUÍNEO (CORPO INTEIRO)",
+    "Texto diferente",
+    "Medicina nuclear"
+  ],
+  [
+    "0208050043",
+    "CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208060014",
+    "CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO)",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208060022",
+    "CISTERNOCINTILOGRAFIA (INCLUINDO PESQUISA E/OU AVALIACAO DO TRANSITO LIQUORICO)",
+    7,
+    "Sim",
+    "CISTERNOCINTILOGRAFIA (INCLUINDO PESQUISA E/OU AVALIACAO DO TRANSITO LIQUORICO)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208060030",
+    "ESTUDO DE FLUXO SANGUINEO CEREBRAL",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208070010",
+    "CINTILOGRAFIA DE PULMAO C/ GALIO 67",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE PULMAO C/ GALIO 67",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208070028",
+    "CINTILOGRAFIA DE PULMÃO P/ PESQUISA DE ASPIRAÇÃO",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE PULMÃO P/ PESQUISA DE ASPIRAÇÃO",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208070036",
+    "CINTILOGRAFIA DE PULMAO POR INALACAO (MINIMO 2 PROJECOES)",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE PULMAO POR INALACAO (MINIMO 2 PROJECOES)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208070044",
+    "CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES)",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208080040",
+    "LINFOCINTILOGRAFIA",
+    7,
+    "Sim",
+    "LINFOCINTILOGRAFIA",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208090010",
+    "CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208090029",
+    "CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA)",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0208090037",
+    "CINTILOGRAFIA DE MAMA (BILATERAL)",
+    7,
+    "Sim",
+    "CINTILOGRAFIA DE MAMA (BILATERAL)",
+    "Idêntica",
+    "Medicina nuclear"
+  ],
+  [
+    "0210010029",
+    "ANGIOGRAFIA DE ARCO AÓRTICO",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010037",
+    "ANGIOGRAFIA DE ARCO AORTICO E TRONCOS SUPRA-AORTICOS",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010045",
+    "AORTOGRAFIA ABDOMINAL",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010053",
+    "AORTOGRAFIA TORACICA",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010061",
+    "ARTERIOGRAFIA CERVICO-TORACICA",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010070",
+    "ARTERIOGRAFIA DE MEMBRO",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010088",
+    "ARTERIOGRAFIA DIGITAL (POR VIA VENOSA)",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010096",
+    "ARTERIOGRAFIA P/ INVESTIGACAO DE DOENCA ARTERIOSCLEROTICA AORTO-ILIACA E DISTAL",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010100",
+    "ARTERIOGRAFIA P/ INVESTIGACAO DE HEMORRAGIA CEREBRAL",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010118",
+    "ARTERIOGRAFIA P/ INVESTIGACAO DE ISQUEMIA CEREBRAL",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010126",
+    "ARTERIOGRAFIA PELVICA",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010134",
+    "ARTERIOGRAFIA SELETIVA DE CAROTIDA",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010142",
+    "ARTERIOGRAFIA SELETIVA POR CATETER (POR VASO)",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010150",
+    "ARTERIOGRAFIA SELETIVA VERTEBRAL",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010169",
+    "ESPLENOPORTOGRAFIA",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010177",
+    "FLEBOGRAFIA DE MEMBRO",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010185",
+    "FLEBOGRAFIA DE CAVA INFERIOR E/OU SUPERIOR",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010193",
+    "LINFANGIOADENOGRAFIA",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210010207",
+    "PORTOGRAFIA TRANS-HEPATICA",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0210020016",
+    "COLANGIOGRAFIA TRANSCUTANEA",
+    7,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Radiologia intervencionista"
+  ],
+  [
+    "0211060011",
+    "BIOMETRIA ULTRASSONICA (MONOCULAR)",
+    8,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Imagem oftalmológica"
+  ],
+  [
+    "0211060143",
+    "MICROSCOPIA ESPECULAR DE CORNEA",
+    8,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Imagem oftalmológica"
+  ],
+  [
+    "0211060178",
+    "RETINOGRAFIA COLORIDA BINOCULAR",
+    8,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Imagem oftalmológica"
+  ],
+  [
+    "0211060186",
+    "RETINOGRAFIA FLUORESCENTE BINOCULAR",
+    8,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Imagem oftalmológica"
+  ],
+  [
+    "0211060267",
+    "TOPOGRAFIA COMPUTADORIZADA DE CORNEA",
+    8,
+    "Não localizado",
+    null,
+    "Não se aplica",
+    "Imagem oftalmológica"
+  ],
+  [
+    "0501080090",
+    "ULTRASSONOGRAFIA DE ORGAO TRANSPLANTADO",
+    15,
+    "Sim",
+    "ULTRASSONOGRAFIA DE ORGAO TRANSPLANTADO",
+    "Idêntica",
+    "Ultrassonografia"
+  ]
+]

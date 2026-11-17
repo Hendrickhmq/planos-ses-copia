@@ -1,0 +1,12 @@
+{
+ "nota": "Medida complementar no motor, mesma recarga (qLastReloadTime 2026-10-26T19:32:44.246Z, conferido antes e depois), consulta de 26/10/2026 17:12:50 a 17:13:08: as filas de 15/10 que a busca por nome desta coleta não apanhou (sem termo de imagem no nome). Recorte descrição_procedimento_solicitacao={\"*CATETERISMO*\",\"*ORGAOS INTERNOS*\"}; agendadas pelo nome, de 26/10/2025 a 25/10/2026.",
+ "consulta": "26/10/2026 17:12:50 a 17:13:08",
+ "recarga_utc": "2026-10-26T19:32:44.246Z",
+ "cols": ["nome_sisreg", "codigo_sigtap", "fila", "fila_viva", "pessoas", "devolvidas", "espera_media", "espera_mediana", "agendadas_12m"],
+ "filas": [
+  ["ORGAOS INTERNOS DO TORAX I", null, 1, 1, 1, 6, 133.2, 133.2, null],
+  ["ORGAOS INTERNOS DO TORAX II", null, 1, 1, 1, 2, 94.3, 94.3, null],
+  ["CATETERISMO CARDIACO EM PEDIATRIA", "211020028", 2, 2, 2, 12, 6.3, 6.3, 85],
+  ["CATETERISMO", "211020010", 11, 11, 11, 878, 3.2, 3.4, 7543]
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/redacao_08",
+ "pedido": "P5, incompleto: a OCI de insuficiência cardíaca sem o CID da finalidade e sem a ficha na pasta",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "regiao"
+ ],
+ "objetos": [
+  {
+   "id": "09.02.01.006-9",
+   "tipo": "oci",
+   "nome": "insuficiência cardíaca",
+   "ficha": "dados/fontes/sigtap_0902010069_102026.md",
+   "codigos": [
+    "02.11.02.003-6",
+    "02.11.02.004-4"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "ELETROCARDIOGRAMA",
+     "papel": "exame",
+     "obrigatorio": true
+    }
+   ]
+  }
+ ]
+}

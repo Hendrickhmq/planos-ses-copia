@@ -1,0 +1,6 @@
+,N60 - Displasias Mamárias Benignas N61 - Transtornos Inflamatórios da Mama N62 - Hipertrofia da Mama N63 - Nódulo Mamário Não Especificado N64 - Outras Doenças da Mama
+Categoria CBO,2231- Médicos 2251- Médicos Clínicos 2252- Médicos em Especialidades Cirúrgicas 2253- Médicos em Medicina Diagnóstica e Terapêutica 225250 - Médico ginecologista e obstetra
+Quantidade Máxima,1
+Atributo Complementar,009- Exige CPF/CNS 053- Programa Mais Acesso a Especialistas (PMAE) 054- APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO 0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso a Especialistas

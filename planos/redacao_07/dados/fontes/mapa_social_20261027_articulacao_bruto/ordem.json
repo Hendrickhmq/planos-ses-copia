@@ -1,0 +1,220 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/redacao_07",
+ "pedido": "US de articulação 02.05.02.006-2 completa para o R$ 1,5 mi de imagem (Emenda 71080005): fila, viva, devolvidas, por nome de fila, dentro e fora do CID da OCI 09.03.01.002-0 do IEV, região, idade, CID, ano e entrantes por mês",
+ "saida": "transcricao",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "regiao",
+  "idade",
+  "cid",
+  "entrantes",
+  "ano"
+ ],
+ "objetos": [
+  {
+   "id": "02.05.02.006-2",
+   "tipo": "exame",
+   "nome": "Ultrassonografia de articulação",
+   "codigos": [
+    "02.05.02.006-2"
+   ],
+   "filas": [
+    {
+     "nome": "USG MAO ESQUERDA"
+    },
+    {
+     "nome": "USG QUADRIL"
+    },
+    {
+     "nome": "USG PE DIREITO"
+    },
+    {
+     "nome": "USG PE ESQUERDO"
+    },
+    {
+     "nome": "USG MAO DIREITA"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO COXA DIREITA"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO COXA ESQUERDA"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA DO CALCANEO"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA DO DEDO"
+    },
+    {
+     "nome": "USG TENDAO DE AQUILES ESQUERDO"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO OMBRO E ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO PUNHO E ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO TORNOZELO E ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO COTOVELO E ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO COXO-FEMURAL E ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO JOELHO D ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO COXO-FEMURAL D INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO COXO-FEMURAL E INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO JOELHO E INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO JOELHO D INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO COTOVELO D INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO PUNHO D INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO PUNHO E INFANTIL"
+    },
+    {
+     "nome": "USG OMBRO ESQUERDO"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO NAO LISTADA"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO COTOVELO E INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO COXO-FEMURAL D ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO OMBRO D ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO PUNHO D ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO TORNOZELO D ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO JOELHO E ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO COTOVELO D ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DE QUADRIL DIREITO"
+    },
+    {
+     "nome": "ECOGRAFIA DE QUADRIL ESQUERDO"
+    },
+    {
+     "nome": "USG TENDAO DE AQUILES DIREITO"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO TORNOZELO E INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA  DE ARTICULACAO TORNOZELO D INFANTIL"
+    },
+    {
+     "nome": "ECOGRAFIA  DE PARTES MOLES"
+    },
+    {
+     "nome": "ECOGRAFIA DE REGIÃO INGUINAL ESQUERDO"
+    },
+    {
+     "nome": "ECOGRAFIA DE REGIAO INGUINAL DIREITO"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA DA REGIAO INGUINAL"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA DO PESCOCO"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA COM DOPPLER COLORIDO DE REGIAO CERVICAL"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA CERVICAL"
+    },
+    {
+     "nome": "ULTRA-SONOGRAFIA DE REGIAO CERVICAL (PESCOCO)"
+    },
+    {
+     "nome": "USG PERNA ESQUERDA"
+    },
+    {
+     "nome": "USG PERNA DIREITA"
+    },
+    {
+     "nome": "USG ESTRUTURA SUPERFICIE"
+    },
+    {
+     "nome": "USG BRACO DIREITO"
+    },
+    {
+     "nome": "ECOGRAFIA PELVICA"
+    },
+    {
+     "nome": "USB AXILA DIREITA"
+    },
+    {
+     "nome": "USG BRACO ESQUERDO"
+    },
+    {
+     "nome": "USG ANTEBRACO ESQUERDO"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA DA REGIAO LOMBAR"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA DAS GLANDULAS SUBMANDIBULARES"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA DA BACIA"
+    },
+    {
+     "nome": "ECOGRAFIA DE ARTICULACAO COLUNA LOMBAR"
+    },
+    {
+     "nome": "USG COXA DIREITA"
+    },
+    {
+     "nome": "USG AXILA ESQUERDA"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA DA REGIAO GLUTEA"
+    },
+    {
+     "nome": "DOPPLER DE AORTA E ILIACA"
+    }
+   ],
+   "recortes": [
+    {
+     "rotulo": "CID da OCI 09.03.01.002-0",
+     "cid": "codigo_cid_solicitado={\"I234\",\"I511\",\"M122\",\"M236\",\"M65\",\"M650\",\"M651\",\"M652\",\"M654\",\"M658\",\"M659\",\"M66\",\"M662\",\"M663\",\"M664\",\"M665\",\"M673\",\"M680\",\"M700\",\"M87\",\"M871\",\"M872\",\"M873\",\"M878\",\"M879\",\"M903\",\"M904\",\"M905\",\"S532\",\"S533\",\"S633\",\"S932\"}"
+    },
+    {
+     "rotulo": "fora do CID da OCI 09.03.01.002-0",
+     "cid": "codigo_cid_solicitado-={\"I234\",\"I511\",\"M122\",\"M236\",\"M65\",\"M650\",\"M651\",\"M652\",\"M654\",\"M658\",\"M659\",\"M66\",\"M662\",\"M663\",\"M664\",\"M665\",\"M673\",\"M680\",\"M700\",\"M87\",\"M871\",\"M872\",\"M873\",\"M878\",\"M879\",\"M903\",\"M904\",\"M905\",\"S532\",\"S533\",\"S633\",\"S932\"}"
+    }
+   ]
+  }
+ ]
+}

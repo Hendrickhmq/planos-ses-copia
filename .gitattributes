@@ -1,0 +1,16 @@
+# Nenhuma conversao de fim de linha, em nenhum computador.
+#
+# A conferencia manual e ancorada no sha256 do conteudo (registros/conferencia.csv)
+# e o tratamento promete que normalizados/ se reconstroi byte a byte. As duas coisas
+# so valem se o arquivo tiver os mesmos bytes no Mac e no Windows - e o Git para
+# Windows, com core.autocrlf=true, troca LF por CRLF no checkout. Foi o que fez a
+# conferencia do pt_ses_05 aparecer como CADUCOU no segundo computador.
+#
+# As CSVs saem do modulo csv com CRLF; o resto sai com LF. Os dois ficam exatamente
+# como estao no repositorio.
+* -text
+
+*.pdf  binary
+*.docx binary
+*.xlsx binary
+*.png  binary

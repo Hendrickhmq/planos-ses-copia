@@ -1,0 +1,17 @@
+id: "RETIFICACAO anexo II 2331"
+arquivo: "RETIFICACAO anexo II 2331.pdf"
+processo_sei: ""
+sha256: "f01c8e968b9540a11a5d08b52f981ac23ba9db8482cb9dcc73345f9debcad576"
+paginas: 1
+chars_texto: 962
+tabelas_total: 4
+tabelas_por_pagina:
+  pagina_1: 4
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:45:04"

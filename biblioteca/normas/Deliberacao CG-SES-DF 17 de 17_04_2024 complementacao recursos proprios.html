@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+    <html>
+
+    <head id="Head1"><meta content="IE=Edge" http-equiv="X-UA-Compatible"/><meta content="pt-br" http-equiv="Content-Language"/><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/><title>
+	
+            Deliberação 17 de 17/04/2024
+        
+</title><meta name="keywords" content="Deliberação 17 de 17/04/2024,sinj,distrito,federal,df"/><meta name="description" content="[Aprova, por unanimidade, a necessidade manifestada dos serviços complementares de saúde na área de Transplante de Medula Óssea, visando atender as necessidades de assistência da Secretaria de Estado de Saúde do Distrito Federal - SES/DF]."/><meta content="index,follow" name="robots"/><meta content="index,follow" name="googlebot"/><script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/platform.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/liblight.js"></script>
+
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/funcoes_norma.js?4.4.00134"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/ckeditor/adapters/jquery.js"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.form.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.cookie.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/on_error.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/liblight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/stacktrace.js"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.ajaxLight.js?3.2.00001"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.autocompleteLight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jMenu.jquery.min.js"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.modalLight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/login.js?3.2.00001"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/funcoes_sinj.js?3.2.00001"
+            charset="utf-8"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/sessao_sinj.js?3.2.00001"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/stacktable.js"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/platform.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/tooltip.js"></script>
+
+        <script type="text/javascript" language="javascript">
+            function Print() {
+                $('div.control').hide();
+                window.print();
+                $('div.control').show();
+            }
+            function exibirAlteracoes(el) {
+                if (el.getAttribute('refresh')) {
+                    location.reload();
+                }
+                else {
+
+                    // NOTE: Essa funcionalidade faz com o que o texto alterado "se transforme" 
+                    // em compilado (basicamente remove informações de vide), mas define 
+                    // um comportamento diferenciado para para os parágrafos que contiverem 
+                    // vides com os seguintes textos no link "revogado pelo(a)" ou 
+                    // "declarado(a) inconstitucional pelo(a)". By Questor
+                    
+                    var regex = undefined;
+                    regex = new RegExp(/Revogado.*?pelo\(a\)/);
+                    $('p[replaced_by]:contains("Revogado")').each(function (k, p) {
+                        if (regex.test($(p).text())) {
+                            var aLinkVide = $('a.link_vide', $(p));
+                            if (aLinkVide.length > 0) {
+                                var aTexto = $(aLinkVide[aLinkVide.length - 1]).text();
+                                if (regex.test(aTexto)) {
+                                    var ds = generateDescriptionToParagraph($(p).text());
+                                    $(p).text(ds + ' ');
+                                    $(aLinkVide[aLinkVide.length - 1]).appendTo($(p));
+                                    $(p).removeAttr('replaced_by');
+                                }
+                            }
+                        }
+                    });
+                    regex = new RegExp(/Inconstitucional.*?pelo\(a\)/);
+                    $('p[replaced_by]:contains("Inconstitucional")').each(function (k, p) {
+                        if (regex.test($(p).text())) {
+                            var aLinkVide = $('a.link_vide', $(p));
+                            if (aLinkVide.length > 0) {
+                                var aTexto = $(aLinkVide[aLinkVide.length - 1]).text();
+                                if (regex.test(aTexto)) {
+                                    var ds = generateDescriptionToParagraph($(p).text());
+                                    $(p).text(ds + ' ');
+                                    $(aLinkVide[aLinkVide.length - 1]).appendTo($(p));
+                                    $(p).removeAttr('replaced_by');
+                                }
+                            }
+                        }
+                    });
+                    $('p[replaced_by]').remove();
+                    $(el).attr('refresh', '1');
+                    $(el).text('Exibir Alterações');
+                }
+            }
+
+            //Verifica os links de LECO, ordena e insere o link 'exibir mais...' e 'exibir menos...' caso exista mais de 3 links de LECO
+            function verificarLinks() {
+                var aP = $('#div_texto > p');
+                var i = 0;
+                var length = aP.length;
+                var pAfter = null;
+                var aOrder = [];
+                for (; i < length; i++) {
+                    if ($('a[href]', aP[i]).length == 1 && $('a[href]', aP[i]).text().toLowerCase().indexOf('legislação correlata') == 0) {
+                        $('a[href]', aP[i]).attr('show', '1').attr('leco', 'leco');
+                        aOrder.push({ 'text': $('a[href]', aP[i]).text(), 'href': $('a[href]', aP[i]).attr('href') });
+                        if (i >= 3) {
+                            $('a[href]', aP[i]).attr('show', '0');
+                            pAfter = aP[i];
+                        }
+                    }
+                    else {
+                        break;
+                    }
+                }
+                aOrder.sort(function (a1, a2) {
+                    return a1.text > a2.text ? 1 : a1.text < a2.text ? -1 : 0;
+                });
+                $('#div_texto a[leco="leco"]').each(function (i, o) {
+                    o.innerText = aOrder[i].text;
+                    o.href = aOrder[i].href;
+                });
+                if (pAfter != null && $('a[show="0"]').length > 3) {
+                    $('a[show="0"]').closest('p').hide();
+                    $('<p id="p_show"><a href="javascript:void(0);" onclick="exibirLinks()">Exibir mais...</a></p>').insertAfter($(pAfter));
+                    $('<p id="p_hide" style="display:none"><a href="javascript:void(0);" onclick="esconderLinks()">Exibir menos...</a></p>').insertAfter($(pAfter));
+                }
+            }
+            function exibirLinks() {
+                $('a[show="0"]').closest('p').show();
+                $('#p_hide').show();
+                $('#p_show').hide();
+            }
+            function esconderLinks() {
+                $('a[show="0"]').closest('p').hide();
+                $('#p_hide').hide();
+                $('#p_show').show();
+            }
+
+            function generateDescriptionToParagraph(text) {
+                var ds = '';
+                text = $.trim(text);
+                if (text != "") {
+                    var palavras = text.split(' ');
+                    if (palavras[0] == 'ANEXO' || palavras[0] == 'TÍTULO' || palavras[0] == 'CAPÍTULO' || palavras[0] == 'Art.' || (palavras[0] == 'Parágrafo' && palavras[1] == 'Único') || palavras[0] == '§') {
+                        ds = palavras[0] + ' ' + palavras[1];
+                    }
+                    else if (ehInciso(palavras[0]) || ehAlinea(palavras[0]) || ehNum(palavras[0])) {
+                        ds = palavras[0];
+                    }
+                    else {
+                        ds = "...";
+                    }
+                }
+                return ds;
+            }
+
+            function ehInciso(termo) {
+                var lastIndex = termo.indexOf("-");
+                if (lastIndex > 0) {
+                    termo = termo.substring(0, lastIndex);
+                }
+                return termo.match(/^[IVXLCDM]+$/i);
+            }
+
+            function ehAlinea(termo) {
+                var lastIndex = termo.indexOf(")");
+                if (lastIndex < 0) {
+                    return false;
+                }
+                if (termo.length == (lastIndex + 1)) {
+                    termo = termo.substring(0, lastIndex);
+                    return termo.match(/[a-z]/i);
+                }
+                return false;
+            }
+
+            function ehNum(termo) {
+                var lastIndex = termo.indexOf(".");
+                if (lastIndex < 0) {
+                    return false;
+                }
+                if (termo.length == (lastIndex + 1)) {
+                    termo = termo.substring(0, lastIndex);
+                    return isInt(termo);
+                }
+                return false;
+            }
+
+            $(document).ready(function () {
+                //A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378
+
+
+
+                var urlPath = window.location.pathname;
+                var urlSplited = urlPath.split("/");
+                var numeroNorma = urlSplited[3];
+
+                //Pegar o texto do h1
+                var elementoh1 = $('#div_texto > h1')[0].textContent;
+                //Adicionar a tag 'a'
+                $('#div_texto > h1')[0].innerHTML = '<a>' + elementoh1 + '</a>';
+
+                //Adicionar o link
+                $("#div_texto h1 a").attr('href', '/' + urlSplited[1] + '/DetalhesDeNorma.aspx?id_norma=' + numeroNorma).attr("target", '_blank');
+                //--------------------------------------------------------------------------------------
+
+
+
+
+                // var paragrafo = $('p');
+                // for (var i = 0; i < paragrafo.length; i++) {
+                //     if (paragrafo[i].innerText.match(/Os anexos constam no DODF/g)) {
+    
+                //         var spanParagrafo = paragrafo[i].textContent;
+                //         var form_consultar_diario = "\"form_consultar_diario\"";
+                //         var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+    
+                //         $(paragrafo)[i].innerHTML = _form + _button + "<span>" + spanParagrafo + "<span>" + "</a></form>";
+    
+                //     }
+
+                //     if (paragrafo[i].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                //         var span = paragrafo[i].textContent;
+                //         var form_consultar_diario = "\"form_consultar_diario\"";
+                //         var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var arraySpan = $("p > span");
+                //         $(paragrafo)[i].innerHTML = _form + _button + "<span style='text-decoration: underline red; color: red;' >" + span + "<span>" + "</a></form>";
+                //     }
+                // }
+                // if (!paragrafo[i - 1].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                //     $('#paginaEColuna').hide();
+                // }
+                //--------------------------------------------------------------------------------------
+
+
+
+                if ($('#div_erro').length > 0) {
+                    $('#div_norma').hide();
+                }
+                else {
+                    if ($('p[replaced_by]').length <= 0 || $('p').length == $('p[replaced_by]').length) {
+                        $('.compilado').hide();
+                    }
+                    verificarLinks();
+                }
+            });
+
+
+            var normaOVEmFunction = new normaOVEmFunction();
+            
+                //A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378
+
+
+            if (normaOVEmFunction != true) {
+
+                    var urlPath = window.location.pathname;
+                    var urlSplited = urlPath.split("/");
+                    var numeroNorma = urlSplited[3];
+
+                    //Pegar o texto do h1
+                    var elementoh1 = $('#div_texto > h1')[0].textContent;
+                    //Adicionar a tag 'a'
+                    $('#div_texto > h1')[0].innerHTML = '<a>' + elementoh1 + '</a>';
+
+                    //Adicionar o link
+                    $("#div_texto h1").attr('href', '/' + urlSplited[1] + '/DetalhesDeNorma.aspx?id_norma=' + numeroNorma).attr("target", '_blank');
+                    //--------------------------------------------------------------------------------------
+
+                //consultarDiarioAspErro
+                    var paragrafo = $('p');
+
+                    for (var i = 0; i < paragrafo.length; i++) {
+
+                        if (paragrafo[i].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                            var span = paragrafo[i].textContent;
+                            var form_consultar_diario = "\"form_consultar_diario\"";
+                            var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                            var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioAspErro(" + form_consultar_diario + ")\'>";
+                            var arraySpan = $("p > span");
+                            $(paragrafo)[i].innerHTML = _form + _button + "<span style='text-decoration: underline red; color: red;' >" + span + "<span>" + "</a></form>";
+                        }
+                    }
+                    if (!paragrafo[i - 1].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                        $('#paginaEColuna').hide();
+                    }
+                    //--------------------------------------------------------------------------------------
+
+                    if ($('#div_erro').length > 0) {
+                        $('#div_norma').hide();
+                    }
+                    else {
+                        if ($('p[replaced_by]').length <= 0 || $('p').length == $('p[replaced_by]').length) {
+                            $('.compilado').hide();
+                        }
+                        verificarLinks();
+                    }
+             }
+        </script>
+        <style type="text/css">
+            .control {
+                width: 100%;
+                float: left;
+            }
+
+            .print {
+                float: right;
+            }
+
+            .compilado {
+                float: left;
+            }
+
+            div.strike {
+                text-decoration: line-through;
+            }
+
+            body,
+            p,
+            h1 {
+                font-family: Tahoma;
+                font-size: 14px;
+            }
+
+            p[nota=nota] {
+                font-size: 12px;
+                border: 1px solid #777;
+                padding: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="div_norma">
+            <!-- A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378-->
+            
+            <!-- corpo dela epigrafe-->
+
+            <a href="/sinj/ ~/" title="Visitar o SINJ-DF - Sistema Integrado de Normas Jurídicas do
+                DF"><img src="http://www.sinj.df.gov.br/sinjpadrao/Imagens/logo_sinj.png" alt="SINJ-DF" /></a>
+
+            <div class="control">
+                <div class="compilado">
+                    <a href="javascript:void(0)" onclick="javascript:exibirAlteracoes(this);">
+                        Texto Compilado
+                    </a>
+                </div>
+                <div class="print">
+                    <a href="javascript:void(0);" onclick="javascript:Print();" title="Imprimir">
+                        <img alt="print" src="http://www.sinj.df.gov.br/sinjpadrao/Imagens/ico_print_p.png" />
+                    </a>
+                </div>
+            </div>
+            <div id="div_texto"><p ch_norma_info="8280b3d75bb94e6ba73add034862c7d4" class="adicionado"><a href="/sinj/Norma/8280b3d75bb94e6ba73add034862c7d4/ses_csdf_res_609_2024.html#art2">Legislação Correlata - Resolução 609 de 21/05/2024</a><p ch_norma_info="193b914320924e23858afc77a4c976de" class="adicionado"><a href="/sinj/Norma/193b914320924e23858afc77a4c976de/ses_cg_del_24_2024_rep.html#art5">Legislação Correlata - Deliberação 24 de 10/06/2024</a><h1 epigrafe="epigrafe" noindex="" nota="" style="font-weight:bold; text-align:center">DELIBERAÇÃO Nº 17, DE 17 DE ABRIL DE 2024 (*)</h1><p style="text-align:justify" linkname="txt_3db92b274861420872e0e62f57879d28"><a id="txt_3db92b274861420872e0e62f57879d28" name="txt_3db92b274861420872e0e62f57879d28" class="linkname"></a>O PLENÁRIO DO COLEGIADO DE GESTÃO, DA SECRETARIA DE ESTADO DE SAÚDE DO DISTRITO FEDERAL, instituído pela Resolução do Conselho de Saúde do Distrito Federal - CSDF nº 35, de 11 de dezembro de 2007, republicada no DODF nº 107, de 5 de junho de 2008, página 12, alterada pelas Resoluções do CSDF nº 282, de 05 de maio de 2009, nº 338, de 16 de novembro de 2010, nº 364, de 13 de setembro de 2011 (resoluções estas renumeradas conforme Ordem de Serviço do CSDF nº 01, de 23 de março de 2012, publicada no DODF nº 79, de 20 de abril de 2012, páginas 46 a 49) e nº 384, de 27 de março de 2012, em sua 2ª Reunião Ordinária - 2024, realizada por videoconferência, em 11 de abril de 2024, e:<p style="text-align:justify" linkname="txt_6f792f820bb44897d63df2d9c800028c"><a id="txt_6f792f820bb44897d63df2d9c800028c" name="txt_6f792f820bb44897d63df2d9c800028c" class="linkname"></a>Considerando a necessidade de disciplinar, no âmbito da Pasta, a relação entre os estabelecimentos de saúde, com ou sem fins lucrativos, na participação, no Sistema Único de Saúde, de forma complementar de assistência à saúde aos usuários do SUS/DF;<p style="text-align:justify" linkname="txt_08894423865649f711922058781085e4"><a id="txt_08894423865649f711922058781085e4" name="txt_08894423865649f711922058781085e4" class="linkname"></a>Considerando a necessidade de ampliar a rede assistencial aos usuários do SUS/DF, vez que a rede própria encontra-se com sua capacidade esgotada;<p style="text-align:justify" linkname="txt_5eb70cdc49c64a016b896119d7db8c99"><a id="txt_5eb70cdc49c64a016b896119d7db8c99" name="txt_5eb70cdc49c64a016b896119d7db8c99" class="linkname"></a>Considerando que a participação complementar da iniciativa privada no Sistema Único de Saúde está prevista na Constituição Federal e regulamentada pela Lei Orgânica de Saúde nº 8080/90;<p style="text-align:justify" linkname="txt_2ad253cfd4ad484fe4cae7037d88e3db"><a id="txt_2ad253cfd4ad484fe4cae7037d88e3db" name="txt_2ad253cfd4ad484fe4cae7037d88e3db" class="linkname"></a>Considerando que o posicionamento do Ministério Público do Distrito Federal, em Ações Civis Públicas, acatado pelos Magistrados, é no sentido de que o SUS/DF deve propiciar aos seus usuários assistência integral à saúde;<p style="text-align:justify" linkname="txt_94fdc279b54a42b1ef4d8914cebe8efc"><a id="txt_94fdc279b54a42b1ef4d8914cebe8efc" name="txt_94fdc279b54a42b1ef4d8914cebe8efc" class="linkname"></a>Considerando a existência de demanda reprimida nos atendimentos médico-assistenciais na área de Transplante de Medula Óssea;<p style="text-align:justify" linkname="txt_0393cc605ea04c70fc44ceb1ab4ca225"><a id="txt_0393cc605ea04c70fc44ceb1ab4ca225" name="txt_0393cc605ea04c70fc44ceb1ab4ca225" class="linkname"></a>Considerando o Termo de Referência registrado no 00060-00534012/2023-14;<p style="text-align:justify" linkname="txt_935d5f98cf0c444b5a7612e466a10f66"><a id="txt_935d5f98cf0c444b5a7612e466a10f66" name="txt_935d5f98cf0c444b5a7612e466a10f66" class="linkname"></a>Considerando Deliberação 17 de 03/05/2022, publicado no Diário Oficial do Distrito Federal Nº 83, 05 de maio de 2022, que aprova tabela diferenciada de remuneração de serviços complementares de Saúde para transplante e outros procedimentos;<p style="text-align:justify" linkname="txt_9d826c464a7540baa232ac33a085c9da"><a id="txt_9d826c464a7540baa232ac33a085c9da" name="txt_9d826c464a7540baa232ac33a085c9da" class="linkname"></a>Considerando Ofício MS/SE/GSB nº 2.433/2009, que informa o reconhecimento do Colegiado de Gestão da SES/DF – CGSES/DF, pela Comissão Intergestores Tripartite – CIT, como uma instância que cumprirá as atribuições e competências estabelecidas para as Comissões Intergestores Bipartite – CIB, no tocante à operacionalização do Sistema Único de Saúde;<p style="text-align:justify" linkname="txt_51e054dd0c1e420a39515bdd6330687b"><a id="txt_51e054dd0c1e420a39515bdd6330687b" name="txt_51e054dd0c1e420a39515bdd6330687b" class="linkname"></a>Considerando a Portaria GM/MS nº 598, de 23 de março de 2006, a qual define que os processos administrativos relativos à gestão do SUS sejam definidos e pactuados no âmbito das Comissões Intergestores Bipartites – CIBs, resolve:<p style="text-align:justify" linkname="art1"><a id="art1" name="art1" class="linkname"></a>Art. 1° Aprovar, por unanimidade, a necessidade manifestada dos serviços complementares de saúde na área de Transplante de Medula Óssea, visando atender as necessidades de assistência da Secretaria de Estado de Saúde do Distrito Federal - SES/DF, nos termos apresentados nos processos 00060-00534012/2023-14 da Secretaria de Saúde do Distrito Federal.<p style="text-align:justify" linkname="art2"><a id="art2" name="art2" class="linkname"></a>Art. 2° Aprovar tabela diferenciada de remuneração de serviços complementares de Saúde para pagamento dos procedimentos do Art. 1º, exclusivamente para os serviços efetivamente realizados, conforme anexo único.<p style="text-align:justify" linkname="art3"><a id="art3" name="art3" class="linkname"></a>Art. 3º A complementariedade definida pela tabela diferenciada para remuneração de serviços assistenciais de saúde, Artigo 2º, para efeito de complementação financeira, empregar recursos próprios, sendo vedada a utilização de recursos federais para esta finalidade.<p style="text-align:justify" linkname="art4"><a id="art4" name="art4" class="linkname"></a>Art. 4º As disposições em contrário a presente Deliberação, em especial no que se refere aos procedimentos de transplante de medula óssea constante na <a href="/sinj/Norma/3b5d690d11ad4dc4a0b9e55833d0e88b/ses_cg_dlb_17_2022_rep2.html" class="">Deliberação 17 de 03/05/2022</a>, encontram-se revogada por essa deliberação.<p style="text-align:justify" linkname="art5"><a id="art5" name="art5" class="linkname"></a>Art. 5º Esta Deliberação entra em vigor na data de sua aprovação.<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="ane"><a id="ane" name="ane" class="linkname"></a>ANEXO ÚNICO<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_d29f0e6b6b474142e38d6a3913d1475f"><a id="txt_d29f0e6b6b474142e38d6a3913d1475f" name="txt_d29f0e6b6b474142e38d6a3913d1475f" class="linkname"></a>TABELA DIFERENCIADA DE REMUNERAÇÃO DE SERVIÇOS COMPLEMENTARES DE SAÚDE TABELA REGIONALIZADA SUS/DF<table border="1">
+	<tbody>
+		<tr>
+			<td>
+			<p style="text-align:center" linkname="txt_e3e802fabaf0419b2b79f0c01a24d7fb"><a id="txt_e3e802fabaf0419b2b79f0c01a24d7fb" name="txt_e3e802fabaf0419b2b79f0c01a24d7fb" class="linkname"></a>Código SIGTAP
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_a060365808794f93aa68992f079a185b"><a id="txt_a060365808794f93aa68992f079a185b" name="txt_a060365808794f93aa68992f079a185b" class="linkname"></a>Descrição
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_80c75081b06148f98f1d84b48cd88f80"><a id="txt_80c75081b06148f98f1d84b48cd88f80" name="txt_80c75081b06148f98f1d84b48cd88f80" class="linkname"></a>Valor SIGTAP
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_2ef98f4d9f73443bfef464accf781bcf"><a id="txt_2ef98f4d9f73443bfef464accf781bcf" name="txt_2ef98f4d9f73443bfef464accf781bcf" class="linkname"></a>Complementariedade
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_22527cf320d64db05e9d7f82909ef0fe"><a id="txt_22527cf320d64db05e9d7f82909ef0fe" name="txt_22527cf320d64db05e9d7f82909ef0fe" class="linkname"></a>Valor estimado pela SES/DF
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="text-align:center" linkname="txt_d54ae0cabe9942118d068c469b0e32c0"><a id="txt_d54ae0cabe9942118d068c469b0e32c0" name="txt_d54ae0cabe9942118d068c469b0e32c0" class="linkname"></a>05.05.01.001-1
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_13245ce3b2f7483f5ecc3ccf2f87880d"><a id="txt_13245ce3b2f7483f5ecc3ccf2f87880d" name="txt_13245ce3b2f7483f5ecc3ccf2f87880d" class="linkname"></a>TRANSPLANTE ALOGÊNICO DE CÉLULAS TRONCO HEMATOPOÉTICAS DE MEDULA ÓSSEA APARENTADO
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_2146f89e040742708e47fa604cc01212"><a id="txt_2146f89e040742708e47fa604cc01212" name="txt_2146f89e040742708e47fa604cc01212" class="linkname"></a>R$ 54.939,27
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_59670493a1524b2640b3444e51fcd31f"><a id="txt_59670493a1524b2640b3444e51fcd31f" name="txt_59670493a1524b2640b3444e51fcd31f" class="linkname"></a>R$ 175.060,73
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_40214ba6bb6f461d1e0a2cf6ebb78339"><a id="txt_40214ba6bb6f461d1e0a2cf6ebb78339" name="txt_40214ba6bb6f461d1e0a2cf6ebb78339" class="linkname"></a>R$ 230.000,0000
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="text-align:center" linkname="txt_8627c94f3c0545001267fc40da3266ad"><a id="txt_8627c94f3c0545001267fc40da3266ad" name="txt_8627c94f3c0545001267fc40da3266ad" class="linkname"></a>05.05.01.002-0
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_b35649c028104d9586c9b38270a56141"><a id="txt_b35649c028104d9586c9b38270a56141" name="txt_b35649c028104d9586c9b38270a56141" class="linkname"></a>TRANSPLANTE ALOGÊNICO DE CÉLULAS TRONCO HEMATOPOÉTICAS DE MEDULA ÓSSEA NÃO APARENTADO
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_21510fb1a8c94a16412a8d51fe812ba5"><a id="txt_21510fb1a8c94a16412a8d51fe812ba5" name="txt_21510fb1a8c94a16412a8d51fe812ba5" class="linkname"></a>R$ 71.602,25
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_3e88eadabc4946d79e9921f84b049330"><a id="txt_3e88eadabc4946d79e9921f84b049330" name="txt_3e88eadabc4946d79e9921f84b049330" class="linkname"></a>R$ 170.397,75
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_de4d25b21c18467f9e2ec35f17336718"><a id="txt_de4d25b21c18467f9e2ec35f17336718" name="txt_de4d25b21c18467f9e2ec35f17336718" class="linkname"></a>R$ 242.000,0000
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="text-align:center" linkname="txt_21296329fe43416ca858f2943caddef8"><a id="txt_21296329fe43416ca858f2943caddef8" name="txt_21296329fe43416ca858f2943caddef8" class="linkname"></a>05.05.01.007-0
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_ab4fea8ecfd64b5336bdac2063108a68"><a id="txt_ab4fea8ecfd64b5336bdac2063108a68" name="txt_ab4fea8ecfd64b5336bdac2063108a68" class="linkname"></a>TRANSPLANTE AUTOGENICO DE CELULAS-TRONCO HEMATOPOETICAS DE MEDULA OSSEA
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_08c7d37d10d6441c8f64dd3c8e601de6"><a id="txt_08c7d37d10d6441c8f64dd3c8e601de6" name="txt_08c7d37d10d6441c8f64dd3c8e601de6" class="linkname"></a>R$ 22.968,78
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_938774b2e6a14cf26308b8fba7f25aeb"><a id="txt_938774b2e6a14cf26308b8fba7f25aeb" name="txt_938774b2e6a14cf26308b8fba7f25aeb" class="linkname"></a>R$ 57.031,22
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_8597027c24dd4233b2c85b042b419d49"><a id="txt_8597027c24dd4233b2c85b042b419d49" name="txt_8597027c24dd4233b2c85b042b419d49" class="linkname"></a>R$ 80.000,0000
+			</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>
+			<p style="text-align:center" linkname="txt_4289e87e8e734755785b5989ef1892ba"><a id="txt_4289e87e8e734755785b5989ef1892ba" name="txt_4289e87e8e734755785b5989ef1892ba" class="linkname"></a>Código SIGTAP
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_4df081af6b8a43ae308aa4dcf343a05b"><a id="txt_4df081af6b8a43ae308aa4dcf343a05b" name="txt_4df081af6b8a43ae308aa4dcf343a05b" class="linkname"></a>Código SIGTAP
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_149c181a677b4e84c6a239c74858aba0"><a id="txt_149c181a677b4e84c6a239c74858aba0" name="txt_149c181a677b4e84c6a239c74858aba0" class="linkname"></a>Valor SIGTAP
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_4f353737ea6b424b135eb3c923004a94"><a id="txt_4f353737ea6b424b135eb3c923004a94" name="txt_4f353737ea6b424b135eb3c923004a94" class="linkname"></a>Complementariedade
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_26417bf6f04a4e2e2943406b7c3fb40a"><a id="txt_26417bf6f04a4e2e2943406b7c3fb40a" name="txt_26417bf6f04a4e2e2943406b7c3fb40a" class="linkname"></a>Valor estimado pela SES/DF
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p style="text-align:center" linkname="txt_5e5890a596fe4d79dcd1996743f67795"><a id="txt_5e5890a596fe4d79dcd1996743f67795" name="txt_5e5890a596fe4d79dcd1996743f67795" class="linkname"></a>03.05.01.013-1
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_25670f05095448c79465f5faa3ebf55b"><a id="txt_25670f05095448c79465f5faa3ebf55b" name="txt_25670f05095448c79465f5faa3ebf55b" class="linkname"></a>Hemodiálise para pacientes renais agudos / crônicos agudizados sem tratamento dialítico iniciado
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_c5c28d023c9a446d04522ee948cb5906"><a id="txt_c5c28d023c9a446d04522ee948cb5906" name="txt_c5c28d023c9a446d04522ee948cb5906" class="linkname"></a>RS 265,41
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_be7e871eada041f3edc94c5c79ae96ef"><a id="txt_be7e871eada041f3edc94c5c79ae96ef" name="txt_be7e871eada041f3edc94c5c79ae96ef" class="linkname"></a>R$ 481,25
+			</td>
+			<td>
+			<p style="text-align:center" linkname="txt_2010528c1e2e4d1e384885e0e377931d"><a id="txt_2010528c1e2e4d1e384885e0e377931d" name="txt_2010528c1e2e4d1e384885e0e377931d" class="linkname"></a>R$ 746,6600
+			</td>
+		</tr>
+	</tbody>
+</table><table border="1">
+	<tbody>
+		<tr>
+			<td>
+			<p style="text-align:justify" linkname="txt_0dc05deab9f344f465808c5c9b845053"><a id="txt_0dc05deab9f344f465808c5c9b845053" name="txt_0dc05deab9f344f465808c5c9b845053" class="linkname"></a>DETALHAMENTO DO PACOTE
+
+			<p style="text-align:justify" linkname="txt_0a00dd760ca44ec6389e8f5a832c3e4d"><a id="txt_0a00dd760ca44ec6389e8f5a832c3e4d" name="txt_0a00dd760ca44ec6389e8f5a832c3e4d" class="linkname"></a>Descrição do Procedimento: Hemodiálise Intermitente Hospitalar - período de até 4 horas (sessão).
+
+			<p style="text-align:justify" linkname="txt_b16817bf92184c527e41fa77c54c0272"><a id="txt_b16817bf92184c527e41fa77c54c0272" name="txt_b16817bf92184c527e41fa77c54c0272" class="linkname"></a>Itens inclusos:
+
+			<p style="text-align:justify" linkname="txt_1f69871738724221b3b5346f89d81580"><a id="txt_1f69871738724221b3b5346f89d81580" name="txt_1f69871738724221b3b5346f89d81580" class="linkname"></a>Serviços de enfermagem e auxiliares;
+
+			<p style="text-align:justify" linkname="txt_9142842490924bf6e75e52dffe03172a"><a id="txt_9142842490924bf6e75e52dffe03172a" name="txt_9142842490924bf6e75e52dffe03172a" class="linkname"></a>Locomoção do material e equipe;
+
+			<p style="text-align:justify" linkname="txt_0c7f972d6ee94937e38ac804a7c73a86"><a id="txt_0c7f972d6ee94937e38ac804a7c73a86" name="txt_0c7f972d6ee94937e38ac804a7c73a86" class="linkname"></a>Equipamentos: taxa de utilização, manutenção, esterilização, montagem no local do procedimento e calibragem. Inclui bombas de duplo canal de infusão e sistema de osmose portátil;
+
+			<p style="text-align:justify" linkname="txt_a820f65be8d84d99a413199b1a2990f7"><a id="txt_a820f65be8d84d99a413199b1a2990f7" name="txt_a820f65be8d84d99a413199b1a2990f7" class="linkname"></a>Materiais e medicamentos: 01 capilar, 01 linha arterial, 01 linha venosa, 01 par de agulhas de fistula 16 ou 17, 02 isoladores de pressão, 01 frasco de solução ácida, 02 frascos de solução básica, 01 seringa de 3ml; 01 seringa de 5ml; 01 seringa de 10ml; 01 seringa de 20ml; 02 pacotes de gaze estéril; 01 par de tampa para catéter; 01 equipo de soro; 01 frasco (5ml) de heparina sódica; 2 pares de luvas estéreis; 01 máscara cirúrgica; 02 agulha 25 x 0,8; 02 pares de luvas de procedimento; soro fisiológico 0,9% 1000ml; swabs álcool 70%
+
+			<p style="text-align:justify" linkname="txt_995a2ffe96b4451c0ad3c5823cdc8d59"><a id="txt_995a2ffe96b4451c0ad3c5823cdc8d59" name="txt_995a2ffe96b4451c0ad3c5823cdc8d59" class="linkname"></a>Honorários médicos diálise;
+
+			<p style="text-align:justify" linkname="txt_520f4b2e0e5544dfb16ebc7cceb8516e"><a id="txt_520f4b2e0e5544dfb16ebc7cceb8516e" name="txt_520f4b2e0e5544dfb16ebc7cceb8516e" class="linkname"></a>Sem reuso de capilares e linhas.
+
+			<p style="text-align:justify" linkname="txt_14343847b2944a609767600a5f37ac78"><a id="txt_14343847b2944a609767600a5f37ac78" name="txt_14343847b2944a609767600a5f37ac78" class="linkname"></a>Itens Exclusos:
+
+			<p style="text-align:justify" linkname="txt_2303c66e562c43d33c84d56513b900db"><a id="txt_2303c66e562c43d33c84d56513b900db" name="txt_2303c66e562c43d33c84d56513b900db" class="linkname"></a>Honorários médicos para acesso para hemodiálise;
+
+			<p style="text-align:justify" linkname="txt_9e0d77e810cd49a210081e7b42772c35"><a id="txt_9e0d77e810cd49a210081e7b42772c35" name="txt_9e0d77e810cd49a210081e7b42772c35" class="linkname"></a>Cateter de duplo ou triplo lúmen para hemodiálise; e Parecer /visita médica.
+			</td>
+		</tr>
+	</tbody>
+</table><p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_1050028de93e4d0c65da0e6364823911"><a id="txt_1050028de93e4d0c65da0e6364823911" name="txt_1050028de93e4d0c65da0e6364823911" class="linkname"></a>LUCILENE MARIA FLORÊNCIO DE QUEIROZ<p style="font-weight:bold; margin-top:0px; text-align:center" linkname="txt_966378532168462a606a55967f1afe8f"><a id="txt_966378532168462a606a55967f1afe8f" name="txt_966378532168462a606a55967f1afe8f" class="linkname"></a>Presidente do Colegiado<p style="color:#ff0000; text-align:right" linkname="txt_492f1140a59648a341fe1db08c9d89c6"><a id="txt_492f1140a59648a341fe1db08c9d89c6" name="txt_492f1140a59648a341fe1db08c9d89c6" class="linkname"></a>____________________<p style="color:#ff0000; text-align:right" linkname="txt_c61cd68f65d149c719c6b25f309dff3e"><a id="txt_c61cd68f65d149c719c6b25f309dff3e" name="txt_c61cd68f65d149c719c6b25f309dff3e" class="linkname"></a>(*) Republicado por ter sido encaminhado com incorreção do original, publicado no DODF n° 74, de 18 de abril de 2024, páginas 20 e 21.<p style="text-align:right"><span style="color:#FF0000"><a href=http://www.sinj.df.gov.br/sinj/BaixarArquivoDiario.aspx?id_file=0352c935-5152-36ba-a7b8-b1fc7e58e87f target='_blank'>Este texto não substitui o publicado no DODF nº 74, seção 1, 2 e 3 de 18/04/2024<span id='paginaEColuna'> p. 20, col. 2<a/></span><p style="text-align:right"><span style="color:#FF0000"><a href=http://www.sinj.df.gov.br/sinj/BaixarArquivoDiario.aspx?id_file=1d4faaae-bade-3e2e-9de8-c4ace4ae5e3c target='_blank'>Este texto não substitui o publicado no DODF nº 97, seção 1, 2 e 3 de 22/05/2024<span id='paginaEColuna'> p. 7, col. 1<a/></span></div>
+        </div>
+
+        <script type="text/javascript">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-20776101-1', 'auto');
+            ga('create', 'UA-90051523-1', 'auto', 'brlightTracker');
+            ga('send', 'pageview');
+            ga('brlightTracker.send', 'pageview');
+        </script>
+    </body>
+
+    </html>

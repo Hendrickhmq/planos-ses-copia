@@ -1,0 +1,16 @@
+id: "GM 7701-2025 diretrizes ATE"
+arquivo: "GM 7701-2025 diretrizes ATE.pdf"
+processo_sei: ""
+sha256: "fce01023185abf490b0953467e28117f17848db2b0aadd62e1f9874c4231b8c4"
+paginas: 2
+chars_texto: 4862
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:36:06"

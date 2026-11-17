@@ -1,0 +1,10 @@
+id: "GM 8265-2025 parcela unica MAC"
+arquivo: "GM 8265-2025 parcela unica MAC.html"
+sha256: "c65ac1d6f4a313680e6c42b4dd181cb5d45f5666cb05f6ad9040898c69751070"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 1258
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

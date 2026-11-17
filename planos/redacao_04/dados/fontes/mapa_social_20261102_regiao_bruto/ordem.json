@@ -1,0 +1,344 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/redacao_04",
+ "pedido": "Região de Saúde da unidade solicitante de cada grupo de filas da carteira 1 do plano 4 (só as filas que a carteira usa), para dimensionar as 20 salas de ultrassom e os 5 tomógrafos por polo.",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "regiao"
+ ],
+ "objetos": [
+  {
+   "id": "tc_abdomen",
+   "tipo": "exame",
+   "nome": "TC de abdômen superior",
+   "codigos": [
+    "02.06.03.001-0"
+   ],
+   "filas": [
+    {
+     "nome": "061. TC DO ABDOMEN SUPERIOR ADULTO S/CONTRASTE S/SEDACAO"
+    },
+    {
+     "nome": "063. TC DO ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO"
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DA AORTA ABDOMINAL E DOS SEUS RAMOS ADULTO S/SEDACAO "
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DO ABDOME SUPERIOR ADULTO S/SEDACAO "
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DAS ARTERIAS CAROTIDAS E VERTEBRAIS ADULTO S/SEDACAO"
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DAS ARTÉRIAS RENAIS ADULTO S/SEDACAO"
+    }
+   ]
+  },
+  {
+   "id": "tc_pelve",
+   "tipo": "exame",
+   "nome": "TC de pelve",
+   "codigos": [
+    "02.06.03.003-7"
+   ],
+   "filas": [
+    {
+     "nome": "109. TC DE PELVE OU BACIA ADULTO S/CONTRASTE  S/SEDACAO"
+    },
+    {
+     "nome": "111. TC DE PELVE OU BACIA ADULTO C/CONTRASTE S/SEDACAO"
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DA PELVE ADULTO S/SEDACAO"
+    }
+   ]
+  },
+  {
+   "id": "transfontanela",
+   "tipo": "exame",
+   "nome": "Ultrassonografia transfontanela",
+   "codigos": [
+    "02.05.02.017-8"
+   ],
+   "filas": [
+    {
+     "nome": "ULTRA-SONOGRAFIA TRANSFONTANELA"
+    }
+   ]
+  },
+  {
+   "id": "tc_pescoco",
+   "tipo": "exame",
+   "nome": "TC de pescoço",
+   "codigos": [
+    "02.06.01.005-2"
+   ],
+   "filas": [
+    {
+     "nome": "119. TC DE PESCOCO ADULTO C/CONTRASTE S/SEDACAO"
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DO PESCOCO ADULTO S/SEDACAO"
+    }
+   ]
+  },
+  {
+   "id": "abdomen_superior",
+   "tipo": "exame",
+   "nome": "Ultrassonografia de abdômen superior",
+   "codigos": [
+    "02.05.02.003-8"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA DE ABDOMEN SUPERIOR ADULTO"
+    }
+   ]
+  },
+  {
+   "id": "bolsa_escrotal",
+   "tipo": "exame",
+   "nome": "Ultrassonografia de bolsa escrotal",
+   "codigos": [
+    "02.05.02.007-0"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA DE BOLSA ESCROTAL ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DE BOLSA ESCROTAL INFANTIL"
+    }
+   ]
+  },
+  {
+   "id": "urinario",
+   "tipo": "exame",
+   "nome": "Ultrassonografia de aparelho urinário",
+   "codigos": [
+    "02.05.02.005-4"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) INFANTIL"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA RENAL"
+    }
+   ]
+  },
+  {
+   "id": "abdomen_total",
+   "tipo": "exame",
+   "nome": "Ultrassonografia de abdômen total",
+   "codigos": [
+    "02.05.02.004-6"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA DE ABDOMEN TOTAL ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA DE ABDOMEN TOTAL INFANTIL"
+    }
+   ]
+  },
+  {
+   "id": "parede",
+   "tipo": "exame",
+   "nome": "Ultrassonografia de parede abdominal",
+   "codigos": [
+    "02.05.02.004-6"
+   ],
+   "filas": [
+    {
+     "nome": "ULTRASONOGRAFIA DE PAREDE ABDOMINAL"
+    }
+   ]
+  },
+  {
+   "id": "doppler_outros",
+   "tipo": "exame",
+   "nome": "Doppler de carótidas, renais e outros",
+   "codigos": [
+    "02.05.01.004-0"
+   ],
+   "filas": [
+    {
+     "nome": "10. ECODOPPLER DE CAROTIDAS"
+    },
+    {
+     "nome": "ULTRA-SONOGRAFIA  DOPPLER DE CAROTIDAS E VERTEBRAIS"
+    },
+    {
+     "nome": "ULTRA-SONOGRAFIA DOPPLER COLORIDO DE VASOS"
+    },
+    {
+     "nome": "ECOGRAFIA TRANSVAGINAL COM DOPPLER"
+    },
+    {
+     "nome": "ULTRASSONOGRAFIA COM DOPPLER COLORIDO DE ARTERIAS RENAIS"
+    }
+   ]
+  },
+  {
+   "id": "prostata",
+   "tipo": "exame",
+   "nome": "Ultrassonografia de próstata por via abdominal",
+   "codigos": [
+    "02.05.02.010-0"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA DE PROSTATA ( VIA ABDOMINAL )"
+    }
+   ]
+  },
+  {
+   "id": "tireoide",
+   "tipo": "exame",
+   "nome": "Ultrassonografia de tireoide",
+   "codigos": [
+    "02.05.02.012-7"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA DE TIREOIDE ADULTO"
+    },
+    {
+     "nome": "ULTRA-SONOGRAFIA DOPPLER DE TIREOIDE"
+    },
+    {
+     "nome": "ECOGRAFIA DE TIREOIDE INFANTIL"
+    }
+   ]
+  },
+  {
+   "id": "mama",
+   "tipo": "exame",
+   "nome": "Ultrassonografia mamária bilateral",
+   "codigos": [
+    "02.05.02.009-7"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA DE MAMAS - BILATERAL"
+    }
+   ]
+  },
+  {
+   "id": "doppler_membros",
+   "tipo": "exame",
+   "nome": "Doppler bilateral de membros",
+   "codigos": [
+    "02.05.01.004-0"
+   ],
+   "filas": [
+    {
+     "nome": "ULTRA-SONOGRAFIA DOPPLER VENOSO - MMII ( BILATERAL)"
+    },
+    {
+     "nome": "ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMII (BILATERAL)"
+    },
+    {
+     "nome": "ULTRA-SONOGRAFIA DOPPLER VENOSO - MMSS ( BILATERAL)"
+    },
+    {
+     "nome": "ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMSS (BILATERAL)"
+    }
+   ]
+  },
+  {
+   "id": "pelvica",
+   "tipo": "exame",
+   "nome": "Ultrassonografia pélvica",
+   "codigos": [
+    "02.05.02.016-0"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA PELVICA (GINECOLOGICA) - ADULTO"
+    },
+    {
+     "nome": "ECOGRAFIA PELVICA (GINECOLOGICA) - INFANTIL"
+    }
+   ]
+  },
+  {
+   "id": "tc_torax",
+   "tipo": "exame",
+   "nome": "TC de tórax, sem a angio coronária",
+   "codigos": [
+    "02.06.02.003-1"
+   ],
+   "filas": [
+    {
+     "nome": "053. TC DO TORAX  ADULTO S/CONTRASTE S/SEDACAO"
+    },
+    {
+     "nome": "055. TC DO TORAX ADULTO C/CONTRASTE S/SEDACAO"
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DA AORTA TORÁCICA E SEUS RAMOS  ADULTO S/SEDACAO "
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DO TORAX OU PULMONAR ADULTO S/SEDACAO"
+    }
+   ]
+  },
+  {
+   "id": "tc_cranio",
+   "tipo": "exame",
+   "nome": "TC de crânio",
+   "codigos": [
+    "02.06.01.007-9"
+   ],
+   "filas": [
+    {
+     "nome": "029. TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO"
+    },
+    {
+     "nome": "ANGIOTOMOGRAFIA DO CRANIO ADULTO S/SEDACAO"
+    },
+    {
+     "nome": "031. TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO"
+    }
+   ]
+  },
+  {
+   "id": "tc_face",
+   "tipo": "exame",
+   "nome": "TC de face",
+   "codigos": [
+    "02.06.01.004-4"
+   ],
+   "filas": [
+    {
+     "nome": "071. TC DE FACE ADULTO C/CONTRASTE S/SEDACAO"
+    },
+    {
+     "nome": "079. TC DE SEIOS DE FACE ADULTO C/CONTRASTE S/SEDACAO"
+    }
+   ]
+  },
+  {
+   "id": "transvaginal",
+   "tipo": "exame",
+   "nome": "Ultrassonografia transvaginal",
+   "codigos": [
+    "02.05.02.018-6"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA TRANSVAGINAL"
+    }
+   ]
+  }
+ ]
+}

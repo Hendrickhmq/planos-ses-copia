@@ -1,0 +1,6 @@
+Etapa,Atividade (o que),Como (modo de execução),Responsável (por quem),Quando (prazo),Entregas mensuráveis
+Pré-produção,Pactuação operacional com a SES/DF,"Reunião técnica para definição das OCIs/procedimentos, metas, fluxos e pontos de atendimento",Direção Geral e Coordenação Assistencial do IEV + Referência Técnica SES/DF,Semanas 1–2,Ata/registro de pactuação; parâmetros operacionais definidos
+Pré-produção,Definição e validação dos locais de atendimento,Vistoria/validação de unidades fixas e/ou complementares pactuadas,Coordenação Operacional do IEV,Semanas 1–2,Lista de unidades habilitadas; cronograma de uso
+Pré-produção,Mobilização e alocação das equipes,"Escala de profissionais (médicos, enfermagem/apoio e administrativo) e dimensionamento por especialidade",Coordenação Assistencial do IEV,Semanas 3–4,Escalas por especialidade; responsáveis nomeados
+Pré-produção,Integração com sistemas (SISREG/TrackCare),"Habilitação de acessos, validação de fluxo de registro, testes de lançamento e encerramento",TI/Registro Assistencial IEV + SES/DF,Semanas 3–4,Acessos habilitados; teste de registro concluído
+Produção,Recebimento da demanda regulada,Recebimento de pacientes exclusivamente via SISREG e organização das agendas conforme prioridades,Regulação/Agendamento IEV,Da semana 3 até o fim da vigência,Agendas mensais publicadas; lista de pacientes atendidos

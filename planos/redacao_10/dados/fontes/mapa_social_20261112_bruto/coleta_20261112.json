@@ -1,0 +1,1375 @@
+{
+ "metodo": "2026-10-27",
+ "tipo": "panorama",
+ "janela_viva_meses": 24,
+ "app": "7edb02fa-f1f5-4ea6-b348-049a4ac2d095",
+ "titulo_app": "D-PDDC - MAPA DA SAÚDE - REGULAÇÃO (M)",
+ "painel": "https://paineis-ext.mpdft.mp.br/extensions/mapasauderegulamentacao/mapasauderegulamentacao.html",
+ "datas": {
+  "recarga": "12/11/2026 16:33:01",
+  "recarga_utc": "2026-11-12T19:33:01.478Z",
+  "consulta_inicio": "12/11/2026 18:04:28",
+  "consulta_fim": "12/11/2026 18:05:03",
+  "solicitacao_mais_recente": "12/11/2026",
+  "agendamento_mais_distante": "18/02/2027"
+ },
+ "filtro_fila": "status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}",
+ "filtro_devolvidas": "status_solicitacao_alias={'SOLICITAÇÃO DEVOLVIDA PARA COMPLEMENTAÇÃO PELO SOLICITANTE'}",
+ "janelas": {
+  "meses_viva": 24,
+  "viva": "data_solicitacao={\">=12/11/2024\"}",
+  "agendadas_12m": "data_agendamento={\">=12/11/2025<=11/11/2026\"}",
+  "entrantes_sol": "data_solicitacao={\">=01/11/2024\"}",
+  "entrantes_ag": "Ano_Agendamento={\">=2024\"}",
+  "entrantes_desde": "2024-11",
+  "oferta": "data_agendamento={\">=01/11/2024\"}"
+ },
+ "ordem": {
+  "contrato": "2026-10-27",
+  "tipo": "panorama",
+  "plano": "planos/redacao_10",
+  "pedido": "pré-plano de colonoscopia do ISHP, R$ 11 mi: tamanho e espera da fila de colonoscopia",
+  "saida": "transcricao",
+  "janela_viva_meses": 24,
+  "dimensoes": [
+   "regiao"
+  ],
+  "minimo": 1,
+  "por_codigo": [
+   "entrantes",
+   "oferta",
+   "situacao"
+  ],
+  "universo": [
+   {
+    "rotulo": "colonoscopia (código)",
+    "codigos": [
+     "02.09.01.002-9"
+    ]
+   },
+   {
+    "rotulo": "colonoscopia (nome)",
+    "termos": [
+     "COLONOSCOPIA"
+    ]
+   },
+   {
+    "rotulo": "retossigmoidoscopia",
+    "codigos": [
+     "02.09.01.005-3"
+    ]
+   }
+  ]
+ },
+ "ordem_hash": 220378065,
+ "kit": {
+  "versao": "2026-10-27",
+  "assinatura": 1939648169
+ },
+ "leitura": {
+  "partes": 1,
+  "tamanho": 9557,
+  "hash": 153783377
+ },
+ "montado_por": "ferramentas/montar_coleta.py 2026-10-27.3",
+ "nomes_internos": {},
+ "filas": {},
+ "ocis": {},
+ "exames": {},
+ "varredura": [],
+ "panorama": {
+  "colonoscopia (código)": {
+   "universo": {
+    "codigos": [
+     "02.09.01.002-9"
+    ]
+   },
+   "total": {
+    "fila": 22826,
+    "fila_viva": 20072,
+    "pessoas": 22821
+   },
+   "filas": [
+    {
+     "nome": "COLONOSCOPIA",
+     "codigo": "02.09.01.002-9",
+     "fila": 22439,
+     "fila_viva": 19742,
+     "pessoas": 22439,
+     "pessoas_viva": 19742,
+     "devolvidas": 4017,
+     "espera_media": 417.34704446655576,
+     "espera_mediana": 416.30191258101695,
+     "espera_max": 1904.0155819444408,
+     "mais_antiga": "26/08/2021",
+     "idade_mediana": 59,
+     "total": 26456,
+     "agendadas_12m": 6510,
+     "agendadas_12m_no_codigo": 6661,
+     "cid_principais": [
+      [
+       "Z12",
+       6109
+      ],
+      [
+       "K92",
+       2821
+      ],
+      [
+       "K59",
+       1443
+      ],
+      [
+       "R19",
+       1413
+      ],
+      [
+       "C18",
+       1231
+      ]
+     ],
+     "anos_estoque": 3.45,
+     "sem_agendamento_12m": false
+    },
+    {
+     "nome": "COLONOSCOPIA C/ ANESTESIA",
+     "codigo": "02.09.01.002-9",
+     "fila": 386,
+     "fila_viva": 330,
+     "pessoas": 386,
+     "pessoas_viva": 330,
+     "devolvidas": 449,
+     "espera_media": 295.41874026369766,
+     "espera_mediana": 181.00884440972004,
+     "espera_max": 1025.2900470254608,
+     "mais_antiga": "22/01/2024",
+     "idade_mediana": 64,
+     "total": 835,
+     "agendadas_12m": 151,
+     "agendadas_12m_no_codigo": 6661,
+     "cid_principais": [
+      [
+       "Z12",
+       132
+      ],
+      [
+       "K92",
+       42
+      ],
+      [
+       "K63",
+       26
+      ],
+      [
+       "K59",
+       20
+      ],
+      [
+       "C18",
+       19
+      ]
+     ],
+     "anos_estoque": 2.56,
+     "sem_agendamento_12m": false
+    },
+    {
+     "nome": "COLONOSCOPIA (COLOSCOPIA)",
+     "codigo": "02.09.01.002-9",
+     "fila": 1,
+     "fila_viva": 0,
+     "pessoas": 1,
+     "pessoas_viva": 0,
+     "devolvidas": 0,
+     "espera_media": 3398.0367755555562,
+     "espera_mediana": 3398.0367755555562,
+     "espera_max": 3398.0367755555562,
+     "mais_antiga": "24/07/2017",
+     "idade_mediana": 79,
+     "total": 1,
+     "agendadas_12m": null,
+     "agendadas_12m_no_codigo": 6661,
+     "cid_principais": [
+      [
+       "Z00",
+       1
+      ]
+     ],
+     "anos_estoque": null,
+     "sem_agendamento_12m": false
+    }
+   ],
+   "dimensoes": {
+    "regiao": {
+     "cols": [
+      "regiao",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "Região Central",
+       1756,
+       1756
+      ],
+      [
+       "Região Centro-Sul",
+       1589,
+       1589
+      ],
+      [
+       "Região Leste",
+       1505,
+       1505
+      ],
+      [
+       "Região Norte",
+       2793,
+       2791
+      ],
+      [
+       "Região Oeste",
+       2529,
+       2529
+      ],
+      [
+       "Região Sudoeste",
+       4611,
+       4611
+      ],
+      [
+       "Região Sul",
+       2703,
+       2702
+      ],
+      [
+       "URD",
+       3171,
+       3171
+      ],
+      [
+       "Contratado/Credenciado",
+       1937,
+       1937
+      ],
+      [
+       "Serviços Centralizados",
+       1,
+       1
+      ]
+     ],
+     "sem_regiao": {
+      "fila": 231,
+      "pessoas": 231
+     }
+    }
+   }
+  },
+  "colonoscopia (nome)": {
+   "universo": {
+    "termos": [
+     "COLONOSCOPIA"
+    ]
+   },
+   "total": {
+    "fila": 22826,
+    "fila_viva": 20072,
+    "pessoas": 22821
+   },
+   "filas": [
+    {
+     "nome": "COLONOSCOPIA",
+     "codigo": "02.09.01.002-9",
+     "fila": 22439,
+     "fila_viva": 19742,
+     "pessoas": 22439,
+     "pessoas_viva": 19742,
+     "devolvidas": 4017,
+     "espera_media": 417.34704446655576,
+     "espera_mediana": 416.30191258101695,
+     "espera_max": 1904.0155819444408,
+     "mais_antiga": "26/08/2021",
+     "idade_mediana": 59,
+     "total": 26456,
+     "agendadas_12m": 6510,
+     "agendadas_12m_no_codigo": 6661,
+     "cid_principais": [
+      [
+       "Z12",
+       6109
+      ],
+      [
+       "K92",
+       2821
+      ],
+      [
+       "K59",
+       1443
+      ],
+      [
+       "R19",
+       1413
+      ],
+      [
+       "C18",
+       1231
+      ]
+     ],
+     "anos_estoque": 3.45,
+     "sem_agendamento_12m": false
+    },
+    {
+     "nome": "COLONOSCOPIA C/ ANESTESIA",
+     "codigo": "02.09.01.002-9",
+     "fila": 386,
+     "fila_viva": 330,
+     "pessoas": 386,
+     "pessoas_viva": 330,
+     "devolvidas": 449,
+     "espera_media": 295.41874026369766,
+     "espera_mediana": 181.00884440972004,
+     "espera_max": 1025.2900470254608,
+     "mais_antiga": "22/01/2024",
+     "idade_mediana": 64,
+     "total": 835,
+     "agendadas_12m": 151,
+     "agendadas_12m_no_codigo": 6661,
+     "cid_principais": [
+      [
+       "Z12",
+       132
+      ],
+      [
+       "K92",
+       42
+      ],
+      [
+       "K63",
+       26
+      ],
+      [
+       "K59",
+       20
+      ],
+      [
+       "C18",
+       19
+      ]
+     ],
+     "anos_estoque": 2.56,
+     "sem_agendamento_12m": false
+    },
+    {
+     "nome": "COLONOSCOPIA (COLOSCOPIA)",
+     "codigo": "02.09.01.002-9",
+     "fila": 1,
+     "fila_viva": 0,
+     "pessoas": 1,
+     "pessoas_viva": 0,
+     "devolvidas": 0,
+     "espera_media": 3398.0367755555562,
+     "espera_mediana": 3398.0367755555562,
+     "espera_max": 3398.0367755555562,
+     "mais_antiga": "24/07/2017",
+     "idade_mediana": 79,
+     "total": 1,
+     "agendadas_12m": null,
+     "agendadas_12m_no_codigo": 6661,
+     "cid_principais": [
+      [
+       "Z00",
+       1
+      ]
+     ],
+     "anos_estoque": null,
+     "sem_agendamento_12m": false
+    }
+   ],
+   "dimensoes": {
+    "regiao": {
+     "cols": [
+      "regiao",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "Região Central",
+       1756,
+       1756
+      ],
+      [
+       "Região Centro-Sul",
+       1589,
+       1589
+      ],
+      [
+       "Região Leste",
+       1505,
+       1505
+      ],
+      [
+       "Região Norte",
+       2793,
+       2791
+      ],
+      [
+       "Região Oeste",
+       2529,
+       2529
+      ],
+      [
+       "Região Sudoeste",
+       4611,
+       4611
+      ],
+      [
+       "Região Sul",
+       2703,
+       2702
+      ],
+      [
+       "URD",
+       3171,
+       3171
+      ],
+      [
+       "Contratado/Credenciado",
+       1937,
+       1937
+      ],
+      [
+       "Serviços Centralizados",
+       1,
+       1
+      ]
+     ],
+     "sem_regiao": {
+      "fila": 231,
+      "pessoas": 231
+     }
+    }
+   }
+  },
+  "retossigmoidoscopia": {
+   "universo": {
+    "codigos": [
+     "02.09.01.005-3"
+    ]
+   },
+   "total": {
+    "fila": 415,
+    "fila_viva": 415,
+    "pessoas": 415
+   },
+   "filas": [
+    {
+     "nome": "RETOSSIGMOIDOSCOPIA FLEXÍVEL",
+     "codigo": "02.09.01.005-3",
+     "fila": 415,
+     "fila_viva": 415,
+     "pessoas": 415,
+     "pessoas_viva": 415,
+     "devolvidas": 259,
+     "espera_media": 70.33588030162042,
+     "espera_mediana": 56.97924128471641,
+     "espera_max": 168.3060485185124,
+     "mais_antiga": "28/05/2026",
+     "idade_mediana": 50,
+     "total": 674,
+     "agendadas_12m": 1776,
+     "agendadas_12m_no_codigo": 1776,
+     "cid_principais": [
+      [
+       "I84",
+       115
+      ],
+      [
+       "K62",
+       57
+      ],
+      [
+       "K92",
+       50
+      ],
+      [
+       "K60",
+       42
+      ],
+      [
+       "Z12",
+       33
+      ]
+     ],
+     "anos_estoque": 0.23,
+     "sem_agendamento_12m": false
+    }
+   ],
+   "dimensoes": {
+    "regiao": {
+     "cols": [
+      "regiao",
+      "fila",
+      "pessoas"
+     ],
+     "linhas": [
+      [
+       "Região Central",
+       37,
+       37
+      ],
+      [
+       "Região Centro-Sul",
+       22,
+       22
+      ],
+      [
+       "Região Leste",
+       24,
+       24
+      ],
+      [
+       "Região Norte",
+       62,
+       62
+      ],
+      [
+       "Região Oeste",
+       32,
+       32
+      ],
+      [
+       "Região Sudoeste",
+       158,
+       158
+      ],
+      [
+       "Região Sul",
+       51,
+       51
+      ],
+      [
+       "URD",
+       14,
+       14
+      ],
+      [
+       "Contratado/Credenciado",
+       11,
+       11
+      ]
+     ],
+     "sem_regiao": {
+      "fila": 4,
+      "pessoas": 4
+     }
+    }
+   }
+  }
+ },
+ "dimensoes": {},
+ "por_codigo": {
+  "entrantes": {
+   "cols": [
+    "codigo",
+    "mes",
+    "abertas",
+    "agendadas"
+   ],
+   "linhas": [
+    [
+     "02.09.01.002-9",
+     "2024-11",
+     780,
+     164
+    ],
+    [
+     "02.09.01.002-9",
+     "2024-12",
+     617,
+     168
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-01",
+     788,
+     149
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-02",
+     904,
+     144
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-03",
+     830,
+     111
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-04",
+     815,
+     113
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-05",
+     988,
+     144
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-06",
+     849,
+     127
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-07",
+     941,
+     128
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-08",
+     1141,
+     246
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-09",
+     1087,
+     209
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-10",
+     1009,
+     109
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-11",
+     748,
+     163
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-12",
+     739,
+     149
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-01",
+     779,
+     168
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-02",
+     766,
+     211
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-03",
+     999,
+     141
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-04",
+     826,
+     132
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-05",
+     980,
+     115
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-06",
+     839,
+     166
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-07",
+     1003,
+     103
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-08",
+     1006,
+     98
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-09",
+     831,
+     176
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-10",
+     909,
+     94
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-11",
+     389,
+     20
+    ],
+    [
+     "02.09.01.005-3",
+     "2024-11",
+     0,
+     109
+    ],
+    [
+     "02.09.01.005-3",
+     "2024-12",
+     1,
+     114
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-01",
+     0,
+     120
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-02",
+     1,
+     204
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-03",
+     10,
+     200
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-04",
+     5,
+     180
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-05",
+     1,
+     204
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-06",
+     6,
+     177
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-07",
+     3,
+     170
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-08",
+     5,
+     219
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-09",
+     4,
+     215
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-10",
+     0,
+     162
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-11",
+     3,
+     140
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-12",
+     0,
+     142
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-01",
+     4,
+     121
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-02",
+     13,
+     135
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-03",
+     19,
+     143
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-04",
+     18,
+     112
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-05",
+     21,
+     147
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-06",
+     85,
+     43
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-07",
+     77,
+     35
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-08",
+     76,
+     59
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-09",
+     55,
+     74
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-10",
+     106,
+     14
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-11",
+     70,
+     0
+    ]
+   ]
+  },
+  "oferta": {
+   "cols": [
+    "codigo",
+    "mes",
+    "agendamentos",
+    "realizados",
+    "faltas"
+   ],
+   "linhas": [
+    [
+     "02.09.01.002-9",
+     "2024-11",
+     489,
+     200,
+     232
+    ],
+    [
+     "02.09.01.002-9",
+     "2024-12",
+     517,
+     196,
+     212
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-01",
+     598,
+     205,
+     314
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-02",
+     927,
+     263,
+     530
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-03",
+     700,
+     230,
+     332
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-04",
+     643,
+     251,
+     243
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-05",
+     460,
+     167,
+     111
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-06",
+     407,
+     164,
+     92
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-07",
+     447,
+     162,
+     114
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-08",
+     575,
+     179,
+     126
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-09",
+     612,
+     189,
+     132
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-10",
+     522,
+     212,
+     201
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-11",
+     489,
+     193,
+     177
+    ],
+    [
+     "02.09.01.002-9",
+     "2025-12",
+     410,
+     171,
+     120
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-01",
+     543,
+     222,
+     203
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-02",
+     615,
+     227,
+     172
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-03",
+     609,
+     226,
+     161
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-04",
+     567,
+     126,
+     55
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-05",
+     633,
+     152,
+     114
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-06",
+     611,
+     153,
+     95
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-07",
+     384,
+     151,
+     81
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-08",
+     575,
+     152,
+     87
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-09",
+     588,
+     140,
+     41
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-10",
+     664,
+     122,
+     75
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-11",
+     556,
+     13,
+     15
+    ],
+    [
+     "02.09.01.002-9",
+     "2026-12",
+     87,
+     0,
+     0
+    ],
+    [
+     "02.09.01.005-3",
+     "2024-11",
+     90,
+     56,
+     18
+    ],
+    [
+     "02.09.01.005-3",
+     "2024-12",
+     106,
+     62,
+     17
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-01",
+     111,
+     54,
+     25
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-02",
+     163,
+     85,
+     29
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-03",
+     184,
+     105,
+     40
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-04",
+     183,
+     101,
+     30
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-05",
+     179,
+     112,
+     15
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-06",
+     118,
+     57,
+     6
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-07",
+     133,
+     63,
+     15
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-08",
+     158,
+     66,
+     10
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-09",
+     153,
+     70,
+     15
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-10",
+     127,
+     59,
+     24
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-11",
+     132,
+     68,
+     28
+    ],
+    [
+     "02.09.01.005-3",
+     "2025-12",
+     144,
+     55,
+     25
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-01",
+     159,
+     72,
+     39
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-02",
+     149,
+     69,
+     40
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-03",
+     160,
+     92,
+     26
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-04",
+     150,
+     47,
+     13
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-05",
+     173,
+     65,
+     20
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-06",
+     171,
+     55,
+     20
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-07",
+     86,
+     46,
+     15
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-08",
+     124,
+     41,
+     20
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-09",
+     135,
+     56,
+     3
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-10",
+     192,
+     59,
+     20
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-11",
+     158,
+     9,
+     5
+    ],
+    [
+     "02.09.01.005-3",
+     "2026-12",
+     4,
+     0,
+     0
+    ]
+   ]
+  },
+  "situacao": {
+   "cols": [
+    "codigo",
+    "situacao",
+    "agendamentos"
+   ],
+   "linhas": [
+    [
+     "02.09.01.002-9",
+     "AGENDAMENTO CANCELADO PELO COORD. DA REGULAÇÃO LOCAL",
+     107
+    ],
+    [
+     "02.09.01.002-9",
+     "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+     3173
+    ],
+    [
+     "02.09.01.002-9",
+     "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+     31
+    ],
+    [
+     "02.09.01.002-9",
+     "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+     86
+    ],
+    [
+     "02.09.01.002-9",
+     "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+     1321
+    ],
+    [
+     "02.09.01.002-9",
+     "PROCEDIMENTO REALIZADO",
+     1943
+    ],
+    [
+     "02.09.01.005-3",
+     "AGENDAMENTO CANCELADO PELO COORD. DA REGULAÇÃO LOCAL",
+     6
+    ],
+    [
+     "02.09.01.005-3",
+     "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+     775
+    ],
+    [
+     "02.09.01.005-3",
+     "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+     22
+    ],
+    [
+     "02.09.01.005-3",
+     "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+     14
+    ],
+    [
+     "02.09.01.005-3",
+     "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+     257
+    ],
+    [
+     "02.09.01.005-3",
+     "PROCEDIMENTO REALIZADO",
+     702
+    ]
+   ]
+  }
+ },
+ "rumo": [
+  {
+   "codigo": "02.09.01.002-9",
+   "fila_maior": "COLONOSCOPIA",
+   "fila": 22826,
+   "fila_viva": 20072,
+   "devolvidas": 4466,
+   "entrantes_12m": 12141,
+   "entrantes_12m_antes": 12561,
+   "oferta_12m": 6688,
+   "oferta_12m_antes": 6897,
+   "realizados_12m": 2035,
+   "faltas_12m": 1381,
+   "falta_12m": 0.404,
+   "saldo_mes": 454.4,
+   "pico_oferta_mes": "2025-02",
+   "pico_oferta": 927,
+   "oferta_media_3m": 609.0
+  },
+  {
+   "codigo": "02.09.01.005-3",
+   "fila_maior": "RETOSSIGMOIDOSCOPIA FLEXÍVEL",
+   "fila": 415,
+   "fila_viva": 415,
+   "devolvidas": 259,
+   "entrantes_12m": 1642,
+   "entrantes_12m_antes": 2110,
+   "oferta_12m": 1775,
+   "oferta_12m_antes": 1705,
+   "realizados_12m": 725,
+   "faltas_12m": 269,
+   "falta_12m": 0.271,
+   "saldo_mes": -11.1,
+   "pico_oferta_mes": "2026-10",
+   "pico_oferta": 192,
+   "oferta_media_3m": 150.3
+  }
+ ],
+ "lacunas": [],
+ "entradas": {
+  "enquadramento": {
+   "arquivo": null,
+   "filas": {},
+   "ocis": {}
+  },
+  "anterior": null
+ },
+ "alarmes": [],
+ "diferenca": null
+}

@@ -1,0 +1,148 @@
+{
+  "respostas": [
+    {
+      "id": "AST-A1-01",
+      "status": "aceito",
+      "secao_alterada": "3.3",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "O quociente é 12.967,29. Corrigir o número; o inteiro adotado não muda. PENDENTE: a versão atual ainda traz 12.967,03."
+    },
+    {
+      "id": "AST-A1-02",
+      "status": "aceito",
+      "secao_alterada": "5.11",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "A memória de tempos saiu do documento e foi para dados/dimensionamento_postos.md, com as premissas marcadas (devolutiva de 05/09, D11)."
+    },
+    {
+      "id": "AST-A1-03",
+      "status": "aceito",
+      "secao_alterada": "5.11",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "Idem: a memória de tempos da coordenação saiu do documento."
+    },
+    {
+      "id": "AST-A1-04",
+      "status": "aceito",
+      "secao_alterada": "9.3",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "A matriz tem quatro riscos altos. Corrigir o título ou a classificação. PENDENTE: a versão atual ainda diz 'Os três riscos altos'."
+    },
+    {
+      "id": "AST-A2-01",
+      "status": "aceito",
+      "secao_alterada": "3.3",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "Duplicado de AST-A1-01. PENDENTE."
+    },
+    {
+      "id": "AST-A2-02",
+      "status": "aceito_em_parte",
+      "secao_alterada": "5.13",
+      "fonte_arquivo": "fontes/normas/Decreto_48727_de_09_06_2026.md",
+      "trecho_fonte": "§ 2º Admite-se a subcontratação parcial de atividades acessórias, desde que prevista no plano de trabalho.",
+      "nota": "A tabela de terceiros ficou só com o que é acessório e previsto no plano (art. 33, § 2º). A frase 'a execução assistencial não é subcontratada' se mantém."
+    },
+    {
+      "id": "AST-A2-03",
+      "status": "aceito_em_parte",
+      "secao_alterada": "6.1",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "O mês 10 é a janela de conclusão das OCI do mês 9; a parcela do mês 10 passou a dizer isso (devolutiva, E2). A Meta 2 continua 'meses 1 a 9' para o início das OCI."
+    },
+    {
+      "id": "AST-A2-04",
+      "status": "aceito_em_parte",
+      "secao_alterada": "8.4",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "Idem: a busca ativa segue na janela de conclusão do mês 10."
+    },
+    {
+      "id": "AST-A2-05",
+      "status": "contestado",
+      "secao_alterada": null,
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": "porque a Etapa 1 e o primeiro bimestre",
+      "nota": "A frase não diz que a execução precede o repasse: justifica a parcela na celebração porque a implantação e o primeiro bimestre vêm antes de qualquer receita de produção. Não há contradição."
+    },
+    {
+      "id": "AST-A2-06",
+      "status": "aceito",
+      "secao_alterada": "9.3",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "Duplicado de AST-A1-04. PENDENTE."
+    },
+    {
+      "id": "AST-A3-01",
+      "status": "aceito",
+      "secao_alterada": "2.3 e 5.2",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "A primeira quinzena e o laudo em 15 dias saíram do documento (devolutiva de 05/09, A3 e D1)."
+    },
+    {
+      "id": "AST-A3-02",
+      "status": "aceito",
+      "secao_alterada": "5.15",
+      "fonte_arquivo": "fontes/aprovados/pt_ses_05.md",
+      "trecho_fonte": null,
+      "nota": "As metas dos indicadores passaram a 100%, como no aprovado do ISHP (pt_ses_05), que usa 100% em todos os indicadores."
+    },
+    {
+      "id": "AST-A3-03",
+      "status": "aceito",
+      "secao_alterada": "5.15",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "A linha I-06 saiu do quadro de indicadores (devolutiva de 05/09, D18)."
+    },
+    {
+      "id": "AST-A3-04",
+      "status": "aceito_em_parte",
+      "secao_alterada": "2.5",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "A coluna de Regiões Administrativas de origem saiu (devolutiva, A5). A frase dos polos 'sem deslocamento a outro quadrante' ficou. PENDENTE: reescrever como localização dos polos, sem garantia de origem."
+    },
+    {
+      "id": "AST-A3-05",
+      "status": "aceito_em_parte",
+      "secao_alterada": "9.3",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "O R-06 fica: a verificação polo a polo na Etapa 1 é a mitigação. Falta a frase do que se faz se a insuficiência se confirmar. PENDENTE."
+    },
+    {
+      "id": "AST-A3-06",
+      "status": "aceito",
+      "secao_alterada": "3.3",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": null,
+      "nota": "'O recurso disponível compra' virou 'o quantitativo resulta da divisão do valor disponível pelo valor unitário vigente' (devolutiva, B3)."
+    },
+    {
+      "id": "AST-A3-07",
+      "status": "aceito",
+      "secao_alterada": "2.4",
+      "fonte_arquivo": "fontes/fichas/sigtap_0901010073_082026.md",
+      "trecho_fonte": null,
+      "nota": "A ficha dá idade mínima de 18 anos: escrever 'a partir de 18 anos'. PENDENTE."
+    },
+    {
+      "id": "AST-A4-01",
+      "status": "decisao_do_usuario",
+      "secao_alterada": null,
+      "fonte_arquivo": null,
+      "trecho_fonte": null,
+      "nota": "estado.yaml do redacao_03, conferencia.notebooklm, 01/09/2026: na sedação consciente o próprio endoscopista responde pela sedação (corrigida a contradição entre 5.5 e 5.11/5.12). A Res. CFM 2.174/2017, art. 5º, é recomendação. Vai ao usuário."
+    }
+  ]
+}

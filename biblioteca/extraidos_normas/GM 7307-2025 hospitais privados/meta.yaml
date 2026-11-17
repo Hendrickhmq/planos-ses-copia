@@ -1,0 +1,16 @@
+id: "GM 7307-2025 hospitais privados"
+arquivo: "GM 7307-2025 hospitais privados.pdf"
+processo_sei: ""
+sha256: "01f393e2afaa9894ef53904e5ee4eac9b50ee6bb84941f88685068cfb30efe11"
+paginas: 5
+chars_texto: 20390
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:36:06"

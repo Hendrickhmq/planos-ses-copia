@@ -1,0 +1,37 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/redacao_04",
+ "pedido": "Quantos pedidos da fila de transvaginal têm um dos 37 CID da OCI GIN1 (09.06.01.001-2) que o IEV executa no convênio 030977 — para aplicar a regra um pedido, um plano.",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "ano",
+  "cid"
+ ],
+ "objetos": [
+  {
+   "id": "02.05.02.018-6",
+   "tipo": "exame",
+   "nome": "Ultrassonografia transvaginal",
+   "codigos": [
+    "02.05.02.018-6"
+   ],
+   "filas": [
+    {
+     "nome": "ECOGRAFIA TRANSVAGINAL"
+    },
+    {
+     "nome": "USG TRANSVAGINAL"
+    }
+   ],
+   "sexo": "feminino",
+   "recortes": [
+    {
+     "rotulo": "CID da OCI GIN1 09.06.01.001-2 (IEV)",
+     "cid": "codigo_cid_solicitado={\"C51*\",\"C52*\",\"C53*\",\"C54*\",\"C55*\",\"C56*\",\"C57*\",\"C58*\",\"D25*\",\"N70*\",\"N71*\",\"N72*\",\"N73*\",\"N74*\",\"N75*\",\"N76*\",\"N77*\",\"N80*\",\"N81*\",\"N82*\",\"N83*\",\"N84*\",\"N85*\",\"N86*\",\"N87*\",\"N88*\",\"N89*\",\"N90*\",\"N91*\",\"N92*\",\"N93*\",\"N94*\",\"N95*\",\"N96*\",\"N97*\",\"N98*\",\"N99*\"}"
+    }
+   ]
+  }
+ ]
+}

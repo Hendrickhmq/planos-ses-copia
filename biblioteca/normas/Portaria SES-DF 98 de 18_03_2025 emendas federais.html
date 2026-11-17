@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+    <html>
+
+    <head id="Head1"><meta content="IE=Edge" http-equiv="X-UA-Compatible"/><meta content="pt-br" http-equiv="Content-Language"/><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/><title>
+	
+            Portaria 98 de 18/03/2025
+        
+</title><meta name="keywords" content="Portaria 98 de 18/03/2025,sinj,distrito,federal,df"/><meta name="description" content="Estabelece, no âmbito da Secretaria de Estado de Saúde do Distrito Federal, os procedimentos operacionais de captação, recebimento, execução, monitoramento e prestação de contas de emendas parlamentares federais."/><meta content="index,follow" name="robots"/><meta content="index,follow" name="googlebot"/><script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/platform.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/liblight.js"></script>
+
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/funcoes_norma.js?4.4.00134"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/ckeditor/adapters/jquery.js"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.form.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.cookie.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/on_error.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/liblight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/stacktrace.js"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.ajaxLight.js?3.2.00001"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.autocompleteLight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jMenu.jquery.min.js"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.modalLight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/login.js?3.2.00001"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/funcoes_sinj.js?3.2.00001"
+            charset="utf-8"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/sessao_sinj.js?3.2.00001"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/stacktable.js"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/platform.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/tooltip.js"></script>
+
+        <script type="text/javascript" language="javascript">
+            function Print() {
+                $('div.control').hide();
+                window.print();
+                $('div.control').show();
+            }
+            function exibirAlteracoes(el) {
+                if (el.getAttribute('refresh')) {
+                    location.reload();
+                }
+                else {
+
+                    // NOTE: Essa funcionalidade faz com o que o texto alterado "se transforme" 
+                    // em compilado (basicamente remove informações de vide), mas define 
+                    // um comportamento diferenciado para para os parágrafos que contiverem 
+                    // vides com os seguintes textos no link "revogado pelo(a)" ou 
+                    // "declarado(a) inconstitucional pelo(a)". By Questor
+                    
+                    var regex = undefined;
+                    regex = new RegExp(/Revogado.*?pelo\(a\)/);
+                    $('p[replaced_by]:contains("Revogado")').each(function (k, p) {
+                        if (regex.test($(p).text())) {
+                            var aLinkVide = $('a.link_vide', $(p));
+                            if (aLinkVide.length > 0) {
+                                var aTexto = $(aLinkVide[aLinkVide.length - 1]).text();
+                                if (regex.test(aTexto)) {
+                                    var ds = generateDescriptionToParagraph($(p).text());
+                                    $(p).text(ds + ' ');
+                                    $(aLinkVide[aLinkVide.length - 1]).appendTo($(p));
+                                    $(p).removeAttr('replaced_by');
+                                }
+                            }
+                        }
+                    });
+                    regex = new RegExp(/Inconstitucional.*?pelo\(a\)/);
+                    $('p[replaced_by]:contains("Inconstitucional")').each(function (k, p) {
+                        if (regex.test($(p).text())) {
+                            var aLinkVide = $('a.link_vide', $(p));
+                            if (aLinkVide.length > 0) {
+                                var aTexto = $(aLinkVide[aLinkVide.length - 1]).text();
+                                if (regex.test(aTexto)) {
+                                    var ds = generateDescriptionToParagraph($(p).text());
+                                    $(p).text(ds + ' ');
+                                    $(aLinkVide[aLinkVide.length - 1]).appendTo($(p));
+                                    $(p).removeAttr('replaced_by');
+                                }
+                            }
+                        }
+                    });
+                    $('p[replaced_by]').remove();
+                    $(el).attr('refresh', '1');
+                    $(el).text('Exibir Alterações');
+                }
+            }
+
+            //Verifica os links de LECO, ordena e insere o link 'exibir mais...' e 'exibir menos...' caso exista mais de 3 links de LECO
+            function verificarLinks() {
+                var aP = $('#div_texto > p');
+                var i = 0;
+                var length = aP.length;
+                var pAfter = null;
+                var aOrder = [];
+                for (; i < length; i++) {
+                    if ($('a[href]', aP[i]).length == 1 && $('a[href]', aP[i]).text().toLowerCase().indexOf('legislação correlata') == 0) {
+                        $('a[href]', aP[i]).attr('show', '1').attr('leco', 'leco');
+                        aOrder.push({ 'text': $('a[href]', aP[i]).text(), 'href': $('a[href]', aP[i]).attr('href') });
+                        if (i >= 3) {
+                            $('a[href]', aP[i]).attr('show', '0');
+                            pAfter = aP[i];
+                        }
+                    }
+                    else {
+                        break;
+                    }
+                }
+                aOrder.sort(function (a1, a2) {
+                    return a1.text > a2.text ? 1 : a1.text < a2.text ? -1 : 0;
+                });
+                $('#div_texto a[leco="leco"]').each(function (i, o) {
+                    o.innerText = aOrder[i].text;
+                    o.href = aOrder[i].href;
+                });
+                if (pAfter != null && $('a[show="0"]').length > 3) {
+                    $('a[show="0"]').closest('p').hide();
+                    $('<p id="p_show"><a href="javascript:void(0);" onclick="exibirLinks()">Exibir mais...</a></p>').insertAfter($(pAfter));
+                    $('<p id="p_hide" style="display:none"><a href="javascript:void(0);" onclick="esconderLinks()">Exibir menos...</a></p>').insertAfter($(pAfter));
+                }
+            }
+            function exibirLinks() {
+                $('a[show="0"]').closest('p').show();
+                $('#p_hide').show();
+                $('#p_show').hide();
+            }
+            function esconderLinks() {
+                $('a[show="0"]').closest('p').hide();
+                $('#p_hide').hide();
+                $('#p_show').show();
+            }
+
+            function generateDescriptionToParagraph(text) {
+                var ds = '';
+                text = $.trim(text);
+                if (text != "") {
+                    var palavras = text.split(' ');
+                    if (palavras[0] == 'ANEXO' || palavras[0] == 'TÍTULO' || palavras[0] == 'CAPÍTULO' || palavras[0] == 'Art.' || (palavras[0] == 'Parágrafo' && palavras[1] == 'Único') || palavras[0] == '§') {
+                        ds = palavras[0] + ' ' + palavras[1];
+                    }
+                    else if (ehInciso(palavras[0]) || ehAlinea(palavras[0]) || ehNum(palavras[0])) {
+                        ds = palavras[0];
+                    }
+                    else {
+                        ds = "...";
+                    }
+                }
+                return ds;
+            }
+
+            function ehInciso(termo) {
+                var lastIndex = termo.indexOf("-");
+                if (lastIndex > 0) {
+                    termo = termo.substring(0, lastIndex);
+                }
+                return termo.match(/^[IVXLCDM]+$/i);
+            }
+
+            function ehAlinea(termo) {
+                var lastIndex = termo.indexOf(")");
+                if (lastIndex < 0) {
+                    return false;
+                }
+                if (termo.length == (lastIndex + 1)) {
+                    termo = termo.substring(0, lastIndex);
+                    return termo.match(/[a-z]/i);
+                }
+                return false;
+            }
+
+            function ehNum(termo) {
+                var lastIndex = termo.indexOf(".");
+                if (lastIndex < 0) {
+                    return false;
+                }
+                if (termo.length == (lastIndex + 1)) {
+                    termo = termo.substring(0, lastIndex);
+                    return isInt(termo);
+                }
+                return false;
+            }
+
+            $(document).ready(function () {
+                //A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378
+
+
+
+                var urlPath = window.location.pathname;
+                var urlSplited = urlPath.split("/");
+                var numeroNorma = urlSplited[3];
+
+                //Pegar o texto do h1
+                var elementoh1 = $('#div_texto > h1')[0].textContent;
+                //Adicionar a tag 'a'
+                $('#div_texto > h1')[0].innerHTML = '<a>' + elementoh1 + '</a>';
+
+                //Adicionar o link
+                $("#div_texto h1 a").attr('href', '/' + urlSplited[1] + '/DetalhesDeNorma.aspx?id_norma=' + numeroNorma).attr("target", '_blank');
+                //--------------------------------------------------------------------------------------
+
+
+
+
+                // var paragrafo = $('p');
+                // for (var i = 0; i < paragrafo.length; i++) {
+                //     if (paragrafo[i].innerText.match(/Os anexos constam no DODF/g)) {
+    
+                //         var spanParagrafo = paragrafo[i].textContent;
+                //         var form_consultar_diario = "\"form_consultar_diario\"";
+                //         var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+    
+                //         $(paragrafo)[i].innerHTML = _form + _button + "<span>" + spanParagrafo + "<span>" + "</a></form>";
+    
+                //     }
+
+                //     if (paragrafo[i].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                //         var span = paragrafo[i].textContent;
+                //         var form_consultar_diario = "\"form_consultar_diario\"";
+                //         var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var arraySpan = $("p > span");
+                //         $(paragrafo)[i].innerHTML = _form + _button + "<span style='text-decoration: underline red; color: red;' >" + span + "<span>" + "</a></form>";
+                //     }
+                // }
+                // if (!paragrafo[i - 1].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                //     $('#paginaEColuna').hide();
+                // }
+                //--------------------------------------------------------------------------------------
+
+
+
+                if ($('#div_erro').length > 0) {
+                    $('#div_norma').hide();
+                }
+                else {
+                    if ($('p[replaced_by]').length <= 0 || $('p').length == $('p[replaced_by]').length) {
+                        $('.compilado').hide();
+                    }
+                    verificarLinks();
+                }
+            });
+
+
+            var normaOVEmFunction = new normaOVEmFunction();
+            
+                //A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378
+
+
+            if (normaOVEmFunction != true) {
+
+                    var urlPath = window.location.pathname;
+                    var urlSplited = urlPath.split("/");
+                    var numeroNorma = urlSplited[3];
+
+                    //Pegar o texto do h1
+                    var elementoh1 = $('#div_texto > h1')[0].textContent;
+                    //Adicionar a tag 'a'
+                    $('#div_texto > h1')[0].innerHTML = '<a>' + elementoh1 + '</a>';
+
+                    //Adicionar o link
+                    $("#div_texto h1").attr('href', '/' + urlSplited[1] + '/DetalhesDeNorma.aspx?id_norma=' + numeroNorma).attr("target", '_blank');
+                    //--------------------------------------------------------------------------------------
+
+                //consultarDiarioAspErro
+                    var paragrafo = $('p');
+
+                    for (var i = 0; i < paragrafo.length; i++) {
+
+                        if (paragrafo[i].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                            var span = paragrafo[i].textContent;
+                            var form_consultar_diario = "\"form_consultar_diario\"";
+                            var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                            var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioAspErro(" + form_consultar_diario + ")\'>";
+                            var arraySpan = $("p > span");
+                            $(paragrafo)[i].innerHTML = _form + _button + "<span style='text-decoration: underline red; color: red;' >" + span + "<span>" + "</a></form>";
+                        }
+                    }
+                    if (!paragrafo[i - 1].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                        $('#paginaEColuna').hide();
+                    }
+                    //--------------------------------------------------------------------------------------
+
+                    if ($('#div_erro').length > 0) {
+                        $('#div_norma').hide();
+                    }
+                    else {
+                        if ($('p[replaced_by]').length <= 0 || $('p').length == $('p[replaced_by]').length) {
+                            $('.compilado').hide();
+                        }
+                        verificarLinks();
+                    }
+             }
+        </script>
+        <style type="text/css">
+            .control {
+                width: 100%;
+                float: left;
+            }
+
+            .print {
+                float: right;
+            }
+
+            .compilado {
+                float: left;
+            }
+
+            div.strike {
+                text-decoration: line-through;
+            }
+
+            body,
+            p,
+            h1 {
+                font-family: Tahoma;
+                font-size: 14px;
+            }
+
+            p[nota=nota] {
+                font-size: 12px;
+                border: 1px solid #777;
+                padding: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="div_norma">
+            <!-- A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378-->
+            
+            <!-- corpo dela epigrafe-->
+
+            <a href="/sinj/ ~/" title="Visitar o SINJ-DF - Sistema Integrado de Normas Jurídicas do
+                DF"><img src="http://www.sinj.df.gov.br/sinjpadrao/Imagens/logo_sinj.png" alt="SINJ-DF" /></a>
+
+            <div class="control">
+                <div class="compilado">
+                    <a href="javascript:void(0)" onclick="javascript:exibirAlteracoes(this);">
+                        Texto Compilado
+                    </a>
+                </div>
+                <div class="print">
+                    <a href="javascript:void(0);" onclick="javascript:Print();" title="Imprimir">
+                        <img alt="print" src="http://www.sinj.df.gov.br/sinjpadrao/Imagens/ico_print_p.png" />
+                    </a>
+                </div>
+            </div>
+            <div id="div_texto"><h1 epigrafe="epigrafe" noindex="" nota="" style="font-weight:bold; text-align:center">PORTARIA Nº 98, DE 18 DE MARÇO DE 2025</h1>
+
+<p style="margin-left:50%; text-align:justify" linkname="txt_f987e05ab3014391a8fc2098a239f900"><a id="txt_f987e05ab3014391a8fc2098a239f900" name="txt_f987e05ab3014391a8fc2098a239f900" class="linkname"></a>Estabelece, no âmbito da Secretaria de Estado de Saúde do Distrito Federal, os procedimentos operacionais de captação, recebimento, execução, monitoramento e prestação de contas de emendas parlamentares federais.
+
+<p style="text-align:justify" linkname="txt_23d95be3934b4419a09e5bf361f58258"><a id="txt_23d95be3934b4419a09e5bf361f58258" name="txt_23d95be3934b4419a09e5bf361f58258" class="linkname"></a>O SECRETÁRIO DE ESTADO DE SAÚDE DO DISTRITO FEDERAL, no uso das atribuições que lhe confere o artigo 509, inciso II do Decreto nº 39.546, de 19 de dezembro de 2018, que aprova o Regimento Interno da Secretaria de Estado de Saúde do Distrito Federal, e ainda, mediante os incisos I e III do o art. 105 da Lei Orgânica do Distrito Federal, resolve:
+
+<p style="text-align:justify" linkname="art1"><a id="art1" name="art1" class="linkname"></a>Art. 1º Estabelecer os procedimentos para operacionalização de emendas parlamentares federais, incluídas na Lei Orçamentária Anual da União, destinadas à Secretaria de Estado de Saúde do Distrito Federal – SES-DF, com o objetivo de promover a transparência, a rastreabilidade e a prestação de contas.
+
+<p style="text-align:justify" linkname="art1_incI"><a id="art1_incI" name="art1_incI" class="linkname"></a>I – As emendas citadas no caput incluem os seguintes tipos:
+
+<p style="text-align:justify" linkname="art1_incI_alia"><a id="art1_incI_alia" name="art1_incI_alia" class="linkname"></a>a) As emendas individuais (Recurso Primário Seis – RP6), incluindo as modalidades de transferência com finalidade definida e de transferência especial;
+
+<p style="text-align:justify" linkname="art1_incI_alib"><a id="art1_incI_alib" name="art1_incI_alib" class="linkname"></a>b) As emendas de bancada (Recurso Primário Sete – RP7);
+
+<p style="text-align:justify" linkname="art1_incI_alic"><a id="art1_incI_alic" name="art1_incI_alic" class="linkname"></a>c) As emendas de comissão (Recurso Primário Oito – RP8);
+
+<p style="text-align:justify" linkname="art1_incI_alid"><a id="art1_incI_alid" name="art1_incI_alid" class="linkname"></a>d) As emendas de relator (Recurso Primário Nove – RP9).
+
+<p style="text-align:justify" linkname="art2"><a id="art2" name="art2" class="linkname"></a>Art. 2° Para a rotina de emendas individuais na modalidade de transferência especial, deve-se observar as orientações da Secretaria de Estado de Economia do Distrito Federal, bem como o disposto na Lei Complementar n° 210 de 25 de novembro de 2024, na Instrução Normativa - TCU n° 93 de 17 de janeiro de 2024, na Portaria Interministerial ME/SEGOV nº 6.411 de 15 de junho de 2021, na Lei nº 13.019, de 31 de julho de 2014, e outras vinculadas.
+
+<p style="text-align:justify" linkname="art3"><a id="art3" name="art3" class="linkname"></a>Art. 3º Nos casos em que a execução dos objetos vinculados aos recursos provenientes de emendas parlamentares federais demandarem à atuação em sistema operacional próprio, caberá às unidades técnicas e administrativas relacionadas ao tema, a operacionalização e o monitoramento da execução da política pública no âmbito da SES-DF, nos termos da lei.
+
+<p style="text-align:justify" linkname="art4"><a id="art4" name="art4" class="linkname"></a>Art. 4º Compete à Assessoria de Gestão Participativa e Relações Institucionais – ARINS:
+
+<p style="text-align:justify" linkname="art4_incI"><a id="art4_incI" name="art4_incI" class="linkname"></a>I – apresentar as demandas da SES-DF aos parlamentares federais (Deputados e Senadores), através da participação na elaboração do Caderno de Emendas Federais anual e/ou ofício encaminhado diretamente ao parlamentar;
+
+<p style="text-align:justify" linkname="art4_incII"><a id="art4_incII" name="art4_incII" class="linkname"></a>II – identificar os recursos disponibilizados no “Sistema de Investimento do SUS – InvestSUS”, em operação para esta finalidade ou outro que venha a substituí-lo;
+
+<p style="text-align:justify" linkname="art4_incIII"><a id="art4_incIII" name="art4_incIII" class="linkname"></a>III – identificar a indicação de aplicação, se houver, do parlamentar vinculado ou solicitar a este, nos casos aplicáveis;
+
+<p style="text-align:justify" linkname="art4_incIV"><a id="art4_incIV" name="art4_incIV" class="linkname"></a>IV – cadastrar a proposta no sistema disponível, conforme diretrizes do Ministério da Saúde, baseando-se na demanda apresentada pela área técnica e na indicação do parlamentar, se houver;
+
+<p style="text-align:justify" linkname="art4_incV"><a id="art4_incV" name="art4_incV" class="linkname"></a>V – solicitar o plano de trabalho correspondente, conforme Portaria SES-DF nº 287, de 07 de abril de 2022, no caso de emenda destinada à Organização da Sociedade Civil – OSC, entidade com contrato de gestão, convênio e instrumentos congêneres;
+
+<p style="text-align:justify" linkname="art4_incVI"><a id="art4_incVI" name="art4_incVI" class="linkname"></a>VI – acompanhar a situação das propostas no sistema de cadastramento, identificar eventuais diligências, comunicar a área técnica responsável para saneamento e atualizar as informações da proposta quando necessário;
+
+<p style="text-align:justify" linkname="art4_incVII"><a id="art4_incVII" name="art4_incVII" class="linkname"></a>VII – comunicar à área técnica responsável a aprovação da proposta no sistema de cadastramento;
+
+<p style="text-align:justify" linkname="art4_incVIII"><a id="art4_incVIII" name="art4_incVIII" class="linkname"></a>VIII – comunicar à área técnica responsável o pagamento da proposta pelo FNS/MS para providências necessárias à sua execução;
+
+<p style="text-align:justify" linkname="art4_incIX"><a id="art4_incIX" name="art4_incIX" class="linkname"></a>IX – apresentar informações ao parlamentar quanto à aplicação dos recursos disponibilizados por emendas vinculadas a este;
+
+<p style="text-align:justify" linkname="art4_incX"><a id="art4_incX" name="art4_incX" class="linkname"></a>X – manter atualizado controle interno próprio anual com os dados das propostas;
+
+<p style="text-align:justify" linkname="art4_incXI"><a id="art4_incXI" name="art4_incXI" class="linkname"></a>XI – disponibilizar informações quadrimestralmente à Subsecretaria de Planejamento em Saúde – SES/SUPLANS, para inclusão no Relatório Detalhado do Quadrimestre Anterior – RDQA, conforme art. 36 da Lei Complementar nº 141/2012, Portaria GM/MS nº 2.135, de 25 de setembro de 2013 e Portaria de Consolidação nº 1, de 28 de setembro de 2017 e para inclusão no Relatório Anual de Gestão – RAG, conforme estabelecido no inciso IV, do art. 4º, da Lei nº 8.142/1990;
+
+<p style="text-align:justify" linkname="art4_incXII"><a id="art4_incXII" name="art4_incXII" class="linkname"></a>XII – manter atualizada, semestralmente, a apresentação de informações públicas por meio do Portal InfoSaúde, utilizando ferramenta disponível para a finalidade.
+
+<p style="text-align:justify" linkname="art5"><a id="art5" name="art5" class="linkname"></a>Art. 5º Compete às Áreas Técnicas estabelecidas conforme o objeto a ser financiado, responsáveis pelo serviço ou aquisição, objeto da proposta da emenda parlamentar federal:
+
+<p style="text-align:justify" linkname="art5_incI"><a id="art5_incI" name="art5_incI" class="linkname"></a>I – apresentar no Sistema Eletrônico de Informações – SEI a demanda a ser financiada com recursos de emendas parlamentares federais, com todas as informações necessárias e seguindo as diretrizes estabelecidas pelo Ministério da Saúde e disponibilizadas pelo Fundo Nacional de Saúde em normativos técnicos de orientação;
+
+<p style="text-align:justify" linkname="art5_incII"><a id="art5_incII" name="art5_incII" class="linkname"></a>II – disponibilizar à Assessoria de Gestão Participativa e Relações Institucionais as informações necessárias para atendimento das diligências estabelecidas em análise do MS; III – realizar os procedimentos necessários à adequada execução do recurso, conforme proposta;
+
+<p style="text-align:justify" linkname="art5_incIV"><a id="art5_incIV" name="art5_incIV" class="linkname"></a>IV – iniciar o processo administrativo de contratação ou aquisição correspondente, devendo elaborar e preencher o respectivo Plano de Trabalho, quando aplicável, em conformidade com a norma;
+
+<p style="text-align:justify" linkname="art5_incV"><a id="art5_incV" name="art5_incV" class="linkname"></a>V – apresentar, de ofício, à Assessoria de Gestão Participativa e Relações Institucionais informações acerca da execução do objeto e do recurso, para comunicação ao parlamentar vinculado;
+
+<p style="text-align:justify" linkname="art5_incVI"><a id="art5_incVI" name="art5_incVI" class="linkname"></a>VI – encaminhar à área responsável pela análise e registro da Prestação de Contas, toda a documentação necessária à instrução dos autos e baixa em sistemas informatizados necessários;
+
+<p style="text-align:justify" linkname="art5_par"><a id="art5_par" name="art5_par" class="linkname"></a>Parágrafo único: caso entenda necessário, a área técnica poderá realizar proposição de alteração do objeto da proposta, observado o estabelecido na Portaria nº 3.134/2013 - GM/MS e na Resolução n° 22/2017 - CIT/GM/MS.
+
+<p style="text-align:justify" linkname="art6"><a id="art6" name="art6" class="linkname"></a>Art. 6º Compete ao Fundo de Saúde do Distrito Federal - FSDF:
+
+<p style="text-align:justify" linkname="art6_incI"><a id="art6_incI" name="art6_incI" class="linkname"></a>I – acompanhar o ingresso dos recursos provenientes de emendas parlamentares federais nas contas bancárias específicas, abertas pelo Fundo Nacional de Saúde, destinadas a recepcionar os repasses financeiros realizados na modalidade fundo a fundo;
+
+<p style="text-align:justify" linkname="art6_incII"><a id="art6_incII" name="art6_incII" class="linkname"></a>II – cadastrar o novo domicílio bancário no Sistema Integrado de Gestão Governamental (SIGGo);
+
+<p style="text-align:justify" linkname="art6_incIII"><a id="art6_incIII" name="art6_incIII" class="linkname"></a>III – criar no Sistema Integrado de Gestão Governamental (SIGGo), para cada conta bancária aberta pelo Fundo Nacional de Saúde, o detalhamento da fonte de recursos específica com a finalidade de permitir o adequado acompanhamento da execução orçamentária e financeira desses recursos;
+
+<p style="text-align:justify" linkname="art6_incIV"><a id="art6_incIV" name="art6_incIV" class="linkname"></a>IV – solicitar à Contadoria Geral do Distrito Federal - CONT/DF a vinculação da fonte de recursos detalhada à conta bancária específica, à natureza da receita e às classificações contábeis;
+
+<p style="text-align:justify" linkname="art6_incV"><a id="art6_incV" name="art6_incV" class="linkname"></a>V – emitir Guia de Recebimento - GR no Sistema Integrado de Gestão Governamental (SIGGo) com o valor da emenda, domicílio bancário específico e fonte de recursos vinculada à conta bancária;
+
+<p style="text-align:justify" linkname="art6_incVI"><a id="art6_incVI" name="art6_incVI" class="linkname"></a>VI – encaminhar à Secretaria de Estado de Economia do Distrito Federal solicitação de crédito adicional visando a inclusão, no Quadro de Detalhamento de Despesas (QDD) da Unidade Orçamentária 23901 – Fundo de Saúde do Distrito Federal, dos valores recebidos das emendas parlamentares federais;
+
+<p style="text-align:justify" linkname="art6_incVII"><a id="art6_incVII" name="art6_incVII" class="linkname"></a>VII – promover, quando for o caso, a descentralização dos recursos recebidos para a Unidade Gestora 170101 – Secretaria de Estado de Saúde do Distrito Federal, com vistas à execução orçamentária e financeira das emendas parlamentares federais.
+
+<p style="text-align:justify" linkname="art7"><a id="art7" name="art7" class="linkname"></a>Art. 7º A execução orçamentária e financeira dos recursos provenientes de emendas parlamentares federais ocorrerá em estrita observância às normas previstas na legislação vigente, especialmente as disposições da Lei Federal nº 4.320, de 17 de março de 1964, da Lei Complementar nº 141, de 13 de janeiro de 2012, e do Decreto nº 32.598, de 15 de dezembro de 2010, ou das normas que vierem a substituí-las.
+
+<p style="text-align:justify" linkname="art7_par1"><a id="art7_par1" name="art7_par1" class="linkname"></a>§ 1º Na emissão da Nota de Empenho (NE), deverá ser obrigatoriamente indicada a fonte de recursos específica criada para a contratação do serviço ou aquisição do equipamento, conforme a proposta vinculada à emenda parlamentar federal.
+
+<p style="text-align:justify" linkname="art7_par2"><a id="art7_par2" name="art7_par2" class="linkname"></a>§ 2º Na emissão da Previsão de Pagamento (PP), deverá ser informado, como domicílio bancário de origem, a conta bancária vinculada à fonte de recursos criada especificamente para execução da emenda parlamentar federal.
+
+<p style="text-align:justify" linkname="art7_par3"><a id="art7_par3" name="art7_par3" class="linkname"></a>§ 3º Antes da emissão da Ordem Bancária (OB), o setor competente do Fundo de Saúde do Distrito Federal deverá verificar se a fonte de recursos e o domicílio bancário estão em conformidade com a emenda parlamentar federal e compatíveis com a finalidade da proposta aprovada.
+
+<p style="text-align:justify" linkname="art7_par4"><a id="art7_par4" name="art7_par4" class="linkname"></a>§ 4º Os recursos recebidos por meio de emendas parlamentares federais deverão ser movimentados em uma conta-corrente específica, em instituição financeira federal oficial, vedada a transferência financeira para outras contas-correntes de finalidade divergente de seu objeto pactuado.
+
+<p style="text-align:justify" linkname="art8"><a id="art8" name="art8" class="linkname"></a>Art. 8º A prestação de contas dos recursos oriundos de transferências especiais das emendas individuais será realizada nos termos desta Portaria, em conformidade com as normativas federais e locais aplicáveis, observando-se os princípios da transparência, eficiência e responsabilidade na gestão dos recursos públicos, pelo setor competente designado na estrutura da SES-DF.
+
+<p style="text-align:justify" linkname="art9"><a id="art9" name="art9" class="linkname"></a>Art. 9° A prestação de contas deverá ser realizada anualmente (e quando ao caso couber, o reporte poderá ocorrer em período determinado pela legislação específica) e deverá conter o detalhamento do objeto e a demonstração da aplicação dos recursos recebidos, incluindo valores pagos e saldos remanescentes, e demais informações obrigatórias dispostas na Instrução Normativa nº 93/2024 do Tribunal de Contas da União e demais legislações referentes.
+
+<p style="text-align:justify" linkname="art10"><a id="art10" name="art10" class="linkname"></a>Art. 10. As informações da análise da execução orçamentária dos recursos oriundos de transferências especiais das emendas individuais integrarão o Relatório Anual de Gestão (RAG), nos termos da Lei Complementar nº 141/2012 e da Portaria GM/MS nº 2.135/2013.
+
+<p style="text-align:justify" linkname="art11"><a id="art11" name="art11" class="linkname"></a>Art. 11. Nos casos de operacionalização cujo objeto seja obra, quanto às fases de acompanhamento, monitoramento, execução e prestação de contas, será necessária a inserção de documentação técnica e administrativa em sistema oficial próprio, conforme especificidades contidas na Portaria Conjunta MGI/MF/CGU nº 33, de 30 de agosto de 2023, Portaria GM/MS 381, de 6 de fevereiro de 2017 e normativos correlatos.
+
+<p style="text-align:justify" linkname="art12"><a id="art12" name="art12" class="linkname"></a>Art. 12. Os casos omissos serão resolvidos pelo Secretário de Estado de Saúde do Distrito Federal, observadas as diretrizes estabelecidas pelo Tribunal de Contas da União e demais normativas aplicáveis.
+
+<p style="text-align:justify" linkname="art13"><a id="art13" name="art13" class="linkname"></a>Art. 13. Esta Portaria entra em vigor na data de sua publicação.
+
+<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_04986c85e456462c1186379d96c73d2d"><a id="txt_04986c85e456462c1186379d96c73d2d" name="txt_04986c85e456462c1186379d96c73d2d" class="linkname"></a>JURACY CAVALCANTE LACERDA JUNIOR
+<p style="text-align:right"><span style="color:#FF0000"><a href=http://www.sinj.df.gov.br/sinj/BaixarArquivoDiario.aspx?id_file=eb48990b-dc59-348a-97b5-1a81f9a59680 target='_blank'>Este texto não substitui o publicado no DODF nº 29 B, Edição Extra, seção 1 e 2 de 19/03/2025<span id='paginaEColuna'> p. 5, col. 1<a/></span></div>
+        </div>
+
+        <script type="text/javascript">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-20776101-1', 'auto');
+            ga('create', 'UA-90051523-1', 'auto', 'brlightTracker');
+            ga('send', 'pageview');
+            ga('brlightTracker.send', 'pageview');
+        </script>
+    </body>
+
+    </html>

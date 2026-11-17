@@ -1,0 +1,10 @@
+id: "GM 12174-2026 altera limite ATE 2026"
+arquivo: "GM 12174-2026 altera limite ATE 2026.html"
+sha256: "ad673c13c3aa874420be42e66095d723109f8f92baedf3b22280563f6bce0ac3"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 622
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-10-09T14:09:52"

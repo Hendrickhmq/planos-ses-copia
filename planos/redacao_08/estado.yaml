@@ -1,0 +1,71 @@
+# redacao_08 — OCI de Cardiologia — Instituto Fazer o Bem, Faz Bem — Emenda 41360018/2024 (R$ 2.000.000,00)
+# Aberto em 22/10/2026, no ramo plano_oci_cardiologia, a partir do Ofício nº 36/2026 do Gabinete do Senador
+# Izalci Lucas (17/09/2026), que pede à SES-DF a alteração parcial do beneficiário da emenda: do Fundo
+# Distrital de Saúde para o Instituto. O executor é o Instituto, não o ISHP (usuário, 22/10/2026).
+#
+# Um projeto, uma pasta (metodo/pre_plano/procedimento.md): os três produtos do pedido de 22/10/2026 ("Pre
+# projeto, Plano de trabalho simplificado e Plano de trabalho de fato") ficam aqui, com a mesma fase 0.
+# Ao retomar, ler este arquivo e pendencias.md.
+
+fase: 0                               # travas e dossiê do objeto (metodo/coleta/dossie.md)
+produtos:
+  pre_projeto:
+    o_que_e: "o 'Projeto' curto que a entidade manda à SES antes do ofício da ARINS (biblioteca/instrumento/convenio_ses_df.md, 'O rito', passo 0)"
+    exemplo: "registros/fontes/pre_planos_20261007/iev_191061167_projeto_cardiologia.pdf - IEV, 'Atenção Cardiológica em Rede', 6 p., 22/12/2025"
+    estado: nao_iniciado
+  pt_simplificado:
+    trilha: pre_plano                 # metodo/pre_plano/; arquivo plano_v<N>_<versão>.md
+    modelo: "Plano de Trabalho Simplificado - Modelo Parceria (metodo/pre_plano/formulario.md)"
+    estado: nao_iniciado
+  pt_detalhado:
+    trilha: plano                     # metodo/plano/; arquivo plano.md, nesta pasta
+    modelo: "o mais recente da SES: biblioteca/instrumento/modelo_ses/ (21/10/2026)"
+    estado: nao_iniciado
+
+proponente: fazer_o_bem               # ainda sem pasta em biblioteca/proponentes/
+proponente_dados:
+  razao_social: "INSTITUTO FAZER O BEM, FAZ BEM"
+  natureza: "associação privada"
+  matriz: "CNPJ 21.324.949/0001-17, Barra da Tijuca, Rio de Janeiro/RJ, ativa desde 30/10/2014"
+  filial_df: "CNPJ 21.324.949/0002-06 (o do ofício), SRTVN, Quadra 701, Lote P, Sala 3127, Plano Piloto, Brasília/DF, ativa desde 25/08/2026"
+  dirigente: "Luciana Marilis Oliveira, Presidente (quadro de sócios e administradores da Receita)"
+  atividade_principal: "9430-8/00 Atividades de associações de defesa de direitos sociais"
+  atividades_de_saude: "secundárias, entre elas 8630-5/03 (médica ambulatorial restrita a consultas), 8650-0/xx e 8660-7/00 (apoio à gestão de saúde); nenhuma de complementação diagnóstica (eletrocardiograma, ecocardiograma)"
+  cnes: "nenhum: a consulta pública do CNES não acha estabelecimento com o CNPJ da matriz nem com o da filial (22/10/2026). A 'Associação Fazer o Bem Faz Bem' de Campo Grande/MS (CNES 4154940) é outra, CNPJ 42.592.324/0001-06"
+  convenios_anteriores: "nenhum: é o primeiro convênio (usuário, 22/10/2026)"
+  fonte: "Receita Federal, cadastro público do CNPJ (publica.cnpj.ws e brasilapi), e CNES (cnes.datasus.gov.br/services/estabelecimentos), consultados em 22/10/2026"
+cabecalho_documento: "INSTITUTO FAZER O BEM, FAZ BEM"   # ferramentas/gerar_pre_plano.py
+prefixo_arquivo: "pt_simplificado_oci_cardiologia_"
+
+instrumento:
+  oficio_parlamentar: "Ofício nº 36/2026 - Gabinete do Senador Izalci Lucas (PL/DF), 17/09/2026, ao Secretário de Estado de Saúde: 'Alteração de Beneficiários - Emenda 41360018, Ação 2E90, de 2024'. De: Fundo Distrital de Saúde, CNPJ 12.116.247/0001-57, R$ 2.000.000,00. Para: Instituto Fazer o Bem, Faz Bem, CNPJ 21.324.949/0002-06, R$ 2.000.000,00. Objetivo: 'atendimentos relacionados à OCI de Cardiologia'"
+  oficio_ses: null                    # a ARINS ainda não pediu o PT simplificado; o usuário vai se adiantar (22/10/2026)
+  processo_sei: null
+  rito_ses: "Portaria SES-DF 98/2025, art. 4º: a ARINS identifica a indicação do parlamentar, cadastra a proposta e pede o plano de trabalho (Portaria SES-DF 287/2022)"
+  recebidos: "recebidos/, uma subpasta por documento recebido"
+
+recurso:
+  emenda: "202441360018 - Izalci Lucas, emenda 18, de 2024"
+  tipo: "individual - transferências com finalidade definida (RP 6)"
+  acao: "2E90 - Incremento Temporário ao Custeio dos Serviços de Assistência Hospitalar e Ambulatorial para Cumprimento de Metas (função 10, subfunção 302, programa 5118, PO 0000)"
+  valor: 2000000.00                   # a parte desta emenda que o ofício move para o Instituto
+  emenda_inteira: "R$ 20.700.000,00 empenhados e pagos (R$ 15.177.023,00 no exercício e R$ 5.522.977,00 em restos a pagar), a fundos de saúde do DF e de municípios de Goiás"
+  no_fundo_distrital: "R$ 12.300.000,00 empenhados ao Fundo de Saúde do DF em 2024: R$ 3.500.000,00 e R$ 3.300.000,00 em 30/04/2024 (2024NE465268 e 2024NE465269) e R$ 5.500.000,00 em 12/08/2024 (2024NE497634), este pago em 13/12/2024 (2024OB039378). O recurso já está no Fundo; o ofício muda o beneficiário de R$ 2.000.000,00 dele"
+  fonte: "Portal da Transparência, emenda 202441360018, documentos relacionados (61), consultado em 22/10/2026"
+  origem: federal                     # o valor de referência é o SIGTAP (LI-002, F-04)
+  proposta_fns: null                  # o objeto da proposta cadastrada em 2024 não está no Portal; perguntar à ARINS
+  norma_da_emenda: "a confirmar: as transferências de emenda de 2024 seguem a GM/MS 3.283/2024, fora do acervo (agente normas); a 10.297/2026 rege as individuais de 2026"
+
+objeto:
+  pedido: "'OCI de Cardiologia', sem código (Ofício 36/2026)"
+  candidatas: "as sete OCI do subgrupo 09.02.01, Atenção em Cardiologia (registros/fontes/sigtap_grupo09_092026.csv)"
+  criterio: "estudar as OCI e a fila no DF, e os projetos em andamento, para nada se sobrepor (usuário, 22/10/2026)"
+  em_andamento: "o IEV executa 09.02.01.001-8 (4.647), 09.02.01.006-9 (1.000) e 09.02.01.004-2 (900) no convênio 030977/2026 (estudo/normalizados/pt_ses_04/planilha.csv, itens 2.3.1 a 2.3.3); o projeto dele de 22/12/2025 também trazia 09.02.01.005-0 (1.000)"
+  decisao_usuario: null               # dossiê pronto em 22/10/2026 (dossie/comparativo.md); a escolha é do usuário
+  estudo_anterior: "planos/redacao/ e planos/redacao_02/ (agosto de 2026): exercício com a OCI 09.02.01.002-6, Avaliação Cardiológica; regras em planos/redacao/regras_oci_cardiologia.md. Ficha de 08/2026: refazer na competência vigente"
+
+vigencia: null                        # depois do dossiê (usuário, 22/10/2026)
+custo_acessorio:
+  teto: null                          # depois do dossiê: "depende se a OCI paga bem" (usuário, 22/10/2026)
+  dossie: 0.10                        # provisório, só para a conta do dossiê; o do redacao_07
+pendencias: "pendencias.md"

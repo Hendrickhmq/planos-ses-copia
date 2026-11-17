@@ -1,0 +1,26 @@
+{
+  "userIgnoreFilters": [
+    "node_modules/",
+    "estudo/extraidos/",
+    "estudo/extraidos_ocr/",
+    "estudo/extraidos_controle/",
+    "estudo/normalizados/",
+    "estudo/historico/",
+    "biblioteca/extraidos_normas/",
+    "ferramentas/casos/",
+    "ferramentas/provas/",
+    "claude/",
+    "registros/fontes/",
+    "registros/vigia/",
+    "registros/mapa_social/",
+    "planos/redacao/",
+    "tmp/",
+    "output/",
+    "outputs/",
+    "estudos imagens/"
+  ],
+  "newFileLocation": "folder",
+  "newFileFolderPath": "conhecimento/conceitos",
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false
+}

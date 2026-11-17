@@ -1,0 +1,49 @@
+{
+  "achados": [
+    {
+      "classe": "conta",
+      "secao": "3.3 — Dimensionamento",
+      "trecho_documento": "A divisão do envelope pelo valor unitário resulta em 12.967,03.",
+      "fonte_arquivo": null,
+      "trecho_fonte": null,
+      "conta": "round(Decimal('7781800') / Decimal('600.11'), 2) = Decimal('12967.29')",
+      "gravidade": "ajuste",
+      "por_que": "O quociente é 12.967,29, e não 12.967,03. O erro não altera o quantitativo inteiro, o valor global nem a diferença não aplicada."
+    },
+    {
+      "classe": "numero_sem_lastro",
+      "secao": "5.11 — Memória de dimensionamento da equipe",
+      "trecho_documento": "| busca ativa | 30,12 contatos | 5 min | 2,51 |",
+      "fonte_arquivo": null,
+      "trecho_fonte": null,
+      "conta": null,
+      "gravidade": "diligencia",
+      "por_que": "Não há memória que transforme as entradas diárias em 30,12 contatos de busca ativa: faltam a proporção de usuários alcançados e o número de tentativas por usuário. As fontes fornecidas também não fundamentam esse volume, utilizado no dimensionamento da equipe."
+    },
+    {
+      "classe": "numero_sem_lastro",
+      "secao": "5.11 — Memória de dimensionamento da equipe",
+      "trecho_documento": "| agendamento e confirmação do retorno em atraso | — | — | ~2,5 |",
+      "fonte_arquivo": null,
+      "trecho_fonte": null,
+      "conta": "Decimal('2.51') + Decimal('0.75') + Decimal('2.5') = Decimal('5.76')",
+      "gravidade": "diligencia",
+      "por_que": "As aproximadamente 2,5 horas diárias não têm volume nem tempo unitário demonstrados. A soma fecha, mas esse componente sem memória sustenta o subtotal de 5,76 horas e o dimensionamento do posto de rastreamento de laudo e retorno."
+    },
+    {
+      "classe": "totais",
+      "secao": "9.2 — Matriz; 9.3 — Os três riscos altos",
+      "trecho_documento": "### 9.3 Os três riscos altos",
+      "fonte_arquivo": null,
+      "trecho_fonte": null,
+      "conta": "len(['R-02', 'R-06', 'R-09', 'R-11']) = 4",
+      "gravidade": "ajuste",
+      "por_que": "A matriz da seção 9.2 classifica quatro riscos como altos, enquanto a seção 9.3 informa três."
+    }
+  ],
+  "listas_vazias": [],
+  "falta_fonte": [
+    "Extrato do Mapa Social consultado em 01/09/2026, com os recortes por situação e origem, para verificar os quantitativos da seção 3.1 e se a distribuição territorial corresponde à fila pendente.",
+    "Parecer da Sociedade Portuguesa de Endoscopia Digestiva de 09/10/2020, citado na seção 5.10 como referência para o intervalo utilizado no cálculo da capacidade."
+  ]
+}

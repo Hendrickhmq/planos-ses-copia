@@ -1,0 +1,16 @@
+id: "Decreto 48727 de 09_06_2026"
+arquivo: "Decreto 48727 de 09_06_2026.pdf"
+processo_sei: ""
+sha256: "81448995f8622beb7e1a73bd43bb402afd67339658355ed745284d4d23a3a1d2"
+paginas: 7
+chars_texto: 20350
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: [7]
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:12:49"

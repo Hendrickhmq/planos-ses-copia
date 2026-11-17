@@ -1,0 +1,20 @@
+PROCEDIMENTO,09.01.01.007-3 -OCI AVALIAÇÃO DIAGNÓSTICA DE CÂNCER GÁSTRICO
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, ESOFAGOGASTRODUODENOSCOPIA, ANATOMOPATOLÓGICO, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,18 anos
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 250,00"
+Total do Serviço Ambulatorial,"R$ 250,00"
+CID-10,"C16 - Neoplasia Maligna do EstômagoD00 - Carcinoma in Situ da Cavidade Oral, do Esôfago e do EstômagoD13 - Neoplasia Benigna de Outras Partes e de Partes Mal Definidas do Aparelho DigestivoD37 - Neoplasia de Comportamento Incerto ou Desconhecido da Cavidade Oral e Dos Órgãos Digestivos"
+,K20 - EsofagiteK21 - Doença de Refluxo GastroesofágicoK22 - Outras doenças do esôfago
+,K23 - Transtornos do Esôfago em Doenças Classificadas em Outra ParteK25 - Úlcera GástricaK26 - Úlcera DuodenalK27 - Úlcera Péptica de Localização Não Especificada
+,K28 - Úlcera GastrojejunalK29 - Gastrite e DuodeniteK30 - DispepsiaK- 31 - Outras doenças do estômago e duodeno
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO0011 - CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

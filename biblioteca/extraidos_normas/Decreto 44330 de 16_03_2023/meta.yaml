@@ -1,0 +1,16 @@
+id: "Decreto 44330 de 16_03_2023"
+arquivo: "Decreto 44330 de 16_03_2023.pdf"
+processo_sei: ""
+sha256: "8435b16b4f44fd3a6760e6b18d76eb103681c367ccb3d38494b26c60a3d3f7c9"
+paginas: 66
+chars_texto: 254968
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:12:47"

@@ -1,0 +1,10 @@
+id: "SAES 4940-2026 OCI nefrologia"
+arquivo: "SAES 4940-2026 OCI nefrologia.html"
+sha256: "22537fdd7839c00c542c193e0dbb736269dd5c2c340dba0bd7d4ba8158816787"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 3544
+tabelas_total: 5
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-10-09T14:09:52"

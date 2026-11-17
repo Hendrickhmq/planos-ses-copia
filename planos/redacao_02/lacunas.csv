@@ -1,0 +1,39 @@
+id,rodada,o_que_falta,dono,bloqueia
+L-001,0,PAR do DF contempla a OCI 09.02.01.002-6 e admite novo executor — usuario respondeu 'acredito que sim'; nao confirmado em fonte,SES-DF,s
+L-002,0,Se PAR e habilitacao 38.01 continuam exigidos quando a producao nao vai ao FAEC — adotada a leitura conservadora (exigir os dois),SES-DF,n
+L-003,0,"Diretriz, objetivo e meta do PDS 2024-2027 e da PAS em que o objeto se ancora — elegibilidade pelo art. 6º, II da Portaria 10.297/2026",SES-DF,s
+L-004,0,Capacidade instalada da rede propria da SES-DF e deficit resultante — e o que funda complementaridade (art. 24 da Lei 8.080/90) em vez de so necessidade,SES-DF,s
+L-005,0,"Destino da diferenca entre o apoio apurado pelo fluxo e os R$ 3.000.000,00 do desenho anterior: sobra declarada ou mais OCI. Vence ao fim da rodada 7",Hendrick,n
+L-006,1,"ENCERRADA em 24/08/2026 — Sobradinho, Gama e Ceilandia",—,n
+L-007,1,Fila por regiao ATENDIDA pelo painel (dados/fila_espera.md). Resta: fila por regiao de RESIDENCIA (o painel traz unidade solicitante) e a divisao dos 35.000 por polo na rodada 2,SES-DF,n
+L-008,1,ENCERRADA em 24/08/2026 — o convenio atende todo o DF; referencia distrital pelas sete Regioes de Saude,—,n
+L-009,1,ENCERRADA em substancia — sao procedimentos cardiologicos para adultos. A lista nominal dos 13 nao foi enumerada,—,n
+L-010,1,ENCERRADA em 24/08/2026 — as 16.391 devolvidas estao FORA das 40.829; fila viva = 40.829 solicitacoes / 37.731 CNS,—,n
+L-011,1,"URL do painel de lista de espera. Data RESOLVIDA — consultado em 24/08/2026, confirmado pelo usuario. Se o painel informar competencia do dado, registrar tambem",Hendrick,n
+L-012,2,Existencia de campo estruturado de conduta e desfecho no prontuario — sem ele a Meta 3 (opcao A) nao e apuravel,proponente com a SES-DF,n
+L-013,2,"Condicoes de aptidao do polo na Meta 2 dependem de PAR e habilitacao 38.01 (L-001, L-002)",SES-DF,n
+L-014,3,Confirmar que o TrakCare e o prontuario eletronico da SES-DF — informado com ressalva ('se nao me engano'),Hendrick / SES-DF,n
+L-015,3,"Se a Atencao Primaria de referencia ACESSA a contrarreferencia no mesmo sistema em que ela e emitida — sem isso o IND-05 mede emissao, nao recebimento",SES-DF,n
+L-016,3,"ENCERRADA em 24/08/2026 — desenho A: o apoio e pago por DESPESA COMPROVADA dentro do teto do plano, nao por unidade. Producao menor nao o reduz automaticamente; reduz-se pelo nao gasto (art. 26 §1º) e pelo juizo de compatibilidade (arts. 26 e 27) com a escada do art. 25",—,n
+L-017,4,"Taxa de entrada de novas solicitacoes na fila de cardiologia — decide se a margem de 7,2% entre fila (37.731) e meta (35.000) e suficiente",SES-DF,n
+L-018,4,"Taxa de nao comparecimento observada na rede da SES-DF — os 20% sao premissa do usuario, nao medicao",SES-DF,n
+L-019,4,Proporcao de usuarios sem condicao de teleconsulta — dimensiona o retorno presencial por polo,proponente com a SES-DF,n
+L-020,4,Quem autoriza e abre a APAC no DF — premissa adotada: o polo. Virou DV-051 ao professor,professor,n
+L-021,5,"Capacidade instalada por polo por dia util, com atencao ao exame de maior tempo de sala — decide se 89 entradas completas/dia e executavel",proponente,s
+L-022,5,"Dias uteis efetivos por mes na operacao do polo, inclusive se ha atendimento aos sabados",proponente,n
+L-023,6,"ENCERRADA em 24/08/2026 — recepcao 5 min, agendamento 3, confirmacao 1, busca ativa 5, registro/APAC 4",—,n
+L-024,6,"Parque de equipamentos de ecocardiografia disponivel por polo — sao necessarias 4 a 6 salas por polo, 12 a 18 no conjunto",proponente,s
+L-025,6,"Relacao nominal das pessoas juridicas contratadas e dos profissionais atuantes, por funcao e carga horaria — e a mitigacao do risco do art. 33 §4º",proponente,n
+L-026,7,"ENCERRADA POR ELIMINACAO em 24/08/2026 — o ecocardiografo e capacidade instalada do executor, remunerada no valor unitario. Descartadas as hipoteses de despesa do convenio (rodada 7, aritmetica) e de contrapartida em bens (rodada 10, decisao)",—,n
+L-027,7,"Valor de locacao de imovel compativel com o programa de necessidades do polo (4 a 6 salas de eco, 3 a 4 consultorios, ECG, coleta, teleconsulta) — a referencia de R$ 20.000 e de polo menor",proponente,s
+L-028,7,"Pesquisa de precos propria, com tres cotacoes datadas por linha ou tabela oficial",proponente,s
+L-029,7,"Confirmar as cinco folhas por prontuario (termo, comprovante, laudo ECG, laudo eco, resultado+contrarreferencia). Lista derivada; o que se imprime depende da rotina",proponente,n
+L-030,8,"Dispositivo distrital que discipline antecipacao de parcela — LDO do DF, Decreto DF 32.598/2010 ou via federal. O Decreto 48.727/2026 e silente",professor (DV-053),s
+L-031,8,Se a SES-DF retem parcela final ate a aprovacao da prestacao de contas — usuario nao sabe. Segue em DV-053,professor (DV-053),n
+L-032,8,Criterio de glosa da SES-DF quando a producao fica abaixo e o custo acessorio foi integralmente gasto; e que evidencia ela aceita para distinguir falta de encaminhamento de falha do executor,professor (DV-054),s
+L-033,9,Se a prestacao de contas corre por procedimento informatizado ou convencional (art. 30) — diferenca de 120 dias no prazo de analise,professor (DV-055),n
+L-034,9,"Designacao do executor, gestor ou comissao de acompanhamento pela SES-DF (art. 22 § unico)",SES-DF,n
+L-035,9,"Coordenador designado pelo executor como ponto unico de interlocucao, com nome, polo e funcao de origem",proponente,n
+L-036,9,Endereco eletronico de publicacao dos valores recebidos e aplicados (art. 92 da Portaria 10.297/2026),proponente,n
+L-037,10,"Data prevista de celebracao, para aferir o alcance do art. 42 da LRF (dois ultimos quadrimestres do mandato) e do art. 73 da Lei 9.504/1997 — 2026 e ano eleitoral e ultimo ano de mandato",Hendrick / SES-DF,s
+L-038,12,"Comparativo com tabela de referencia de mercado (CBHPM ou equivalente) para consulta, ECG, ecocardiograma e laboratorio — e a unica via de economicidade que o plano nao tem",proponente,n

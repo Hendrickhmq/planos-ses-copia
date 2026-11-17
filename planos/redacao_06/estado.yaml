@@ -1,0 +1,57 @@
+# redacao_06 — pré-plano de Exames de imagem (ultrassonografia e tomografia) — ISHP
+# Aberto em 09/10/2026, a pedido do usuário: "um pré-projeto igual o de otorrino para o plano de ultrassom".
+# Trilha: pré-plano (metodo/pre_plano/). O plano detalhado do mesmo projeto é o plano 4 (planos/redacao_04/),
+# que é conferido contra este pré-plano depois de enviado (verificação Y, pre_plano_enviado no estado do plano 4).
+
+proponente: ishp                      # biblioteca/proponentes/ishp/
+cabecalho_documento: "INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA"   # ferramentas/gerar_pre_plano.py
+prefixo_arquivo: "pt_simplificado_exames_de_imagem_"
+plano_detalhado: "planos/redacao_04/ (plano 4, v23 de 08/10/2026)"
+instrumento:
+  oficio_ses: "[confirmar] o ofício da ARINS que pede o PT simplificado desta proposta. O Ofício 387/2026 (SEI 216131810) é da proposta 36000722999202500 (otorrino); o plano 4 se declara em atendimento a ele"
+  modelo: "Plano de Trabalho 41 - 'Plano de Trabalho Simplificado - Modelo Parceria' (SEI 216131719); o formulário manda na estrutura"
+recurso:
+  emenda: "Bancada do DF 71080005 (202571080005), OGU 2025"
+  proposta: "36000720055202500"
+  indicacao: "Ofício 40/2026, Gab. Sen. Izalci Lucas, 22/09/2026 - planos/redacao_04/dados/fontes/oficios_bancada_20260922/oficio_40_2026_bancada_df.pdf"
+  gnd: 3
+  valor: 11592762.00
+  norma_da_emenda: "Portaria GM/MS 8.283/2025 (bancada 2025). O documento cita a 10.297/2026, como o plano 4 e o otorrino - decisão do usuário em 07/10/2026 para a mesma emenda"
+objeto:
+  decisao: "o objeto do plano 4: exames de ultrassonografia e de tomografia computadorizada, onze procedimentos (09/10/2026, leitura do pedido do usuário - CONFIRMAR se é só ultrassonografia)"
+  nome_do_projeto: "Exames de imagem - o nome do plano 4 (1.3)"
+  versao: "geral - carteira dos onze procedimentos, Meta 2 em valor, quantidade por procedimento pactuada com a SES/DF (o modelo do otorrino enviado, redacao_05/plano_v1_geral.md)"
+procedimentos:                         # valor de referência = tabela x (1 + incremento do Anexo I da 4.282/2026), truncado
+  fonte: "dados/valor_unitario.md - Portaria SAES/MS 4.282/2026, Anexo I"
+  "02.05.02.009-7": 99.94
+  "02.05.01.004-0": 100.18
+  "02.05.02.004-6": 100.18
+  "02.05.02.018-6": 99.94
+  "02.05.02.005-4": 99.94
+  "02.05.02.012-7": 99.94
+  "02.05.02.010-0": 99.94
+  "02.05.02.003-8": 99.94
+  "02.06.03.001-0": 299.44
+  "02.06.03.003-7": 299.44
+  "02.06.02.003-1": 300.10
+ficha_sigtap:
+  situacao: dispensada               # como no plano 4 (decisão do usuário em 17/09/2026); o pré-plano não afirma idade, sexo nem habilitação
+custo_acessorio:
+  realizado: 919640.00               # o do plano 4, v22-v23 (quadro de 8 meses, decisão do usuário de 07/10/2026)
+  regra: "não vai ao documento: só a frase de que gestão e apoio completam o Valor Total e serão detalhados no plano de trabalho"
+numeros:                             # os do plano 4, v23 - dados/envelope.md
+  producao: 10673026.22              # Meta 2 e aplicação das despesas
+  apoio: 919640.00
+  total_programado: 11592666.22      # Valor Total da seção 1
+  sobra: 95.78
+  quantitativo_plano_4: 79373        # não vai ao documento (quantidade pactuada com a SES/DF)
+  fila_base: "dados/fila.md - Mapa Social, base de 09/10/2026 11:32, coleta do agente mapa-social: 75.877 solicitações / 61.132 pessoas nos dezesseis nomes de fila; ultrassonografia 64.136 (569 dias), tomografia 11.741 (148 dias)"
+  recurso_contra_fila: "execução R$ 10.673.026,22 = 107,4% do valor dessas filas (R$ 9.934.787,50); com as 82 filas 'a decidir' do mesmo código, 89,8% (R$ 11.882.537,72) - o documento diz 'alcança o volume dessas filas'"
+  coleta: "a do agente mapa-social (09/10/2026, recarga 11:32) substituiu a da conversa (recarga 09:32), a pedido do usuário; a comparação está em dados/fila.md"
+vigencia: "8 meses"                  # como o plano 4 desde a v22: mês 1 implantação, meses 1 a 8 execução, mês 8 encerramento
+vigencia_meses: 8
+local_execucao: "unidades do proponente, identificadas na formalização com endereço e CNES (o plano 4 tem dez polos, que ficam para o plano detalhado)"
+pendencias: "pendencias.md"
+
+versoes:
+  v1_geral: "plano_v1_geral.md -> pt_simplificado_exames_de_imagem_v1_geral.docx/.pdf (09/10/2026)"

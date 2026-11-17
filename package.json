@@ -1,0 +1,11 @@
+{
+  "name": "planos-ses",
+  "private": true,
+  "description": "Gera o .docx do plano de trabalho a partir do plano.md",
+  "scripts": {
+    "docx": "node ferramentas/md2docx.js"
+  },
+  "dependencies": {
+    "docx": "^9.7.1"
+  }
+}

@@ -1,0 +1,37 @@
+PROCEDIMENTO,09.03.01.001-1 -OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, EXAMES DE RADIOLOGIA, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 100,00"
+Total do Serviço Ambulatorial,"R$ 100,00"
+CID-10,M124 Hidrartrose intermitenteM15 PoliartroseM150 Artrose prim generalizadaM153 Artrose mult secundM154 Artrose erosiva
+,M158 Outr poliartroses
+,M159 Poliartrose NEM16 CoxartroseM160 Coxartrose prim bilateralM161 Outr coxartroses primM162 Coxartrose bilateral resultante de displasia
+,M163 Outr coxartroses displasicasM164 Coxartrose bilateral pos-traumM165 Outr coxartroses pos-traumM166 Outr coxartroses secund bilateraisM167 Outr coxartroses secund
+,M169 Coxartrose NEM17 GonartroseM170 Gonartrose prim bilateralM171 Outr gonartroses primM172 Gonartrose pos-traum bilateral
+,M173 Outr gonartroses pos-traumM174 Outr gonartroses secund bilateraisM175 Outr gonartroses secundM179 Gonartrose NEM18 Artrose prim articulacao carpometacarpiana
+,M180 Artrose prim bilat prim artic carpometacarpM181 Outr artroses prim prim artic carpometacarpM182 Artrose pos-traum bilat prim art carpometacM183 Outr artroses pos-traum prim art carpometacM184 Outr cartroses sec bilat prim art carpometac
+,M185 Outr artroses sec prim artic carpometacarpM189 Artrose NE prim artic carpometacarpianaM19 Outr artrosesM190 Artrose prim de outr articulacoesM191 Artrose pos-traum de outr articulacoes
+,M192 Outr artroses secundM198 Outr artroses especM199 Artrose NEM250 HemartroseM91 Osteocondrose juvenil do quadril e da pelve
+,M910 Osteocondrose juvenil da pelveM911 Osteocondrose juvenil da cabeca do femurM911 Osteocondrose juvenil da cabeca do femurM912 Coxa planaM913 Pseudocoxalgia
+,M918 Outr osteocondroses juvenis quadril e pelveM919 Osteocondrose juvenil NE quadril e pelveM92 Outr osteocondroses juvenisM920 Osteocondrose juvenil do umeroM921 Osteocondrose juvenil do radio e do cubito
+,M922 Osteocondrose juvenil da maoM923 Outr osteocondroses juvenis do membro superM924 Osteocondrose juvenil da rotulaM925 Osteocondrose juvenil da tibia e peronioM926 Osteocondrose juvenil do tarso
+,M927 Osteocondrose juvenil do metatarsoM928 Outr osteocondroses juvenis especM929 Osteocondrose juvenil NEM93 Outr osteocondropatiasM93 Outr osteocondropatias
+,M930 Luxacao da epifise super do femurM930 Luxacao da epifise super do femurM931 Doenc de Kienbock do adultoM931 Doenc de Kienbock do adultoM932 Osteocondrite dissecante
+,M932 Osteocondrite dissecanteM938 Outr osteocondropatias especM938 Outr osteocondropatias especM939 Osteocondropatias NEM939 Osteocondropatias NE
+,M94 Outr transt das cartilagensM940 Sindr da juncao condrocostalM941 Policondrite recidivanteM942 CondromalaciaM943 Condrolise
+,M948 Outr transt espec da cartilagemM949 Transt NE da cartilagemM95 Outr deform adquir sist osteomusc tec conjM960 Pseudo-artrose apos fusao ou artrodeseQ65 Malformacoes congen do quadril
+,Q650 Luxacao congen unilateral do quadrilQ651 Luxacao congen bilateral do quadrilQ652 Luxacao congen NE do quadrilQ653 Subluxacao congen unilateral do quadrilQ654 Subluxacao congen bilateral do quadril
+,Q655 Subluxacao congen NE do quadrilQ656 Quadril instavelQ658 Outr deform congen do quadrilQ659 Deform congen NE do quadrilQ66 Deform congen do pe
+,Q660 Pe torto equinovaroQ661 Pe torto calcaneovaroQ662 Metatarso varoQ663 Outr deform congen dos pes em varoQ664 Pe torto calcaneovalgo
+,Q665 Pe chato congenQ666 Outr deform congen dos pes em valgoQ667 Pe cavoQ668 Outr deform congen do peQ669 Deform congen NE do pe
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUDÁRIOS A TEREM VALOR ZERADO0011 - CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

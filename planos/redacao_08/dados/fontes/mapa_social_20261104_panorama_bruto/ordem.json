@@ -1,0 +1,24 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "panorama",
+ "plano": "planos/redacao_08",
+ "pedido": "Recoleta de 04/11/2026: só a fila de ecocardiografia (o que o plano vai executar), com o rumo de cada código (entrantes, oferta pelo mês do agendamento, faltas, situação)",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "minimo": 1,
+ "universo": [
+  {
+   "rotulo": "ecocardiografia",
+   "codigos": [
+    "02.05.01.001-6",
+    "02.05.01.002-4",
+    "02.05.01.003-2"
+   ]
+  }
+ ],
+ "por_codigo": [
+  "entrantes",
+  "oferta",
+  "situacao"
+ ]
+}

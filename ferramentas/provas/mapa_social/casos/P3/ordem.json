@@ -1,0 +1,56 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/redacao_05",
+ "pedido": "P3, estreito: a fila da OCI 09.04.01.003-1 pelo CID J30 a J39",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "regiao",
+  "idade",
+  "ano"
+ ],
+ "objetos": [
+  {
+   "id": "09.04.01.003-1",
+   "tipo": "oci",
+   "nome": "avaliação diagnóstica em otorrinolaringologia (nasofaringe e laringe)",
+   "ficha": "dados/fontes/sigtap_0904010031_092026.md",
+   "codigos": [
+    "02.09.04.004-1",
+    "02.09.04.002-5"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"J3*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"J3*\"}",
+   "idade": {
+    "min": 0,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "VIDEOENDOSCOPIA NASAL FLEXIVEL",
+     "papel": "exame"
+    },
+    {
+     "nome": "VIDEOENDOSCOPIA NASAL RIGIDA",
+     "papel": "exame"
+    },
+    {
+     "nome": "VIDEOLARINGOSCOPIA",
+     "papel": "exame"
+    }
+   ],
+   "termos": [
+    "RINOLOGIA",
+    "LARINGOSCOPIA",
+    "NASOFIBRO"
+   ]
+  }
+ ]
+}

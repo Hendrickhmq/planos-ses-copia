@@ -1,0 +1,10 @@
+id: "Lei DF 7897 de 28_05_2026 Tabela SUS Candanga"
+arquivo: "Lei DF 7897 de 28_05_2026 Tabela SUS Candanga.html"
+sha256: "7d1df8da818e73926d81b7464613704eb77a1c46b00860f8b657f4ae7204fe0f"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 5843
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-10-09T13:56:25"

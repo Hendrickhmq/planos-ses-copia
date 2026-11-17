@@ -1,0 +1,375 @@
+{
+  "revisor": "claude_cego",
+  "data": "2026-10-19T20:40",
+  "achados": [
+    {
+      "id": "CLC-A5-01",
+      "revisor": "claude_cego",
+      "grupo": "contas",
+      "passada": "A5",
+      "classe": "calculo",
+      "secao": "2. Objeto (tabela de procedimentos e regra do valor de referência); 8. Indicação da aplicação das despesas",
+      "trecho_documento": "O valor de referência de cada procedimento é o valor do Serviço Ambulatorial da Tabela de Procedimentos do SUS acrescido do incremento que a Portaria SAES/MS nº 4.282, de 19 de junho de 2026, fixa em seu Anexo I para aquele procedimento.",
+      "fonte_arquivo": "fontes/fichas/sigtap_0205020151_102026.md",
+      "trecho_fonte": "**38.05 153%** (SAES 4.282/2026, art. 1º, §2º, e Anexo I)",
+      "conta": "39.60 * (1 + 1.53) = 100.188 (tabela: 100.18; arredondado: 100.19); 24.20 * (1 + 3.13) = 99.946 (tabela: 99.94; arredondado: 99.95); 86.75 * (1 + 2.46) = 300.155 (tabela: 300.15; arredondado: 300.16)",
+      "gravidade": "ajuste",
+      "por_que": "A versão nova retirou da regra do valor de referência o 'truncado na segunda casa decimal', mas manteve os valores truncados na tabela. Como o incremento do Anexo I é percentual, SA acrescido do incremento dá três casas para a ultrassonografia (99,946), a ultrassonografia obstétrica com doppler (100,188) e as tomografias do pescoço e da face (300,155). Sem a regra de truncamento, os valores da tabela (R$ 99,94, R$ 100,18 e R$ 300,15) não decorrem da regra escrita, que ou dá valor com três casas ou, por arredondamento, R$ 99,95, R$ 100,19 e R$ 300,16. O preço unitário que remunera a Meta 2 fica sem regra reproduzível."
+    },
+    {
+      "id": "CLL-A5-01",
+      "revisor": "claude_cego",
+      "grupo": "leitura",
+      "passada": "A5",
+      "classe": "conta",
+      "secao": "2. Objeto; 6. Metas e indicadores; 8. Indicação da aplicação das despesas",
+      "trecho_documento": "O valor de referência de cada procedimento é o valor do Serviço Ambulatorial da Tabela de Procedimentos do SUS acrescido do incremento que a Portaria SAES/MS nº 4.282, de 19 de junho de 2026, fixa em seu Anexo I para aquele procedimento.",
+      "fonte_arquivo": "fontes/normas/SAES_4282-2026_rol_imagem_e_incremento.pdf.md",
+      "trecho_fonte": "02.05.02.017-8 ULTRASSONOGRAFIA TRANSFONTANELA",
+      "conta": "24.20*(1+3.13)=99.946->99.95 (doc 99,94); 97.44*(1+2.08)=300.1152->300.12 (doc 300,11); 39.60*(1+1.53)=100.188->100.19 (doc 100,18); 86.75*(1+2.46)=300.155->300.16 (doc 300,15); 45.00*(1+1.22)=99.90; 55.10*(1+3.00)=220.40",
+      "gravidade": "ajuste",
+      "por_que": "Com a retirada de 'truncado na segunda casa decimal', a regra declarada passou a ser só Tabela mais incremento do Anexo I. Feita a conta com arredondamento usual, quatro dos seis valores (ultrassonografias de R$ 24,20 e 313%, tomografias de R$ 97,44 e 208% e de R$ 86,75 e 246%, obstétrica com doppler de R$ 39,60 e 153%) dão um centavo a mais do que a tabela do objeto mostra. Os valores da tabela não decorrem mais da regra escrita, e é o valor de referência que remunera os exames na seção 8."
+    }
+  ],
+  "listas_vazias": {
+    "contas/A5": [],
+    "leitura/A5": []
+  },
+  "falta_fonte": {
+    "contas/A5": [],
+    "leitura/A5": []
+  },
+  "faltam": [],
+  "vereditos": [
+    {
+      "id": "CLC-A1-01",
+      "veredito": "nao_resolvido",
+      "trecho": "| Valor Total | R$ 1.502.687,00, recurso da Proposta nº 36000722999202500 |",
+      "por_que": "O documento não mudou nesse ponto: a tabela da seção 8 continua com uma linha só, de R$ 1.352.418,30, e não fecha com o Valor Total. Faltam R$ 150.268,70 (1502687.00 - 1352418.30). A resposta remete a uma decisão interna e a documentos que não estão no pacote, sem trecho de fonte que sustente uma contestação."
+    },
+    {
+      "id": "CLC-A1-02",
+      "veredito": "nao_resolvido",
+      "trecho": "R$ 1.352.418,30 em exames do objeto, em quantidades por procedimento pactuadas com a SES/DF",
+      "por_que": "O valor da Meta 2 continua sendo 90% exatos do Valor Total (1502687.00 * 0.90 = 1352418.30), sem quantidade por procedimento nem memória de cálculo. A versão nova só trocou 'carteira' por 'objeto'. A resposta não cita fonte do pacote."
+    },
+    {
+      "id": "CLC-A2-01",
+      "veredito": "resolvido",
+      "trecho": "A programação dos exames, pactuada com a SES/DF, prioriza as filas de maior espera.",
+      "por_que": "A seção 3 e a seção 6 passam a dar um só critério, a prioridade às filas de maior espera; saiu 'conforme a demanda regulada'. A contradição entre os dois critérios deixou de existir. A falta de quantidade por procedimento continua, mas é objeto dos achados CLC-A1-02, CLC-A7-02 e CLC-A4-04."
+    },
+    {
+      "id": "CLC-A7-01",
+      "veredito": "nao_resolvido",
+      "trecho": "| Execução dos exames de ultrassonografia, tomografia computadorizada, mamografia e densitometria óssea, remunerada pelo valor de referência de cada procedimento | R$ 1.352.418,30 |",
+      "por_que": "A aplicação das despesas continua sendo uma tabela de uma linha, sem quantidade, valor unitário, subtotal por meta ou etapa, e com as Metas 1 e 3 sem valor. A resposta invoca uma regra interna sobre o formulário que não está no pacote; não há trecho de fonte que sustente contestação."
+    },
+    {
+      "id": "CLC-A7-02",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meta 2 | Execução dos exames do objeto, laudados e registrados | R$ 1.352.418,30 em exames do objeto, em quantidades por procedimento pactuadas com a SES/DF | meses 2 a 11 |",
+      "por_que": "A coluna 'quantitativo' da Meta 2 continua em reais, sem número de exames; o indicador 'exames realizados ÷ exames pactuados' segue sem denominador no plano. A resposta não traz fonte do pacote."
+    },
+    {
+      "id": "CLC-A7-03",
+      "veredito": "nao_resolvido",
+      "trecho": "Local de execução. Unidades de saúde do proponente no Distrito Federal, identificadas na formalização do instrumento com endereço e CNES.",
+      "por_que": "Texto inalterado: nenhuma unidade, endereço, CNES ou Região de Saúde de execução é indicada. A resposta remete a decisão interna, sem trecho de fonte."
+    },
+    {
+      "id": "CLC-A7-04",
+      "veredito": "nao_resolvido",
+      "trecho": "A execução assistencial é direta, por equipe do proponente: médicos da especialidade que a Tabela de Procedimentos do SUS admite para cada exame, para a ultrassonografia e para o laudo, técnicos em radiologia para a mamografia, a densitometria e a tomografia",
+      "por_que": "A frase ganhou a remissão à especialidade admitida pela Tabela, mas a equipe continua sem cargos, quantidades, carga horária e sem responsável técnico de diagnóstico por imagem. A resposta não cita fonte do pacote."
+    },
+    {
+      "id": "CLC-A7-05",
+      "veredito": "nao_resolvido",
+      "trecho": "| indicador | fórmula | parâmetro | meio de verificação |",
+      "por_que": "Metas e indicadores continuam em duas tabelas separadas, sem vínculo de indicador a meta; a Meta 1 segue sem indicador. A resposta não cita fonte do pacote."
+    },
+    {
+      "id": "CLC-A4-01",
+      "veredito": "nao_resolvido",
+      "trecho": "O valor de referência de cada procedimento é o valor do Serviço Ambulatorial da Tabela de Procedimentos do SUS acrescido do incremento que a Portaria SAES/MS nº 4.282, de 19 de junho de 2026, fixa em seu Anexo I para aquele procedimento.",
+      "por_que": "O preço continua sendo o SA acrescido do incremento da habilitação 38.05, que a SAES 4.282/2026 (art. 1º, §§ 1º e 2º) restringe a estabelecimentos habilitados no Componente Créditos Financeiros; o documento segue sem afirmar habilitação nem justificar o preço. A versão nova só retirou a regra de truncamento. A resposta remete a decisão interna, sem fonte do pacote."
+    },
+    {
+      "id": "CLC-A4-02",
+      "veredito": "nao_resolvido",
+      "trecho": "A gestão e o apoio do projeto, que completam o Valor Total, serão detalhados no plano de trabalho, com postos, quantidades, preços e memória de cálculo, sem sobreposição aos custos abrangidos pelos exames.",
+      "por_que": "Texto inalterado: os R$ 150.268,70 (10,00% do Valor Total) seguem sem rubrica, valor, posto ou memória, na forma de percentual fixo sobre o total. A resposta invoca aceitação anterior da SUCONV e decisão interna, documentos que não estão no pacote; nada sustenta a contestação diante do art. 17, IV, do Decreto 48.727/2026."
+    },
+    {
+      "id": "CLC-A4-03",
+      "veredito": "nao_resolvido",
+      "trecho": "Sim. CNES do proponente: 8078858. O CNES das unidades de execução será informado na formalização do instrumento.",
+      "por_que": "Texto inalterado: o CNES das unidades de execução continua adiado para a formalização, contra o que o Ofício 398 pede (inciso V). A resposta remete a regra interna fora do pacote."
+    },
+    {
+      "id": "CLC-A4-04",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meta 2 | Execução dos exames do objeto, laudados e registrados | R$ 1.352.418,30 em exames do objeto, em quantidades por procedimento pactuadas com a SES/DF | meses 2 a 11 |",
+      "por_que": "A versão nova reforça que a Meta 2 é 'quantitativa' e agora cita o § 2º do art. 8º da GM/MS 8.283/2025, mas a meta continua sem quantidade de serviço, só valor em reais. A meta quantitativa daquele dispositivo é para pagamento por serviços prestados, e sem quantidade não se afere cumprimento nem glosa. A resposta não cita fonte do pacote."
+    },
+    {
+      "id": "CLC-A4-05",
+      "veredito": "nao_resolvido",
+      "trecho": "A execução assistencial é direta, por equipe do proponente: médicos da especialidade que a Tabela de Procedimentos do SUS admite para cada exame, para a ultrassonografia e para o laudo, técnicos em radiologia para a mamografia, a densitometria e a tomografia",
+      "por_que": "O proponente aceitou em parte, mas o documento não mudou nesse ponto: não indica responsável técnico, supervisor de proteção radiológica nem dimensionamento da equipe. O trecho citado na resposta (RDC 611/2022, art. 13) é o mesmo que fundamentou o achado e manda designar formalmente o profissional; não sustenta deixar a informação fora do documento."
+    },
+    {
+      "id": "CLC-A4-06",
+      "veredito": "resolvido",
+      "trecho": "| Registro da produção | exames registrados ÷ exames realizados | 100% | Boletim de Produção Ambulatorial Individualizado (BPA-I) |",
+      "por_que": "O meio de verificação passou a ser o BPA-I. As fichas do SIGTAP no pacote dos doze procedimentos trazem BPA (Individualizado) como instrumento de registro, e a APAC principal fica restrita à numeração especial do Agora Tem Especialistas."
+    },
+    {
+      "id": "CLC-A4-07",
+      "veredito": "resolvido",
+      "trecho": "médicos da especialidade que a Tabela de Procedimentos do SUS admite para cada exame",
+      "por_que": "A equipe médica passou a ser vinculada à especialidade que a Tabela admite para cada exame, o que alinha a qualificação dos médicos ao CBO das fichas (por exemplo, 225320 para a tomografia do crânio)."
+    },
+    {
+      "id": "CLC-A4-08",
+      "veredito": "resolvido",
+      "trecho": "Em atenção ao § 2º do art. 8º da Portaria GM/MS nº 8.283/2025, que rege as emendas de bancada",
+      "por_que": "O documento passou a citar a Portaria GM/MS 8.283/2025, que dispõe sobre as emendas de bancada, e o § 2º do seu art. 8º prevê metas quantitativas para pagamento por serviços prestados e previamente autorizados, como o texto declara."
+    },
+    {
+      "id": "CLL-G1-01",
+      "veredito": "resolvido",
+      "trecho": null,
+      "por_que": "O meio de verificação passou de APAC para o BPA-I. Todas as doze fichas do objeto registram BPA (Individualizado) como instrumento, e a resposta cita a ficha 02.05.02.016-0, cujo campo Instrumento traz o trecho citado. O indicador fica verificável pelo instrumento do exame avulso."
+    },
+    {
+      "id": "CLL-G2-01",
+      "veredito": "resolvido",
+      "trecho": null,
+      "por_que": "O meio de verificação passou de APAC para o BPA-I. Todas as doze fichas do objeto registram BPA (Individualizado) como instrumento, e a resposta cita a ficha 02.05.02.016-0, cujo campo Instrumento traz o trecho citado. O indicador fica verificável pelo instrumento do exame avulso."
+    },
+    {
+      "id": "CLL-G7-04",
+      "veredito": "resolvido",
+      "trecho": null,
+      "por_que": "O meio de verificação passou de APAC para o BPA-I. Todas as doze fichas do objeto registram BPA (Individualizado) como instrumento, e a resposta cita a ficha 02.05.02.016-0, cujo campo Instrumento traz o trecho citado. O indicador fica verificável pelo instrumento do exame avulso."
+    },
+    {
+      "id": "CLL-G1-02",
+      "veredito": "nao_resolvido",
+      "trecho": "O valor de referência de cada procedimento é o valor do Serviço Ambulatorial da Tabela de Procedimentos do SUS acrescido do incremento que a Portaria SAES/MS nº 4.282, de 19 de junho de 2026, fixa em seu Anexo I para aquele procedimento.",
+      "por_que": "A versão nova só retirou o truncamento; o preço continua sendo o valor da Tabela com o incremento do Anexo I da SAES 4.282/2026, que o art. 1º, §§ 1º e 2º, reserva a estabelecimentos habilitados em 38.05 no Componente Créditos Financeiros. A resposta não cita fonte que autorize esse preço num convênio de emenda; remeteu a uma decisão interna, que não é fonte do pacote."
+    },
+    {
+      "id": "CLL-G7-05",
+      "veredito": "nao_resolvido",
+      "trecho": "O valor de referência de cada procedimento é o valor do Serviço Ambulatorial da Tabela de Procedimentos do SUS acrescido do incremento que a Portaria SAES/MS nº 4.282, de 19 de junho de 2026, fixa em seu Anexo I para aquele procedimento.",
+      "por_que": "A versão nova só retirou o truncamento; o preço continua sendo o valor da Tabela com o incremento do Anexo I da SAES 4.282/2026, que o art. 1º, §§ 1º e 2º, reserva a estabelecimentos habilitados em 38.05 no Componente Créditos Financeiros. A resposta não cita fonte que autorize esse preço num convênio de emenda; remeteu a uma decisão interna, que não é fonte do pacote."
+    },
+    {
+      "id": "CLL-G1-03",
+      "veredito": "nao_resolvido",
+      "trecho": "A gestão e o apoio do projeto, que completam o Valor Total, serão detalhados no plano de trabalho, com postos, quantidades, preços e memória de cálculo, sem sobreposição aos custos abrangidos pelos exames.",
+      "por_que": "Texto inalterado: R$ 150.268,70 (10% do Valor Total) continuam sem item, quantidade, preço nem justificativa na indicação da aplicação das despesas. A resposta não cita fonte; a referência a um formato aceito em outro plano não está no pacote."
+    },
+    {
+      "id": "CLL-G7-01",
+      "veredito": "nao_resolvido",
+      "trecho": "A gestão e o apoio do projeto, que completam o Valor Total, serão detalhados no plano de trabalho, com postos, quantidades, preços e memória de cálculo, sem sobreposição aos custos abrangidos pelos exames.",
+      "por_que": "Texto inalterado: R$ 150.268,70 (10% do Valor Total) continuam sem item, quantidade, preço nem justificativa na indicação da aplicação das despesas. A resposta não cita fonte; a referência a um formato aceito em outro plano não está no pacote."
+    },
+    {
+      "id": "CLL-G5-06",
+      "veredito": "nao_resolvido",
+      "trecho": "| Execução dos exames de ultrassonografia, tomografia computadorizada, mamografia e densitometria óssea, remunerada pelo valor de referência de cada procedimento | R$ 1.352.418,30 |",
+      "por_que": "A tabela de aplicação das despesas continua com uma linha de 90% do Valor Total, e os 10% restantes seguem só no parágrafo que os adia. Nada mudou e a resposta não cita fonte."
+    },
+    {
+      "id": "CLL-G1-04",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meta 2 | Execução dos exames do objeto, laudados e registrados | R$ 1.352.418,30 em exames do objeto, em quantidades por procedimento pactuadas com a SES/DF | meses 2 a 11 |",
+      "por_que": "A Meta 2 continua expressa em reais, com as quantidades por procedimento deixadas para pactuação posterior. A versão nova acrescentou a citação do § 2º do art. 8º da GM/MS 8.283/2025, que pede metas quantitativas 'para o pagamento pelos serviços prestados', o que reforça a exigência de quantidade sem atendê-la. A resposta não cita fonte."
+    },
+    {
+      "id": "CLL-G7-03",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meta 2 | Execução dos exames do objeto, laudados e registrados | R$ 1.352.418,30 em exames do objeto, em quantidades por procedimento pactuadas com a SES/DF | meses 2 a 11 |",
+      "por_que": "A Meta 2 continua expressa em reais, com as quantidades por procedimento deixadas para pactuação posterior. A versão nova acrescentou a citação do § 2º do art. 8º da GM/MS 8.283/2025, que pede metas quantitativas 'para o pagamento pelos serviços prestados', o que reforça a exigência de quantidade sem atendê-la. A resposta não cita fonte. O cronograma também segue sem dimensão física e financeira."
+    },
+    {
+      "id": "CLL-G9-02",
+      "veredito": "nao_resolvido",
+      "trecho": "Em atenção ao § 2º do art. 8º da Portaria GM/MS nº 8.283/2025, que rege as emendas de bancada, e ao parágrafo único do art. 7º da Portaria GM/MS nº 10.297/2026, citada no ofício, a Meta 2 é quantitativa, destinada ao pagamento pelos serviços prestados e previamente autorizados pela SES/DF.",
+      "por_que": "O parágrafo foi ampliado com mais um dispositivo (GM/MS 8.283/2025, art. 8º, § 2º), e continua declarando a conformidade da meta sem cumpri-la: a Meta 2 segue em reais, sem quantidade."
+    },
+    {
+      "id": "CLL-G1-05",
+      "veredito": "nao_resolvido",
+      "trecho": "Sim. CNES do proponente: 8078858. O CNES das unidades de execução será informado na formalização do instrumento.",
+      "por_que": "Texto inalterado: o CNES e o endereço das unidades de execução continuam adiados para a formalização. A resposta não cita fonte que dispense a identificação no plano exigida pela Portaria 10.297/2026 (art. 7º, V) e pelo Decreto 48.727/2026 (art. 6º, I)."
+    },
+    {
+      "id": "CLL-G7-02",
+      "veredito": "nao_resolvido",
+      "trecho": "Sim. CNES do proponente: 8078858. O CNES das unidades de execução será informado na formalização do instrumento.",
+      "por_que": "Texto inalterado: o CNES e o endereço das unidades de execução continuam adiados para a formalização. A resposta não cita fonte que dispense a identificação no plano exigida pela Portaria 10.297/2026 (art. 7º, V) e pelo Decreto 48.727/2026 (art. 6º, I)."
+    },
+    {
+      "id": "CLL-G3-01",
+      "veredito": "nao_resolvido",
+      "trecho": "Local de execução. Unidades de saúde do proponente no Distrito Federal, identificadas na formalização do instrumento com endereço e CNES.",
+      "por_que": "Texto inalterado: as unidades continuam sem identificação, e a capacidade técnica, sanitária e operacional não pode ser demonstrada. A resposta não cita fonte."
+    },
+    {
+      "id": "CLL-G3-02",
+      "veredito": "nao_resolvido",
+      "trecho": "A execução assistencial é direta, por equipe do proponente: médicos da especialidade que a Tabela de Procedimentos do SUS admite para cada exame, para a ultrassonografia e para o laudo, técnicos em radiologia para a mamografia, a densitometria e a tomografia, equipe de enfermagem para a tomografia e equipe de recepção e apoio.",
+      "por_que": "A frase passou a dizer que os médicos são da especialidade que a Tabela admite, mas continua sem responsável técnico, supervisor de proteção radiológica e programas obrigatórios da RDC 611/2022. A própria resposta diz que o documento não muda e leva a condição ao controle interno, que não está no documento."
+    },
+    {
+      "id": "CLL-G7-07",
+      "veredito": "nao_resolvido",
+      "trecho": "A execução assistencial é direta, por equipe do proponente: médicos da especialidade que a Tabela de Procedimentos do SUS admite para cada exame, para a ultrassonografia e para o laudo, técnicos em radiologia para a mamografia, a densitometria e a tomografia, equipe de enfermagem para a tomografia e equipe de recepção e apoio.",
+      "por_que": "A frase passou a dizer que os médicos são da especialidade que a Tabela admite, mas continua sem responsável técnico, supervisor de proteção radiológica e programas obrigatórios da RDC 611/2022. A própria resposta diz que o documento não muda e leva a condição ao controle interno, que não está no documento. A Meta 1 segue com unidades em operação no mês 1 sem nada que comprove a regularidade sanitária."
+    },
+    {
+      "id": "CLL-G3-03",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meta 1 | Implantação: pactuação do fluxo com a regulação, equipe, unidades com CNES e acesso aos sistemas da SES/DF, inclusive ao TrakCare | unidades em operação | mês 1 |",
+      "por_que": "Texto inalterado: unidades em operação no mês 1 sem comprovação de projeto de blindagem, PBA e aprovação de equipamento (RDC 611/2022, arts. 7º, 8º, 10 e 17, I). A resposta admite que o documento não muda."
+    },
+    {
+      "id": "CLL-G3-04",
+      "veredito": "nao_resolvido",
+      "trecho": "Público-alvo. Usuários do SUS no Distrito Federal com solicitação regulada de um dos procedimentos do objeto, nas condições de idade, sexo e indicação de cada procedimento na Tabela de Procedimentos do SUS.",
+      "por_que": "Só 'carteira' virou 'objeto'. O público-alvo continua seguindo as idades da Tabela, desde 0 meses nas tomografias, sem comprovar protocolo pediátrico do tomógrafo (IN 93/2021, art. 4º, II). A resposta admite que o documento não muda."
+    },
+    {
+      "id": "CLL-G7-08",
+      "veredito": "nao_resolvido",
+      "trecho": "Público-alvo. Usuários do SUS no Distrito Federal com solicitação regulada de um dos procedimentos do objeto, nas condições de idade, sexo e indicação de cada procedimento na Tabela de Procedimentos do SUS.",
+      "por_que": "Só 'carteira' virou 'objeto'. O público-alvo continua seguindo as idades da Tabela, desde 0 meses nas tomografias, sem comprovar protocolo pediátrico do tomógrafo (IN 93/2021, art. 4º, II). A resposta admite que o documento não muda."
+    },
+    {
+      "id": "CLL-G3-05",
+      "veredito": "nao_resolvido",
+      "trecho": "| Mamografia bilateral para rastreamento | 6.274 | 6.274 | 48 dias |",
+      "por_que": "A linha passou a usar só a fila de rotina (6.274), mas a ficha registra que o N63 (nódulo mamário), caso que a descrição da 02.04.03.018-8 exclui, está também na fila de rotina (263 casos). A fila que sustenta a demanda ainda inclui casos que o código não cobre, e o documento não trata o risco de glosa; a resposta remete ao controle interno. Conta: 263/6274 = 0,042; 6274*99,90 = 626.772,60, 46% do valor dos exames."
+    },
+    {
+      "id": "CLL-G5-03",
+      "veredito": "nao_resolvido",
+      "trecho": "| Mamografia bilateral para rastreamento | 6.274 | 6.274 | 48 dias |",
+      "por_que": "A linha passou a usar só a fila de rotina (6.274), mas a ficha registra que o N63 (nódulo mamário), caso que a descrição da 02.04.03.018-8 exclui, está também na fila de rotina (263 casos). A fila que sustenta a demanda ainda inclui casos que o código não cobre, e o documento não trata o risco de glosa; a resposta remete ao controle interno."
+    },
+    {
+      "id": "CLL-G7-06",
+      "veredito": "nao_resolvido",
+      "trecho": "| Mamografia bilateral para rastreamento | 6.274 | 6.274 | 48 dias |",
+      "por_que": "A linha passou a usar só a fila de rotina (6.274), mas a ficha registra que o N63 (nódulo mamário), caso que a descrição da 02.04.03.018-8 exclui, está também na fila de rotina (263 casos). A fila que sustenta a demanda ainda inclui casos que o código não cobre, e o documento não trata o risco de glosa; a resposta remete ao controle interno."
+    },
+    {
+      "id": "CLL-G3-06",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meses 2 a 11 | Execução dos exames conforme a programação pactuada com a regulação |",
+      "por_que": "Texto inalterado: nenhuma contingência para parada de tomógrafo ou mamógrafo. A resposta diz que fica para o plano detalhado e o controle interno; o documento não muda."
+    },
+    {
+      "id": "CLL-G5-01",
+      "veredito": "nao_resolvido",
+      "trecho": "| Exames realizados | exames realizados ÷ exames pactuados no período | 100% | registros nos sistemas oficiais |",
+      "por_que": "Texto inalterado: o indicador continua exigindo 100% de exames realizados sobre pactuados, dependente do comparecimento de usuários agendados pela SES/DF. A resposta não cita fonte do pacote que peça esse percentual."
+    },
+    {
+      "id": "CLL-G7-09",
+      "veredito": "nao_resolvido",
+      "trecho": "| Exames realizados | exames realizados ÷ exames pactuados no período | 100% | registros nos sistemas oficiais |",
+      "por_que": "Texto inalterado: o indicador continua exigindo 100% de exames realizados sobre pactuados, dependente do comparecimento de usuários agendados pela SES/DF. A resposta não cita fonte do pacote que peça esse percentual."
+    },
+    {
+      "id": "CLL-G5-02",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meta 1 | Implantação: pactuação do fluxo com a regulação, equipe, unidades com CNES e acesso aos sistemas da SES/DF, inclusive ao TrakCare | unidades em operação | mês 1 |",
+      "por_que": "Texto inalterado: a Meta 1 continua dependendo de atos da SES/DF (pactuação com a regulação e acesso ao TrakCare) no mês 1. A resposta remete a um PT aceito em outra ocasião, que não está no pacote."
+    },
+    {
+      "id": "CLL-G7-10",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meta 1 | Implantação: pactuação do fluxo com a regulação, equipe, unidades com CNES e acesso aos sistemas da SES/DF, inclusive ao TrakCare | unidades em operação | mês 1 |",
+      "por_que": "Texto inalterado: a Meta 1 continua dependendo de atos da SES/DF (pactuação com a regulação e acesso ao TrakCare) no mês 1. A resposta remete a um PT aceito em outra ocasião, que não está no pacote."
+    },
+    {
+      "id": "CLL-G5-04",
+      "veredito": "nao_resolvido",
+      "trecho": "O recurso da proposta alcança mais da metade da fila desses procedimentos na data da consulta. A programação dos exames, pactuada com a SES/DF, prioriza as filas de maior espera.",
+      "por_que": "A frase foi reescrita, mas continua sem a conta do alcance e sem converter a fila em quantidade de exames por procedimento. Refeita com a nova linha da mamografia, a conta ainda dá 57% só em valor: sum(fila*valor) = 2.363.021,57; 1.352.418,30/2.363.021,57 = 0,572."
+    },
+    {
+      "id": "CLL-G5-05",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meses 2 a 11 | Execução dos exames conforme a programação pactuada com a regulação |",
+      "por_que": "Texto inalterado: dez meses sem quantidade nem desembolso por mês; falta o cronograma físico-financeiro do Decreto 48.727/2026 (art. 7º, VI)."
+    },
+    {
+      "id": "CLL-G9-01",
+      "veredito": "nao_resolvido",
+      "trecho": "O exame de imagem é a etapa que antecede a decisão clínica na investigação ginecológica, urológica e oftalmológica, no acompanhamento do recém-nascido e da gestação, na investigação neurológica e de cabeça e pescoço, no rastreamento do câncer de mama e na avaliação da osteoporose.",
+      "por_que": "Texto inalterado. A resposta não cita fonte."
+    },
+    {
+      "id": "CLL-G9-03",
+      "veredito": "nao_resolvido",
+      "trecho": "A fila regulada da SES/DF, publicada no Mapa Social da Saúde, painel do Ministério Público do Distrito Federal e Territórios que divulga os dados do SISREG, registra, em consulta de 15 de outubro de 2026:",
+      "por_que": "O parágrafo sobre o painel continua, e a explicação da contagem também ('A contagem considera as solicitações pendentes...'); só saiu a frase sobre pessoas. A resposta não cita fonte."
+    },
+    {
+      "id": "CLL-G9-04",
+      "veredito": "contestacao_procede",
+      "trecho": null,
+      "por_que": "O trecho citado existe no Ofício 398/2026 ('observando-se a natureza de custeio para a') e o ofício pede expressamente que o plano observe a natureza de custeio. A frase atende a esse pedido; o achado partia de que ninguém havia perguntado."
+    },
+    {
+      "id": "CLL-G9-05",
+      "veredito": "nao_resolvido",
+      "trecho": "A gestão e o apoio do projeto, que completam o Valor Total, serão detalhados no plano de trabalho, com postos, quantidades, preços e memória de cálculo, sem sobreposição aos custos abrangidos pelos exames.",
+      "por_que": "Texto inalterado: a expressão 'sem sobreposição aos custos abrangidos pelos exames' continua no parágrafo. A resposta não cita fonte."
+    },
+    {
+      "id": "CLL-G9-06",
+      "veredito": "resolvido",
+      "trecho": null,
+      "por_que": "A frase sobre pessoas que não se somam foi retirada (mudancas.diff)."
+    },
+    {
+      "id": "CLL-G9-07",
+      "veredito": "nao_resolvido",
+      "trecho": "| Meta 1 | Implantação: pactuação do fluxo com a regulação, equipe, unidades com CNES e acesso aos sistemas da SES/DF, inclusive ao TrakCare | unidades em operação | mês 1 |",
+      "por_que": "Texto inalterado. A resposta remete a uma decisão interna sobre a estrutura do formulário, sem citar fonte do pacote."
+    },
+    {
+      "id": "CLL-G9-08",
+      "veredito": "nao_resolvido",
+      "trecho": "| 6. Entrega e contrarreferência | registro do laudo e do atendimento no TrakCare, onde a unidade solicitante os consulta, e orientação ao usuário para o retorno à unidade solicitante |",
+      "por_que": "Texto inalterado. A resposta remete a uma decisão interna sobre a estrutura do formulário, sem citar fonte do pacote."
+    },
+    {
+      "id": "CLL-G9-11",
+      "veredito": "nao_resolvido",
+      "trecho": "| 2. Orientação | contato com o usuário agendado, orientação sobre o preparo do exame e confirmação da presença |",
+      "por_que": "Texto inalterado. A resposta remete a uma decisão interna sobre a estrutura do formulário, sem citar fonte do pacote."
+    },
+    {
+      "id": "CLL-G9-09",
+      "veredito": "resolvido",
+      "trecho": null,
+      "por_que": "'Carteira' não aparece mais no documento; foi trocado por 'objeto' em todas as seções."
+    },
+    {
+      "id": "CLL-G9-10",
+      "veredito": "resolvido",
+      "trecho": null,
+      "por_que": "A expressão 'truncado na segunda casa decimal' foi retirada. A retirada criou uma incoerência, registrada como achado novo."
+    }
+  ]
+}

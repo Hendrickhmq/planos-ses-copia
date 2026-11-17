@@ -1,0 +1,10 @@
+id: "SAES 2321-2024 altera 1640"
+arquivo: "SAES 2321-2024 altera 1640.html"
+sha256: "e33d9530f779f9351fd677c1d71debf62e59648ca4a7f518e1bfe4d712c49def"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 2805
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

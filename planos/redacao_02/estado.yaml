@@ -1,0 +1,860 @@
+# estado.yaml — segundo plano de trabalho, escrito por rodadas
+# Acordo de trabalho em 00_metodo.md. Atualizado ao fim de cada rodada aprovada.
+
+aberto_em: 2026-08-24
+titulo_documento: "OCI Avaliação Cardiológica"   # cabecalho do .docx (md2docx.js); com acento, e texto do documento
+modo: "rodadas com aprovacao do usuario, uma secao por vez"
+
+parametros:
+  objeto: "o mesmo do plano anterior: 35.000 OCI 09.02.01.002-6 (Avaliacao
+    Cardiologica), refeita do zero com o metodo novo"
+  destino: "exercicio — campos do proponente como [preencher], sem prosa ficticia"
+  calibre: "enxuto, mais proximo dos 4 aprovados. 14 secoes no documento"
+  diretorio: "redacao_02/ — redacao/ fica congelado"
+
+rodadas:
+  00_travas:            {status: fechada,      aprovada_em: 2026-08-24}
+  01_objeto:            {status: aprovada,     aprovada_em: 2026-08-24}
+  02_metas:             {status: aprovada,     aprovada_em: 2026-08-24}
+  03_indicadores:       {status: aprovada,     aprovada_em: 2026-08-24}
+  04_fluxo:             {status: aprovada,     aprovada_em: 2026-08-24}
+  05_etapas:            {status: aprovada,     aprovada_em: 2026-08-24}
+  06_equipe:            {status: aprovada,     aprovada_em: 2026-08-24}
+  07_planilha:          {status: aprovada,     aprovada_em: 2026-08-24}
+  08_desembolso:        {status: aprovada,     aprovada_em: 2026-08-24}
+  09_contas_monitor:    {status: aprovada,     aprovada_em: 2026-08-24}
+  10_contrapartida:     {status: RETIRADA,     aprovada_em: 2026-08-24}  # nao integra o documento
+  11_riscos:            {status: aprovada,     aprovada_em: 2026-08-24}
+  12_justificativa:     {status: aprovada,     aprovada_em: 2026-08-24}
+  13_proponente:        {status: aprovada,     aprovada_em: 2026-08-24}
+  14_identificacao:     {status: aprovada,     aprovada_em: 2026-08-24}
+
+# status: nao_iniciada | aberta | escrita | aprovada | refazer
+
+heranca:
+  instrumento: "convenio, nao MROSC. Art. 199 §1º CF + art. 24 § unico da Lei 8.080/90"
+  camada_distrital: "Decreto DF 48.727/2026. O 37.843/2016 esta fora (e MROSC)"
+  fonte: "Incremento MAC (art. 24 da Portaria GM/MS 10.297/2026). FAEC nao paga;
+    o PMAE e base; APAC e comprovacao"
+  planilha: "de baixo para cima pelo fluxo do atendimento; tecnico / administrativo
+    / financeiro; rubrica no fim"
+  detalhe: "redacao/estado.yaml — nao reabrir sem ordem expressa"
+
+# ---------------------------------------------------------------------------
+# RODADA 0 — as tres travas. Fechada em 2026-08-24 com respostas do usuario.
+# ---------------------------------------------------------------------------
+travas:
+  T1_instrumento:
+    status: fechada
+    emenda: "INDIVIDUAL, federal — logo a espinha federal e a Portaria GM/MS
+      10.297/2026 (RP 6). A 10.352/2026 (coletivas, RP 7 e RP 8) sai da base legal."
+    decorrencias: "art. 24 (InvestSUS / Incremento MAC); art. 27, II, IV e §3º;
+      art. 32 (funcional 10.302.5118.2E90, GND 3, modalidade 31, ate seis parcelas);
+      art. 6º, II (coerencia com Plano de Saude e PAS como elegibilidade)."
+  T2_elegibilidade:
+    status: parcial
+    par: "usuario: 'acredito que sim'. Entra como PREMISSA DECLARADA, nao como fato.
+      Lacuna L-001, dono SES-DF."
+    habilitacao_38_01: "usuario: 'nao sei te dizer'. Mantida a leitura conservadora —
+      o plano exige PAR e 38.01. Lacuna L-002."
+    complementaridade: "usuario: havendo fila e demanda, o caminho e a complementariedade
+      por instituicao sem fins lucrativos. E o EIXO DO ARGUMENTO do art. 24 da Lei
+      8.080/90 — mas o numero do deficit da rede propria continua ausente (L-004),
+      e sem ele a justificativa demonstra NECESSIDADE, nao COMPLEMENTARIDADE."
+    pds_pas: "NAO respondido. Continua aberto e e elegibilidade, nao merito. L-003."
+  T3_dinheiro:
+    status: fechada_no_essencial
+    custo_unitario: "R$ 200,00 COBREM o custo assistencial da OCI no DF — informado
+      pelo usuario em 24/08/2026. ENCERRA a antiga LC-025, que era a pendencia numero
+      um do plano anterior e o risco R-05."
+    decorrencia: "o setor tecnico esta dentro do valor unitario e NAO se repete na
+      planilha de apoio. Producao = 35.000 x R$ 200,00 = R$ 7.000.000,00, exequivel."
+    divisao_70_30: "ADIADA por decisao do usuario ('podemos decidir depois, nao e um
+      problema'). Regra de trabalho ate la: o apoio se monta pelo fluxo e o total da o
+      que der; so entao se compara com os R$ 3.000.000,00. Nenhuma linha e esticada
+      para fechar o envelope. Decisao vence ao fim da rodada 7 — L-005."
+
+regra_de_citacao_normativa:
+  usuario_2026_08_24: "Para citar uma norma precisa ter um motivo, nao apenas citar
+    por citar. Nem ajudam nem prejudicam, tem que ver se sao necessarias."
+  aplicacao: "00_metodo.md, secao 'O teste da norma citada'. Encerra a duvida P4 da
+    folha da aula: as 29 normas do plano anterior nao contam a favor nem contra — cada
+    uma responde 'o que muda no plano se ela sair?' ou e cortada."
+
+rodada_01_objeto:
+  arquivo: "redacao_02/secoes/01_objeto.md"
+  decisoes_do_usuario_2026_08_24:
+    territorio: "O DF tem 7 Regioes de Saude; os polos ocupam 3 delas."
+    unidade: "OCI CONCLUIDA. Razao dada pelo usuario: a consulta de retorno e o que
+      retira o paciente da fila ou o encaminha para outra fila/procedimento."
+    teto: "R$ 10.000.000,00."
+  referencia: "DISTRITAL — confirmado pelo usuario em 24/08/2026: 'o convenio atende
+    todos do DF'. A localizacao do polo e decisao de acesso, nao recorte de populacao."
+  polos: "Sobradinho (Norte), Gama (Sul) e SAMAMBAIA (Sudoeste). Samambaia substituiu
+    Ceilandia em 24/08/2026, depois do painel de lista de espera: o arco oeste tem
+    10.897 solicitacoes e 9.192 delas estao no Sudoeste, enquanto Ceilandia esta na
+    regiao de 1.705, na borda. Taguatinga descartada por ser onde a rede propria e
+    mais forte — polo sobre capacidade instalada enfraquece a complementaridade."
+  vazio_declarado: "Central 5.902 + Leste 3.465 = 9.367 solicitacoes (23% da fila)
+    sem polo. Deliberado, pela mesma razao. Vai escrito na rodada 12 e volta como
+    risco de acesso na rodada 11."
+  fila: "Painel de lista de espera, dados/fila_espera.md. Fila viva 40.829
+    solicitacoes / 37.731 CNS; devolvidas FORA do total; espera media 851,40 dias;
+    filtro de 13 procedimentos cardiologicos para adultos. Base do dimensionamento
+    e o CNS: 35.000 OCI = 92,8% de 37.731. Falta URL e data de referencia (L-011)."
+  correcao_do_plano_anterior: "O objeto anterior citava 4 regioes de origem
+    (Norte/Sul/Oeste/Sudoeste) e a metodologia falava em 7 e punha um polo atendendo
+    Norte e Leste. Separar 'onde o polo fica' de 'de onde o usuario vem' desfaz a
+    contradicao."
+  normas_citadas: "3 — SAES 1.822/2024 (codigo), NT 1/2025-DAET + SAES 2.930/2025
+    (composicao). Todas pelo motivo 'define dado que o plano usa'."
+
+rodada_02_metas:
+  arquivo: "redacao_02/secoes/02_metas.md"
+  decisoes_2026_08_24:
+    divisao: "IGUAL — 11.667 / 11.667 / 11.666. Razao: capacidade instalada identica
+      nos tres polos; meta desigual exigiria polo desigual (equipe, estrutura, custo)."
+    curva: "polos abertos nas 2 primeiras semanas do mes 1; entradas do mes 1 ao 9;
+      conclusoes do mes 2 ao 10."
+    corte: "a meta de 87.500 horarios ofertados foi CORTADA. Nao era promessa, era
+      dimensionamento — passa a nascer do fluxo, na rodada 4."
+  meta_qualitativa: "DECIDIDA — apenas a opcao A: desfecho clinico em campo estruturado
+    + contrarreferencia a Atencao Primaria, 100% das OCI concluidas, apuracao mensal.
+    Resolutividade e satisfacao DESCARTADAS, com a razao escrita no proprio documento
+    (secao 6.3), por pedido expresso do usuario em 24/08/2026. Satisfacao nao volta como
+    indicador na rodada 3."
+  achados_gerados: "AC-047 (os 4 aprovados usam o MESMO indicador qualitativo, palavra
+    por palavra, e ele descreve condicao de existencia da OCI) e AC-048 ('satisfacao'
+    aparece zero vezes no texto corrido dos 4; existe so no pt_ses_01 como item de
+    despesa de R$ 30.000 sem meta, indicador, parametro, amostra ou consequencia)."
+  duvida_ao_professor: "DV-050 em redacao_02/duvidas_professor.md — o que a SES-DF de
+    fato aceita como meta qualitativa. Se a resposta contrariar a escolha, a Meta 3 se reve."
+
+rodada_03_indicadores:
+  arquivo: "redacao_02/secoes/03_indicadores.md"
+  conjunto: "SEIS indicadores, contra 20 do plano anterior. IND-01 producao da
+    competencia; IND-02 acumulada; IND-03 polos aptos 3/3; IND-04 desfecho; IND-05
+    contrarreferencia; IND-06 nao comparecimento separado entre entrada e retorno."
+  cortados_pelo_usuario: "IND-07 (abandono do ciclo) e IND-08 (APAC rejeitada). O 07
+    era quase redundante com o 06. O 08 nao deixa buraco na afericao porque a
+    apresentacao ja e condicao de conclusao — perde-se a CAUSA, mitigada pela
+    obrigacao de apresentar producao apresentada e aprovada lado a lado (7.3)."
+  limiares: "NAO HA limiar percentual de tolerancia na producao, e isso virou POSICAO
+    DECLARADA com dispositivo: art. 27 § unico (analise observa a proporcionalidade da
+    aplicacao dos recursos e os resultados alcancados) e art. 25 (gradua saneamento,
+    glosa, suspensao, reprogramacao, rescisao CONFORME A GRAVIDADE) do Decreto
+    48.727/2026. A afericao da producao e linear: cada OCI concluida e aprovada vale
+    R$ 200,00 e o que nao foi entregue nao e devido. Onde o cumprimento e BINARIO
+    (IND-03, IND-04, IND-05) o parametro e 100% como conformidade, nao tolerancia.
+    ISSO DESEMPATA o unico ponto em que o plano anterior empatou com o corpus."
+  numerador: "producao APROVADA, nao apresentada — decisao do usuario. A diferenca
+    entre as duas e apresentada como informacao de gestao, sem virar indicador."
+  pergunta_aberta_mais_cara: "A proporcionalidade resolve a producao e NAO resolve o
+    apoio. Os R$ 3.000.000,00 nao sao pagos por unidade: se a execucao entregar 80%
+    das OCI, o executor fica com 100% do apoio? L-016, vence nas rodadas 7 e 8."
+
+rodada_04_fluxo:
+  arquivo: "redacao_02/secoes/04_fluxo.md"
+  decisoes_2026_08_24:
+    ciclo: "DOIS contatos — entrada presencial em DIA UNICO (consulta + ECG + exames
+      secundarios + laudo) e retorno por TELECONSULTA. Retorno presencial permanece
+      disponivel para quem nao tiver dispositivo, conexao ou autonomia."
+    apac: "aberta pelo POLO / profissional — PREMISSA adotada, o usuario vai confirmar
+      com o professor. DV-051."
+    busca_ativa: "WhatsApp, telefone e mensagem. Prova e o REAGENDAMENTO no SISREG,
+      nao a ligacao anotada."
+    absenteismo: "20% em CADA um dos dois pontos, fornecido pelo usuario como valor a
+      utilizar; ele declarou NAO ter a taxa real da SES-DF. Premissa declarada, com o
+      IND-06 corrigindo desde a primeira competencia."
+  dimensionamento: "35.000 / 0,80 = 43.750 horarios de entrada; 35.000 / 0,80 = 43.750
+    de retorno; TOTAL 87.500. E dimensionamento de agenda, NAO meta."
+  coincidencia_com_o_plano_anterior: "87.500 e exatamente o numero do plano anterior,
+    que la aparecia como 'fator 1,25 em dois pontos', afirmado sem base. 1,25 = 1/0,80.
+    O numero e o mesmo; o ESTATUTO nao — agora e premissa declarada e corrigivel."
+  achado_da_rodada: "A FILA QUASE NAO TEM FOLGA. 35.000 sobre 37.731 pessoas deixa
+    margem de 2.731 (7,2%). A conta de 43.750 horarios pressupoe que o faltoso e
+    reagendado e ACABA comparecendo; se mais de 7,2% dos encaminhados nunca converterem,
+    a fila atual nao comporta 35.000 OCI concluidas. O que salva e o reabastecimento da
+    fila ao longo dos 10 meses — raciocinio, nao dado. L-017."
+  proteccao_de_dados: "Escrita DENTRO da secao 5, junto da busca ativa, que e onde o
+    dado pessoal circula fora dos sistemas oficiais. Nao ha capitulo apartado."
+  qualidade_assistencial: "ADIADA — depende do protocolo clinico, que e lacuna do
+    responsavel tecnico. Nao foi escrita nesta rodada; entra em passagem posterior na
+    secao 5."
+
+rodada_05_etapas:
+  arquivo: "redacao_02/secoes/05_etapas.md"
+  etapas: "TRES. 1 Implantacao (6 subetapas, 2 primeiras semanas do mes 1, entrega =
+    3 polos aptos); 2 Execucao assistencial (6 subetapas, mes 1 2a quinzena ao mes 10,
+    entrega = 35.000 OCI concluidas); 3 Encerramento e conciliacao (3 subetapas, mes 10
+    ao fim da vigencia financeira). Etapas 2 e 3 SE SOBREPOEM no mes 10."
+  curva: "Entradas efetivas m1..m9: 1.500 / 3.000 / 4.000 / 4.500 x5 / 4.000 = 35.000.
+    Horarios de entrada = /0,80 = 43.750. Conclusoes m2..m10, mesma serie deslocada um
+    mes = 35.000. Horarios de retorno = 43.750. AS ENTRADAS TERMINAM NO MES 9 — entrada
+    no mes 10 nao teria competencia seguinte dentro da vigencia."
+  denominador_do_IND01: "a coluna OCI concluidas desta curva. Existe aqui e em nenhum
+    outro lugar do plano."
+  achado_da_rodada: "89 ENTRADAS COMPLETAS POR POLO POR DIA UTIL no regime pleno (meses
+    4 a 8): 5.625 horarios de entrada/mes / 3 polos = 1.875, / 21 dias uteis = 89,3.
+    Cada uma com consulta + ECG + minimo 2 exames + laudo NO MESMO DIA. Vem de comprimir
+    43.750 horarios em 8,5 meses e 3 polos. E o numero que a rodada 6 tem de sustentar;
+    se nao couber, o ajuste e em numero de polos, vigencia ou quantitativo — nao no
+    cronograma."
+  premissas_minhas: "conclusao na competencia SEGUINTE a da entrada (conservadora);
+    rampa de tres meses ate o regime pleno; 21 dias uteis/mes. Todas declaradas no
+    documento ou no fechamento."
+
+rodada_06_equipe:
+  arquivo: "redacao_02/secoes/06_equipe.md"
+  correcao_normativa: "COMPOSICAO DA OCI CORRIGIDA EM SECOES JA APROVADAS. Nao e 'no
+    minimo dois secundarios indicados clinicamente' — sao OBRIGATORIOS E NOMINADOS.
+    Portaria SAES/MS 1.822/2024 descreve o conjunto (consulta, ECOCARDIOGRAMA, ECG,
+    radiografia de torax, laboratoriais, retorno); Portaria SAES/MS 2.930/2025 art. 1º
+    EXCLUI 02.04.03.015-3 radiografia de torax (PA e perfil); Portaria SAES/MS
+    2.331/2024 altera a IDADE MINIMA PARA 18 ANOS — 'usuarios adultos' passa a ser
+    definicao normativa. Todas lidas no original. Corrigidas as secoes 01, 02, 04, 05."
+  tempos_do_usuario: "consulta 15-20 min; teleconsulta retorno 10-15; ECG 5-10 (execucao,
+    telelaudo); coleta laboratorial 5-10; ecocardiograma transtoracico 20-30."
+  jornada: "polo em DOIS TURNOS DE 4 HORAS (08-12, 13-17); modulos de 20h semanais por
+    profissional = 4h/dia. Sabado aumenta a capacidade ~20% sobre a mesma infraestrutura."
+  dimensionamento: "MEDICO 66,8 a 96,4 h/dia/polo -> 17 a 25 profissionais por polo,
+    50 a 72 nos tres. TECNICO 14,8 a 29,7 h/dia -> 4 a 8 por polo. SALAS DE ECO 4 a 6
+    por polo, 12 a 18 no conjunto. COM SABADO: 15 a 21 medicos/polo e 4 a 5 salas."
+  achado_da_rodada: "O GARGALO E O MEDICO, E DENTRO DELE O ECOCARDIOGRAMA — 44% do tempo
+    medico do polo. O plano anterior SUBDIMENSIONAVA: la a faixa de 17 a 25 cardiologistas
+    era para o CONJUNTO; aqui e por POLO. A diferenca e que agora o eco esta contado."
+  vinculo: "100% PJ, decisao do usuario. Classificado como EQUIPE PROPRIA (art. 33 §4º),
+    com relacao nominal de PJs e profissionais como mitigacao. RISCO ALTO: o §1º define
+    subcontratacao de forma ampla e o §2º so admite ATIVIDADES ACESSORIAS — o ato medico
+    e atividade-fim, entao se cair no §1º o §2º NAO SALVA: e vedacao, nao irregularidade
+    sanavel. Virou DV-052."
+  subcontratacao: "limpeza, vigilancia, TI, telelaudo de ECG e analise laboratorial.
+    NAO se subcontrata consulta, eco, teleconsulta nem gestao/coordenacao/direcao."
+
+rodada_07_planilha:
+  arquivo: "redacao_02/secoes/07_planilha.md"
+  decisoes_2026_08_24:
+    tempos_administrativos: "recepcao 5 min, agendamento 3, confirmacao 1, busca ativa 5,
+      registro/APAC 4 (unico corrigido pelo usuario; os outros quatro eram suposicao minha
+      e viraram decisao dele)."
+    ti_e_supervisao: "por polo. TI entra como SERVICO contratado, nao como posto."
+    coordenacao: "1 administrativo + 1 tecnico + 1 financeiro POR POLO = 9 no conjunto."
+    postos: "CONSTANTES nos dez meses; folga dos meses 1 e 2 absorvida pela implantacao."
+  memoria_de_calculo: "28,22 h/dia/polo = 3,53 postos de 8h; contratam-se 4, ocupacao 88,2%.
+    Total 8 postos de apoio por polo (4 operacionais + supervisao + 3 coordenadores),
+    24 no conjunto."
+  resultado_final: "11 postos de apoio por polo, 33 no conjunto. APOIO R$ 2.966.419,90
+    (polos 2.887.119,90 + central 79.300,00). PRODUCAO R$ 7.000.000,00. GLOBAL
+    R$ 9.966.419,90. Teto R$ 10.000.000,00. DIFERENCA R$ 33.580,10 NAO DISTRIBUIDA.
+    Apoio = 29,8% do global. Resmas: 5 folhas por OCI = 350 resmas = R$ 10.500,00."
+  cenario_descartado: "Com os precos do pt_ses_01 (os mais caros): apoio R$ 4.349.032,50,
+    global R$ 11.349.032,50 — ESTOURO de R$ 1.349.032,50 sobre o teto. Foi o que fez o
+    usuario decidir pela referencia de menor valor em 24/08/2026. CUSTO DA DECISAO: preco
+    subestimado vira risco de execucao, nao economia — vai para a rodada 11."
+  reversao: "O usuario REINCLUIU o estoquista que eu havia cortado, e acrescentou 2a
+    recepcionista e assistente financeiro por polo. A 2a recepcionista ganhou argumento
+    proprio: dimensionamento por PICO DE CHEGADA, nao por media."
+  eco_decidido_pela_aritmetica: "Com R$ 41.980,10 de folga, o envelope comportaria aluguel
+    de R$ 279,83/aparelho/mes com 12 aparelhos ou R$ 186,56 com 18. Nao existe no mercado.
+    Logo: OU o equipamento esta dentro do R$ 200,00, OU o desenho nao cabe no valor da
+    emenda. Nao ha terceira hipotese."
+  linha_mais_fragil: "9 coordenadores = R$ 540.000,00 em 10 meses, 18% do apoio, tres
+    chefes para oito subordinados por polo. Art. 17, IV veda taxa de administracao e camada
+    pesada de coordenacao e lida como administracao disfarcada. NAO ALTERADA — decisao
+    explicita do usuario, com a fragilidade registrada."
+  achado_da_rodada: "AC-049 — OS 4 PLANOS APROVADOS SAO DE DOIS PROPONENTES. pt_ses_01 tem
+    CNPJ 17.517.805/0003-71; pt_ses_02, 03 e 04 tem TODOS o CNPJ 05.117.522/0001-91, com
+    precos identicos linha a linha. 'Usar os quatro planos' produz DUAS referencias, nao
+    quatro. Tratamento: onde as duas familias informam a mesma linha, adotado o MENOR VALOR
+    (economicidade, art. 18) — 9 de 19 linhas; onde so uma informa, marcado FONTE UNICA na
+    propria tabela do documento — 8 linhas, 42% dos itens, percentual declarado. Melhor que
+    os 96,55% do plano anterior, e continua nao sendo pesquisa de precos."
+  tres_linhas_cortadas: "comunicacao institucional (nao aponta passo do fluxo), estoquista
+    (consumo assistencial esta no valor unitario; o administrativo e so papel) e pesquisa de
+    satisfacao (ja descartada na rodada 2)."
+  questao_em_aberto: "ECOCARDIOGRAFO — dentro do R$ 200,00 ou locacao pelo art. 17, I?
+    Ponto de equilibrio calculado em vez de preco inventado: R$ 3.194,83/aparelho/mes com 12
+    aparelhos, R$ 2.129,89 com 18. Acima disso nao cabe no teto e o ajuste vira de desenho.
+    E a LOCACAO DE R$ 20.000 e de polo menor que o nosso — segunda maior linha do apoio,
+    provavelmente subestimada."
+
+rodada_08_desembolso:
+  arquivo: "redacao_02/secoes/08_desembolso.md"
+  decisoes_2026_08_24:
+    p1: "implantacao + OCI previstas do primeiro trimestre — logo, ANTECIPADA."
+    ritmo: "TRIMESTRAL. Quatro parcelas."
+    custo_acessorio: "DESENHO A — despesa comprovada. Decidido depois de o usuario
+      desconfiar da minha inferencia e pedir para checar a norma. Eu havia escrito o
+      apoio como proporcional a OCI (desenho B), inferindo de 'o resto so e pago com
+      base no atendimento das OCI'. A inferencia NAO se sustentava: arts. 16, 17, 21,
+      26 e 27 desenham o mecanismo pela DESPESA, com devolucao de saldo remanescente e
+      juizo de compatibilidade — nao por corte automatico. DV-054 registrada."
+    producao_abaixo: "'nao recebemos por elas' — a OCI nao concluida nao gera pagamento,
+      nem producao nem a parcela de apoio correspondente."
+    apos_p1: "tudo pago com base no atendimento das OCI."
+  dois_componentes: "PRODUCAO por unidade (R$ 200,00 por OCI concluida e aprovada;
+    OCI nao concluida nao e paga) e CUSTO ACESSORIO por despesa comprovada dentro do
+    teto mensal do plano. Logicas diferentes, e nao se confundem."
+  parcelas: "P1 mes 1 apos termo de aptidao R$ 1.789.925,97 (apoio 3 meses 889.925,97 +
+    4.500 OCI 900.000); P2 inicio do mes 4 R$ 3.489.925,97 (889.925,97 + 13.000 OCI);
+    P3 inicio do mes 7 R$ 3.589.925,97 (889.925,97 + 13.500 OCI); P4 inicio do mes 10
+    R$ 1.096.641,99 (1 mes 296.641,99 + 4.000 OCI). Cada uma ajustada por DOIS acertos
+    do trimestre anterior: producao prevista x realizada, e apoio previsto x despesa
+    comprovada. Apoio 10 meses = 2.966.419,90; producao 35.000 x 200 = 7.000.000;
+    total 9.966.419,90 — confere."
+  producao_baixa: "Producao nao realizada NAO e paga — aritmetica, sem juizo. Custo
+    acessorio NAO cai automaticamente: cai pelo nao gasto. O descompasso entre recurso
+    aplicado e resultado obtido e tratado em tres degraus — devolucao de saldo
+    remanescente (art. 26 §1º), juizo de compatibilidade (arts. 26 e 27) e escada do
+    art. 25 conforme a gravidade. A CAUSA decide o degrau, e o IND-06 e o que distingue
+    fila nao encaminhada de falha de busca ativa."
+  achado_da_rodada: "O DECRETO 48.727/2026 E SILENTE sobre parcelas, periodicidade e
+    antecipacao — as unicas ocorrencias de 'repasse' sao 'suspensao de repasses', como
+    sancao (arts. 25 e 34). E o art. 32 § unico da Portaria 10.297/2026 ('ate seis
+    parcelas') rege a transferencia MS -> Fundo de Saude do DF, NAO o pagamento do
+    convenio ao executor. Logo o cronograma de desembolso e construcao do plano."
+  antecipacao: "Declarada na secao 9.5, com quatro amarras: entrega aferida antes da
+    liberacao (Meta 2 / IND-03), conta especifica (art. 19), aplicacao vinculada (art. 20)
+    e compensacao trimestral. Falta o dispositivo — DV-053."
+
+rodada_09_contas_monitoramento:
+  arquivo: "redacao_02/secoes/09_contas_monitoramento.md"
+  decisoes_2026_08_24:
+    ritmo: "relatorio mensal de execucao (ate o dia 15 da competencia seguinte) + acerto
+      trimestral junto de cada parcela + prestacao de contas final em ate 60 dias. So a
+      ultima e exigida pela norma; as duas primeiras existem porque sem apuracao mensal
+      nao ha lastro para o ajuste trimestral do desembolso."
+    escada: "CINCO DEGRAUS aprovados — 1 saneamento, 2 glosa, 3 suspensao de repasses,
+      4 REPROGRAMACAO DO OBJETO, 5 rescisao. Graduados por magnitude, reincidencia e
+      CAUSA, dando conteudo ao 'conforme a gravidade do caso' do art. 25."
+    monitoramento_executor: "UM coordenador, acumulando a funcao, sem cargo novo e sem
+      linha nova na planilha. Escrito como UM SO para o convenio (ponto unico de
+      interlocucao), nao um por polo — leitura declarada para o usuario conferir."
+  prazos_todos_da_norma: "60 dias para apresentar (art. 26 §2º); 30 para devolver saldo
+    (art. 26 §1º); 30 na notificacao por nao envio (art. 26 §3º); 60 informatizado ou
+    180 convencional para analisar, prorrogaveis uma vez (art. 30); 45 para sanear
+    irregularidade (art. 30 §3º); prazo do caso para falha formal (art. 29). NENHUM
+    arbitrado."
+  degrau_4: "A REPROGRAMACAO DO OBJETO e a resposta institucional a tres achados que sem
+    ela nao teriam saida: margem de 7,2% na fila (rodada 4), 89 entradas/polo/dia util
+    (rodada 5) e o executor nao controlar o encaminhamento (rodada 8). Nos tres o
+    resultado observavel e o mesmo — meta nao atingida — e a causa e diferente."
+  transparencia: "art. 92 da Portaria GM/MS 10.297/2026 — publicacao em sitio proprio dos
+    valores recebidos e aplicados de emendas individuais desde 2020, admitida planilha do
+    Transferegov.br; paragrafo unico obriga informar o endereco ao orgao transferidor.
+    Lido no original. Absorveu a antiga secao de transparencia."
+
+rodada_10_contrapartida:
+  arquivo: "redacao_02/secoes/10_contrapartida.md"
+  decisao: "NAO HA CONTRAPARTIDA, e nao se declara contrapartida voluntaria."
+  cadeia_de_nao_incidencia: "O Decreto 48.727/2026 NAO menciona contrapartida (verificado
+    no texto integral). A resposta nao e um dispositivo que dispensa — e uma CADEIA DE NAO
+    INCIDENCIA com tres elos, todos lidos no original: (1) art. 39 § unico do 48.727 limita
+    a IN CGDF 01/2005 aos convenios com recursos DISTRITAIS, e este e emenda FEDERAL;
+    (2) art. 38 remete as parcerias com OSC ao regime proprio, afastando a Portaria SES-DF
+    187/2026, que e do MROSC; (3) o recurso vem por transferencia FUNDO A FUNDO, nao por
+    convenio com a Uniao, o que afasta a exigencia da via federal. ENCERRA a antiga LC-039,
+    cuja pergunta estava mal formulada."
+  leitura_alternativa_declarada: "'Recursos distritais' e lido como recurso de ORIGEM
+    distrital. Cabe a leitura de que, creditado ao FSDF e executado no orcamento distrital,
+    seja distrital para efeito do art. 39 — hipotese em que a IN CGDF 01/2005 se aplicaria
+    INTEIRA, com Anexos I a VII. Registrada como risco na rodada 11."
+  L026_encerrada: "A recusa da contrapartida voluntaria fechou o ecocardiografo POR
+    ELIMINACAO: despesa do convenio descartada na rodada 7 pela aritmetica (R$ 279,83 por
+    aparelho/mes); contrapartida em bens descartada aqui por decisao; resta CAPACIDADE
+    INSTALADA DO EXECUTOR, remunerada no valor unitario — que e como o SUS remunera
+    procedimento. O plano passa a dizer isso expressamente."
+  achado_eleitoral: "ART. 40 DO DECRETO 48.727/2026 — celebracao, execucao, LIBERACAO DE
+    RECURSOS e divulgacao institucional observam, no periodo eleitoral, a Lei 9.504/1997,
+    a LC 101/2000 e atos do TSE; o § unico faz disso CONDICAO PARA A PRATICA DOS ATOS.
+    2026 e ano eleitoral e ultimo ano de mandato. Alcanca (a) art. 42 da LRF — vedado
+    contrair nos dois ultimos quadrimestres obrigacao com parcelas no exercicio seguinte
+    sem caixa, e a P4 e o acerto final caem depois do mes 10; (b) art. 73 da Lei 9.504,
+    inclusive divulgacao institucional, o que toca o art. 92 da Portaria 10.297/2026.
+    Vai para a rodada 11 (risco) e 14 (base legal). L-037: data de celebracao."
+
+documento_13_secoes:
+  decisao: "Em 24/08/2026 o usuario mandou RETIRAR a contrapartida do documento. O plano
+    passou de 14 para 13 secoes; as antigas 12 (equipe) e 13 (prestacao de contas) viraram
+    11 e 12, e riscos virou 13. Referencias cruzadas corrigidas em todos os arquivos."
+  mapa: "1 Identificacao e base legal (rodada 14) | 2 Objeto (1) | 3 Justificativa (12) |
+    4 Proponente e condicoes de partida (13) | 5 Metodologia e fluxo (4) | 6 Metas (2) |
+    7 Indicadores (3) | 8 Cronograma fisico (5) | 9 Desembolso (8) | 10 Planilha (7) |
+    11 Equipe, estrutura e subcontratacao (6) | 12 Prestacao de contas e monitoramento (9) |
+    13 Riscos (11)"
+
+incidente_arquivo:
+  data: 2026-08-24
+  o_que: "secoes/06_equipe.md foi CORROMPIDO por um edit meu na rodada 7 — um replace cujo
+    'old' colapsou para um unico caractere multiplicou a tabela de postos 150 mil linhas.
+    Reconstruido por inteiro em 24/08/2026, com a renumeracao para secao 11 e o quantitativo
+    administrativo ja fechado. Os outros nove arquivos foram verificados e estao integros."
+  licao: "Nao usar s[s.index(a):s.index(b)] como chave de replace sem conferir que o trecho
+    tem tamanho plausivel."
+
+rodada_11_riscos:
+  arquivo: "redacao_02/secoes/11_riscos.md"
+  decisoes_2026_08_24:
+    criterio: "seguir a linha dos outros planos — adotada a ESTRUTURA de oito colunas deles
+      (com acao compensatoria separada de mitigacao e responsavel nomeado), NAO a aritmetica
+      (AC-051). Acrescentado o CRITERIO ESCRITO de impacto, que eles nao tem: alto = perda
+      >= 3.500 OCI (10% da meta) ou >= R$ 1.000.000,00 ou obrigacao de devolver ou
+      impedimento de celebrar/executar."
+    riscos_adicionais: "nenhum."
+    bloco_o_que_o_desenho_elimina: "mantido."
+  matriz: "VINTE riscos — 8 regulatorios, 9 de execucao, 3 financeiros. Escala P e I em
+    5/10/15; nivel = P x I; Baixo 25-50, Medio 75-100, Alto 150-225. DEZ ALTOS: R-01 (PJ),
+    R-02 (PAR/38.01), R-03 (PDS/PAS), R-06 (eleitoral), R-08 (capacidade, 225 — o maior),
+    R-09 (ecocardiografistas), R-10 (exaustao da fila), R-13 (atraso na Etapa 1), R-17
+    (mao de obra), R-18 (locacao)."
+  leitura_dos_altos: "NENHUM dos dez e risco de operacao corrente — todos sao de PARTIDA ou
+    de PREMISSA. Nove dos dez caem de classificacao quando a lacuna correspondente fechar
+    (L-001/002, L-003, L-037, L-021/024, L-017, L-028, L-027, DV-052). O unico que nao
+    depende de informacao externa e o R-13, intrinseco a um cronograma sem folga no fim."
+
+rodada_12_justificativa:
+  arquivo: "redacao_02/secoes/12_justificativa.md"
+  decisao_central: "O usuario AUTORIZOU dizer abertamente que o quantitativo foi fixado
+    pelo TETO FINANCEIRO e nao pela necessidade. Envelope comporta 35.167,9 OCI; fila
+    comporta 37.731 pessoas; logo O LIMITE E O RECURSO — sobram 2.563 pessoas que o
+    convenio nao alcanca."
+  coincidencia_que_valida: "A meta de 35.000 fica 167,9 OCI abaixo do que o envelope
+    permitiria, e 167,9 x R$ 200,00 = R$ 33.580,10 — EXATAMENTE o valor que a planilha
+    declarou nao aplicado. O numero que a planilha deixou sobrando e o que a meta deixou
+    de comprometer sao o mesmo, visto de dois lados. Nao foi construido: apareceu quando
+    as duas contas foram feitas de forma independente."
+  tres_limites: "O quantitativo esta no limite de TRES variaveis ao mesmo tempo — recurso
+    disponivel (35.167 OCI), fila existente (37.731 pessoas) e capacidade instalavel
+    (89 entradas/polo/dia util). Nao ha folga em nenhuma."
+  economicidade: "Tres vias, nenhuma com adjetivo: proporcao (apoio = 29,8% do global),
+    ausencia de duplicidade (nenhum custo assistencial na planilha, teste item a item) e
+    rastreabilidade do preco (origem declarada linha a linha). A QUARTA VIA FALTA e esta
+    dita no documento: nao ha comparativo com preco de mercado — L-038."
+  o_que_nao_demonstra: "Secao 3.6, dentro do documento: complementaridade (L-004, sem o
+    deficit da rede propria a fila prova que falta atendimento, nao que falta AO ESTADO),
+    ancoragem no PDS/PAS (L-003, elegibilidade pelo art. 6º II) e reposicao da fila
+    (L-017, margem de 7,2%)."
+  antiarmadilha: "Escrita em decimo segundo lugar, NAO INTRODUZ NENHUM NUMERO NOVO. Cada
+    afirmacao aponta para conta feita em outra rodada — fila (4), apoio (7), 89 (5), arcos
+    (1), 29,8% (7). E verificavel por cruzamento interno."
+
+rodada_13_proponente:
+  arquivo: "redacao_02/secoes/13_proponente.md"
+  sem_pergunta_bloqueante: "Secao quase toda normativa e de campo do proponente. Tudo lido
+    no original: arts. 4º, 5º, 6º e 40 do Decreto 48.727/2026 e arts. 6º, 10, 24 e 92 da
+    Portaria GM/MS 10.297/2026."
+  achados_da_leitura:
+    art_4_par2: "'A indicacao parlamentar NAO afasta o dever de analise da Administracao nem
+      supre irregularidade, impedimento, incompatibilidade do objeto ou ausencia de
+      capacidade da entidade.' O §3º permite a Administracao adotar selecao publica se a
+      entidade indicada nao atender. A indicacao nao garante nada, e a habilitacao passa a
+      ser o que SUSTENTA a celebracao, nao instrucao processual."
+    art_5_V: "Experiencia previa e exigida 'quando exigida pela complexidade da proposta'.
+      Escrito que ESTA exige, com a razao nos proprios numeros do plano: 35.000
+      procedimentos, 3 polos, 50 a 72 medicos, parque proprio de ecocardiografia."
+    cir_cib: "O DF NAO TEM CIR NEM CIB — e ente unico. A instancia de pactuacao do art. 10
+      da Portaria e o COLEGIADO DE GESTAO da SES-DF. Adaptacao declarada no documento."
+  quadro_4_7: "A contribuicao de metodo da rodada: as condicoes NAO SAO EQUIVALENTES.
+    Habilitacao e manifestacao tecnica/juridica travam a CELEBRACAO; alteracao do PDS/PAS
+    trava o RECEBIMENTO; deliberacao do Colegiado e Conselho travam a EXECUCAO FINANCEIRA;
+    PAR e 38.01 travam o REGISTRO DA PRODUCAO; a restricao eleitoral condiciona A PRATICA
+    DOS ATOS. Vencem em momentos diferentes e dependem de atores diferentes."
+  lacunas: "NENHUMA NOVA. A secao consolida no lugar certo as ja abertas: L-001, L-002
+    (4.4), L-003 (4.5), L-020 (4.4), L-037 (4.6) e os campos do proponente (4.1, 4.2)."
+
+rodada_14_identificacao:
+  arquivo: "redacao_02/secoes/14_identificacao.md"
+  conta_das_citacoes: "12 normas e cerca de 40 artigos, contra 29 normas e 121 artigos do
+    plano anterior e 1 a 5 normas dos quatro aprovados. Cada dispositivo tem, ao lado, a
+    coluna 'o que faz aqui'. Nenhum artigo aparece duas vezes — fica na secao que decide, e
+    a 1.2 apenas REMETE."
+  tres_camadas: "fundamento (CF art. 199 §1º + Lei 8.080/90 art. 24) decide se a entidade
+    PODE executar; origem do recurso (Portaria GM/MS 10.297/2026) decide como o dinheiro
+    CHEGA; instrumento (Decreto DF 48.727/2026) decide como o convenio FUNCIONA. O plano
+    anterior errou aqui — usou o Decreto 37.843/2016, que e MROSC, como camada distrital."
+  secao_1_3: "DECLARAR O QUE NAO INCIDE — MROSC e Decreto 37.843/2016, Portaria SES-DF
+    187/2026, IN CGDF 01/2005 e a NT 2/2025 (teto do PMAE). Nenhum dos quatro aprovados faz
+    isso. Vale porque o vocabulario do MROSC circula na SES e nos proprios planos aprovados
+    (AC-045: chamam a entidade de OSC e o instrumento de convenio). Custa quatro linhas."
+  vigencia: "execucao 10 meses; instrumento ate 60 dias apos, para o acerto da ultima
+    competencia e a prestacao de contas final (art. 26 §2º)."
+  conferencias: "vigencia x objeto, vigencia x cronograma, valor global x planilha, valor
+    global x desembolso, quantitativo x soma das metas, valor global x teto — todas na
+    secao 1.4 do documento."
+
+proxima_etapa:
+  remontagem: "As 13 secoes existem. Falta: (1) montar na ordem de leitura com numeracao
+    corrida; (2) conferir referencias cruzadas apos a renumeracao; (3) rodar as conferencias
+    aritmeticas de ponta a ponta; (4) consolidar os [preencher] num indice de pendencias com
+    dono; (5) gerar o .docx por redacao/md2docx.js."
+
+remontagem:
+  data: 2026-08-25
+  arquivos: "plano.md (13 secoes, 1.656 linhas), plano.docx (86 KB, 11 secoes de layout,
+    5 em paisagem), pendencias.md (43 marcacoes com dono), CONTINUAR.md, md2docx.js
+    (copia adaptada do de redacao/, com os cabecalhos de tabela larga deste plano)."
+  conferencias: "TODAS PASSARAM — numeracao 1..13 em ordem; subsecoes sem buraco;
+    referencias cruzadas todas na faixa 1..12; 16 conferencias aritmeticas de ponta a
+    ponta, incluindo metas por polo, curva, horarios, planilha por polo, apoio total,
+    global, teto, quatro parcelas, meses de apoio e o envelope contra a meta."
+  higiene: "ZERO vazamento de metodo no documento — nenhuma ocorrencia de rodada,
+    L-xxx, AC-xxx, DV-xxx, achado, corpus, plano anterior ou pt_ses em plano.md."
+  pendencias: "43 marcacoes: 19 do proponente, 17 da SES-DF, 7 dos dois. Sete antecedem
+    a assinatura."
+
+versao_de_apresentacao:
+  data: 2026-08-25
+  pedido: "Hendrick precisa da versao final para apresentar ao professor, e ela nao pode
+    ter campos [preencher] nem blocos de autoconferencia."
+  o_que_mudou:
+    marcacoes: "43 -> 0. Vinte e um campos de formulario viraram celula em branco (—);
+      vinte e um viraram PROSA que declara de quem e a informacao e quando ela entra;
+      um estava resolvido e o texto e que estava defasado."
+    autoconferencia: "removidos do documento os blocos 1.4 (Conferencia de coerencia),
+      10.6 (Conferencias) e o quadro de 'confere' da secao 9.3. Sao metodo — continuam
+      nos fechamentos das rodadas e no estado."
+    correcao_10_7: "A secao 10.7 apresentava como ABERTA a classificacao do ecocardiografo,
+      que a rodada 10 ja havia FECHADO por eliminacao (capacidade instalada do executor,
+      remunerada no valor unitario) e que a secao 11.3 ja afirmava. Era defeito da
+      remontagem, nao campo em branco. Reescrita como 10.6, com a conclusao aplicada e a
+      aritmetica mantida como argumento."
+    renumeracao: "secao 1 perdeu a 1.4; secao 10 perdeu a antiga 10.6 e a 10.7 virou 10.6.
+      Sem buraco de numeracao e sem referencia orfa — verificado."
+  resultado: "plano.md 1.625 linhas, plano.docx 85 KB. Zero [preencher], zero 'confere',
+    zero vazamento de metodo. pendencias.md passa a ser o UNICO registro do que falta."
+
+poda_de_repeticao:
+  data: 2026-08-25
+  pergunta_do_usuario: "'essas coisas tem que estar no plano de trabalho?' — sobre o
+    paragrafo da antiga 5.6 que explicava o teste da duplicidade."
+  varredura: "Doze argumentos recorrentes conferidos. Onze sao o mesmo numero USADO em
+    lugares diferentes (89 entradas: 8.3 deriva, 10.3 e 11.2 usam, 3.3 argumenta, 13.2
+    arrisca; R$ 33.580,10: 10.5 produz, 3.3 argumenta, 13.4 elimina; equipe propria:
+    1.2 lista, 11.4 classifica, 13.2 arrisca; FAEC: 1.1 declara, 4.4 questiona, 13.2
+    arrisca) — legitimo. UM era repeticao real."
+  removida: "SECAO 5.6 (O que ja esta dentro do valor unitario). Repetia a coluna de setor
+    da 5.1 e antecipava a 10.2, que e onde a regra OPERA. O sentido dela virou uma frase
+    na abertura da 5.1: 'A coluna de setor antecipa a separacao que a secao 10 executa'.
+    A 11.1 foi mantida porque responde a pergunta que nasce ali — a secao descreve 50 a 72
+    medicos e o leitor quer saber por que nao estao no dinheiro."
+  resultado: "plano.md 1.614 linhas, plano.docx 84 KB. Secao 5 passa a ter 5 subsecoes."
+
+corte_parecer_professor:
+  data: 2026-08-31
+  origem: "Parecer do professor sobre o plano: 'muito bom para estudo, mas nao para ser
+    aprovado' e 'estamos ensinando o padre a rezar missa' — explicar a quem aprova como
+    funciona aquilo que ele ja sabe. Tres cortes nomeados por ele."
+  decisao_do_usuario: "'corta 4.5, 4.6, 4.7 e a 10.4 inteira, regra 3 como regra interna.'
+    O 4.7 e a 10.4 inteira foram alem do que o professor nomeou — decisao do usuario,
+    depois de eu apontar que ficariam orfaos."
+  principio_adotado: "O plano de trabalho e peca de instrucao processual, nao memorial.
+    Toda frase afirmada vira obrigacao aferivel na prestacao de contas. Ver o TESTE DO
+    LEITOR em 00_metodo.md — tres perguntas por paragrafo, a terceira nova."
+  removido_do_documento:
+    - "4.5 Condicoes de execucao financeira — lista de atos da CONCEDENTE"
+    - "4.6 Restricao eleitoral — incide sozinha; escrever entrega motivo de sobrestamento"
+    - "4.7 O que trava o que — ensinava a concedente a ordem dos proprios atos"
+    - "10.4 A origem dos precos — confessava que a referencia nao e pesquisa de precos"
+    - "3.5, bullet 'a terceira e a rastreabilidade do preco' — prometia o que a 10.4 desmentia"
+    - "coluna 'origem' das duas planilhas — marcava linha a linha os precos frageis"
+    - "risco R-06 (restricao eleitoral) — repetia a 4.6 na matriz, classificado Alto (150)"
+    - "1.2: linhas do art. 10 da Portaria 10.297, art. 40 do Decreto 48.727, art. 42 da
+      LRF e art. 73 da Lei 9.504 — orfas dos cortes acima"
+  reescrito_sem_confissao:
+    - "R-17: era 'adotada a referencia de menor valor, sem pesquisa propria'; virou
+      'subestimado em relacao ao praticado no Distrito Federal'. O risco fica, o metodo sai."
+    - "R-18: era 'as referencias sao de polos com programa de necessidades menor'; virou
+      'subestimada em relacao ao programa de necessidades real dos polos'."
+    - "13.3: rotulo 'precos sem pesquisa propria' virou 'preco dos insumos de apoio'."
+  mantido_e_por_que:
+    regra_2: "Total nunca fecha por ajuste — MANTIDA no documento. A diferenca de
+      R$ 33.580,10 continua declarada na 13.4. Nao e confissao de fragilidade: e prova de
+      que nenhuma linha foi esticada."
+    R_03: "Objeto sem ancoragem no Plano Distrital e na PAS — MANTIDO. E risco substantivo
+      do objeto, de responsabilidade da SES-DF, nao repeticao da ex-4.5."
+    composicao_do_custo_acessorio: "MANTIDA INTEGRAL na planilha. Os arts. 16 a 18 do
+      Decreto 48.727/2026 exigem que ela se leia; planilha ilegivel e o que dispara a
+      leitura de taxa de administracao disfarcada, que e vedada, com devolucao corrigida
+      recaindo sobre o convenente. Opacidade de composicao de custo cria a glosa que se
+      queria evitar."
+  regra_3_alterada: "Era: 'dependencia de fonte unica e risco escrito, nao rodape — o
+    percentual vai no documento e vira risco'. Passa a ser CONTROLE INTERNO: rastreada
+    linha a linha em verificacoes_internas.md, onde define a prioridade da pesquisa de
+    precos. Nao vai ao documento."
+  achado_de_fato: "A 10.4 publicava '8 das 21 linhas, 38% dos itens' em dependencia de
+    fonte unica. A contagem real da planilha e 10 de 21, 47,6%. O numero publicado estava
+    ERRADO — argumento adicional para nao publica-lo. O correto esta em
+    verificacoes_internas.md, V-08."
+  arquivo_novo: "verificacoes_internas.md — V-01 a V-11, com dono, momento e o que cada
+    verificacao trava. NAO E ENTREGUE. Nada foi apagado: tudo que saiu do plano esta la."
+  resultado: "plano.md 15.132 -> 14.004 palavras. Aprovados de referencia: 4.543, 4.803,
+    7.054 e 12.291. AINDA ACIMA DO MAIOR — o corte nao terminou."
+  em_aberto:
+    percentual_29_8: "A 3.5 ainda abre com 'as despesas de apoio somam 29,8% do valor
+      global' e a 10.4 (ex-10.5) fecha com 'o apoio corresponde a 29,8%'. Ninguem pediu
+      essa razao: o plano a calculou, destacou em negrito e apresentou como virtude,
+      convidando o 'por que 29,8 e nao 15?'. Proposta feita ao usuario e AINDA NAO
+      DECIDIDA: o numero deixa de ser tese na prosa e volta a ser total na planilha.
+      Mesma informacao disponivel, zero alca."
+    docx: "plano.docx regerado em 31/08/2026 — 86 KB -> 81 KB."
+
+correcao_in_cgdf_01_2005:
+  data: 2026-08-31
+  origem: "Correcao do usuario: 'Essa IN entra Instrucao Normativa CGDF no 01/2005
+    (isso entra), voce marcou que nao entrava.'"
+  estava_errado: "Secao 1.3 afirmava que a IN NAO incide; secao 1.2 registrava o art. 39,
+    paragrafo unico como limitador; risco R-05 tratava a incidencia como hipotese remota
+    (Baixo, 50). A heranca do 00_metodo.md e a memoria repetiam a leitura errada."
+  leitura_correta: "Art. 1o da propria IN: alcanca convenios que envolvam transferencia
+    de recursos oriundos de DOTACOES CONSIGNADAS NOS ORCAMENTOS FISCAL E DA SEGURIDADE
+    SOCIAL. O gatilho e o veiculo orcamentario da transferencia, nao a origem do recurso.
+    A emenda federal chega fundo a fundo ao FSDF e o repasse ao convenente sai de dotacao
+    do Orcamento da Seguridade Social do DF."
+  erro_de_raciocinio: "O art. 39, paragrafo unico do Decreto 48.727/2026 e proposicao
+    AFIRMATIVA ('aos convenios custeados com recursos distritais aplica-se...'), nao
+    excludente. Nao existe 'nao se aplica aos demais'. A exclusao foi deduzida a
+    contrario. O art. 37 do mesmo Decreto ainda manda observar as normas orcamentarias e
+    financeiras do DF em geral."
+  aplicado_no_plano:
+    - "1.2: linha do art. 39, paragrafo unico REMOVIDA"
+    - "1.3: linha da IN CGDF 01/2005 REMOVIDA"
+    - "R-05 REMOVIDO (a premissa era a leitura errada)"
+    - "matriz renumerada R-01..R-18 (R-06..R-19 deslocados em 1); 13.3 passa a 'dos
+      dezoito riscos, nove sao altos' — conferido: 9 linhas com nivel 150 ou 225"
+  por_que_nao_foi_substituido_por_afirmacao_correta: "A IN incide dita ou nao dita.
+    Varredura nos quatro aprovados: NENHUM cita a IN, a CGDF ou a Controladoria. Mesma
+    logica do corte da restricao eleitoral — vira controle interno (V-12)."
+  em_aberto:
+    anexo_I: "A IN manda o plano ser apresentado 'nos moldes do Anexo I', formulario de 4
+      folhas. NENHUM dos quatro aprovados tem esse formato. Leitura compativel com quatro
+      aprovacoes: o formulario e peca propria do processo SEI e o documento narrativo o
+      acompanha. CONFIRMAR COM O PROFESSOR."
+    declaracao_nao_mora: "Art. 2o, VIII exige declaracao de que o convenente nao esta em
+      mora nem inadimplente junto a qualquer orgao do DF. Documento a produzir — nao
+      temos."
+    contrapartida: "A rodada 10 retirou a secao de contrapartida com a justificativa
+      'nenhuma norma a exige', que se apoiava na premissa de que a IN nao incidia. O art.
+      2o, VI a menciona como condicional ('se for o caso'). Provavelmente continua fora,
+      mas o MOTIVO mudou. Reverificar."
+    anexos_prestacao_de_contas: "Anexos III a VII (Relatorio de Execucao Fisico-Financeira,
+      Demonstrativo da Receita e Despesa, Relacao de Pagamentos, Relacao de Bens) passam a
+      ser as pecas nomeadas do ciclo de contas. Convergem com o corte da secao 12, que
+      nenhum aprovado tem."
+
+acervo_pt_ses_05:
+  data: 2026-08-31
+  arquivo: "planos_aprovados/pt_ses_05_031061-2026.pdf — 58 paginas, 17 MB"
+  extracao: "python3 extrair_planos.py planos_aprovados/ extraidos/ --doc pt_ses_05.
+    PDF INTEIRAMENTE DIGITALIZADO: OCR nas 58 paginas, ZERO tabelas estruturadas
+    (contra 25 no pt_ses_01 e 26 no pt_ses_02). Valores corrompidos em varios pontos.
+    So foi usado numero que fecha por conferencia cruzada em dois pontos do documento.
+    NAO conferido contra o PDF em registros/conferencia.csv — pendente."
+  o_que_e: "SEGUNDO plano do ISHP. Mesmo titulo do pt_ses_01 ('Visao Alem do Alcance'),
+    outro convenio: 2/jul/2026, R$ 2.000.000,00, 8 meses, 8.400 OCI de Oftalmologia a
+    R$ 200,00. PRIMEIRA referencia do acervo com o MESMO valor unitario e a MESMA
+    natureza de produto que o nosso objeto."
+  totais_conferidos: "Meta 1 = 290.400,00 (Etapa 1.1 106.079,52 + Etapa 1.2 184.320,48);
+    Meta 2 = 1.680.000,00 (8.400 x 200); Meta 3 = 29.600,00; TOTAL 2.000.000,00. Fecha
+    contra a capa, contra a linha Total do cronograma de desembolso e contra a soma da
+    Meta 1. O 'Total Geral > 990.000,00' da planilha e lixo de OCR."
+  custo_acessorio: "320.000,00 = 16,00%"
+  por_que_16_por_cento: "O plano declara: 'as rubricas de apoio foram dimensionadas com
+    base no CUSTO INCREMENTAL, considerando o APROVEITAMENTO DA ESTRUTURA JA EXISTENTE da
+    OSC'. Ele pega carona na estrutura do pt_ses_01, montada 3 meses antes. Etapa 1.1
+    inteira = 3 pessoas (R$ 106.079,52) contra R$ 1.718.095,68 do pt_ses_01."
+  correcao_da_banda: "A banda 30,65%-36,57% CONTINUA VALIDA, mas e a banda de quem
+    LEVANTA ESTRUTURA (pt_ses_01 a 04). O pt_ses_05 e outra classe (complementa estrutura
+    existente). Nosso plano levanta 3 polos do zero — classe 1. ATENCAO: se o proponente
+    ja tiver polos operando, o parametro despenca e o argumento de 'custo incremental'
+    passa a ser exigivel CONTRA nos."
+  achado_maior_diligencia:
+    oficio: "Oficio no 25/2026 - SES/SECCIC/SUCONV/DIPCP/GPICP, Processo SEI
+      00060-00171435/2026-61. O PDF traz a RESPOSTA DO ISHP a essa diligencia."
+    o_que_a_ses_pediu:
+      - "atualizacao da vigencia do projeto"
+      - "apresentacao DETALHADA da rubrica 1.2.7 (Material de Consumo Administrativo), com
+        discriminacao dos itens, quantitativos estimados, VALORES UNITARIOS e MEMORIA DE
+        CONSUMO MENSAL"
+      - "Cronograma de Desembolso Financeiro - 'Anexo I', com distribuicao temporal"
+    licao: "O analista abriu diligencia por FALTA de detalhamento de composicao de custo.
+      Uma rubrica agregada de material de consumo gerou exigencia formal. A resposta foi
+      planilha com mais de vinte itens (inclusive cafe, acucar, adocante, filtro de papel)
+      com valor unitario e consumo mensal. O crivo NAO e austeridade, e DISCRIMINACAO:
+      rubrica agregada gera exigencia, rubrica aberta passa."
+    exposicao_nossa: "Nossa planilha tem UMA linha de material de consumo (item 21, Resma
+      de papel A4, 350 un, R$ 30,00, R$ 10.500,00). E exatamente a rubrica que gerou o
+      Oficio 25/2026 contra o ISHP. Estamos expostos a mesma diligencia — agora por
+      evidencia, nao por suposicao."
+  notas_menores:
+    referencia: "A coluna REFERENCIA evoluiu: pt_ses_01 (abril) 'Valores definidos com
+      base em...'; pt_ses_05 (julho) 'Valores definidos com base em PESQUISA DE MERCADO e
+      parametros de economicidade'. Invoca a pesquisa sem junta-la e sem confessar que
+      nao a tem."
+    anexo_I: "Aqui 'Anexo I' e o CRONOGRAMA DE DESEMBOLSO, nao o formulario do plano. Nao
+      resolve a duvida do V-12. Mas o cabecalho dos dois planos do ISHP e formulario
+      ('DADOS E INFORMACOES DA OSC', 'ANEXOS [x] Portfolio da OSC') — corrige em parte a
+      Parte 1 da analise, que dizia que nenhum aprovado tinha formato de formulario."
+  pendencia: "Conferir as leituras de OCR contra o PDF e registrar em
+    registros/conferencia.csv (conferencia.py --marcar pt_ses_05)."
+
+reextracao_pt_ses_05_resolvida:
+  data: 2026-08-31
+  substitui: "as ressalvas de OCR registradas em acervo_pt_ses_05, que CAEM."
+  script: "extrair_digitalizados.py (novo). PDF digitalizado nao se resolve com DPI
+    (150->85,5; 300->86,5; 400->87,0 de confianca). Resolve-se lendo a GRADE, que no
+    digitalizado esta em pixel: binariza, acha reguas por projecao, confere se a regua
+    vertical existe DENTRO da linha (nao existindo, celula mesclada), e faz OCR de cada
+    celula isolada."
+  causa_do_defeito: "O timbre e impresso DENTRO da faixa de linha da tabela. Na pagina 41
+    a faixa ia de y=61 a 1831 e continha a data do cabecalho E o valor da rubrica na mesma
+    tira: o OCR devolvia 'de 2026 R$ 69.' truncado. Filtrar POR LINHA era errado de
+    origem — apagava o dado junto com o timbre. Tres tentativas falharam (casar texto da
+    faixa; casar por token repetido, que comeu a linha 3.1.1; exigir cauda numerica, que
+    apagou 1.1.1 e 1.2.4 inteiras). O que resolve e recortar por COORDENADA antes do OCR."
+  faixa_util: "y 372..3176, detectada por constancia de tinta entre paginas. A amostra tem
+    de vir SO de paginas com grade — o oficio do fim tem outro timbre e contamina."
+  costura: "Paginas seguidas com a mesma grade sao a mesma tabela logica; linha com a
+    primeira coluna vazia e continuacao e se funde celula a celula. Gera
+    planilha_p041-p053.csv, 25 linhas, a planilha inteira num arquivo."
+  resultado: "0 -> 17 tabelas; confianca 86,5 -> 93,2; 12 de 12 rubricas lidas (antes 10);
+    1.1.1 (R$ 69.680,00) e 1.2.4 (R$ 12.520,00) agora LIDAS, nao deduzidas."
+  fechamento: "Somando os itens lidos: 1.1.x = 106.079,52 = Sub-Total Etapa 1.1;
+    1.2.x = 184.320,48 = Sub-total Etapa 1.2; Meta 1 = 290.400,00; TOTAL = 2.000.000,00 =
+    Total Geral e valor global da capa. QUATRO niveis."
+  defeito_remanescente: "Codigo do item da OCI saiu '2141' em vez de '2.1.1' (ponto perdido
+    no OCR). Normalizado o caso univoco (tres digitos: '1.24' -> '1.2.4'); com quatro
+    digitos nao se adivinha. Listado em meta.yaml como codigos_de_item_a_conferir. O VALOR
+    da linha esta correto — e rotulo, nao numero."
+  onde: "extraidos_ocr/pt_ses_05/ (texto.md, 17 CSVs, planilha costurada, meta.yaml com
+    confianca por pagina). extraidos/ NAO foi tocado, para a leitura antiga continuar de pe.
+    Registrado em registros/conferencia.csv como com_achado por CC."
+
+poda_estrutural:
+  data: 2026-08-31
+  regra: "REGRA SIMPLES, dada pelo usuario: sai toda secao que nao aparece em NENHUM dos
+    cinco planos aprovados. Sem meio-termo. Eu havia aplicado corte limpo em tres e
+    'tratamento cuidadoso' em tres; o usuario corrigiu — sao as seis, inteiras."
+  removidas_inteiras:
+    - "1.2 Base legal (606 palavras). As citacoes que OPERAM continuam inline nas secoes
+      que as usam; o que sai e o CATALOGO. Secao 1 fica so com o instrumento."
+    - "1.3 O que nao incide (149). A premissa ja se provara falsa: declarava que a IN CGDF
+      nao incidia, e declarar errado PROVOCA a diligencia."
+    - "4.2 Elegibilidade e habilitacao (273), inclusive o paragrafo condensado que eu
+      havia fundido na 4.1 numa primeira tentativa."
+    - "4.3 A indicacao parlamentar nao supre requisito (111)."
+    - "4.4 Condicoes de registro da producao (200) — PAR, habilitacao 38.01, APAC. Secao 4
+      fica so com a identificacao do proponente, como nos aprovados."
+    - "12. Prestacao de contas e monitoramento, 8 subsecoes (1.243). Com a IN incidindo,
+      os Anexos III a VII SAO as pecas do ciclo de contas."
+  religamentos: "4 ponteiros para a secao 12 religados ao art. 25 do Decreto 48.727/2026,
+    onde a gradacao das medidas efetivamente mora. O R-07 apontava para 'degrau 4 da
+    secao 12.6'."
+  resultado: "13.906 -> 11.312 palavras (-18,7%). 12 secoes. ABAIXO DO MAIOR APROVADO
+    (pt_ses_01, 12.291). Zero ponteiro orfao, zero tabela inconsistente. docx regerado.
+    Backup em plano.md.bak3."
+  custo_aceito: "A 1.2 ancorava a antecipacao da primeira parcela (arts. 27 e 32 da
+    Portaria 10.297). Levantei o ponto, o usuario manteve a regra. Se o analista estranhar
+    a antecipacao, a ancora se da em diligencia, nao no plano."
+
+poda_da_subdivisao_interna:
+  data: 2026-08-31
+  regra: "A mesma do corte de secoes, aplicada a subdivisao: sai o que nao aparece em
+    nenhum aprovado."
+  o_que_os_aprovados_fazem: "IEV (3 planos): NENHUMA subsecao numerada. Dentro da secao 7
+    ha dois titulos em caixa alta, sem numero. ISHP: subdivisao numerada existe em UMA
+    unica secao, 'Detalhamento das Acoes (Metodologia Adotada)', de 1.1 a 4.3; todo o
+    resto — objeto, fluxo, justificativa, descricao tecnica, cronograma, planilha — corre
+    em prosa. Titulo SEM numero e atestado nos dois modelos ('Memoria de calculo —
+    Infraestrutura', 'Composicao da Equipe Assistencial', 'Riscos Relacionados a Etapa 1')."
+  aplicado: "37 subsecoes desnumeradas: '### 3.1 O problema' -> '### O problema'. A SECAO
+    5 (Metodologia e fluxo do atendimento) MANTEVE a numeracao 5.1 a 5.5 — e a que
+    corresponde ao 'Detalhamento das Acoes' do ISHP, unico lugar do acervo onde subsecao
+    numerada e atestada."
+  religamentos: "8 ponteiros internos ('seção 10.2', 'seção 9.5', ...) religados para
+    'seção 10, em *o que não entra, e por quê*'. Sobraram so os dois que apontam para a
+    secao 5, que continua numerada."
+  densidade_de_titulos: "IEV 1 a cada 320 palavras; ISHP 1 a cada 285; NOSSO 1 a cada 195.
+    Continuamos mais densos: o titulo sem numero e atestado, mas nao nesse volume. Se a
+    regua for a densidade e nao a numeracao, o proximo passo e apagar titulo, comecando
+    pela secao 3 (justificativa), que nos dois modelos corre em prosa corrida."
+  backup: "plano.md.bak4"
+
+titulos_na_forma_dos_aprovados:
+  data: 2026-08-31
+  achado: "A diferenca nao era uma lista de titulos, era uma FORMA. Todos os ~50 titulos
+    dos cinco aprovados sao sintagmas nominais que nomeiam uma peca exigida (Descricao do
+    Objeto, Metodologia, Cronograma Fisico, Planilha Global, Mapa de Risco, Dimensionamento
+    das Equipes). NENHUM comeca com 'Por que', 'O que', 'Quando' ou 'Como'. Nenhum anuncia
+    um raciocinio ou uma limitacao. Nossos: 15 de 46 eram argumentativos e mais 8 tinham
+    voz editorial."
+  cortados_com_o_conteudo:
+    - "'O que esta justificativa ainda nao demonstra' — as tres confissoes: complementaridade
+      nao demonstrada, ancoragem no planejamento pendente, e a margem de 7,2% da fila."
+    - "'Concentracao dos riscos altos' — produzia a manchete 'dos dezoito riscos, nove sao
+      altos', frase que nao existe em plano aprovado nenhum."
+    - "'O que este desenho elimina' — o quadro dos quatro riscos que o desenho impede. A
+      declaracao da sobra de R$ 33.580,10 (regra 2) NAO se perdeu: continua nas secoes 3 e
+      10, conferido."
+  renomeados: "21 titulos para a forma nominal. Exemplos: 'O que conta como entregue' ->
+    'Unidade de afericao'; 'Por que estes tres polos' -> 'Distribuicao territorial dos
+    polos'; 'Como esta planilha foi montada' -> 'Metodologia de composicao de custos';
+    'O gargalo, dito por inteiro' -> 'Capacidade instalada de ecocardiografia'."
+  ponteiros: "6 ponteiros internos do tipo 'secao N, em *titulo*' conferidos um a um contra
+    os titulos novos. Zero orfao."
+  resultado: "11.319 -> 10.687 palavras. 43 subtitulos, ZERO argumentativos. Densidade de
+    titulos 1 a cada 194. Backup em plano.md.bak5."
+
+fusao_no_modelo_ishp:
+  data: 2026-08-31
+  razao: "O ISHP tem UMA secao valendo 48% do plano — 'Detalhamento das Acoes (Metodologia
+    Adotada)', 4.752 palavras, subdividida de 1.1 a 4.3 — e ela absorve metas, indicadores,
+    dimensionamento de equipe, agendas, sistemas e acoes compensatorias. Nos espalhavamos o
+    mesmo conteudo por quatro secoes. O conteudo era o mesmo; a ARRUMACAO diferia."
+  aplicado: "Secoes 6 (Metas), 7 (Indicadores) e 11 (Equipe) fundidas na 5, que passa a
+    'Metodologia e detalhamento das acoes' com 19 subsecoes numeradas 5.1 a 5.19. A ordem
+    segue a logica do ISHP e a nossa propria dependencia: fluxo (5.1-5.5) -> equipe
+    (5.6-5.11, derivada do fluxo) -> metas (5.12-5.15) -> indicadores (5.16-5.19), com o
+    monitoramento no fim como no 4.x deles."
+  renumeracao: "8->6 Cronograma fisico; 9->7 Cronograma de desembolso; 10->8 Planilha;
+    12->9 Riscos. De 12 para 9 secoes, sem perder uma linha de conteudo (10.687 -> 10.672
+    palavras; a diferenca sao os tres titulos de secao removidos)."
+  religamento: "33 referencias internas religadas EM UMA PASSADA, com sentinela. Duas
+    armadilhas registradas: (a) o lookahead (?![.\\d]) que protegia 'secao 5.4' tambem
+    barrava 'secao 10.' em fim de frase — o correto e (?!\\.\\d); (b) substituir primeiro as
+    referencias COM TITULO e depois rodar o mapa numerico remapeia as mesmas duas vezes.
+    Referencias que apontavam para dentro das secoes fundidas viraram subsecao: 'secao 11,
+    em *subcontratacao*' -> 'secao 5.11'; 'secao 7, em *a regra de afericao*' -> 'secao
+    5.16'; 'secao 6, em *meta qualitativa*' -> 'secao 5.14'."
+  verificacao: "Toda referencia conferida contra a estrutura nova: zero quebrada, zero
+    titulo inexistente, zero tabela inconsistente. Backup em plano.md.bak6."
+  onde_estamos: "10.672 palavras. ISHP limpo: pt_ses_01 = 9.887, pt_ses_05 = 13.627.
+    ESTAMOS DENTRO DA FAIXA DO ISHP. Contra o IEV (maior: 7.054) ainda somos 51% maiores."
+  ponto_em_aberto: "A secao 4 (Proponente) tem 84 palavras contra 439 da 'Apresentacao do
+    Proponente' do ISHP. E a UNICA em que ficamos ABAIXO do modelo — a poda passou do ponto
+    ali."
+
+estrutura_padrao_fixada:
+  data: 2026-08-31
+  decisao_do_usuario: "'ja deixamos alinhado como vai ser a estrutura dos nossos planos
+    daqui pra frente.' O padrao deixa de ser historico de edicao deste plano e passa a ser
+    o modelo dos proximos."
+  gravado_em: "00_metodo.md, secao 'A ESTRUTURA PADRAO — 9 secoes'. O parametro de calibre
+    de 24/08 ('14 secoes, nao 20') foi revisto para 9. CONTINUAR.md teve o mapa de
+    remontagem atualizado: a secao 5 vem de QUATRO arquivos (04_fluxo + 06_equipe +
+    02_metas + 03_indicadores) e 09_contas_monitoramento e 10_contrapartida nao entram mais."
+  investigacao_da_secao_4: "Perguntado por que nossa secao 4 tem 84 palavras contra 439 do
+    ISHP. Decomposta a 'Apresentacao do Proponente' deles: so ~61 palavras (14%) falam do
+    PROPONENTE. O resto e descricao de projeto que eles concentram ali e nos distribuimos —
+    97 em politica/publico (nossa secao 2), 76 em fluxos (nossa 5.1), 69 em responsabilidade
+    e subcontratacao (nossa 5.11), 136 em logica de cuidado (nossa secao 3). Em dois blocos
+    somos MAIS fortes: eles AFIRMAM que nao ha subcontratacao do objeto; nossa 5.11 cita o
+    art. 33, lista item a item o que e acessorio e declara o que NAO e subcontratado."
+  as_61_palavras_que_faltam: "Sao decisao travada em 24/08 ('Destino: exercicio. Nada de
+    prosa ficticia sobre o proponente'). Nao e poda excessiva; e parametro do exercicio, e
+    se resolve sozinho havendo entidade real. O proprio ISHP remete o detalhe ao 'ANEXO I
+    deste Plano de Trabalho', que e o portfolio institucional."
+  buraco_real_encontrado: "NAO e de tamanho, e de conteudo: nao temos NENHUMA ancora de
+    politica (Politica Nacional, Rede de Atencao, integralidade, equidade), e a unica
+    mencao ao Plano Distrital de Saude no documento e o risco R-03 em negrito. Cortamos a
+    confissao sobre ancoragem sem escrever a versao afirmativa. Registrado em pendencias.md
+    como itens 47 e 48. O usuario optou por NAO escrever o paragrafo agora."

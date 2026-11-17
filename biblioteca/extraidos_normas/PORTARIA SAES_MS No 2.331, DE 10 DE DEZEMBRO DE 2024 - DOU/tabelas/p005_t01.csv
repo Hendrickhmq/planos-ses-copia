@@ -1,0 +1,9 @@
+Idade máxima,130 ANOS
+Valor do Serviço Ambulatorial (SA) R$,"R$ 220,00"
+Total do Serviço Ambulatorial R$,"R$ 220,00"
+CID-10,C53 - Neoplasia Maligna do Colo do Útero D06 - Carcinoma in Situ do Colo do Útero (cérvix) N87 - Displasia do Colo do Útero N88 - Outros Transtornos Não-inflamatórios do Colo do Útero
+Categoria CBO,225225 - Médico cirurgião geral 225220 - Médico ginecologista e obstetra 225148 - Médico anatomopatologista 225305 - Médico citopatologista
+Quantidade Máxima,1
+Atributo Complementar,009- Exige CPF/CNS 053- Programa Mais Acesso a Especialistas (PMAE) 054- APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO 0011 - CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso a Especialistas

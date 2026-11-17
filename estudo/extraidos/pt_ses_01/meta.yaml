@@ -1,0 +1,44 @@
+id: "pt_ses_01"
+arquivo: "pt_ses_01_030989-2026.pdf"
+processo_sei: "030989-2026"
+sha256: "7c161c410a88abf29cd04e9d67a2c746b864bbdf26334c6c40512a6f8de602d1"
+paginas: 56
+chars_texto: 98370
+tabelas_total: 25
+tabelas_por_pagina:
+  pagina_7: 1
+  pagina_8: 1
+  pagina_34: 2
+  pagina_35: 1
+  pagina_36: 1
+  pagina_37: 1
+  pagina_38: 1
+  pagina_39: 1
+  pagina_40: 1
+  pagina_41: 1
+  pagina_42: 1
+  pagina_43: 1
+  pagina_44: 1
+  pagina_45: 1
+  pagina_46: 1
+  pagina_47: 1
+  pagina_48: 1
+  pagina_49: 1
+  pagina_50: 1
+  pagina_51: 1
+  pagina_52: 1
+  pagina_53: 1
+  pagina_54: 1
+  pagina_56: 1
+prosa_reclassificada_total: 4
+prosa_reclassificada_por_pagina:
+  pagina_2: 1
+  pagina_3: 1
+  pagina_8: 1
+  pagina_27: 1
+paginas_ajustadas: [5, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54]
+paginas_sem_texto: [1]
+paginas_ocr: [1]
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.10"
+data_extracao: "2026-08-17T01:04:40"

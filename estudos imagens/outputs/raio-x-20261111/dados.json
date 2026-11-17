@@ -1,0 +1,6023 @@
+{
+  "data_estudo": "11/11/2026",
+  "data_base": {
+    "inicio": {
+      "recarga_utc": "2026-11-02T13:31:47.865Z",
+      "consulta": "02/11/2026 12:19:50",
+      "solicitacao_max": "28/10/2026",
+      "agendamento_max": "04/02/2027",
+      "recarga_brasilia": "02/11/2026 10:31:47"
+    },
+    "fim": {
+      "recarga_utc": "2026-11-02T13:31:47.865Z",
+      "consulta": "02/11/2026 12:20:03",
+      "solicitacao_max": "28/10/2026",
+      "agendamento_max": "04/02/2027",
+      "recarga_brasilia": "02/11/2026 10:31:47"
+    }
+  },
+  "nota": "Consulta atual do painel não validada: filtros mudaram durante a leitura. Números abaixo são exclusivamente da fotografia preservada de 02/11.",
+  "total": 3458,
+  "grupos": [
+    {
+      "codigo": "0204030153",
+      "nome": "RADIOGRAFIA DE TORAX (PA E PERFIL)",
+      "preco": 29.95,
+      "fila": 648,
+      "recentes": 648,
+      "nomes": [
+        {
+          "nome": "TORAX : PA E PERFIL",
+          "codigo": "204030153",
+          "fila": 648,
+          "fila_viva": 648,
+          "pessoas": 648,
+          "pessoas_viva": 648,
+          "devolvidas": 189,
+          "espera_media": 105.4920864778565,
+          "espera_mediana": 99.82207269675928,
+          "espera_max": 223.79069674768834,
+          "mais_antiga": "23/03/2026",
+          "idade_mediana": 53,
+          "total": 837,
+          "agendadas_12m": 13091,
+          "agendadas_12m_no_codigo": 13091,
+          "cid_principais": [
+            [
+              "R07",
+              63
+            ],
+            [
+              "R06",
+              40
+            ],
+            [
+              "R05",
+              34
+            ],
+            [
+              "K80",
+              30
+            ],
+            [
+              "I10",
+              29
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040094",
+      "nome": "RADIOGRAFIA DE MAO",
+      "preco": 20.48,
+      "fila": 314,
+      "recentes": 314,
+      "nomes": [
+        {
+          "nome": "MAO DIREITA ( DUAS INCIDENCIAS) (AP E OBLIQUO)",
+          "codigo": "204040094",
+          "fila": 46,
+          "fila_viva": 46,
+          "pessoas": 46,
+          "pessoas_viva": 46,
+          "devolvidas": 4,
+          "espera_media": 113.29641864608557,
+          "espera_mediana": 105.85463565393366,
+          "espera_max": 230.9165518171285,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 60,
+          "total": 50,
+          "agendadas_12m": 39,
+          "agendadas_12m_no_codigo": 2467,
+          "cid_principais": [
+            [
+              "M06",
+              10
+            ],
+            [
+              "M05",
+              10
+            ],
+            [
+              "M25",
+              6
+            ],
+            [
+              "M54",
+              2
+            ],
+            [
+              "M81",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "MAO DIREITA ( DUAS INCIDENCIAS)",
+          "codigo": "204040094",
+          "fila": 23,
+          "fila_viva": 23,
+          "pessoas": 23,
+          "pessoas_viva": 23,
+          "devolvidas": 1,
+          "espera_media": 129.39544240841465,
+          "espera_mediana": 136.76146932870324,
+          "espera_max": 230.74973486111412,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 58,
+          "total": 24,
+          "agendadas_12m": 338,
+          "agendadas_12m_no_codigo": 2467,
+          "cid_principais": [
+            [
+              "M25",
+              7
+            ],
+            [
+              "M15",
+              2
+            ],
+            [
+              "M05",
+              2
+            ],
+            [
+              "R52",
+              2
+            ],
+            [
+              "M06",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE MAO",
+          "codigo": "204040094",
+          "fila": 11,
+          "fila_viva": 11,
+          "pessoas": 11,
+          "pessoas_viva": 11,
+          "devolvidas": 2,
+          "espera_media": 76.81176626368092,
+          "espera_mediana": 90.00279803240846,
+          "espera_max": 131.9625907754671,
+          "mais_antiga": "23/06/2026",
+          "idade_mediana": 60,
+          "total": 13,
+          "agendadas_12m": 1079,
+          "agendadas_12m_no_codigo": 2467,
+          "cid_principais": [
+            [
+              "M06",
+              2
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "M05",
+              2
+            ],
+            [
+              "M19",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "MAO ESQUERDA ( DUAS INCIDENCIAS)",
+          "codigo": "204040094",
+          "fila": 18,
+          "fila_viva": 18,
+          "pessoas": 18,
+          "pessoas_viva": 18,
+          "devolvidas": 1,
+          "espera_media": 133.23426894547526,
+          "espera_mediana": 136.8713553877351,
+          "espera_max": 230.74914825231826,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 54.5,
+          "total": 19,
+          "agendadas_12m": 322,
+          "agendadas_12m_no_codigo": 2467,
+          "cid_principais": [
+            [
+              "M25",
+              7
+            ],
+            [
+              "M06",
+              3
+            ],
+            [
+              "M81",
+              1
+            ],
+            [
+              "E30",
+              1
+            ],
+            [
+              "M07",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "MAO ( DUAS INCIDENCIAS)",
+          "codigo": "204040094",
+          "fila": 10,
+          "fila_viva": 10,
+          "pessoas": 10,
+          "pessoas_viva": 10,
+          "devolvidas": 4,
+          "espera_media": 175.81360029745412,
+          "espera_mediana": 198.38894832754522,
+          "espera_max": 230.7521038773193,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 64,
+          "total": 14,
+          "agendadas_12m": 12,
+          "agendadas_12m_no_codigo": 2467,
+          "cid_principais": [
+            [
+              "M06",
+              3
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M05",
+              2
+            ],
+            [
+              "M15",
+              1
+            ],
+            [
+              "M13",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "MAO ESQUERDA ( DUAS INCIDENCIAS) (AP E OBLIQUO)",
+          "codigo": "204040094",
+          "fila": 33,
+          "fila_viva": 33,
+          "pessoas": 33,
+          "pessoas_viva": 33,
+          "devolvidas": 4,
+          "espera_media": 101.50092801417023,
+          "espera_mediana": 88.01032402778219,
+          "espera_max": 208.75846807870403,
+          "mais_antiga": "07/04/2026",
+          "idade_mediana": 58,
+          "total": 37,
+          "agendadas_12m": 27,
+          "agendadas_12m_no_codigo": 2467,
+          "cid_principais": [
+            [
+              "M05",
+              8
+            ],
+            [
+              "M06",
+              5
+            ],
+            [
+              "M25",
+              4
+            ],
+            [
+              "M15",
+              3
+            ],
+            [
+              "M32",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "MAO DIREITA (AP E OBLIQUO)",
+          "codigo": "204040094",
+          "fila": 87,
+          "fila_viva": 87,
+          "pessoas": 87,
+          "pessoas_viva": 87,
+          "devolvidas": 28,
+          "espera_media": 62.91427736363988,
+          "espera_mediana": 40.048469039349584,
+          "espera_max": 222.912442280096,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 56,
+          "total": 115,
+          "agendadas_12m": 348,
+          "agendadas_12m_no_codigo": 2467,
+          "cid_principais": [
+            [
+              "M25",
+              15
+            ],
+            [
+              "M06",
+              14
+            ],
+            [
+              "M79",
+              10
+            ],
+            [
+              "M05",
+              7
+            ],
+            [
+              "M15",
+              6
+            ]
+          ]
+        },
+        {
+          "nome": "MAO ESQUERDA (AP E OBLIQUO)",
+          "codigo": "204040094",
+          "fila": 86,
+          "fila_viva": 86,
+          "pessoas": 86,
+          "pessoas_viva": 86,
+          "devolvidas": 29,
+          "espera_media": 70.06683047440345,
+          "espera_mediana": 44.889118055558356,
+          "espera_max": 222.91129232638923,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 57.5,
+          "total": 115,
+          "agendadas_12m": 302,
+          "agendadas_12m_no_codigo": 2467,
+          "cid_principais": [
+            [
+              "M25",
+              17
+            ],
+            [
+              "M06",
+              13
+            ],
+            [
+              "M05",
+              11
+            ],
+            [
+              "M15",
+              8
+            ],
+            [
+              "M79",
+              8
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060125",
+      "nome": "RADIOGRAFIA DE JOELHO (AP + LATERAL)",
+      "preco": 30.32,
+      "fila": 309,
+      "recentes": 309,
+      "nomes": [
+        {
+          "nome": "JOELHO : AP + LATERAL DIREITO",
+          "codigo": "204060125",
+          "fila": 73,
+          "fila_viva": 73,
+          "pessoas": 73,
+          "pessoas_viva": 73,
+          "devolvidas": 5,
+          "espera_media": 55.28988928875054,
+          "espera_mediana": 34.758089652779745,
+          "espera_max": 230.81250938657467,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 56,
+          "total": 78,
+          "agendadas_12m": 156,
+          "agendadas_12m_no_codigo": 2947,
+          "cid_principais": [
+            [
+              "M25",
+              17
+            ],
+            [
+              "M23",
+              17
+            ],
+            [
+              "M17",
+              17
+            ],
+            [
+              "M19",
+              5
+            ],
+            [
+              "M79",
+              4
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO : AP + LATERAL",
+          "codigo": "204060125",
+          "fila": 9,
+          "fila_viva": 9,
+          "pessoas": 9,
+          "pessoas_viva": 9,
+          "devolvidas": 4,
+          "espera_media": 171.60496506687275,
+          "espera_mediana": 205.85100518518448,
+          "espera_max": 220.88170108796476,
+          "mais_antiga": "26/03/2026",
+          "idade_mediana": 60,
+          "total": 13,
+          "agendadas_12m": 1231,
+          "agendadas_12m_no_codigo": 2947,
+          "cid_principais": [
+            [
+              "M23",
+              4
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M15",
+              1
+            ],
+            [
+              "R52",
+              1
+            ],
+            [
+              "S83",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO : AP + LATERAL ESQUERDO",
+          "codigo": "204060125",
+          "fila": 61,
+          "fila_viva": 61,
+          "pessoas": 61,
+          "pessoas_viva": 61,
+          "devolvidas": 4,
+          "espera_media": 47.88814999241123,
+          "espera_mediana": 31.990962349540496,
+          "espera_max": 230.81215214120311,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 59,
+          "total": 65,
+          "agendadas_12m": 119,
+          "agendadas_12m_no_codigo": 2947,
+          "cid_principais": [
+            [
+              "M25",
+              22
+            ],
+            [
+              "M23",
+              16
+            ],
+            [
+              "M17",
+              6
+            ],
+            [
+              "M19",
+              5
+            ],
+            [
+              "M79",
+              3
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO DIREITO (AP E PERFIL)",
+          "codigo": "204060125",
+          "fila": 85,
+          "fila_viva": 85,
+          "pessoas": 85,
+          "pessoas_viva": 85,
+          "devolvidas": 29,
+          "espera_media": 112.05267406440741,
+          "espera_mediana": 103.77315672453551,
+          "espera_max": 231.01521239583235,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 61,
+          "total": 114,
+          "agendadas_12m": 754,
+          "agendadas_12m_no_codigo": 2947,
+          "cid_principais": [
+            [
+              "M25",
+              22
+            ],
+            [
+              "M17",
+              19
+            ],
+            [
+              "M23",
+              14
+            ],
+            [
+              "M06",
+              6
+            ],
+            [
+              "M79",
+              6
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO ESQUERDO (AP E PERFIL)",
+          "codigo": "204060125",
+          "fila": 81,
+          "fila_viva": 81,
+          "pessoas": 81,
+          "pessoas_viva": 81,
+          "devolvidas": 33,
+          "espera_media": 123.11638287165745,
+          "espera_mediana": 124.65672895833268,
+          "espera_max": 231.01487607639137,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 58,
+          "total": 114,
+          "agendadas_12m": 687,
+          "agendadas_12m_no_codigo": 2947,
+          "cid_principais": [
+            [
+              "M17",
+              21
+            ],
+            [
+              "M25",
+              17
+            ],
+            [
+              "M23",
+              13
+            ],
+            [
+              "M06",
+              6
+            ],
+            [
+              "M79",
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020069",
+      "nome": "RADIOGRAFIA DE COLUNA LOMBO-SACRA",
+      "preco": 32.84,
+      "fila": 293,
+      "recentes": 293,
+      "nomes": [
+        {
+          "nome": "COLUNA LOMBO-SACRA",
+          "codigo": "204020069",
+          "fila": 10,
+          "fila_viva": 10,
+          "pessoas": 10,
+          "pessoas_viva": 10,
+          "devolvidas": 7,
+          "espera_media": 135.46174199074304,
+          "espera_mediana": 151.0146465567159,
+          "espera_max": 219.41918285880092,
+          "mais_antiga": "27/03/2026",
+          "idade_mediana": 56,
+          "total": 17,
+          "agendadas_12m": 214,
+          "agendadas_12m_no_codigo": 3759,
+          "cid_principais": [
+            [
+              "M54",
+              8
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "K30",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBO-SACRA (AP E PERFIL)",
+          "codigo": "204020069",
+          "fila": 54,
+          "fila_viva": 54,
+          "pessoas": 54,
+          "pessoas_viva": 54,
+          "devolvidas": 17,
+          "espera_media": 143.1084656303594,
+          "espera_mediana": 163.43254987847467,
+          "espera_max": 230.92117403935117,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 55,
+          "total": 71,
+          "agendadas_12m": 1685,
+          "agendadas_12m_no_codigo": 3759,
+          "cid_principais": [
+            [
+              "M54",
+              37
+            ],
+            [
+              "M45",
+              4
+            ],
+            [
+              "M25",
+              3
+            ],
+            [
+              "M15",
+              2
+            ],
+            [
+              "E05",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBAR: AP+LATERAL",
+          "codigo": "204020069",
+          "fila": 39,
+          "fila_viva": 39,
+          "pessoas": 39,
+          "pessoas_viva": 39,
+          "devolvidas": 14,
+          "espera_media": 141.24045051816378,
+          "espera_mediana": 140.04417760416982,
+          "espera_max": 234.69908618055342,
+          "mais_antiga": "12/03/2026",
+          "idade_mediana": 57,
+          "total": 53,
+          "agendadas_12m": 34,
+          "agendadas_12m_no_codigo": 3759,
+          "cid_principais": [
+            [
+              "M54",
+              31
+            ],
+            [
+              "M06",
+              1
+            ],
+            [
+              "M81",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "M41",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBAR (AP E PERFIL)",
+          "codigo": "204020069",
+          "fila": 38,
+          "fila_viva": 38,
+          "pessoas": 38,
+          "pessoas_viva": 38,
+          "devolvidas": 25,
+          "espera_media": 107.66466885508137,
+          "espera_mediana": 98.7712570138865,
+          "espera_max": 215.76482394675986,
+          "mais_antiga": "31/03/2026",
+          "idade_mediana": 58.5,
+          "total": 63,
+          "agendadas_12m": 1010,
+          "agendadas_12m_no_codigo": 3759,
+          "cid_principais": [
+            [
+              "M54",
+              27
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M81",
+              1
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBO SACRA (AP E PERFIL)",
+          "codigo": "204020069",
+          "fila": 145,
+          "fila_viva": 145,
+          "pessoas": 145,
+          "pessoas_viva": 145,
+          "devolvidas": 31,
+          "espera_media": 100.3391040087815,
+          "espera_mediana": 89.75356762731826,
+          "espera_max": 229.80261751157377,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 52,
+          "total": 176,
+          "agendadas_12m": 780,
+          "agendadas_12m_no_codigo": 3759,
+          "cid_principais": [
+            [
+              "M54",
+              115
+            ],
+            [
+              "M25",
+              5
+            ],
+            [
+              "M45",
+              4
+            ],
+            [
+              "M51",
+              3
+            ],
+            [
+              "M41",
+              3
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBAR-AP + LATERAL (AP E PERFIL)",
+          "codigo": "204020069",
+          "fila": 7,
+          "fila_viva": 7,
+          "pessoas": 7,
+          "pessoas_viva": 7,
+          "devolvidas": 0,
+          "espera_media": 141.15085170304206,
+          "espera_mediana": 158.03501366898126,
+          "espera_max": 230.73841710648412,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 56,
+          "total": 7,
+          "agendadas_12m": 36,
+          "agendadas_12m_no_codigo": 3759,
+          "cid_principais": [
+            [
+              "M54",
+              5
+            ],
+            [
+              "M07",
+              1
+            ],
+            [
+              "M16",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060150",
+      "nome": "RADIOGRAFIA DE PE / DEDOS DO PE",
+      "preco": 30.32,
+      "fila": 252,
+      "recentes": 252,
+      "nomes": [
+        {
+          "nome": "PE OU PODODACTILOS ESQUERDO",
+          "codigo": "204060150",
+          "fila": 58,
+          "fila_viva": 58,
+          "pessoas": 58,
+          "pessoas_viva": 58,
+          "devolvidas": 6,
+          "espera_media": 46.10179073295914,
+          "espera_mediana": 32.42685210648415,
+          "espera_max": 214.76744502314978,
+          "mais_antiga": "01/04/2026",
+          "idade_mediana": 56,
+          "total": 64,
+          "agendadas_12m": 114,
+          "agendadas_12m_no_codigo": 1420,
+          "cid_principais": [
+            [
+              "M25",
+              10
+            ],
+            [
+              "M79",
+              6
+            ],
+            [
+              "M77",
+              6
+            ],
+            [
+              "Q66",
+              5
+            ],
+            [
+              "M72",
+              5
+            ]
+          ]
+        },
+        {
+          "nome": "PE OU PODODACTILOS",
+          "codigo": "204060150",
+          "fila": 10,
+          "fila_viva": 10,
+          "pessoas": 10,
+          "pessoas_viva": 10,
+          "devolvidas": 3,
+          "espera_media": 171.95439352430694,
+          "espera_mediana": 204.3349999768543,
+          "espera_max": 234.82186907407595,
+          "mais_antiga": "12/03/2026",
+          "idade_mediana": 47.5,
+          "total": 13,
+          "agendadas_12m": 12,
+          "agendadas_12m_no_codigo": 1420,
+          "cid_principais": [
+            [
+              "M05",
+              2
+            ],
+            [
+              "M72",
+              2
+            ],
+            [
+              "Q66",
+              1
+            ],
+            [
+              "M06",
+              1
+            ],
+            [
+              "M85",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PE OU PODODACTILOS DIREITO",
+          "codigo": "204060150",
+          "fila": 76,
+          "fila_viva": 76,
+          "pessoas": 76,
+          "pessoas_viva": 76,
+          "devolvidas": 3,
+          "espera_media": 55.29981532133388,
+          "espera_mediana": 36.34791499421408,
+          "espera_max": 216.69140079861245,
+          "mais_antiga": "30/03/2026",
+          "idade_mediana": 54,
+          "total": 79,
+          "agendadas_12m": 132,
+          "agendadas_12m_no_codigo": 1420,
+          "cid_principais": [
+            [
+              "M25",
+              13
+            ],
+            [
+              "M79",
+              12
+            ],
+            [
+              "M77",
+              9
+            ],
+            [
+              "S90",
+              6
+            ],
+            [
+              "Q66",
+              5
+            ]
+          ]
+        },
+        {
+          "nome": "PE OU PODODACTILOS DIREITO (AP E OBLIQUO)",
+          "codigo": "204060150",
+          "fila": 59,
+          "fila_viva": 59,
+          "pessoas": 59,
+          "pessoas_viva": 59,
+          "devolvidas": 18,
+          "espera_media": 127.90269894205242,
+          "espera_mediana": 130.01380212962977,
+          "espera_max": 230.0446869212974,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 56,
+          "total": 77,
+          "agendadas_12m": 577,
+          "agendadas_12m_no_codigo": 1420,
+          "cid_principais": [
+            [
+              "M25",
+              8
+            ],
+            [
+              "M79",
+              7
+            ],
+            [
+              "M77",
+              6
+            ],
+            [
+              "S90",
+              4
+            ],
+            [
+              "Q66",
+              3
+            ]
+          ]
+        },
+        {
+          "nome": "PE OU PODODACTILOS ESQUERDO (AP E OBLIQUO)",
+          "codigo": "204060150",
+          "fila": 49,
+          "fila_viva": 49,
+          "pessoas": 49,
+          "pessoas_viva": 49,
+          "devolvidas": 18,
+          "espera_media": 138.45233140377107,
+          "espera_mediana": 131.00438120370382,
+          "espera_max": 230.96320295138867,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 56,
+          "total": 67,
+          "agendadas_12m": 585,
+          "agendadas_12m_no_codigo": 1420,
+          "cid_principais": [
+            [
+              "M25",
+              5
+            ],
+            [
+              "M05",
+              4
+            ],
+            [
+              "S93",
+              3
+            ],
+            [
+              "Q66",
+              3
+            ],
+            [
+              "M06",
+              3
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040108",
+      "nome": "RADIOGRAFIA DE MAO E PUNHO (P/ DETERMINACAO DE IDADE OSSEA)",
+      "preco": 28.49,
+      "fila": 144,
+      "recentes": 143,
+      "nomes": [
+        {
+          "nome": "MAOS E PUNHOS PARA IDADE OSSEA",
+          "codigo": "204040108",
+          "fila": 26,
+          "fila_viva": 26,
+          "pessoas": 26,
+          "pessoas_viva": 26,
+          "devolvidas": 32,
+          "espera_media": 96.39596826433542,
+          "espera_mediana": 84.7966524652802,
+          "espera_max": 214.97287995370425,
+          "mais_antiga": "01/04/2026",
+          "idade_mediana": 8.5,
+          "total": 58,
+          "agendadas_12m": 1559,
+          "agendadas_12m_no_codigo": 2045,
+          "cid_principais": [
+            [
+              "E30",
+              10
+            ],
+            [
+              "E66",
+              3
+            ],
+            [
+              "E22",
+              3
+            ],
+            [
+              "E34",
+              3
+            ],
+            [
+              "M89",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE MAO E PUNHO P/DETERMINACAO DE IDADE OSSEA",
+          "codigo": "204040108",
+          "fila": 36,
+          "fila_viva": 36,
+          "pessoas": 36,
+          "pessoas_viva": 36,
+          "devolvidas": 3,
+          "espera_media": 117.62303870788391,
+          "espera_mediana": 117.4110005034745,
+          "espera_max": 221.78478910879494,
+          "mais_antiga": "25/03/2026",
+          "idade_mediana": 9,
+          "total": 39,
+          "agendadas_12m": 441,
+          "agendadas_12m_no_codigo": 2045,
+          "cid_principais": [
+            [
+              "E23",
+              15
+            ],
+            [
+              "E22",
+              6
+            ],
+            [
+              "E30",
+              5
+            ],
+            [
+              "Z00",
+              4
+            ],
+            [
+              "P05",
+              3
+            ]
+          ]
+        },
+        {
+          "nome": "MAOS E PUNHOS PARA IDADE OSSEA ESQUERDO",
+          "codigo": "204040108",
+          "fila": 73,
+          "fila_viva": 73,
+          "pessoas": 73,
+          "pessoas_viva": 73,
+          "devolvidas": 5,
+          "espera_media": 124.04444580463704,
+          "espera_mediana": 110.78591496527952,
+          "espera_max": 234.68412297454051,
+          "mais_antiga": "12/03/2026",
+          "idade_mediana": 9,
+          "total": 78,
+          "agendadas_12m": 41,
+          "agendadas_12m_no_codigo": 2045,
+          "cid_principais": [
+            [
+              "E34",
+              15
+            ],
+            [
+              "E30",
+              15
+            ],
+            [
+              "E66",
+              10
+            ],
+            [
+              "R62",
+              9
+            ],
+            [
+              "E23",
+              7
+            ]
+          ]
+        },
+        {
+          "nome": "MAOS E PUNHOS PARA IDADE OSSEA DIREITO",
+          "codigo": "204040108",
+          "fila": 8,
+          "fila_viva": 8,
+          "pessoas": 8,
+          "pessoas_viva": 8,
+          "devolvidas": 6,
+          "espera_media": 87.17591682291732,
+          "espera_mediana": 88.44192737847334,
+          "espera_max": 97.01654596065055,
+          "mais_antiga": "28/07/2026",
+          "idade_mediana": 9,
+          "total": 14,
+          "agendadas_12m": 4,
+          "agendadas_12m_no_codigo": 2045,
+          "cid_principais": [
+            [
+              "Z00",
+              4
+            ],
+            [
+              "R62",
+              2
+            ],
+            [
+              "E34",
+              1
+            ],
+            [
+              "E23",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "MAOS E PUNHOS P/ IDADE OSSEA",
+          "codigo": "204040108",
+          "fila": 1,
+          "fila_viva": 0,
+          "pessoas": 1,
+          "pessoas_viva": 0,
+          "devolvidas": 0,
+          "espera_media": 7039.40388888889,
+          "espera_mediana": 7039.40388888889,
+          "espera_max": 7039.40388888889,
+          "mais_antiga": "26/07/2007",
+          "idade_mediana": 24,
+          "total": 1,
+          "agendadas_12m": null,
+          "agendadas_12m_no_codigo": 2045,
+          "cid_principais": [
+            [
+              "F72",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204010063",
+      "nome": "RADIOGRAFIA DE CAVUM (LATERAL + HIRTZ)",
+      "preco": 24.92,
+      "fila": 144,
+      "recentes": 142,
+      "nomes": [
+        {
+          "nome": "RADIOGRAFIA DE CAVUM (LATERAL + HIRTZ)",
+          "codigo": "204010063",
+          "fila": 61,
+          "fila_viva": 61,
+          "pessoas": 61,
+          "pessoas_viva": 61,
+          "devolvidas": 8,
+          "espera_media": 113.44549581473996,
+          "espera_mediana": 110.74315947917057,
+          "espera_max": 229.0185825462977,
+          "mais_antiga": "18/03/2026",
+          "idade_mediana": 7,
+          "total": 69,
+          "agendadas_12m": 1776,
+          "agendadas_12m_no_codigo": 2584,
+          "cid_principais": [
+            [
+              "J35",
+              39
+            ],
+            [
+              "R06",
+              13
+            ],
+            [
+              "J34",
+              4
+            ],
+            [
+              "G47",
+              2
+            ],
+            [
+              "J32",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CAVUM - LATERAL",
+          "codigo": "204010063",
+          "fila": 74,
+          "fila_viva": 74,
+          "pessoas": 74,
+          "pessoas_viva": 74,
+          "devolvidas": 7,
+          "espera_media": 113.82695946462185,
+          "espera_mediana": 111.30661978009448,
+          "espera_max": 230.72275981481653,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 6.5,
+          "total": 81,
+          "agendadas_12m": 805,
+          "agendadas_12m_no_codigo": 2584,
+          "cid_principais": [
+            [
+              "J35",
+              48
+            ],
+            [
+              "G47",
+              7
+            ],
+            [
+              "J30",
+              6
+            ],
+            [
+              "R06",
+              5
+            ],
+            [
+              "J34",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CAVUM (LATERAL + HIRTZ)",
+          "codigo": "204010063",
+          "fila": 2,
+          "fila_viva": 0,
+          "pessoas": 2,
+          "pessoas_viva": 0,
+          "devolvidas": 0,
+          "espera_media": 7039.40388888889,
+          "espera_mediana": 7039.40388888889,
+          "espera_max": 7039.40388888889,
+          "mais_antiga": "26/07/2007",
+          "idade_mediana": 27,
+          "total": 2,
+          "agendadas_12m": null,
+          "agendadas_12m_no_codigo": 2584,
+          "cid_principais": [
+            [
+              "R06",
+              1
+            ],
+            [
+              "J35",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ADENOIDES - LATERAL",
+          "codigo": "204010063",
+          "fila": 7,
+          "fila_viva": 7,
+          "pessoas": 7,
+          "pessoas_viva": 7,
+          "devolvidas": 0,
+          "espera_media": 139.0720762450406,
+          "espera_mediana": 163.98235916666454,
+          "espera_max": 221.0023748611129,
+          "mais_antiga": "26/03/2026",
+          "idade_mediana": 6,
+          "total": 7,
+          "agendadas_12m": 3,
+          "agendadas_12m_no_codigo": 2584,
+          "cid_principais": [
+            [
+              "J35",
+              4
+            ],
+            [
+              "J30",
+              2
+            ],
+            [
+              "R06",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020034",
+      "nome": "RADIOGRAFIA DE COLUNA CERVICAL (AP + LATERAL + TO + OBLIQUAS)",
+      "preco": 30.86,
+      "fila": 141,
+      "recentes": 140,
+      "nomes": [
+        {
+          "nome": "RADIOGRAFIA DE COLUNA CERVICAL (AP + LATERAL + TO + OBLIQUAS)",
+          "codigo": "204020034",
+          "fila": 6,
+          "fila_viva": 6,
+          "pessoas": 6,
+          "pessoas_viva": 6,
+          "devolvidas": 4,
+          "espera_media": 147.87984604359613,
+          "espera_mediana": 155.51315571759187,
+          "espera_max": 181.9805296990744,
+          "mais_antiga": "04/05/2026",
+          "idade_mediana": 38,
+          "total": 10,
+          "agendadas_12m": 19,
+          "agendadas_12m_no_codigo": 1394,
+          "cid_principais": [
+            [
+              "M54",
+              3
+            ],
+            [
+              "M41",
+              2
+            ],
+            [
+              "M16",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA CERVICAL: AP + LATERAL + TO + OBLIQUAS (AP E PERFIL)",
+          "codigo": "204020034",
+          "fila": 47,
+          "fila_viva": 47,
+          "pessoas": 47,
+          "pessoas_viva": 47,
+          "devolvidas": 3,
+          "espera_media": 85.2941766898157,
+          "espera_mediana": 86.68813334490551,
+          "espera_max": 201.9949328240764,
+          "mais_antiga": "14/04/2026",
+          "idade_mediana": 57,
+          "total": 50,
+          "agendadas_12m": 63,
+          "agendadas_12m_no_codigo": 1394,
+          "cid_principais": [
+            [
+              "M54",
+              30
+            ],
+            [
+              "M50",
+              4
+            ],
+            [
+              "M79",
+              3
+            ],
+            [
+              "M06",
+              1
+            ],
+            [
+              "M25",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA CERVICAL (AP E PERFIL)",
+          "codigo": "204020034",
+          "fila": 88,
+          "fila_viva": 87,
+          "pessoas": 88,
+          "pessoas_viva": 87,
+          "devolvidas": 22,
+          "espera_media": 133.36073823982125,
+          "espera_mediana": 116.38679868634426,
+          "espera_max": 1375.7318763310177,
+          "mais_antiga": "26/01/2023",
+          "idade_mediana": 57.5,
+          "total": 110,
+          "agendadas_12m": 1272,
+          "agendadas_12m_no_codigo": 1394,
+          "cid_principais": [
+            [
+              "M54",
+              62
+            ],
+            [
+              "M45",
+              8
+            ],
+            [
+              "M41",
+              4
+            ],
+            [
+              "M06",
+              2
+            ],
+            [
+              "Z02",
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040124",
+      "nome": "RADIOGRAFIA DE PUNHO (AP + LATERAL + OBLIQUA)",
+      "preco": 31.06,
+      "fila": 129,
+      "recentes": 129,
+      "nomes": [
+        {
+          "nome": "PUNHO ESQUERDO: AP + LATERAL + OBLIQUOS",
+          "codigo": "204040124",
+          "fila": 35,
+          "fila_viva": 35,
+          "pessoas": 35,
+          "pessoas_viva": 35,
+          "devolvidas": 9,
+          "espera_media": 109.16636589021239,
+          "espera_mediana": 96.75155229166558,
+          "espera_max": 227.04341591435514,
+          "mais_antiga": "20/03/2026",
+          "idade_mediana": 55,
+          "total": 44,
+          "agendadas_12m": 35,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M06",
+              11
+            ],
+            [
+              "M25",
+              6
+            ],
+            [
+              "M05",
+              6
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "Z13",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PUNHO DIREITO: AP + LATERAL + OBLIQUOS",
+          "codigo": "204040124",
+          "fila": 33,
+          "fila_viva": 33,
+          "pessoas": 33,
+          "pessoas_viva": 33,
+          "devolvidas": 6,
+          "espera_media": 94.64009674172341,
+          "espera_mediana": 82.8277325347226,
+          "espera_max": 219.90565672453522,
+          "mais_antiga": "27/03/2026",
+          "idade_mediana": 56,
+          "total": 39,
+          "agendadas_12m": 37,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M06",
+              10
+            ],
+            [
+              "M25",
+              6
+            ],
+            [
+              "M05",
+              5
+            ],
+            [
+              "M71",
+              2
+            ],
+            [
+              "M79",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "PUNHO DIREITO: (AP E PERFIL)",
+          "codigo": "204040124",
+          "fila": 21,
+          "fila_viva": 21,
+          "pessoas": 21,
+          "pessoas_viva": 21,
+          "devolvidas": 14,
+          "espera_media": 123.42316167713996,
+          "espera_mediana": 116.69248479166708,
+          "espera_max": 231.01242995370558,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 59,
+          "total": 35,
+          "agendadas_12m": 101,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M06",
+              3
+            ],
+            [
+              "M25",
+              3
+            ],
+            [
+              "M05",
+              3
+            ],
+            [
+              "M07",
+              2
+            ],
+            [
+              "S60",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "PUNHO : AP + LATERAL + OBLIQUOS",
+          "codigo": "204040124",
+          "fila": 8,
+          "fila_viva": 8,
+          "pessoas": 8,
+          "pessoas_viva": 8,
+          "devolvidas": 2,
+          "espera_media": 111.78585375723469,
+          "espera_mediana": 90.39517862268622,
+          "espera_max": 214.05351621528098,
+          "mais_antiga": "02/04/2026",
+          "idade_mediana": 57.5,
+          "total": 10,
+          "agendadas_12m": 417,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M06",
+              2
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M05",
+              2
+            ],
+            [
+              "S63",
+              1
+            ],
+            [
+              "M79",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PUNHO ESQUERDO: (AP E PERFIL)",
+          "codigo": "204040124",
+          "fila": 24,
+          "fila_viva": 24,
+          "pessoas": 24,
+          "pessoas_viva": 24,
+          "devolvidas": 15,
+          "espera_media": 110.6323653047851,
+          "espera_mediana": 119.8594030787026,
+          "espera_max": 229.75552453703858,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 59,
+          "total": 39,
+          "agendadas_12m": 104,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M79",
+              3
+            ],
+            [
+              "M06",
+              2
+            ],
+            [
+              "M65",
+              2
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M07",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "PUNHO DIREITO: OBLIQUOS",
+          "codigo": "204040124",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 0,
+          "espera_media": 102.88952620949203,
+          "espera_mediana": 102.88952620949203,
+          "espera_max": 103.71724081018328,
+          "mais_antiga": "21/07/2026",
+          "idade_mediana": 61,
+          "total": 2,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M15",
+              1
+            ],
+            [
+              "M05",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PUNHO DIREITO: OBLIQUOS (DUAS POSICOES)",
+          "codigo": "204040124",
+          "fila": 3,
+          "fila_viva": 3,
+          "pessoas": 3,
+          "pessoas_viva": 3,
+          "devolvidas": 0,
+          "espera_media": 126.00791862268427,
+          "espera_mediana": 102.06154991898075,
+          "espera_max": 229.94241790509113,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 51,
+          "total": 3,
+          "agendadas_12m": 173,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M15",
+              1
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "M32",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PUNHO ESQUERDO: OBLIQUOS",
+          "codigo": "204040124",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 109.06716688657616,
+          "espera_mediana": 109.06716688657616,
+          "espera_max": 109.06716688657616,
+          "mais_antiga": "16/07/2026",
+          "idade_mediana": 78,
+          "total": 1,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M15",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PUNHO ESQUERDO: OBLIQUOS (DUAS POSICOES)",
+          "codigo": "204040124",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 0,
+          "espera_media": 74.86872221064914,
+          "espera_mediana": 74.86872221064914,
+          "espera_max": 103.71743671296281,
+          "mais_antiga": "21/07/2026",
+          "idade_mediana": 57.5,
+          "total": 2,
+          "agendadas_12m": 175,
+          "agendadas_12m_no_codigo": 1042,
+          "cid_principais": [
+            [
+              "M32",
+              1
+            ],
+            [
+              "M05",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020093",
+      "nome": "RADIOGRAFIA DE COLUNA TORACICA (AP + LATERAL)",
+      "preco": 34.6,
+      "fila": 128,
+      "recentes": 128,
+      "nomes": [
+        {
+          "nome": "RADIOGRAFIA DE COLUNA TORACICA (AP + LATERAL)",
+          "codigo": "204020093",
+          "fila": 18,
+          "fila_viva": 18,
+          "pessoas": 18,
+          "pessoas_viva": 18,
+          "devolvidas": 6,
+          "espera_media": 109.6895835230211,
+          "espera_mediana": 97.8229383333346,
+          "espera_max": 222.92168159722496,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 47.5,
+          "total": 24,
+          "agendadas_12m": 355,
+          "agendadas_12m_no_codigo": 1149,
+          "cid_principais": [
+            [
+              "M54",
+              10
+            ],
+            [
+              "M41",
+              2
+            ],
+            [
+              "M45",
+              2
+            ],
+            [
+              "J34",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA DORSAL : AP + LATERAL (AP E PERFIL)",
+          "codigo": "204020093",
+          "fila": 14,
+          "fila_viva": 14,
+          "pessoas": 14,
+          "pessoas_viva": 14,
+          "devolvidas": 4,
+          "espera_media": 129.54120699570245,
+          "espera_mediana": 116.89260358217871,
+          "espera_max": 230.92003777778154,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 51,
+          "total": 18,
+          "agendadas_12m": 57,
+          "agendadas_12m_no_codigo": 1149,
+          "cid_principais": [
+            [
+              "M54",
+              9
+            ],
+            [
+              "M41",
+              2
+            ],
+            [
+              "M81",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "M45",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE COLUNA TORACICA LOMBO - SACRA (AP + LATERAL)",
+          "codigo": "204020093",
+          "fila": 21,
+          "fila_viva": 21,
+          "pessoas": 21,
+          "pessoas_viva": 21,
+          "devolvidas": 11,
+          "espera_media": 124.73065144124918,
+          "espera_mediana": 111.64836540509714,
+          "espera_max": 234.91544229166902,
+          "mais_antiga": "12/03/2026",
+          "idade_mediana": 51,
+          "total": 32,
+          "agendadas_12m": 21,
+          "agendadas_12m_no_codigo": 1149,
+          "cid_principais": [
+            [
+              "M54",
+              12
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M41",
+              2
+            ],
+            [
+              "E05",
+              1
+            ],
+            [
+              "Q66",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA DORSAL : AP + LATERAL",
+          "codigo": "204020093",
+          "fila": 53,
+          "fila_viva": 53,
+          "pessoas": 53,
+          "pessoas_viva": 53,
+          "devolvidas": 10,
+          "espera_media": 130.6898453253856,
+          "espera_mediana": 124.70867616898613,
+          "espera_max": 234.69773252314917,
+          "mais_antiga": "12/03/2026",
+          "idade_mediana": 53,
+          "total": 63,
+          "agendadas_12m": 52,
+          "agendadas_12m_no_codigo": 1149,
+          "cid_principais": [
+            [
+              "M54",
+              41
+            ],
+            [
+              "M81",
+              3
+            ],
+            [
+              "M41",
+              2
+            ],
+            [
+              "M45",
+              2
+            ],
+            [
+              "S32",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA DORSAL (AP E PERFIL)",
+          "codigo": "204020093",
+          "fila": 22,
+          "fila_viva": 22,
+          "pessoas": 22,
+          "pessoas_viva": 22,
+          "devolvidas": 9,
+          "espera_media": 97.88857436974054,
+          "espera_mediana": 92.35966593171543,
+          "espera_max": 229.98349395833793,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 57.5,
+          "total": 31,
+          "agendadas_12m": 664,
+          "agendadas_12m_no_codigo": 1149,
+          "cid_principais": [
+            [
+              "M54",
+              14
+            ],
+            [
+              "M45",
+              2
+            ],
+            [
+              "M15",
+              1
+            ],
+            [
+              "M06",
+              1
+            ],
+            [
+              "M81",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060133",
+      "nome": "RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + AXIAL)",
+      "preco": 31.5,
+      "fila": 123,
+      "recentes": 123,
+      "nomes": [
+        {
+          "nome": "JOELHO OU ROTULA - AP + LAT. + AXIAL DIREITO",
+          "codigo": "204060133",
+          "fila": 59,
+          "fila_viva": 59,
+          "pessoas": 59,
+          "pessoas_viva": 59,
+          "devolvidas": 3,
+          "espera_media": 81.29524986385859,
+          "espera_mediana": 86.98173285879602,
+          "espera_max": 230.94946000000346,
+          "mais_antiga": "16/03/2026",
+          "idade_mediana": 52,
+          "total": 62,
+          "agendadas_12m": 118,
+          "agendadas_12m_no_codigo": 1503,
+          "cid_principais": [
+            [
+              "M25",
+              22
+            ],
+            [
+              "M23",
+              13
+            ],
+            [
+              "M17",
+              7
+            ],
+            [
+              "M22",
+              5
+            ],
+            [
+              "M79",
+              4
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + AXIAL)",
+          "codigo": "204060133",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 1,
+          "espera_media": 183.51083630787252,
+          "espera_mediana": 183.51083630787252,
+          "espera_max": 220.95761108796432,
+          "mais_antiga": "26/03/2026",
+          "idade_mediana": 35,
+          "total": 3,
+          "agendadas_12m": 3,
+          "agendadas_12m_no_codigo": 1503,
+          "cid_principais": [
+            [
+              "Q66",
+              1
+            ],
+            [
+              "M17",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO OU ROTULA - AP + LAT. + AXIAL ESQUERDO",
+          "codigo": "204060133",
+          "fila": 44,
+          "fila_viva": 44,
+          "pessoas": 44,
+          "pessoas_viva": 44,
+          "devolvidas": 5,
+          "espera_media": 75.85874417982069,
+          "espera_mediana": 81.3560171527788,
+          "espera_max": 185.71690265046345,
+          "mais_antiga": "30/04/2026",
+          "idade_mediana": 53.5,
+          "total": 49,
+          "agendadas_12m": 98,
+          "agendadas_12m_no_codigo": 1503,
+          "cid_principais": [
+            [
+              "M25",
+              18
+            ],
+            [
+              "M23",
+              8
+            ],
+            [
+              "M17",
+              5
+            ],
+            [
+              "M79",
+              4
+            ],
+            [
+              "M22",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO OU ROTULA DIREITO - AP + PERFIL + AXIAL",
+          "codigo": "204060133",
+          "fila": 10,
+          "fila_viva": 10,
+          "pessoas": 10,
+          "pessoas_viva": 10,
+          "devolvidas": 0,
+          "espera_media": 84.92355638078807,
+          "espera_mediana": 80.0025952719916,
+          "espera_max": 181.93374168981245,
+          "mais_antiga": "04/05/2026",
+          "idade_mediana": 49.5,
+          "total": 10,
+          "agendadas_12m": 189,
+          "agendadas_12m_no_codigo": 1503,
+          "cid_principais": [
+            [
+              "M25",
+              4
+            ],
+            [
+              "M23",
+              2
+            ],
+            [
+              "M54",
+              1
+            ],
+            [
+              "M71",
+              1
+            ],
+            [
+              "M17",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO OU ROTULA - AP + LAT. + AXIAL",
+          "codigo": "204060133",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 79.95267694444192,
+          "espera_mediana": 79.95267694444192,
+          "espera_max": 79.95267694444192,
+          "mais_antiga": "14/08/2026",
+          "idade_mediana": 41,
+          "total": 1,
+          "agendadas_12m": 5,
+          "agendadas_12m_no_codigo": 1503,
+          "cid_principais": [
+            [
+              "Z00",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO OU ROTULA ESQUERDO - AP + PERFIL + AXIAL",
+          "codigo": "204060133",
+          "fila": 7,
+          "fila_viva": 7,
+          "pessoas": 7,
+          "pessoas_viva": 7,
+          "devolvidas": 0,
+          "espera_media": 69.9765046395509,
+          "espera_mediana": 74.01613159722183,
+          "espera_max": 105.07739236111229,
+          "mais_antiga": "20/07/2026",
+          "idade_mediana": 52,
+          "total": 7,
+          "agendadas_12m": 182,
+          "agendadas_12m_no_codigo": 1503,
+          "cid_principais": [
+            [
+              "M23",
+              3
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M54",
+              1
+            ],
+            [
+              "M22",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060109",
+      "nome": "RADIOGRAFIA DE CALCANEO",
+      "preco": 24.31,
+      "fila": 89,
+      "recentes": 87,
+      "nomes": [
+        {
+          "nome": "CALCANEO DIREITO",
+          "codigo": "204060109",
+          "fila": 16,
+          "fila_viva": 16,
+          "pessoas": 16,
+          "pessoas_viva": 16,
+          "devolvidas": 2,
+          "espera_media": 64.579442486257,
+          "espera_mediana": 47.09537249999994,
+          "espera_max": 192.74597028935386,
+          "mais_antiga": "23/04/2026",
+          "idade_mediana": 50.5,
+          "total": 18,
+          "agendadas_12m": 21,
+          "agendadas_12m_no_codigo": 915,
+          "cid_principais": [
+            [
+              "M77",
+              10
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "M32",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CALCANEO",
+          "codigo": "204060109",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 1,
+          "espera_media": 171.4044242453703,
+          "espera_mediana": 173.64802315972338,
+          "espera_max": 213.95315480323916,
+          "mais_antiga": "02/04/2026",
+          "idade_mediana": 59,
+          "total": 6,
+          "agendadas_12m": 406,
+          "agendadas_12m_no_codigo": 915,
+          "cid_principais": [
+            [
+              "M77",
+              4
+            ],
+            [
+              "Z00",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CALCANEO ESQUERDO (PERFIL E AXIAL)",
+          "codigo": "204060109",
+          "fila": 26,
+          "fila_viva": 26,
+          "pessoas": 26,
+          "pessoas_viva": 26,
+          "devolvidas": 5,
+          "espera_media": 69.63748679042104,
+          "espera_mediana": 44.31246530671342,
+          "espera_max": 229.78448037037015,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 55,
+          "total": 31,
+          "agendadas_12m": 232,
+          "agendadas_12m_no_codigo": 915,
+          "cid_principais": [
+            [
+              "M77",
+              17
+            ],
+            [
+              "M25",
+              3
+            ],
+            [
+              "M72",
+              2
+            ],
+            [
+              "M65",
+              1
+            ],
+            [
+              "W01",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CALCANEO DIREITO (PERFIL E AXIAL)",
+          "codigo": "204060109",
+          "fila": 27,
+          "fila_viva": 27,
+          "pessoas": 27,
+          "pessoas_viva": 27,
+          "devolvidas": 4,
+          "espera_media": 59.03874287551621,
+          "espera_mediana": 33.033205659725354,
+          "espera_max": 203.02333465278207,
+          "mais_antiga": "13/04/2026",
+          "idade_mediana": 58,
+          "total": 31,
+          "agendadas_12m": 235,
+          "agendadas_12m_no_codigo": 915,
+          "cid_principais": [
+            [
+              "M77",
+              17
+            ],
+            [
+              "M25",
+              5
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "M21",
+              1
+            ],
+            [
+              "S81",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CALCANEO ESQUERDO",
+          "codigo": "204060109",
+          "fila": 13,
+          "fila_viva": 13,
+          "pessoas": 13,
+          "pessoas_viva": 13,
+          "devolvidas": 0,
+          "espera_media": 50.900124415955084,
+          "espera_mediana": 37.80458982638811,
+          "espera_max": 222.79607196759025,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 63,
+          "total": 13,
+          "agendadas_12m": 21,
+          "agendadas_12m_no_codigo": 915,
+          "cid_principais": [
+            [
+              "M79",
+              4
+            ],
+            [
+              "M77",
+              4
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "N92",
+              1
+            ],
+            [
+              "M72",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CALCANEO E",
+          "codigo": "204060109",
+          "fila": 1,
+          "fila_viva": 0,
+          "pessoas": 1,
+          "pessoas_viva": 0,
+          "devolvidas": 0,
+          "espera_media": 7054.40388888889,
+          "espera_mediana": 7054.40388888889,
+          "espera_max": 7054.40388888889,
+          "mais_antiga": "11/07/2007",
+          "idade_mediana": 64,
+          "total": 1,
+          "agendadas_12m": null,
+          "agendadas_12m_no_codigo": 915,
+          "cid_principais": [
+            [
+              "M21",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CALCANEO D",
+          "codigo": "204060109",
+          "fila": 1,
+          "fila_viva": 0,
+          "pessoas": 1,
+          "pessoas_viva": 0,
+          "devolvidas": 0,
+          "espera_media": 7054.40388888889,
+          "espera_mediana": 7054.40388888889,
+          "espera_max": 7054.40388888889,
+          "mais_antiga": "11/07/2007",
+          "idade_mediana": 64,
+          "total": 1,
+          "agendadas_12m": null,
+          "agendadas_12m_no_codigo": 915,
+          "cid_principais": [
+            [
+              "M21",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040116",
+      "nome": "RADIOGRAFIA DE ESCAPULA/OMBRO (TRES POSICOES)",
+      "preco": 29.76,
+      "fila": 83,
+      "recentes": 83,
+      "nomes": [
+        {
+          "nome": "OMBRO DIREITO (AP VERDADEIRO, PERFIL DE ESCAPULAR E AXILAR)",
+          "codigo": "204040116",
+          "fila": 25,
+          "fila_viva": 25,
+          "pessoas": 25,
+          "pessoas_viva": 25,
+          "devolvidas": 5,
+          "espera_media": 127.37127771018685,
+          "espera_mediana": 108.02716305555805,
+          "espera_max": 227.00121789352124,
+          "mais_antiga": "20/03/2026",
+          "idade_mediana": 55,
+          "total": 30,
+          "agendadas_12m": 707,
+          "agendadas_12m_no_codigo": 1567,
+          "cid_principais": [
+            [
+              "M75",
+              17
+            ],
+            [
+              "M25",
+              3
+            ],
+            [
+              "M19",
+              2
+            ],
+            [
+              "M41",
+              1
+            ],
+            [
+              "M17",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "OMBRO ESQUERDO (AP VERDADEIRO, PERFIL DE ESCAPULAR E AXILAR)",
+          "codigo": "204040116",
+          "fila": 23,
+          "fila_viva": 23,
+          "pessoas": 23,
+          "pessoas_viva": 23,
+          "devolvidas": 6,
+          "espera_media": 134.7824394122391,
+          "espera_mediana": 159.03134234953905,
+          "espera_max": 222.96827209490584,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 62,
+          "total": 29,
+          "agendadas_12m": 582,
+          "agendadas_12m_no_codigo": 1567,
+          "cid_principais": [
+            [
+              "M75",
+              13
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "M19",
+              2
+            ],
+            [
+              "R00",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RAIO X DE OMBRO ESQUERDO: TRES POSICOES",
+          "codigo": "204040116",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 1,
+          "espera_media": 167.3129920671301,
+          "espera_mediana": 166.02782954861323,
+          "espera_max": 223.01278776620165,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 67,
+          "total": 6,
+          "agendadas_12m": 58,
+          "agendadas_12m_no_codigo": 1567,
+          "cid_principais": [
+            [
+              "M75",
+              3
+            ],
+            [
+              "M25",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "RAIO X DE OMBRO ESQUERDO",
+          "codigo": "204040116",
+          "fila": 8,
+          "fila_viva": 8,
+          "pessoas": 8,
+          "pessoas_viva": 8,
+          "devolvidas": 3,
+          "espera_media": 67.28105962095105,
+          "espera_mediana": 44.41281218750373,
+          "espera_max": 181.94689729166566,
+          "mais_antiga": "04/05/2026",
+          "idade_mediana": 65,
+          "total": 11,
+          "agendadas_12m": 57,
+          "agendadas_12m_no_codigo": 1567,
+          "cid_principais": [
+            [
+              "M75",
+              4
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "M79",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "RAIO X DE OMBRO DIREITO",
+          "codigo": "204040116",
+          "fila": 13,
+          "fila_viva": 13,
+          "pessoas": 13,
+          "pessoas_viva": 13,
+          "devolvidas": 4,
+          "espera_media": 36.27046283742899,
+          "espera_mediana": 26.046332835649082,
+          "espera_max": 146.75025666666625,
+          "mais_antiga": "08/06/2026",
+          "idade_mediana": 61,
+          "total": 17,
+          "agendadas_12m": 107,
+          "agendadas_12m_no_codigo": 1567,
+          "cid_principais": [
+            [
+              "M75",
+              10
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "G56",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE ESCAPULA/OMBRO (TRES POSICOES)",
+          "codigo": "204040116",
+          "fila": 3,
+          "fila_viva": 3,
+          "pessoas": 3,
+          "pessoas_viva": 3,
+          "devolvidas": 0,
+          "espera_media": 118.20818673996837,
+          "espera_mediana": 116.80874754629622,
+          "espera_max": 177.75363716435095,
+          "mais_antiga": "08/05/2026",
+          "idade_mediana": 66,
+          "total": 3,
+          "agendadas_12m": 2,
+          "agendadas_12m_no_codigo": 1567,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ],
+            [
+              "M41",
+              1
+            ],
+            [
+              "M75",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RAIO X DE OMBRO DIREITO: TRES POSICOES",
+          "codigo": "204040116",
+          "fila": 6,
+          "fila_viva": 6,
+          "pessoas": 6,
+          "pessoas_viva": 6,
+          "devolvidas": 0,
+          "espera_media": 128.99550883294796,
+          "espera_mediana": 125.88217638889182,
+          "espera_max": 221.7630926273123,
+          "mais_antiga": "25/03/2026",
+          "idade_mediana": 55.5,
+          "total": 6,
+          "agendadas_12m": 54,
+          "agendadas_12m_no_codigo": 1567,
+          "cid_principais": [
+            [
+              "M75",
+              3
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "S06",
+              1
+            ],
+            [
+              "M23",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060095",
+      "nome": "RADIOGRAFIA DE BACIA",
+      "preco": 30.58,
+      "fila": 76,
+      "recentes": 76,
+      "nomes": [
+        {
+          "nome": "BACIA (AP E FROG)",
+          "codigo": "204060095",
+          "fila": 52,
+          "fila_viva": 52,
+          "pessoas": 52,
+          "pessoas_viva": 52,
+          "devolvidas": 20,
+          "espera_media": 99.91099781962349,
+          "espera_mediana": 96.81932747106839,
+          "espera_max": 229.75482614583598,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 58,
+          "total": 72,
+          "agendadas_12m": 59,
+          "agendadas_12m_no_codigo": 982,
+          "cid_principais": [
+            [
+              "M45",
+              9
+            ],
+            [
+              "M25",
+              6
+            ],
+            [
+              "M16",
+              6
+            ],
+            [
+              "M54",
+              5
+            ],
+            [
+              "M15",
+              4
+            ]
+          ]
+        },
+        {
+          "nome": "BACIA",
+          "codigo": "204060095",
+          "fila": 24,
+          "fila_viva": 24,
+          "pessoas": 24,
+          "pessoas_viva": 24,
+          "devolvidas": 18,
+          "espera_media": 129.44460490355019,
+          "espera_mediana": 131.99925620949216,
+          "espera_max": 215.90466133102018,
+          "mais_antiga": "31/03/2026",
+          "idade_mediana": 59.5,
+          "total": 42,
+          "agendadas_12m": 923,
+          "agendadas_12m_no_codigo": 982,
+          "cid_principais": [
+            [
+              "M16",
+              4
+            ],
+            [
+              "M54",
+              3
+            ],
+            [
+              "M25",
+              3
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "M76",
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060060",
+      "nome": "RADIOGRAFIA DE ARTICULACAO COXO-FEMORAL",
+      "preco": 32.47,
+      "fila": 63,
+      "recentes": 63,
+      "nomes": [
+        {
+          "nome": "ARTICULACAO COXO-FEMORAL DIREITO",
+          "codigo": "204060060",
+          "fila": 18,
+          "fila_viva": 18,
+          "pessoas": 18,
+          "pessoas_viva": 18,
+          "devolvidas": 4,
+          "espera_media": 30.102015867412977,
+          "espera_mediana": 27.958128686343116,
+          "espera_max": 68.99859467592614,
+          "mais_antiga": "25/08/2026",
+          "idade_mediana": 67,
+          "total": 22,
+          "agendadas_12m": 145,
+          "agendadas_12m_no_codigo": 643,
+          "cid_principais": [
+            [
+              "M16",
+              7
+            ],
+            [
+              "M25",
+              5
+            ],
+            [
+              "M54",
+              2
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "S72",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE ARTICULACAO COXO ? FEMORAL",
+          "codigo": "204060060",
+          "fila": 3,
+          "fila_viva": 3,
+          "pessoas": 3,
+          "pessoas_viva": 3,
+          "devolvidas": 1,
+          "espera_media": 87.76999490740855,
+          "espera_mediana": 67.75758957176004,
+          "espera_max": 135.7802026736099,
+          "mais_antiga": "19/06/2026",
+          "idade_mediana": 64,
+          "total": 4,
+          "agendadas_12m": 1,
+          "agendadas_12m_no_codigo": 643,
+          "cid_principais": [
+            [
+              "M16",
+              3
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO COXO-FEMORAL ESQUERDO",
+          "codigo": "204060060",
+          "fila": 16,
+          "fila_viva": 16,
+          "pessoas": 16,
+          "pessoas_viva": 16,
+          "devolvidas": 2,
+          "espera_media": 63.73002516999486,
+          "espera_mediana": 40.395048217593285,
+          "espera_max": 205.9231464351833,
+          "mais_antiga": "10/04/2026",
+          "idade_mediana": 62,
+          "total": 18,
+          "agendadas_12m": 152,
+          "agendadas_12m_no_codigo": 643,
+          "cid_principais": [
+            [
+              "M16",
+              9
+            ],
+            [
+              "M25",
+              4
+            ],
+            [
+              "T09",
+              1
+            ],
+            [
+              "M81",
+              1
+            ],
+            [
+              "M79",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO COXO-FEMORAL ESQUERDO (AP E PERFIL)",
+          "codigo": "204060060",
+          "fila": 16,
+          "fila_viva": 16,
+          "pessoas": 16,
+          "pessoas_viva": 16,
+          "devolvidas": 1,
+          "espera_media": 105.98000069733962,
+          "espera_mediana": 95.85149719907713,
+          "espera_max": 222.96984844907274,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 52.5,
+          "total": 17,
+          "agendadas_12m": 4,
+          "agendadas_12m_no_codigo": 643,
+          "cid_principais": [
+            [
+              "M16",
+              5
+            ],
+            [
+              "M25",
+              3
+            ],
+            [
+              "M54",
+              1
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "S72",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO COXO-FEMORAL DIREITO (AP E PERFIL)",
+          "codigo": "204060060",
+          "fila": 9,
+          "fila_viva": 9,
+          "pessoas": 9,
+          "pessoas_viva": 9,
+          "devolvidas": 2,
+          "espera_media": 102.28975646862172,
+          "espera_mediana": 110.98668847222143,
+          "espera_max": 214.9541378472204,
+          "mais_antiga": "01/04/2026",
+          "idade_mediana": 58,
+          "total": 11,
+          "agendadas_12m": 7,
+          "agendadas_12m_no_codigo": 643,
+          "cid_principais": [
+            [
+              "M16",
+              3
+            ],
+            [
+              "M54",
+              2
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "M87",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO COXO-FEMORAL ( CADA LADO )",
+          "codigo": "204060060",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 3,
+          "espera_media": 63.03180847222393,
+          "espera_mediana": 63.03180847222393,
+          "espera_max": 63.03180847222393,
+          "mais_antiga": "31/08/2026",
+          "idade_mediana": 72,
+          "total": 4,
+          "agendadas_12m": 334,
+          "agendadas_12m_no_codigo": 643,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020077",
+      "nome": "RADIOGRAFIA DE COLUNA LOMBO-SACRA (C/ OBLIQUAS)",
+      "preco": 45.98,
+      "fila": 60,
+      "recentes": 60,
+      "nomes": [
+        {
+          "nome": "COLUNA LOMBAR: AP+LATERAL+OBLIQUAS",
+          "codigo": "204020077",
+          "fila": 6,
+          "fila_viva": 6,
+          "pessoas": 6,
+          "pessoas_viva": 6,
+          "devolvidas": 11,
+          "espera_media": 113.0616605883503,
+          "espera_mediana": 84.37041399305599,
+          "espera_max": 208.97077505787456,
+          "mais_antiga": "07/04/2026",
+          "idade_mediana": 54,
+          "total": 17,
+          "agendadas_12m": 24,
+          "agendadas_12m_no_codigo": 203,
+          "cid_principais": [
+            [
+              "M54",
+              5
+            ],
+            [
+              "M81",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBO SACRA COM OBLIQUAS (AP E PERFIL)",
+          "codigo": "204020077",
+          "fila": 33,
+          "fila_viva": 33,
+          "pessoas": 33,
+          "pessoas_viva": 33,
+          "devolvidas": 4,
+          "espera_media": 85.37668666245935,
+          "espera_mediana": 68.81135508102307,
+          "espera_max": 201.97574392361275,
+          "mais_antiga": "14/04/2026",
+          "idade_mediana": 52,
+          "total": 37,
+          "agendadas_12m": 133,
+          "agendadas_12m_no_codigo": 203,
+          "cid_principais": [
+            [
+              "M54",
+              26
+            ],
+            [
+              "Z00",
+              2
+            ],
+            [
+              "M16",
+              1
+            ],
+            [
+              "M05",
+              1
+            ],
+            [
+              "R52",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBAR: AP + LATERAL + OBLIQUAS (AP E PERFIL)",
+          "codigo": "204020077",
+          "fila": 10,
+          "fila_viva": 10,
+          "pessoas": 10,
+          "pessoas_viva": 10,
+          "devolvidas": 2,
+          "espera_media": 119.18461533796435,
+          "espera_mediana": 131.27194164930552,
+          "espera_max": 193.7852836111124,
+          "mais_antiga": "22/04/2026",
+          "idade_mediana": 57,
+          "total": 12,
+          "agendadas_12m": 35,
+          "agendadas_12m_no_codigo": 203,
+          "cid_principais": [
+            [
+              "M54",
+              7
+            ],
+            [
+              "M81",
+              1
+            ],
+            [
+              "M51",
+              1
+            ],
+            [
+              "M10",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBO SACRA COM OBLIQUAS",
+          "codigo": "204020077",
+          "fila": 9,
+          "fila_viva": 9,
+          "pessoas": 9,
+          "pessoas_viva": 9,
+          "devolvidas": 0,
+          "espera_media": 152.55817454861244,
+          "espera_mediana": 179.03687401620118,
+          "espera_max": 208.75369126157602,
+          "mais_antiga": "07/04/2026",
+          "idade_mediana": 47,
+          "total": 9,
+          "agendadas_12m": 7,
+          "agendadas_12m_no_codigo": 203,
+          "cid_principais": [
+            [
+              "M54",
+              8
+            ],
+            [
+              "M41",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBO SACRA OBLIQUAS (DIREITA E ESQUERDA)",
+          "codigo": "204020077",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 188.04520152777695,
+          "espera_mediana": 188.04520152777695,
+          "espera_max": 188.04520152777695,
+          "mais_antiga": "28/04/2026",
+          "idade_mediana": 55,
+          "total": 1,
+          "agendadas_12m": 4,
+          "agendadas_12m_no_codigo": 203,
+          "cid_principais": [
+            [
+              "M41",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBAR OBLIQUAS (DIREITA E ESQUERDA)",
+          "codigo": "204020077",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 115.99436758102092,
+          "espera_mediana": 115.99436758102092,
+          "espera_max": 115.99436758102092,
+          "mais_antiga": "09/07/2026",
+          "idade_mediana": 28,
+          "total": 1,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": 203,
+          "cid_principais": [
+            [
+              "M41",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060087",
+      "nome": "RADIOGRAFIA DE ARTICULACAO TIBIO-TARSICA",
+      "preco": 28.85,
+      "fila": 55,
+      "recentes": 55,
+      "nomes": [
+        {
+          "nome": "ARTICULACAO TIBIO-TARSICA ESQUERDA",
+          "codigo": "204060087",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 2,
+          "espera_media": 149.50026777198946,
+          "espera_mediana": 149.50026777198946,
+          "espera_max": 201.00492468749871,
+          "mais_antiga": "15/04/2026",
+          "idade_mediana": 35,
+          "total": 4,
+          "agendadas_12m": 36,
+          "agendadas_12m_no_codigo": 597,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ],
+            [
+              "M79",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO TIBIO-TARSICA DIREITA",
+          "codigo": "204060087",
+          "fila": 4,
+          "fila_viva": 4,
+          "pessoas": 4,
+          "pessoas_viva": 4,
+          "devolvidas": 2,
+          "espera_media": 111.70322837094864,
+          "espera_mediana": 116.39018386574025,
+          "espera_max": 201.00553143518482,
+          "mais_antiga": "15/04/2026",
+          "idade_mediana": 62.5,
+          "total": 6,
+          "agendadas_12m": 33,
+          "agendadas_12m_no_codigo": 597,
+          "cid_principais": [
+            [
+              "M25",
+              3
+            ],
+            [
+              "M86",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO TIBIO-TARSICA DIREITO (AP VERDADEIRO E PERFIL)",
+          "codigo": "204060087",
+          "fila": 20,
+          "fila_viva": 20,
+          "pessoas": 20,
+          "pessoas_viva": 20,
+          "devolvidas": 6,
+          "espera_media": 117.88379802835698,
+          "espera_mediana": 119.04302671296682,
+          "espera_max": 213.5996572337972,
+          "mais_antiga": "02/04/2026",
+          "idade_mediana": 58,
+          "total": 26,
+          "agendadas_12m": 95,
+          "agendadas_12m_no_codigo": 597,
+          "cid_principais": [
+            [
+              "M25",
+              4
+            ],
+            [
+              "M15",
+              2
+            ],
+            [
+              "M06",
+              2
+            ],
+            [
+              "M10",
+              2
+            ],
+            [
+              "M05",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO TIBIO-TARSICA ESQUERDO (AP VERDADEIRO E PERFIL)",
+          "codigo": "204060087",
+          "fila": 24,
+          "fila_viva": 24,
+          "pessoas": 24,
+          "pessoas_viva": 24,
+          "devolvidas": 8,
+          "espera_media": 110.03806354793748,
+          "espera_mediana": 97.90036141782548,
+          "espera_max": 213.599238761577,
+          "mais_antiga": "02/04/2026",
+          "idade_mediana": 58.5,
+          "total": 32,
+          "agendadas_12m": 81,
+          "agendadas_12m_no_codigo": 597,
+          "cid_principais": [
+            [
+              "M25",
+              6
+            ],
+            [
+              "M15",
+              2
+            ],
+            [
+              "M06",
+              2
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "M10",
+              2
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO TIBIO-TARSICA (TORNOZELO)",
+          "codigo": "204060087",
+          "fila": 4,
+          "fila_viva": 4,
+          "pessoas": 4,
+          "pessoas_viva": 4,
+          "devolvidas": 5,
+          "espera_media": 152.34245391782315,
+          "espera_mediana": 148.76934681134298,
+          "espera_max": 222.92638733796048,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 52,
+          "total": 9,
+          "agendadas_12m": 350,
+          "agendadas_12m_no_codigo": 597,
+          "cid_principais": [
+            [
+              "S93",
+              2
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "M10",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO TIBIO-TARSICA",
+          "codigo": "204060087",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 118.70707075231621,
+          "espera_mediana": 118.70707075231621,
+          "espera_max": 118.70707075231621,
+          "mais_antiga": "06/07/2026",
+          "idade_mediana": 52,
+          "total": 1,
+          "agendadas_12m": 2,
+          "agendadas_12m_no_codigo": 597,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060168",
+      "nome": "RADIOGRAFIA DE PERNA",
+      "preco": 32.79,
+      "fila": 55,
+      "recentes": 55,
+      "nomes": [
+        {
+          "nome": "PERNA ESQUERDA",
+          "codigo": "204060168",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 1,
+          "espera_media": 126.97874201620289,
+          "espera_mediana": 94.0685183796304,
+          "espera_max": 230.04570996527764,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 50,
+          "total": 6,
+          "agendadas_12m": 42,
+          "agendadas_12m_no_codigo": 627,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ],
+            [
+              "Q66",
+              1
+            ],
+            [
+              "W01",
+              1
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "M21",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PERNA DIREITA",
+          "codigo": "204060168",
+          "fila": 7,
+          "fila_viva": 7,
+          "pessoas": 7,
+          "pessoas_viva": 7,
+          "devolvidas": 2,
+          "espera_media": 137.34631870205027,
+          "espera_mediana": 153.9974745254658,
+          "espera_max": 230.0464728472216,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 58,
+          "total": 9,
+          "agendadas_12m": 48,
+          "agendadas_12m_no_codigo": 627,
+          "cid_principais": [
+            [
+              "M54",
+              2
+            ],
+            [
+              "M21",
+              2
+            ],
+            [
+              "Q66",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "M86",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PERNA DIREITA (AP E PERFIL)",
+          "codigo": "204060168",
+          "fila": 22,
+          "fila_viva": 22,
+          "pessoas": 22,
+          "pessoas_viva": 22,
+          "devolvidas": 6,
+          "espera_media": 105.35784932449546,
+          "espera_mediana": 107.32614565972108,
+          "espera_max": 230.0403475925923,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 34,
+          "total": 28,
+          "agendadas_12m": 129,
+          "agendadas_12m_no_codigo": 627,
+          "cid_principais": [
+            [
+              "S82",
+              5
+            ],
+            [
+              "M79",
+              4
+            ],
+            [
+              "M21",
+              2
+            ],
+            [
+              "M54",
+              1
+            ],
+            [
+              "Q66",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PERNA ESQUERDA (AP E PERFIL)",
+          "codigo": "204060168",
+          "fila": 20,
+          "fila_viva": 20,
+          "pessoas": 20,
+          "pessoas_viva": 20,
+          "devolvidas": 6,
+          "espera_media": 100.39884330324166,
+          "espera_mediana": 96.33680785301112,
+          "espera_max": 230.03973508101626,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 47,
+          "total": 26,
+          "agendadas_12m": 141,
+          "agendadas_12m_no_codigo": 627,
+          "cid_principais": [
+            [
+              "M79",
+              3
+            ],
+            [
+              "M21",
+              3
+            ],
+            [
+              "M25",
+              2
+            ],
+            [
+              "S72",
+              2
+            ],
+            [
+              "Q66",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "PERNA",
+          "codigo": "204060168",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 1,
+          "espera_media": 10.780089189815044,
+          "espera_mediana": 10.780089189815044,
+          "espera_max": 10.780089189815044,
+          "mais_antiga": "22/10/2026",
+          "idade_mediana": 6,
+          "total": 2,
+          "agendadas_12m": 267,
+          "agendadas_12m_no_codigo": 627,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040078",
+      "nome": "RADIOGRAFIA DE COTOVELO",
+      "preco": 28.85,
+      "fila": 38,
+      "recentes": 38,
+      "nomes": [
+        {
+          "nome": "COTOVELO ESQUERDO",
+          "codigo": "204040078",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 2,
+          "espera_media": 187.78098799768486,
+          "espera_mediana": 187.78098799768486,
+          "espera_max": 187.78098799768486,
+          "mais_antiga": "28/04/2026",
+          "idade_mediana": 47,
+          "total": 3,
+          "agendadas_12m": 5,
+          "agendadas_12m_no_codigo": 392,
+          "cid_principais": [
+            [
+              "M77",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COTOVELO DIREITO (AP E PERFIL)",
+          "codigo": "204040078",
+          "fila": 22,
+          "fila_viva": 22,
+          "pessoas": 22,
+          "pessoas_viva": 22,
+          "devolvidas": 3,
+          "espera_media": 93.35395163562829,
+          "espera_mediana": 79.29482438078776,
+          "espera_max": 229.75689206018433,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 54,
+          "total": 25,
+          "agendadas_12m": 115,
+          "agendadas_12m_no_codigo": 392,
+          "cid_principais": [
+            [
+              "M25",
+              6
+            ],
+            [
+              "M77",
+              3
+            ],
+            [
+              "M15",
+              1
+            ],
+            [
+              "M06",
+              1
+            ],
+            [
+              "M81",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COTOVELO ESQUERDO (AP E PERFIL)",
+          "codigo": "204040078",
+          "fila": 15,
+          "fila_viva": 15,
+          "pessoas": 15,
+          "pessoas_viva": 15,
+          "devolvidas": 5,
+          "espera_media": 110.22906860571044,
+          "espera_mediana": 91.01205179397948,
+          "espera_max": 229.75670371527667,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 46,
+          "total": 20,
+          "agendadas_12m": 95,
+          "agendadas_12m_no_codigo": 392,
+          "cid_principais": [
+            [
+              "M25",
+              3
+            ],
+            [
+              "M77",
+              2
+            ],
+            [
+              "M15",
+              1
+            ],
+            [
+              "M06",
+              1
+            ],
+            [
+              "M81",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204010144",
+      "nome": "RADIOGRAFIA DE SEIOS DA FACE (FN + MN + LATERAL + HIRTZ)",
+      "preco": 25.57,
+      "fila": 33,
+      "recentes": 33,
+      "nomes": [
+        {
+          "nome": "SEIOS DA FACE - F.N.+M.N",
+          "codigo": "204010144",
+          "fila": 14,
+          "fila_viva": 14,
+          "pessoas": 14,
+          "pessoas_viva": 14,
+          "devolvidas": 24,
+          "espera_media": 118.2882479323754,
+          "espera_mediana": 105.44624636574008,
+          "espera_max": 220.88614984953892,
+          "mais_antiga": "26/03/2026",
+          "idade_mediana": 25.5,
+          "total": 38,
+          "agendadas_12m": 902,
+          "agendadas_12m_no_codigo": 1065,
+          "cid_principais": [
+            [
+              "R51",
+              5
+            ],
+            [
+              "J01",
+              4
+            ],
+            [
+              "J34",
+              1
+            ],
+            [
+              "J32",
+              1
+            ],
+            [
+              "R06",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "SEIOS DA FACE : F.N. , M.N. , LATERAL - HIRTZ",
+          "codigo": "204010144",
+          "fila": 8,
+          "fila_viva": 8,
+          "pessoas": 8,
+          "pessoas_viva": 8,
+          "devolvidas": 3,
+          "espera_media": 158.65092662615916,
+          "espera_mediana": 155.4087942592596,
+          "espera_max": 217.0097338194464,
+          "mais_antiga": "30/03/2026",
+          "idade_mediana": 19,
+          "total": 11,
+          "agendadas_12m": 156,
+          "agendadas_12m_no_codigo": 1065,
+          "cid_principais": [
+            [
+              "J32",
+              3
+            ],
+            [
+              "R51",
+              2
+            ],
+            [
+              "J34",
+              1
+            ],
+            [
+              "R06",
+              1
+            ],
+            [
+              "J35",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "SEIOS DA FACE : F.N. + M.N. + LATERAL",
+          "codigo": "204010144",
+          "fila": 11,
+          "fila_viva": 11,
+          "pessoas": 11,
+          "pessoas_viva": 11,
+          "devolvidas": 2,
+          "espera_media": 131.52543670454642,
+          "espera_mediana": 119.0352688425919,
+          "espera_max": 215.98995333333733,
+          "mais_antiga": "31/03/2026",
+          "idade_mediana": 45,
+          "total": 13,
+          "agendadas_12m": 7,
+          "agendadas_12m_no_codigo": 1065,
+          "cid_principais": [
+            [
+              "J32",
+              4
+            ],
+            [
+              "J35",
+              3
+            ],
+            [
+              "J34",
+              1
+            ],
+            [
+              "R06",
+              1
+            ],
+            [
+              "G43",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020107",
+      "nome": "RADIOGRAFIA DE COLUNA TORACO-LOMBAR",
+      "preco": 38.12,
+      "fila": 32,
+      "recentes": 32,
+      "nomes": [
+        {
+          "nome": "RADIOGRAFIA DE COLUNA TORACO ? LOMBAR",
+          "codigo": "204020107",
+          "fila": 12,
+          "fila_viva": 12,
+          "pessoas": 12,
+          "pessoas_viva": 12,
+          "devolvidas": 3,
+          "espera_media": 105.5628789457957,
+          "espera_mediana": 119.4345119675927,
+          "espera_max": 209.92105024305783,
+          "mais_antiga": "06/04/2026",
+          "idade_mediana": 48,
+          "total": 15,
+          "agendadas_12m": 91,
+          "agendadas_12m_no_codigo": 457,
+          "cid_principais": [
+            [
+              "M54",
+              8
+            ],
+            [
+              "M81",
+              2
+            ],
+            [
+              "M89",
+              1
+            ],
+            [
+              "M41",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA DORSO - LOMBAR PARA ESCOLIOSE",
+          "codigo": "204020107",
+          "fila": 3,
+          "fila_viva": 3,
+          "pessoas": 3,
+          "pessoas_viva": 3,
+          "devolvidas": 1,
+          "espera_media": 31.22765757716358,
+          "espera_mediana": 38.936177141207736,
+          "espera_max": 41.752293819445185,
+          "mais_antiga": "21/09/2026",
+          "idade_mediana": 13,
+          "total": 4,
+          "agendadas_12m": 324,
+          "agendadas_12m_no_codigo": 457,
+          "cid_principais": [
+            [
+              "M41",
+              3
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA DORSO - LOMBAR PARA ESCOLIOSE (AP E PERFIL)",
+          "codigo": "204020107",
+          "fila": 17,
+          "fila_viva": 17,
+          "pessoas": 17,
+          "pessoas_viva": 17,
+          "devolvidas": 4,
+          "espera_media": 113.36844294322039,
+          "espera_mediana": 98.04937206018803,
+          "espera_max": 216.96549689814856,
+          "mais_antiga": "30/03/2026",
+          "idade_mediana": 39,
+          "total": 21,
+          "agendadas_12m": 42,
+          "agendadas_12m_no_codigo": 457,
+          "cid_principais": [
+            [
+              "M41",
+              13
+            ],
+            [
+              "M54",
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040051",
+      "nome": "RADIOGRAFIA DE BRACO",
+      "preco": 31.23,
+      "fila": 28,
+      "recentes": 28,
+      "nomes": [
+        {
+          "nome": "BRACO DIREITO (AP E PERFIL)",
+          "codigo": "204040051",
+          "fila": 14,
+          "fila_viva": 14,
+          "pessoas": 14,
+          "pessoas_viva": 14,
+          "devolvidas": 1,
+          "espera_media": 86.47471470568937,
+          "espera_mediana": 65.98912895833564,
+          "espera_max": 188.03603712963377,
+          "mais_antiga": "28/04/2026",
+          "idade_mediana": 48.5,
+          "total": 15,
+          "agendadas_12m": 66,
+          "agendadas_12m_no_codigo": 251,
+          "cid_principais": [
+            [
+              "M79",
+              3
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "S46",
+              1
+            ],
+            [
+              "S40",
+              1
+            ],
+            [
+              "T92",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "BRACO ESQUERDO (AP E PERFIL)",
+          "codigo": "204040051",
+          "fila": 12,
+          "fila_viva": 12,
+          "pessoas": 12,
+          "pessoas_viva": 12,
+          "devolvidas": 4,
+          "espera_media": 75.04893797260956,
+          "espera_mediana": 76.35700565972365,
+          "espera_max": 145.02089693287417,
+          "mais_antiga": "10/06/2026",
+          "idade_mediana": 44.5,
+          "total": 16,
+          "agendadas_12m": 61,
+          "agendadas_12m_no_codigo": 251,
+          "cid_principais": [
+            [
+              "M79",
+              3
+            ],
+            [
+              "Z30",
+              2
+            ],
+            [
+              "M54",
+              1
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "S40",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "BRACO ESQUERDO",
+          "codigo": "204040051",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 26.794637060185778,
+          "espera_mediana": 26.794637060185778,
+          "espera_max": 26.794637060185778,
+          "mais_antiga": "06/10/2026",
+          "idade_mediana": 61,
+          "total": 1,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": 251,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "BRACO DIREITO",
+          "codigo": "204040051",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 26.79526687500038,
+          "espera_mediana": 26.79526687500038,
+          "espera_max": 26.79526687500038,
+          "mais_antiga": "06/10/2026",
+          "idade_mediana": 61,
+          "total": 1,
+          "agendadas_12m": 1,
+          "agendadas_12m_no_codigo": 251,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060141",
+      "nome": "RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + OBLIQUA + 3 AXIAIS)",
+      "preco": 18.19,
+      "fila": 22,
+      "recentes": 22,
+      "nomes": [
+        {
+          "nome": "RADIOGRAFIA DE JOELHO OU PATELA ( AS+LATERAL+OBLIQUA+3 AXIAIS) ESQUERDO",
+          "codigo": "204060141",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 2,
+          "espera_media": 123.05366500462988,
+          "espera_mediana": 100.80131714120216,
+          "espera_max": 200.70572057870595,
+          "mais_antiga": "15/04/2026",
+          "idade_mediana": 49,
+          "total": 7,
+          "agendadas_12m": 3,
+          "agendadas_12m_no_codigo": 30,
+          "cid_principais": [
+            [
+              "S80",
+              1
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "M94",
+              1
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "M75",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO OU ROTULA - AP + LAT.- OBLIQUAS + 3 AXIAIS - ESQUERDO",
+          "codigo": "204060141",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 1,
+          "espera_media": 123.71951484259334,
+          "espera_mediana": 114.7226099884283,
+          "espera_max": 174.8221123611147,
+          "mais_antiga": "11/05/2026",
+          "idade_mediana": 41,
+          "total": 6,
+          "agendadas_12m": 11,
+          "agendadas_12m_no_codigo": 30,
+          "cid_principais": [
+            [
+              "M23",
+              2
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "M17",
+              1
+            ],
+            [
+              "M22",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "JOELHO OU ROTULA - AP + LAT.- OBLIQUAS + 3 AXIAIS - DIREITO",
+          "codigo": "204060141",
+          "fila": 6,
+          "fila_viva": 6,
+          "pessoas": 6,
+          "pessoas_viva": 6,
+          "devolvidas": 1,
+          "espera_media": 87.84821020640447,
+          "espera_mediana": 91.38365945023179,
+          "espera_max": 132.78020936342364,
+          "mais_antiga": "22/06/2026",
+          "idade_mediana": 56,
+          "total": 7,
+          "agendadas_12m": 12,
+          "agendadas_12m_no_codigo": 30,
+          "cid_principais": [
+            [
+              "M25",
+              2
+            ],
+            [
+              "M54",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "M23",
+              1
+            ],
+            [
+              "M17",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE JOELHO OU PATELA ( AS+LATERAL+OBLIQUA+3 AXIAIS) DIREITO",
+          "codigo": "204060141",
+          "fila": 6,
+          "fila_viva": 6,
+          "pessoas": 6,
+          "pessoas_viva": 6,
+          "devolvidas": 0,
+          "espera_media": 135.83504927276348,
+          "espera_mediana": 124.47428636574114,
+          "espera_max": 220.95703861111542,
+          "mais_antiga": "26/03/2026",
+          "idade_mediana": 49.5,
+          "total": 6,
+          "agendadas_12m": 2,
+          "agendadas_12m_no_codigo": 30,
+          "cid_principais": [
+            [
+              "Q66",
+              1
+            ],
+            [
+              "M94",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "M23",
+              1
+            ],
+            [
+              "M75",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040019",
+      "nome": "RADIOGRAFIA DE ANTEBRACO",
+      "preco": 30.32,
+      "fila": 18,
+      "recentes": 18,
+      "nomes": [
+        {
+          "nome": "ANTEBRACO ESQUERDO (AP E PERFIL)",
+          "codigo": "204040019",
+          "fila": 7,
+          "fila_viva": 7,
+          "pessoas": 7,
+          "pessoas_viva": 7,
+          "devolvidas": 1,
+          "espera_media": 146.18783934854477,
+          "espera_mediana": 174.9891140625041,
+          "espera_max": 201.73695989583211,
+          "mais_antiga": "14/04/2026",
+          "idade_mediana": 52,
+          "total": 8,
+          "agendadas_12m": 57,
+          "agendadas_12m_no_codigo": 174,
+          "cid_principais": [
+            [
+              "M25",
+              3
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "M21",
+              1
+            ],
+            [
+              "M10",
+              1
+            ],
+            [
+              "Z20",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ANTEBRACO DIREITO (AP E PERFIL)",
+          "codigo": "204040019",
+          "fila": 9,
+          "fila_viva": 9,
+          "pessoas": 9,
+          "pessoas_viva": 9,
+          "devolvidas": 1,
+          "espera_media": 119.0244167373983,
+          "espera_mediana": 145.01970042823814,
+          "espera_max": 201.7372015740766,
+          "mais_antiga": "14/04/2026",
+          "idade_mediana": 46,
+          "total": 10,
+          "agendadas_12m": 44,
+          "agendadas_12m_no_codigo": 174,
+          "cid_principais": [
+            [
+              "M79",
+              4
+            ],
+            [
+              "S63",
+              1
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "M10",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ANTEBRACO ESQUERDO",
+          "codigo": "204040019",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 1,
+          "espera_media": 26.79604699074116,
+          "espera_mediana": 26.79604699074116,
+          "espera_max": 26.79604699074116,
+          "mais_antiga": "06/10/2026",
+          "idade_mediana": 61,
+          "total": 2,
+          "agendadas_12m": 2,
+          "agendadas_12m_no_codigo": 174,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ANTEBRACO DIREITO",
+          "codigo": "204040019",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 26.796645555557916,
+          "espera_mediana": 26.796645555557916,
+          "espera_max": 26.796645555557916,
+          "mais_antiga": "06/10/2026",
+          "idade_mediana": 61,
+          "total": 1,
+          "agendadas_12m": 2,
+          "agendadas_12m_no_codigo": 174,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060176",
+      "nome": "RADIOGRAFIA PANORAMICA DE MEMBROS INFERIORES",
+      "preco": 34.33,
+      "fila": 14,
+      "recentes": 14,
+      "nomes": [
+        {
+          "nome": "PANORAMICA DE MEMBROS INFERIORES",
+          "codigo": "204060176",
+          "fila": 14,
+          "fila_viva": 14,
+          "pessoas": 14,
+          "pessoas_viva": 14,
+          "devolvidas": 5,
+          "espera_media": 120.69228554398173,
+          "espera_mediana": 104.7775435011572,
+          "espera_max": 270.73110053240816,
+          "mais_antiga": "04/02/2026",
+          "idade_mediana": 5.5,
+          "total": 19,
+          "agendadas_12m": 8,
+          "agendadas_12m_no_codigo": 8,
+          "cid_principais": [
+            [
+              "M21",
+              8
+            ],
+            [
+              "Q72",
+              1
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "M41",
+              1
+            ],
+            [
+              "R26",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020115",
+      "nome": "RADIOGRAFIA DE COLUNA TORACO-LOMBAR DINAMICA",
+      "preco": 30.5,
+      "fila": 14,
+      "recentes": 14,
+      "nomes": [
+        {
+          "nome": "COLUNA DORSO - LOMBAR PARA ESCOLIOSE DINAMICA (AP E PERFIL)",
+          "codigo": "204020115",
+          "fila": 9,
+          "fila_viva": 9,
+          "pessoas": 9,
+          "pessoas_viva": 9,
+          "devolvidas": 1,
+          "espera_media": 97.6631807728926,
+          "espera_mediana": 88.99875302083092,
+          "espera_max": 158.05074969907582,
+          "mais_antiga": "28/05/2026",
+          "idade_mediana": 28,
+          "total": 10,
+          "agendadas_12m": 5,
+          "agendadas_12m_no_codigo": 25,
+          "cid_principais": [
+            [
+              "M41",
+              5
+            ],
+            [
+              "M54",
+              3
+            ],
+            [
+              "M51",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA DORSO - LOMBAR PARA ESCOLIOSE DINAMICA",
+          "codigo": "204020115",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 1,
+          "espera_media": 113.47569201620499,
+          "espera_mediana": 82.00447396990785,
+          "espera_max": 216.96739812500164,
+          "mais_antiga": "30/03/2026",
+          "idade_mediana": 19,
+          "total": 6,
+          "agendadas_12m": 1,
+          "agendadas_12m_no_codigo": 25,
+          "cid_principais": [
+            [
+              "M41",
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204030072",
+      "nome": "RADIOGRAFIA DE COSTELAS (POR HEMITORAX)",
+      "preco": 33.7,
+      "fila": 13,
+      "recentes": 13,
+      "nomes": [
+        {
+          "nome": "COSTELAS - (ARCOS COSTAIS) ESQUERDO",
+          "codigo": "204030072",
+          "fila": 9,
+          "fila_viva": 9,
+          "pessoas": 9,
+          "pessoas_viva": 9,
+          "devolvidas": 1,
+          "espera_media": 54.75632745884892,
+          "espera_mediana": 33.04771598379739,
+          "espera_max": 166.7909048032452,
+          "mais_antiga": "19/05/2026",
+          "idade_mediana": 55,
+          "total": 10,
+          "agendadas_12m": 34,
+          "agendadas_12m_no_codigo": 203,
+          "cid_principais": [
+            [
+              "R07",
+              3
+            ],
+            [
+              "M54",
+              1
+            ],
+            [
+              "S23",
+              1
+            ],
+            [
+              "M05",
+              1
+            ],
+            [
+              "S22",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COSTELAS - (ARCOS COSTAIS) DIREITO",
+          "codigo": "204030072",
+          "fila": 4,
+          "fila_viva": 4,
+          "pessoas": 4,
+          "pessoas_viva": 4,
+          "devolvidas": 1,
+          "espera_media": 90.93772282986174,
+          "espera_mediana": 71.49888108796586,
+          "espera_max": 202.02404563657183,
+          "mais_antiga": "14/04/2026",
+          "idade_mediana": 49,
+          "total": 5,
+          "agendadas_12m": 33,
+          "agendadas_12m_no_codigo": 203,
+          "cid_principais": [
+            [
+              "R07",
+              2
+            ],
+            [
+              "M05",
+              1
+            ],
+            [
+              "S22",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0020406015",
+      "nome": "",
+      "preco": null,
+      "fila": 11,
+      "recentes": 11,
+      "nomes": [
+        {
+          "nome": "RADIOGRAFIA DE PE/DEDOS DO PE",
+          "codigo": "20406015",
+          "fila": 11,
+          "fila_viva": 11,
+          "pessoas": 11,
+          "pessoas_viva": 11,
+          "devolvidas": 8,
+          "espera_media": 124.53053077020344,
+          "espera_mediana": 118.70864693287149,
+          "espera_max": 222.92216347221984,
+          "mais_antiga": "24/03/2026",
+          "idade_mediana": 58,
+          "total": 19,
+          "agendadas_12m": 1220,
+          "agendadas_12m_no_codigo": 1220,
+          "cid_principais": [
+            [
+              "M25",
+              2
+            ],
+            [
+              "Z00",
+              2
+            ],
+            [
+              "M95",
+              1
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "M20",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040086",
+      "nome": "RADIOGRAFIA DE DEDOS DA MAO",
+      "preco": 20.48,
+      "fila": 11,
+      "recentes": 11,
+      "nomes": [
+        {
+          "nome": "QUIRODACTILOS (ESQUERDO) (AP E PERFIL)",
+          "codigo": "204040086",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 1,
+          "espera_media": 30.401094456017745,
+          "espera_mediana": 30.401094456017745,
+          "espera_max": 46.786117627314525,
+          "mais_antiga": "16/09/2026",
+          "idade_mediana": 51.5,
+          "total": 3,
+          "agendadas_12m": 5,
+          "agendadas_12m_no_codigo": 128,
+          "cid_principais": [
+            [
+              "S63",
+              1
+            ],
+            [
+              "M20",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE DEDOS DA MAO",
+          "codigo": "204040086",
+          "fila": 7,
+          "fila_viva": 7,
+          "pessoas": 7,
+          "pessoas_viva": 7,
+          "devolvidas": 3,
+          "espera_media": 142.02868231150828,
+          "espera_mediana": 131.99089870370517,
+          "espera_max": 229.7668346874998,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 62,
+          "total": 10,
+          "agendadas_12m": 7,
+          "agendadas_12m_no_codigo": 128,
+          "cid_principais": [
+            [
+              "M25",
+              2
+            ],
+            [
+              "M15",
+              1
+            ],
+            [
+              "M65",
+              1
+            ],
+            [
+              "S60",
+              1
+            ],
+            [
+              "M05",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "QUIRODACTILOS (DIREITO) (AP E PERFIL)",
+          "codigo": "204040086",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 0,
+          "espera_media": 19.253611510419432,
+          "espera_mediana": 19.253611510419432,
+          "espera_max": 25.69575312500092,
+          "mais_antiga": "07/10/2026",
+          "idade_mediana": 40,
+          "total": 2,
+          "agendadas_12m": 8,
+          "agendadas_12m_no_codigo": 128,
+          "cid_principais": [
+            [
+              "S63",
+              1
+            ],
+            [
+              "M25",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204010071",
+      "nome": "RADIOGRAFIA DE CRANIO (PA + LATERAL + OBLIQUA / BRETTON + HIRTZ)",
+      "preco": 40.84,
+      "fila": 10,
+      "recentes": 10,
+      "nomes": [
+        {
+          "nome": "CRANIO - PA + LAT. + OBLI. OU BRETTON + HIRTZ",
+          "codigo": "204010071",
+          "fila": 3,
+          "fila_viva": 3,
+          "pessoas": 3,
+          "pessoas_viva": 3,
+          "devolvidas": 1,
+          "espera_media": 135.48162820987878,
+          "espera_mediana": 139.78105562500423,
+          "espera_max": 151.94535853009438,
+          "mais_antiga": "03/06/2026",
+          "idade_mediana": 59,
+          "total": 4,
+          "agendadas_12m": 18,
+          "agendadas_12m_no_codigo": 21,
+          "cid_principais": [
+            [
+              "S06",
+              2
+            ],
+            [
+              "K07",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CRANIO - PA + LATERAL + BRETTON",
+          "codigo": "204010071",
+          "fila": 7,
+          "fila_viva": 7,
+          "pessoas": 7,
+          "pessoas_viva": 7,
+          "devolvidas": 0,
+          "espera_media": 73.51042450231554,
+          "espera_mediana": 89.94500953704119,
+          "espera_max": 115.71737180555647,
+          "mais_antiga": "09/07/2026",
+          "idade_mediana": 43,
+          "total": 7,
+          "agendadas_12m": 3,
+          "agendadas_12m_no_codigo": 21,
+          "cid_principais": [
+            [
+              "R51",
+              2
+            ],
+            [
+              "Z48",
+              1
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "S00",
+              1
+            ],
+            [
+              "R22",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040060",
+      "nome": "RADIOGRAFIA DE CLAVICULA",
+      "preco": 31.23,
+      "fila": 9,
+      "recentes": 9,
+      "nomes": [
+        {
+          "nome": "CLAVICULA DIREITA",
+          "codigo": "204040060",
+          "fila": 4,
+          "fila_viva": 4,
+          "pessoas": 4,
+          "pessoas_viva": 4,
+          "devolvidas": 3,
+          "espera_media": 59.16281400173466,
+          "espera_mediana": 34.913147413193656,
+          "espera_max": 155.88963741897896,
+          "mais_antiga": "30/05/2026",
+          "idade_mediana": 50,
+          "total": 7,
+          "agendadas_12m": 26,
+          "agendadas_12m_no_codigo": 87,
+          "cid_principais": [
+            [
+              "M79",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "R52",
+              1
+            ],
+            [
+              "S42",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CLAVICULA ESQUERDO",
+          "codigo": "204040060",
+          "fila": 4,
+          "fila_viva": 4,
+          "pessoas": 4,
+          "pessoas_viva": 4,
+          "devolvidas": 1,
+          "espera_media": 38.20813415509292,
+          "espera_mediana": 46.01797328703469,
+          "espera_max": 47.95545593750285,
+          "mais_antiga": "15/09/2026",
+          "idade_mediana": 51,
+          "total": 5,
+          "agendadas_12m": 24,
+          "agendadas_12m_no_codigo": 87,
+          "cid_principais": [
+            [
+              "S42",
+              3
+            ],
+            [
+              "M25",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "CLAVICULA",
+          "codigo": "204040060",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 95.71900553240994,
+          "espera_mediana": 95.71900553240994,
+          "espera_max": 95.71900553240994,
+          "mais_antiga": "29/07/2026",
+          "idade_mediana": 0,
+          "total": 1,
+          "agendadas_12m": 37,
+          "agendadas_12m_no_codigo": 87,
+          "cid_principais": [
+            [
+              "L84",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204030170",
+      "nome": "RADIOGRAFIA DE TORAX (PA)",
+      "preco": 24.61,
+      "fila": 9,
+      "recentes": 1,
+      "nomes": [
+        {
+          "nome": "TORAX:  P.A",
+          "codigo": "204030170",
+          "fila": 9,
+          "fila_viva": 1,
+          "pessoas": 9,
+          "pessoas_viva": 1,
+          "devolvidas": 7,
+          "espera_media": 5426.406310519549,
+          "espera_mediana": 6055.40388888889,
+          "espera_max": 6172.40388888889,
+          "mais_antiga": "09/12/2009",
+          "idade_mediana": 63,
+          "total": 16,
+          "agendadas_12m": 32,
+          "agendadas_12m_no_codigo": 32,
+          "cid_principais": [
+            [
+              "R68",
+              3
+            ],
+            [
+              "Z10",
+              2
+            ],
+            [
+              "I10",
+              1
+            ],
+            [
+              "D17",
+              1
+            ],
+            [
+              "Z02",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060117",
+      "nome": "RADIOGRAFIA DE COXA",
+      "preco": 30.25,
+      "fila": 8,
+      "recentes": 8,
+      "nomes": [
+        {
+          "nome": "COXA DIREITA (AP E PERFIL)",
+          "codigo": "204060117",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 1,
+          "espera_media": 143.40664234375436,
+          "espera_mediana": 143.40664234375436,
+          "espera_max": 198.9251942361152,
+          "mais_antiga": "17/04/2026",
+          "idade_mediana": 43.5,
+          "total": 3,
+          "agendadas_12m": 37,
+          "agendadas_12m_no_codigo": 180,
+          "cid_principais": [
+            [
+              "M79",
+              1
+            ],
+            [
+              "S72",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COXA ESQUERDA (AP E PERFIL)",
+          "codigo": "204060117",
+          "fila": 3,
+          "fila_viva": 3,
+          "pessoas": 3,
+          "pessoas_viva": 3,
+          "devolvidas": 2,
+          "espera_media": 56.8067389853386,
+          "espera_mediana": 25.91186894675775,
+          "espera_max": 124.7023192476845,
+          "mais_antiga": "30/06/2026",
+          "idade_mediana": 78,
+          "total": 5,
+          "agendadas_12m": 33,
+          "agendadas_12m_no_codigo": 180,
+          "cid_principais": [
+            [
+              "S32",
+              1
+            ],
+            [
+              "M79",
+              1
+            ],
+            [
+              "S72",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COXA ESQUERDA",
+          "codigo": "204060117",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 1,
+          "espera_media": 86.35010114583565,
+          "espera_mediana": 86.35010114583565,
+          "espera_max": 145.89730207176035,
+          "mais_antiga": "09/06/2026",
+          "idade_mediana": 56.5,
+          "total": 3,
+          "agendadas_12m": 8,
+          "agendadas_12m_no_codigo": 180,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ],
+            [
+              "M86",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COXA DIREITA",
+          "codigo": "204060117",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 2,
+          "espera_media": 26.803484027775994,
+          "espera_mediana": 26.803484027775994,
+          "espera_max": 26.803484027775994,
+          "mais_antiga": "06/10/2026",
+          "idade_mediana": 61,
+          "total": 3,
+          "agendadas_12m": 14,
+          "agendadas_12m_no_codigo": 180,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040035",
+      "nome": "RADIOGRAFIA DE ARTICULACAO ESCAPULO-UMERAL",
+      "preco": 29.76,
+      "fila": 8,
+      "recentes": 8,
+      "nomes": [
+        {
+          "nome": "ARTICULACAO ESCAPULO-UMERAL DIREITA",
+          "codigo": "204040035",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 1,
+          "espera_media": 26.831016215277486,
+          "espera_mediana": 26.831016215277486,
+          "espera_max": 27.813713472220115,
+          "mais_antiga": "05/10/2026",
+          "idade_mediana": 37.5,
+          "total": 3,
+          "agendadas_12m": 18,
+          "agendadas_12m_no_codigo": 100,
+          "cid_principais": [
+            [
+              "S43",
+              1
+            ],
+            [
+              "S42",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO ESCAPULO-UMERAL ESQUERDO",
+          "codigo": "204040035",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 1,
+          "espera_media": 68.11129517361114,
+          "espera_mediana": 62.01563616898056,
+          "espera_max": 117.75685607639025,
+          "mais_antiga": "07/07/2026",
+          "idade_mediana": 64,
+          "total": 6,
+          "agendadas_12m": 11,
+          "agendadas_12m_no_codigo": 100,
+          "cid_principais": [
+            [
+              "M25",
+              2
+            ],
+            [
+              "M79",
+              2
+            ],
+            [
+              "M19",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO ESCAPULO-UMERAL",
+          "codigo": "204040035",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 188.00477804398543,
+          "espera_mediana": 188.00477804398543,
+          "espera_max": 188.00477804398543,
+          "mais_antiga": "28/04/2026",
+          "idade_mediana": 15,
+          "total": 1,
+          "agendadas_12m": 71,
+          "agendadas_12m_no_codigo": 100,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020042",
+      "nome": "RADIOGRAFIA DE COLUNA CERVICAL (AP + LATERAL + TO / FLEXAO)",
+      "preco": 30.86,
+      "fila": 8,
+      "recentes": 8,
+      "nomes": [
+        {
+          "nome": "COLUNA CERVICAL : AP + LATERAL + T.O OU FLEXAO",
+          "codigo": "204020042",
+          "fila": 8,
+          "fila_viva": 8,
+          "pessoas": 8,
+          "pessoas_viva": 8,
+          "devolvidas": 4,
+          "espera_media": 126.48452695167998,
+          "espera_mediana": 127.38584895254826,
+          "espera_max": 229.9850285995417,
+          "mais_antiga": "17/03/2026",
+          "idade_mediana": 49.5,
+          "total": 12,
+          "agendadas_12m": 57,
+          "agendadas_12m_no_codigo": 57,
+          "cid_principais": [
+            [
+              "M54",
+              5
+            ],
+            [
+              "S06",
+              1
+            ],
+            [
+              "M05",
+              1
+            ],
+            [
+              "R52",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204030137",
+      "nome": "RADIOGRAFIA DE TORAX (PA + INSPIRACAO + EXPIRACAO + LATERAL)",
+      "preco": 39.68,
+      "fila": 7,
+      "recentes": 7,
+      "nomes": [
+        {
+          "nome": "TORAX  PA + INSPIRACAO + EXPIRACAO + LATERAL",
+          "codigo": "204030137",
+          "fila": 7,
+          "fila_viva": 7,
+          "pessoas": 7,
+          "pessoas_viva": 7,
+          "devolvidas": 1,
+          "espera_media": 116.1768830654785,
+          "espera_mediana": 97.81981375000032,
+          "espera_max": 216.76199872685538,
+          "mais_antiga": "30/03/2026",
+          "idade_mediana": 64,
+          "total": 8,
+          "agendadas_12m": 32,
+          "agendadas_12m_no_codigo": 32,
+          "cid_principais": [
+            [
+              "R53",
+              2
+            ],
+            [
+              "R07",
+              2
+            ],
+            [
+              "Z13",
+              1
+            ],
+            [
+              "R91",
+              1
+            ],
+            [
+              "Z00",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020085",
+      "nome": "RADIOGRAFIA DE COLUNA LOMBO-SACRA FUNCIONAL / DINAMICA",
+      "preco": 33.05,
+      "fila": 7,
+      "recentes": 7,
+      "nomes": [
+        {
+          "nome": "COLUNA LOMBO SACRA FUNCIONAL OU DINAMICA (AP E PERFIL)",
+          "codigo": "204020085",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 1,
+          "espera_media": 108.13428140740726,
+          "espera_mediana": 63.00641458333121,
+          "espera_max": 221.8431069907383,
+          "mais_antiga": "25/03/2026",
+          "idade_mediana": 52,
+          "total": 6,
+          "agendadas_12m": 5,
+          "agendadas_12m_no_codigo": 29,
+          "cid_principais": [
+            [
+              "M54",
+              3
+            ],
+            [
+              "M51",
+              1
+            ],
+            [
+              "M43",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "COLUNA LOMBO SACRA FUNCIONAL OU DINAMICA",
+          "codigo": "204020085",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 0,
+          "espera_media": 136.87790299768676,
+          "espera_mediana": 136.87790299768676,
+          "espera_max": 136.99511251157674,
+          "mais_antiga": "18/06/2026",
+          "idade_mediana": 14,
+          "total": 2,
+          "agendadas_12m": 24,
+          "agendadas_12m_no_codigo": 29,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ],
+            [
+              "M41",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204010080",
+      "nome": "RADIOGRAFIA DE CRANIO (PA + LATERAL)",
+      "preco": 31.23,
+      "fila": 6,
+      "recentes": 6,
+      "nomes": [
+        {
+          "nome": "CRANIO : PA + LATERAL",
+          "codigo": "204010080",
+          "fila": 6,
+          "fila_viva": 6,
+          "pessoas": 6,
+          "pessoas_viva": 6,
+          "devolvidas": 7,
+          "espera_media": 80.9351357446006,
+          "espera_mediana": 50.48971604166945,
+          "espera_max": 223.9939804861133,
+          "mais_antiga": "23/03/2026",
+          "idade_mediana": 3.5,
+          "total": 13,
+          "agendadas_12m": 234,
+          "agendadas_12m_no_codigo": 234,
+          "cid_principais": [
+            [
+              "R51",
+              2
+            ],
+            [
+              "Z00",
+              1
+            ],
+            [
+              "S00",
+              1
+            ],
+            [
+              "R22",
+              1
+            ],
+            [
+              "L84",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204050138",
+      "nome": "RADIOGRAFIA DE ABDOMEN SIMPLES (AP)",
+      "preco": 30.58,
+      "fila": 6,
+      "recentes": 6,
+      "nomes": [
+        {
+          "nome": "ABDOMEN  SIMPLES : AP",
+          "codigo": "204050138",
+          "fila": 4,
+          "fila_viva": 4,
+          "pessoas": 4,
+          "pessoas_viva": 4,
+          "devolvidas": 8,
+          "espera_media": 83.02493131944539,
+          "espera_mediana": 39.239581388890656,
+          "espera_max": 220.84167929398245,
+          "mais_antiga": "26/03/2026",
+          "idade_mediana": 51.5,
+          "total": 12,
+          "agendadas_12m": 166,
+          "agendadas_12m_no_codigo": 177,
+          "cid_principais": [
+            [
+              "N20",
+              3
+            ],
+            [
+              "K59",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE ABDOMEN SIMPLES (AP)",
+          "codigo": "204050138",
+          "fila": 2,
+          "fila_viva": 2,
+          "pessoas": 2,
+          "pessoas_viva": 2,
+          "devolvidas": 0,
+          "espera_media": 80.2921805844926,
+          "espera_mediana": 80.2921805844926,
+          "espera_max": 111.77041825231572,
+          "mais_antiga": "13/07/2026",
+          "idade_mediana": 68.5,
+          "total": 2,
+          "agendadas_12m": 11,
+          "agendadas_12m_no_codigo": 177,
+          "cid_principais": [
+            [
+              "K59",
+              1
+            ],
+            [
+              "B57",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204030145",
+      "nome": "RADIOGRAFIA DE TORAX (PA + LATERAL + OBLIQUA)",
+      "preco": 34.81,
+      "fila": 5,
+      "recentes": 5,
+      "nomes": [
+        {
+          "nome": "TORAX PA + LAT. + OBLIQUA",
+          "codigo": "204030145",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 1,
+          "espera_media": 49.69499278472504,
+          "espera_mediana": 66.03630189815158,
+          "espera_max": 76.66646283565206,
+          "mais_antiga": "17/08/2026",
+          "idade_mediana": 64,
+          "total": 6,
+          "agendadas_12m": 37,
+          "agendadas_12m_no_codigo": 37,
+          "cid_principais": [
+            [
+              "Z01",
+              1
+            ],
+            [
+              "M06",
+              1
+            ],
+            [
+              "Q67",
+              1
+            ],
+            [
+              "M05",
+              1
+            ],
+            [
+              "B57",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0020406014",
+      "nome": "",
+      "preco": null,
+      "fila": 5,
+      "recentes": 5,
+      "nomes": [
+        {
+          "nome": "RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + OBLIQUA + 3 AXIAL",
+          "codigo": "20406014",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 3,
+          "espera_media": 96.63796864583273,
+          "espera_mediana": 69.58637487268425,
+          "espera_max": 181.9438884490737,
+          "mais_antiga": "04/05/2026",
+          "idade_mediana": 48,
+          "total": 8,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": null,
+          "cid_principais": [
+            [
+              "M25",
+              2
+            ],
+            [
+              "M15",
+              1
+            ],
+            [
+              "M16",
+              1
+            ],
+            [
+              "Q74",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204030129",
+      "nome": "RADIOGRAFIA DE TORAX (APICO-LORDORTICA)",
+      "preco": 24.61,
+      "fila": 5,
+      "recentes": 5,
+      "nomes": [
+        {
+          "nome": "TORAX : APICO - LORDORTICA",
+          "codigo": "204030129",
+          "fila": 5,
+          "fila_viva": 5,
+          "pessoas": 5,
+          "pessoas_viva": 5,
+          "devolvidas": 0,
+          "espera_media": 16.504029907408402,
+          "espera_mediana": 10.808261574078642,
+          "espera_max": 45.937441087960906,
+          "mais_antiga": "17/09/2026",
+          "idade_mediana": 68,
+          "total": 5,
+          "agendadas_12m": 11,
+          "agendadas_12m_no_codigo": 11,
+          "cid_principais": [
+            [
+              "Z01",
+              1
+            ],
+            [
+              "K40",
+              1
+            ],
+            [
+              "C18",
+              1
+            ],
+            [
+              "R07",
+              1
+            ],
+            [
+              "C20",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020131",
+      "nome": "RADIOGRAFIA PANORAMICA DE COLUNA TOTAL- TELESPONDILOGRAFIA ( P/ ESCOLIOSE)",
+      "preco": 66.01,
+      "fila": 4,
+      "recentes": 4,
+      "nomes": [
+        {
+          "nome": "COLUNA TOTAL",
+          "codigo": "204020131",
+          "fila": 4,
+          "fila_viva": 4,
+          "pessoas": 4,
+          "pessoas_viva": 4,
+          "devolvidas": 13,
+          "espera_media": 10.588688382524197,
+          "espera_mediana": 10.466038518519781,
+          "espera_max": 11.663973958333372,
+          "mais_antiga": "21/10/2026",
+          "idade_mediana": 32.5,
+          "total": 17,
+          "agendadas_12m": 1366,
+          "agendadas_12m_no_codigo": 1366,
+          "cid_principais": [
+            [
+              "M54",
+              2
+            ],
+            [
+              "M25",
+              1
+            ],
+            [
+              "M41",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204010128",
+      "nome": "RADIOGRAFIA DE OSSOS DA FACE (MN + LATERAL + HIRTZ)",
+      "preco": 34.67,
+      "fila": 4,
+      "recentes": 4,
+      "nomes": [
+        {
+          "nome": "OSSOS DA FACE - M.N.+F.N",
+          "codigo": "204010128",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 1,
+          "espera_media": 199.78408965277777,
+          "espera_mediana": 199.78408965277777,
+          "espera_max": 199.78408965277777,
+          "mais_antiga": "16/04/2026",
+          "idade_mediana": 10,
+          "total": 2,
+          "agendadas_12m": 14,
+          "agendadas_12m_no_codigo": 35,
+          "cid_principais": [
+            [
+              "R22",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "OSSOS DA FACE - M.N. + LATERAL + HIRTZ",
+          "codigo": "204010128",
+          "fila": 3,
+          "fila_viva": 3,
+          "pessoas": 3,
+          "pessoas_viva": 3,
+          "devolvidas": 1,
+          "espera_media": 107.80925205632957,
+          "espera_mediana": 103.95418628472544,
+          "espera_max": 136.76921932870755,
+          "mais_antiga": "18/06/2026",
+          "idade_mediana": 32,
+          "total": 4,
+          "agendadas_12m": 21,
+          "agendadas_12m_no_codigo": 35,
+          "cid_principais": [
+            [
+              "J35",
+              2
+            ],
+            [
+              "J32",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020123",
+      "nome": "RADIOGRAFIA DE REGIAO SACRO-COCCIGEA",
+      "preco": 31.98,
+      "fila": 3,
+      "recentes": 3,
+      "nomes": [
+        {
+          "nome": "SACRO-COCCIX",
+          "codigo": "204020123",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 3,
+          "espera_media": 10.666958935187722,
+          "espera_mediana": 10.666958935187722,
+          "espera_max": 10.666958935187722,
+          "mais_antiga": "22/10/2026",
+          "idade_mediana": 27,
+          "total": 4,
+          "agendadas_12m": 23,
+          "agendadas_12m_no_codigo": 133,
+          "cid_principais": [
+            [
+              "M53",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "SACRO-COCCIX (AP E PERFIL)",
+          "codigo": "204020123",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 1,
+          "espera_media": 82.80321414351783,
+          "espera_mediana": 82.80321414351783,
+          "espera_max": 82.80321414351783,
+          "mais_antiga": "11/08/2026",
+          "idade_mediana": 43,
+          "total": 2,
+          "agendadas_12m": 97,
+          "agendadas_12m_no_codigo": 133,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "RADIOGRAFIA DE REGIAO SACRO-COCCIGEA",
+          "codigo": "204020123",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 111.64583271990705,
+          "espera_mediana": 111.64583271990705,
+          "espera_max": 111.64583271990705,
+          "mais_antiga": "13/07/2026",
+          "idade_mediana": 77,
+          "total": 1,
+          "agendadas_12m": 12,
+          "agendadas_12m_no_codigo": 133,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204020050",
+      "nome": "RADIOGRAFIA DE COLUNA CERVICAL FUNCIONAL / DINAMICA",
+      "preco": 20.15,
+      "fila": 3,
+      "recentes": 3,
+      "nomes": [
+        {
+          "nome": "COLUNA CERVICAL: FUNCIONAL OU DINAMICA (AP E PERFIL)",
+          "codigo": "204020050",
+          "fila": 3,
+          "fila_viva": 3,
+          "pessoas": 3,
+          "pessoas_viva": 3,
+          "devolvidas": 0,
+          "espera_media": 152.6090295524676,
+          "espera_mediana": 130.08910163194378,
+          "espera_max": 216.9668032175905,
+          "mais_antiga": "30/03/2026",
+          "idade_mediana": 21,
+          "total": 3,
+          "agendadas_12m": 2,
+          "agendadas_12m_no_codigo": 11,
+          "cid_principais": [
+            [
+              "M54",
+              2
+            ],
+            [
+              "M41",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040027",
+      "nome": "RADIOGRAFIA DE ARTICULACAO ACROMIO-CLAVICULAR",
+      "preco": 29.76,
+      "fila": 2,
+      "recentes": 2,
+      "nomes": [
+        {
+          "nome": "ARTICULACAO ACROMIO-CLAVICULAR (ESQUERDO)",
+          "codigo": "204040027",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 2,
+          "espera_media": 90.60080374999961,
+          "espera_mediana": 90.60080374999961,
+          "espera_max": 90.60080374999961,
+          "mais_antiga": "03/08/2026",
+          "idade_mediana": 54,
+          "total": 3,
+          "agendadas_12m": 26,
+          "agendadas_12m_no_codigo": 113,
+          "cid_principais": [
+            [
+              "M12",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ARTICULACAO ACROMIO-CLAVICULAR (DIREITO)",
+          "codigo": "204040027",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 1,
+          "espera_media": 165.73756937500002,
+          "espera_mediana": 165.73756937500002,
+          "espera_max": 165.73756937500002,
+          "mais_antiga": "20/05/2026",
+          "idade_mediana": 66,
+          "total": 2,
+          "agendadas_12m": 40,
+          "agendadas_12m_no_codigo": 113,
+          "cid_principais": [
+            [
+              "S42",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204050111",
+      "nome": "RADIOGRAFIA DE ABDOMEN (AP + LATERAL / LOCALIZADA)",
+      "preco": 30.58,
+      "fila": 2,
+      "recentes": 2,
+      "nomes": [
+        {
+          "nome": "RADIOGRAFIA DE ABDOMEN ( AP + LATERAL / LOCALIZADA)",
+          "codigo": "204050111",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 1,
+          "espera_media": 31.650378888887644,
+          "espera_mediana": 31.650378888887644,
+          "espera_max": 31.650378888887644,
+          "mais_antiga": "01/10/2026",
+          "idade_mediana": 55,
+          "total": 2,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": 15,
+          "cid_principais": [
+            [
+              "R07",
+              1
+            ]
+          ]
+        },
+        {
+          "nome": "ABDOMEN : AP - LATERAL OU LOCALIZADA",
+          "codigo": "204050111",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 1,
+          "espera_media": 136.9440449305548,
+          "espera_mediana": 136.9440449305548,
+          "espera_max": 136.9440449305548,
+          "mais_antiga": "18/06/2026",
+          "idade_mediana": 62,
+          "total": 2,
+          "agendadas_12m": 15,
+          "agendadas_12m_no_codigo": 15,
+          "cid_principais": [
+            [
+              "K44",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0211050083",
+      "nome": "ELETRONEUROMIOGRAMA (ENMG)",
+      "preco": 348.93,
+      "fila": 1,
+      "recentes": 0,
+      "nomes": [
+        {
+          "nome": "COLUNA TOTAL",
+          "codigo": "211050083",
+          "fila": 1,
+          "fila_viva": 0,
+          "pessoas": 1,
+          "pessoas_viva": 0,
+          "devolvidas": 1,
+          "espera_media": 2100.0257548148147,
+          "espera_mediana": 2100.0257548148147,
+          "espera_max": 2100.0257548148147,
+          "mais_antiga": "01/02/2021",
+          "idade_mediana": 68,
+          "total": 2,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": 2168,
+          "cid_principais": [
+            [
+              "M21",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204060079",
+      "nome": "RADIOGRAFIA DE ARTICULACAO SACRO-ILIACA",
+      "preco": 31.78,
+      "fila": 1,
+      "recentes": 1,
+      "nomes": [
+        {
+          "nome": "ARTICULACAO SACRO ILIACA",
+          "codigo": "204060079",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 1,
+          "espera_media": 82.80400157407712,
+          "espera_mediana": 82.80400157407712,
+          "espera_max": 82.80400157407712,
+          "mais_antiga": "11/08/2026",
+          "idade_mediana": 43,
+          "total": 2,
+          "agendadas_12m": 109,
+          "agendadas_12m_no_codigo": 109,
+          "cid_principais": [
+            [
+              "M54",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204050189",
+      "nome": "UROGRAFIA VENOSA",
+      "preco": 103.44,
+      "fila": 1,
+      "recentes": 0,
+      "nomes": [
+        {
+          "nome": "UROGRAFIA VENOSA C/ BEXIGA PRE E POS MICCAO - ADULTO",
+          "codigo": "204050189",
+          "fila": 1,
+          "fila_viva": 0,
+          "pessoas": 1,
+          "pessoas_viva": 0,
+          "devolvidas": 0,
+          "espera_media": 6969.40388888889,
+          "espera_mediana": 6969.40388888889,
+          "espera_max": 6969.40388888889,
+          "mais_antiga": "04/10/2007",
+          "idade_mediana": 19,
+          "total": 1,
+          "agendadas_12m": null,
+          "agendadas_12m_no_codigo": null,
+          "cid_principais": [
+            [
+              "R68",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204040043",
+      "nome": "RADIOGRAFIA DE ARTICULACAO ESTERNO-CLAVICULAR",
+      "preco": 30.86,
+      "fila": 1,
+      "recentes": 1,
+      "nomes": [
+        {
+          "nome": "ARTICULACAO ESTERNO-CLAVICULAR",
+          "codigo": "204040043",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 151.91783954860875,
+          "espera_mediana": 151.91783954860875,
+          "espera_max": 151.91783954860875,
+          "mais_antiga": "03/06/2026",
+          "idade_mediana": 51,
+          "total": 1,
+          "agendadas_12m": 30,
+          "agendadas_12m_no_codigo": 30,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204030102",
+      "nome": "RADIOGRAFIA DE MEDIASTINO (PA E PERFIL)",
+      "preco": 76.97,
+      "fila": 1,
+      "recentes": 1,
+      "nomes": [
+        {
+          "nome": "MEDIASTINO PA E PERFIL",
+          "codigo": "204030102",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 6.038195057873963,
+          "espera_mediana": 6.038195057873963,
+          "espera_max": 6.038195057873963,
+          "mais_antiga": "27/10/2026",
+          "idade_mediana": 49,
+          "total": 1,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": null,
+          "cid_principais": [
+            [
+              "R07",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204010110",
+      "nome": "RADIOGRAFIA DE MAXILAR (PA + OBLIQUA)",
+      "preco": 31.17,
+      "fila": 1,
+      "recentes": 1,
+      "nomes": [
+        {
+          "nome": "MAXILAR INFERIOR : PA + OBLIQUAS",
+          "codigo": "204010110",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 158.03242542823864,
+          "espera_mediana": 158.03242542823864,
+          "espera_max": 158.03242542823864,
+          "mais_antiga": "28/05/2026",
+          "idade_mediana": 56,
+          "total": 1,
+          "agendadas_12m": 0,
+          "agendadas_12m_no_codigo": null,
+          "cid_principais": [
+            [
+              "M07",
+              1
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "0204010055",
+      "nome": "RADIOGRAFIA DE ARTICULACAO TEMPORO-MANDIBULAR BILATERAL",
+      "preco": 34.72,
+      "fila": 1,
+      "recentes": 1,
+      "nomes": [
+        {
+          "nome": "ARTICULACAO TEMPORO MANDIBULAR BILATERAL",
+          "codigo": "204010055",
+          "fila": 1,
+          "fila_viva": 1,
+          "pessoas": 1,
+          "pessoas_viva": 1,
+          "devolvidas": 0,
+          "espera_media": 44.88153096065071,
+          "espera_mediana": 44.88153096065071,
+          "espera_max": 44.88153096065071,
+          "mais_antiga": "18/09/2026",
+          "idade_mediana": 56,
+          "total": 1,
+          "agendadas_12m": 58,
+          "agendadas_12m_no_codigo": 58,
+          "cid_principais": [
+            [
+              "M25",
+              1
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

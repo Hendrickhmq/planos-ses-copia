@@ -1,0 +1,158 @@
+{
+  "notebook_id": "44f73355-a06b-4229-8ee2-ae3a1cd0c24b",
+  "titulo": "Análise — OCI de endoscopia (versão enviada em 03/09/2026) — 11/10/2026 14:49",
+  "fontes": {
+    "8114c72d-b0ad-429a-acd0-cb7fdc425626": {
+      "arquivo": "documento.md",
+      "titulo": "DOCUMENTO EM ANÁLISE"
+    },
+    "56d963c1-b7e6-43e5-8366-323965867b60": {
+      "arquivo": "fontes/normas/Decreto_44330_de_16_03_2023.md",
+      "titulo": "Decreto_44330_de_16_03_2023.md"
+    },
+    "a78aaa75-8c4e-4978-a5cd-4ae36971a14c": {
+      "arquivo": "fontes/normas/Decreto_48727_de_09_06_2026.md",
+      "titulo": "Decreto_48727_de_09_06_2026.md"
+    },
+    "c753b12d-c38c-4ef4-8de7-0a35b31b62c4": {
+      "arquivo": "fontes/normas/Instrucao_Normativa_1_de_22_12_2005.md",
+      "titulo": "Instrucao_Normativa_1_de_22_12_2005.md"
+    },
+    "ac896ded-2b44-4fb0-959b-78183228eda6": {
+      "arquivo": "fontes/normas/Portaria_187_de_24_03_2026.md",
+      "titulo": "Portaria_187_de_24_03_2026.md"
+    },
+    "8d38cc12-82d7-426e-914f-5971ba254e7d": {
+      "arquivo": "fontes/normas/Portaria_287_de_07_04_2022.md",
+      "titulo": "Portaria_287_de_07_04_2022.md"
+    },
+    "a563831c-5dfb-4fc5-ab80-421d9a6a32cd": {
+      "arquivo": "fontes/normas/GM_3492-2024_institui_PMAE.md",
+      "titulo": "GM_3492-2024_institui_PMAE.md"
+    },
+    "77a7fb55-6da8-4d52-b3ee-c134e2ec8b21": {
+      "arquivo": "fontes/normas/GM_7307-2025_hospitais_privados.md",
+      "titulo": "GM_7307-2025_hospitais_privados.md"
+    },
+    "3a79a9bc-3e10-4e0e-bd46-bbd934763f1c": {
+      "arquivo": "fontes/normas/GM_7701-2025_diretrizes_ATE.md",
+      "titulo": "GM_7701-2025_diretrizes_ATE.md"
+    },
+    "a8b47831-129e-45db-ae84-b1d776f6fbb0": {
+      "arquivo": "fontes/normas/MANUAL_PMAE_-_Registro_da_Producao_Controle_e_Avaliacao.md",
+      "titulo": "MANUAL_PMAE_-_Registro_da_Producao_Controle_e_Avaliacao.md"
+    },
+    "c87d8035-6665-4559-96d6-ef55b1686451": {
+      "arquivo": "fontes/normas/NT_1-2025_formulacao_OCI.md",
+      "titulo": "NT_1-2025_formulacao_OCI.md"
+    },
+    "418934b7-fefd-40c1-8d36-0e93b8103c22": {
+      "arquivo": "fontes/normas/NT_2-2025_teto_orcamentario.md",
+      "titulo": "NT_2-2025_teto_orcamentario.md"
+    },
+    "98e557f5-4b85-406d-a5b0-f66bc3d334b4": {
+      "arquivo": "fontes/normas/NT_3-2025_orientacoes_gestores.md",
+      "titulo": "NT_3-2025_orientacoes_gestores.md"
+    },
+    "987fb0e9-69f9-4e8d-bb4f-12670f24fcd4": {
+      "arquivo": "fontes/normas/PORTARIA_SAES_MS_No_1.822_DE_11_DE_JUNHO_DE_2024_-_DOU.md",
+      "titulo": "PORTARIA_SAES_MS_No_1.822_DE_11_DE_JUNHO_DE_2024_-_DOU.md"
+    },
+    "acffec78-85c1-4b0b-a00c-235e3d0ee75e": {
+      "arquivo": "fontes/normas/PORTARIA_SAES_MS_No_2.331_DE_10_DE_DEZEMBRO_DE_2024_-_DOU.md",
+      "titulo": "PORTARIA_SAES_MS_No_2.331_DE_10_DE_DEZEMBRO_DE_2024_-_DOU.md"
+    },
+    "00be9943-31cc-493c-a367-99a2c01d82b6": {
+      "arquivo": "fontes/normas/PORTARIA_SAES_MS_No_2.930_DE_16_DE_JUNHO_DE_2025_-_DOU.md",
+      "titulo": "PORTARIA_SAES_MS_No_2.930_DE_16_DE_JUNHO_DE_2025_-_DOU.md"
+    },
+    "c650e322-43a9-4c3e-a827-10103e2a1d7f": {
+      "arquivo": "fontes/normas/Portaria_GM_MS_10.297_de_27_02_2026.md",
+      "titulo": "Portaria_GM_MS_10.297_de_27_02_2026.md"
+    },
+    "e9408071-cc35-4b6b-bf31-0d771984b55e": {
+      "arquivo": "fontes/normas/Portaria_GM_MS_10.352_de_17_03_2026.md",
+      "titulo": "Portaria_GM_MS_10.352_de_17_03_2026.md"
+    },
+    "bc10b9d6-db95-44cc-82fb-f8abd2274b8f": {
+      "arquivo": "fontes/normas/RETIFICACAO_anexo_II_2331.md",
+      "titulo": "RETIFICACAO_anexo_II_2331.md"
+    },
+    "4f7b787b-fe7c-4647-9d42-943ff45dbf06": {
+      "arquivo": "fontes/normas/SAES_1640-2024_operacionalizacao.md",
+      "titulo": "SAES_1640-2024_operacionalizacao.md"
+    },
+    "f5818557-aaea-42ae-88b8-1ea393dfdb25": {
+      "arquivo": "fontes/normas/SAES_1976-2024_altera_1640.md",
+      "titulo": "SAES_1976-2024_altera_1640.md"
+    },
+    "fc910aea-4501-42f5-a751-0ecdb96a30ed": {
+      "arquivo": "fontes/normas/SAES_2321-2024_altera_1640.md",
+      "titulo": "SAES_2321-2024_altera_1640.md"
+    },
+    "25be2288-1f68-4426-9323-b02b9de0dc88": {
+      "arquivo": "fontes/normas/SAES_1821-2024_grupo_09.md",
+      "titulo": "SAES_1821-2024_grupo_09.md"
+    },
+    "606ff5ab-fee5-4d04-b6b1-224a273fa5eb": {
+      "arquivo": "fontes/normas/SAES_2630-2025_regras_e_compatibilidades.md",
+      "titulo": "SAES_2630-2025_regras_e_compatibilidades.md"
+    },
+    "25602cd8-9fe4-458f-bab6-e37d0ccd4eec": {
+      "arquivo": "fontes/normas/SAES_2723-2025_CPF.md",
+      "titulo": "SAES_2723-2025_CPF.md"
+    },
+    "c3bef20c-9690-4a0b-a161-b2d34467ecc0": {
+      "arquivo": "fontes/normas/SAES_2747-2025_altera_1640.md",
+      "titulo": "SAES_2747-2025_altera_1640.md"
+    },
+    "a46299a4-725e-41ce-a3a5-3b621a9eff58": {
+      "arquivo": "fontes/normas/SAES_2799-2025_atualiza_tabela.md",
+      "titulo": "SAES_2799-2025_atualiza_tabela.md"
+    },
+    "f3cdf5c4-b4ab-43e7-aa4d-e98b5d0059e7": {
+      "arquivo": "fontes/normas/SAES_3200-2025_modalidades.md",
+      "titulo": "SAES_3200-2025_modalidades.md"
+    },
+    "22b41353-e869-438f-829f-0b800b1387c5": {
+      "arquivo": "fontes/normas/RDC_ANVISA_6-2013_boas_praticas_servicos_de_endoscopia.md",
+      "titulo": "RDC_ANVISA_6-2013_boas_praticas_servicos_de_endoscopia.md"
+    },
+    "7e1cc3e7-a575-4001-9265-58102ea68b50": {
+      "arquivo": "fontes/normas/Resolucao_CFM_2174-2017_ato_anestesico.md",
+      "titulo": "Resolucao_CFM_2174-2017_ato_anestesico.md"
+    },
+    "b3eb83ba-2d3c-4fd9-9ec8-3a943d146909": {
+      "arquivo": "fontes/normas/SAES_4653-2026_altera_valor_e_composicao_das_OCI_de_endoscopia.md",
+      "titulo": "SAES_4653-2026_altera_valor_e_composicao_das_OCI_de_endoscopia.md"
+    },
+    "d895060c-f1db-4c9a-a5e5-e74b7adbe332": {
+      "arquivo": "fontes/normas/SAES_4282-2026_rol_imagem_e_incremento.md",
+      "titulo": "SAES_4282-2026_rol_imagem_e_incremento.md"
+    },
+    "3ae1f080-68d7-42ef-9803-acb3717a622b": {
+      "arquivo": "fontes/aprovados/pt_ses_01.md",
+      "titulo": "pt_ses_01.md"
+    },
+    "dbc380cd-56da-432b-a201-0ea9365633a4": {
+      "arquivo": "fontes/aprovados/pt_ses_02.md",
+      "titulo": "pt_ses_02.md"
+    },
+    "460a9561-bd42-4559-852c-dfe45e696155": {
+      "arquivo": "fontes/aprovados/pt_ses_03.md",
+      "titulo": "pt_ses_03.md"
+    },
+    "a78a198b-4a69-4371-8b66-25906b75b1f1": {
+      "arquivo": "fontes/aprovados/pt_ses_04.md",
+      "titulo": "pt_ses_04.md"
+    },
+    "c07c8b6c-5b65-4ba5-b47f-891c8814180b": {
+      "arquivo": "fontes/aprovados/pt_ses_05.md",
+      "titulo": "pt_ses_05.md"
+    },
+    "537761a3-2c17-4d95-8640-b7fe6cd6c95e": {
+      "arquivo": "fontes/fichas/sigtap_0901010073_082026.md",
+      "titulo": "sigtap_0901010073_082026.md"
+    }
+  }
+}

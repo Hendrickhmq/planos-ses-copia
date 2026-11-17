@@ -1,0 +1,41 @@
+id: "pt_ses_05"
+arquivo: "pt_ses_05_031061-2026.pdf"
+processo_sei: "031061-2026"
+sha256: "83afc054e4d959a0fd422aa89934805aab94a7329c37cbc616350478e4c52ca7"
+paginas: 58
+chars_texto: 127883
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+molduras_descartadas_total: 24
+molduras_descartadas_por_pagina:
+  pagina_1: 1
+  pagina_2: 1
+  pagina_3: 1
+  pagina_5: 1
+  pagina_6: 1
+  pagina_8: 1
+  pagina_9: 1
+  pagina_10: 1
+  pagina_33: 1
+  pagina_39: 1
+  pagina_40: 2
+  pagina_41: 1
+  pagina_42: 1
+  pagina_43: 1
+  pagina_44: 1
+  pagina_47: 1
+  pagina_48: 1
+  pagina_49: 1
+  pagina_50: 1
+  pagina_51: 1
+  pagina_53: 1
+  pagina_55: 1
+  pagina_57: 1
+paginas_ajustadas: []
+paginas_sem_texto: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58]
+paginas_ocr: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58]
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-31T16:41:29"

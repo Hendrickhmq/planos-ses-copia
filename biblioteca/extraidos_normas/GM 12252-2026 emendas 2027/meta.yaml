@@ -1,0 +1,10 @@
+id: "GM 12252-2026 emendas 2027"
+arquivo: "GM 12252-2026 emendas 2027.html"
+sha256: "b8416b97a121bf16aee2a903bf03554d6d7c5aa5728bd3035f96c22e383d93b4"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 58570
+tabelas_total: 14
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-10-09T14:09:52"

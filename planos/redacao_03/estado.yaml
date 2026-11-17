@@ -1,0 +1,732 @@
+plano: 3
+diretorio: redacao_03
+titulo_documento: "OCI Avaliação Diagnóstica de Câncer Gástrico"   # cabecalho do .docx (md2docx.js); com acento, e texto do documento
+aberto_em: 2026-08-31
+metodo: redacao_02/00_metodo.md   # vale integralmente; redacao_03/00_metodo.md so registra o que difere
+
+parametros:
+  origem_recurso:
+    tipo: emenda_parlamentar_federal
+    valor: 8500000.00
+    fonte: usuario
+    data: 2026-08-31
+  objeto:
+    oci: "09.01.01.007-3"
+    denominacao: "OCI Avaliacao Diagnostica de Cancer Gastrico"
+    composicao:                    # descricao vigente, Portaria SAES/MS 4.653/2026
+      - "consulta medica especializada"
+      - "esofagogastroduodenoscopia (com ou sem sedacao)"
+      - "anatomopatologico"
+      - "consulta OU teleconsulta de RETORNO"
+    apac_secundaria_compativel: "04.17.01.006-0 SEDACAO, qtd 01"
+    encontros_por_oci: 2
+    faixa_etaria: "18 a 130 anos (ficha SIGTAP, competencia 08/2026)"
+    fonte: usuario
+    data: 2026-08-31
+  valor_unitario:
+    valor: 600.11
+    fonte: "Portaria SAES/MS 4.653 de 07/08/2026, DOU 149 de 10/08/2026, s.1, p.61, Anexo I"
+    origem: valor_de_tabela_vigente
+    efeitos_desde: "competencia agosto/2026"
+    nota: "e o valor do Servico Ambulatorial da OCI. Nao ha premio sobre tabela a defender."
+  custo_acessorio:
+    teto: 0.085                    # limite fixado pelo usuario em 01/09/2026
+    base: valor_global
+    realizado: 718200.00           # montagem de baixo para cima, secao 9
+    percentual_realizado: 0.0845   # DERIVADO do realizado, nunca o contrario
+    fonte: usuario
+    nota: "confirmado em 05/09/2026 - a margem e a realizada, 8,45%. O campo
+      anterior trazia 8% e R$ 680.000,00, que foi a entrada de 31/08 e ficou para
+      tras quando a planilha passou a ser montada de baixo para cima sob o teto"
+  polos:
+    quantidade: 3
+    nomes: ["Ceilandia", "Sobradinho", "Gama"]
+    cobertura:
+      Ceilandia: ["Oeste", "Sudoeste"]
+      Sobradinho: ["Norte", "Leste", "Central"]
+      Gama: ["Sul", "Centro-Sul"]
+    criterio: "as sete Regioes de Saude da SES-DF agrupadas em tres territorios"
+    distribuicao: "proporcional a demanda regulada - 5.031 / 5.042 / 2.894"
+    regime: "servicos de endoscopia ja licenciados e em operacao - o convenio nao implanta servico, contrata capacidade adicional"
+    fonte: usuario
+  retorno:
+    forma: teleconsulta
+    codigo: "03.01.01.030-7"
+    fonte: usuario
+  encerramento_producao:
+    mes: 9
+    razao: "APAC com validade fixa de 2 competencias - a producao do mes 9 conclui no mes 10"
+    fonte: usuario
+  vigencia_meses:
+    valor: 10
+    fonte: usuario
+    data: 2026-08-31
+    nota: "decidido apos a aritmetica da gestao; em 10 meses o bloco integral do pt_ses_01 cabe"
+  eixo_desenho: "ganhar na gestao - concentrar o acessorio em direcao e coordenacao"
+  tipo_servico_endoscopia:
+    valor: "tipo II"
+    fonte: usuario
+    data: 2026-09-01
+    base: "RDC ANVISA 6/2013, art. 4o, II e art. 3o, XII"
+  dimensionamento:                 # lidos pela verificacao G do conferir_plano.py
+    fonte: "dados/parametros_tecnicos.md, parametros 2, 3, 4 e 12 e a linha da sala de espera"
+    horas_sala_dia: 6              # parametro 2
+    min_sala_por_paciente: 25      # parametro 3
+    min_recuperacao: 45            # parametro 4
+    horas_espera: 2.5              # lugares na espera (2,5 h, com acompanhante)
+    pessoas_por_paciente: 2        # usuario e acompanhante - RDC ANVISA 6/2013, art. 12
+    min_processamento_aparelho: 45 # parametro 12: 70 min de giro = 25 de sala + 45
+
+derivados:                       # tres coisas de uma vez, 02/09/2026: resmas fora, equipe
+                                 # operacional reforcada, e o teto de 8,5% fixado pelo usuario
+  apoio_total: 718200.00
+  quantitativo_oci: 12967
+  producao: 7781626.37
+  valor_global: 8499826.37
+  sobra_declarada: 173.63
+  apoio_sobre_global: 0.0845      # teto autorizado pelo usuario em 02/09/2026: ate 8,5%
+  apoio_por_oci: 55.39
+  custo_por_oci_para_o_convenio: 655.50
+  diferenca_sobre_valor_federal: 0.0923
+  postos_meta_1: 15
+  pessoas_contratadas: 16         # 15 da Meta 1 mais o assistente financeiro da Meta 3
+  postos_no_polo: {Ceilandia: 3, Sobradinho: 3, Gama: 2, total: 8}
+  postos_na_coordenacao: 8
+  meses_producao: 9
+  oci_mes_regime_pleno: 1581
+  oci_dia_util_21: 75.29
+  salas: {Ceilandia: 3, Sobradinho: 3, Gama: 2, total: 8}
+  ocupacao_salas: {Ceilandia: 0.68, Sobradinho: 0.68, Gama: 0.58}
+  postos_recuperacao: {Ceilandia: 4, Sobradinho: 4, Gama: 3, total: 11}
+  lugares_espera: {Ceilandia: 30, Sobradinho: 30, Gama: 20, total: 80}
+  endoscopios: {Ceilandia: 6, Sobradinho: 6, Gama: 4, total: 16}
+  entradas_dia_util: {Ceilandia: 29.19, Sobradinho: 29.29, Gama: 16.81}
+  oci_por_polo: {Ceilandia: 5031, Sobradinho: 5042, Gama: 2894}
+  parcelas: 4
+
+herdado_sem_reabrir:
+  - "instrumento e convenio, nao MROSC"
+  - "camada distrital: Decreto DF 48.727/2026"
+  - "IN CGDF 01/2005 incide"
+  - "fonte e Incremento MAC (art. 24 da Portaria GM/MS 10.297/2026); ATE e base parametrica"
+  - "APAC e comprovacao, nao gatilho de pagamento"
+  - "planilha de baixo para cima, tres setores, rubrica por ultimo"
+  - "estrutura padrao de 9 secoes"
+  - "fronteira anticopia"
+
+rodadas:
+  - id: 0
+    nome: "Travas e parametros"
+    data: 2026-08-31
+    status: em_andamento
+    entregue:
+      - dados/envelope.md
+      - dados/valor_unitario.md
+      - dados/gestao_no_acervo.md
+    pendente:
+      - "sitio unico ou mais de uma unidade"
+      - "proponente"
+      - "estrutura de gestao: bloco integral (60.000/mes) ou direcao + 3 coordenacoes (45.000/mes)"
+  - id: 4
+    nome: "Fluxo do atendimento"
+    data: 2026-08-31
+    status: briefing_aberto
+    entregue:
+      - secoes/04_fluxo_briefing.md
+    aguarda: "8 perguntas numeradas no briefing"
+    nota: "puxada para fora de ordem porque a sedacao entrou na OCI e governa metas, etapas e planilha"
+  - id: "1-14"
+    nome: "Redacao integral"
+    data: 2026-09-01
+    status: escrito_aguardando_revisao
+    modo: "autonomo, a pedido do usuario - respostas 1,2,3,4,8 foram 'nao sei' e as decisoes estao em dados/parametros_tecnicos.md e pendencias.md secao A"
+    entregue:
+      - plano.md          # 9 secoes, ~7.800 palavras
+      - plano.docx
+      - pendencias.md
+      - dados/parametros_tecnicos.md
+
+pendencias_bloqueantes:
+  - id: P-01
+    o_que: "Origem do unitario de R$ 600,11"
+    dono: usuario
+    status: ENCERRADA
+    em: 2026-08-31
+    como: "e valor de tabela - Portaria SAES/MS 4.653/2026, Anexo I. Documento trazido pelo usuario e salvo em normas/"
+  - id: P-02
+    o_que: "Portaria SAES/MS 4.282/2026 (DOU 114, 22/06/2026, s.1, p.76) - Anexo I, EDA R$ 48,16 + 627%"
+    dono: claude
+    status: baixada_de_fonte_secundaria
+    nota: "em redacao_03/dados/fontes/. Conferir na fonte oficial se for citada no documento"
+  - id: P-03
+    o_que: "Valor vigente da OCI 09.01.01.007-3"
+    dono: claude
+    status: ENCERRADA
+    como: "R$ 600,11 desde a competencia agosto/2026. Os R$ 250,00 da compilacao SES/RS 04/2025 estao superados"
+  - id: P-04
+    o_que: "A OCI passou a incluir consulta OU teleconsulta de RETORNO - dois encontros por OCI. Governa metas, fluxo e cronograma fisico"
+    dono: claude
+    status: aberta
+  - id: P-06
+    o_que: "Parque instalado do executor - salas, postos de recuperacao e endoscopios. Mesmo ponto cego que a ecocardiografia do plano anterior"
+    dono: proponente
+    status: aberta
+  - id: P-07
+    o_que: "Sala de espera dimensionada para 31 a 62 pessoas simultaneas - o acompanhante do art. 12 da RDC 6/2013 dobra a ocupacao"
+    dono: proponente
+    status: aberta
+  - id: P-05
+    o_que: "Sedacao entrou na descricao da OCI, com APAC secundaria 04.17.01.006-0. Exige do executor sedacao habilitada e sala de recuperacao - condicao de partida na secao 4 e risco na secao 9"
+    dono: proponente
+    status: aberta
+
+fila_mapa_social:
+  fonte: "Mapa Social SES-DF, consulta de 2026-09-01, trazida pelo usuario"
+  procedimento: "endoscopia digestiva alta"
+  pendentes_de_regulacao: 24868
+  devolvidas_para_complementacao: 8388
+  corrigidas_e_reenviadas: 587
+  outro_status_pendente: 8
+  por_regiao_de_saude:
+    Sudoeste: 7702
+    Leste: 4357
+    Norte: 3949
+    Oeste: 3754
+    Sul: 3301
+    Centro-Sul: 3289
+    Central: 3176
+  soma_das_sete_regioes: 29528
+  outras_origens: {Contratado_Credenciado: 2217, URD: 1771, Servicos_Centralizados: 2, Publico_nao_SES: 1}
+  cobertura_do_convenio: 0.5214    # 52,14% — 12.967 / 24.868, publicado na 3.1
+  ressalva: "o grafico de status soma 33.851 e o de regiao soma 33.519 - diferenca de 332. Usar a fila de 24.868 como titular e as proporcoes regionais como criterio de rateio; nao somar os dois universos"
+
+achados_normativos_decisivos:
+  - id: "janela de 2 competencias"
+    o_que: "Atributo complementar 054 - APAC com validade fixa de 2 competencias. Portaria SAES/MS 1.640/2024 art. 15 §§1-2; Manual PMAE item 4.3"
+    efeito: "governa agendamento (primeira quinzena), prazo do laudo AP (15 dias), encerramento da producao no mes 9 e os riscos R-01 e R-09"
+  - id: "acompanhante e recuperacao"
+    o_que: "RDC ANVISA 6/2013 art. 12 (liberacao so com acompanhante adulto) e art. 23 (proibida recuperacao fora da sala de recuperacao)"
+    efeito: "sala de espera para 20 pessoas por polo - metade acompanhantes; 3 postos de recuperacao por polo"
+  - id: "anatomopatologico e OPCIONAL"
+    o_que: "NT 3/2025 organiza a composicao em 'procedimentos obrigatorios' e 'procedimentos opcionais, sem prejuizo da investigacao diagnostica resolutiva'. Nesta OCI o exame anatomopatologico (02.03.02.003-0) esta na coluna dos opcionais. NT 1/2025, itens 2.1.5 e 2.1.6: procedimento pode nao ser necessario e o valor da OCI nao varia"
+    efeito: "a OCI conclui com consulta + EDA + retorno. Rebaixou o R-01 de alto para medio e tirou o contrato de laboratorio das condicoes de partida"
+  - id: "via sem sedacao"
+    o_que: "a descricao vigente da OCI admite EDA 'com ou sem sedacao'"
+    efeito: "mitigacao de custo zero para o usuario que chega sem acompanhante - R-03"
+
+normas_novas_neste_plano:
+  - "Portaria SAES/MS 4.653/2026 - valor e composicao da OCI"
+  - "RDC ANVISA 6/2013 - boas praticas para servicos de endoscopia (norma central do objeto)"
+  - "Resolucao CFM 2.174/2017 - ato anestesico, SRPA e alta"
+  - "Portaria SAES/MS 4.282/2026 - incremento no Componente Creditos Financeiros (referencia lateral)"
+  - "Lei 12.732/2012 - prazo de 60 dias para inicio do tratamento oncologico (secao 3.2)"
+
+revisao_do_padrao:
+  data: 2026-09-02
+  o_que: "auditoria do PADRAO.md contra o que as ferramentas de fato fazem"
+  achados:
+    - "SECAO 5.2 DESATUALIZADA E ERRADA, apontado pelo usuario em 02/09/2026. Quatro defeitos: (a) 2.3 dizia que o ultimo procedimento e 'a teleconsulta de retorno', contradizendo o proprio paragrafo acima, que ja dizia 'consulta OU teleconsulta'; (b) a APAC abre na CONSULTA, nao no exame - art. 15 da 1.640/2024; (c) o paragrafo dizia 'preferencialmente na primeira quinzena' e fechava com 'e regra e nao preferencia', contradicao literal, alem de voz retorica; (d) o grave: a segunda quinzena era reservada aos casos 'em que nao se antecipa indicacao de biopsia', mas a indicacao se decide DURANTE o exame - triagem inexecutavel, resquicio de quando o anatomopatologico era obrigatorio. Reescrita: a agenda e montada para o caso mais longo, todos na primeira quinzena, e o excedente vai para o rastreamento prioritario da 5.7. Dias conferidos: 54 a 57 no dia 5, 31 a 34 no dia 28"
+    - "Nasceu dai a regra 7 do PADRAO.md: decisao que muda premissa obriga varredura do documento inteiro
+    - "REGRA 2 ESTAVA ERRADA: eu havia escrito 'a meta se arredonda para baixo - 13.000, nao 13.005'. O usuario corrigiu em 02/09/2026: o arredondamento e ARITMETICO, nao estetico - a meta e o PISO de (verba - custo acessorio) / unitario, porque nao se atende fracao de pessoa. Arredondar 13.005 para 13.000 descartava 5 OCI de producao por cosmetica. Plano refeito a partir do piso: 13.005 OCI, sobra R$ 19,45. A verificacao C perdeu a valvula de escape do 'arredondamento declarado' e voltou a exigir sobra menor que um unitario"
+    - "duas referencias cruzadas quebradas: fase 1 apontava a secao 6 (justificativa) em vez da 8 (ancoragem); regra 4 apontava a 5 (voz) em vez da 7 (citacao). CORRIGIDAS"
+    - "o contrato do estado.yaml na secao 11 divergia do codigo nos dois sentidos: pedia vigencia_meses e meses_producao, que ninguem le, e omitia objeto.oci (lido pela N) e os tres derivados lidos pela H. REESCRITO como tabela chave-por-verificacao"
+    - "o padrao nomeava as tres metas e nao dizia o que cada uma carrega. ACRESCENTADO: descricao, quantitativo afericao e prazo, mais a meta qualitativa obrigatoria (art. 7o, III do Decreto DF 48.727/2026). P passou a conferir"
+    - "as sete secoes de 'O que nao volta' nao eram verificadas por nada. J passou a barrar titulo de secao ou subsecao que reintroduza qualquer uma"
+    - "a proporcao '3 achados reais para 9 defeitos do teste' na secao 10 estava defasada e virava numero fixo; reescrita como constatacao"
+    - "aviso acrescentado no topo: a estrutura vale a do PADRAO.md, porque o 00_metodo.md guarda a antiga de 13 secoes e ja induziu o parser a erro"
+
+conferencia:
+  ferramenta: conferir_plano.py            # na raiz; roda em qualquer plano
+  arnes: testar_conferencia_plano.py       # na raiz; mutacoes derivadas do plano
+  padrao: PADRAO.md                        # o processo e a estrutura que ela confere
+  comando: "python3 conferir_plano.py redacao_03/ && python3 testar_conferencia_plano.py redacao_03/"
+  data: 2026-09-01
+  verificacoes: 17              # A a Q; P e J passaram a cobrir mais
+  resultado: "17/17 passaram"
+  mutacoes_injetadas: 19
+  mutacoes_apanhadas: 19
+  rodada_de_ajustes_do_usuario: |
+    01/09/2026, seis correcoes de uma vez:
+    1. Economicidade saiu da secao 3 e virou 8.1 - o dinheiro todo no fim, antes da
+       matriz de risco.
+    2. Numeros redondos: meta de 13.052 para 13.000; rateio 5.050/5.050/2.900; curva
+       600/1.200/1.600. O envelope comporta 13.005 e o plano DECLARA isso. A regra 2
+       do PADRAO.md foi reescrita: meta redonda com sobra a vista e legitima; o que
+       se proibe e fechar total mexendo em linha elastica. A verificacao C passou a
+       exigir a declaracao do arredondamento em vez de proibir a sobra.
+    3. Indicadores e meta qualitativa em 100%. "Nao faz sentido eu ter uma meta e
+       querer chegar abaixo dela."
+    4. Secao 5.2 reescrita - estava desatualizada.
+    5. Pessoal no lugar de tecnologia: sairam sistema informatizado, suporte de TI,
+       notebooks, impressora, internet e nuvem (R$ 104.800) e entraram assistente
+       administrativo por polo (3 x 3.200 x 10) e assessoria de prestacao de contas
+       (3.700 x 10). 99,5% do apoio virou pessoal. Regra: quando o acessorio e baixo
+       e a escolha e entre RH e infraestrutura tecnologica, escolher RH - mais facil
+       de justificar e de receber.
+    6. O paragrafo dos polos em 2.5 foi encurtado.
+    Fechamento: apoio 695.520,00 - meta 13.000 - global 8.496.950,00 - sobra 3.050,00
+    - apoio/global 8,19%.
+  poda_de_voz: |
+    Usuario, 01/09/2026, com dois exemplos: "O mes 10 nao e folga, isso nao pode ser
+    aceito jamais" e "A distincao entre obrigatorio e opcional nao e nossa, essas
+    coisas nao cabem num plano de trabalho". Diagnostico: o plano se defendia em vez
+    de declarar. Varredura achou 24 frases em quatro classes - negacao defensiva,
+    meta-comentario sobre o proprio documento, enfase retorica e confissao. Todas
+    corrigidas; restaram apenas negacoes DECLARATIVAS, que afirmam o que se faz.
+    Virou a secao 5 do PADRAO.md e a verificacao Q.
+    Mesma conversa: a justificativa quando ha fila. O usuario: "a maioria dos nossos
+    planos vao trabalhar em cima de filas ja existentes e com demanda comprovada,
+    nao precisamos ficar procurando justificativas". A secao 3 foi reescrita em
+    torno da fila do Mapa Social; a subsecao de literatura (estadiamento ao
+    diagnostico, Lei dos 60 dias, incidencia INCA) foi cortada inteira. Secao 3
+    passou de 7 para 5 subsecoes. Virou a secao 6 do PADRAO.md.
+    Plano de 8.493 para 7.777 palavras.
+  poda_normativa: |
+    Usuario, 01/09/2026: "seria bom dar uma diminuida em citar normas, nao agrega
+    nada para a gente so faz com que tenhamos mais obrigacao". Criterio aplicado:
+    citacao que DA UM NUMERO ou PROTEGE fica; citacao que so entrega ao analista a
+    regua para nos medir sai, e o conteudo operacional permanece descrito.
+    SAIRAM: RDC ANVISA 6/2013 (13 mencoes), Resolucao CFM 2.174/2017 (2),
+    Lei 13.709/LGPD (1), Portaria GM/MS 3.492/2024 (1), IN CGDF 01/2005 (1, com a
+    declaracao de nao-mora, que e peca do processo e nao do plano), e as ancoras
+    do Decreto DF 48.727 nos arts. 7 III, 16-18, 18 e 30.
+    FICARAM: SAES 4.653 (valor e composicao), SAES 1.640 (conclusao da APAC e as
+    2 competencias), NT 1/2025 e NT 3/2025 (anatomopatologico opcional - protege),
+    NT 2/2025 (sem faixa etaria - protege), SAES 4.282 (economicidade),
+    Lei 12.732 (argumento da justificativa), Decreto DF 48.727 art. 33 §2
+    (sem a lista de subcontratadas, o que nao consta e vedado - protege).
+    Segunda passada (mesma data): a SAES 1.640 caiu de 3 mencoes para 1, ficando
+    so na secao 2.3, onde define a unidade de afericao. Na 3.1 a definicao de OCI
+    virou prosa; na 5.13 o registro remete a 2.3.
+    Terceira passada: a NT 1/2025 caiu de 3 mencoes para 1. As duas protecoes que
+    ela dava - anatomopatologico opcional com valor invariavel (itens 2.1.5 e
+    2.1.6) e alternancia consulta/teleconsulta (item 2.1.10) - foram concentradas
+    na secao 2.2; a 5.7 e a 5.8 remetem a ela.
+    De 12 normas / ~35 mencoes para 8 / 12. Plano de 8.862 para 8.190 palavras.
+    Sete das oito aparecem uma unica vez; so a SAES 4.653 repete, e e a que
+    sustenta preco, composicao e compatibilidade da sedacao.
+    Medido no acervo: ISHP cita DUAS normas em todo o documento (Lei 8.080 sem
+    artigo, na justificativa; Decreto 37.843/2016 art. 33, no desembolso); IEV
+    cita ZERO leis e decretos, so as portarias de OCI como subtitulo de eixo.
+  achados_reais_4: |
+    Usuario, 01/09/2026: "pode cortar a 1.3" e "sobre a estrutura ela nao tem que
+    seguir uma ordem que ja tinhamos definido antes? nao invente moda faca o que
+    ja funciona". Secao 1.3 Fundamentacao CORTADA - era o unico acrescimo
+    estrutural nosso. Saem com ela, por serem orfas, o art. 199 §1o da CF, o
+    art. 24 §unico da Lei 8.080 e a Portaria GM/MS 10.297; a IN CGDF 01/2005
+    sobrevive na secao 4.2 e o Decreto DF 48.727 em 5.14, 5.15, 7.1 e 7.3.
+    A verificacao J deixou de ter a ordem em copia hardcoded e passou a LER a
+    ESTRUTURA PADRAO de redacao_02/00_metodo.md, secao "A ESTRUTURA PADRAO - 9
+    secoes". Confere titulo a titulo e checa a ordem interna da secao 5
+    (fluxo -> equipe -> metas -> indicadores). Os 9 titulos batem exatamente.
+  achados_reais_3: |
+    Perguntado se o plano todo segue o modelo dos aprovados (01/09/2026), medi
+    secao a secao contra os dois esqueletos atestados. As 9 secoes tem
+    contrapartida nos dois modelos. Dois desvios encontrados:
+    (a) a secao 5.15 declarava TRES metas e a planilha orcava DUAS - Meta 3 sem
+    dotacao. O ISHP tem Meta 03 com rubrica propria (Etapa 3.1 - Gestao
+    Administrativa, Monitoramento e Pos-Execucao; item 3.1.1 Assessoria de
+    Prestacao de Contas: R$ 187.095 no pt_ses_01 e R$ 29.600 no pt_ses_05); o IEV
+    so tem Meta 01 e 02. Como o nosso texto declarava tres, a planilha foi
+    dividida em tres: Meta 1 R$ 626.350,00, Meta 2 R$ 7.832.635,72, Meta 3
+    R$ 41.000,00 (assistente financeiro + nuvem). Total inalterado. Nasceu dai a
+    verificacao P.
+    (b) a secao 1.3 Fundamentacao nao existe em nenhum dos cinco - unico acrescimo
+    estrutural nosso, mantido por decisao a confirmar com o usuario.
+  achados_reais_2: |
+    Secao 1.1 repetia CNPJ, endereco, representante legal e qualificacao, que ja
+    estavam na secao 4.1 - apontado pelo usuario em 01/09/2026. Consertei na
+    direcao ERRADA: tirei os campos da secao 1 e deixei so na 4. O usuario
+    perguntou se nos aprovados a identificacao nao vinha antes, e vinha: os cinco
+    abrem por quadro cadastral tabular (ISHP "DADOS E INFORMACOES DA OSC"; IEV
+    "1. DADOS CADASTRAIS DO PROPONENTE") e trazem depois "APRESENTACAO DO
+    PROPONENTE" em texto NARRATIVO, nao em segunda tabela. Refeito assim:
+    1.1 Dados cadastrais do proponente (quadro completo), 1.2 Dados do
+    instrumento, 1.3 Fundamentacao; secao 4.1 virou narrativa. Nenhum dos cinco
+    traz natureza juridica como campo de tabela - e declarada no texto; e o CNES
+    nao aparece no quadro inicial. Nasceu dai a verificacao O.
+  achado_real: "titulo 3.3 anunciava argumento ('O que o atraso produz') e violava a regra dos sintagmas nominais - renomeado para 'Estadiamento ao diagnostico e tempo de tratamento'"
+  notebooklm:
+    data: 2026-09-01
+    fonte_subida: "PLANO EM CONFERENCIA — redacao_03 (OCI endoscopia)"
+    consultas: [C1, C3, C2, C4]
+    achado_maior: |
+      TETO MAC (C4, artigo corrigido na fonte): Portaria GM/MS 10.297/2026, art. 23,
+      I, alinea "e" - para entidade privada sem fins lucrativos cadastrada no CNES o
+      limite corresponde a ate 100% da producao aprovada em MAC da unidade apurada em
+      2025 (SIA e SIH); o art. 22 manda a SAES divulgar no portal do FNS. Se a
+      producao de 2025 do proponente for inferior a R$ 8.499.985,72, o convenio
+      inteiro se redimensiona. Entrou como condicao de partida em 4.2 e como secao
+      B-bis de pendencias.md. A C4 citara o art. 36, que trata de frota do SAMU.
+    c2_v2: |
+      Reformulada com restricao por source_ids aos cinco aprovados: transcricao
+      coerente, sem confabular sobre o nosso plano. MAS errou valores - deu
+      assistente a 4.300 e recepcionista a 3.000; a extracao local mostra 3.200
+      para os dois, confirmando os nossos precos. Regra: C2 serve para estrutura e
+      inventario de itens, nunca para valor. Preco se le de
+      normalizados/<plano>/planilha.csv.
+      Achados incorporados: R-11 (indisponibilidade de medico endoscopista - os dois
+      planos do ISHP trazem risco equivalente) e R-12 (acesso indevido a dado de
+      paciente - os tres do IEV trazem). R-08 ampliado para cobrir tambem
+      indisponibilidade de sistema DA CONCEDENTE.
+      Nao incorporados, por serem exclusoes deliberadas ja documentadas: recepcao,
+      limpeza, vigilancia, energia, agua, locacao de imovel, estoquista, assistente
+      social, psicologo, comunicacao institucional.
+    c2_v1_inutilizavel: |
+      A C2 voltou sem sources_used e confabulou o conteudo do nosso plano em 11 de 15
+      pontos verificados por grep: inventou dirigente (o do IEV), 6 parcelas
+      bimestrais, riscos ate R-12, indicadores ate I-08, secao de fundamentacao
+      juridica ja cortada, citacao de CFM 2.410/2024 e cronograma M01-M12. Nada foi
+      incorporado. A consulta foi reformulada em conferencia_notebooklm.md: ele
+      transcreve os aprovados, a comparacao e nossa, por grep.
+    c4_defasada: |
+      A C4 leu o instantaneo anterior as correcoes da C1 e apontou como defeito a
+      subcontratacao e o CNS, ja consertados. Reforcada a regra de re-subir o
+      plano.md antes de cada rodada.
+    achados_confirmados:
+      - "CPF OBRIGATORIO: a Portaria SAES/MS 2.747/2025, art. 1o, deu nova redacao ao art. 14 da 1.640/2024 - 'obrigatoriamente por meio do CPF'. O plano reproduzia a redacao anterior. CORRIGIDO em 5.13"
+      - "TELECONSULTA marcada como obrigatoria na tabela 2.2; o obrigatorio e o RETORNO, em consulta OU teleconsulta. CORRIGIDO em 2.2 e 2.3"
+      - "CONTRADICAO INTERNA entre 5.5 (conducao pelo endoscopista) e 5.11/5.12 (medico responsavel pela sedacao como posto distinto). CORRIGIDO: e o mesmo medico na sedacao consciente"
+      - "SUBCONTRATACAO: art. 33 do Decreto DF 48.727/2026 admite subcontratar so atividade ACESSORIA. O plano dizia polos 'do proponente ou por ele contratados' e listava servicos medicos como subcontratacao. CORRIGIDO: polos sao capacidade instalada do proponente, equipe propria (art. 33 §4o), e a lista de terceiros ficou so com acessorias"
+      - "NGC ausente: o art. 7o da 1.640/2024 exige Nucleo de Gestao do Cuidado cadastrado no CNES (servico 170, classificacao 002). ACRESCENTADO as condicoes de partida"
+      - "SISCAN ausente: art. 13 §4o da 1.640/2024 manda manter o registro no SISCAN dos procedimentos de monitoramento do cancer. ACRESCENTADO em 5.13"
+    nao_incorporados:
+      - "quinto digito 7, carater eletivo, tipo de APAC 3-Unica, regra 0011: detalhe de preenchimento que nenhum aprovado descreve - incorporar seria assumir obrigacao voluntaria"
+      - "programacao na FPO: ato do gestor, nao do convenente (teste do leitor, pergunta 2)"
+      - "lista dos motivos de saida: nao muda nada no plano"
+      - "afirmacoes 'sem lastro' apontadas pelo NotebookLM (15 dias, coeficientes de tempo, papel, +-15%, 95%): sao dimensionamento nosso, e o plano nao as apresenta como norma"
+    licao_de_metodo: |
+      A C1 voltou SEM sources_used e eu tratei o achado do CPF como falso positivo
+      depois de grep no texto.md da 2.747/2025 - que traz anexada a redacao ANTIGA
+      do art. 14. O artigo alterador estava em tabelas/p001_t01.csv. A C3 voltou COM
+      citacao e me corrigiu. Regra nova no PADRAO.md, secao 6: conferir tambem
+      extraidos_normas/<norma>/tabelas/*.csv, nao so o texto.md.
+
+  defeito_apanhado_pela_H: |
+      A mutacao H passou batido depois que escrevi no estado.yaml uma frase citando
+      R$ 8.499.985,72 em prosa: a verificacao procurava a string em qualquer lugar do
+      arquivo, e a prosa mascarava divergencia no parametro. H foi reescrita para ler
+      o VALOR DA CHAVE (derivados.valor_global, quantitativo_oci, apoio_total) e
+      comparar numericamente.
+
+  generalizacao:
+    data: 2026-09-01
+    o_que: "as duas ferramentas sairam de redacao_03/ para a raiz e passaram a valer para qualquer plano"
+    parametros_lidos_do_estado_yaml: ["valor_unitario.valor", "origem_recurso.valor", "polos.nomes", "dias_uteis", "objeto.oci"]
+    estrutura_lida_de: PADRAO.md
+    defeitos_apanhados_na_generalizacao:
+      - "G conferia 2 dos 3 polos: o estado.yaml grava 'ceilandia' sem acento e a tabela diz 'Ceilandia'. Passou a comparar sem acento, e a acusar quando o numero de colunas de polo nao bate com o declarado"
+      - "N lia o unitario do estado.yaml em vez do que o plano afirma - nao pegava plano declarando outro valor. Passou a ler a linha da Meta 2"
+  defeitos_do_proprio_teste_corrigidos:
+    - "F lia a linha de total como parcela"
+    - "G lia a coluna 'como se chega' como um quarto polo"
+    - "H exigia o unitario em pendencias.md, que por desenho nao o carrega"
+    - "L confundia os 7,9% de estadio 0-IA com o percentual de apoio sobre o global"
+    - "M nao normalizava ponto de milhar no nome do arquivo (10.297)"
+    - "N usava constantes fixas em vez de conferir o que o plano afirma"
+    - "o arnes copiava so redacao_03, desligando M e N por falta de normas/"
+
+notebooklm:
+  id: 4b564246-d0c2-437f-a150-afadbec9c676
+  url: https://notebooklm.google.com/notebook/4b564246-d0c2-437f-a150-afadbec9c676
+  fontes: "27 normas + 5 planos aprovados + 2 compilacoes + 1 relatorio de pesquisa profunda"
+
+  bateria_c1_c4:
+    data: 2026-09-02
+    versao_conferida: "PLANO EM CONFERENCIA v3 - redacao_03 (02-09-2026).md"
+    source_id: d4e48799-aedb-4e49-b110-573e66eda612
+    observacao: >
+      C1, C3 e C4 voltaram com sources_used e citacao de trecho. C2 nao retornou
+      dentro da sessao (query 6e2cad04c42b) - nao foi substituida por suposicao.
+      As duas versoes antigas do plano (c6fae4b6 v1, c525b909 v2) seguem no caderno;
+      toda consulta foi restringida por source_ids.
+    corrigidos_no_plano:
+      - "8.4 papel: 52.000 folhas / 104 resmas -> 52.020 / 105, alinhado a linha 1.2.1"
+      - "8.4 paragrafo 'Notebooks' excluido: contradizia 8.3, que declara nao haver
+         rubrica de informatica, e nao tinha linha na planilha - residuo da troca de
+         tecnologia por pessoal em 01/09"
+      - "8.5 diferenca nao aplicada: R$ 3.020,00 -> R$ 19,45, coerente com 3.3"
+      - "5.11, 5.12 e 8.3: a alta da SRPA deixou de ser atribuida ao endoscopista e
+         passou ao medico responsavel pela sala de recuperacao - CFM 2.174/2017,
+         art. 7, par. 5: responsabilidade exclusiva de anestesista OU do plantonista
+         da SRPA. Sem impacto financeiro: a equipe da SRPA ja esta dentro dos 600,11"
+      - "4.2: nova condicao de partida - laboratorio de anatomia patologica cadastrado
+         como terceiro no CNES do estabelecimento executante (Manual PMAE, secao 5)"
+    decisoes_do_usuario:
+      duas_consultas_na_mesma_apac: >
+        Mantido o desenho: consulta na entrada e retorno por teleconsulta. Fundamento
+        local: a propria descricao vigente do 09.01.01.007-3, fixada pela Portaria
+        SAES/MS 4.653/2026, arrola "consulta medica especializada [...] consulta ou
+        teleconsulta de retorno" na mesma OCI. O usuario acrescentou que o recurso nao
+        vem do Ministerio - usa-se o modelo OCI como base parametrica, nao se fatura
+        pelo PMAE. A quantidade de compatibilidade da consulta permanece nao conferida
+        no SIGTAP.
+      sedacao_pelo_endoscopista: >
+        Mantido. CFM 2.174/2017, art. 5, "a" e recomendacao ("recomenda-se"), nao
+        vedacao - criterio do usuario: se nao e proibido, pode. So a alta da SRPA,
+        que a norma trata como exclusiva, foi realocada.
+      faec: >
+        Sem alteracao. O recurso e de emenda, aplicado como incremento MAC. A regra
+        condicionada 0012 da SAES 2.630/2025 diz respeito ao atributo de financiamento
+        do procedimento secundario no registro - seria FAEC no caso de execucao por
+        habilitacao/cadastramento, que nao e o nosso.
+    em_aberto:
+      - "C2 - inventario dos cinco aprovados: nao retornou; rodar de novo"
+      - "quantidade de compatibilidade de 03.01.01.007-2 na OCI 09.01.01.007-3: exige SIGTAP"
+      - "comprovacao de capacidade tecnica e programa de governanca (Decreto DF
+         48.727/2026 art. 5; Portaria GM/MS 10.297/2026 art. 71, par. unico) - pendencia conhecida"
+    lacuna_da_suite: >
+      As tres divergencias internas nasceram da mudanca de 13.000 para 13.005 e
+      passaram pelas 17 verificacoes sem disparar nada: A, B e C conferem tabela
+      contra tabela e nenhuma confere a prosa contra a tabela. Falta a verificacao R
+      - numero citado em texto tem de bater com o numero da linha correspondente.
+
+  verificacao_R_prosa_contra_tabela:
+    data: 2026-09-02
+    conferencias: 18            # A a R
+    mutacoes: 22                # 22/22 apanhadas
+    o_que_faz: >
+      R.1 valor em reais citado na prosa tem de existir em alguma tabela do plano, em
+      UNIT/RECURSO do estado.yaml, ou vir de norma citada no mesmo paragrafo.
+      R.2 quantidade dita com rotulo de item ou de unidade da planilha (posto, resma,
+      polo, OCI) tem de ser uma quantidade daquela planilha - a propria, o subtotal da
+      tabela ou a soma geral.
+      R.3 consumo derivado da unidade produzida ("quatro folhas por OCI") tem de bater
+      com fator x quantitativo.
+      Nada e especifico do redacao_03: os rotulos saem do nome do item e da coluna
+      "un.", a unidade produzida sai da linha cujo valor unitario e igual ao do
+      estado.yaml, e os valores aceitos saem da coluna "qtd".
+    prova: >
+      Reinjetados os quatro defeitos reais de 02/09/2026 numa copia (104 resmas,
+      9 postos, 52.000 folhas, R$ 3.020,00): a R apanhou os quatro de uma vez.
+    falso_positivo_previsto: >
+      Valor de norma citado na prosa (R$ 48,16 e R$ 350,12 em 8.1) nao aparece em
+      tabela nenhuma e e legitimo - por isso a dispensa quando o paragrafo cita norma.
+      Rotulo generico demais ("meses", "item", "valor") esta na lista VAZIAS.
+
+  encerramento_02_09_2026:
+    c2_nao_rodou: >
+      Tentada tres vezes (uma na bateria, duas no fechamento): a consulta de
+      inventario dos cinco aprovados estoura o tempo do NotebookLM - e transcricao
+      integral de cinco PDFs grandes. Feita localmente com normalizados/*/planilha.csv,
+      que e o que o proprio conferencia_notebooklm.md manda usar para valores.
+      Resultado do inventario local: os cinco aprovados tem Etapa 1.2 de
+      infraestrutura fisica e tecnologica com dinheiro de verdade (pt_ses_01 tem 11
+      rubricas, de 150,00 a 39.900,60); a nossa Etapa 1.2 tem so papel. E diferenca
+      deliberada - a estrutura assistencial esta dentro dos 600,11 e os polos existem
+      antes do convenio - e esta declarada em 8.1 e 8.3. Fica registrado porque o
+      parecerista que comparar vai ver.
+      Achado de preco: a assessoria de prestacao de contas aparece no pt_ses_01 a
+      R$ 5.455,00 e adotamos R$ 3.700,00, que e a linha do pt_ses_05 (Meta 03,
+      Etapa 3.1, 1 servico x 8 meses = 29.600,00). Confere.
+    varredura_dos_arquivos_de_apoio: >
+      A regra 7 vale para fora do plano.md tambem. Os numeros da meta de 13.005
+      tinham ficado para tras em quatro arquivos: dados/envelope.md (material de
+      consumo 3.120 -> 3.150; apoio por OCI 53,50 -> 53,48; custo por OCI 653,61 ->
+      653,59; rateio 5.050/5.050/2.900 -> 5.046/5.057/2.902; 8,19% -> 8,18%; "numero
+      redondo" -> "piso da divisao"), dados/valor_unitario.md (apoio por OCI 52,19 ->
+      53,48; custo 652,30 -> 653,59; +8,70% -> +8,91%), dados/parametros_tecnicos.md
+      (OCI por polo e entradas por dia util), 00_metodo.md (13.030 -> 13.005 e o
+      custo por OCI), secoes/04_fluxo_briefing.md (13.030 -> 13.005) e pendencias.md
+      (rateio, valor global, percentuais, "quatro polos" -> tres, secao E inteira,
+      que ainda listava os precos de sistema, nuvem, notebook, impressora e internet
+      que sairam da planilha em 01/09).
+    pendencias_novas_registradas:
+      - "B: cadastro do laboratorio de AP como terceiro no CNES"
+      - "B: programa de governanca (10.297/2026 art. 71) e comprovacao de capacidade tecnica (48.727/2026 art. 5, IV)"
+      - "V-10: quantidade de compatibilidade do 03.01.01.007-2 dentro da OCI, no SIGTAP"
+    estado_final:
+      conferencia: "18/18"
+      arnes: "22/22"
+      docx: "gerado de plano.md"
+
+  reforco_da_equipe_operacional_02_09_2026:
+    pedido_do_usuario: >
+      "Vamos analisar de forma mais profunda a planilha. Para comecar vamos retirar as
+      resmas. Acho que ta faltando pessoal para fazer o trabalho bruto mesmo,
+      lancadores de sistemas, secretarios etc."
+    achado_da_analise: >
+      A tabela de postos de 5.11 listava 9 postos e a planilha tinha 11: o assistente
+      administrativo por polo estava na planilha, com passo declarado, e faltava na
+      tabela. Nenhuma das 18 verificacoes pegava isso - A e B conferem dinheiro, R
+      confere prosa contra tabela, e ninguem confere tabela de postos contra planilha.
+      Era tambem a origem da frase "9 postos" corrigida de manha.
+      Os tempos unitarios do registro tambem estavam otimistas: 5 min para abrir a
+      APAC com principal e ate quatro secundarios, 3 min para encerrar, e nada para o
+      SISCAN nem para a critica de rejeicao.
+    o_que_mudou:
+      - "papel: linha 1.2.1 e Etapa 1.2 inteira removidas; o impresso do percurso
+         passou para a delimitacao de 8.3, junto com o resto do que os polos ja fazem"
+      - "tempos refeitos: abertura da APAC 5 -> 8 min, encerramento 3 -> 5 min, mais
+         SISCAN (30% dos casos, 4 min) e critica de rejeicao (10%, 10 min);
+         agendamento 3 -> 4 min e confirmacao 1 -> 1,5 min, mais reagendamento de falta"
+      - "postos: agendamento 2 -> 3 (16,62 h/dia), registro 2 -> 4 (18,71 h/dia),
+         rastreamento 1 -> 2 (5,70 h/dia da um posto; o segundo e retaguarda declarada
+         no ponto que decide a conclusao da OCI), secretaria executiva nova (1)"
+      - "Etapa 1.1: 11 -> 16 postos, 623.400 -> 799.000"
+      - "apoio 695.550 -> 868.000 (8,18% -> 10,21% do global)"
+      - "meta 13.005 -> 12.717 OCI: 288 OCI e o preco dos 5 postos"
+      - "cascata refeita: rateio 4.934/4.945/2.838, curva 620/1.240/7x1.551,
+         73,86 por dia util, ocupacao das salas 66/66/57%, 4 parcelas, cobertura da
+         fila 52,30% -> 51,14%"
+    equipamento_nao_mudou: >
+      8 salas, 11 postos de SRPA, 80 lugares e 16 endoscopios seguem os mesmos: a
+      demanda diaria caiu de 75,52 para 73,86 e nenhum limite fisico foi cruzado.
+    defeitos_da_ferramenta_corrigidos_na_mesma_rodada:
+      - "A e B tinham '1.1.1' e '1.2.1' fixos no codigo e quebraram quando a Etapa 1.2
+         saiu. Agora etapas_da_planilha() acha toda tabela de etapa e deduz a meta do
+         codigo do item - o plano decide quantas etapas tem, nao a ferramenta"
+      - "G exigia IGUALDADE entre salas publicadas e o minimo teorico. Com 28,67
+         entradas o minimo caiu para 2 e o plano publica 3, que e a folga declarada de
+         66% de ocupacao. G passou a exigir MINIMO, e a amarrar o numero publicado
+         pela ocupacao declarada - que e o que de fato prende o valor"
+      - "mut_B mordia 'Etapa 1.2' pelo nome e ficou sem ancora; agora morde qualquer subtotal"
+      - "mut_R2 trocou '3 postos' por '17 postos' e a verificacao ACEITOU, com razao:
+         16 postos da Meta 1 mais 1 da Meta 3 sao 17. O mutador passou a saltar 100"
+      - "mut_R3 nao tem onde morder num plano sem consumo derivado; o arnes ganhou
+         predicado de aplicabilidade e reporta NAO SE APLICA em vez de falso alarme"
+    estado_final:
+      conferencia: "18/18"
+      arnes: "21/21, 1 nao se aplica"
+
+  teto_de_8_5_por_cento_02_09_2026:
+    decisao_do_usuario: "pode chegar ate 8,5%"
+    antes: "868.000 = 10,21% com 17 pessoas (equipe reforcada sem teto)"
+    depois: "697.200 = 8,20% com 15 pessoas · meta 13.002 OCI"
+    o_que_nao_cabia: >
+      Com as DUAS coordenacoes e a assessoria mantidas, o teto de 8,5% comportava no
+      maximo 2 operadores de registro - exatamente o que o usuario mandou consertar.
+      Direcao + 2 coordenacoes + assessoria custavam 392.000, 54% do teto de 722.000.
+      A trava nunca foi o trabalho bruto; era o bloco de gestao.
+    o_que_saiu:
+      - "uma das duas coordenacoes: a Administrativa e Financeira e a Assistencial
+         viraram Coordenacao de Execucao unica (-105.000). Fundamento: o convenio nao
+         executa a assistencia - cada polo tem Responsavel Tecnico proprio e a equipe
+         assistencial esta dentro dos 600,11. A coordenacao articula, nao executa"
+      - "o segundo posto de rastreamento, que era retaguarda declarada e nao vinha da
+         carga horaria (-28.800)"
+      - "a assessoria de prestacao de contas (-37.000). Tres dos cinco aprovados -
+         pt_ses_02, 03 e 04 - nao contratam assessoria; ficam com assistente
+         financeiro, que e o que sobrou aqui. Primeira linha a reentrar se o teto subir"
+    o_que_ficou: >
+      Os 4 lancadores e a secretaria executiva, que foram o pedido do usuario, mais os
+      3 assistentes de agendamento. A equipe operacional derivada da carga horaria
+      ficou inteira: 3 + 4 + 1 postos para 16,99 h, 19,13 h e 5,77 h por dia util.
+    cascata: >
+      A meta subiu de 12.717 para 13.002 e a producao voltou ao patamar de 1.586/mes e
+      75,52/dia util - com isso o dimensionamento fisico voltou aos numeros originais:
+      3/3/2 salas a 68/68/59% de ocupacao, 4/4/3 postos de SRPA, 6/6/4 endoscopios.
+      Rateio 5.044/5.056/2.902. Cobertura da fila 52,28%.
+    nota_de_registro: >
+      Corrigido tambem um erro antigo do proprio estado.yaml: a nota dizia que a
+      montagem "deu abaixo dos 8% fixados" quando dava 8,18%, acima. O plano nunca
+      esteve em 8%.
+
+  equipe_no_polo_02_09_2026:
+    critica_do_usuario: >
+      "Nao faz muito sentido isso, precisamos de pessoas em loco no polo para fazer a
+      recepcao, anotar ficha, ate mesmo lancar as coisas."
+    erro_que_ela_apanhou: >
+      Eu havia inventado uma central de registro que recebia "o movimento do dia" dos
+      polos - passo que nao existe na operacao real. Quem atende preenche, e quem
+      preenche lanca, no mesmo lugar e no mesmo dia. A construcao anterior tinha 4
+      lancadores numa central e 1 assistente por polo, e criava uma transmissao de
+      dados entre unidades que so servia para atrasar a APAC e multiplicar erro.
+    regra_que_ficou: >
+      O que acontece com o usuario PRESENTE acontece no polo e e registrado la:
+      acolhimento, conferencia de jejum e acompanhante, ficha, termo, entrega do laudo,
+      abertura e encerramento de APAC, SISCAN, critica de rejeicao - 27,2 min por OCI.
+      O que INDEPENDE do usuario presente e unico para os tres polos e nao se triplica:
+      fila da regulacao, busca ativa, cobranca de laudo de terceiro, prestacao de contas.
+    equipe_final:
+      polo: "8 postos - Ceilandia 3, Sobradinho 3, Gama 2. Em cada um, 1 Operador de
+             registro e APAC (4.300) e o restante Assistente de polo (3.200)"
+      coordenacao: "8 postos - direcao, coordenacao de execucao, secretaria, 3 de
+                    agendamento e busca ativa, 1 de rastreamento de laudo, 1 financeiro"
+      total: "16 pessoas"
+    fechamento:
+      apoio: 718200.00
+      percentual: 0.0845          # sob o teto de 8,5%
+      meta: 12967
+      global: 8499826.37
+      sobra: 173.63
+    nota: >
+      Distribuir custou 1 posto: 8 nos polos contra 7 que a mesma carga exigiria numa
+      central unica, porque o arredondamento para cima acontece tres vezes em vez de
+      uma. Coube assim mesmo - 8,45% contra teto de 8,5%.
+
+  duplicidade_do_assistente_de_polo_02_09_2026:
+    pergunta_do_usuario: "O que seria um assistente de polo?"
+    o_que_ela_achou: >
+      O posto que eu criei fazia "acolhimento, conferencia de jejum e acompanhante,
+      ficha e termo" - e a secao 5.4 ja dizia que quem faz isso e "a recepcao do polo",
+      que a secao 5.12 declara DENTRO dos 600,11. Cinco postos, R$ 160.000, fazendo o
+      que o plano afirmava estar pago no valor unitario. E a duplicidade de custeio que
+      a propria 5.12 existe para impedir - e teria sido achado de parecer.
+    correcao: >
+      Sem mudar valor: o posto passou a ser "Assistente de polo - conferencia e
+      documentacao da OCI" e a fronteira ficou escrita nos tres lugares. A recepcao do
+      polo faz identificacao e documentacao de rotina de TODOS os usuarios do servico,
+      dentro do unitario. O assistente do convenio faz o que a OCI exige alem disso:
+      confere o comparecimento contra a lista do dia, o jejum e o acompanhante
+      (art. 12 da RDC 6/2013, verificacao que decide se o exame acontece e que aciona
+      a busca ativa), colhe o termo, abre a ficha da OCI e confere a completude do
+      conjunto antes do lancamento. Controle documental do convenio, nao atendimento.
+    licao: >
+      Posto novo na planilha obriga a procurar quem ja fazia aquilo no texto. A busca e
+      por VERBO, nao por nome do posto: "confere", "colhe", "acolhe". Nenhuma das 18
+      verificacoes pega isso - a delimitacao de 5.12 e prosa contra prosa.
+
+  nomes_dos_postos_alinhados_ao_acervo_02_09_2026:
+    pedido: "Nao conseguimos deixar um outro nome? Algo mais parecido com o que tem nos outros"
+    fonte: "normalizados/*/planilha.csv, coluna DESCRICAO dos cinco aprovados"
+    trocas:
+      - "'Assistente de polo - conferencia e documentacao da OCI' -> **Recepcionista**.
+         E o nome do acervo em tres dos cinco: pt_ses_01 (4 x 4.155), pt_ses_02
+         (16 x 3.200) e pt_ses_03 (6 x 3.200). Nosso preco, 3.200, e o mesmo do 02 e 03"
+      - "'Operador de registro e APAC' -> **Operador de registro de sistemas**, nome e
+         preco identicos ao pt_ses_02 (15 x 4.300)"
+      - "'Coordenacao de Execucao' -> **Coordenacao Administrativa, Financeira e
+         Assistencial**, composta dos dois nomes do pt_ses_01, que e de onde vem o
+         preco de 10.500"
+    consequencia_boa: >
+      O achado de duplicidade da rodada anterior se dissolve. Eu tinha declarado em
+      5.12 que "recepcao do polo" estava dentro dos 600,11 e criado um posto que fazia
+      a mesma coisa. O acervo mostra que a pratica aprovada e OUTRA: o pt_ses_02 e plano
+      de OCI, compra OCI a 100/140/360 E custeia 16 recepcionistas na planilha. Entao a
+      recepcao saiu da lista do que esta dentro do unitario, o posto voltou a se chamar
+      Recepcionista e 5.4 tem um ator so. Nenhum valor mudou.
+    licao: >
+      Antes de inventar nome de posto, ler a coluna DESCRICAO dos aprovados. O acervo
+      ja nomeou quase tudo, e nome reconhecivel e meio caminho da aprovacao.
+
+  ajustes_do_usuario_02_09_2026_noite:
+    - o_que: "campos de tempo em cada etapa"
+      decisao: "a coluna 'periodo' saiu da tabela de etapas de 6.1"
+      nota: >
+        O quando continua no documento em dois lugares mais precisos: o paragrafo
+        logo abaixo da tabela (producao do mes 1 ao 9, decimo mes e a janela de
+        conclusao) e a curva de 6.2, mes a mes. A tabela de etapas ficou com o que
+        so ela tem: conteudo e entrega verificavel.
+    - o_que: "secao 5.12 - Delimitacao entre execucao assistencial e apoio"
+      decisao: "removida; 5.13 a 5.17 renumeradas para 5.12 a 5.16"
+      nota: >
+        A funcao dela nao se perdeu: a secao 8.3 ja fazia a mesma delimitacao, item a
+        item, e faz melhor - esta ao lado da planilha, que e onde a duplicidade de
+        custeio seria cometida. A 5.12 era a mesma lista dita duas vezes.
+        Referencias cruzadas ajustadas, inclusive uma que estava errada desde antes:
+        5.9 apontava o indicador I-04 para a subsecao 5.14 quando os indicadores
+        estao na 5.16 (hoje 5.15).
+    - o_que: "parcelas"
+      decisao: "quatro parcelas TRIMESTRAIS - meses 1-3, 4-6, 7-9 e o mes 10"
+      antes: "1-2, 3-5, 6-8, 9-10"
+      efeito: >
+        parcela 1 sobe de 1.286.409,00 para 2.308.282,91 porque passa a cobrir tres
+        meses de producao (3.481 OCI) em vez de dois; 2 e 3 ficam em 3.065.621,73;
+        a parcela 4 cobre so o mes 10, que nao tem producao - sao 60.300,00 de apoio,
+        o custo da equipe de 10 meses no mes de conclusao e encerramento.
+      leitura_do_pedido: >
+        O usuario escreveu "do 4 ao 6", "do 6 ao 9" e "9 ao 10", com sobreposicao.
+        Adotado o encadeamento sem repeticao que a primeira frase fixa - "a primeira
+        vale para os 3 primeiros meses" -, e a verificacao F exige exatamente isso:
+        meses 1 a 10 cobertos uma vez cada.

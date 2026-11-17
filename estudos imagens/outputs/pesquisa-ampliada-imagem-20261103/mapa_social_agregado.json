@@ -1,0 +1,36 @@
+{
+  "fonte": "https://paineis-ext.mpdft.mp.br/extensions/mapasauderegulamentacao/mapasauderegulamentacao.html",
+  "atualizado": "03/11/2026 14:32:34",
+  "metodo": "Leitura agregada da interface pública; sem ano, status ou unidade selecionados. Filtro de grupo ou nome exato conforme linha. Executor identificado pela tabela de detalhes e KPI de unidade única. Não é auditoria de contrato nem coleta completa da base.",
+  "recortes": [
+    {
+      "filtro": "Grupo Procedimento = GRUPO - CINTILOGRAFIA",
+      "agendamentos": 5328,
+      "unidades": 1,
+      "executor": "HUB",
+      "anos_agendados": {
+        "2025": 1828,
+        "2026": 3500
+      },
+      "realizados_exibidos": {
+        "2025": 1064,
+        "2026": 1618
+      }
+    },
+    {
+      "filtro": "Procedimento = TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT)",
+      "agendamentos": 4983,
+      "unidades": 1,
+      "executor": "HBDF",
+      "anos_agendados": {
+        "2021": 65,
+        "2022": 1407,
+        "2023": 653,
+        "2024": 808,
+        "2025": 928,
+        "2026": 1122
+      },
+      "realizados_exibidos": null
+    }
+  ]
+}

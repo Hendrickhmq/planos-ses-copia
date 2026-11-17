@@ -1,0 +1,10 @@
+id: "SAES 3951-2026 altera 3199 3200 3245"
+arquivo: "SAES 3951-2026 altera 3199 3200 3245.html"
+sha256: "33ddda2ede80c30c86c034d38b75b48d376590ecf99edae8aeac68cb163ebb9d"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 23519
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

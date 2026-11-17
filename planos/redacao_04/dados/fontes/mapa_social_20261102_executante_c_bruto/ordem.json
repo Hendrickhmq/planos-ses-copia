@@ -1,0 +1,38 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "panorama",
+ "plano": "planos/redacao_04",
+ "pedido": "Quem oferta cada exame da carteira 1 do plano 4: agendamentos, realizados e faltas por unidade executante e por mês, nos 17 códigos da carteira, para a aba Quem oferta.",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [],
+ "minimo": 1,
+ "universo": [
+  {
+   "rotulo": "carteira 1 do plano 4",
+   "codigos": [
+    "02.05.01.004-0",
+    "02.05.02.003-8",
+    "02.05.02.004-6",
+    "02.05.02.005-4",
+    "02.05.02.007-0",
+    "02.05.02.009-7",
+    "02.05.02.010-0",
+    "02.05.02.012-7",
+    "02.05.02.016-0",
+    "02.05.02.017-8",
+    "02.05.02.018-6",
+    "02.06.01.004-4",
+    "02.06.01.005-2",
+    "02.06.01.007-9",
+    "02.06.02.003-1",
+    "02.06.03.001-0",
+    "02.06.03.003-7"
+   ]
+  }
+ ],
+ "por_codigo": [
+  "oferta",
+  "executante"
+ ]
+}

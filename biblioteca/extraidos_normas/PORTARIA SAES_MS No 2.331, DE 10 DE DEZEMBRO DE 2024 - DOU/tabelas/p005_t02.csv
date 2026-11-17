@@ -1,0 +1,11 @@
+C ódigo do Procedimento,Nome do Procedimento,Alterações
+09.02.01.005-0,OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA II - SÍNDROME CORONARIANA CRÔNICA,"Alterar idade mínima para 18 anos. Alterar o valor do Serviço ambulatorial para: R$ 840,00"
+09.02.01.001-8,OCI AVALIAÇÃO DE RISCO CIRÚRGICO,Alterar idade mínima para: 18 anos.
+09.02.01.002-6,OCI AVALIAÇÃO CARDIOLÓGICA,Alterar idade mínima para: 18 anos.
+09.02.01.003-4,OCI AVALIAÇÃO DIAGNÓSTICA INICIAL - SÍNDROME CORONARIANA CRÔNICA,Alterar idade mínima para: 18 anos.
+09.02.01.004-2,OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA I - SÍNDROME CORONARIANA CRÔNICA,Alterar idade mínima para: 18 anos.
+09.02.01.006-9,OCI AVALIAÇÃO DIAGNÓSTICA - INSUFICIÊNCIA CARDÍACA,Alterar idade mínima para: 18 anos.
+09.01.01.001-4,OCI AVALIAÇÃO DIAGNÓSTICA INICIAL DE CÂNCER DE MAMA,Inclui CBO: 225250 - Médico ginecologista e obstetra
+09.05.01.001-9,OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - 0 A 8 ANOS,Excluir Categoria de CBO: 2231 - Médicos 2251 - Médicos Clínicos 2252 - Médicos em Especialidades Cirúrgicas 2253 - Médicos em Medicina Diagnóstica e Terapêutica
+,,"Incluir CBO: 225265- Médico oftalmologista Alterar descrição para: FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS DE 0 A 8 ANOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, TESTE ORTÓPTICO E BIOMICROSCOPIA E MAPEAMENTO DE RETINA. Excluir o CID H25 (catarata senil)"
+09.05.01.002-7,OCI AVALIAÇÃO DE ESTRABISMO,Excluir Categoria de CBO: 2231 - Médicos 2251 - Médicos Clínicos

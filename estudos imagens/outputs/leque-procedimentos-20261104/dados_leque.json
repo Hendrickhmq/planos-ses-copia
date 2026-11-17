@@ -1,0 +1,5999 @@
+{
+  "date": "04/11/2026",
+  "options": [
+    {
+      "label": "Densitometria",
+      "codes": [
+        "0204060028"
+      ],
+      "stock": 2178,
+      "recent": 2177,
+      "decision": "Cotar primeiro",
+      "difficulty": "Agenda curta relativamente às modalidades com sedação. Confirmar coluna/fêmur, laudo e equipamento.",
+      "scope": "Imagem; sem cobertura identificada no plano 4 ou OCI mapeadas"
+    },
+    {
+      "label": "Mamografia",
+      "codes": [
+        "0204030188"
+      ],
+      "stock": 6630,
+      "recent": 6580,
+      "decision": "Cotar em paralelo",
+      "difficulty": "Qualidade e laudo especializado. Prever investigação dos achados; não encerrar o cuidado no exame.",
+      "scope": "Imagem; conferir rastreamento versus diagnóstico no mesmo código local"
+    },
+    {
+      "label": "RM de crânio",
+      "codes": [
+        "0207010064"
+      ],
+      "stock": 1412,
+      "recent": 1410,
+      "decision": "Cotar primeiro",
+      "difficulty": "Triagem para implantes, claustrofobia, contraste e sedação. Não cotar tudo como RM simples.",
+      "scope": "Imagem; separar protocolos pediátricos e sedação"
+    },
+    {
+      "label": "RM abdômen superior",
+      "codes": [
+        "0207030014"
+      ],
+      "stock": 572,
+      "recent": 572,
+      "decision": "Cotar em paralelo",
+      "difficulty": "Definir protocolo e contraste, preparo e limite de peso.",
+      "scope": "Imagem; sem cobertura identificada na carteira anterior"
+    },
+    {
+      "label": "RM pelve/bacia, recorte a definir",
+      "codes": [
+        "0207030022"
+      ],
+      "stock": 1519,
+      "recent": 1519,
+      "decision": "Cotar com recorte",
+      "difficulty": "Protocolos de pelve, próstata e bacia não são intercambiáveis em custo. Fila mostrada é do código inteiro, ainda sem retirar ortopedia.",
+      "scope": "Imagem; conciliar bacia ortopédica do IEV e indicação urológica"
+    },
+    {
+      "label": "Colangiorressonância",
+      "codes": [
+        "0207030049"
+      ],
+      "stock": 116,
+      "recent": 116,
+      "decision": "Complemento de carteira",
+      "difficulty": "Exige protocolo de vias biliares e preparo. Não equivale a exame endoscópico terapêutico.",
+      "scope": "Imagem; volume menor"
+    },
+    {
+      "label": "Angio-RM cerebral",
+      "codes": [
+        "0207010013"
+      ],
+      "stock": 141,
+      "recent": 141,
+      "decision": "Complemento de carteira",
+      "difficulty": "Definir arterial/venosa, território e contraste. Código genérico não padroniza protocolo.",
+      "scope": "Imagem; cruzar pedido e protocolo"
+    },
+    {
+      "label": "RM sela/base do crânio/mastoides",
+      "codes": [
+        "0207010072",
+        "0207010021"
+      ],
+      "stock": 265,
+      "recent": 265,
+      "decision": "Complemento de carteira",
+      "difficulty": "Recortar sela, mastoides, ATM e base do crânio. Equipe e sequências dedicadas.",
+      "scope": "Imagem; duas referências SIGTAP distintas"
+    },
+    {
+      "label": "PAAF de tireoide",
+      "codes": [
+        "0201010470"
+      ],
+      "stock": 530,
+      "recent": 530,
+      "decision": "Explorar linha diagnóstica",
+      "difficulty": "Punção guiada e citopatologia precisam formar um percurso completo. Definir adequação da amostra e repetição.",
+      "scope": "Procedimento guiado; confirmar objeto e composição remunerável"
+    },
+    {
+      "label": "Core biópsia guiada",
+      "codes": [
+        "0201010542"
+      ],
+      "stock": 292,
+      "recent": 292,
+      "decision": "Explorar linha diagnóstica",
+      "difficulty": "Dispositivo, anestesia local, guia por US/mamografia/TC e anatomopatológico. Não tratar todos os órgãos como o mesmo custo.",
+      "scope": "Inclui filas mamárias; conciliar cobertura oncológica e indicação"
+    },
+    {
+      "label": "OCT oftalmológico",
+      "codes": [
+        "0211060283"
+      ],
+      "stock": 3906,
+      "recent": 3906,
+      "decision": "Investigar tarifa antes",
+      "difficulty": "Equipamento dedicado, segmento ocular e indicação SUS. OCT anterior, retina e OCT-A não são equivalentes.",
+      "scope": "Imagem oftalmológica; Candanga não localizada por esse código no anexo extraído"
+    },
+    {
+      "label": "Campimetria",
+      "codes": [
+        "0211060038"
+      ],
+      "stock": 3816,
+      "recent": 3816,
+      "decision": "Investigar linha de glaucoma",
+      "difficulty": "Cooperação do paciente, repetibilidade e definição de olhos/cobrança. Exame especializado.",
+      "scope": "Método oftalmológico; revisar objeto da emenda e contratos existentes"
+    },
+    {
+      "label": "Mapeamento de retina",
+      "codes": [
+        "0211060127"
+      ],
+      "stock": 9531,
+      "recent": 8817,
+      "decision": "Sobreposição a conciliar",
+      "difficulty": "Consulta/exame por oftalmologista, dilatação quando indicada e fluxo para tratamento.",
+      "scope": "ISHP tem 44.400 OCI oftalmológicas contratadas no acervo; exame obrigatório"
+    },
+    {
+      "label": "Retinografia fluorescente",
+      "codes": [
+        "0211060186"
+      ],
+      "stock": 1030,
+      "recent": 710,
+      "decision": "Complemento especializado",
+      "difficulty": "Contraste, avaliação clínica e suporte a intercorrências. Não confundir com retinografia colorida.",
+      "scope": "Imagem oftalmológica; cruzar cobertura assistencial"
+    },
+    {
+      "label": "Endoscopia digestiva alta",
+      "codes": [
+        "0209010037"
+      ],
+      "stock": 26155,
+      "recent": 18590,
+      "decision": "Grande alternativa se escopo permitir",
+      "difficulty": "Sedação quando indicada, recuperação, acompanhante, processamento do endoscópio e biópsia/patologia.",
+      "scope": "Endoscopia; confirmar objeto além de imagem radiológica"
+    },
+    {
+      "label": "Colonoscopia",
+      "codes": [
+        "0209010029"
+      ],
+      "stock": 22943,
+      "recent": 20242,
+      "decision": "Grande alternativa se escopo permitir",
+      "difficulty": "Preparo intestinal, sedação/anestesia, recuperação e eventual polipectomia/patologia. Preparação ruim gera repetição.",
+      "scope": "Endoscopia; separar a fila com anestesia e retaguarda"
+    },
+    {
+      "label": "Videolaringoscopia e endoscopia nasal",
+      "codes": [
+        "0209040041"
+      ],
+      "stock": 4603,
+      "recent": 2983,
+      "decision": "Alternativa com validação do código",
+      "difficulty": "Higienização, equipamento flexível/rígido e profissional. VED e videolaringoscopia não são automaticamente o mesmo pacote.",
+      "scope": "Mesmo código local reúne nasal, laringe e deglutição; validar mapeamento"
+    },
+    {
+      "label": "Polissonografia",
+      "codes": [
+        "0211050105"
+      ],
+      "stock": 8530,
+      "recent": 4110,
+      "decision": "Grande fila para projeto próprio",
+      "difficulty": "Leito/noite, técnico, laudo do sono e perdas técnicas. Tipo III domiciliar não substitui toda indicação de PSG completa.",
+      "scope": "Diagnóstico do sono; depende de adequação do objeto"
+    },
+    {
+      "label": "Eletroneuromiografia",
+      "codes": [
+        "0211050083"
+      ],
+      "stock": 9138,
+      "recent": 6312,
+      "decision": "Grande alternativa se escopo permitir",
+      "difficulty": "Tempo do especialista, segmentos, agulhas e protocolo. Duas filas podem pertencer à mesma pessoa.",
+      "scope": "Neurofisiologia; não foi demonstrada cobertura pelo IEV só por diagnóstico ortopédico"
+    },
+    {
+      "label": "EEG em vigília e sono espontâneo",
+      "codes": [
+        "0211050040",
+        "0211050024"
+      ],
+      "stock": 3472,
+      "recent": 2921,
+      "decision": "Alternativa de neurodiagnóstico",
+      "difficulty": "Preparação, qualidade da aquisição, duração e laudo. Separar sono induzido e vídeo-EEG.",
+      "scope": "Neurofisiologia; não é ECG reservado à cardiologia"
+    },
+    {
+      "label": "Espirometria",
+      "codes": [
+        "0211080055"
+      ],
+      "stock": 2561,
+      "recent": 2561,
+      "decision": "Explorar apenas com custo fechado",
+      "difficulty": "Técnico treinado, manobras reprodutíveis, controle de qualidade e broncodilatador. Tarifa baixa.",
+      "scope": "Função pulmonar; requer adequação de escopo e conciliação da oferta SES"
+    },
+    {
+      "label": "Audiometria/imitanciometria",
+      "codes": [
+        "0211070033"
+      ],
+      "stock": 8068,
+      "recent": 7684,
+      "decision": "Revisar código e IEV antes",
+      "difficulty": "Nome local é conjunto; código aponta campo livre. Validar tonal, vocal e imitanciometria sem faturar por aproximação.",
+      "scope": "IEV tem 11.590 OCI auditivas no acervo; forte risco de sobreposição"
+    },
+    {
+      "label": "BERA/potencial evocado auditivo",
+      "codes": [
+        "0211050113"
+      ],
+      "stock": 4647,
+      "recent": 3791,
+      "decision": "Revisar código e IEV antes",
+      "difficulty": "Idade, colaboração, eventual sedação e tipo de potencial. Código e indicação alteram remuneração.",
+      "scope": "Compatibilidades das OCI auditivas precisam ser conciliadas"
+    },
+    {
+      "label": "VENG/otoneurológico",
+      "codes": [
+        "0211070351"
+      ],
+      "stock": 1041,
+      "recent": 959,
+      "decision": "Investigação secundária",
+      "difficulty": "Protocolo vestibular e interpretação especializados. Não há preço Candanga localizado neste código.",
+      "scope": "Fora da imagem convencional; validar financiamento e código"
+    },
+    {
+      "label": "Colposcopia",
+      "codes": [
+        "0211040029"
+      ],
+      "stock": 696,
+      "recent": 672,
+      "decision": "Complemento de linha da mulher",
+      "difficulty": "Profissional, insumos e eventual biópsia/histologia. Tarifa isolada pequena.",
+      "scope": "GIN1 IEV não torna colposcopia automaticamente incluída; verificar outros instrumentos"
+    },
+    {
+      "label": "Holter e MAPA",
+      "codes": [
+        "0211020044",
+        "0211020052"
+      ],
+      "stock": 48912,
+      "recent": 17394,
+      "decision": "Avaliar na emenda de cardiologia",
+      "difficulty": "Aparelhos reutilizáveis, logística de retirada/devolução, perdas, instalação e laudo.",
+      "scope": "Usuário reservou eco e ECG; alocação de Holter/MAPA ainda não decidida"
+    },
+    {
+      "label": "PET-CT",
+      "codes": [
+        "0206010095"
+      ],
+      "stock": 379,
+      "recent": 379,
+      "decision": "Condicionado a preço integral",
+      "difficulty": "Traçador específico, logística, preparo e indicação coberta pelo SUS. Não usar PSMA como preço de FDG.",
+      "scope": "Imagem nuclear; oferta regulada HBDF identificada em 03/11"
+    },
+    {
+      "label": "Cintilografia óssea",
+      "codes": [
+        "0208050035"
+      ],
+      "stock": 1587,
+      "recent": 1587,
+      "decision": "Cotar lote limitado",
+      "difficulty": "Serviço nuclear licenciado, radiofármaco e imagens tardias. Não comporta fluxo de ultrassom rápido.",
+      "scope": "Imagem nuclear; conciliar cobertura oncológica e HUB"
+    },
+    {
+      "label": "Cintilografia renal DMSA",
+      "codes": [
+        "0208040056"
+      ],
+      "stock": 179,
+      "recent": 179,
+      "decision": "Cotar como complemento",
+      "difficulty": "Radiofármaco, aquisição tardia e protocolo pediátrico quando aplicável.",
+      "scope": "Imagem nuclear; confirmar vínculo do nome local ao código"
+    },
+    {
+      "label": "Cintilografia renal DTPA",
+      "codes": [
+        "0208040102"
+      ],
+      "stock": 234,
+      "recent": 234,
+      "decision": "Cotar separadamente",
+      "difficulty": "Aquisição dinâmica e possível diurético. Não copiar tarifa ou protocolo de DMSA.",
+      "scope": "Imagem nuclear; incremento 38.01 não localizado"
+    },
+    {
+      "label": "Cintilografia paratireoides",
+      "codes": [
+        "0208030018"
+      ],
+      "stock": 152,
+      "recent": 152,
+      "decision": "Cotar como complemento",
+      "difficulty": "Aquisições e permanência prolongada; definir SPECT/CT se indicado e se incluído.",
+      "scope": "Imagem nuclear; quantidade moderada"
+    },
+    {
+      "label": "Miocárdio repouso e estresse",
+      "codes": [
+        "0208010025",
+        "0208010033"
+      ],
+      "stock": 3233,
+      "recent": 3233,
+      "decision": "Cotar percurso completo",
+      "difficulty": "Preparo, estresse físico/farmacológico, equipe e duas etapas. Somar códigos não conta pessoas únicas.",
+      "scope": "Decidir imagem versus cardiologia; não assumido como reservado"
+    },
+    {
+      "label": "Salivares e tireoide",
+      "codes": [
+        "0208020039",
+        "0208030026"
+      ],
+      "stock": 86,
+      "recent": 86,
+      "decision": "Complemento de pequeno volume",
+      "difficulty": "Traçador, preparo e correlação clínica. Diferenciar tireoide diagnóstica de tratamento com iodo.",
+      "scope": "Imagem nuclear; filas menores"
+    },
+    {
+      "label": "Trânsito/esvaziamento gástrico",
+      "codes": [
+        "0208020071",
+        "0208020055",
+        "0208020063",
+        "0208020110"
+      ],
+      "stock": 45,
+      "recent": 45,
+      "decision": "Complemento de pequeno volume",
+      "difficulty": "Refeição/traçador, líquido versus sólido e aquisição seriada. Códigos locais podem reunir protocolos distintos.",
+      "scope": "Imagem nuclear; não sustenta sozinho o orçamento"
+    },
+    {
+      "label": "Linfocintilografia",
+      "codes": [
+        "0208080040"
+      ],
+      "stock": 22,
+      "recent": 22,
+      "decision": "Somente com percurso definido",
+      "difficulty": "Extremidades versus linfonodo sentinela. No sentinela, integrar horário e equipe da cirurgia.",
+      "scope": "Imagem nuclear; não comprar isoladamente como mutirão de alto volume"
+    },
+    {
+      "label": "Pulmonar por perfusão",
+      "codes": [
+        "0208070044"
+      ],
+      "stock": 15,
+      "recent": 15,
+      "decision": "Complemento especializado",
+      "difficulty": "Radiofármaco e indicação específica. Ventilação/inalação é outro procedimento, não equivalente.",
+      "scope": "Imagem nuclear; fila pequena localizada"
+    },
+    {
+      "label": "Pesquisa de corpo inteiro",
+      "codes": [
+        "0208030042"
+      ],
+      "stock": 25,
+      "recent": 25,
+      "decision": "Complemento especializado",
+      "difficulty": "Confirmar traçador, finalidade e preparo. Não equivale a toda cintilografia de corpo inteiro ou PET.",
+      "scope": "Imagem nuclear; conciliar linha oncológica"
+    },
+    {
+      "label": "Cerebral e estudos com gálio",
+      "codes": [
+        "0208060030",
+        "0208060014",
+        "0208050043",
+        "0208090010"
+      ],
+      "stock": 24,
+      "recent": 24,
+      "decision": "Explorar sob demanda confirmada",
+      "difficulty": "Traçador e finalidade definem exame. TRODAT não deve ser associado a ECD/tálio só pelo termo cerebral.",
+      "scope": "Imagem nuclear; custo de insumo e volume baixo"
+    }
+  ],
+  "procedures": [
+    {
+      "code": "0201010470",
+      "name": "BIOPSIA DE TIREOIDE OU PARATIREOIDE - PAAF",
+      "stock": 530,
+      "recent": 530,
+      "scheduled": 549,
+      "base": 23.73,
+      "inc": null,
+      "incremental": null,
+      "candanga": 233.83,
+      "page": 1,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0201010542",
+      "name": "BIOPSIA PERCUTÂNEA ORIENTADA POR TOMOGRAFIA COMPUTADORIZADA / ULTRASSONOGRAFIA / RESSONÂNCIA MAGNÉTICA / RAIO X",
+      "stock": 292,
+      "recent": 292,
+      "scheduled": 1310,
+      "base": 97.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": 221.64,
+      "page": 1,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0204030188",
+      "name": "MAMOGRAFIA BILATERAL PARA RASTREAMENTO",
+      "stock": 6630,
+      "recent": 6580,
+      "scheduled": 55807,
+      "base": 45.0,
+      "inc": 1.22,
+      "incremental": 99.9,
+      "candanga": 100.0,
+      "page": 4,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0204060028",
+      "name": "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES E/OU FEMUR)",
+      "stock": 2178,
+      "recent": 2177,
+      "scheduled": 12934,
+      "base": 55.1,
+      "inc": 3.0,
+      "incremental": 220.4,
+      "candanga": 220.0,
+      "page": 5,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0206010095",
+      "name": "TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT)",
+      "stock": 379,
+      "recent": 379,
+      "scheduled": 714,
+      "base": 2107.22,
+      "inc": null,
+      "incremental": null,
+      "candanga": 2107.22,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0207010013",
+      "name": "ANGIORESSONANCIA CEREBRAL",
+      "stock": 141,
+      "recent": 141,
+      "scheduled": 2610,
+      "base": 268.75,
+      "inc": 0.86,
+      "incremental": 499.88,
+      "candanga": 500.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0207010021",
+      "name": "RESSONANCIA MAGNETICA DE ARTICULACAO TEMPORO-MANDIBULAR (BILATERAL)",
+      "stock": 141,
+      "recent": 141,
+      "scheduled": 1565,
+      "base": 268.75,
+      "inc": 0.86,
+      "incremental": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0207010064",
+      "name": "RESSONANCIA MAGNETICA DE CRANIO",
+      "stock": 1412,
+      "recent": 1410,
+      "scheduled": 16621,
+      "base": 268.75,
+      "inc": 0.86,
+      "incremental": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0207010072",
+      "name": "RESSONANCIA MAGNETICA DE SELA TURCICA",
+      "stock": 124,
+      "recent": 124,
+      "scheduled": 1222,
+      "base": 268.75,
+      "inc": 0.86,
+      "incremental": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0207030014",
+      "name": "RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR",
+      "stock": 572,
+      "recent": 572,
+      "scheduled": 10668,
+      "base": 268.75,
+      "inc": 0.86,
+      "incremental": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0207030022",
+      "name": "RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR",
+      "stock": 1519,
+      "recent": 1519,
+      "scheduled": 19563,
+      "base": 268.75,
+      "inc": 0.86,
+      "incremental": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0207030049",
+      "name": "RESSONANCIA MAGNETICA DE VIAS BILIARES/COLANGIORRESSONANCIA",
+      "stock": 116,
+      "recent": 116,
+      "scheduled": 3214,
+      "base": 268.75,
+      "inc": 0.86,
+      "incremental": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010017",
+      "name": "CINTILOGRAFIA DE CORACAO C/ GALIO 67",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 457.55,
+      "inc": 1.0,
+      "incremental": 915.1,
+      "candanga": 915.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Catálogo local sem fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010025",
+      "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "stock": 1737,
+      "recent": 1737,
+      "scheduled": 365,
+      "base": 408.52,
+      "inc": 1.2,
+      "incremental": 898.74,
+      "candanga": 899.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010033",
+      "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+      "stock": 1496,
+      "recent": 1496,
+      "scheduled": 347,
+      "base": 383.07,
+      "inc": 1.3,
+      "incremental": 881.06,
+      "candanga": 881.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010041",
+      "name": "CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE (MINIMO 3 PROJECOES )",
+      "stock": 50,
+      "recent": 50,
+      "scheduled": 8,
+      "base": 166.47,
+      "inc": 3.0,
+      "incremental": 665.88,
+      "candanga": 666.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010050",
+      "name": "CINTILOGRAFIA P/ AVALIACAO DE FLUXO SANGUINEO DE EXTREMIDADES",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 114.02,
+      "inc": 3.0,
+      "incremental": 456.08,
+      "candanga": 456.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010068",
+      "name": "CINTILOGRAFIA P/ QUANTIFICACAO DE SHUNT EXTRACARDIACO",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 142.57,
+      "inc": 3.0,
+      "incremental": 570.28,
+      "candanga": 570.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010076",
+      "name": "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE ESFORCO",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 214.85,
+      "inc": 3.0,
+      "incremental": 859.4,
+      "candanga": 859.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010084",
+      "name": "CINTILOGRAFIA SINCRONIZADA DE CAMARAS CARDIACAS EM SITUACAO DE REPOUSO (VENTRICULOGRAFIA)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 176.72,
+      "inc": 3.0,
+      "incremental": 706.88,
+      "candanga": 707.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208010092",
+      "name": "DETERMINACAO DE FLUXO SANGUINEO REGIONAL",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 123.93,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020012",
+      "name": "CINTILOGRAFIA DE FIGADO E BACO (MINIMO 5 IMAGENS)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 133.26,
+      "inc": 3.0,
+      "incremental": 533.04,
+      "candanga": 533.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020020",
+      "name": "CINTILOGRAFIA DE FIGADO E VIAS BILIARES",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 187.93,
+      "inc": 3.0,
+      "incremental": 751.72,
+      "candanga": 752.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020039",
+      "name": "CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTIMULO",
+      "stock": 58,
+      "recent": 58,
+      "scheduled": 68,
+      "base": 87.89,
+      "inc": 3.0,
+      "incremental": 351.56,
+      "candanga": 352.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020047",
+      "name": "CINTILOGRAFIA DE PANCREAS",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 0.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020055",
+      "name": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (LIQUIDO)",
+      "stock": 3,
+      "recent": 3,
+      "scheduled": null,
+      "base": 135.38,
+      "inc": 3.0,
+      "incremental": 541.52,
+      "candanga": 542.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020063",
+      "name": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO)",
+      "stock": 5,
+      "recent": 5,
+      "scheduled": null,
+      "base": 135.38,
+      "inc": 3.0,
+      "incremental": 541.52,
+      "candanga": 542.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020071",
+      "name": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO GASTRICO",
+      "stock": 34,
+      "recent": 34,
+      "scheduled": 17,
+      "base": 144.22,
+      "inc": 3.0,
+      "incremental": 576.88,
+      "candanga": 577.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020080",
+      "name": "CINTILOGRAFIA P/ PESQUISA DE DIVERTICULOSE DE MECKEL",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 114.86,
+      "inc": 3.0,
+      "incremental": 459.44,
+      "candanga": 459.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Catálogo local sem fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020098",
+      "name": "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA ATIVA",
+      "stock": 5,
+      "recent": 5,
+      "scheduled": 19,
+      "base": 157.23,
+      "inc": 3.0,
+      "incremental": 628.92,
+      "candanga": 629.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020101",
+      "name": "CINTILOGRAFIA P/ PESQUISA DE HEMORRAGIA DIGESTIVA NAO ATIVA",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 310.82,
+      "inc": 2.0,
+      "incremental": 932.46,
+      "candanga": 932.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Catálogo local sem fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020110",
+      "name": "CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFAGICO",
+      "stock": 3,
+      "recent": 3,
+      "scheduled": 4,
+      "base": 135.38,
+      "inc": 3.0,
+      "incremental": 541.52,
+      "candanga": 542.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208020128",
+      "name": "IMUNO-CINTILOGRAFIA (ANTICORPO MONOCLONAL)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 1103.26,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208030018",
+      "name": "CINTILOGRAFIA DE PARATIREOIDES",
+      "stock": 152,
+      "recent": 152,
+      "scheduled": 203,
+      "base": 324.54,
+      "inc": 2.0,
+      "incremental": 973.62,
+      "candanga": 974.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208030026",
+      "name": "CINTILOGRAFIA DE TIREÓIDE COM OU SEM CAPTAÇÃO",
+      "stock": 28,
+      "recent": 28,
+      "scheduled": 426,
+      "base": 77.28,
+      "inc": 1.0,
+      "incremental": 154.56,
+      "candanga": 155.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208030034",
+      "name": "CINTILOGRAFIA DE TIREOIDE C/ TESTE DE SUPRESSAO / ESTIMULO",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 107.3,
+      "inc": 3.0,
+      "incremental": 429.2,
+      "candanga": 429.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208030042",
+      "name": "CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO",
+      "stock": 25,
+      "recent": 25,
+      "scheduled": 122,
+      "base": 338.7,
+      "inc": 1.0,
+      "incremental": 677.4,
+      "candanga": 677.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208030050",
+      "name": "TESTE DO PERCLORATO C/ RADIOISOTOPO",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 107.4,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040013",
+      "name": "CAPTACAO DE IODO RADIOATIVO EM 24H",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 0.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040021",
+      "name": "CINTILOGRAFIA DE RIM C/ GALIO 67",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 457.55,
+      "inc": 1.0,
+      "incremental": 915.1,
+      "candanga": 915.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040030",
+      "name": "CINTILOGRAFIA DE TESTICULO E BOLSA ESCROTAL",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 108.94,
+      "inc": 3.0,
+      "incremental": 435.76,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040048",
+      "name": "CINTILOGRAFIA P/ PESQUISA DO REFLUXO VESICO-URETERAL",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 0.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040056",
+      "name": "CINTILOGRAFIA RENAL/RENOGRAMA (QUALITATIVA E/OU QUANTITATIVA)",
+      "stock": 179,
+      "recent": 179,
+      "scheduled": 302,
+      "base": 133.03,
+      "inc": 3.0,
+      "incremental": 532.12,
+      "candanga": 532.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040064",
+      "name": "CISTOCINTILOGRAFIA DIRETA",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 122.97,
+      "inc": 3.0,
+      "incremental": 491.88,
+      "candanga": 492.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040072",
+      "name": "CISTOCINTILOGRAFIA INDIRETA",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 144.5,
+      "inc": 3.0,
+      "incremental": 578.0,
+      "candanga": 578.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040080",
+      "name": "DETERMINACAO DE FILTRACAO GLOMERULAR",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 63.22,
+      "inc": null,
+      "incremental": null,
+      "candanga": 103.4,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040099",
+      "name": "DETERMINACAO DE FLUXO PLASMATICO RENAL",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 63.22,
+      "inc": null,
+      "incremental": null,
+      "candanga": 103.4,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208040102",
+      "name": "ESTUDO RENAL DINAMICO C/ OU S/ DIURETICO",
+      "stock": 234,
+      "recent": 234,
+      "scheduled": 125,
+      "base": 165.24,
+      "inc": null,
+      "incremental": null,
+      "candanga": 319.18,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208050019",
+      "name": "CINTILOGRAFIA DE ARTICULACOES E/OU EXTREMIDADES E/OU OSSO",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 180.32,
+      "inc": 3.0,
+      "incremental": 721.28,
+      "candanga": 721.0,
+      "page": 6,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208050027",
+      "name": "CINTILOGRAFIA DE ESQUELETO (CORPO INTEIRO)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 0.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208050035",
+      "name": "CINTILOGRAFIA DE OSSOS COM OU SEM FLUXO SANGUÍNEO (CORPO INTEIRO)",
+      "stock": 1587,
+      "recent": 1587,
+      "scheduled": 1677,
+      "base": 190.99,
+      "inc": 3.0,
+      "incremental": 763.96,
+      "candanga": 764.0,
+      "page": 6,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208050043",
+      "name": "CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67",
+      "stock": 16,
+      "recent": 16,
+      "scheduled": 13,
+      "base": 457.55,
+      "inc": 1.0,
+      "incremental": 915.1,
+      "candanga": 915.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208060014",
+      "name": "CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO)",
+      "stock": 1,
+      "recent": 1,
+      "scheduled": null,
+      "base": 438.01,
+      "inc": 1.0,
+      "incremental": 876.02,
+      "candanga": 876.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208060022",
+      "name": "CISTERNOCINTILOGRAFIA (INCLUINDO PESQUISA E/OU AVALIACAO DO TRANSITO LIQUORICO)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 205.34,
+      "inc": 3.0,
+      "incremental": 821.36,
+      "candanga": 821.0,
+      "page": 7,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208060030",
+      "name": "ESTUDO DE FLUXO SANGUINEO CEREBRAL",
+      "stock": 4,
+      "recent": 4,
+      "scheduled": 14,
+      "base": 119.16,
+      "inc": null,
+      "incremental": null,
+      "candanga": 183.64,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208070010",
+      "name": "CINTILOGRAFIA DE PULMAO C/ GALIO 67",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 457.55,
+      "inc": 1.0,
+      "incremental": 915.1,
+      "candanga": 915.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Catálogo local sem fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208070028",
+      "name": "CINTILOGRAFIA DE PULMÃO P/ PESQUISA DE ASPIRAÇÃO",
+      "stock": 3,
+      "recent": 3,
+      "scheduled": null,
+      "base": 127.51,
+      "inc": 3.0,
+      "incremental": 510.04,
+      "candanga": 510.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208070036",
+      "name": "CINTILOGRAFIA DE PULMAO POR INALACAO (MINIMO 2 PROJECOES)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 128.12,
+      "inc": 3.0,
+      "incremental": 512.48,
+      "candanga": 508.0,
+      "page": 7,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208070044",
+      "name": "CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES)",
+      "stock": 15,
+      "recent": 15,
+      "scheduled": 141,
+      "base": 130.5,
+      "inc": 3.0,
+      "incremental": 522.0,
+      "candanga": 522.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208080015",
+      "name": "CINTILOGRAFIA DE SISTEMA RETICULO-ENDOTELIAL (MEDULA OSSEA)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 112.61,
+      "inc": 3.0,
+      "incremental": 450.44,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208080023",
+      "name": "DEMONSTRACAO DE SEQUESTRO DE HEMACIAS PELO BACO (C/ RADIOISOTOPOS)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 97.37,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208080031",
+      "name": "DETERMINACAO DE SOBREVIDA DE HEMACIAS (C/ RADIOSOTOPOS)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 54.36,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208080040",
+      "name": "LINFOCINTILOGRAFIA",
+      "stock": 22,
+      "recent": 22,
+      "scheduled": 36,
+      "base": 141.33,
+      "inc": 3.0,
+      "incremental": 565.32,
+      "candanga": 565.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208090010",
+      "name": "CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS",
+      "stock": 3,
+      "recent": 3,
+      "scheduled": 3,
+      "base": 906.8,
+      "inc": null,
+      "incremental": null,
+      "candanga": 907.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208090029",
+      "name": "CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA)",
+      "stock": 3,
+      "recent": 3,
+      "scheduled": 11,
+      "base": 66.23,
+      "inc": 2.0,
+      "incremental": 198.69,
+      "candanga": 199.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0208090037",
+      "name": "CINTILOGRAFIA DE MAMA (BILATERAL)",
+      "stock": null,
+      "recent": null,
+      "scheduled": null,
+      "base": 289.43,
+      "inc": 2.0,
+      "incremental": 868.29,
+      "candanga": 868.0,
+      "page": 7,
+      "catalogued": false,
+      "evidence": "Somente SIGTAP; demanda local não localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0209010029",
+      "name": "COLONOSCOPIA (COLOSCOPIA)",
+      "stock": 22943,
+      "recent": 20242,
+      "scheduled": 6739,
+      "base": 112.66,
+      "inc": 3.0,
+      "incremental": 450.64,
+      "candanga": 497.84,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0209010037",
+      "name": "ESOFAGOGASTRODUODENOSCOPIA",
+      "stock": 26155,
+      "recent": 18590,
+      "scheduled": 10216,
+      "base": 48.16,
+      "inc": 6.27,
+      "incremental": 350.12,
+      "candanga": 335.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0209040041",
+      "name": "VIDEOLARINGOSCOPIA",
+      "stock": 4603,
+      "recent": 2983,
+      "scheduled": 5282,
+      "base": 45.5,
+      "inc": null,
+      "incremental": null,
+      "candanga": 196.64,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211020044",
+      "name": "MONITORAMENTO PELO SISTEMA HOLTER 24 HS (3 CANAIS)",
+      "stock": 36217,
+      "recent": 11132,
+      "scheduled": 2766,
+      "base": 30.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": 82.64,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211020052",
+      "name": "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL (M.A.P.A)",
+      "stock": 12695,
+      "recent": 6262,
+      "scheduled": 2590,
+      "base": 10.07,
+      "inc": null,
+      "incremental": null,
+      "candanga": 85.89,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211040029",
+      "name": "COLPOSCOPIA",
+      "stock": 696,
+      "recent": 672,
+      "scheduled": 3441,
+      "base": 3.38,
+      "inc": null,
+      "incremental": null,
+      "candanga": 28.35,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211050024",
+      "name": "ELETROENCEFALOGRAFIA EM VIGILIA C/ OU S/ FOTO-ESTIMULO",
+      "stock": 1092,
+      "recent": 835,
+      "scheduled": 1816,
+      "base": 11.34,
+      "inc": null,
+      "incremental": null,
+      "candanga": 600.0,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211050040",
+      "name": "ELETROENCEFALOGRAMA EM VIGILIA E SONO ESPONTANEO C/ OU S/ FOTOESTIMULO (EEG)",
+      "stock": 2380,
+      "recent": 2086,
+      "scheduled": 4960,
+      "base": 25.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": 147.38,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211050083",
+      "name": "ELETRONEUROMIOGRAMA (ENMG)",
+      "stock": 9138,
+      "recent": 6312,
+      "scheduled": 2168,
+      "base": 27.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": 348.93,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 4,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211050105",
+      "name": "POLISSONOGRAFIA",
+      "stock": 8530,
+      "recent": 4110,
+      "scheduled": 631,
+      "base": 125.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": 819.01,
+      "page": 7,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211050113",
+      "name": "POTENCIAL EVOCADO AUDITIVO",
+      "stock": 4647,
+      "recent": 3791,
+      "scheduled": 773,
+      "base": 4.06,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211060038",
+      "name": "CAMPIMETRIA COMPUTADORIZADA OU MANUAL COM GRÁFICO",
+      "stock": 3816,
+      "recent": 3816,
+      "scheduled": 814,
+      "base": 40.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": 94.18,
+      "page": 8,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211060127",
+      "name": "MAPEAMENTO DE RETINA",
+      "stock": 9531,
+      "recent": 8817,
+      "scheduled": 3143,
+      "base": 24.24,
+      "inc": null,
+      "incremental": null,
+      "candanga": 46.97,
+      "page": 8,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 2,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211060186",
+      "name": "RETINOGRAFIA FLUORESCENTE BINOCULAR",
+      "stock": 1030,
+      "recent": 710,
+      "scheduled": 304,
+      "base": 64.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": 100.56,
+      "page": 8,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211060283",
+      "name": "TOMOGRAFIA DE COERÊNCIA ÓPTICA",
+      "stock": 3906,
+      "recent": 3906,
+      "scheduled": 946,
+      "base": 48.0,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 1,
+      "financing": "04 Fundo de Ações Estratégicas e Compensações (FAEC)"
+    },
+    {
+      "code": "0211070033",
+      "name": "AUDIOMETRIA EM CAMPO LIVRE",
+      "stock": 8068,
+      "recent": 7684,
+      "scheduled": 11135,
+      "base": 20.13,
+      "inc": null,
+      "incremental": null,
+      "candanga": 34.73,
+      "page": 8,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211070351",
+      "name": "TESTES VESTIBULARES / OTONEUROLOGICOS",
+      "stock": 1041,
+      "recent": 959,
+      "scheduled": 351,
+      "base": 12.12,
+      "inc": null,
+      "incremental": null,
+      "candanga": null,
+      "page": null,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    },
+    {
+      "code": "0211080055",
+      "name": "ESPIROMETRIA OU PROVA DE FUNCAO PULMONAR COMPLETA COM BRONCODILATADOR",
+      "stock": 2561,
+      "recent": 2561,
+      "scheduled": 7281,
+      "base": 6.36,
+      "inc": null,
+      "incremental": null,
+      "candanga": 18.25,
+      "page": 8,
+      "catalogued": true,
+      "evidence": "Fila pendente localizada",
+      "max_quantity": 9999,
+      "financing": "06 Média e Alta Complexidade (MAC)"
+    }
+  ],
+  "nuclear_codes": [
+    "0208010017",
+    "0208010025",
+    "0208010033",
+    "0208010041",
+    "0208010050",
+    "0208010068",
+    "0208010076",
+    "0208010084",
+    "0208010092",
+    "0208020012",
+    "0208020020",
+    "0208020039",
+    "0208020047",
+    "0208020055",
+    "0208020063",
+    "0208020071",
+    "0208020080",
+    "0208020098",
+    "0208020101",
+    "0208020110",
+    "0208020128",
+    "0208030018",
+    "0208030026",
+    "0208030034",
+    "0208030042",
+    "0208030050",
+    "0208040013",
+    "0208040021",
+    "0208040030",
+    "0208040048",
+    "0208040056",
+    "0208040064",
+    "0208040072",
+    "0208040080",
+    "0208040099",
+    "0208040102",
+    "0208050019",
+    "0208050027",
+    "0208050035",
+    "0208050043",
+    "0208060014",
+    "0208060022",
+    "0208060030",
+    "0208070010",
+    "0208070028",
+    "0208070036",
+    "0208070044",
+    "0208080015",
+    "0208080023",
+    "0208080031",
+    "0208080040",
+    "0208090010",
+    "0208090029",
+    "0208090037"
+  ],
+  "queues": [
+    {
+      "nome": "HOLTER 24 HORAS",
+      "codigo": "211020044",
+      "fila": 36217,
+      "fila_viva": 11132,
+      "pessoas": 36186,
+      "pessoas_viva": 11131,
+      "devolvidas": 3493,
+      "espera_media": 1325.9606558928847,
+      "espera_mediana": 1208.057220387731,
+      "espera_max": 5179.719684560187,
+      "mais_antiga": "27/08/2012",
+      "idade_mediana": 63,
+      "total": 39710,
+      "agendadas_12m": 2766,
+      "agendadas_12m_no_codigo": 2766,
+      "cid_principais": [
+        [
+          "I10",
+          6385
+        ],
+        [
+          "I49",
+          5647
+        ],
+        [
+          "R00",
+          4366
+        ],
+        [
+          "I50",
+          2533
+        ],
+        [
+          "I64",
+          1896
+        ]
+      ],
+      "code": "0211020044"
+    },
+    {
+      "nome": "ENDOSCOPIA DIGESTIVA ALTA",
+      "codigo": "209010037",
+      "fila": 26155,
+      "fila_viva": 18590,
+      "pessoas": 26153,
+      "pessoas_viva": 18590,
+      "devolvidas": 8318,
+      "espera_media": 607.9506831385627,
+      "espera_mediana": 481.7470139467623,
+      "espera_max": 2789.780066400461,
+      "mais_antiga": "14/03/2019",
+      "idade_mediana": 53,
+      "total": 34473,
+      "agendadas_12m": 10216,
+      "agendadas_12m_no_codigo": 10216,
+      "cid_principais": [
+        [
+          "K29",
+          9457
+        ],
+        [
+          "K30",
+          4851
+        ],
+        [
+          "K21",
+          3361
+        ],
+        [
+          "R10",
+          2912
+        ],
+        [
+          "R13",
+          717
+        ]
+      ],
+      "code": "0209010037"
+    },
+    {
+      "nome": "COLONOSCOPIA",
+      "codigo": "209010029",
+      "fila": 22560,
+      "fila_viva": 19915,
+      "pessoas": 22560,
+      "pessoas_viva": 19915,
+      "devolvidas": 4047,
+      "espera_media": 418.4845256544332,
+      "espera_mediana": 416.804230439815,
+      "espera_max": 1012.7818859838007,
+      "mais_antiga": "24/01/2024",
+      "idade_mediana": 59,
+      "total": 26607,
+      "agendadas_12m": 6583,
+      "agendadas_12m_no_codigo": 6739,
+      "cid_principais": [
+        [
+          "Z12",
+          6112
+        ],
+        [
+          "K92",
+          2855
+        ],
+        [
+          "K59",
+          1441
+        ],
+        [
+          "R19",
+          1389
+        ],
+        [
+          "C18",
+          1273
+        ]
+      ],
+      "code": "0209010029"
+    },
+    {
+      "nome": "MONITORIZACAO AMBULATORIAL DE PRESSAO ARTERIAL",
+      "codigo": "211020052",
+      "fila": 12695,
+      "fila_viva": 6262,
+      "pessoas": 12687,
+      "pessoas_viva": 6260,
+      "devolvidas": 1412,
+      "espera_media": 1012.8068492512963,
+      "espera_mediana": 762.0280348726883,
+      "espera_max": 4248.934615358798,
+      "mais_antiga": "16/03/2015",
+      "idade_mediana": 60,
+      "total": 14107,
+      "agendadas_12m": 2590,
+      "agendadas_12m_no_codigo": 2590,
+      "cid_principais": [
+        [
+          "I10",
+          8172
+        ],
+        [
+          "R03",
+          555
+        ],
+        [
+          "I50",
+          499
+        ],
+        [
+          "I25",
+          356
+        ],
+        [
+          "I15",
+          285
+        ]
+      ],
+      "code": "0211020052"
+    },
+    {
+      "nome": "MAPEAMENTO DE RETINA",
+      "codigo": "211060127",
+      "fila": 9531,
+      "fila_viva": 8817,
+      "pessoas": 9531,
+      "pessoas_viva": 8817,
+      "devolvidas": 917,
+      "espera_media": 389.8918405997868,
+      "espera_mediana": 385.0507396759276,
+      "espera_max": 996.6602071296293,
+      "mais_antiga": "09/02/2024",
+      "idade_mediana": 62,
+      "total": 10448,
+      "agendadas_12m": 3143,
+      "agendadas_12m_no_codigo": 3143,
+      "cid_principais": [
+        [
+          "I10",
+          1924
+        ],
+        [
+          "E11",
+          1483
+        ],
+        [
+          "H25",
+          1238
+        ],
+        [
+          "H35",
+          1102
+        ],
+        [
+          "E10",
+          796
+        ]
+      ],
+      "code": "0211060127"
+    },
+    {
+      "nome": "POLISSONOGRAFIA NOTURNA BASAL",
+      "codigo": "211050105",
+      "fila": 8529,
+      "fila_viva": 4110,
+      "pessoas": 8529,
+      "pessoas_viva": 4110,
+      "devolvidas": 742,
+      "espera_media": 847.4055311287433,
+      "espera_mediana": 763.0519488888895,
+      "espera_max": 2853.9832495949086,
+      "mais_antiga": "09/01/2019",
+      "idade_mediana": 55,
+      "total": 9271,
+      "agendadas_12m": 631,
+      "agendadas_12m_no_codigo": 631,
+      "cid_principais": [
+        [
+          "G47",
+          6572
+        ],
+        [
+          "E66",
+          465
+        ],
+        [
+          "I10",
+          227
+        ],
+        [
+          "R06",
+          122
+        ],
+        [
+          "I15",
+          109
+        ]
+      ],
+      "code": "0211050105"
+    },
+    {
+      "nome": "MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA)",
+      "codigo": "204030188",
+      "fila": 6448,
+      "fila_viva": 6398,
+      "pessoas": 6447,
+      "pessoas_viva": 6397,
+      "devolvidas": 2137,
+      "espera_media": 63.01384088770627,
+      "espera_mediana": 34.934595416667435,
+      "espera_max": 2186.963285104168,
+      "mais_antiga": "06/11/2020",
+      "idade_mediana": 54,
+      "total": 8585,
+      "agendadas_12m": 50738,
+      "agendadas_12m_no_codigo": 55807,
+      "cid_principais": [
+        [
+          "Z12",
+          4780
+        ],
+        [
+          "Z01",
+          350
+        ],
+        [
+          "N63",
+          247
+        ],
+        [
+          "Z00",
+          240
+        ],
+        [
+          "C50",
+          214
+        ]
+      ],
+      "code": "0204030188"
+    },
+    {
+      "nome": "ELETRONEUROMIOGRAFIA - MEMBROS INFERIORES (MID/MIE)",
+      "codigo": "211050083",
+      "fila": 5079,
+      "fila_viva": 2547,
+      "pessoas": 5078,
+      "pessoas_viva": 2547,
+      "devolvidas": 1387,
+      "espera_media": 780.1864259820276,
+      "espera_mediana": 733.9570195312517,
+      "espera_max": 2769.7573559027805,
+      "mais_antiga": "03/04/2019",
+      "idade_mediana": 57,
+      "total": 6466,
+      "agendadas_12m": 616,
+      "agendadas_12m_no_codigo": 2168,
+      "cid_principais": [
+        [
+          "G62",
+          508
+        ],
+        [
+          "G63",
+          500
+        ],
+        [
+          "G57",
+          471
+        ],
+        [
+          "M54",
+          446
+        ],
+        [
+          "R20",
+          368
+        ]
+      ],
+      "code": "0211050083"
+    },
+    {
+      "nome": "ELETRONEUROMIOGRAFIA - MEMBROS SUPERIORES (MSD/MSE)",
+      "codigo": "211050083",
+      "fila": 4058,
+      "fila_viva": 3765,
+      "pessoas": 4058,
+      "pessoas_viva": 3765,
+      "devolvidas": 4132,
+      "espera_media": 402.1896733612472,
+      "espera_mediana": 404.0242268171278,
+      "espera_max": 2165.7451168402768,
+      "mais_antiga": "27/11/2020",
+      "idade_mediana": 53,
+      "total": 8190,
+      "agendadas_12m": 1552,
+      "agendadas_12m_no_codigo": 2168,
+      "cid_principais": [
+        [
+          "G56",
+          1876
+        ],
+        [
+          "R20",
+          338
+        ],
+        [
+          "G62",
+          156
+        ],
+        [
+          "M79",
+          135
+        ],
+        [
+          "G63",
+          125
+        ]
+      ],
+      "code": "0211050083"
+    },
+    {
+      "nome": "CAMPIMETRIA COMPUTADORIZADA",
+      "codigo": "211060038",
+      "fila": 3816,
+      "fila_viva": 3816,
+      "pessoas": 3816,
+      "pessoas_viva": 3816,
+      "devolvidas": 357,
+      "espera_media": 274.63522870150547,
+      "espera_mediana": 250.75619942708363,
+      "espera_max": 551.963636851855,
+      "mais_antiga": "29/04/2025",
+      "idade_mediana": 64,
+      "total": 4173,
+      "agendadas_12m": 814,
+      "agendadas_12m_no_codigo": 814,
+      "cid_principais": [
+        [
+          "H40",
+          3244
+        ],
+        [
+          "H54",
+          70
+        ],
+        [
+          "H35",
+          67
+        ],
+        [
+          "H47",
+          61
+        ],
+        [
+          "H25",
+          41
+        ]
+      ],
+      "code": "0211060038"
+    },
+    {
+      "nome": "VIDEOENDOSCOPIA  NASAL  FLEXIVEL",
+      "codigo": "209040041",
+      "fila": 3720,
+      "fila_viva": 2210,
+      "pessoas": 3719,
+      "pessoas_viva": 2209,
+      "devolvidas": 0,
+      "espera_media": 588.0297547742912,
+      "espera_mediana": 621.7646817129644,
+      "espera_max": 1077.8081952314824,
+      "mais_antiga": "20/11/2023",
+      "idade_mediana": 8,
+      "total": 3720,
+      "agendadas_12m": 156,
+      "agendadas_12m_no_codigo": 5282,
+      "cid_principais": [
+        [
+          "J35",
+          2664
+        ],
+        [
+          "J34",
+          215
+        ],
+        [
+          "J30",
+          184
+        ],
+        [
+          "R06",
+          154
+        ],
+        [
+          "R04",
+          134
+        ]
+      ],
+      "code": "0209040041"
+    },
+    {
+      "nome": "AUDIOMETRIA E IMITANCIOMETRIA – ATÉ 7 ANOS",
+      "codigo": "211070033",
+      "fila": 3527,
+      "fila_viva": 3143,
+      "pessoas": 3527,
+      "pessoas_viva": 3143,
+      "devolvidas": 2446,
+      "espera_media": 366.3508882985104,
+      "espera_mediana": 340.0647103414376,
+      "espera_max": 902.9788323958346,
+      "mais_antiga": "13/05/2024",
+      "idade_mediana": 5,
+      "total": 5973,
+      "agendadas_12m": 1994,
+      "agendadas_12m_no_codigo": 11135,
+      "cid_principais": [
+        [
+          "F80",
+          1171
+        ],
+        [
+          "F84",
+          709
+        ],
+        [
+          "H90",
+          306
+        ],
+        [
+          "F90",
+          185
+        ],
+        [
+          "H65",
+          167
+        ]
+      ],
+      "code": "0211070033"
+    },
+    {
+      "nome": "AUDIOMETRIA E IMITANCIOMETRIA – 8 A 64 ANOS",
+      "codigo": "211070033",
+      "fila": 3124,
+      "fila_viva": 3124,
+      "pessoas": 3124,
+      "pessoas_viva": 3124,
+      "devolvidas": 813,
+      "espera_media": 94.00559089731038,
+      "espera_mediana": 93.70727446759338,
+      "espera_max": 285.79765042824147,
+      "mais_antiga": "20/01/2026",
+      "idade_mediana": 45,
+      "total": 3937,
+      "agendadas_12m": 6005,
+      "agendadas_12m_no_codigo": 11135,
+      "cid_principais": [
+        [
+          "H90",
+          1251
+        ],
+        [
+          "H93",
+          490
+        ],
+        [
+          "H91",
+          434
+        ],
+        [
+          "F81",
+          114
+        ],
+        [
+          "F90",
+          102
+        ]
+      ],
+      "code": "0211070033"
+    },
+    {
+      "nome": "PROVA DE FUNCAO PULMONAR COMPLETA - ESPIROMETRIA",
+      "codigo": "211080055",
+      "fila": 2561,
+      "fila_viva": 2561,
+      "pessoas": 2561,
+      "pessoas_viva": 2561,
+      "devolvidas": 4413,
+      "espera_media": 97.54419924476667,
+      "espera_mediana": 93.86720329861419,
+      "espera_max": 230.0225693865723,
+      "mais_antiga": "17/03/2026",
+      "idade_mediana": 54,
+      "total": 6974,
+      "agendadas_12m": 7281,
+      "agendadas_12m_no_codigo": 7281,
+      "cid_principais": [
+        [
+          "J45",
+          1243
+        ],
+        [
+          "R06",
+          502
+        ],
+        [
+          "J44",
+          341
+        ],
+        [
+          "R05",
+          113
+        ],
+        [
+          "J43",
+          40
+        ]
+      ],
+      "code": "0211080055"
+    },
+    {
+      "nome": "ELETROENCEFALOGRAMA /VIGILIA /SONO ESPONTANEO C/OU S/FOTOESTIMULO",
+      "codigo": "211050040",
+      "fila": 2380,
+      "fila_viva": 2086,
+      "pessoas": 2378,
+      "pessoas_viva": 2084,
+      "devolvidas": 790,
+      "espera_media": 402.6844358464115,
+      "espera_mediana": 391.74132163773174,
+      "espera_max": 2469.7099821875017,
+      "mais_antiga": "28/01/2020",
+      "idade_mediana": 10,
+      "total": 3170,
+      "agendadas_12m": 4960,
+      "agendadas_12m_no_codigo": 4960,
+      "cid_principais": [
+        [
+          "G40",
+          1313
+        ],
+        [
+          "R56",
+          366
+        ],
+        [
+          "F84",
+          132
+        ],
+        [
+          "F90",
+          87
+        ],
+        [
+          "R55",
+          78
+        ]
+      ],
+      "code": "0211050040"
+    },
+    {
+      "nome": "OCT GLAUCOMA",
+      "codigo": "211060283",
+      "fila": 2359,
+      "fila_viva": 2359,
+      "pessoas": 2359,
+      "pessoas_viva": 2359,
+      "devolvidas": 1,
+      "espera_media": 229.58197501169755,
+      "espera_mediana": 223.98856994212838,
+      "espera_max": 447.0566053703733,
+      "mais_antiga": "12/08/2025",
+      "idade_mediana": 65,
+      "total": 2360,
+      "agendadas_12m": 642,
+      "agendadas_12m_no_codigo": 946,
+      "cid_principais": [
+        [
+          "H40",
+          2184
+        ],
+        [
+          "H70",
+          29
+        ],
+        [
+          "H25",
+          23
+        ],
+        [
+          "H35",
+          21
+        ],
+        [
+          "H47",
+          16
+        ]
+      ],
+      "code": "0211060283"
+    },
+    {
+      "nome": "POTENCIAL EVOCADO AUDITIVO BERA – ACIMA DE 5 ANOS",
+      "codigo": "211050113",
+      "fila": 2347,
+      "fila_viva": 1876,
+      "pessoas": 2347,
+      "pessoas_viva": 1876,
+      "devolvidas": 1089,
+      "espera_media": 459.10035529219783,
+      "espera_mediana": 445.6653195254621,
+      "espera_max": 1008.0194910185164,
+      "mais_antiga": "29/01/2024",
+      "idade_mediana": 11,
+      "total": 3436,
+      "agendadas_12m": 243,
+      "agendadas_12m_no_codigo": 773,
+      "cid_principais": [
+        [
+          "H90",
+          805
+        ],
+        [
+          "F84",
+          339
+        ],
+        [
+          "F80",
+          264
+        ],
+        [
+          "F90",
+          230
+        ],
+        [
+          "H93",
+          209
+        ]
+      ],
+      "code": "0211050113"
+    },
+    {
+      "nome": "POTENCIAL EVOCADO AUDITIVO BERA – ATÉ 4 ANOS",
+      "codigo": "211050113",
+      "fila": 2300,
+      "fila_viva": 1915,
+      "pessoas": 2300,
+      "pessoas_viva": 1915,
+      "devolvidas": 2606,
+      "espera_media": 429.50437853249366,
+      "espera_mediana": 403.3381078356506,
+      "espera_max": 996.7680177893562,
+      "mais_antiga": "09/02/2024",
+      "idade_mediana": 2,
+      "total": 4906,
+      "agendadas_12m": 530,
+      "agendadas_12m_no_codigo": 773,
+      "cid_principais": [
+        [
+          "H90",
+          596
+        ],
+        [
+          "F80",
+          460
+        ],
+        [
+          "F84",
+          282
+        ],
+        [
+          "P07",
+          258
+        ],
+        [
+          "Z01",
+          107
+        ]
+      ],
+      "code": "0211050113"
+    },
+    {
+      "nome": "DENSITOMETRIA OSSEA - RADIODIAGNOSTICO",
+      "codigo": "204060028",
+      "fila": 2178,
+      "fila_viva": 2177,
+      "pessoas": 2178,
+      "pessoas_viva": 2177,
+      "devolvidas": 3670,
+      "espera_media": 49.65942829488696,
+      "espera_mediana": 38.00194391203695,
+      "espera_max": 2175.7875660300924,
+      "mais_antiga": "17/11/2020",
+      "idade_mediana": 66,
+      "total": 5848,
+      "agendadas_12m": 12934,
+      "agendadas_12m_no_codigo": 12934,
+      "cid_principais": [
+        [
+          "M81",
+          1166
+        ],
+        [
+          "M85",
+          228
+        ],
+        [
+          "M80",
+          156
+        ],
+        [
+          "Z13",
+          142
+        ],
+        [
+          "N95",
+          99
+        ]
+      ],
+      "code": "0204060028"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "codigo": "208010025",
+      "fila": 1737,
+      "fila_viva": 1737,
+      "pessoas": 1737,
+      "pessoas_viva": 1737,
+      "devolvidas": 148,
+      "espera_media": 294.86755207805044,
+      "espera_mediana": 355.91404728009365,
+      "espera_max": 460.6266649537065,
+      "mais_antiga": "29/07/2025",
+      "idade_mediana": 66,
+      "total": 1885,
+      "agendadas_12m": 365,
+      "agendadas_12m_no_codigo": 365,
+      "cid_principais": [
+        [
+          "I25",
+          646
+        ],
+        [
+          "I20",
+          540
+        ],
+        [
+          "I50",
+          113
+        ],
+        [
+          "R07",
+          101
+        ],
+        [
+          "N18",
+          69
+        ]
+      ],
+      "code": "0208010025"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO)",
+      "codigo": "208050035",
+      "fila": 1587,
+      "fila_viva": 1587,
+      "pessoas": 1587,
+      "pessoas_viva": 1587,
+      "devolvidas": 29,
+      "espera_media": 151.4429011936625,
+      "espera_mediana": 124.80815184027597,
+      "espera_max": 424.9045459259287,
+      "mais_antiga": "03/09/2025",
+      "idade_mediana": 61,
+      "total": 1616,
+      "agendadas_12m": 1677,
+      "agendadas_12m_no_codigo": 1677,
+      "cid_principais": [
+        [
+          "C50",
+          908
+        ],
+        [
+          "C61",
+          330
+        ],
+        [
+          "M46",
+          42
+        ],
+        [
+          "C34",
+          31
+        ],
+        [
+          "D48",
+          30
+        ]
+      ],
+      "code": "0208050035"
+    },
+    {
+      "nome": "OCT",
+      "codigo": "211060283",
+      "fila": 1547,
+      "fila_viva": 1547,
+      "pessoas": 1547,
+      "pessoas_viva": 1547,
+      "devolvidas": 415,
+      "espera_media": 338.0823284651759,
+      "espera_mediana": 361.7465333680593,
+      "espera_max": 655.9869287037072,
+      "mais_antiga": "15/01/2025",
+      "idade_mediana": 63,
+      "total": 1962,
+      "agendadas_12m": 304,
+      "agendadas_12m_no_codigo": 946,
+      "cid_principais": [
+        [
+          "H35",
+          777
+        ],
+        [
+          "H36",
+          271
+        ],
+        [
+          "H40",
+          192
+        ],
+        [
+          "H34",
+          65
+        ],
+        [
+          "H25",
+          27
+        ]
+      ],
+      "code": "0211060283"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+      "codigo": "208010033",
+      "fila": 1496,
+      "fila_viva": 1496,
+      "pessoas": 1496,
+      "pessoas_viva": 1496,
+      "devolvidas": 34,
+      "espera_media": 291.8400873889253,
+      "espera_mediana": 369.37751218750054,
+      "espera_max": 460.62721437500295,
+      "mais_antiga": "29/07/2025",
+      "idade_mediana": 66,
+      "total": 1530,
+      "agendadas_12m": 347,
+      "agendadas_12m_no_codigo": 347,
+      "cid_principais": [
+        [
+          "I25",
+          562
+        ],
+        [
+          "I20",
+          449
+        ],
+        [
+          "I50",
+          93
+        ],
+        [
+          "R07",
+          86
+        ],
+        [
+          "I10",
+          47
+        ]
+      ],
+      "code": "0208010033"
+    },
+    {
+      "nome": "AUDIOMETRIA E IMITANCIOMETRIA – ACIMA DE 65 ANOS",
+      "codigo": "211070033",
+      "fila": 1417,
+      "fila_viva": 1417,
+      "pessoas": 1417,
+      "pessoas_viva": 1417,
+      "devolvidas": 623,
+      "espera_media": 92.16992484031636,
+      "espera_mediana": 93.77859138888743,
+      "espera_max": 504.0462561111126,
+      "mais_antiga": "16/06/2025",
+      "idade_mediana": 73,
+      "total": 2040,
+      "agendadas_12m": 3136,
+      "agendadas_12m_no_codigo": 11135,
+      "cid_principais": [
+        [
+          "H90",
+          781
+        ],
+        [
+          "H91",
+          303
+        ],
+        [
+          "H93",
+          201
+        ],
+        [
+          "R42",
+          26
+        ],
+        [
+          "Z01",
+          15
+        ]
+      ],
+      "code": "0211070033"
+    },
+    {
+      "nome": "VECTOELETRONISTAGMOGRAFIA(VENG)",
+      "codigo": "211070351",
+      "fila": 1041,
+      "fila_viva": 959,
+      "pessoas": 1041,
+      "pessoas_viva": 959,
+      "devolvidas": 1173,
+      "espera_media": 394.29899280902066,
+      "espera_mediana": 395.76968236111134,
+      "espera_max": 808.0609781134262,
+      "mais_antiga": "16/08/2024",
+      "idade_mediana": 63,
+      "total": 2214,
+      "agendadas_12m": 351,
+      "agendadas_12m_no_codigo": 351,
+      "cid_principais": [
+        [
+          "R42",
+          568
+        ],
+        [
+          "H81",
+          251
+        ],
+        [
+          "H83",
+          146
+        ],
+        [
+          "H90",
+          25
+        ],
+        [
+          "H93",
+          19
+        ]
+      ],
+      "code": "0211070351"
+    },
+    {
+      "nome": "RETINOGRAFIA FLUORESCENTE",
+      "codigo": "211060186",
+      "fila": 1030,
+      "fila_viva": 710,
+      "pessoas": 1030,
+      "pessoas_viva": 710,
+      "devolvidas": 146,
+      "espera_media": 547.8430835285872,
+      "espera_mediana": 552.7535519097219,
+      "espera_max": 996.9248161689829,
+      "mais_antiga": "09/02/2024",
+      "idade_mediana": 60,
+      "total": 1176,
+      "agendadas_12m": 304,
+      "agendadas_12m_no_codigo": 304,
+      "cid_principais": [
+        [
+          "H35",
+          357
+        ],
+        [
+          "H36",
+          277
+        ],
+        [
+          "H34",
+          127
+        ],
+        [
+          "H40",
+          118
+        ],
+        [
+          "H47",
+          22
+        ]
+      ],
+      "code": "0211060186"
+    },
+    {
+      "nome": "071. RM DE BACIA OU PELVIS ADULTO C/CONTRASTE S/SEDACAO",
+      "codigo": "207030022",
+      "fila": 984,
+      "fila_viva": 984,
+      "pessoas": 984,
+      "pessoas_viva": 984,
+      "devolvidas": 684,
+      "espera_media": 34.86356296713965,
+      "espera_mediana": 34.73701302083646,
+      "espera_max": 98.06968564815179,
+      "mais_antiga": "27/07/2026",
+      "idade_mediana": 47,
+      "total": 1668,
+      "agendadas_12m": 14062,
+      "agendadas_12m_no_codigo": 19834,
+      "cid_principais": [
+        [
+          "N80",
+          203
+        ],
+        [
+          "R10",
+          98
+        ],
+        [
+          "C53",
+          54
+        ],
+        [
+          "C50",
+          35
+        ],
+        [
+          "C61",
+          35
+        ]
+      ],
+      "code": "0207030022"
+    },
+    {
+      "nome": "005. RM DE CRANIO ADULTO S/CONTRASTE S/SEDACAO",
+      "codigo": "207010064",
+      "fila": 719,
+      "fila_viva": 719,
+      "pessoas": 719,
+      "pessoas_viva": 719,
+      "devolvidas": 566,
+      "espera_media": 25.697786836173968,
+      "espera_mediana": 25.78862660879531,
+      "espera_max": 73.99289842592407,
+      "mais_antiga": "20/08/2026",
+      "idade_mediana": 57,
+      "total": 1285,
+      "agendadas_12m": 7070,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "R51",
+          123
+        ],
+        [
+          "F03",
+          68
+        ],
+        [
+          "G40",
+          59
+        ],
+        [
+          "R41",
+          44
+        ],
+        [
+          "R42",
+          41
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "COLPOSCOPIA",
+      "codigo": "211040029",
+      "fila": 696,
+      "fila_viva": 672,
+      "pessoas": 694,
+      "pessoas_viva": 670,
+      "devolvidas": 813,
+      "espera_media": 147.84340520156897,
+      "espera_mediana": 69.26316884259359,
+      "espera_max": 2244.6981422222234,
+      "mais_antiga": "09/09/2020",
+      "idade_mediana": 45,
+      "total": 1509,
+      "agendadas_12m": 3441,
+      "agendadas_12m_no_codigo": 3441,
+      "cid_principais": [
+        [
+          "R87",
+          270
+        ],
+        [
+          "N87",
+          181
+        ],
+        [
+          "B97",
+          47
+        ],
+        [
+          "N84",
+          46
+        ],
+        [
+          "Z12",
+          35
+        ]
+      ],
+      "code": "0211040029"
+    },
+    {
+      "nome": "007. RM DE CRANIO ADULTO C/CONTRASTE S/SEDACAO",
+      "codigo": "207010064",
+      "fila": 623,
+      "fila_viva": 623,
+      "pessoas": 623,
+      "pessoas_viva": 623,
+      "devolvidas": 654,
+      "espera_media": 34.334753630266015,
+      "espera_mediana": 33.75268552083435,
+      "espera_max": 227.9488787500013,
+      "mais_antiga": "19/03/2026",
+      "idade_mediana": 52,
+      "total": 1277,
+      "agendadas_12m": 7363,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "R51",
+          63
+        ],
+        [
+          "D33",
+          42
+        ],
+        [
+          "G35",
+          41
+        ],
+        [
+          "D43",
+          39
+        ],
+        [
+          "G40",
+          32
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "ELETROENCEFALOGRAFIA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+      "codigo": "211050024",
+      "fila": 596,
+      "fila_viva": 494,
+      "pessoas": 596,
+      "pessoas_viva": 494,
+      "devolvidas": 105,
+      "espera_media": 379.956027959546,
+      "espera_mediana": 285.46407184028067,
+      "espera_max": 1383.0749410763892,
+      "mais_antiga": "19/01/2023",
+      "idade_mediana": 37.5,
+      "total": 701,
+      "agendadas_12m": 1537,
+      "agendadas_12m_no_codigo": 1816,
+      "cid_principais": [
+        [
+          "G40",
+          242
+        ],
+        [
+          "R56",
+          158
+        ],
+        [
+          "R55",
+          46
+        ],
+        [
+          "R51",
+          27
+        ],
+        [
+          "R41",
+          14
+        ]
+      ],
+      "code": "0211050024"
+    },
+    {
+      "nome": "069. RM DE BACIA OU PELVIS ADULTO S/CONTRASTE S/SEDACAO",
+      "codigo": "207030022",
+      "fila": 534,
+      "fila_viva": 534,
+      "pessoas": 534,
+      "pessoas_viva": 534,
+      "devolvidas": 748,
+      "espera_media": 26.120492215525914,
+      "espera_mediana": 26.018793883100443,
+      "espera_max": 90.74217597222014,
+      "mais_antiga": "03/08/2026",
+      "idade_mediana": 46,
+      "total": 1282,
+      "agendadas_12m": 5325,
+      "agendadas_12m_no_codigo": 19834,
+      "cid_principais": [
+        [
+          "N80",
+          127
+        ],
+        [
+          "R10",
+          74
+        ],
+        [
+          "M54",
+          35
+        ],
+        [
+          "M25",
+          35
+        ],
+        [
+          "M16",
+          31
+        ]
+      ],
+      "code": "0207030022"
+    },
+    {
+      "nome": "PUNCAO ASPIRATIVA TIREOIDE TELEGUIADA",
+      "codigo": "201010470",
+      "fila": 530,
+      "fila_viva": 530,
+      "pessoas": 530,
+      "pessoas_viva": 530,
+      "devolvidas": 90,
+      "espera_media": 94.43186430356928,
+      "espera_mediana": 83.92791224536995,
+      "espera_max": 448.03719084490876,
+      "mais_antiga": "11/08/2025",
+      "idade_mediana": 57,
+      "total": 620,
+      "agendadas_12m": 549,
+      "agendadas_12m_no_codigo": 549,
+      "cid_principais": [
+        [
+          "E04",
+          289
+        ],
+        [
+          "E07",
+          82
+        ],
+        [
+          "D44",
+          67
+        ],
+        [
+          "D34",
+          27
+        ],
+        [
+          "C73",
+          18
+        ]
+      ],
+      "code": "0201010470"
+    },
+    {
+      "nome": "ELETROENCEFALOGRAMA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+      "codigo": "211050024",
+      "fila": 496,
+      "fila_viva": 341,
+      "pessoas": 496,
+      "pessoas_viva": 341,
+      "devolvidas": 73,
+      "espera_media": 528.5809919728576,
+      "espera_mediana": 468.71182900462736,
+      "espera_max": 1560.7425121064807,
+      "mais_antiga": "25/07/2022",
+      "idade_mediana": 7,
+      "total": 569,
+      "agendadas_12m": 279,
+      "agendadas_12m_no_codigo": 1816,
+      "cid_principais": [
+        [
+          "G40",
+          189
+        ],
+        [
+          "R56",
+          85
+        ],
+        [
+          "F84",
+          61
+        ],
+        [
+          "F90",
+          31
+        ],
+        [
+          "R55",
+          24
+        ]
+      ],
+      "code": "0211050024"
+    },
+    {
+      "nome": "055. RM DE ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO",
+      "codigo": "207030014",
+      "fila": 465,
+      "fila_viva": 465,
+      "pessoas": 465,
+      "pessoas_viva": 465,
+      "devolvidas": 501,
+      "espera_media": 31.167081652505022,
+      "espera_mediana": 33.90996640046069,
+      "espera_max": 81.67111780092819,
+      "mais_antiga": "12/08/2026",
+      "idade_mediana": 57,
+      "total": 966,
+      "agendadas_12m": 9248,
+      "agendadas_12m_no_codigo": 10860,
+      "cid_principais": [
+        [
+          "C50",
+          38
+        ],
+        [
+          "C53",
+          32
+        ],
+        [
+          "R10",
+          26
+        ],
+        [
+          "C18",
+          26
+        ],
+        [
+          "K86",
+          24
+        ]
+      ],
+      "code": "0207030014"
+    },
+    {
+      "nome": "VIDEOENDOSCOPIA NASAL RIGIDA",
+      "codigo": "209040041",
+      "fila": 447,
+      "fila_viva": 440,
+      "pessoas": 447,
+      "pessoas_viva": 440,
+      "devolvidas": 207,
+      "espera_media": 103.25751394994492,
+      "espera_mediana": 34.84830206018523,
+      "espera_max": 901.7795595486095,
+      "mais_antiga": "14/05/2024",
+      "idade_mediana": 38,
+      "total": 654,
+      "agendadas_12m": 2833,
+      "agendadas_12m_no_codigo": 5282,
+      "cid_principais": [
+        [
+          "J34",
+          173
+        ],
+        [
+          "G47",
+          67
+        ],
+        [
+          "J35",
+          50
+        ],
+        [
+          "J32",
+          26
+        ],
+        [
+          "J30",
+          25
+        ]
+      ],
+      "code": "0209040041"
+    },
+    {
+      "nome": "COLONOSCOPIA C/ ANESTESIA",
+      "codigo": "209010029",
+      "fila": 382,
+      "fila_viva": 327,
+      "pessoas": 382,
+      "pessoas_viva": 327,
+      "devolvidas": 450,
+      "espera_media": 290.7513925292035,
+      "espera_mediana": 175.40642673032562,
+      "espera_max": 1015.0339937847239,
+      "mais_antiga": "22/01/2024",
+      "idade_mediana": 63.5,
+      "total": 832,
+      "agendadas_12m": 156,
+      "agendadas_12m_no_codigo": 6739,
+      "cid_principais": [
+        [
+          "Z12",
+          130
+        ],
+        [
+          "K92",
+          41
+        ],
+        [
+          "K63",
+          26
+        ],
+        [
+          "K59",
+          20
+        ],
+        [
+          "K62",
+          16
+        ]
+      ],
+      "code": "0209010029"
+    },
+    {
+      "nome": "TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT)",
+      "codigo": "206010095",
+      "fila": 379,
+      "fila_viva": 379,
+      "pessoas": 379,
+      "pessoas_viva": 379,
+      "devolvidas": 851,
+      "espera_media": 190.83810775206527,
+      "espera_mediana": 158.7570621296327,
+      "espera_max": 385.0079269791677,
+      "mais_antiga": "13/10/2025",
+      "idade_mediana": 61,
+      "total": 1230,
+      "agendadas_12m": 714,
+      "agendadas_12m_no_codigo": 714,
+      "cid_principais": [
+        [
+          "C85",
+          49
+        ],
+        [
+          "C81",
+          42
+        ],
+        [
+          "C83",
+          41
+        ],
+        [
+          "C34",
+          35
+        ],
+        [
+          "C50",
+          33
+        ]
+      ],
+      "code": "0206010095"
+    },
+    {
+      "nome": "CINTILOGRAFIA RENAL DINAMICA (DTPA)",
+      "codigo": "208040102",
+      "fila": 234,
+      "fila_viva": 234,
+      "pessoas": 234,
+      "pessoas_viva": 234,
+      "devolvidas": 4,
+      "espera_media": 158.80969968032906,
+      "espera_mediana": 165.4150704398162,
+      "espera_max": 354.051939907411,
+      "mais_antiga": "13/11/2025",
+      "idade_mediana": 46,
+      "total": 238,
+      "agendadas_12m": 125,
+      "agendadas_12m_no_codigo": 125,
+      "cid_principais": [
+        [
+          "N13",
+          59
+        ],
+        [
+          "N20",
+          43
+        ],
+        [
+          "N18",
+          34
+        ],
+        [
+          "Q62",
+          28
+        ],
+        [
+          "N39",
+          11
+        ]
+      ],
+      "code": "0208040102"
+    },
+    {
+      "nome": "VIDEOENDOSCOPIA DA DEGLUTICAO  ( VED)",
+      "codigo": "209040041",
+      "fila": 221,
+      "fila_viva": 118,
+      "pessoas": 221,
+      "pessoas_viva": 118,
+      "devolvidas": 65,
+      "espera_media": 543.9665111447919,
+      "espera_mediana": 709.7874657118082,
+      "espera_max": 1213.9888806828749,
+      "mais_antiga": "07/07/2023",
+      "idade_mediana": 66,
+      "total": 286,
+      "agendadas_12m": 35,
+      "agendadas_12m_no_codigo": 5282,
+      "cid_principais": [
+        [
+          "R13",
+          138
+        ],
+        [
+          "R63",
+          7
+        ],
+        [
+          "K22",
+          7
+        ],
+        [
+          "G12",
+          7
+        ],
+        [
+          "K21",
+          6
+        ]
+      ],
+      "code": "0209040041"
+    },
+    {
+      "nome": "PUNCAO DE MAMA POR AGULHA GROSSA (CORE BIOPSIA) GUIADA POR ULTRASSONOGRAFIA",
+      "codigo": "201010542",
+      "fila": 215,
+      "fila_viva": 215,
+      "pessoas": 215,
+      "pessoas_viva": 215,
+      "devolvidas": 185,
+      "espera_media": 68.17357811525743,
+      "espera_mediana": 55.0216517824083,
+      "espera_max": 236.79366424768523,
+      "mais_antiga": "10/03/2026",
+      "idade_mediana": 47,
+      "total": 400,
+      "agendadas_12m": 1108,
+      "agendadas_12m_no_codigo": 1310,
+      "cid_principais": [
+        [
+          "N63",
+          152
+        ],
+        [
+          "C50",
+          21
+        ],
+        [
+          "R92",
+          17
+        ],
+        [
+          "D48",
+          14
+        ],
+        [
+          "N64",
+          6
+        ]
+      ],
+      "code": "0201010542"
+    },
+    {
+      "nome": "VIDEOLARINGOSCOPIA",
+      "codigo": "209040041",
+      "fila": 215,
+      "fila_viva": 215,
+      "pessoas": 215,
+      "pessoas_viva": 215,
+      "devolvidas": 226,
+      "espera_media": 96.60822974354097,
+      "espera_mediana": 87.07821252314898,
+      "espera_max": 509.0688034606501,
+      "mais_antiga": "11/06/2025",
+      "idade_mediana": 42,
+      "total": 441,
+      "agendadas_12m": 2258,
+      "agendadas_12m_no_codigo": 5282,
+      "cid_principais": [
+        [
+          "R49",
+          46
+        ],
+        [
+          "Q31",
+          21
+        ],
+        [
+          "K21",
+          20
+        ],
+        [
+          "R13",
+          18
+        ],
+        [
+          "G47",
+          15
+        ]
+      ],
+      "code": "0209040041"
+    },
+    {
+      "nome": "MAMOGRAFIA BILATERAL DIAGNOSTICA",
+      "codigo": "204030188",
+      "fila": 182,
+      "fila_viva": 182,
+      "pessoas": 182,
+      "pessoas_viva": 182,
+      "devolvidas": 540,
+      "espera_media": 45.36753180250422,
+      "espera_mediana": 31.868399045139086,
+      "espera_max": 243.89804645833647,
+      "mais_antiga": "03/03/2026",
+      "idade_mediana": 52,
+      "total": 722,
+      "agendadas_12m": 5069,
+      "agendadas_12m_no_codigo": 55807,
+      "cid_principais": [
+        [
+          "N63",
+          61
+        ],
+        [
+          "Z12",
+          56
+        ],
+        [
+          "N64",
+          14
+        ],
+        [
+          "R92",
+          12
+        ],
+        [
+          "N60",
+          11
+        ]
+      ],
+      "code": "0204030188"
+    },
+    {
+      "nome": "CINTILOGRAFIA RENAL ESTATICA (DMSA)",
+      "codigo": "208040056",
+      "fila": 179,
+      "fila_viva": 179,
+      "pessoas": 179,
+      "pessoas_viva": 179,
+      "devolvidas": 15,
+      "espera_media": 105.10645980867322,
+      "espera_mediana": 94.0081960995376,
+      "espera_max": 223.94824655092816,
+      "mais_antiga": "23/03/2026",
+      "idade_mediana": 45,
+      "total": 194,
+      "agendadas_12m": 302,
+      "agendadas_12m_no_codigo": 302,
+      "cid_principais": [
+        [
+          "N20",
+          44
+        ],
+        [
+          "N13",
+          32
+        ],
+        [
+          "Q62",
+          21
+        ],
+        [
+          "N18",
+          19
+        ],
+        [
+          "N39",
+          18
+        ]
+      ],
+      "code": "0208040056"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE PARATIREOIDES",
+      "codigo": "208030018",
+      "fila": 152,
+      "fila_viva": 152,
+      "pessoas": 152,
+      "pessoas_viva": 152,
+      "devolvidas": 10,
+      "espera_media": 151.46263550750905,
+      "espera_mediana": 154.8096432696766,
+      "espera_max": 306.8840637847243,
+      "mais_antiga": "30/12/2025",
+      "idade_mediana": 60,
+      "total": 162,
+      "agendadas_12m": 203,
+      "agendadas_12m_no_codigo": 203,
+      "cid_principais": [
+        [
+          "E21",
+          100
+        ],
+        [
+          "N25",
+          22
+        ],
+        [
+          "N18",
+          13
+        ],
+        [
+          "M35",
+          7
+        ],
+        [
+          "E83",
+          3
+        ]
+      ],
+      "code": "0208030018"
+    },
+    {
+      "nome": "053. RM DE ABDOMEN SUPERIOR ADULTO S/CONTRASTE S/SEDACAO",
+      "codigo": "207030014",
+      "fila": 104,
+      "fila_viva": 104,
+      "pessoas": 104,
+      "pessoas_viva": 104,
+      "devolvidas": 350,
+      "espera_media": 23.104355856148686,
+      "espera_mediana": 21.92277421875042,
+      "espera_max": 48.928099328702956,
+      "mais_antiga": "14/09/2026",
+      "idade_mediana": 49.5,
+      "total": 454,
+      "agendadas_12m": 1389,
+      "agendadas_12m_no_codigo": 10860,
+      "cid_principais": [
+        [
+          "R10",
+          27
+        ],
+        [
+          "E83",
+          7
+        ],
+        [
+          "D35",
+          6
+        ],
+        [
+          "N80",
+          5
+        ],
+        [
+          "N20",
+          4
+        ]
+      ],
+      "code": "0207030014"
+    },
+    {
+      "nome": "RM DE SELA TURCICA ADULTO C/CONTRASTE S/SEDACAO",
+      "codigo": "207010072",
+      "fila": 104,
+      "fila_viva": 104,
+      "pessoas": 104,
+      "pessoas_viva": 104,
+      "devolvidas": 34,
+      "espera_media": 32.03268058371241,
+      "espera_mediana": 31.70082675347294,
+      "espera_max": 69.99990840278042,
+      "mais_antiga": "24/08/2026",
+      "idade_mediana": 47,
+      "total": 138,
+      "agendadas_12m": 1011,
+      "agendadas_12m_no_codigo": 1590,
+      "cid_principais": [
+        [
+          "D35",
+          47
+        ],
+        [
+          "E22",
+          35
+        ],
+        [
+          "E23",
+          8
+        ],
+        [
+          "D44",
+          6
+        ],
+        [
+          "D43",
+          2
+        ]
+      ],
+      "code": "0207010072"
+    },
+    {
+      "nome": "ANGIORESSONANCIA CEREBRAL ARTERIAL",
+      "codigo": "207010013",
+      "fila": 82,
+      "fila_viva": 82,
+      "pessoas": 82,
+      "pessoas_viva": 82,
+      "devolvidas": 32,
+      "espera_media": 29.8427759000971,
+      "espera_mediana": 30.66943402777906,
+      "espera_max": 65.78043802083266,
+      "mais_antiga": "28/08/2026",
+      "idade_mediana": 54,
+      "total": 114,
+      "agendadas_12m": 1482,
+      "agendadas_12m_no_codigo": 2696,
+      "cid_principais": [
+        [
+          "I67",
+          29
+        ],
+        [
+          "I64",
+          9
+        ],
+        [
+          "R51",
+          6
+        ],
+        [
+          "I60",
+          3
+        ],
+        [
+          "D57",
+          3
+        ]
+      ],
+      "code": "0207010013"
+    },
+    {
+      "nome": "PUNCAO DE MAMA POR AGULHA GROSSA (CORE BIOPSIA) GUIADA POR MAMOGRAFIA",
+      "codigo": "201010542",
+      "fila": 77,
+      "fila_viva": 77,
+      "pessoas": 77,
+      "pessoas_viva": 77,
+      "devolvidas": 64,
+      "espera_media": 77.36132312019126,
+      "espera_mediana": 75.95430013888836,
+      "espera_max": 593.6794649305593,
+      "mais_antiga": "18/03/2025",
+      "idade_mediana": 56,
+      "total": 141,
+      "agendadas_12m": 202,
+      "agendadas_12m_no_codigo": 1310,
+      "cid_principais": [
+        [
+          "N64",
+          29
+        ],
+        [
+          "C50",
+          15
+        ],
+        [
+          "N63",
+          13
+        ],
+        [
+          "R92",
+          11
+        ],
+        [
+          "D48",
+          6
+        ]
+      ],
+      "code": "0201010542"
+    },
+    {
+      "nome": "063. RM DE VIAS BILIARES ADULTO C/CONTRASTE S/SEDACAO",
+      "codigo": "207030049",
+      "fila": 63,
+      "fila_viva": 63,
+      "pessoas": 63,
+      "pessoas_viva": 63,
+      "devolvidas": 138,
+      "espera_media": 31.83124150536582,
+      "espera_mediana": 27.802839953707007,
+      "espera_max": 73.83334011574334,
+      "mais_antiga": "20/08/2026",
+      "idade_mediana": 57,
+      "total": 201,
+      "agendadas_12m": 1083,
+      "agendadas_12m_no_codigo": 3294,
+      "cid_principais": [
+        [
+          "K83",
+          17
+        ],
+        [
+          "K80",
+          10
+        ],
+        [
+          "K86",
+          6
+        ],
+        [
+          "R10",
+          5
+        ],
+        [
+          "K74",
+          3
+        ]
+      ],
+      "code": "0207030049"
+    },
+    {
+      "nome": "RM DE MASTOIDES ADULTO C/CONTRASTE S/SEDACAO",
+      "codigo": "207010021",
+      "fila": 61,
+      "fila_viva": 61,
+      "pessoas": 61,
+      "pessoas_viva": 61,
+      "devolvidas": 13,
+      "espera_media": 33.390711822063466,
+      "espera_mediana": 33.79404052083555,
+      "espera_max": 83.05868468750123,
+      "mais_antiga": "11/08/2026",
+      "idade_mediana": 54,
+      "total": 74,
+      "agendadas_12m": 706,
+      "agendadas_12m_no_codigo": 1694,
+      "cid_principais": [
+        [
+          "H90",
+          26
+        ],
+        [
+          "G51",
+          7
+        ],
+        [
+          "H93",
+          7
+        ],
+        [
+          "H91",
+          5
+        ],
+        [
+          "D33",
+          3
+        ]
+      ],
+      "code": "0207010021"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTIMULO",
+      "codigo": "208020039",
+      "fila": 58,
+      "fila_viva": 58,
+      "pessoas": 58,
+      "pessoas_viva": 58,
+      "devolvidas": 3,
+      "espera_media": 72.35794603388534,
+      "espera_mediana": 51.95019806134587,
+      "espera_max": 326.95581329861307,
+      "mais_antiga": "10/12/2025",
+      "idade_mediana": 57,
+      "total": 61,
+      "agendadas_12m": 68,
+      "agendadas_12m_no_codigo": 68,
+      "cid_principais": [
+        [
+          "M35",
+          52
+        ],
+        [
+          "M32",
+          3
+        ],
+        [
+          "K11",
+          1
+        ],
+        [
+          "R68",
+          1
+        ],
+        [
+          "B26",
+          1
+        ]
+      ],
+      "code": "0208020039"
+    },
+    {
+      "nome": "061. RM DE VIAS BILIARES ADULTO S/CONTRASTE S/SEDACAO",
+      "codigo": "207030049",
+      "fila": 52,
+      "fila_viva": 52,
+      "pessoas": 52,
+      "pessoas_viva": 52,
+      "devolvidas": 157,
+      "espera_media": 24.35120228766153,
+      "espera_mediana": 20.95071180555533,
+      "espera_max": 65.99228092592966,
+      "mais_antiga": "28/08/2026",
+      "idade_mediana": 46.5,
+      "total": 209,
+      "agendadas_12m": 2129,
+      "agendadas_12m_no_codigo": 3294,
+      "cid_principais": [
+        [
+          "K80",
+          23
+        ],
+        [
+          "K83",
+          8
+        ],
+        [
+          "R10",
+          4
+        ],
+        [
+          "K85",
+          4
+        ],
+        [
+          "K74",
+          2
+        ]
+      ],
+      "code": "0207030049"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE",
+      "codigo": "208010041",
+      "fila": 50,
+      "fila_viva": 50,
+      "pessoas": 50,
+      "pessoas_viva": 50,
+      "devolvidas": 2,
+      "espera_media": 181.89844277870506,
+      "espera_mediana": 165.48528384259407,
+      "espera_max": 404.0165022337969,
+      "mais_antiga": "24/09/2025",
+      "idade_mediana": 66.5,
+      "total": 52,
+      "agendadas_12m": 8,
+      "agendadas_12m_no_codigo": 8,
+      "cid_principais": [
+        [
+          "E85",
+          21
+        ],
+        [
+          "I25",
+          11
+        ],
+        [
+          "I20",
+          5
+        ],
+        [
+          "I42",
+          3
+        ],
+        [
+          "I50",
+          3
+        ]
+      ],
+      "code": "0208010041"
+    },
+    {
+      "nome": "ANGIORESSONANCIA CEREBRAL VENOSA",
+      "codigo": "207010013",
+      "fila": 33,
+      "fila_viva": 33,
+      "pessoas": 33,
+      "pessoas_viva": 33,
+      "devolvidas": 15,
+      "espera_media": 29.834326059203622,
+      "espera_mediana": 30.743985567132768,
+      "espera_max": 61.714828182870406,
+      "mais_antiga": "01/09/2026",
+      "idade_mediana": 39,
+      "total": 48,
+      "agendadas_12m": 633,
+      "agendadas_12m_no_codigo": 2696,
+      "cid_principais": [
+        [
+          "R51",
+          6
+        ],
+        [
+          "G93",
+          4
+        ],
+        [
+          "I67",
+          3
+        ],
+        [
+          "I64",
+          3
+        ],
+        [
+          "G43",
+          2
+        ]
+      ],
+      "code": "0207010013"
+    },
+    {
+      "nome": "RM DE ORBITAS ADULTO C/CONTRASTE S/SEDAÇÃO",
+      "codigo": "207010064",
+      "fila": 28,
+      "fila_viva": 28,
+      "pessoas": 28,
+      "pessoas_viva": 28,
+      "devolvidas": 1,
+      "espera_media": 27.666910846974393,
+      "espera_mediana": 27.98654111689757,
+      "espera_max": 54.938455208335654,
+      "mais_antiga": "08/09/2026",
+      "idade_mediana": 45.5,
+      "total": 29,
+      "agendadas_12m": 252,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "G35",
+          3
+        ],
+        [
+          "H46",
+          2
+        ],
+        [
+          "H05",
+          2
+        ],
+        [
+          "G04",
+          2
+        ],
+        [
+          "H47",
+          2
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "CINTILOGRAFIA DA TIREOIDE C/ OU S/ CAPTACAO",
+      "codigo": "208030026",
+      "fila": 28,
+      "fila_viva": 28,
+      "pessoas": 28,
+      "pessoas_viva": 28,
+      "devolvidas": 4,
+      "espera_media": 21.603530500166535,
+      "espera_mediana": 24.35022298032709,
+      "espera_max": 38.756573124999704,
+      "mais_antiga": "24/09/2026",
+      "idade_mediana": 54,
+      "total": 32,
+      "agendadas_12m": 426,
+      "agendadas_12m_no_codigo": 426,
+      "cid_principais": [
+        [
+          "E05",
+          22
+        ],
+        [
+          "E04",
+          3
+        ],
+        [
+          "E21",
+          1
+        ],
+        [
+          "E06",
+          1
+        ],
+        [
+          "E07",
+          1
+        ]
+      ],
+      "code": "0208030026"
+    },
+    {
+      "nome": "013. RM DE ATM (BILATERAL) ADULTO  S/CONTRASTE S/SEDACAO",
+      "codigo": "207010021",
+      "fila": 27,
+      "fila_viva": 27,
+      "pessoas": 27,
+      "pessoas_viva": 27,
+      "devolvidas": 27,
+      "espera_media": 25.698807455419296,
+      "espera_mediana": 24.739345462963684,
+      "espera_max": 70.06051070601825,
+      "mais_antiga": "24/08/2026",
+      "idade_mediana": 48,
+      "total": 54,
+      "agendadas_12m": 218,
+      "agendadas_12m_no_codigo": 1694,
+      "cid_principais": [
+        [
+          "K07",
+          20
+        ],
+        [
+          "K76",
+          3
+        ],
+        [
+          "M54",
+          1
+        ],
+        [
+          "K74",
+          1
+        ],
+        [
+          "K04",
+          1
+        ]
+      ],
+      "code": "0207010021"
+    },
+    {
+      "nome": "CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO",
+      "codigo": "208030042",
+      "fila": 25,
+      "fila_viva": 25,
+      "pessoas": 25,
+      "pessoas_viva": 25,
+      "devolvidas": 2,
+      "espera_media": 17.38470052314864,
+      "espera_mediana": 13.991273668980284,
+      "espera_max": 31.809810185186507,
+      "mais_antiga": "01/10/2026",
+      "idade_mediana": 53,
+      "total": 27,
+      "agendadas_12m": 122,
+      "agendadas_12m_no_codigo": 122,
+      "cid_principais": [
+        [
+          "C73",
+          9
+        ],
+        [
+          "C50",
+          6
+        ],
+        [
+          "C61",
+          4
+        ],
+        [
+          "M00",
+          2
+        ],
+        [
+          "C43",
+          1
+        ]
+      ],
+      "code": "0208030042"
+    },
+    {
+      "nome": "LINFOCINTILOGRAFIA",
+      "codigo": "208080040",
+      "fila": 22,
+      "fila_viva": 22,
+      "pessoas": 22,
+      "pessoas_viva": 22,
+      "devolvidas": 2,
+      "espera_media": 132.98646180082142,
+      "espera_mediana": 145.29007893518428,
+      "espera_max": 338.7219087962949,
+      "mais_antiga": "28/11/2025",
+      "idade_mediana": 53.5,
+      "total": 24,
+      "agendadas_12m": 36,
+      "agendadas_12m_no_codigo": 36,
+      "cid_principais": [
+        [
+          "I89",
+          16
+        ],
+        [
+          "R60",
+          3
+        ],
+        [
+          "C43",
+          1
+        ],
+        [
+          "E88",
+          1
+        ],
+        [
+          "I83",
+          1
+        ]
+      ],
+      "code": "0208080040"
+    },
+    {
+      "nome": "CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO (SÓLIDOS/SEMI -SÓLIDOS)",
+      "codigo": "208020071",
+      "fila": 21,
+      "fila_viva": 21,
+      "pessoas": 21,
+      "pessoas_viva": 21,
+      "devolvidas": 1,
+      "espera_media": 123.03890800815758,
+      "espera_mediana": 115.89102920138976,
+      "espera_max": 250.91160770833085,
+      "mais_antiga": "24/02/2026",
+      "idade_mediana": 43,
+      "total": 22,
+      "agendadas_12m": 14,
+      "agendadas_12m_no_codigo": 17,
+      "cid_principais": [
+        [
+          "K31",
+          12
+        ],
+        [
+          "R11",
+          3
+        ],
+        [
+          "K30",
+          3
+        ],
+        [
+          "E10",
+          2
+        ],
+        [
+          "K91",
+          1
+        ]
+      ],
+      "code": "0208020071"
+    },
+    {
+      "nome": "RM DE MASTOIDES ADULTO S/CONTRASTE S/SEDACAO",
+      "codigo": "207010021",
+      "fila": 21,
+      "fila_viva": 21,
+      "pessoas": 21,
+      "pessoas_viva": 21,
+      "devolvidas": 7,
+      "espera_media": 24.101424647819105,
+      "espera_mediana": 25.82864039351989,
+      "espera_max": 38.96787078704074,
+      "mais_antiga": "24/09/2026",
+      "idade_mediana": 50,
+      "total": 28,
+      "agendadas_12m": 188,
+      "agendadas_12m_no_codigo": 1694,
+      "cid_principais": [
+        [
+          "H90",
+          6
+        ],
+        [
+          "H93",
+          4
+        ],
+        [
+          "H91",
+          1
+        ],
+        [
+          "J34",
+          1
+        ],
+        [
+          "H66",
+          1
+        ]
+      ],
+      "code": "0207010021"
+    },
+    {
+      "nome": "RM DE SELA TURCICA ADULTO S/CONTRASTE S/SEDACAO",
+      "codigo": "207010072",
+      "fila": 20,
+      "fila_viva": 20,
+      "pessoas": 20,
+      "pessoas_viva": 20,
+      "devolvidas": 27,
+      "espera_media": 26.237006430557084,
+      "espera_mediana": 26.20118129051116,
+      "espera_max": 66.72166354166984,
+      "mais_antiga": "27/08/2026",
+      "idade_mediana": 41,
+      "total": 47,
+      "agendadas_12m": 211,
+      "agendadas_12m_no_codigo": 1590,
+      "cid_principais": [
+        [
+          "E22",
+          6
+        ],
+        [
+          "D35",
+          6
+        ],
+        [
+          "E23",
+          2
+        ],
+        [
+          "D43",
+          1
+        ],
+        [
+          "E29",
+          1
+        ]
+      ],
+      "code": "0207010072"
+    },
+    {
+      "nome": "304. RM DE SEIOS DA FACE ADULTO C/CONTRASTE S/SEDACAO",
+      "codigo": "207010021",
+      "fila": 19,
+      "fila_viva": 19,
+      "pessoas": 19,
+      "pessoas_viva": 19,
+      "devolvidas": 26,
+      "espera_media": 31.22659855689677,
+      "espera_mediana": 33.92658222222235,
+      "espera_max": 62.90639372685109,
+      "mais_antiga": "31/08/2026",
+      "idade_mediana": 53,
+      "total": 45,
+      "agendadas_12m": 326,
+      "agendadas_12m_no_codigo": 1694,
+      "cid_principais": [
+        [
+          "R43",
+          3
+        ],
+        [
+          "J34",
+          2
+        ],
+        [
+          "J32",
+          2
+        ],
+        [
+          "D48",
+          1
+        ],
+        [
+          "R20",
+          1
+        ]
+      ],
+      "code": "0207010021"
+    },
+    {
+      "nome": "002. RM DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO",
+      "codigo": "207010064",
+      "fila": 18,
+      "fila_viva": 18,
+      "pessoas": 18,
+      "pessoas_viva": 18,
+      "devolvidas": 863,
+      "espera_media": 24.157503726209445,
+      "espera_mediana": 17.9024131134247,
+      "espera_max": 52.76632634259295,
+      "mais_antiga": "10/09/2026",
+      "idade_mediana": 1,
+      "total": 881,
+      "agendadas_12m": 1027,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "G40",
+          5
+        ],
+        [
+          "G93",
+          2
+        ],
+        [
+          "F79",
+          2
+        ],
+        [
+          "P94",
+          2
+        ],
+        [
+          "G47",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67",
+      "codigo": "208050043",
+      "fila": 16,
+      "fila_viva": 16,
+      "pessoas": 16,
+      "pessoas_viva": 16,
+      "devolvidas": 0,
+      "espera_media": 25.250176675348484,
+      "espera_mediana": 25.848525248842634,
+      "espera_max": 61.90851620370813,
+      "mais_antiga": "01/09/2026",
+      "idade_mediana": 62.5,
+      "total": 16,
+      "agendadas_12m": 13,
+      "agendadas_12m_no_codigo": 13,
+      "cid_principais": [
+        [
+          "C50",
+          9
+        ],
+        [
+          "C61",
+          3
+        ],
+        [
+          "D48",
+          1
+        ],
+        [
+          "M54",
+          1
+        ],
+        [
+          "M25",
+          1
+        ]
+      ],
+      "code": "0208050043"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES)",
+      "codigo": "208070044",
+      "fila": 15,
+      "fila_viva": 15,
+      "pessoas": 15,
+      "pessoas_viva": 15,
+      "devolvidas": 35,
+      "espera_media": 44.882668300926646,
+      "espera_mediana": 18.723158483800944,
+      "espera_max": 297.03514711805474,
+      "mais_antiga": "09/01/2026",
+      "idade_mediana": 62,
+      "total": 50,
+      "agendadas_12m": 141,
+      "agendadas_12m_no_codigo": 141,
+      "cid_principais": [
+        [
+          "I26",
+          9
+        ],
+        [
+          "I27",
+          3
+        ],
+        [
+          "B90",
+          1
+        ],
+        [
+          "R06",
+          1
+        ],
+        [
+          "J43",
+          1
+        ]
+      ],
+      "code": "0208070044"
+    },
+    {
+      "nome": "004. RM DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO",
+      "codigo": "207010064",
+      "fila": 13,
+      "fila_viva": 13,
+      "pessoas": 13,
+      "pessoas_viva": 13,
+      "devolvidas": 871,
+      "espera_media": 24.682470806624714,
+      "espera_mediana": 24.019120879631373,
+      "espera_max": 54.79917805555306,
+      "mais_antiga": "08/09/2026",
+      "idade_mediana": 1,
+      "total": 884,
+      "agendadas_12m": 849,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "G40",
+          4
+        ],
+        [
+          "Q85",
+          1
+        ],
+        [
+          "R56",
+          1
+        ],
+        [
+          "Q99",
+          1
+        ],
+        [
+          "G46",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO ( LIQUIDOS)",
+      "codigo": "208020071",
+      "fila": 13,
+      "fila_viva": 13,
+      "pessoas": 13,
+      "pessoas_viva": 13,
+      "devolvidas": 0,
+      "espera_media": 187.39423224359052,
+      "espera_mediana": 173.8468478472205,
+      "espera_max": 394.776233518518,
+      "mais_antiga": "03/10/2025",
+      "idade_mediana": 57,
+      "total": 13,
+      "agendadas_12m": 3,
+      "agendadas_12m_no_codigo": 17,
+      "cid_principais": [
+        [
+          "K31",
+          8
+        ],
+        [
+          "K91",
+          2
+        ],
+        [
+          "K59",
+          1
+        ],
+        [
+          "E10",
+          1
+        ],
+        [
+          "R11",
+          1
+        ]
+      ],
+      "code": "0208020071"
+    },
+    {
+      "nome": "ANGIORESSONANCIA DO PESCOCO",
+      "codigo": "207010013",
+      "fila": 8,
+      "fila_viva": 8,
+      "pessoas": 8,
+      "pessoas_viva": 8,
+      "devolvidas": 0,
+      "espera_media": 28.829254784433033,
+      "espera_mediana": 28.39134343171463,
+      "espera_max": 46.861525648149836,
+      "mais_antiga": "16/09/2026",
+      "idade_mediana": 43.5,
+      "total": 8,
+      "agendadas_12m": 104,
+      "agendadas_12m_no_codigo": 2696,
+      "cid_principais": [
+        [
+          "D43",
+          1
+        ],
+        [
+          "I63",
+          1
+        ],
+        [
+          "M31",
+          1
+        ],
+        [
+          "I67",
+          1
+        ],
+        [
+          "T90",
+          1
+        ]
+      ],
+      "code": "0207010013"
+    },
+    {
+      "nome": "ANGIORESSONANCIA DO ABDOMEN",
+      "codigo": "207010013",
+      "fila": 7,
+      "fila_viva": 7,
+      "pessoas": 7,
+      "pessoas_viva": 7,
+      "devolvidas": 39,
+      "espera_media": 34.1667189269179,
+      "espera_mediana": 30.98894519676105,
+      "espera_max": 60.04782640046324,
+      "mais_antiga": "03/09/2026",
+      "idade_mediana": 59,
+      "total": 46,
+      "agendadas_12m": 105,
+      "agendadas_12m_no_codigo": 2696,
+      "cid_principais": [
+        [
+          "M31",
+          1
+        ],
+        [
+          "K70",
+          1
+        ],
+        [
+          "K83",
+          1
+        ],
+        [
+          "I77",
+          1
+        ],
+        [
+          "R10",
+          1
+        ]
+      ],
+      "code": "0207010013"
+    },
+    {
+      "nome": "302. RM DE SEIOS DA FACE ADULTO S/CONTRASTE S/SEDACAO",
+      "codigo": "207010021",
+      "fila": 7,
+      "fila_viva": 7,
+      "pessoas": 7,
+      "pessoas_viva": 7,
+      "devolvidas": 18,
+      "espera_media": 18.95646339616464,
+      "espera_mediana": 13.885041435183666,
+      "espera_max": 38.721172557874525,
+      "mais_antiga": "24/09/2026",
+      "idade_mediana": 41,
+      "total": 25,
+      "agendadas_12m": 87,
+      "agendadas_12m_no_codigo": 1694,
+      "cid_principais": [
+        [
+          "J01",
+          1
+        ],
+        [
+          "J32",
+          1
+        ],
+        [
+          "G47",
+          1
+        ],
+        [
+          "G43",
+          1
+        ],
+        [
+          "R52",
+          1
+        ]
+      ],
+      "code": "0207010021"
+    },
+    {
+      "nome": "ANGIORESSONANCIA DO TORAX",
+      "codigo": "207010013",
+      "fila": 5,
+      "fila_viva": 5,
+      "pessoas": 5,
+      "pessoas_viva": 5,
+      "devolvidas": 4,
+      "espera_media": 23.81230034490727,
+      "espera_mediana": 23.959889745368855,
+      "espera_max": 46.89993950231292,
+      "mais_antiga": "16/09/2026",
+      "idade_mediana": 60,
+      "total": 9,
+      "agendadas_12m": 90,
+      "agendadas_12m_no_codigo": 2696,
+      "cid_principais": [
+        [
+          "M31",
+          2
+        ],
+        [
+          "I21",
+          1
+        ],
+        [
+          "Q96",
+          1
+        ],
+        [
+          "I50",
+          1
+        ]
+      ],
+      "code": "0207010013"
+    },
+    {
+      "nome": "300. ANGIORESSONANCIA DE VASOS CERVICAIS",
+      "codigo": "207010013",
+      "fila": 5,
+      "fila_viva": 5,
+      "pessoas": 5,
+      "pessoas_viva": 5,
+      "devolvidas": 15,
+      "espera_media": 30.139526013890283,
+      "espera_mediana": 30.89985642360989,
+      "espera_max": 53.79624092592712,
+      "mais_antiga": "09/09/2026",
+      "idade_mediana": 60,
+      "total": 20,
+      "agendadas_12m": 176,
+      "agendadas_12m_no_codigo": 2696,
+      "cid_principais": [
+        [
+          "I64",
+          2
+        ],
+        [
+          "M35",
+          1
+        ],
+        [
+          "I71",
+          1
+        ],
+        [
+          "R55",
+          1
+        ]
+      ],
+      "code": "0207010013"
+    },
+    {
+      "nome": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO)",
+      "codigo": "208020063",
+      "fila": 5,
+      "fila_viva": 5,
+      "pessoas": 5,
+      "pessoas_viva": 5,
+      "devolvidas": 0,
+      "espera_media": 195.6160499305566,
+      "espera_mediana": 172.76706744213152,
+      "espera_max": 369.0257925000042,
+      "mais_antiga": "29/10/2025",
+      "idade_mediana": 41,
+      "total": 5,
+      "agendadas_12m": null,
+      "agendadas_12m_no_codigo": null,
+      "cid_principais": [
+        [
+          "M34",
+          2
+        ],
+        [
+          "H19",
+          1
+        ],
+        [
+          "M35",
+          1
+        ],
+        [
+          "R11",
+          1
+        ]
+      ],
+      "code": "0208020063"
+    },
+    {
+      "nome": "CINTILOGRAFIA PARA PESQUISA DE HEMORRAGIAS ATIVAS",
+      "codigo": "208020098",
+      "fila": 5,
+      "fila_viva": 5,
+      "pessoas": 5,
+      "pessoas_viva": 5,
+      "devolvidas": 0,
+      "espera_media": 58.91110308101925,
+      "espera_mediana": 60.75016587963182,
+      "espera_max": 62.949749780091224,
+      "mais_antiga": "31/08/2026",
+      "idade_mediana": 53,
+      "total": 5,
+      "agendadas_12m": 19,
+      "agendadas_12m_no_codigo": 19,
+      "cid_principais": [
+        [
+          "K92",
+          5
+        ]
+      ],
+      "code": "0208020098"
+    },
+    {
+      "nome": "015. RM DE ATM (BILATERAL) ADULTO C/CONTRASTE S/SEDACAO",
+      "codigo": "207010021",
+      "fila": 4,
+      "fila_viva": 4,
+      "pessoas": 4,
+      "pessoas_viva": 4,
+      "devolvidas": 6,
+      "espera_media": 23.33849218749856,
+      "espera_mediana": 23.83616733796225,
+      "espera_max": 39.75455597222026,
+      "mais_antiga": "23/09/2026",
+      "idade_mediana": 46.5,
+      "total": 10,
+      "agendadas_12m": 21,
+      "agendadas_12m_no_codigo": 1694,
+      "cid_principais": [
+        [
+          "M25",
+          1
+        ],
+        [
+          "K07",
+          1
+        ],
+        [
+          "G50",
+          1
+        ],
+        [
+          "C07",
+          1
+        ]
+      ],
+      "code": "0207010021"
+    },
+    {
+      "nome": "ESTUDO DE FLUXO SANGUINEO CEREBRAL( ECD-T C99M)",
+      "codigo": "208060030",
+      "fila": 4,
+      "fila_viva": 4,
+      "pessoas": 4,
+      "pessoas_viva": 4,
+      "devolvidas": 0,
+      "espera_media": 138.65369726852077,
+      "espera_mediana": 150.99448370370737,
+      "espera_max": 164.7384861805549,
+      "mais_antiga": "21/05/2026",
+      "idade_mediana": 67.5,
+      "total": 4,
+      "agendadas_12m": 14,
+      "agendadas_12m_no_codigo": 14,
+      "cid_principais": [
+        [
+          "F03",
+          2
+        ],
+        [
+          "I63",
+          1
+        ],
+        [
+          "G20",
+          1
+        ]
+      ],
+      "code": "0208060030"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA)",
+      "codigo": "208090029",
+      "fila": 3,
+      "fila_viva": 3,
+      "pessoas": 3,
+      "pessoas_viva": 3,
+      "devolvidas": 1,
+      "espera_media": 62.503547357252195,
+      "espera_mediana": 65.84114436342497,
+      "espera_max": 67.7701023842601,
+      "mais_antiga": "26/08/2026",
+      "idade_mediana": 48,
+      "total": 4,
+      "agendadas_12m": 11,
+      "agendadas_12m_no_codigo": 11,
+      "cid_principais": [
+        [
+          "H04",
+          3
+        ]
+      ],
+      "code": "0208090029"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE PULMAO P/ PESQUISA DE ASPIRACAO",
+      "codigo": "208070028",
+      "fila": 3,
+      "fila_viva": 3,
+      "pessoas": 3,
+      "pessoas_viva": 3,
+      "devolvidas": 1,
+      "espera_media": 40.84620097994048,
+      "espera_mediana": 34.97245328703866,
+      "espera_max": 67.65280869213166,
+      "mais_antiga": "26/08/2026",
+      "idade_mediana": 49,
+      "total": 4,
+      "agendadas_12m": null,
+      "agendadas_12m_no_codigo": null,
+      "cid_principais": [
+        [
+          "I26",
+          3
+        ]
+      ],
+      "code": "0208070028"
+    },
+    {
+      "nome": "294. ANGIORESSONANCIA DE ARTERIAS RENAIS",
+      "codigo": "207030014",
+      "fila": 3,
+      "fila_viva": 3,
+      "pessoas": 3,
+      "pessoas_viva": 3,
+      "devolvidas": 6,
+      "espera_media": 21.863125547839445,
+      "espera_mediana": 24.87220003472612,
+      "espera_max": 30.698908923608542,
+      "mais_antiga": "02/10/2026",
+      "idade_mediana": 36,
+      "total": 9,
+      "agendadas_12m": 31,
+      "agendadas_12m_no_codigo": 10860,
+      "cid_principais": [
+        [
+          "I15",
+          2
+        ],
+        [
+          "N19",
+          1
+        ]
+      ],
+      "code": "0207030014"
+    },
+    {
+      "nome": "RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE S/ SEDAÇÃO",
+      "codigo": "207010064",
+      "fila": 3,
+      "fila_viva": 3,
+      "pessoas": 3,
+      "pessoas_viva": 3,
+      "devolvidas": 17,
+      "espera_media": 103.55244054012535,
+      "espera_mediana": 103.8002715509283,
+      "espera_max": 104.96395152778132,
+      "mais_antiga": "20/07/2026",
+      "idade_mediana": 55,
+      "total": 20,
+      "agendadas_12m": 0,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "H05",
+          1
+        ],
+        [
+          "H57",
+          1
+        ],
+        [
+          "C69",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS",
+      "codigo": "208090010",
+      "fila": 3,
+      "fila_viva": 3,
+      "pessoas": 3,
+      "pessoas_viva": 3,
+      "devolvidas": 0,
+      "espera_media": 278.0563664429016,
+      "espera_mediana": 243.7092032175933,
+      "espera_max": 349.7618521643526,
+      "mais_antiga": "17/11/2025",
+      "idade_mediana": 83,
+      "total": 3,
+      "agendadas_12m": 3,
+      "agendadas_12m_no_codigo": 3,
+      "cid_principais": [
+        [
+          "C50",
+          2
+        ],
+        [
+          "C61",
+          1
+        ]
+      ],
+      "code": "0208090010"
+    },
+    {
+      "nome": "CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (LIQUIDO)",
+      "codigo": "208020055",
+      "fila": 3,
+      "fila_viva": 3,
+      "pessoas": 3,
+      "pessoas_viva": 3,
+      "devolvidas": 0,
+      "espera_media": 294.9667279706773,
+      "espera_mediana": 342.80882366898004,
+      "espera_max": 369.0262098379608,
+      "mais_antiga": "29/10/2025",
+      "idade_mediana": 27,
+      "total": 3,
+      "agendadas_12m": null,
+      "agendadas_12m_no_codigo": null,
+      "cid_principais": [
+        [
+          "K59",
+          1
+        ],
+        [
+          "M34",
+          1
+        ],
+        [
+          "R11",
+          1
+        ]
+      ],
+      "code": "0208020055"
+    },
+    {
+      "nome": "CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFAGICO",
+      "codigo": "208020110",
+      "fila": 3,
+      "fila_viva": 3,
+      "pessoas": 3,
+      "pessoas_viva": 3,
+      "devolvidas": 0,
+      "espera_media": 24.844893379631685,
+      "espera_mediana": 28.004922453706968,
+      "espera_max": 33.75697363426298,
+      "mais_antiga": "29/09/2026",
+      "idade_mediana": 5,
+      "total": 3,
+      "agendadas_12m": 4,
+      "agendadas_12m_no_codigo": 4,
+      "cid_principais": [
+        [
+          "K21",
+          3
+        ]
+      ],
+      "code": "0208020110"
+    },
+    {
+      "nome": "RM DE MASTOIDES INFANTIL S/ CONTRASTE C/ SEDACAO",
+      "codigo": "207010021",
+      "fila": 2,
+      "fila_viva": 2,
+      "pessoas": 2,
+      "pessoas_viva": 2,
+      "devolvidas": 6,
+      "espera_media": 28.37414805555818,
+      "espera_mediana": 28.37414805555818,
+      "espera_max": 46.81036371528171,
+      "mais_antiga": "16/09/2026",
+      "idade_mediana": 0,
+      "total": 8,
+      "agendadas_12m": 19,
+      "agendadas_12m_no_codigo": 1694,
+      "cid_principais": [
+        [
+          "H90",
+          1
+        ],
+        [
+          "H49",
+          1
+        ]
+      ],
+      "code": "0207010021"
+    },
+    {
+      "nome": "RM DE ORBITAS ADULTO C/CONTRASTE C/SEDAÇÃO",
+      "codigo": "207010064",
+      "fila": 2,
+      "fila_viva": 2,
+      "pessoas": 2,
+      "pessoas_viva": 2,
+      "devolvidas": 2,
+      "espera_media": 27.004457789353182,
+      "espera_mediana": 27.004457789353182,
+      "espera_max": 34.10605584490986,
+      "mais_antiga": "29/09/2026",
+      "idade_mediana": 57.5,
+      "total": 4,
+      "agendadas_12m": 7,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "H49",
+          1
+        ],
+        [
+          "G37",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE S/ SEDAÇÃO",
+      "codigo": "207010064",
+      "fila": 2,
+      "fila_viva": 2,
+      "pessoas": 2,
+      "pessoas_viva": 2,
+      "devolvidas": 7,
+      "espera_media": 103.8196021759286,
+      "espera_mediana": 103.8196021759286,
+      "espera_max": 103.92604121527984,
+      "mais_antiga": "21/07/2026",
+      "idade_mediana": 23,
+      "total": 9,
+      "agendadas_12m": 0,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "D32",
+          1
+        ],
+        [
+          "L03",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "COLUNA TOTAL",
+      "codigo": "211050083",
+      "fila": 1,
+      "fila_viva": 0,
+      "pessoas": 1,
+      "pessoas_viva": 0,
+      "devolvidas": 1,
+      "espera_media": 2100.0257548148147,
+      "espera_mediana": 2100.0257548148147,
+      "espera_max": 2100.0257548148147,
+      "mais_antiga": "01/02/2021",
+      "idade_mediana": 68,
+      "total": 2,
+      "agendadas_12m": 0,
+      "agendadas_12m_no_codigo": 2168,
+      "cid_principais": [
+        [
+          "M21",
+          1
+        ]
+      ],
+      "code": "0211050083"
+    },
+    {
+      "nome": "ANGIORESSONANCIA CEREBRAL VENOSA C/ SEDACAO",
+      "codigo": "207010013",
+      "fila": 1,
+      "fila_viva": 1,
+      "pessoas": 1,
+      "pessoas_viva": 1,
+      "devolvidas": 20,
+      "espera_media": 41.7393446874994,
+      "espera_mediana": 41.7393446874994,
+      "espera_max": 41.7393446874994,
+      "mais_antiga": "21/09/2026",
+      "idade_mediana": 10,
+      "total": 21,
+      "agendadas_12m": 20,
+      "agendadas_12m_no_codigo": 2696,
+      "cid_principais": [
+        [
+          "D18",
+          1
+        ]
+      ],
+      "code": "0207010013"
+    },
+    {
+      "nome": "RM DE ORBITAS ADULTO S/CONTRASTE S/ SEDAÇÃO",
+      "codigo": "207010064",
+      "fila": 1,
+      "fila_viva": 1,
+      "pessoas": 1,
+      "pessoas_viva": 1,
+      "devolvidas": 1,
+      "espera_media": 44.7720384490749,
+      "espera_mediana": 44.7720384490749,
+      "espera_max": 44.7720384490749,
+      "mais_antiga": "18/09/2026",
+      "idade_mediana": 45,
+      "total": 2,
+      "agendadas_12m": 43,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "D33",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "POLISSONOGRAFIA CPAP/BIPAP/SPLIT-NIGHT",
+      "codigo": "211050105",
+      "fila": 1,
+      "fila_viva": 0,
+      "pessoas": 1,
+      "pessoas_viva": 0,
+      "devolvidas": 37,
+      "espera_media": 2405.982592893517,
+      "espera_mediana": 2405.982592893517,
+      "espera_max": 2405.982592893517,
+      "mais_antiga": "01/04/2020",
+      "idade_mediana": 72,
+      "total": 38,
+      "agendadas_12m": 0,
+      "agendadas_12m_no_codigo": 631,
+      "cid_principais": [
+        [
+          "G47",
+          1
+        ]
+      ],
+      "code": "0211050105"
+    },
+    {
+      "nome": "072. RM DE BACIA OU PELVIS ADULTO C/CONTRASTE C/SEDACAO",
+      "codigo": "207030022",
+      "fila": 1,
+      "fila_viva": 1,
+      "pessoas": 1,
+      "pessoas_viva": 1,
+      "devolvidas": 385,
+      "espera_media": 5.742907511572412,
+      "espera_mediana": 5.742907511572412,
+      "espera_max": 5.742907511572412,
+      "mais_antiga": "27/10/2026",
+      "idade_mediana": 28,
+      "total": 386,
+      "agendadas_12m": 176,
+      "agendadas_12m_no_codigo": 19834,
+      "cid_principais": [
+        [
+          "N80",
+          1
+        ]
+      ],
+      "code": "0207030022"
+    },
+    {
+      "nome": "RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE C/ SEDAÇÃO",
+      "codigo": "207010064",
+      "fila": 1,
+      "fila_viva": 0,
+      "pessoas": 1,
+      "pessoas_viva": 0,
+      "devolvidas": 33,
+      "espera_media": 1384.9550329050908,
+      "espera_mediana": 1384.9550329050908,
+      "espera_max": 1384.9550329050908,
+      "mais_antiga": "17/01/2023",
+      "idade_mediana": 50,
+      "total": 34,
+      "agendadas_12m": 0,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "H57",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE C/ SEDAÇÃO",
+      "codigo": "207010064",
+      "fila": 1,
+      "fila_viva": 0,
+      "pessoas": 1,
+      "pessoas_viva": 0,
+      "devolvidas": 10,
+      "espera_media": 901.8394341203748,
+      "espera_mediana": 901.8394341203748,
+      "espera_max": 901.8394341203748,
+      "mais_antiga": "14/05/2024",
+      "idade_mediana": 10,
+      "total": 11,
+      "agendadas_12m": 0,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "H49",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "060. RM DE VIAS BILIARES INFANTIL C/CONTRASTE C/SEDACAO",
+      "codigo": "207030049",
+      "fila": 1,
+      "fila_viva": 1,
+      "pessoas": 1,
+      "pessoas_viva": 1,
+      "devolvidas": 5,
+      "espera_media": 7.926546122689615,
+      "espera_mediana": 7.926546122689615,
+      "espera_max": 7.926546122689615,
+      "mais_antiga": "25/10/2026",
+      "idade_mediana": 0,
+      "total": 6,
+      "agendadas_12m": 2,
+      "agendadas_12m_no_codigo": 3294,
+      "cid_principais": [
+        [
+          "K80",
+          1
+        ]
+      ],
+      "code": "0207030049"
+    },
+    {
+      "nome": "COLONOSCOPIA (COLOSCOPIA)",
+      "codigo": "209010029",
+      "fila": 1,
+      "fila_viva": 0,
+      "pessoas": 1,
+      "pessoas_viva": 0,
+      "devolvidas": 0,
+      "espera_media": 3387.7807223148193,
+      "espera_mediana": 3387.7807223148193,
+      "espera_max": 3387.7807223148193,
+      "mais_antiga": "24/07/2017",
+      "idade_mediana": 79,
+      "total": 1,
+      "agendadas_12m": null,
+      "agendadas_12m_no_codigo": 6739,
+      "cid_principais": [
+        [
+          "Z00",
+          1
+        ]
+      ],
+      "code": "0209010029"
+    },
+    {
+      "nome": "RM DE ORBITAS INFANTIL C/CONTRASTE C/ SEDAÇÃO",
+      "codigo": "207010064",
+      "fila": 1,
+      "fila_viva": 1,
+      "pessoas": 1,
+      "pessoas_viva": 1,
+      "devolvidas": 0,
+      "espera_media": 40.77031388889009,
+      "espera_mediana": 40.77031388889009,
+      "espera_max": 40.77031388889009,
+      "mais_antiga": "22/09/2026",
+      "idade_mediana": 1,
+      "total": 1,
+      "agendadas_12m": 10,
+      "agendadas_12m_no_codigo": 17884,
+      "cid_principais": [
+        [
+          "Q10",
+          1
+        ]
+      ],
+      "code": "0207010064"
+    },
+    {
+      "nome": "CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO)",
+      "codigo": "208060014",
+      "fila": 1,
+      "fila_viva": 1,
+      "pessoas": 1,
+      "pessoas_viva": 1,
+      "devolvidas": 0,
+      "espera_media": 492.99550932870625,
+      "espera_mediana": 492.99550932870625,
+      "espera_max": 492.99550932870625,
+      "mais_antiga": "27/06/2025",
+      "idade_mediana": 80,
+      "total": 1,
+      "agendadas_12m": null,
+      "agendadas_12m_no_codigo": null,
+      "cid_principais": [
+        [
+          "F02",
+          1
+        ]
+      ],
+      "code": "0208060014"
+    }
+  ],
+  "sources": [
+    [
+      "S1",
+      "Demanda",
+      "Motor preservado de 02/11/2026 10:31:47. Pedidos até 28/10/2026. Janela de agendamentos 28/10/2025–27/10/2026.",
+      "https://paineis-ext.mpdft.mp.br/extensions/mapasauderegulamentacao/mapasauderegulamentacao.html"
+    ],
+    [
+      "S2",
+      "Preços",
+      "Pacote oficial SIGTAP 10/2026 em cache. Não é competência 11/2026.",
+      "ftp://ftp2.datasus.gov.br/pub/sistemas/tup/downloads/"
+    ],
+    [
+      "S3",
+      "Candanga",
+      "Anexo oficial SIA extraído no acervo. Não gera direito automático ao pagamento.",
+      "https://www.sinj.df.gov.br/sinj/TextoArquivoDiario.aspx?id_file=b1ab0081-31d9-3075-89ba-381ea030182a"
+    ],
+    [
+      "S4",
+      "Nuclear",
+      "Regulamento de funcionamento dos serviços nucleares.",
+      "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&numeroAto=00000038&tipo=RDC&valorAno=2008&orgao=RDC%2FDC%2FANVISA%2FMS"
+    ],
+    [
+      "S5",
+      "Endoscopia",
+      "RDC 6/2013, requisitos de funcionamento, recuperação e processamento.",
+      "https://anvisalegis.datalegis.net/action/ActionDatalegis.php?acao=abrirTextoAto&cod_menu=9434&cod_modulo=310&numeroAto=00000006&orgao=RDC%2FDC%2FANVISA%2FMS&seqAto=000&tipo=RDC&valorAno=2013"
+    ],
+    [
+      "S6",
+      "Colonoscopia SES",
+      "Nota técnica: acesso à fila específica com anestesia. Descreve HBDF como executor naquele documento, não prova exclusividade atual.",
+      "https://www.saude.df.gov.br/documents/37101/0/Nota%2BT%C3%A9cnica%2BN.%C2%BA%2B1-2024%2B%E2%80%93%2BSES-SAIS-DUAEC-GESCIR-CATC%2BRegulacao%2Bde%2BExame%2BDe%2BColonoscopia%2Bcom%2BAnestesia%2B-%2BSISREGIII%2Bc%C3%B3digo%2B0113006.pdf/d9d14740-044f-5053-8ca9-9f12c33c2763?t=1732795679246"
+    ],
+    [
+      "S7",
+      "SES pediatria",
+      "HCB março/2026: oferta registrada de EEG, ENMG, espirometria e outros.",
+      "https://www.hcb.org.br/arquivos/downloads/1_relatorio_de_gestao_mensal_marco_de_2026.pdf"
+    ],
+    [
+      "S8",
+      "Sono",
+      "Distinção entre tipos I e III em protocolo de outra rede; não é regra de faturamento DF.",
+      "https://sites.usp.br/guiacseb/wp-content/uploads/sites/943/2025/01/PROTOCOLO-POLISSONOGRAFIA.pdf"
+    ],
+    [
+      "S9",
+      "Gastrocentro",
+      "Oferta privada publicada de endoscopia e colonoscopia em Brasília.",
+      "https://clinicagastrocentro.com.br/"
+    ],
+    [
+      "S10",
+      "Clinar",
+      "Oferta privada publicada de polissonografia e função pulmonar.",
+      "https://www.clinar.com.br/"
+    ],
+    [
+      "S11",
+      "MedSono",
+      "Oferta privada publicada de PSG laboratorial e domiciliar em Brasília.",
+      "https://www.medsono.com.br/"
+    ],
+    [
+      "S12",
+      "INNEB",
+      "Oferta publicada de ENMG em Brasília; validar CNPJ e unidade da proposta.",
+      "https://inneb.com.br/exame-eletroneuromiografia/"
+    ],
+    [
+      "S13",
+      "HOB",
+      "Oferta publicada de exames oftalmológicos; disponibilidade depende da unidade.",
+      "https://www.hobr.com.br/servicos/exames"
+    ],
+    [
+      "S14",
+      "Occhio",
+      "Oferta publicada de OCT e campimetria no Lago Sul.",
+      "https://occhiobrasilia.com.br/"
+    ],
+    [
+      "S15",
+      "INMED",
+      "Oferta publicada de PAAF no Recanto das Emas.",
+      "https://inmedonline.com.br/exames/paaf"
+    ],
+    [
+      "S16",
+      "IRB",
+      "Catálogo de medicina nuclear; não equivale a compatibilidade SIGTAP para cada nome comercial.",
+      "https://irbmedicina.com/exames_de_medicina_nuclear/"
+    ],
+    [
+      "S17",
+      "IMEB",
+      "Oferta de múltiplas cintilografias em Brasília.",
+      "https://imeb.com.br/nossos_exames/cintilografia/"
+    ],
+    [
+      "S18",
+      "Protocolo nuclear SES",
+      "Fluxo HUB e demais contratados, antecedência de agenda e dependência de insumos; exames eletivos e hospitalares não formam o mesmo lote.",
+      "https://www.saude.df.gov.br/documents/d/saude/protocolo-de-acesso-ao-exame-de-cintilografia-pdf"
+    ]
+  ],
+  "source_dates": {
+    "inicio": {
+      "recarga_utc": "2026-11-02T13:31:47.865Z",
+      "consulta": "02/11/2026 12:19:50",
+      "solicitacao_max": "28/10/2026",
+      "agendamento_max": "04/02/2027",
+      "recarga_brasilia": "02/11/2026 10:31:47"
+    },
+    "fim": {
+      "recarga_utc": "2026-11-02T13:31:47.865Z",
+      "consulta": "02/11/2026 12:20:03",
+      "solicitacao_max": "28/10/2026",
+      "agendamento_max": "04/02/2027",
+      "recarga_brasilia": "02/11/2026 10:31:47"
+    }
+  },
+  "oci": {
+    "0904010015": {
+      "codigo": "09.04.01.001-5",
+      "nome": "OCI AVALIAÇÃO INICIAL DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 100.0,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "H60",
+        "H61",
+        "H62",
+        "H65",
+        "H66",
+        "H67",
+        "H68",
+        "H69",
+        "H70",
+        "H71",
+        "H72",
+        "H73",
+        "H74",
+        "H75",
+        "H80",
+        "H81",
+        "H82",
+        "H83",
+        "H90",
+        "H91",
+        "H92",
+        "H93",
+        "H94",
+        "H95"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.11.07.004-1",
+          "nome": "AUDIOMETRIA TONAL LIMIAR (VIA AEREA / OSSEA)",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.020-3",
+          "nome": "IMITANCIOMETRIA",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    },
+    "0904010023": {
+      "codigo": "09.04.01.002-3",
+      "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 471.57,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "H60",
+        "H61",
+        "H62",
+        "H65",
+        "H66",
+        "H67",
+        "H68",
+        "H69",
+        "H70",
+        "H71",
+        "H72",
+        "H73",
+        "H74",
+        "H75",
+        "H80",
+        "H81",
+        "H82",
+        "H83",
+        "H90",
+        "H91",
+        "H92",
+        "H93",
+        "H94",
+        "H95"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.11.05.011-3",
+          "nome": "POTENCIAL EVOCADO AUDITIVO",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.004-1",
+          "nome": "AUDIOMETRIA TONAL LIMIAR (VIA AEREA / OSSEA)",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.020-3",
+          "nome": "IMITANCIOMETRIA",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.026-2",
+          "nome": "POTENCIAL EVOCADO AUDITIVO DE CURTA MEDIA E LONGA LATENCIA",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    },
+    "0905010019": {
+      "codigo": "09.05.01.001-9",
+      "nome": "OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - 0 A 8 ANOS",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 200.0,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 107,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "H00",
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H10",
+        "H11",
+        "H13",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H20",
+        "H21",
+        "H22",
+        "H26",
+        "H27",
+        "H28",
+        "H30",
+        "H31",
+        "H32",
+        "H33",
+        "H34",
+        "H35",
+        "H36",
+        "H40",
+        "H42",
+        "H43",
+        "H44",
+        "H45",
+        "H46",
+        "H47",
+        "H48",
+        "H49",
+        "H50",
+        "H51",
+        "H52",
+        "H53",
+        "H54",
+        "H55",
+        "H57",
+        "H58",
+        "H59"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.11.06.002-0",
+          "nome": "BIOMICROSCOPIA DE FUNDO DE OLHO",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.06.012-7",
+          "nome": "MAPEAMENTO DE RETINA",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.06.023-2",
+          "nome": "TESTE ORTÓPTICO",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    },
+    "0905010035": {
+      "codigo": "09.05.01.003-5",
+      "nome": "OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - A PARTIR DE 9 ANOS",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 160.0,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 108,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "H00",
+        "H01",
+        "H02",
+        "H03",
+        "H04",
+        "H05",
+        "H06",
+        "H10",
+        "H11",
+        "H13",
+        "H15",
+        "H16",
+        "H17",
+        "H18",
+        "H19",
+        "H20",
+        "H21",
+        "H22",
+        "H25",
+        "H26",
+        "H27",
+        "H28",
+        "H30",
+        "H31",
+        "H32",
+        "H33",
+        "H34",
+        "H35",
+        "H36",
+        "H40",
+        "H42",
+        "H43",
+        "H44",
+        "H45",
+        "H46",
+        "H47",
+        "H48",
+        "H49",
+        "H50",
+        "H51",
+        "H52",
+        "H53",
+        "H54",
+        "H55",
+        "H57",
+        "H58",
+        "H59"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.11.06.002-0",
+          "nome": "BIOMICROSCOPIA DE FUNDO DE OLHO",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.06.012-7",
+          "nome": "MAPEAMENTO DE RETINA",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.06.023-2",
+          "nome": "TESTE ORTÓPTICO",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.06.025-9",
+          "nome": "TONOMETRIA",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    },
+    "0906010012": {
+      "codigo": "09.06.01.001-2",
+      "nome": "GIN1 - AVALIAÇÃO DIAGNÓSTICA INICIAL DE SAÚDE DA MULHER (GINECOLOGIA) I",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 199.95,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 108,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "C51",
+        "C52",
+        "C53",
+        "C54",
+        "C55",
+        "C56",
+        "C57",
+        "C58",
+        "D25",
+        "N70",
+        "N71",
+        "N72",
+        "N73",
+        "N74",
+        "N75",
+        "N76",
+        "N77",
+        "N80",
+        "N81",
+        "N82",
+        "N83",
+        "N84",
+        "N85",
+        "N86",
+        "N87",
+        "N88",
+        "N89",
+        "N90",
+        "N91",
+        "N92",
+        "N93",
+        "N94",
+        "N95",
+        "N96",
+        "N97",
+        "N98",
+        "N99"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.05.02.018-6",
+          "nome": "ULTRASSONOGRAFIA TRANSVAGINAL",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.030-7",
+          "nome": "TELECONSULTA MÉDICA NA ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        }
+      ]
+    }
+  }
+}

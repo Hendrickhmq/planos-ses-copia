@@ -1,0 +1,16 @@
+id: "SAES 1821-2024 grupo 09"
+arquivo: "SAES 1821-2024 grupo 09.pdf"
+processo_sei: ""
+sha256: "7ada5aa12b3457e2fb4d31f06d7c8cf4c185a10da3e4a80980b2c2e36732a8fa"
+paginas: 2
+chars_texto: 7601
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:15"

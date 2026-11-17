@@ -1,0 +1,3080 @@
+{
+ "metodo": "2026-10-27",
+ "tipo": "medicao",
+ "janela_viva_meses": 24,
+ "app": "7edb02fa-f1f5-4ea6-b348-049a4ac2d095",
+ "titulo_app": "D-PDDC - MAPA DA SAÚDE - REGULAÇÃO (M)",
+ "painel": "https://paineis-ext.mpdft.mp.br/extensions/mapasauderegulamentacao/mapasauderegulamentacao.html",
+ "datas": {
+  "recarga": "04/11/2026 14:33:58",
+  "recarga_utc": "2026-11-04T17:33:58.854Z",
+  "consulta_inicio": "04/11/2026 15:39:10",
+  "consulta_fim": "04/11/2026 15:39:37",
+  "solicitacao_mais_recente": "03/11/2026",
+  "agendamento_mais_distante": "04/02/2027"
+ },
+ "filtro_fila": "status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}",
+ "filtro_devolvidas": "status_solicitacao_alias={'SOLICITAÇÃO DEVOLVIDA PARA COMPLEMENTAÇÃO PELO SOLICITANTE'}",
+ "janelas": {
+  "meses_viva": 24,
+  "viva": "data_solicitacao={\">=03/11/2024\"}",
+  "agendadas_12m": "data_agendamento={\">=03/11/2025<=02/11/2026\"}",
+  "entrantes_sol": "data_solicitacao={\">=01/11/2024\"}",
+  "entrantes_ag": "Ano_Agendamento={\">=2024\"}",
+  "entrantes_desde": "2024-11",
+  "oferta": "data_agendamento={\">=01/11/2024\"}"
+ },
+ "ordem": {
+  "contrato": "2026-10-27",
+  "tipo": "medicao",
+  "plano": "planos/redacao_08",
+  "pedido": "Eco ambulatorial de 04/11/2026, fila a fila: entrantes, oferta pelo mês do agendamento (realizados e faltas), situação e ano de cada fila de ecocardiografia com fila viva",
+  "saida": "area_de_transferencia",
+  "janela_viva_meses": 24,
+  "dimensoes": [
+   "entrantes",
+   "oferta",
+   "situacao",
+   "ano"
+  ],
+  "objetos": [
+   {
+    "id": "eco adulto",
+    "tipo": "exame",
+    "nome": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+    "codigos": [
+     "02.05.01.003-2"
+    ],
+    "filas": [
+     {
+      "nome": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+     }
+    ]
+   },
+   {
+    "id": "eco infantil",
+    "tipo": "exame",
+    "nome": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+    "codigos": [
+     "02.05.01.003-2"
+    ],
+    "filas": [
+     {
+      "nome": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL"
+     }
+    ]
+   },
+   {
+    "id": "eco fetal",
+    "tipo": "exame",
+    "nome": "9. ECOCARDIOGRAFIA FETAL",
+    "codigos": [
+     "02.05.01.003-2"
+    ],
+    "filas": [
+     {
+      "nome": "9. ECOCARDIOGRAFIA FETAL"
+     }
+    ]
+   },
+   {
+    "id": "eco de estresse",
+    "tipo": "exame",
+    "nome": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+    "codigos": [
+     "02.05.01.001-6"
+    ],
+    "filas": [
+     {
+      "nome": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+     }
+    ]
+   },
+   {
+    "id": "eco transesofágico adulto",
+    "tipo": "exame",
+    "nome": "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO",
+    "codigos": [
+     "02.05.01.002-4"
+    ],
+    "filas": [
+     {
+      "nome": "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO"
+     }
+    ]
+   }
+  ]
+ },
+ "ordem_hash": 3299284906,
+ "kit": {
+  "versao": "2026-10-27",
+  "assinatura": 1939648169
+ },
+ "leitura": {
+  "partes": 1,
+  "tamanho": 19246,
+  "hash": 3135380495
+ },
+ "montado_por": "ferramentas/montar_coleta.py 2026-10-27.3",
+ "nomes_internos": {
+  "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO": [
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+  ],
+  "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL": [
+   "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL"
+  ],
+  "9. ECOCARDIOGRAFIA FETAL": [
+   "9. ECOCARDIOGRAFIA FETAL"
+  ],
+  "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO": [
+   "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+  ],
+  "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO": [
+   "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO"
+  ]
+ },
+ "filas": {
+  "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO": {
+   "pedido": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "objetos": [
+    "eco adulto"
+   ],
+   "papel": "exame",
+   "generica": true,
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "fila": 13474,
+   "fila_viva": 13474,
+   "pessoas": 13473,
+   "pessoas_viva": 13473,
+   "devolvidas": 13473,
+   "espera_media": 129.66988100402992,
+   "espera_mediana": 118.98947586805662,
+   "espera_max": 541.1372200000042,
+   "mais_antiga": "12/05/2025",
+   "idade_mediana": 62,
+   "total": 26947,
+   "agendadas_12m": 33842,
+   "cid_principais": [
+    [
+     "I10",
+     2444
+    ],
+    [
+     "I50",
+     2343
+    ],
+    [
+     "I25",
+     1174
+    ],
+    [
+     "R07",
+     499
+    ],
+    [
+     "I20",
+     489
+    ],
+    [
+     "R06",
+     442
+    ],
+    [
+     "Z95",
+     298
+    ],
+    [
+     "N18",
+     283
+    ],
+    [
+     "B57",
+     283
+    ],
+    [
+     "I49",
+     280
+    ]
+   ],
+   "recortes": {}
+  },
+  "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL": {
+   "pedido": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+   "objetos": [
+    "eco infantil"
+   ],
+   "papel": "exame",
+   "generica": true,
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "fila": 1360,
+   "fila_viva": 1360,
+   "pessoas": 1360,
+   "pessoas_viva": 1360,
+   "devolvidas": 2568,
+   "espera_media": 111.72312085074174,
+   "espera_mediana": 103.99095305555966,
+   "espera_max": 721.9333439583352,
+   "mais_antiga": "12/11/2024",
+   "idade_mediana": 3,
+   "total": 3928,
+   "agendadas_12m": 5847,
+   "cid_principais": [
+    [
+     "R01",
+     317
+    ],
+    [
+     "Q21",
+     306
+    ],
+    [
+     "Q25",
+     92
+    ],
+    [
+     "Q20",
+     41
+    ],
+    [
+     "Q24",
+     38
+    ],
+    [
+     "P07",
+     36
+    ],
+    [
+     "Q22",
+     32
+    ],
+    [
+     "R55",
+     32
+    ],
+    [
+     "R07",
+     29
+    ],
+    [
+     "Q87",
+     27
+    ]
+   ],
+   "recortes": {}
+  },
+  "9. ECOCARDIOGRAFIA FETAL": {
+   "pedido": "9. ECOCARDIOGRAFIA FETAL",
+   "objetos": [
+    "eco fetal"
+   ],
+   "papel": "exame",
+   "generica": true,
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "fila": 36,
+   "fila_viva": 36,
+   "pessoas": 36,
+   "pessoas_viva": 36,
+   "devolvidas": 391,
+   "espera_media": 36.88307930877171,
+   "espera_mediana": 19.606474322918075,
+   "espera_max": 309.8857468171336,
+   "mais_antiga": "29/12/2025",
+   "idade_mediana": 33,
+   "total": 427,
+   "agendadas_12m": 786,
+   "cid_principais": [
+    [
+     "Z35",
+     16
+    ],
+    [
+     "Z36",
+     3
+    ],
+    [
+     "E11",
+     2
+    ],
+    [
+     "O24",
+     2
+    ],
+    [
+     "Q89",
+     2
+    ],
+    [
+     "E10",
+     2
+    ],
+    [
+     "O14",
+     2
+    ],
+    [
+     "Z34",
+     2
+    ],
+    [
+     "Q24",
+     1
+    ],
+    [
+     "I79",
+     1
+    ]
+   ],
+   "recortes": {}
+  },
+  "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO": {
+   "pedido": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+   "objetos": [
+    "eco de estresse"
+   ],
+   "papel": "exame",
+   "generica": false,
+   "codigos": [
+    "02.05.01.001-6"
+   ],
+   "fila": 69,
+   "fila_viva": 69,
+   "pessoas": 69,
+   "pessoas_viva": 69,
+   "devolvidas": 1437,
+   "espera_media": 28.390252443640286,
+   "espera_mediana": 28.984144525464217,
+   "espera_max": 50.921102245367365,
+   "mais_antiga": "14/09/2026",
+   "idade_mediana": 67,
+   "total": 1506,
+   "agendadas_12m": 763,
+   "cid_principais": [
+    [
+     "I20",
+     19
+    ],
+    [
+     "I25",
+     15
+    ],
+    [
+     "I10",
+     8
+    ],
+    [
+     "I50",
+     8
+    ],
+    [
+     "R07",
+     7
+    ],
+    [
+     "R06",
+     3
+    ],
+    [
+     "E11",
+     2
+    ],
+    [
+     "Z13",
+     2
+    ],
+    [
+     "I11",
+     1
+    ],
+    [
+     "I15",
+     1
+    ]
+   ],
+   "recortes": {}
+  },
+  "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO": {
+   "pedido": "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO",
+   "objetos": [
+    "eco transesofágico adulto"
+   ],
+   "papel": "exame",
+   "generica": true,
+   "codigos": [
+    "02.05.01.002-4"
+   ],
+   "fila": 8,
+   "fila_viva": 8,
+   "pessoas": 8,
+   "pessoas_viva": 8,
+   "devolvidas": 1049,
+   "espera_media": 57.95432308304498,
+   "espera_mediana": 5.043721620371798,
+   "espera_max": 406.94018420139037,
+   "mais_antiga": "23/09/2025",
+   "idade_mediana": 58,
+   "total": 1057,
+   "agendadas_12m": 1134,
+   "cid_principais": [
+    [
+     "I33",
+     3
+    ],
+    [
+     "C50",
+     1
+    ],
+    [
+     "R94",
+     1
+    ],
+    [
+     "I35",
+     1
+    ],
+    [
+     "R78",
+     1
+    ],
+    [
+     "I50",
+     1
+    ]
+   ],
+   "recortes": {}
+  }
+ },
+ "ocis": {},
+ "exames": {
+  "eco adulto": {
+   "nome": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "idade": null,
+   "sexo": null,
+   "filas": [
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+   ],
+   "uniao": {
+    "pessoas": 13473,
+    "pessoas_viva": 13473,
+    "fila": 13474,
+    "fila_viva": 13474,
+    "espera_media": 129.66988100402986,
+    "espera_mediana": 118.98947586805662,
+    "devolvidas": 13473
+   }
+  },
+  "eco infantil": {
+   "nome": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "idade": null,
+   "sexo": null,
+   "filas": [
+    "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL"
+   ],
+   "uniao": {
+    "pessoas": 1360,
+    "pessoas_viva": 1360,
+    "fila": 1360,
+    "fila_viva": 1360,
+    "espera_media": 111.72312085074181,
+    "espera_mediana": 103.99095305555966,
+    "devolvidas": 2568
+   }
+  },
+  "eco fetal": {
+   "nome": "9. ECOCARDIOGRAFIA FETAL",
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "idade": null,
+   "sexo": null,
+   "filas": [
+    "9. ECOCARDIOGRAFIA FETAL"
+   ],
+   "uniao": {
+    "pessoas": 36,
+    "pessoas_viva": 36,
+    "fila": 36,
+    "fila_viva": 36,
+    "espera_media": 36.88307930877171,
+    "espera_mediana": 19.606474322918075,
+    "devolvidas": 391
+   }
+  },
+  "eco de estresse": {
+   "nome": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+   "codigos": [
+    "02.05.01.001-6"
+   ],
+   "idade": null,
+   "sexo": null,
+   "filas": [
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+   ],
+   "uniao": {
+    "pessoas": 69,
+    "pessoas_viva": 69,
+    "fila": 69,
+    "fila_viva": 69,
+    "espera_media": 28.390252443640286,
+    "espera_mediana": 28.984144525464217,
+    "devolvidas": 1437
+   }
+  },
+  "eco transesofágico adulto": {
+   "nome": "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO",
+   "codigos": [
+    "02.05.01.002-4"
+   ],
+   "idade": null,
+   "sexo": null,
+   "filas": [
+    "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO"
+   ],
+   "uniao": {
+    "pessoas": 8,
+    "pessoas_viva": 8,
+    "fila": 8,
+    "fila_viva": 8,
+    "espera_media": 57.95432308304498,
+    "espera_mediana": 5.043721620371798,
+    "devolvidas": 1049
+   }
+  }
+ },
+ "varredura": [
+  {
+   "tabela": "sol",
+   "nome": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "codigo": "02.05.01.003-2",
+   "por": [
+    "codigo",
+    "nome"
+   ],
+   "objetos": [
+    "eco adulto",
+    "eco fetal",
+    "eco infantil"
+   ],
+   "fila": 13474,
+   "fila_viva": 13474,
+   "pessoas": 13473,
+   "devolvidas": 13473,
+   "espera_media": 129.66988100402992,
+   "espera_mediana": 118.98947586805662,
+   "mais_antiga": "12/05/2025",
+   "idade_mediana": 62,
+   "total": 26947,
+   "agendadas_12m": 33842,
+   "cid_principais": [
+    [
+     "I10",
+     2444
+    ],
+    [
+     "I50",
+     2343
+    ],
+    [
+     "I25",
+     1174
+    ],
+    [
+     "R07",
+     499
+    ],
+    [
+     "I20",
+     489
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": true,
+   "decisao": "fica fora",
+   "motivo": "compatível, não obrigatório: a porta é a consulta, ou a consulta com os obrigatórios (usuário, 27/10/2026)",
+   "no_enquadramento": true,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+   "codigo": "02.05.01.003-2",
+   "por": [
+    "codigo",
+    "nome"
+   ],
+   "objetos": [
+    "eco adulto",
+    "eco fetal",
+    "eco infantil"
+   ],
+   "fila": 1360,
+   "fila_viva": 1360,
+   "pessoas": 1360,
+   "devolvidas": 2568,
+   "espera_media": 111.72312085074174,
+   "espera_mediana": 103.99095305555966,
+   "mais_antiga": "12/11/2024",
+   "idade_mediana": 3,
+   "total": 3928,
+   "agendadas_12m": 5847,
+   "cid_principais": [
+    [
+     "R01",
+     317
+    ],
+    [
+     "Q21",
+     306
+    ],
+    [
+     "Q25",
+     92
+    ],
+    [
+     "Q20",
+     41
+    ],
+    [
+     "Q24",
+     38
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": true,
+   "decisao": "a decidir",
+   "motivo": "fila de partida da ordem, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+   "codigo": "02.05.01.001-6",
+   "por": [
+    "codigo",
+    "nome"
+   ],
+   "objetos": [
+    "eco de estresse"
+   ],
+   "fila": 69,
+   "fila_viva": 69,
+   "pessoas": 69,
+   "devolvidas": 1437,
+   "espera_media": 28.390252443640286,
+   "espera_mediana": 28.984144525464217,
+   "mais_antiga": "14/09/2026",
+   "idade_mediana": 67,
+   "total": 1506,
+   "agendadas_12m": 763,
+   "cid_principais": [
+    [
+     "I20",
+     19
+    ],
+    [
+     "I25",
+     15
+    ],
+    [
+     "I10",
+     8
+    ],
+    [
+     "I50",
+     8
+    ],
+    [
+     "R07",
+     7
+    ]
+   ],
+   "por_objeto": {},
+   "generica": false,
+   "na_ordem": true,
+   "decisao": "fica fora",
+   "motivo": "obrigatório na 004-2: não conta em nenhum dos dois casos; no caso 2, a linha coronária conta só os obrigatórios da 003-4 (eletrocardiograma e ergométrico) (usuário, 27/10/2026)",
+   "no_enquadramento": true,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "9. ECOCARDIOGRAFIA FETAL",
+   "codigo": "02.05.01.003-2",
+   "por": [
+    "codigo",
+    "nome"
+   ],
+   "objetos": [
+    "eco adulto",
+    "eco fetal",
+    "eco infantil"
+   ],
+   "fila": 36,
+   "fila_viva": 36,
+   "pessoas": 36,
+   "devolvidas": 391,
+   "espera_media": 36.88307930877171,
+   "espera_mediana": 19.606474322918075,
+   "mais_antiga": "29/12/2025",
+   "idade_mediana": 33,
+   "total": 427,
+   "agendadas_12m": 786,
+   "cid_principais": [
+    [
+     "Z35",
+     16
+    ],
+    [
+     "Z36",
+     3
+    ],
+    [
+     "E11",
+     2
+    ],
+    [
+     "O24",
+     2
+    ],
+    [
+     "Q89",
+     2
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": true,
+   "decisao": "a decidir",
+   "motivo": "fila de partida da ordem, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO",
+   "codigo": "02.05.01.002-4",
+   "por": [
+    "codigo",
+    "nome"
+   ],
+   "objetos": [
+    "eco transesofágico adulto"
+   ],
+   "fila": 8,
+   "fila_viva": 8,
+   "pessoas": 8,
+   "devolvidas": 1049,
+   "espera_media": 57.95432308304498,
+   "espera_mediana": 5.043721620371798,
+   "mais_antiga": "23/09/2025",
+   "idade_mediana": 58,
+   "total": 1057,
+   "agendadas_12m": 1134,
+   "cid_principais": [
+    [
+     "I33",
+     3
+    ],
+    [
+     "C50",
+     1
+    ],
+    [
+     "R94",
+     1
+    ],
+    [
+     "I35",
+     1
+    ],
+    [
+     "R78",
+     1
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": true,
+   "decisao": "a decidir",
+   "motivo": "fila de partida da ordem, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO",
+   "codigo": "02.05.01.003-2",
+   "por": [
+    "codigo"
+   ],
+   "objetos": [
+    "eco adulto",
+    "eco fetal",
+    "eco infantil"
+   ],
+   "fila": 2,
+   "fila_viva": 0,
+   "pessoas": 2,
+   "devolvidas": 0,
+   "espera_media": 6969.587465277778,
+   "espera_mediana": 6969.587465277778,
+   "mais_antiga": "03/10/2007",
+   "idade_mediana": 89,
+   "total": 2,
+   "agendadas_12m": null,
+   "cid_principais": [
+    [
+     "R68",
+     2
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": false,
+   "decisao": "a decidir",
+   "motivo": "achada pela varredura, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL",
+   "codigo": "02.05.01.003-2",
+   "por": [
+    "codigo"
+   ],
+   "objetos": [
+    "eco adulto",
+    "eco fetal",
+    "eco infantil"
+   ],
+   "fila": 1,
+   "fila_viva": 0,
+   "pessoas": 1,
+   "devolvidas": 0,
+   "espera_media": 4950.858635821758,
+   "espera_mediana": 4950.858635821758,
+   "mais_antiga": "15/04/2013",
+   "idade_mediana": 65,
+   "total": 1,
+   "agendadas_12m": 0,
+   "cid_principais": [
+    [
+     "L81",
+     1
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": false,
+   "decisao": "a decidir",
+   "motivo": "achada pela varredura, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "8. ECOCARDIOGRAFIA TRANSEOFAGICA INFANTIL",
+   "codigo": "02.05.01.002-4",
+   "por": [
+    "codigo"
+   ],
+   "objetos": [
+    "eco transesofágico adulto"
+   ],
+   "fila": 1,
+   "fila_viva": 0,
+   "pessoas": 1,
+   "devolvidas": 46,
+   "espera_media": 1825.0924079513861,
+   "espera_mediana": 1825.0924079513861,
+   "mais_antiga": "05/11/2021",
+   "idade_mediana": 24,
+   "total": 47,
+   "agendadas_12m": 0,
+   "cid_principais": [
+    [
+     "Q20",
+     1
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": false,
+   "decisao": "a decidir",
+   "motivo": "achada pela varredura, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO EMERGENCIA",
+   "codigo": "02.05.01.003-2",
+   "por": [
+    "codigo"
+   ],
+   "objetos": [
+    "eco adulto",
+    "eco fetal",
+    "eco infantil"
+   ],
+   "fila": 1,
+   "fila_viva": 0,
+   "pessoas": 1,
+   "devolvidas": 0,
+   "espera_media": 6986.587465277778,
+   "espera_mediana": 6986.587465277778,
+   "mais_antiga": "19/09/2007",
+   "idade_mediana": 61,
+   "total": 1,
+   "agendadas_12m": null,
+   "cid_principais": [
+    [
+     "R68",
+     1
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": false,
+   "decisao": "a decidir",
+   "motivo": "achada pela varredura, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "sol",
+   "nome": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER INFANTIL",
+   "codigo": "02.05.01.003-2",
+   "por": [
+    "codigo"
+   ],
+   "objetos": [
+    "eco adulto",
+    "eco fetal",
+    "eco infantil"
+   ],
+   "fila": 1,
+   "fila_viva": 0,
+   "pessoas": 1,
+   "devolvidas": 0,
+   "espera_media": 6980.587465277778,
+   "espera_mediana": 6980.587465277778,
+   "mais_antiga": "25/09/2007",
+   "idade_mediana": 36,
+   "total": 1,
+   "agendadas_12m": null,
+   "cid_principais": [
+    [
+     "R68",
+     1
+    ]
+   ],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": false,
+   "decisao": "a decidir",
+   "motivo": "achada pela varredura, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "ag",
+   "nome": "ECOCARDIOGRAMA",
+   "codigo": "02.05.01.002-4",
+   "por": [
+    "codigo"
+   ],
+   "objetos": [
+    "eco transesofágico adulto"
+   ],
+   "fila": null,
+   "fila_viva": null,
+   "pessoas": null,
+   "devolvidas": null,
+   "espera_media": null,
+   "espera_mediana": null,
+   "mais_antiga": null,
+   "idade_mediana": null,
+   "total": null,
+   "agendadas_12m": 1,
+   "cid_principais": [],
+   "por_objeto": {},
+   "generica": true,
+   "na_ordem": false,
+   "decisao": "a decidir",
+   "motivo": "achada pela varredura, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  },
+  {
+   "tabela": "ag",
+   "nome": "6. ECOCARDIOGRAFIA DE ESTRESSE INFANTIL",
+   "codigo": "02.05.01.001-6",
+   "por": [
+    "codigo"
+   ],
+   "objetos": [
+    "eco de estresse"
+   ],
+   "fila": null,
+   "fila_viva": null,
+   "pessoas": null,
+   "devolvidas": null,
+   "espera_media": null,
+   "espera_mediana": null,
+   "mais_antiga": null,
+   "idade_mediana": null,
+   "total": null,
+   "agendadas_12m": 0,
+   "cid_principais": [],
+   "por_objeto": {},
+   "generica": false,
+   "na_ordem": false,
+   "decisao": "a decidir",
+   "motivo": "achada pela varredura, sem decisao no enquadramento",
+   "no_enquadramento": false,
+   "parte_cid": null,
+   "no_resumo": true
+  }
+ ],
+ "panorama": {},
+ "dimensoes": {
+  "eco adulto": {
+   "entrantes": {
+    "cols": [
+     "mes",
+     "abertas",
+     "agendadas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      98,
+      2427
+     ],
+     [
+      "2024-12",
+      119,
+      2292
+     ],
+     [
+      "2025-01",
+      131,
+      2948
+     ],
+     [
+      "2025-02",
+      164,
+      2761
+     ],
+     [
+      "2025-03",
+      217,
+      2656
+     ],
+     [
+      "2025-04",
+      182,
+      2784
+     ],
+     [
+      "2025-05",
+      232,
+      2697
+     ],
+     [
+      "2025-06",
+      208,
+      2821
+     ],
+     [
+      "2025-07",
+      230,
+      3048
+     ],
+     [
+      "2025-08",
+      262,
+      2813
+     ],
+     [
+      "2025-09",
+      258,
+      2709
+     ],
+     [
+      "2025-10",
+      207,
+      2619
+     ],
+     [
+      "2025-11",
+      194,
+      2351
+     ],
+     [
+      "2025-12",
+      308,
+      2189
+     ],
+     [
+      "2026-01",
+      290,
+      2570
+     ],
+     [
+      "2026-02",
+      265,
+      2465
+     ],
+     [
+      "2026-03",
+      799,
+      2416
+     ],
+     [
+      "2026-04",
+      1652,
+      1275
+     ],
+     [
+      "2026-05",
+      1783,
+      1432
+     ],
+     [
+      "2026-06",
+      1659,
+      1375
+     ],
+     [
+      "2026-07",
+      1803,
+      1524
+     ],
+     [
+      "2026-08",
+      2041,
+      1308
+     ],
+     [
+      "2026-09",
+      1762,
+      1310
+     ],
+     [
+      "2026-10",
+      1785,
+      1248
+     ],
+     [
+      "2026-11",
+      51,
+      22
+     ]
+    ]
+   },
+   "oferta": {
+    "cols": [
+     "mes",
+     "agendamentos",
+     "realizados",
+     "faltas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      2597,
+      1826,
+      594
+     ],
+     [
+      "2024-12",
+      2462,
+      1655,
+      640
+     ],
+     [
+      "2025-01",
+      3067,
+      2071,
+      784
+     ],
+     [
+      "2025-02",
+      3091,
+      2091,
+      743
+     ],
+     [
+      "2025-03",
+      2599,
+      1828,
+      673
+     ],
+     [
+      "2025-04",
+      2532,
+      1774,
+      633
+     ],
+     [
+      "2025-05",
+      2789,
+      1947,
+      722
+     ],
+     [
+      "2025-06",
+      2697,
+      1862,
+      712
+     ],
+     [
+      "2025-07",
+      2978,
+      1979,
+      875
+     ],
+     [
+      "2025-08",
+      2648,
+      1718,
+      732
+     ],
+     [
+      "2025-09",
+      2792,
+      1860,
+      829
+     ],
+     [
+      "2025-10",
+      2727,
+      1754,
+      859
+     ],
+     [
+      "2025-11",
+      2725,
+      1919,
+      717
+     ],
+     [
+      "2025-12",
+      2648,
+      1701,
+      805
+     ],
+     [
+      "2026-01",
+      2739,
+      1706,
+      885
+     ],
+     [
+      "2026-02",
+      2673,
+      1881,
+      644
+     ],
+     [
+      "2026-03",
+      2935,
+      1907,
+      871
+     ],
+     [
+      "2026-04",
+      2591,
+      1775,
+      607
+     ],
+     [
+      "2026-05",
+      2927,
+      2117,
+      634
+     ],
+     [
+      "2026-06",
+      2881,
+      2227,
+      552
+     ],
+     [
+      "2026-07",
+      3022,
+      2194,
+      711
+     ],
+     [
+      "2026-08",
+      2868,
+      2058,
+      685
+     ],
+     [
+      "2026-09",
+      3026,
+      2163,
+      675
+     ],
+     [
+      "2026-10",
+      2807,
+      1747,
+      588
+     ],
+     [
+      "2026-11",
+      1987,
+      25,
+      1
+     ]
+    ]
+   },
+   "situacao": {
+    "cols": [
+     "situacao",
+     "agendamentos"
+    ],
+    "linhas": [
+     [
+      "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+      913
+     ],
+     [
+      "PROCEDIMENTO REALIZADO",
+      23395
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+      715
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+      351
+     ],
+     [
+      "AGENDAMENTO CANCELADO PELO COORD. DA REGULAÇÃO LOCAL",
+      8
+     ],
+     [
+      "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+      8374
+     ],
+     [
+      "PROCEDIMENTO AGENDADO PELA UND. SOLICITANTE",
+      86
+     ]
+    ]
+   },
+   "ano": {
+    "cols": [
+     "ano",
+     "fila",
+     "fila_viva"
+    ],
+    "linhas": [
+     [
+      "2025",
+      572,
+      572
+     ],
+     [
+      "2026",
+      12902,
+      12902
+     ]
+    ]
+   }
+  },
+  "eco infantil": {
+   "entrantes": {
+    "cols": [
+     "mes",
+     "abertas",
+     "agendadas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      52,
+      473
+     ],
+     [
+      "2024-12",
+      31,
+      519
+     ],
+     [
+      "2025-01",
+      35,
+      525
+     ],
+     [
+      "2025-02",
+      34,
+      512
+     ],
+     [
+      "2025-03",
+      26,
+      490
+     ],
+     [
+      "2025-04",
+      32,
+      471
+     ],
+     [
+      "2025-05",
+      26,
+      473
+     ],
+     [
+      "2025-06",
+      18,
+      504
+     ],
+     [
+      "2025-07",
+      23,
+      545
+     ],
+     [
+      "2025-08",
+      40,
+      503
+     ],
+     [
+      "2025-09",
+      23,
+      529
+     ],
+     [
+      "2025-10",
+      40,
+      528
+     ],
+     [
+      "2025-11",
+      29,
+      444
+     ],
+     [
+      "2025-12",
+      65,
+      384
+     ],
+     [
+      "2026-01",
+      28,
+      489
+     ],
+     [
+      "2026-02",
+      24,
+      413
+     ],
+     [
+      "2026-03",
+      113,
+      424
+     ],
+     [
+      "2026-04",
+      247,
+      305
+     ],
+     [
+      "2026-05",
+      286,
+      316
+     ],
+     [
+      "2026-06",
+      269,
+      306
+     ],
+     [
+      "2026-07",
+      240,
+      308
+     ],
+     [
+      "2026-08",
+      305,
+      353
+     ],
+     [
+      "2026-09",
+      275,
+      307
+     ],
+     [
+      "2026-10",
+      287,
+      220
+     ],
+     [
+      "2026-11",
+      19,
+      0
+     ]
+    ]
+   },
+   "oferta": {
+    "cols": [
+     "mes",
+     "agendamentos",
+     "realizados",
+     "faltas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      554,
+      339,
+      74
+     ],
+     [
+      "2024-12",
+      449,
+      268,
+      52
+     ],
+     [
+      "2025-01",
+      514,
+      393,
+      37
+     ],
+     [
+      "2025-02",
+      502,
+      344,
+      58
+     ],
+     [
+      "2025-03",
+      489,
+      356,
+      67
+     ],
+     [
+      "2025-04",
+      507,
+      351,
+      49
+     ],
+     [
+      "2025-05",
+      517,
+      374,
+      69
+     ],
+     [
+      "2025-06",
+      497,
+      366,
+      65
+     ],
+     [
+      "2025-07",
+      514,
+      352,
+      91
+     ],
+     [
+      "2025-08",
+      487,
+      371,
+      56
+     ],
+     [
+      "2025-09",
+      465,
+      333,
+      78
+     ],
+     [
+      "2025-10",
+      457,
+      338,
+      61
+     ],
+     [
+      "2025-11",
+      422,
+      314,
+      45
+     ],
+     [
+      "2025-12",
+      391,
+      255,
+      56
+     ],
+     [
+      "2026-01",
+      469,
+      311,
+      98
+     ],
+     [
+      "2026-02",
+      377,
+      273,
+      80
+     ],
+     [
+      "2026-03",
+      555,
+      370,
+      134
+     ],
+     [
+      "2026-04",
+      500,
+      359,
+      69
+     ],
+     [
+      "2026-05",
+      518,
+      368,
+      79
+     ],
+     [
+      "2026-06",
+      530,
+      407,
+      62
+     ],
+     [
+      "2026-07",
+      412,
+      280,
+      50
+     ],
+     [
+      "2026-08",
+      556,
+      336,
+      97
+     ],
+     [
+      "2026-09",
+      625,
+      471,
+      64
+     ],
+     [
+      "2026-10",
+      492,
+      289,
+      56
+     ],
+     [
+      "2026-11",
+      416,
+      8,
+      0
+     ],
+     [
+      "2026-12",
+      11,
+      0,
+      0
+     ]
+    ]
+   },
+   "situacao": {
+    "cols": [
+     "situacao",
+     "agendamentos"
+    ],
+    "linhas": [
+     [
+      "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+      796
+     ],
+     [
+      "PROCEDIMENTO REALIZADO",
+      4033
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+      85
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+      40
+     ],
+     [
+      "AGENDAMENTO CANCELADO PELO COORD. DA REGULAÇÃO LOCAL",
+      3
+     ],
+     [
+      "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+      890
+     ]
+    ]
+   },
+   "ano": {
+    "cols": [
+     "ano",
+     "fila",
+     "fila_viva"
+    ],
+    "linhas": [
+     [
+      "2025",
+      1,
+      1
+     ],
+     [
+      "2024",
+      2,
+      2
+     ],
+     [
+      "2026",
+      1357,
+      1357
+     ]
+    ]
+   }
+  },
+  "eco fetal": {
+   "entrantes": {
+    "cols": [
+     "mes",
+     "abertas",
+     "agendadas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      6,
+      31
+     ],
+     [
+      "2024-12",
+      4,
+      31
+     ],
+     [
+      "2025-01",
+      0,
+      39
+     ],
+     [
+      "2025-02",
+      7,
+      49
+     ],
+     [
+      "2025-03",
+      3,
+      46
+     ],
+     [
+      "2025-04",
+      9,
+      80
+     ],
+     [
+      "2025-05",
+      0,
+      75
+     ],
+     [
+      "2025-06",
+      3,
+      62
+     ],
+     [
+      "2025-07",
+      6,
+      82
+     ],
+     [
+      "2025-08",
+      9,
+      89
+     ],
+     [
+      "2025-09",
+      6,
+      72
+     ],
+     [
+      "2025-10",
+      4,
+      74
+     ],
+     [
+      "2025-11",
+      4,
+      70
+     ],
+     [
+      "2025-12",
+      8,
+      50
+     ],
+     [
+      "2026-01",
+      0,
+      70
+     ],
+     [
+      "2026-02",
+      4,
+      84
+     ],
+     [
+      "2026-03",
+      3,
+      73
+     ],
+     [
+      "2026-04",
+      3,
+      54
+     ],
+     [
+      "2026-05",
+      15,
+      47
+     ],
+     [
+      "2026-06",
+      9,
+      61
+     ],
+     [
+      "2026-07",
+      4,
+      70
+     ],
+     [
+      "2026-08",
+      14,
+      66
+     ],
+     [
+      "2026-09",
+      36,
+      56
+     ],
+     [
+      "2026-10",
+      57,
+      47
+     ],
+     [
+      "2026-11",
+      2,
+      0
+     ]
+    ]
+   },
+   "oferta": {
+    "cols": [
+     "mes",
+     "agendamentos",
+     "realizados",
+     "faltas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      37,
+      26,
+      9
+     ],
+     [
+      "2024-12",
+      42,
+      25,
+      6
+     ],
+     [
+      "2025-01",
+      45,
+      32,
+      9
+     ],
+     [
+      "2025-02",
+      37,
+      27,
+      6
+     ],
+     [
+      "2025-03",
+      36,
+      31,
+      2
+     ],
+     [
+      "2025-04",
+      76,
+      40,
+      15
+     ],
+     [
+      "2025-05",
+      76,
+      57,
+      11
+     ],
+     [
+      "2025-06",
+      73,
+      43,
+      10
+     ],
+     [
+      "2025-07",
+      53,
+      34,
+      11
+     ],
+     [
+      "2025-08",
+      77,
+      54,
+      12
+     ],
+     [
+      "2025-09",
+      75,
+      53,
+      14
+     ],
+     [
+      "2025-10",
+      75,
+      44,
+      25
+     ],
+     [
+      "2025-11",
+      68,
+      27,
+      12
+     ],
+     [
+      "2025-12",
+      62,
+      28,
+      5
+     ],
+     [
+      "2026-01",
+      76,
+      46,
+      18
+     ],
+     [
+      "2026-02",
+      42,
+      24,
+      16
+     ],
+     [
+      "2026-03",
+      80,
+      47,
+      21
+     ],
+     [
+      "2026-04",
+      87,
+      42,
+      24
+     ],
+     [
+      "2026-05",
+      76,
+      47,
+      14
+     ],
+     [
+      "2026-06",
+      27,
+      17,
+      7
+     ],
+     [
+      "2026-07",
+      64,
+      43,
+      9
+     ],
+     [
+      "2026-08",
+      61,
+      42,
+      9
+     ],
+     [
+      "2026-09",
+      79,
+      40,
+      17
+     ],
+     [
+      "2026-10",
+      64,
+      42,
+      12
+     ],
+     [
+      "2026-11",
+      61,
+      1,
+      0
+     ],
+     [
+      "2026-12",
+      3,
+      0,
+      0
+     ]
+    ]
+   },
+   "situacao": {
+    "cols": [
+     "situacao",
+     "agendamentos"
+    ],
+    "linhas": [
+     [
+      "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+      124
+     ],
+     [
+      "PROCEDIMENTO REALIZADO",
+      445
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+      46
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+      7
+     ],
+     [
+      "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+      164
+     ]
+    ]
+   },
+   "ano": {
+    "cols": [
+     "ano",
+     "fila",
+     "fila_viva"
+    ],
+    "linhas": [
+     [
+      "2025",
+      1,
+      1
+     ],
+     [
+      "2026",
+      35,
+      35
+     ]
+    ]
+   }
+  },
+  "eco de estresse": {
+   "entrantes": {
+    "cols": [
+     "mes",
+     "abertas",
+     "agendadas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      7,
+      58
+     ],
+     [
+      "2024-12",
+      5,
+      56
+     ],
+     [
+      "2025-01",
+      7,
+      46
+     ],
+     [
+      "2025-02",
+      4,
+      58
+     ],
+     [
+      "2025-03",
+      8,
+      48
+     ],
+     [
+      "2025-04",
+      14,
+      63
+     ],
+     [
+      "2025-05",
+      18,
+      52
+     ],
+     [
+      "2025-06",
+      15,
+      49
+     ],
+     [
+      "2025-07",
+      10,
+      63
+     ],
+     [
+      "2025-08",
+      10,
+      51
+     ],
+     [
+      "2025-09",
+      11,
+      65
+     ],
+     [
+      "2025-10",
+      4,
+      57
+     ],
+     [
+      "2025-11",
+      4,
+      48
+     ],
+     [
+      "2025-12",
+      6,
+      41
+     ],
+     [
+      "2026-01",
+      12,
+      53
+     ],
+     [
+      "2026-02",
+      5,
+      49
+     ],
+     [
+      "2026-03",
+      11,
+      89
+     ],
+     [
+      "2026-04",
+      10,
+      81
+     ],
+     [
+      "2026-05",
+      9,
+      68
+     ],
+     [
+      "2026-06",
+      5,
+      52
+     ],
+     [
+      "2026-07",
+      7,
+      84
+     ],
+     [
+      "2026-08",
+      8,
+      80
+     ],
+     [
+      "2026-09",
+      43,
+      30
+     ],
+     [
+      "2026-10",
+      49,
+      8
+     ],
+     [
+      "2026-11",
+      2,
+      0
+     ]
+    ]
+   },
+   "oferta": {
+    "cols": [
+     "mes",
+     "agendamentos",
+     "realizados",
+     "faltas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      52,
+      30,
+      19
+     ],
+     [
+      "2024-12",
+      53,
+      24,
+      25
+     ],
+     [
+      "2025-01",
+      54,
+      24,
+      26
+     ],
+     [
+      "2025-02",
+      56,
+      35,
+      17
+     ],
+     [
+      "2025-03",
+      58,
+      29,
+      21
+     ],
+     [
+      "2025-04",
+      60,
+      30,
+      25
+     ],
+     [
+      "2025-05",
+      61,
+      34,
+      22
+     ],
+     [
+      "2025-06",
+      64,
+      37,
+      21
+     ],
+     [
+      "2025-07",
+      71,
+      39,
+      25
+     ],
+     [
+      "2025-08",
+      64,
+      32,
+      25
+     ],
+     [
+      "2025-09",
+      71,
+      31,
+      30
+     ],
+     [
+      "2025-10",
+      58,
+      34,
+      21
+     ],
+     [
+      "2025-11",
+      61,
+      30,
+      24
+     ],
+     [
+      "2025-12",
+      63,
+      25,
+      33
+     ],
+     [
+      "2026-01",
+      55,
+      27,
+      28
+     ],
+     [
+      "2026-02",
+      55,
+      19,
+      34
+     ],
+     [
+      "2026-03",
+      60,
+      20,
+      33
+     ],
+     [
+      "2026-04",
+      61,
+      34,
+      22
+     ],
+     [
+      "2026-05",
+      63,
+      37,
+      21
+     ],
+     [
+      "2026-06",
+      67,
+      32,
+      28
+     ],
+     [
+      "2026-07",
+      75,
+      40,
+      26
+     ],
+     [
+      "2026-08",
+      70,
+      31,
+      29
+     ],
+     [
+      "2026-09",
+      64,
+      35,
+      23
+     ],
+     [
+      "2026-10",
+      69,
+      26,
+      30
+     ],
+     [
+      "2026-11",
+      54,
+      0,
+      0
+     ],
+     [
+      "2026-12",
+      54,
+      0,
+      0
+     ]
+    ]
+   },
+   "situacao": {
+    "cols": [
+     "situacao",
+     "agendamentos"
+    ],
+    "linhas": [
+     [
+      "PROCEDIMENTO REALIZADO",
+      356
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+      67
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+      9
+     ],
+     [
+      "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+      331
+     ]
+    ]
+   },
+   "ano": {
+    "cols": [
+     "ano",
+     "fila",
+     "fila_viva"
+    ],
+    "linhas": [
+     [
+      "2026",
+      69,
+      69
+     ]
+    ]
+   }
+  },
+  "eco transesofágico adulto": {
+   "entrantes": {
+    "cols": [
+     "mes",
+     "abertas",
+     "agendadas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      3,
+      98
+     ],
+     [
+      "2024-12",
+      6,
+      84
+     ],
+     [
+      "2025-01",
+      5,
+      111
+     ],
+     [
+      "2025-02",
+      8,
+      94
+     ],
+     [
+      "2025-03",
+      4,
+      76
+     ],
+     [
+      "2025-04",
+      2,
+      87
+     ],
+     [
+      "2025-05",
+      4,
+      102
+     ],
+     [
+      "2025-06",
+      6,
+      76
+     ],
+     [
+      "2025-07",
+      3,
+      77
+     ],
+     [
+      "2025-08",
+      8,
+      69
+     ],
+     [
+      "2025-09",
+      9,
+      94
+     ],
+     [
+      "2025-10",
+      4,
+      86
+     ],
+     [
+      "2025-11",
+      1,
+      83
+     ],
+     [
+      "2025-12",
+      3,
+      76
+     ],
+     [
+      "2026-01",
+      7,
+      77
+     ],
+     [
+      "2026-02",
+      3,
+      93
+     ],
+     [
+      "2026-03",
+      8,
+      84
+     ],
+     [
+      "2026-04",
+      28,
+      78
+     ],
+     [
+      "2026-05",
+      22,
+      83
+     ],
+     [
+      "2026-06",
+      17,
+      84
+     ],
+     [
+      "2026-07",
+      9,
+      105
+     ],
+     [
+      "2026-08",
+      23,
+      132
+     ],
+     [
+      "2026-09",
+      22,
+      122
+     ],
+     [
+      "2026-10",
+      28,
+      114
+     ],
+     [
+      "2026-11",
+      3,
+      4
+     ]
+    ]
+   },
+   "oferta": {
+    "cols": [
+     "mes",
+     "agendamentos",
+     "realizados",
+     "faltas"
+    ],
+    "linhas": [
+     [
+      "2024-11",
+      90,
+      43,
+      38
+     ],
+     [
+      "2024-12",
+      94,
+      33,
+      50
+     ],
+     [
+      "2025-01",
+      105,
+      48,
+      50
+     ],
+     [
+      "2025-02",
+      102,
+      42,
+      45
+     ],
+     [
+      "2025-03",
+      90,
+      47,
+      41
+     ],
+     [
+      "2025-04",
+      96,
+      39,
+      51
+     ],
+     [
+      "2025-05",
+      86,
+      39,
+      41
+     ],
+     [
+      "2025-06",
+      86,
+      40,
+      33
+     ],
+     [
+      "2025-07",
+      91,
+      39,
+      46
+     ],
+     [
+      "2025-08",
+      82,
+      37,
+      41
+     ],
+     [
+      "2025-09",
+      89,
+      45,
+      34
+     ],
+     [
+      "2025-10",
+      87,
+      41,
+      40
+     ],
+     [
+      "2025-11",
+      70,
+      19,
+      46
+     ],
+     [
+      "2025-12",
+      68,
+      25,
+      39
+     ],
+     [
+      "2026-01",
+      72,
+      30,
+      38
+     ],
+     [
+      "2026-02",
+      81,
+      40,
+      34
+     ],
+     [
+      "2026-03",
+      93,
+      22,
+      58
+     ],
+     [
+      "2026-04",
+      85,
+      36,
+      42
+     ],
+     [
+      "2026-05",
+      94,
+      44,
+      46
+     ],
+     [
+      "2026-06",
+      103,
+      55,
+      40
+     ],
+     [
+      "2026-07",
+      110,
+      61,
+      48
+     ],
+     [
+      "2026-08",
+      123,
+      73,
+      44
+     ],
+     [
+      "2026-09",
+      116,
+      69,
+      40
+     ],
+     [
+      "2026-10",
+      119,
+      41,
+      46
+     ],
+     [
+      "2026-11",
+      43,
+      0,
+      0
+     ]
+    ]
+   },
+   "situacao": {
+    "cols": [
+     "situacao",
+     "agendamentos"
+    ],
+    "linhas": [
+     [
+      "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+      29
+     ],
+     [
+      "PROCEDIMENTO REALIZADO",
+      515
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+      42
+     ],
+     [
+      "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+      25
+     ],
+     [
+      "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+      521
+     ],
+     [
+      "PROCEDIMENTO AGENDADO PELA UND. SOLICITANTE",
+      2
+     ]
+    ]
+   },
+   "ano": {
+    "cols": [
+     "ano",
+     "fila",
+     "fila_viva"
+    ],
+    "linhas": [
+     [
+      "2025",
+      1,
+      1
+     ],
+     [
+      "2026",
+      7,
+      7
+     ]
+    ]
+   }
+  }
+ },
+ "por_codigo": {},
+ "rumo": [],
+ "lacunas": [],
+ "entradas": {
+  "enquadramento": {
+   "arquivo": "dados/enquadramento_mapa_social.json",
+   "atualizado": "27/10/2026",
+   "filas": {
+    "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO": {
+     "decisao": "entra",
+     "motivo": "porta de entrada; na 007-7, a fila inteira com o CID da cirurgia (P-08), a confirmar na SES (usuário, 27/10/2026)",
+     "papel": "consulta",
+     "generica": false,
+     "codigo_sigtap": "03.01.01.007-2"
+    },
+    "CONSULTA EM CARDIOLOGIA - CORONARIA": {
+     "decisao": "entra",
+     "motivo": "porta de entrada da linha coronária, pelo I20 a I25 (usuário, 27/10/2026)",
+     "papel": "consulta",
+     "generica": false,
+     "codigo_sigtap": "03.01.01.007-2"
+    },
+    "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA": {
+     "decisao": "entra",
+     "motivo": "porta de entrada da 006-9, pelo CID da finalidade (a medir em três versões) (usuário, 27/10/2026)",
+     "papel": "consulta",
+     "generica": false,
+     "codigo_sigtap": "03.01.01.007-2"
+    },
+    "CONSULTA EM CARDIOLOGIA - ADULTO": {
+     "decisao": "entra",
+     "motivo": "fila genérica que entra pelo CID da finalidade, como porta de entrada (usuário, 27/10/2026)",
+     "papel": "consulta",
+     "generica": true,
+     "codigo_sigtap": "03.01.01.007-2"
+    },
+    "ELETROCARDIOGRAMA": {
+     "decisao": "entra",
+     "motivo": "porta da 002-6 (Z13.6 e Z84.8), que pode converter o pedido se a SES aceitar; nas outras OCI, só no caso 2 (consulta e exames obrigatórios) (usuário, 27/10/2026)",
+     "papel": "exame",
+     "generica": true,
+     "codigo_sigtap": "02.11.02.003-6"
+    },
+    "TORAX : PA E PERFIL": {
+     "decisao": "fica fora",
+     "motivo": "compatível, não obrigatório: a porta é a consulta, ou a consulta com os obrigatórios (usuário, 27/10/2026)",
+     "papel": "exame",
+     "generica": true,
+     "codigo_sigtap": "02.04.03.015-3"
+    },
+    "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO": {
+     "decisao": "fica fora",
+     "motivo": "compatível, não obrigatório: a porta é a consulta, ou a consulta com os obrigatórios (usuário, 27/10/2026)",
+     "papel": "exame",
+     "generica": true,
+     "codigo_sigtap": "02.05.01.003-2"
+    },
+    "HOLTER 24 HORAS": {
+     "decisao": "a decidir",
+     "motivo": "obrigatório na 006-9: conta só no caso 2 (consulta e exames obrigatórios), que se mede ao lado do caso 1 (só consulta) (usuário, 27/10/2026)",
+     "papel": "exame",
+     "generica": true,
+     "codigo_sigtap": "02.11.02.004-4"
+    },
+    "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2": {
+     "decisao": "a decidir",
+     "motivo": "obrigatório na 003-4 e na 006-9: conta só no caso 2 (consulta e exames obrigatórios), que se mede ao lado do caso 1 (só consulta) (usuário, 27/10/2026)",
+     "papel": "exame",
+     "generica": false,
+     "codigo_sigtap": "02.11.02.006-0"
+    },
+    "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO": {
+     "decisao": "fica fora",
+     "motivo": "obrigatório na 004-2: não conta em nenhum dos dois casos; no caso 2, a linha coronária conta só os obrigatórios da 003-4 (eletrocardiograma e ergométrico) (usuário, 27/10/2026)",
+     "papel": "exame",
+     "generica": false,
+     "codigo_sigtap": "02.05.01.001-6"
+    },
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)": {
+     "decisao": "fica fora",
+     "motivo": "obrigatório na 005-0: não conta em nenhum dos dois casos; no caso 2, a linha coronária conta só os obrigatórios da 003-4 (eletrocardiograma e ergométrico) (usuário, 27/10/2026)",
+     "papel": "exame",
+     "generica": false,
+     "codigo_sigtap": "02.08.01.002-5"
+    },
+    "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)": {
+     "decisao": "fica fora",
+     "motivo": "obrigatório na 005-0: não conta em nenhum dos dois casos; no caso 2, a linha coronária conta só os obrigatórios da 003-4 (eletrocardiograma e ergométrico) (usuário, 27/10/2026)",
+     "papel": "exame",
+     "generica": false,
+     "codigo_sigtap": "02.08.01.003-3"
+    }
+   },
+   "ocis": {
+    "09.02.01.001-8": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+      "ELETROCARDIOGRAMA",
+      "TORAX : PA E PERFIL"
+     ],
+     "entrada": [
+      "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+     ],
+     "obrigatorios": [
+      "ELETROCARDIOGRAMA"
+     ],
+     "cid_aceito": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+     "cid_finalidade": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+     "nota": "finalidade = o CID da ficha (raro: 1,5% dos pedidos). É a OCI do IEV no Fila Zero; o caminho A não a usa"
+    },
+    "09.02.01.002-6": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "ELETROCARDIOGRAMA",
+      "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+     ],
+     "entrada": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO"
+     ],
+     "obrigatorios": [
+      "ELETROCARDIOGRAMA"
+     ],
+     "cid_aceito": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+     "cid_finalidade": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+     "nota": "finalidade = o CID da ficha (raro: 1,2% dos pedidos); 417 pessoas em 27/10, 18 anos ou mais",
+     "porta": "eletrocardiograma com Z13.6 ou Z84.8, se a SES aceitar converter o pedido (usuário, 27/10/2026)"
+    },
+    "09.02.01.003-4": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "CONSULTA EM CARDIOLOGIA - CORONARIA",
+      "ELETROCARDIOGRAMA",
+      "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+      "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+     ],
+     "entrada": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "CONSULTA EM CARDIOLOGIA - CORONARIA"
+     ],
+     "obrigatorios": [
+      "ELETROCARDIOGRAMA",
+      "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2"
+     ],
+     "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+     "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+     "nota": "finalidade I20 a I25 (usuário, 27/10/2026): o mesmo CID da 004-2 e da 005-0. A linha coronária conta cada pessoa uma vez, aqui"
+    },
+    "09.02.01.004-2": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - CORONARIA",
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+     ],
+     "entrada": [
+      "CONSULTA EM CARDIOLOGIA - CORONARIA",
+      "CONSULTA EM CARDIOLOGIA - ADULTO"
+     ],
+     "obrigatorios": [
+      "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+     ],
+     "cid_aceito": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+     "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+     "nota": "finalidade = o CID da ficha; 1.793 das 2.053 pessoas vêm da consulta adulto. É OCI do IEV no Fila Zero (900). Linha coronária: não se soma à fila; é o passo seguinte de parte de quem fez a 003-4 (usuário, 27/10/2026)"
+    },
+    "09.02.01.005-0": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - CORONARIA",
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)"
+     ],
+     "entrada": [
+      "CONSULTA EM CARDIOLOGIA - CORONARIA",
+      "CONSULTA EM CARDIOLOGIA - ADULTO"
+     ],
+     "obrigatorios": [
+      "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)"
+     ],
+     "cid_aceito": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+     "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+     "nota": "finalidade = o CID da ficha; 3.313 pessoas em 27/10. A cintilografia é de serviço de medicina nuclear. Linha coronária: não se soma à fila; é o passo seguinte de parte de quem fez a 003-4 (usuário, 27/10/2026)"
+    },
+    "09.02.01.006-9": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+      "ELETROCARDIOGRAMA",
+      "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+      "HOLTER 24 HORAS",
+      "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+     ],
+     "entrada": [
+      "CONSULTA EM CARDIOLOGIA - ADULTO",
+      "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA"
+     ],
+     "obrigatorios": [
+      "ELETROCARDIOGRAMA",
+      "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+      "HOLTER 24 HORAS"
+     ],
+     "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+     "cid_finalidade": "codigo_cid_solicitado={\"I50*\"}",
+     "nota": "o CID da ficha é o capítulo I inteiro; a finalidade se mede nas três versões antes de decidir (usuário, 27/10/2026). A cardiopatia chagásica (B57.2) não cabe: fora do capítulo I",
+     "variantes": [
+      {
+       "rotulo": "I50",
+       "cid": "codigo_cid_solicitado={\"I50*\"}"
+      },
+      {
+       "rotulo": "I50 com I11.0, I13.0 e I13.2",
+       "cid": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\"}"
+      },
+      {
+       "rotulo": "IC ampliada (com I42 e I43)",
+       "cid": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\",\"I42*\",\"I43*\"}"
+      }
+     ]
+    },
+    "09.02.01.007-7": {
+     "filas": [
+      "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+      "ELETROCARDIOGRAMA",
+      "TORAX : PA E PERFIL"
+     ],
+     "entrada": [
+      "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+     ],
+     "obrigatorios": [],
+     "cid_aceito": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}",
+     "cid_finalidade": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}",
+     "nota": "P-08: a fila inteira de risco cirúrgico (CID da cirurgia) entra, a confirmar na SES; a 007-7 feita por cardiologista (usuário, 27/10/2026). A conta mostra também o caso sem ela"
+    }
+   }
+  },
+  "anterior": {
+   "arquivo": "dados/fontes/mapa_social_20261104_panorama_bruto/coleta_20261104.json",
+   "recarga": "04/11/2026 14:33:58",
+   "filas": {},
+   "ocis": {},
+   "exames": {},
+   "panorama": {
+    "ecocardiografia": {
+     "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO|02.05.01.003-2": 13474,
+     "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL|02.05.01.003-2": 1360,
+     "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO|02.05.01.001-6": 69,
+     "9. ECOCARDIOGRAFIA FETAL|02.05.01.003-2": 36,
+     "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO|02.05.01.002-4": 8,
+     "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO|02.05.01.003-2": 2,
+     "16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL|02.05.01.003-2": 1,
+     "8. ECOCARDIOGRAFIA TRANSEOFAGICA INFANTIL|02.05.01.002-4": 1,
+     "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO EMERGENCIA|02.05.01.003-2": 1,
+     "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER INFANTIL|02.05.01.003-2": 1
+    }
+   }
+  }
+ },
+ "alarmes": [],
+ "diferenca": {
+  "arquivo": "dados/fontes/mapa_social_20261104_panorama_bruto/coleta_20261104.json",
+  "recarga": "04/11/2026 14:33:58",
+  "filas": {},
+  "ocis": {},
+  "exames": {},
+  "panorama": {}
+ }
+}

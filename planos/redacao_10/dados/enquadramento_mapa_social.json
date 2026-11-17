@@ -1,0 +1,6 @@
+{"atualizado": "12/11/2026",
+ "filas": {"COLONOSCOPIA": {"decisao": "entra", "motivo": "na fila, só a colonoscopia, 22.439 (usuário, 12/11/2026)", "papel": "exame", "generica": false},
+           "COLONOSCOPIA C/ ANESTESIA": {"decisao": "fica fora", "motivo": "na fila, só a colonoscopia (usuário, 12/11/2026)", "papel": "exame", "generica": false},
+           "COLONOSCOPIA (COLOSCOPIA)": {"decisao": "fica fora", "motivo": "na fila, só a colonoscopia (usuário, 12/11/2026)", "papel": "exame", "generica": false},
+           "RETOSSIGMOIDOSCOPIA FLEXÍVEL": {"decisao": "fica fora", "motivo": "outro procedimento (02.09.01.005-3)", "papel": "exame", "generica": false}},
+ "ocis": {}}

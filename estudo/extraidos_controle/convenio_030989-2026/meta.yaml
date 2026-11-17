@@ -1,0 +1,20 @@
+id: "convenio_030989-2026"
+arquivo: "convenio_030989-2026.pdf"
+processo_sei: ""
+sha256: "3d24806473a71cfbfbfb749424cb5a1f762f583047ff9dbc56f93e6f72a34152"
+paginas: 14
+chars_texto: 47076
+tabelas_total: 4
+tabelas_por_pagina:
+  pagina_6: 1
+  pagina_13: 3
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+molduras_descartadas_total: 0
+molduras_descartadas_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: [1]
+paginas_ocr: [1]
+ocr_ferramenta: "pytesseract/por, tesseract 5.4.0.20240606"
+ferramenta: "pdfplumber 0.11.10"
+data_extracao: "2026-09-27T09:56:17"

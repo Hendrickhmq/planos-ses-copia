@@ -1,0 +1,113 @@
+{
+ "ORD": [
+  "Oeste",
+  "Sudoeste",
+  "Norte e Leste",
+  "Central",
+  "Sul",
+  "Centro-Sul"
+ ],
+ "matriz": {
+  "02.05.02.009-7": {
+   "Oeste": 1659,
+   "Sudoeste": 5604,
+   "Norte e Leste": 2938,
+   "Central": 1347,
+   "Sul": 2215,
+   "Centro-Sul": 958
+  },
+  "02.05.02.018-6": {
+   "Oeste": 515,
+   "Sudoeste": 4492,
+   "Norte e Leste": 3788,
+   "Central": 49,
+   "Sul": 1285,
+   "Centro-Sul": 436
+  },
+  "02.05.02.004-6": {
+   "Oeste": 311,
+   "Sudoeste": 3989,
+   "Norte e Leste": 2388,
+   "Central": 569,
+   "Sul": 3795,
+   "Centro-Sul": 2148
+  },
+  "02.05.01.004-0": {
+   "Oeste": 834,
+   "Sudoeste": 3619,
+   "Norte e Leste": 3857,
+   "Central": 1222,
+   "Sul": 4226,
+   "Centro-Sul": 792
+  },
+  "02.05.02.005-4": {
+   "Oeste": 66,
+   "Sudoeste": 1332,
+   "Norte e Leste": 816,
+   "Central": 2,
+   "Sul": 816,
+   "Centro-Sul": 921
+  },
+  "02.05.02.012-7": {
+   "Oeste": 84,
+   "Sudoeste": 802,
+   "Norte e Leste": 761,
+   "Central": 4,
+   "Sul": 982,
+   "Centro-Sul": 591
+  },
+  "02.05.02.010-0": {
+   "Oeste": 48,
+   "Sudoeste": 558,
+   "Norte e Leste": 882,
+   "Central": 1,
+   "Sul": 1120,
+   "Centro-Sul": 599
+  },
+  "02.05.02.003-8": {
+   "Oeste": 33,
+   "Sudoeste": 1601,
+   "Norte e Leste": 224,
+   "Central": 1,
+   "Sul": 38,
+   "Centro-Sul": 369
+  },
+  "02.06.03.001-0": {
+   "Oeste": 263,
+   "Sudoeste": 1642,
+   "Norte e Leste": 1132,
+   "Central": 539,
+   "Sul": 638,
+   "Centro-Sul": 327
+  },
+  "02.06.03.003-7": {
+   "Oeste": 200,
+   "Sudoeste": 1368,
+   "Norte e Leste": 977,
+   "Central": 423,
+   "Sul": 641,
+   "Centro-Sul": 276
+  },
+  "02.06.02.003-1": {
+   "Oeste": 598,
+   "Sudoeste": 1887,
+   "Norte e Leste": 1291,
+   "Central": 565,
+   "Sul": 583,
+   "Centro-Sul": 336
+  }
+ },
+ "unit": {
+  "02.05.02.009-7": "99.94",
+  "02.05.02.018-6": "99.94",
+  "02.05.02.004-6": "100.18",
+  "02.05.01.004-0": "100.18",
+  "02.05.02.005-4": "99.94",
+  "02.05.02.012-7": "99.94",
+  "02.05.02.010-0": "99.94",
+  "02.05.02.003-8": "99.94",
+  "02.06.03.001-0": "299.44",
+  "02.06.03.003-7": "299.44",
+  "02.06.02.003-1": "300.10"
+ }
+}

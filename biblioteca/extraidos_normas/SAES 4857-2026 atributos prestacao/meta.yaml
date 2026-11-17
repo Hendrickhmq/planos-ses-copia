@@ -1,0 +1,10 @@
+id: "SAES 4857-2026 atributos prestacao"
+arquivo: "SAES 4857-2026 atributos prestacao.html"
+sha256: "f0d3897b3f6c45ff86714bec35adb650635492353109e2d6ce4818c49ce1ab7b"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 1228
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

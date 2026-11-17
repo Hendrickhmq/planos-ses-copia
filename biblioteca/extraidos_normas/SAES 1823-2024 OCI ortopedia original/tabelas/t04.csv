@@ -1,0 +1,28 @@
+PROCEDIMENTO,09.03.01.004-0 -OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E RESSONÂNCIA MAGNÉTICA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, EXAMES DE RADIOLOGIA, EXAMES DE RESSONÂNCIA MAGNÉTICA, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 360,00"
+Total do Serviço Ambulatorial,"R$ 360,00b"
+CID-10,M236 Outr rupturas espontaneas ligamentos joelhoS532 Ruptura traum do ligamento colateral radioS533 Ruptura traum do ligamento colateral cubitoS633 Ruptura traum de ligamentos do punho e carpoS932 Ruptura de ligamentos nivel tornozelo e pe
+,M75.0 Capsulite adesiva do ombroM75.1 Síndrome do manguito rotadorM75.2 Tendinite bicepitalM75.3 Tendinite calcificante do ombro
+,C40 Neopl malig ossos/cartilag artic membrosC408 Lesao invasiva ossos/cartilag artic membrosC409 Ossos e cartilagens articulares de membro NEC41 Neopl malig ossos/cartil artic outr loc e NEC418 Lesao invasiva ossos e cartilag articulares
+,C419 Ossos e cartilagens articulares NED16 Neopl benig de osso e cartilagem articularD16 Neopl benig de osso e cartilagem articularD169 Osso e cartilagem articular NED169 Osso e cartilagem articular NE
+,D480 Ossos e cartilagens articularesM241 Outr transt das cartilagens articularesM94 Outr transt das cartilagensM948 Outr transt espec da cartilagemM949 Transt NE da cartilagem
+,S833 Ruptura atual cartilagem articulacao joelhoM111 Condrocalcinose familiarM112 Outr condrocalcinosesM224 Condromalacia da rotulaM42 Osteocondrose da coluna vertebral
+,M420 Osteocondrose vertebral juvenilM421 Osteocondrose vertebral do adultoM429 Osteocondrose vertebral NEM91 Osteocondrose juvenil do quadril e da pelveM910 Osteocondrose juvenil da pelve
+,M911 Osteocondrose juvenil da cabeca do femurM918 Outr osteocondroses juvenis quadril e pelveM919 Osteocondrose juvenil NE quadril e pelveM92 Outr osteocondroses juvenisM920 Osteocondrose juvenil do umero
+,M921 Osteocondrose juvenil do radio e do cubitoM922 Osteocondrose juvenil da maoM923 Outr osteocondroses juvenis do membro superM924 Osteocondrose juvenil da rotulaM925 Osteocondrose juvenil da tibia e peronio
+,M926 Osteocondrose juvenil do tarsoM927 Osteocondrose juvenil do metatarsoM928 Outr osteocondroses juvenis especM929 Osteocondrose juvenil NEM93 Outr osteocondropatias
+,M938 Outr osteocondropatias especM939 Osteocondropatias NEM940 Sindr da juncao condrocostalM942 CondromalaciaM943 Condrolise
+,Q773 Condrodisplasia puntactaQ776 Displasia condroectodermicaQ78 Outr osteocondrodisplasiasQ788 Outr osteocondrodisplasias especQ789 Osteocondrodisplasia NE
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

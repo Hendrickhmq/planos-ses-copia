@@ -1,0 +1,593 @@
+### COMENTÁRIOS: 35
+[c0] Hendrickhmq | 2026-09-05T18:38:41Z | Reescrever, melhorar linguagem
+[c1] Hendrickhmq | 2026-09-05T18:39:19Z | verificar se existe. nos outros planos, mas muito provavelmente tenho que remover
+[c2] Hendrickhmq | 2026-09-05T18:39:36Z | Não existe mais isso de quinzena
+[c3] Hendrickhmq | 2026-09-05T18:40:02Z | não necessáriamente.
+[c4] Hendrickhmq | 2026-09-05T18:40:36Z | Remover ou tratar em seçoes/trechos  diferentes
+[c5] Hendrickhmq | 2026-09-05T18:40:48Z | tentar entender melhor.
+[c6] Hendrickhmq | 2026-09-05T18:41:12Z | tentar entender melhor
+[c7] Hendrickhmq | 2026-09-05T18:41:34Z | Reescrever, melhorar linguagem e entender melhor
+[c8] Hendrickhmq | 2026-09-05T18:42:03Z | Ver se isso se faz necessário.
+[c9] Hendrickhmq | 2026-09-05T18:42:34Z | Excluir. não se faz necessário deixar isso evidente.
+[c10] Hendrickhmq | 2026-09-05T18:43:08Z | não precisa desse detalhamento
+[c11] Hendrickhmq | 2026-09-05T18:43:20Z | não precisa desse detalhamento.
+[c12] Hendrickhmq | 2026-09-05T18:43:43Z | verificar se CPF e CNS, ou apenas CNS
+[c13] Hendrickhmq | 2026-09-05T18:44:18Z | verificar isso, acho que temos que excluir mas quero entender melhor.
+[c14] Hendrickhmq | 2026-09-05T18:44:52Z | Entender melhor isso. Mas acredito que temos que excluir
+[c15] Hendrickhmq | 2026-09-05T18:45:12Z | Nossa meta tem que ser 100%
+[c16] Hendrickhmq | 2026-09-05T18:45:25Z | meta tem que ser 100%
+[c17] Hendrickhmq | 2026-09-05T18:45:44Z | entender porque ele aceitou 90% aqui
+[c18] Hendrickhmq | 2026-09-05T18:45:56Z | meta tem que ser 100%
+[c19] Hendrickhmq | 2026-09-05T18:46:19Z | entender o motivo de estar em vermelho.
+[c20] Hendrickhmq | 2026-09-05T18:46:19Z | entender o motivo de estar em vermelho.
+[c21] Hendrickhmq | 2026-09-05T18:46:53Z | pode excluir isso ou reescrever de outra forma.
+[c22] Hendrickhmq | 2026-09-05T18:47:17Z | Entender se temos que exlcuir ou reescrever.
+[c23] Hendrickhmq | 2026-09-05T18:47:45Z | Reescrever, melhorar linguagem
+[c24] Hendrickhmq | 2026-09-05T18:47:57Z | Reescrever, melhorar linguagem
+[c25] Hendrickhmq | 2026-09-05T18:48:53Z | não se faz necessário adicionar isso.
+[c26] Hendrickhmq | 2026-09-05T18:49:32Z | entender o porque de estar grifado, acho que isso seria o credenciamento não a conteplaçao do convênio.
+[c27] Hendrickhmq | 2026-09-05T18:50:03Z | Não se faz necessário lançar nesse sistema.
+[c28] Hendrickhmq | 2026-09-05T18:50:49Z | não se faz necessario colocar isso ou deixar claro. mas precisamos verificar como foi feito nos outros.
+[c29] Hendrickhmq | 2026-09-05T18:51:30Z | tirar essa e adicionar como recepcionista para ficar 6, 2 em cada polo
+[c30] Hendrickhmq | 2026-09-05T18:53:03Z | colocar tudo na mesma planilha.
+[c31] Hendrickhmq | 2026-09-05T18:53:19Z | colocar na mesma planilha, observe como foi feito nos outros planos.
+[c32] Hendrickhmq | 2026-09-05T18:53:19Z | colocar na mesma planilha, observe como foi feito nos outros planos.
+[c33] Hendrickhmq | 2026-09-05T18:53:19Z | colocar na mesma planilha, observe como foi feito nos outros planos.
+[c34] Hendrickhmq | 2026-09-05T18:54:05Z | isso deve vir antes, as rubricas de gasto tem que ser a ultima coisa do plano de trabalho.
+
+### PARÁGRAFOS COM GRIFO OU COMENTÁRIO
+
+--- p85 [] GRIFO:red
+«A Nota Técnica nº 3/2025-DAET/SAES/MS organiza a composição de cada OCI em duas colunas — procedimentos obrigatórios e procedimentos opcionais, sem prejuízo da investigação diagnóstica resolutiva — e coloca o exame anatomopatológico desta OCI na segunda. A Nota Técnica nº 1/2025-DAET/SAES/MS fixa dois pontos: há procedimentos secundários que não serão necessários por já terem sido realizados ou por não haver indicação após a avaliação do médico especialista, e o valor da OCI não varia ainda que nem todos sejam executados (itens 2.1.5 e 2.1.6); e a alternância entre consulta presencial e teleconsulta é a única hipótese em que o sistema admite marcação individualizada dos procedimentos da OCI (item 2.1.10).»
+
+--- p89 [] GRIFO:red
+O art. 15 da Portaria SAES/MS nº 1.640, de 7 de maio de 2024, determina que a data de início da APAC corresponda à do primeiro procedimento — a consulta médica especializada — e a data de encerramento à do último procedimento do conjunto, que é o retorno. O procedimento principal carrega na Tabela de Procedimentos do SUS o atributo complementar «054 — APAC com validade fixa de 2 competências», de modo que o intervalo entre o primeiro e o «último procedimento deve estar contido em, no máximo, duas competências ambulatoriais.»
+
+--- p90 [] GRIFO:red
+«Duas regras operacionais decorrem daí, detalhadas na seção 5: o agendamento dos exames na primeira quinzena de cada competência e o prazo de até 15 dias corridos para o laudo de anatomia patológica, de modo que a OCI se conclua dentro da janela.»
+
+--- p92 [] GRIFO:red
+Usuários do Sistema Único de Saúde residentes no Distrito Federal, de ambos os sexos, sem recorte de faixa etária — a« Nota Técnica nº 2/2025-DAET/SAES/MS »registra expressamente que o critério etário "não se aplica" a esta OCI, ao contrário da OCI de câncer colorretal, restrita à faixa de 50 a 74 anos.
+
+--- p98 [] GRIFO:red
+«Regiões Administrativas de origem dos usuários»
+
+--- p101 [] GRIFO:red
+«Brazlândia, Ceilândia, Sol Nascente/Pôr do Sol, Águas Claras, Recanto das Emas, Samambaia, Taguatinga e Vicente Pires»
+
+--- p104 [] GRIFO:red
+«Arapoanga, Planaltina, Sobradinho, Sobradinho II, Fercal, Paranoá, Itapoã, São Sebastião, Jardim Botânico, Jardins Mangueiral, Asa Sul, Asa Norte, Cruzeiro, Lago Norte, Varjão e Vila Planalto»
+
+--- p107 [] GRIFO:red
+«Gama, Santa Maria, Candangolândia, Estrutural, Guará, Park Way, Núcleo Bandeirante, Riacho Fundo I e II, SIA e SCIA»
+
+--- p144 [] GRIFO:red
+«Registram-se ainda 2.217 solicitações originadas de unidades contratadas ou credenciadas, 1.771 de unidades de referência distrital e 3 de outras origens.»
+
+--- p146 [] GRIFO:green
+A demanda é de avaliação diagnóstica de câncer gástrico, cujo prognóstico depende do momento do diagnóstico. Entre a suspeita levantada na atenção primária e o laudo anatomopatológico, o usuário atravessa três filas sucessivas — a da consulta especializada, a do exame endoscópico e a do exame anatomopatológico —, e o tempo total é a soma das três. «Fazer fechamento»
+
+--- p152 [] GRIFO:yellow | COM:c0
+O quantitativo não foi arbitrado: «é o que o recurso disponível compra ao valor de tabela vigente», depois de deduzida a estrutura de gestão e apoio detalhada na seção 8.
+
+--- p206 [Heading2] GRIFO:red | COM:c1
+«4.2 Condições de partida»
+
+--- p239 [] GRIFO:red | COM:c2
+«Os exames são agendados na primeira quinzena de cada competência. Consulta e exame realizados no dia 5 deixam até o último dia da competência seguinte para o laudo chegar e o retorno acontecer — de 54 a 57 dias, conforme o mês. No dia 28, restam de 31 a 34.»
+
+--- p265 [] GRIFO:red | COM:c3
+Na teleconsulta o médico apresenta e explica o laudo endoscópico e o anatomopatológico, define a conduta, registra o desfecho e emite a contrarreferência «ao ponto de origem do encaminhamento. »É este ato que conclui a OCI e encerra a APAC.
+
+--- p267 [Heading2] GRIFO:red | COM:c4
+«5.9 Absenteísmo, ausência de acompanhante e reaproveitamento de vaga»
+
+--- p268 [] GRIFO:red | COM:c5
+«Três situações interrompem o percurso, e cada uma tem tratamento próprio:»
+
+--- p269 [] GRIFO:white
+«Ausência de acompanhante. O exame não é cancelado. A descrição vigente da OCI admite a esofagogastroduodenoscopia "com ou sem sedação", e o exame sem sedação é o mesmo procedimento, integra o mesmo conjunto e é remunerado pelo mesmo valor. Havendo condição clínica e concordância do usuário, o exame é realizado sob anestesia tópica, e a exigência de acompanhante deixa de incidir. Não havendo, o usuário é reagendado e a vaga é ocupada pela lista de espera do dia.»
+
+--- p270 [] GRIFO:red | COM:c6
+«Falta ao exame. A vaga é ocupada pela lista de espera do dia, formada na confirmação ativa, e o usuário faltoso retorna à fila regulada pela busca ativa.»
+
+--- p271 [] GRIFO:yellow | COM:c7
+«Falta ao retorno. É a situação mais grave, porque a OCI fica aberta e o conjunto não se conclui. A busca ativa do usuário que não comparece ao retorno é diária enquanto houver janela de competência, e é o indicador I-04 da subseção 5.15.»
+
+--- p315 [] COM:c8
+O intervalo de 25 minutos por paciente tem por referência o parecer da Sociedade Portuguesa de Endoscopia Digestiva de 9 de outubro de 2020, que recomenda de 15 a 20 minutos para a endoscopia digestiva alta e registra a recomendação da British Society of Gastroenterology de intervalo mínimo de 20 minutos; ao intervalo do exame somam-se entrada, sedação, saída e higienização da sala.
+
+--- p318 [] GRIFO:red | COM:c9
+«A equipe custeada pelo convênio é a que executa, controla e responde pelo instrumento.» A equipe assistencial — médico endoscopista, que na sedação consciente responde também pela sedação; médico responsável pela sala de recuperação, a quem cabe a alta; enfermagem, técnicos e equipe do laboratório de anatomia patológica — integra o valor unitário da OCI e está delimitada item a item em 8.3.
+
+--- p366 [] GRIFO:red | COM:c10
+«No polo, por usuário atendido:»
+
+--- p367 [] GRIFO:red | DENTRO_DE:c10
+«atividade»
+
+--- p368 [] GRIFO:red | DENTRO_DE:c10
+«tempo unitário»
+
+--- p369 [] GRIFO:red | DENTRO_DE:c10
+«recepção, conferência da lista do dia, do jejum e do acompanhante; termo de consentimento; ficha da OCI»
+
+--- p370 [] GRIFO:red | DENTRO_DE:c10
+«8 min»
+
+--- p371 [] GRIFO:red | DENTRO_DE:c10
+«entrega do laudo, das orientações e do comprovante do retorno»
+
+--- p372 [] GRIFO:red | DENTRO_DE:c10
+«4 min»
+
+--- p373 [] GRIFO:red | DENTRO_DE:c10
+«abertura da APAC e registro dos secundários»
+
+--- p374 [] GRIFO:red | DENTRO_DE:c10
+«8 min»
+
+--- p375 [] GRIFO:red | DENTRO_DE:c10
+«registro do desfecho e encerramento da APAC»
+
+--- p376 [] GRIFO:red | DENTRO_DE:c10
+«5 min»
+
+--- p377 [] GRIFO:red | DENTRO_DE:c10
+«lançamento do resultado no Sistema de Informação do Câncer, nos 30% com biópsia»
+
+--- p378 [] GRIFO:red | DENTRO_DE:c10
+«4 min»
+
+--- p379 [] GRIFO:red | DENTRO_DE:c10
+«crítica e reapresentação de registro rejeitado, nos 10% rejeitados»
+
+--- p380 [] GRIFO:red | DENTRO_DE:c10
+«10 min»
+
+--- p381 [] GRIFO:red | DENTRO_DE:c10
+«carga por OCI»
+
+--- p382 [] GRIFO:red | DENTRO_DE:c10
+«27,2 min»
+
+--- p383 [] DENTRO_DE:c10
+
+
+--- p384 [] GRIFO:red | DENTRO_DE:c10
+«polo»
+
+--- p385 [] GRIFO:red | DENTRO_DE:c10
+«entradas por dia útil»
+
+--- p386 [] GRIFO:red | DENTRO_DE:c10
+«horas/dia»
+
+--- p387 [] GRIFO:red | DENTRO_DE:c10
+«postos»
+
+--- p388 [] GRIFO:red | DENTRO_DE:c10
+«Ceilândia»
+
+--- p389 [] GRIFO:red | DENTRO_DE:c10
+«29,19»
+
+--- p390 [] GRIFO:red | DENTRO_DE:c10
+«13,23»
+
+--- p391 [] GRIFO:red | DENTRO_DE:c10
+«3»
+
+--- p392 [] GRIFO:red | DENTRO_DE:c10
+«Sobradinho»
+
+--- p393 [] GRIFO:red | DENTRO_DE:c10
+«29,29»
+
+--- p394 [] GRIFO:red | DENTRO_DE:c10
+«13,28»
+
+--- p395 [] GRIFO:red | DENTRO_DE:c10
+«3»
+
+--- p396 [] GRIFO:red | DENTRO_DE:c10
+«Gama»
+
+--- p397 [] GRIFO:red | DENTRO_DE:c10
+«16,81»
+
+--- p398 [] GRIFO:red | DENTRO_DE:c10
+«7,62»
+
+--- p399 [] GRIFO:red | COM:c10
+«2»
+
+--- p401 [] COM:c11
+Na coordenação, para os três polos:
+
+--- p402 [] GRIFO:red | DENTRO_DE:c11
+«atividade»
+
+--- p403 [] GRIFO:red | DENTRO_DE:c11
+«volume diário»
+
+--- p404 [] GRIFO:red | DENTRO_DE:c11
+«tempo unitário»
+
+--- p405 [] GRIFO:red | DENTRO_DE:c11
+«horas/dia»
+
+--- p406 [] GRIFO:red | DENTRO_DE:c11
+«agendamento do exame e do retorno»
+
+--- p407 [] GRIFO:red | DENTRO_DE:c11
+«150,58 atos»
+
+--- p408 [] GRIFO:red | DENTRO_DE:c11
+«4 min»
+
+--- p409 [] GRIFO:red | DENTRO_DE:c11
+«10,04»
+
+--- p410 [] GRIFO:red | DENTRO_DE:c11
+«confirmação ativa de ambos»
+
+--- p411 [] GRIFO:red | DENTRO_DE:c11
+«150,58 atos»
+
+--- p412 [] GRIFO:red | DENTRO_DE:c11
+«1,5 min»
+
+--- p413 [] GRIFO:red | DENTRO_DE:c11
+«3,76»
+
+--- p414 [] GRIFO:red | DENTRO_DE:c11
+«busca ativa»
+
+--- p415 [] GRIFO:red | DENTRO_DE:c11
+«30,12 contatos»
+
+--- p416 [] GRIFO:red | DENTRO_DE:c11
+«5 min»
+
+--- p417 [] GRIFO:red | DENTRO_DE:c11
+«2,51»
+
+--- p418 [] GRIFO:red | DENTRO_DE:c11
+«reagendamento de falta»
+
+--- p419 [] GRIFO:red | DENTRO_DE:c11
+«7,53»
+
+--- p420 [] GRIFO:red | DENTRO_DE:c11
+«5 min»
+
+--- p421 [] GRIFO:red | DENTRO_DE:c11
+«0,63»
+
+--- p422 [] GRIFO:red | DENTRO_DE:c11
+«subtotal — agendamento»
+
+--- p423 [] DENTRO_DE:c11
+
+
+--- p424 [] DENTRO_DE:c11
+
+
+--- p425 [] GRIFO:red | DENTRO_DE:c11
+«16,94 → 3 postos»
+
+--- p426 [] GRIFO:red | DENTRO_DE:c11
+«conferência do laudo endoscópico e do resultado»
+
+--- p427 [] GRIFO:red | DENTRO_DE:c11
+«75,29»
+
+--- p428 [] GRIFO:red | DENTRO_DE:c11
+«2 min»
+
+--- p429 [] GRIFO:red | DENTRO_DE:c11
+«2,51»
+
+--- p430 [] GRIFO:red | DENTRO_DE:c11
+«cobrança de laudo de anatomia patológica em atraso»
+
+--- p431 [] GRIFO:red | DENTRO_DE:c11
+«22,59»
+
+--- p432 [] GRIFO:red | DENTRO_DE:c11
+«2 min»
+
+--- p433 [] GRIFO:red | DENTRO_DE:c11
+«0,75»
+
+--- p434 [] GRIFO:red | DENTRO_DE:c11
+«agendamento e confirmação do retorno em atraso»
+
+--- p435 [] GRIFO:red | DENTRO_DE:c11
+«—»
+
+--- p436 [] GRIFO:red | DENTRO_DE:c11
+«—»
+
+--- p437 [] GRIFO:red | DENTRO_DE:c11
+«~2,5»
+
+--- p438 [] GRIFO:red | DENTRO_DE:c11
+«subtotal — laudo e retorno»
+
+--- p439 [] DENTRO_DE:c11
+
+
+--- p440 [] DENTRO_DE:c11
+
+
+--- p441 [] GRIFO:red | COM:c11
+«5,76 → 1 posto»
+
+--- p447 [] GRIFO:yellow | COM:c12
+A identificação do usuário é feita obrigatoriamente pelo «CPF.» A data de início da APAC é a do primeiro procedimento e a de encerramento é a do último, na forma da seção 2.3, com motivo de saída entre os admitidos para a OCI.
+
+--- p450 [] GRIFO:red | COM:c13
+«Relacionam-se, para os fins do art. 33, § 2º do Decreto DF nº 48.727/2026, as atividades que poderão ser executadas por terceiros contratados pelo proponente:»
+
+--- p451 [] GRIFO:red | DENTRO_DE:c13
+«atividade acessória»
+
+--- p452 [] GRIFO:red | DENTRO_DE:c13
+«forma»
+
+--- p453 [] GRIFO:red | DENTRO_DE:c13
+«Exame anatomopatológico, quando indicada a biópsia»
+
+--- p454 [] GRIFO:red | DENTRO_DE:c13
+«serviço próprio ou laboratório contratado, com prazo de laudo de até 15 dias corridos»
+
+--- p455 [] GRIFO:red | DENTRO_DE:c13
+«Manutenção e assistência técnica dos endoscópios»
+
+--- p456 [] GRIFO:red | DENTRO_DE:c13
+«contrato de manutenção»
+
+--- p457 [] GRIFO:red | DENTRO_DE:c13
+«Plataforma de teleconsulta e sistema informatizado de gestão»
+
+--- p458 [] GRIFO:red | COM:c13
+«contratação de solução de mercado»
+
+--- p481 [] GRIFO:red | COM:c14
+«Meta qualitativa: concluir, dentro da janela de duas competências, no mínimo 95% das OCI iniciadas — isto é, das APAC abertas com a consulta médica especializada».
+
+--- p486 [] GRIFO:shd:f4cccc
+«meta»
+
+--- p491 [] GRIFO:shd:f4cccc | COM:c15
+«≥ 95%»
+
+--- p492 [] COM:c15
+APAC apresentadas nos sistemas oficiais
+
+--- p496 [] GRIFO:shd:f4cccc | COM:c16
+«≥ 95%»
+
+--- p497 [] COM:c16
+datas de início e encerramento da APAC
+
+--- p501 [] GRIFO:white | COM:c17
+«≥ 90%»
+
+--- p502 [] COM:c17
+registro de envio e recebimento por lote
+
+--- p506 [] GRIFO:shd:f4cccc | COM:c18
+«≥ 90%»
+
+--- p508 [] GRIFO:red | COM:c19
+«I-05»
+
+--- p509 [] GRIFO:red | DENTRO_DE:c19
+«Aproveitamento da vaga»
+
+--- p510 [] GRIFO:red | DENTRO_DE:c19
+«exames realizados ÷ vagas ofertadas»
+
+--- p511 [] GRIFO:red | DENTRO_DE:c19
+«≥ 90%»
+
+--- p512 [] GRIFO:red | DENTRO_DE:c19
+«agenda diária dos polos e lista de espera»
+
+--- p513 [] GRIFO:red | COM:c19,c20
+«I-06»
+
+--- p514 [] GRIFO:red | DENTRO_DE:c20
+«Distribuição territorial»
+
+--- p515 [] GRIFO:red | DENTRO_DE:c20
+«OCI por polo ÷ OCI pactuadas por polo»
+
+--- p516 [] GRIFO:red | DENTRO_DE:c20
+«100% ± 15%»
+
+--- p517 [] GRIFO:red | DENTRO_DE:c20
+«relatório mensal por polo»
+
+--- p518 [] COM:c20
+
+
+--- p699 [] GRIFO:red | COM:c21
+Primeira — o« preço é de tabela». O parâmetro de comparação é o valor federal fixado para o conjunto, e o valor praticado é idêntico a ele.
+
+--- p700 [] GRIFO:red | COM:c22
+«Segunda — o conjunto entregue é maior que o exame. Pelos R$ 600,11 o convênio recebe consulta médica especializada, esofagogastroduodenoscopia com sedação, exame anatomopatológico e teleconsulta de retorno com o resultado, além do processamento do endoscópio e da recuperação pós-sedação exigida pela norma sanitária. Para dimensionar o que isso significa em relação ao preço avulso dos componentes, a Portaria SAES/MS nº 4.282, de 19 de junho de 2026, registra o valor SIGTAP da esofagogastroduodenoscopia isolada em R$ 48,16 e admite, no Componente Créditos Financeiros do Programa Agora Tem Especialistas, incremento de 627% sobre ele — o que situa o exame isolado, naquele componente, em R$ 350,12.»
+
+--- p703 [] GRIFO:yellow | COM:c23
+A planilha foi construída percorrendo o percurso descrito na seção 5, passo a passo, p«erguntando de cada um qual custo o torna possível »e se esse custo já está remunerado dentro do valor unitário da OCI. A coluna passo registra essa vinculação: toda linha aponta o ponto do percurso que a exige.
+
+--- p706 [] GRIFO:yellow | COM:c24
+«Estão remunerados no valor unitário da OCI, e por isso sem linha própria: a equipe assistencial em todas as suas funções, inclusive a médica responsável pela sedação e a responsável pela alta da sala de recuperação; as salas de procedimento, de recuperação e de processamento; os endoscópios, a processadora e o instrumental; os insumos, os fármacos e o material de biópsia; o processamento e a desinfecção de alto nível; o exame anatomopatológico; o impresso do percurso — termo de consentimento, ficha de acolhimento, laudo endoscópico entregue ao usuário e orientações de pós-procedimento, que os polos já produzem hoje; e o imóvel, a energia, a água, a limpeza e a vigilância dos três polos.»
+
+--- p707 [] GRIFO:red | COM:c25
+«Não há rubrica de sistema informatizado, de locação de equipamento de informática nem de conectividade. O agendamento, o registro da produção e o acompanhamento da execução ocorrem nos sistemas oficiais da SES-DF e nos sistemas próprios dos polos, já em operação. Os recursos do convênio são aplicados em pessoal.»
+
+--- p708 [] GRIFO:shd:2e74b5 | COM:c26
+«O convênio contrata capacidade adicional de serviços já licenciados e em operação,» na forma da seção 2.5. Os polos existem antes do convênio e permanecem depois dele, e por isso não há linha de locação de imóvel.
+
+--- p710 [] GRIFO:red | COM:c27
+Postos operacionais. Dimensionados sobre 75,29 entradas por dia útil e jornada efetiva de 6 horas, conforme a memória de 5.11. No polo, recepção, conferência da lista do dia, termo, ficha da OCI, entrega do laudo, abertura e encerramento de APAC, l«ançamento no Sistema de Informação do Câncer» e crítica de rejeição somam 27,2 minutos por OCI, o que exige 3 postos em Ceilândia, 3 em Sobradinho e 2 no Gama. Na coordenação, agendamento, confirmação, busca ativa e reagendamento somam 16,94 horas diárias, 3 postos; rastreamento de laudo e retorno soma 5,76 horas, 1 posto. A secretaria executiva é posto único de apoio à direção e à coordenação.
+
+--- p712 [] GRIFO:red | COM:c28
+A planilha é integralmente de pessoal. Não há material de consumo, «equipamento nem serviço de terceiro com linha própria»: o percurso da seção 5 não produz custo fora de pessoal que já não esteja remunerado no valor unitário da OCI.
+
+--- p745 [] COM:c29
+1
+
+--- p753 [] GRIFO:shd:2e74b5
+«3»
+
+--- p761 [] GRIFO:shd:2e74b5
+«1»
+
+--- p798 [] COM:c30
+Meta 2 — Execução assistencial
+
+--- p799 [] DENTRO_DE:c30
+#
+
+--- p800 [] DENTRO_DE:c30
+item
+
+--- p801 [] DENTRO_DE:c30
+un.
+
+--- p802 [] DENTRO_DE:c30
+qtd
+
+--- p803 [] DENTRO_DE:c30
+v. unitário
+
+--- p804 [] DENTRO_DE:c30
+v. total
+
+--- p805 [] DENTRO_DE:c30
+2.1
+
+--- p806 [] DENTRO_DE:c30
+OCI 09.01.01.007-3 — Avaliação Diagnóstica de Câncer Gástrico, concluída na forma da seção 2.3
+
+--- p807 [] DENTRO_DE:c30
+OCI
+
+--- p808 [] DENTRO_DE:c30
+12.967
+
+--- p809 [] DENTRO_DE:c30
+600,11
+
+--- p810 [] DENTRO_DE:c30
+7.781.626,37
+
+--- p811 [] DENTRO_DE:c30
+
+
+--- p812 [] DENTRO_DE:c30
+TOTAL DA META 2
+
+--- p813 [] DENTRO_DE:c30
+
+
+--- p814 [] DENTRO_DE:c30
+
+
+--- p815 [] DENTRO_DE:c30
+
+
+--- p816 [] COM:c30
+7.781.626,37
+
+--- p820 [] COM:c31
+#
+
+--- p821 [] DENTRO_DE:c31
+item
+
+--- p822 [] DENTRO_DE:c31
+passo
+
+--- p823 [] DENTRO_DE:c31
+un.
+
+--- p824 [] DENTRO_DE:c31
+qtd
+
+--- p825 [] DENTRO_DE:c31
+v. unitário
+
+--- p826 [] DENTRO_DE:c31
+meses
+
+--- p827 [] DENTRO_DE:c31
+v. total
+
+--- p828 [] COM:c31,c32
+3.1
+
+--- p829 [] DENTRO_DE:c32
+Assistente financeiro — conciliação e execução financeira
+
+--- p830 [] DENTRO_DE:c32
+7.1, 7.3
+
+--- p831 [] DENTRO_DE:c32
+posto
+
+--- p832 [] DENTRO_DE:c32
+1
+
+--- p833 [] DENTRO_DE:c32
+3.200,00
+
+--- p834 [] DENTRO_DE:c32
+10
+
+--- p835 [] DENTRO_DE:c32
+32.000,00
+
+--- p836 [] COM:c32,c33
+
+
+--- p837 [] DENTRO_DE:c33
+TOTAL DA META 3
+
+--- p838 [] DENTRO_DE:c33
+
+
+--- p839 [] DENTRO_DE:c33
+
+
+--- p840 [] DENTRO_DE:c33
+
+
+--- p841 [] DENTRO_DE:c33
+
+
+--- p842 [] DENTRO_DE:c33
+
+
+--- p843 [] DENTRO_DE:c33
+32.000,00
+
+--- p844 [] COM:c33
+
+
+--- p863 [Heading1] COM:c34
+9. Riscos
+
+--- p864 [Heading2] DENTRO_DE:c34
+9.1 Critério
+
+--- p865 [] DENTRO_DE:c34
+Cada risco é classificado pela combinação entre probabilidade e impacto sobre a execução do objeto, e recebe medida de mitigação atribuída a um responsável determinado.
+
+--- p866 [Heading2] COM:c34
+9.2 Matriz

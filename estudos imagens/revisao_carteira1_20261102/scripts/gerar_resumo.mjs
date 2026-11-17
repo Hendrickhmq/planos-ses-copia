@@ -1,0 +1,64 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const d=JSON.parse(await fs.readFile(path.join(root,'dados_revisao.json'),'utf8'));
+const wb=Workbook.create();
+const s=wb.worksheets.add('Resumo');
+s.showGridLines=false;s.tabColor='#203F64';
+s.getRange('A1:F36').format.font={name:'Arial',size:11,color:'#233449'};
+s.getRange('A1:F36').format.rowHeight=23;
+s.getRange('A1:F36').format.verticalAlignment='center';
+const widths=[25,23,17,17,17,17];
+widths.forEach((v,i)=>s.getRangeByIndexes(0,i,36,1).format.columnWidth=v);
+function merged(range,text,size=11,bold=false,fill){const r=s.getRange(range);r.merge();r.values=[[text]];r.format.wrapText=true;r.format.font={name:'Arial',size,bold,color:'#233449'};if(fill)r.format.fill=fill;return r;}
+function section(row,text){merged(`A${row}:F${row}`,text,12,true);s.getRange(`A${row}:F${row}`).format.borders={bottom:{style:'thin',color:'#91A4BB'}};}
+merged('A2:F2','Carteira 1 — resumo para decisão',16,true);
+merged('A3:F3','Revisão de 02/11/2026. A planilha completa permanece preservada.',10);
+merged('A5:C5','Meta de exames',11,true,'#EEF3F8');
+merged('D5:F5','Valor dos procedimentos',11,true,'#EEF3F8');
+merged('A6:C6',d.items.reduce((a,i)=>a+i.meta,0),16,true,'#EEF3F8').setNumberFormat('#,##0');
+merged('D6:F6',d.items.reduce((a,i)=>a+i.valor,0),16,true,'#EEF3F8').setNumberFormat('"R$ "#,##0.00');
+merged('A8:F8','US e TC ambulatoriais. Parede abdominal mantida. Angio coronária excluída.',11,true);
+section(10,'Salas de ultrassom por polo');
+s.getRange('A11:F11').values=[['Região de origem','Polo de atendimento','8 meses\nsem perda extra','7 meses\nsem perda extra','8 meses\n20% perda extra','7 meses\n20% perda extra']];
+s.getRange('A11:F11').format={fill:'#203F64',font:{name:'Arial',size:10,bold:true,color:'#FFFFFF'},wrapText:true,horizontalAlignment:'center',rowHeight:47,verticalAlignment:'center'};
+const polos=['Asa Sul','São Sebastião','Sobradinho','Ceilândia','Samambaia','Gama'];
+const regions=['Central + Centro-Sul','Leste','Norte','Oeste','Sudoeste','Sul'];
+const hours=Object.fromEntries(polos.map(p=>[p,0]));
+for(const r of d.regional){const i=d.items[r.item-1];if(i.modalidade==='Ultrassom')hours[r.polo]+=r.meta*i.minutos/60;}
+const rows=polos.map((p,j)=>[regions[j],p,...[[8,0],[7,0],[8,.2],[7,.2]].map(([m,f])=>Math.ceil(hours[p]/(m*21*10*.8*(1-f))))]);
+s.getRange('A12:F17').values=rows;
+s.getRange('A12:F17').format.rowHeight=27;s.getRange('C12:F18').format.horizontalAlignment='center';
+for(let i=12;i<=17;i++)if(i%2===0)s.getRange(`A${i}:F${i}`).format.fill='#F0F4F8';
+merged('A18:B18','Total de salas',11,true,'#DEE8F2');
+for(const c of ['C','D','E','F'])s.getRange(`${c}18`).formulas=[[`=SUM(${c}12:${c}17)`]];
+s.getRange('C18:F18').format.fill='#DEE8F2';s.getRange('A18:F18').format.font.bold=true;
+merged('A19:F19','Sem perda extra: faltas já absorvidas nos 80%. Perda extra: faltas descontadas além dessa margem.',10);
+s.getRange('A19:F19').format.rowHeight=31;
+merged('A21:F22','20 salas só encaixam em 8 meses, sem perdas extras e transferindo 1.371 Dopplers do Sul para Asa Sul e Ceilândia. Arranjo apertado e ainda não confirmado.',11,true,'#FFF1CC');
+section(24,'Encaminhamento da SES — simulação em 8 meses');
+merged('A25:D25','Oferta eletiva selecionada da SES');s.getRange('E25:F25').values=[['Projeto: exames','Faltam para a meta']];
+s.getRange('A25:F25').format={fill:'#203F64',font:{name:'Arial',size:10,bold:true,color:'#FFFFFF'},wrapText:true,rowHeight:35};
+for(const [r,label,q] of [[26,'Oferta habitual mantida',77613.94947870041],[27,'Encaminhamento de 50% ao projeto',78871],[28,'Concentração dos protocolos no projeto',79219]]){
+ merged(`A${r}:D${r}`,label);s.getRange(`E${r}`).values=[[q]];s.getRange(`F${r}`).formulas=[[`=$A$6-E${r}`]];
+}
+s.getRange('E26:F28').setNumberFormat('#,##0');
+merged('A29:F29','Estimativas: a parcela de oferta transferível ainda precisa ser medida e pactuada com a regulação.',10);
+s.getRange('A29:F29').format.rowHeight=30;
+section(31,'O que falta confirmar');
+merged('A32:F32','SES: enquadramento e faturamento da parede abdominal; volume de demanda encaminhada.');
+merged('A33:F33','Operação: salas, equipe e horários em cada polo. Até 20 salas é possibilidade de planejamento.');
+merged('A34:F34','Faltas exigem mais tentativas de agenda; não comprovam necessidade de pedidos novos.');
+merged('A36:F36','Base: estudo completo de 02/11. Rateio territorial aproximado, com participações de 15/09.',10);
+wb.recalculate();
+const total=s.getRange('C18:F18').values[0];
+if(JSON.stringify(total)!==JSON.stringify([21,23,24,29]))throw new Error('Divergência no total de salas');
+const check=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!',options:{useRegex:true,maxResults:20}});
+await fs.writeFile(path.join(root,'verificacao/resumo_curto.inspect.ndjson'),check.ndjson);
+await (await SpreadsheetFile.exportXlsx(wb)).save(path.join(root,'Carteira 1 - resumo.xlsx'));
+const pic=await wb.render({sheetName:'Resumo',range:'A1:F36',scale:1.3,format:'png'});
+await fs.writeFile(path.join(root,'verificacao/resumo_curto.png'),new Uint8Array(await pic.arrayBuffer()));
+console.log(JSON.stringify({salas:total,abas:1,arquivo:'Carteira 1 - resumo.xlsx'}));
+console.log(check.ndjson);

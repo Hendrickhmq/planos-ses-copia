@@ -1,0 +1,10 @@
+id: "GM 7061-2025 urgencia espera"
+arquivo: "GM 7061-2025 urgencia espera.html"
+sha256: "8e256f1120083991513f1b48615ff9cd50a098bba1da2e9b20496659f920ba9e"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 3379
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

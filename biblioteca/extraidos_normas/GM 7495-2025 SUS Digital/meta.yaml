@@ -1,0 +1,10 @@
+id: "GM 7495-2025 SUS Digital"
+arquivo: "GM 7495-2025 SUS Digital.html"
+sha256: "553343dffcb2fbc85b979ebb094d2a39e1f5ba0bb03f5fb8aaa6f08bb1c7dce8"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 14850
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

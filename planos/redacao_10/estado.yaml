@@ -1,0 +1,47 @@
+# redacao_10 — pré-plano da OCI de Avaliação Diagnóstica de Câncer Colorretal — ISHP
+# Aberto em 12/11/2026, a pedido do usuário: "um plano de colonoscopia de 11 milhões destinadas ao ISHP",
+# com o pré-plano já feito "utilizando a fila de colonoscopia que tem 24 mil pessoas", na lógica do pré-plano
+# que já temos (redacao_06, o pré-plano de imagem do ISHP) e com custo acessório de 8%.
+# Trilha: pré-plano (metodo/pre_plano/). O plano detalhado, quando vier, entra nesta mesma pasta (plano.md).
+# Ramo plano-10-colonoscopia; cópia de trabalho em ~/Projetos/planos-ses_plano_10_colonoscopia.
+
+proponente: ishp                      # biblioteca/proponentes/ishp/
+cabecalho_documento: "INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA"   # ferramentas/gerar_pre_plano.py
+prefixo_arquivo: "pt_simplificado_oci_colorretal_"
+instrumento:
+  oficio_ses: "[confirmar] o ofício da ARINS que pede o PT simplificado desta proposta"
+  modelo: "Plano de Trabalho 41 - 'Plano de Trabalho Simplificado - Modelo Parceria' (SEI 216131719); o formulário manda na estrutura"
+recurso:
+  emenda: "[confirmar] emenda, autor e funcional"
+  proposta: "[confirmar]"
+  indicacao: "[confirmar] ofício do parlamentar que indica o ISHP"
+  gnd: 3
+  valor: 11000000.00                  # usuário, 12/11/2026: "11 milhões destinadas ao ISHP"
+  norma_da_emenda: "[confirmar] - o documento cita a Portaria GM/MS 10.297/2026 na Meta 2, como o redacao_06; sai se o ofício da ARINS não a citar"
+objeto:
+  decisao: "OCI 09.01.01.008-1, Avaliação Diagnóstica de Câncer Colorretal (usuário, 12/11/2026: 'é essa daí mesmo, altere'); antes, colonoscopia avulsa 02.09.01.002-9"
+  nome_do_projeto: "OCI de Avaliação Diagnóstica de Câncer Colorretal - [confirmar] o nome indicado pelo parlamentar"
+  versao: "item único - Meta 2 em valor; a quantidade fica pactuada com a SES/DF, como no redacao_06"
+procedimentos:
+  fonte: "dados/valor_unitario.md - SIGTAP 11/2026, fixado pela Portaria SAES/MS 4.653/2026, igual à Tabela SUS Candanga (LI-002: SIGTAP igual ou maior vale o SIGTAP)"
+  "09.01.01.008-1": 700.63
+ficha_sigtap:
+  situacao: "dados/fontes/sigtap_0901010081_112026.md (agente ficha-sigtap, 12/11/2026; conferir_ficha 7/8, a F falha só por falta do catálogo de 11/2026)"
+custo_acessorio:
+  teto: 0.08                          # usuário, 12/11/2026: "utilize um custo acessório de 8%"
+  teto_valor: 880000.00               # 8% do recurso, como o redacao_07 (10% do recurso)
+  regra: "vai ao documento com valor, na seção 8, como parte operacional e administrativa (R$ 880.000,00), sem percentual - decisão do usuário de 12/11/2026, contra a regra 3 do pré-plano (pendencias.md, P-12)"
+numeros:                              # dados/envelope.md
+  producao: 10119899.72               # Meta 2 e aplicação das despesas
+  quantitativo: 14444                 # não vai ao documento (quantidade pactuada com a SES/DF)
+  apoio: 880000.00
+  total_programado: 10999899.72       # Valor Total da seção 1
+  sobra: 100.28
+  fila_base: "dados/fila.md - Mapa Social, coleta do agente mapa-social de 12/11/2026"
+vigencia: "12 meses"                  # a confirmar (pendencias.md, P-03)
+vigencia_meses: 12
+local_execucao: "unidades do proponente, identificadas na formalização com endereço e CNES"
+pendencias: "pendencias.md"
+
+versoes:
+  v1_item_unico: "plano_v1_item_unico.md (12/11/2026)"

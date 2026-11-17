@@ -1,0 +1,26 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "panorama",
+ "plano": "planos/redacao_99",
+ "pedido": "P1, amplo: R$ 10 mi de emenda federal, onde aplicar? Panorama das consultas especializadas e da ultrassonografia",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "regiao"
+ ],
+ "minimo": 1,
+ "universo": [
+  {
+   "rotulo": "consultas especializadas",
+   "codigos": [
+    "03.01.01.007-2"
+   ]
+  },
+  {
+   "rotulo": "ultrassonografia",
+   "codigos": [
+    "02.05*"
+   ]
+  }
+ ]
+}

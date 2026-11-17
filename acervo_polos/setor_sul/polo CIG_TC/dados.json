@@ -1,0 +1,120 @@
+{
+ "TC": {
+  "cnes.cbo": {
+   "f": "",
+   "o": "CNES 09/2026: 4 × médico radiologista. Conferir o CBO na ficha do procedimento.",
+   "s": "ok"
+  },
+  "cnes.equip": {
+   "f": "",
+   "o": "CNES 09/2026: 1 × Tomógrafo computadorizado 4 canais — não marcado como disponível para o SUS. Conferir com o que foi visto na visita.",
+   "s": "ajustar"
+  },
+  "cnes.servico": {
+   "f": "",
+   "o": "CNES 09/2026: cadastrado só como não SUS — falta a marca SUS",
+   "s": "ajustar"
+  },
+  "equipe.enfermagem": "CNES 09/2026: 3 × enfermeiro",
+  "equipe.radiologistas": "CNES 09/2026: 4 vinculado(s) — confirmar se laudam no polo ou a distância",
+  "equipe.tecnicos": "CNES 09/2026: 7 × técnico em radiologia; 4 × tecnólogo em radiologia",
+  "equipe.vinculo_cnes": "CNES 09/2026: 39 profissionais vinculados, 35 com atendimento SUS marcado",
+  "tomografos": [
+   {
+    "abertura": "",
+    "canais": "4",
+    "foto": "",
+    "injetora": "",
+    "manutencao": "",
+    "modelo": "Tomógrafo computadorizado 4 canais (do CNES — marca, modelo e ano a confirmar)",
+    "pacs": "",
+    "parada": "",
+    "peso_mesa": ""
+   }
+  ]
+ },
+ "US": {},
+ "notas": "tem dois banheiros e o bebedouro esta quebrado",
+ "polo": {
+  "acess.banheiro_pcd": {
+   "f": "",
+   "o": "",
+   "s": "ok"
+  },
+  "acess.cadeira_rodas": {
+   "f": "",
+   "o": "",
+   "s": "na"
+  },
+  "acess.corredores": {
+   "f": "",
+   "o": "",
+   "s": "ok"
+  },
+  "acess.desembarque": {
+   "f": "",
+   "o": "",
+   "s": "ok"
+  },
+  "acess.elevador": {
+   "f": "",
+   "o": "",
+   "s": "na"
+  },
+  "acess.portas": {
+   "f": "",
+   "o": "",
+   "s": "ok"
+  },
+  "acess.rampa": {
+   "f": "",
+   "o": "",
+   "s": "ok"
+  },
+  "acess.transporte": {
+   "f": "",
+   "o": "",
+   "s": "ok"
+  },
+  "doc.cnes_atualizado": {
+   "f": "",
+   "o": "última atualização em 03/09/2025 — há mais de seis meses",
+   "s": "ajustar"
+  },
+  "doc.licenca_sanitaria": {
+   "f": "",
+   "o": "CNES: nº 00060-00062439/2021-45, expedida em 17/09/2025 (SES). Validade: conferir no documento.",
+   "s": ""
+  },
+  "ident.atende_sus": "No CNES (09/2026), imagem pelo SUS: ressonância magnética; só particular e convênio: radiologia, ultrassonografia, tomografia computadorizada, mamografia",
+  "ident.cnes": "9180168",
+  "ident.cnpj": "24.857.885/0001-08",
+  "ident.email": "diretoria@centrodeimagensgama.com.br",
+  "ident.endereco": "QUADRA 10 LOTE 16 E 17 LOJA 01 E 02, S/N — SETOR OESTE GAMA, Brasília/DF, CEP 72425-132",
+  "ident.horario": "Atendimentos nos turnos da manha e a tarde (turno declarado no CNES — confirmar dias e horas)",
+  "ident.nome_fantasia": "CIG CENTRO DE IMAGENS GAMA",
+  "ident.razao_social": "CIG CENTRO DE IMAGENS GAMA LTDA",
+  "ident.regiao": "Sul",
+  "ident.telefone": "(61) 3548-6162",
+  "recep.assentos": {
+   "f": "",
+   "o": "30",
+   "s": "ok"
+  },
+  "recep.bebedouro": {
+   "f": "",
+   "o": "2",
+   "s": "ok"
+  },
+  "recep.fila": {
+   "f": "",
+   "o": "",
+   "s": "na"
+  },
+  "recep.postos": {
+   "f": "",
+   "o": "",
+   "s": "ok"
+  }
+ }
+}

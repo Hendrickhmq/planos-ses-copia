@@ -1,0 +1,352 @@
+plano: 4
+diretorio: redacao_04
+titulo_documento: "Exames de Ultrassonografia e Tomografia Computadorizada"   # cabecalho do .docx (md2docx.js); com acento, e texto do documento
+aberto_em: 2026-09-15
+metodo: redacao_02/00_metodo.md   # vale integralmente; redacao_04/00_metodo.md so registra o que difere
+
+parametros:
+  origem_recurso:
+    tipo: emenda_parlamentar_federal   # confirmado em 15/09/2026
+    autor: null                        # [preencher]
+    numero: null                       # [preencher]
+    rp: null                           # [preencher]
+    valor: 11391641.18             # DERIVADO: a fila define o valor (D-001, 15/09/2026)
+    direcao: fila_define_recurso
+    fonte: usuario
+    data: 2026-09-15
+  objeto:
+    tipo: exame_diagnostico_por_imagem
+    oci: null                      # nao ha OCI neste plano - a verificacao N nao se aplica
+    denominacao: "Realizacao de exames de ultrassonografia e tomografia computadorizada com entrega de laudo"
+    unidade_afericao: "exame laudado e entregue"
+    obrigacao: "realizacao do exame e encaminhamento do resultado ao usuario e/ou a unidade solicitante"
+    fonte: usuario
+    data: 2026-09-15
+  ficha_sigtap:
+    situacao: dispensada           # decisao do usuario em 17/09/2026
+    motivo: |
+      O dado de ficha que movia dinheiro neste objeto - a quantidade maxima do
+      02.05.01.004-0 - foi obtido na coleta de 15/09/2026 e esta em
+      dados/fontes/validacao_ultrassom.md: 5 por AIH/competencia, independente da
+      quantidade de vasos estudados. Os demais atributos (idade, sexo, CBO,
+      habilitacoes) nao condicionam o objeto e nao entram no documento.
+    risco_assumido: |
+      A regra 10 do PADRAO.md pede a ficha na fase 0 porque no plano 3 a leitura da
+      Nota Tecnica no lugar dela pos "sem recorte de faixa etaria" num procedimento
+      de 18 a 130 anos. Aqui o plano nao afirma nada sobre faixa etaria dos
+      procedimentos, o que fecha essa porta.
+  valor_unitario:
+    valor: null                    # nao ha unitario unico - ver dados/valor_unitario.md
+    metas_execucao: [4, 5]         # as metas que carregam a execucao assistencial
+    por_codigo:
+      "02.05.02.009-7": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 14608}
+      "02.05.02.018-6": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 10481}
+      "02.05.01.004-0": {tabela: 39.60, incremento: 1.53, unitario: 100.18, exames: 14401}
+      "02.05.02.004-6": {tabela: 37.95, incremento: 1.64, unitario: 100.18, exames: 13080}  # abdomen total + parede abdominal
+      "02.05.02.005-4": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 3921}
+      "02.05.02.012-7": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 3195}
+      "02.05.02.010-0": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 3185}
+      "02.05.02.003-8": {tabela: 24.20, incremento: 3.13, unitario: 99.94, exames: 2249}
+      "02.06.03.001-0": {tabela: 138.63, incremento: 1.16, unitario: 299.44, exames: 4453, contraste: 4453}
+      "02.06.03.003-7": {tabela: 138.63, incremento: 1.16, unitario: 299.44, exames: 3808, contraste: 3808}
+      "02.06.02.003-1": {tabela: 136.41, incremento: 1.20, unitario: 300.10, exames: 5191, contraste: 4465}  # inclui 1.397 angiotomografias de coronarias
+    secundario_contraste:
+      codigo: "02.06.03.004-5"
+      valor: 60.00
+      incremento: null             # nao consta do Anexo I
+      status: "FORA DA PLANILHA - decidido em 15/09/2026, duvida registrada em L-004"
+      absorvido_no_unitario: 763560.00   # 12.726 exames x R$ 60,00 - corrigido em 22/09/2026 (era 11.329, anterior a L-002)
+    fonte: "Portaria SAES/MS 4.282 de 19/06/2026, DOU 114 de 22/06/2026, s.1, p.76, Anexo I"
+    criterio_centavo: truncamento
+    data: 2026-09-15
+  custo_acessorio:
+    teto: 0.08
+    base: valor_global             # por dentro (D-002, 15/09/2026)
+    cobertura: ["coordenador", "assistentes administrativos", "prestador de contas"]
+    realizado: null                # sai de posto x preco x meses, de baixo para cima
+    percentual_realizado: null     # DERIVADO do realizado, nunca o contrario
+    fonte: usuario
+    data: 2026-09-15
+  polos:
+    modelo: polos_multiplos        # travado em 15/09/2026
+    quantidade: 3
+    nomes: ["Ceilandia", "Sobradinho", "Gama"]
+    cobertura:
+      Ceilandia: ["Oeste", "Sudoeste"]
+      Sobradinho: ["Norte", "Leste", "Central"]
+      Gama: ["Sul", "Centro-Sul"]
+    criterio: "as sete Regioes de Saude da SES-DF agrupadas em tres territorios"
+    fonte: "mesma estrutura do plano 3, por decisao do usuario em 15/09/2026"
+    rateio_tomografia:             # Mapa Social, coleta de 15/09/2026, os 5 procedimentos do objeto
+      base: 14762                  # solicitacoes com Regiao de Saude nomeada
+      Ceilandia: 0.4258
+      Sobradinho: 0.3624
+      Gama: 0.2118
+    rateio_objeto:                 # ponderado procedimento a procedimento, US + TC
+      Ceilandia: {pct: 0.3969, exames: 31183}
+      Sobradinho: {pct: 0.2994, exames: 23527}
+      Gama: {pct: 0.3037, exames: 23862}
+    sem_regiao_pct: 0.142          # 14,2% do universo do painel, US e TC juntos
+  capacidade_instalada:
+    situacao: proponente_ja_possui  # declarado pelo usuario em 15/09/2026
+    confirmada: false               # o usuario nao conseguiu confirmar o parque em 15/09/2026
+    salas_us: null                  # NAO SE PUBLICA inventario nao confirmado - ver L-006
+    tomografos: null
+    turno_horas: null
+    tratamento: "o plano declara CAPACIDADE REQUERIDA derivada da meta, nao parque instalado"
+  vigencia_meses: 12               # travado em 15/09/2026
+  meses_producao: 12               # travado: nao ha mes de estruturacao anterior a producao
+  dias_uteis: 21
+
+filas:
+  fonte: "painel interno da SES-DF, sem acesso publico - planilha do usuario, aba 'Exames de imagem', recebida 15/09/2026"
+  fonte_publica: false             # confirmado pelo usuario em 15/09/2026
+  prevalencia: "o numero da planilha prevalece sobre qualquer outro painel"
+  arquivo: "dados/fontes/filas_ultrassom_tomografia_20260915.xlsx"
+  data_extracao: "2026-09-10"      # quinta-feira, informado pelo usuario em 15/09/2026
+  sistema_origem: null             # [preencher] - qual painel ou sistema de regulacao
+  distribuicao_por_regiao: completa  # US e TC - ver dados/fontes/validacao_ultrassom.md
+  painel:
+    tempo_espera_pendente_dias: 791
+    tempo_espera_devolvida_dias: 1294
+    pessoas_na_fila_tomografia: 12543
+    prioridade_1: 22390
+    prioridade_2: 23863
+    prioridade_3: 1302
+    pico_faixa_etaria: "60 a 65 anos"
+    ressalva: "o painel publica tres totais do mesmo universo - 47.555, 47.655 e 48.901"
+    sem_regiao_vai_ao_documento: true   # decisao do usuario em 15/09/2026 - ver secao 3
+
+  ultrassom:
+    total_planilha: 65120
+    codigo_fechado: 65120
+    em_aberto: 0                # parede abdominal + partes moles - L-001
+  tomografia:
+    total_planilha: 13452
+    codigo_fechado: 13452
+    em_aberto: 0                # angiotomografia de coronarias - L-002
+  total_planilha: 78572
+  total_codigo_fechado: 78572
+
+derivados:
+  soma_procedimentos: 10546181.18
+  valor_global: 11391641.18        # soma + apoio realizado
+  apoio_total: 845460.00           # o realizado, montado de baixo para cima
+  apoio_percentual_teto: 0.08
+  apoio_realizado: 845460.00       # quadro de 15 lancamentos x 12 meses, nomes do cargos_no_acervo.md
+  apoio_percentual_realizado: 0.07422   # DERIVADO do quadro, nunca o contrario
+  apoio_teto_valor: 917059.23           # soma x 0,08 / 0,92
+  valor_global_derivado: 11391641.18    # soma + apoio realizado
+  horas_sala_us: 24106
+  horas_sala_tc: 4424
+  quantitativo_exames: 78572
+  media_por_exame: 134.22
+
+conferencia:
+  conferir_plano: "20 PASSOU, 2 NAO SE APLICA (I fila externa, V ficha dispensada), 0 FALHOU - 17/09/2026"
+  testar_conferencia_plano: "26/26 erros injetados apanhados pela verificacao certa (3 nao se aplicam) - 17/09/2026"
+  notebooklm: |
+    RODADA em 17/09/2026. Caderno 43cb54d7-b942-4a57-8dfb-d49657031abb, 18 fontes.
+    C1 contradicao e lastro · C2 inventario dos aprovados (source_ids restritos aos cinco)
+    C3 faturamento, reformulada porque as normas da versao original sao de OCI
+    C4 execucao e risco.
+    APLICADO, apos verificacao na fonte primaria:
+      - o incremento da 4.282 opera no Componente Creditos Financeiros, cujo mecanismo e
+        compensacao tributaria. A 3.3, a 3.6 e a 9.1 passam a trata-lo como PARAMETRO de
+        custo unitario, nao como forma de remuneracao deste convenio. Era o achado central.
+      - CPF: a 2.723/2025 excetua os povos originarios, identificados por CNS. 5.4 e 5.11.
+      - prestacao de contas final: Decreto DF 48.727/2026 art. 26 §2º da 60 dias apos a
+        vigencia. A Meta 6, a Etapa 3 e a 7.3 comprimiam isso para dentro dos 12 meses.
+      - R-14: recomposicao de quantitativo exige termo aditivo, nao mera comunicacao.
+      - R-16 novo: pactuacao interfederativa condiciona a execucao financeira (10.297/2026 art. 10).
+      - R-17 novo: glosa por leitura de taxa de administracao ou de subcontratacao de funcao
+        de gestao (Decreto 48.727/2026 arts. 17 IV e 33 §3º).
+    REJEITADO como confusao com OCI: Nucleo de Gestao do Cuidado, financiamento FAEC do
+    grupo 09, consulta de entrada obrigatoria, habilitacao 38.05, 5º digito 9 da APAC,
+    atributos 065 e 0013, lancamento obrigatorio do secundario de contraste. Nada disso
+    alcanca exame avulso dos grupos 02.05 e 02.06 fora do Componente Creditos Financeiros.
+    REJEITADO como decisao travada: divergencia dos quantitativos contra o painel de 15/09
+    e a data da extracao — a planilha de 10/09 prevalece por decisao do usuario.
+    REJEITADO por fonte ausente do caderno: angiotomografia sob 02.06.02.003-1 — o lastro e
+    o campo codigo_sigtap_solicitacao do painel, em dados/fontes/mapa_social_tomografia.md.
+    EM ABERTO: os cinco aprovados trazem coluna de responsavel na matriz de riscos; a nossa
+    nao tem, embora a 8.1 prometa mitigacao atribuida a responsavel determinado.
+  regressao_plano_3: "22/22 e 27/27 - a adaptacao multi-codigo nao afrouxou nada"
+  bugs_encontrados_na_ferramenta: |
+    A segunda conferencia apanhou quatro defeitos que estavam na ferramenta desde antes
+    deste plano, e um deles calava uma verificacao inteira:
+      - radical(): cortava "es" antes de "s", entao "exames" virava "exam" e "exame"
+        continuava "exame". A R.2 nao conferia UMA quantidade sequer neste plano.
+      - itens_de_planilha(): descartava a linha cujo nome contem "total" — a
+        ULTRASSONOGRAFIA DE ABDOMEN TOTAL sumia da planilha lida.
+      - verificar_T(): o padrao de unidade "minutos?|min\b" entrava sem parenteses na
+        busca de lastro, e a alternancia quebrava a ancora: qualquer "min" no corpus
+        dava lastro a qualquer numero em minutos.
+      - verificar_T(): o corpus juntava arquivos com "\n", e a janela de separadores
+        atravessava a juncao, fabricando lastro entre o fim de um arquivo e o inicio
+        do seguinte.
+    Tambem: "meses" nao era unidade da T, e a P aceitava qualquer mencao a "meta
+    qualitativa" em vez da declaracao.
+  achados_no_plano: |
+    Com a T corrigida, ela apanhou quatro premissas sem fonte publicadas no documento —
+    os intervalos de agendamento de 20, 30 e 15 minutos e o "vinte ou trinta minutos"
+    do R-02. Sairam do plano em 17/09/2026 pela regra 1; a derivacao ficou em
+    dados/capacidade.md.
+  ferramenta_adaptada: |
+    conferir_plano.py ganhou modo de multiplos codigos em 17/09/2026, guardado para nao
+    alterar o plano 3 (que segue em 22/22 e 27/27 no harness):
+      - carregar_parametros le valor_unitario.por_codigo, metas_execucao e direcao
+      - etapas_da_planilha fecha etapa tambem no TOTAL DA META
+      - metas_planilha le linha a linha e toma o ultimo valor monetario
+      - B confere as metas de execucao pela soma das etapas
+      - C inverte quando direcao = fila_define_recurso: global = execucao + apoio, apoio <= teto
+      - D aceita curva por faixa de meses
+      - E aceita rateio sem coluna de solicitacoes
+      - F confere a producao da parcela contra a faixa de unitarios, e os meses contra a vigencia
+      - G aceita capacidade como | recurso | total | polo... |
+      - H aceita derivados.quantitativo_exames
+      - N ganhou verificar_N_multi: raiz do codigo na portaria, verificador entre plano e estado,
+        e cada par valor de tabela + incremento na fonte
+
+metas:                             # seis blocos, cada um com dotacao propria na planilha
+  1: {nome: "Estruturacao e coordenacao da execucao", quantitativo: "3 polos em operacao", dotacao: 126000.00}
+  2: {nome: "Gestao da fila", quantitativo: "81.546 solicitacoes agendadas e confirmadas", dotacao: 230400.00}
+  3: {nome: "Registro da producao", quantitativo: "81.546 exames registrados", dotacao: 309600.00}
+  4: {nome: "Execucao assistencial em ultrassonografia", quantitativo: 68094, dotacao: 6811909.80}
+  5: {nome: "Execucao assistencial em tomografia", quantitativo: 13452, dotacao: 4031492.94}
+  6: {nome: "Monitoramento, conclusao e prestacao de contas", quantitativo: "12 relatorios mensais e 1 final", dotacao: 179460.00}
+  qualitativa: "entrega do laudo ao usuario e a unidade solicitante em 100% dos exames realizados"
+
+indicadores:                       # todos pactuados em 100%
+  I-01: "execucao fisica"
+  I-02: "execucao por procedimento"
+  I-03: "entrega do laudo"
+  I-04: "registro da producao"
+  I-05: "tempestividade do registro"
+  I-06: "relatorios de execucao"
+
+riscos: 15                         # R-01 a R-15, com probabilidade, impacto e classificacao
+
+versoes:
+  v10: {arquivo: "versoes/plano_v10_20260924.md", data: 2026-09-24,
+        mudou: "devolutiva de 20/09 concluida: sai a tabela de indicacoes reunidas da 2.2 (salmao); a 6.3 ganha
+                exames por polo e modalidade, por dia util e por sala, e horario de funcionamento (azul).
+                Parametros SUS conferidos e NAO adotados - ver dados/capacidade.md"}
+  v9: {arquivo: "versoes/plano_v9_20260922.md", data: 2026-09-22,
+       mudou: "devolutiva de 20/09 aplicada - 41 marcas em vermelho e 35 em amarelo. Saem 3.4, 9.2,
+               9.3 e 9.4; 3.5->3.4, 3.6->3.5, 9.5->9.2; entrega e/ou; curva em trimestres; seis
+               remissoes corrigidas. Ciano (6.3) e salmao (2.2) PENDENTES. Valores inalterados"}
+  v8: {arquivo: "versoes/plano_v8_20260922.md", data: 2026-09-22, linhas: 782,
+       mudou: "D-007: sai a ecografia de partes moles (02.05.02.006-2, 2.974 exames), que sera
+               contemplada em outra OCI. 81.546 -> 78.572 exames; 12 -> 11 procedimentos; global
+               R$ 11.688.862,74 -> R$ 11.391.641,18. Rateio, parcelas, curva e capacidade recalculados
+               pelos metodos da v7, reproduzidos antes. Devolutiva de 20/09 AINDA NAO aplicada"}
+  v1: {arquivo: "versoes/plano_v1_20260915.md", data: 2026-09-15, linhas: 439}
+  v2: {arquivo: "versoes/plano_v2_20260915.md", data: 2026-09-15, linhas: 621, prosa: 2596,
+       mudou: "secao 5 expandida, 5.10 removida, seis metas, seis indicadores, quinze riscos"}
+  v5: {arquivo: "versoes/plano_v5_20260917.md", data: 2026-09-17, linhas: 762, prosa: 3864,
+       mudou: "creatinina fora do preparo - rastreio universal nao e pratica corrente e virava pre-condicao
+               nao ofertada em 12.726 exames; 9.3 completada com sistema de imagem, meio corporativo, meios
+               de atendimento a reacao e impresso; quatro reguas, tres afirmacoes sobre a fila da concedente,
+               cinco de voz e duas de registro corrigidas; nove detalhes de protocolo e derivacao removidos;
+               ponte entre os onze nomes de fila da 3.1 e os nove codigos de US da 2.2"}
+  v4: {arquivo: "versoes/plano_v4_20260917.md", data: 2026-09-17, linhas: 783, prosa: 3983,
+       mudou: "sai a carga por posto da 5.10 e da 9.4 - o acervo nao publica esse numero e no plano 3
+               ele saiu apos a devolutiva de 05/09/2026; conteudo migrado para dados/dimensionamento_postos.md"}
+  v3: {arquivo: "versoes/plano_v3_20260917.md", data: 2026-09-17, linhas: 792, prosa: 4101,
+       mudou: "prosa de 2.596 para 4.101; 5.6 e 5.7 reescritas; tabela de espera na 3.1 com fonte nomeada;
+               lotacao por polo na 5.10 e 9.4; linha de postos da 6.3 corrigida; SISREG nomeado"}
+
+decisoes_de_redacao:
+  sisreg: "nomeado - Sistema Nacional de Regulacao (SISREG) na 5.1 e na 3.1; producao continua
+    em 'sistemas oficiais de informacao do SUS' porque o registro vai ao SIA, nao ao SISREG"
+  fonte_da_espera: "Mapa Social da Saude (MPDFT), consultado em 15/09/2026 - publica dados do SISREG"
+  fonte_do_quantitativo: "extracao de 10/09/2026 no sistema de regulacao da SES-DF; painel interno, sem acesso publico"
+  espera_maxima: "fora do documento - maximos acima de 5.800 dias podem ser residuo de base"
+  classificacao_de_risco: "fora do documento - 17% do objeto em Prioridade 4, com hipotese de ausencia de classificacao na origem"
+  carga_por_posto: "FORA DO DOCUMENTO - decidido em 17/09/2026. Tres dos quatro aprovados nao
+    trazem nenhuma ocorrencia; no plano 3 as duas tabelas sairam em 05/09/2026 apos o professor
+    marca-las celula por celula. A derivacao fica em dados/dimensionamento_postos.md"
+  detalhe_de_protocolo: "FORA DO DOCUMENTO - decidido em 17/09/2026, mesma regra da carga por posto.
+    Saiu: tabela de preparo por procedimento, fatores de risco nomeados, protocolo de aquisicao e series
+    complementares, motivos de exame inconclusivo, pico etario, mediana por procedimento, ocupacao de sala
+    e de tomografo, justificativa do registro no mesmo dia, inscricao no CRM"
+  creatinina: "FORA DO DOCUMENTO - rastreio universal antes de contraste iodado nao e pratica corrente;
+    a triagem por fator de risco fica descrita na 5.5 como ato do servico, sem virar preparo do usuario"
+
+devolutiva:
+  arquivo: dados/devolutiva_20260920.docx
+  leitura: dados/devolutiva_20260920_leitura.md
+  data: 2026-09-20
+  base_marcada: v7                   # confirmado por diff contra versoes/plano_v7_20260917.docx
+  comentarios: 0
+  controle_de_revisoes: desligado
+  cores:
+    vermelho: {marcas: 41, sentido: "sai do documento", fonte: "declarado pelo usuario em 20/09/2026"}
+    amarelo:  {marcas: 35, sentido: "alterar", fonte: "declarado pelo usuario em 20/09/2026"}
+    ciano:    {marcas: 35, sentido: "precisa de mais detalhamento - declarado pelo usuario em 24/09/2026", alvo: "tabela inteira da 6.3",
+               aplicado: "v10 - 'so um plano geral de quantas salas, quantos exames etc': exames por polo e modalidade,
+                 por dia util e por sala, horario de funcionamento; parametros e resultado (13 salas, 3 tomografos) inalterados",
+               usuario_em_20260920: "'com certeza temos que fazer algum ajuste, nao sei se de formatacao,
+                 mudar de lugar etc. vamos ver depois' - nao executar ate definir"}
+    salmao_e6b8af: {marcas: 8, sentido: "nao ficou claro; a tratativa das nomeacoes esta melhor na 3.1 - declarado pelo usuario em 24/09/2026",
+               alvo: "tabela de indicacoes reunidas da 2.2", aplicado: "v10 - tabela e frase de abertura sairam; fica o paragrafo da 3.1.
+                 Saiu junto a unica mencao a angiotomografia de coronarias sob o 02.06.02.003-1",
+               usuario_em_20260920: "'vamos ver depois' - nao executar ate definir.
+                 Em 05/09 o tom vizinho #f4cccc queria dizer 'valor errado, corrija'; nao e o mesmo tom"}
+  aplicada_em: 2026-09-22           # v9 - vermelho e amarelo; ciano e salmao seguem PENDENTES
+  vermelho_aplicado: "2.1 delimitacao negativa; 3.4 inteira; 3.6 ultimo paragrafo; 9.2, 9.3 e 9.4 -
+    exceto o paragrafo da Assessoria de Prestacao de Contas, que o professor deixou sem marca e
+    passou a abrir a 9.2 Planilha (o pt_ses_05 guarda memoria de calculo so dessa rubrica)"
+  amarelo_decisoes:
+    entrega: "E/OU, do pedido original do usuario - 'ao usuario ou a unidade solicitante' em 1.2,
+      2.1, 2.3, 5.8, metas 4 e 5, meta qualitativa, I-03, R-10 e 8.3. Laudo nao retirado pelo
+      usuario e encaminhado a unidade. Assumido e comunicado em 22/09/2026"
+    preco: "o Componente Creditos Financeiros e a compensacao tributaria SAEM do documento e ficam
+      aqui como memoria (achado do NotebookLM de 17/09). 3.3 so declara a referencia; 3.5 perde
+      'sem indice e sem recomposicao', que contradizia o R-14"
+    curva: "6.2 passa a trimestres, igual a 7.2 - na v7 e na v8 o 1o trimestre divergia
+      (20.388 x 20.383; 19.644 x 19.640). A verificacao D passou a exigir a igualdade"
+    usuario_que_falha: "5.3 - so o usuario que informa impedimento libera a data (quem apenas nao
+      confirma mantem); 5.9 - vaga de faltoso nao se reaproveita depois da data, frase saiu, e o
+      nao localizado tem a solicitacao devolvida a regulacao, como a contraindicacao da 5.5"
+  corrigido_fora_da_marcacao: "remissoes que ja estavam erradas: R-10 citava I-02 (e I-03); 5.12
+    citava 5.11 (e 5.10); 5.11 citava 2.1 (e 2.2); 5.2 citava 'a tabela' de preparo que saiu em
+    17/09; 5.6 reaproveitava vaga ja passada; 8.3 R-10 dizia 'pagamento devido' sem entrega,
+    contra a 7.3"
+  aberto: "Assessoria de Prestacao de Contas: planilha paga 12 meses, e o paragrafo diz que ela
+    elabora a prestacao de contas final, apresentada ate 60 dias apos a vigencia"
+  edicao_digitada:
+    onde: "2.2, linha 02.05.02.006-2"
+    texto: "Ultrassonografia de articulacao xxxxxxxxxx"
+    leitura: "os 2.974 exames sao integralmente ECOGRAFIA DE PARTES MOLES (conferencia_procedimentos.md
+      linha 32, 'nome diferente - nao existe na tabela'). Nao ha fila de articulacao"
+    significado: "SAI DO OBJETO - declarado pelo usuario em 22/09/2026: 'vai ser contemplada em uma
+      outra OCI'. Aplicado na v8"
+
+  # D-007 em 22/09/2026 - mudanca de premissa, regra 7 do PADRAO: varredura completa
+partes_moles:
+  decisao: "02.05.02.006-2 (ecografia de partes moles, 2.974 exames) sai do objeto"
+  motivo: "sera contemplada em outra OCI - declarado pelo usuario em 22/09/2026"
+  no_documento: "saida silenciosa - o plano nao menciona o que ficou de fora (mesma regra do vermelho da 2.1)"
+  efeito:
+    exames: {antes: 81546, depois: 78572}
+    ultrassom: {antes: 68094, depois: 65120}
+    procedimentos: {antes: 12, depois: 11}
+    codigos_us: {antes: 9, depois: 8}
+    nomes_de_fila_us: {antes: 11, depois: 10}
+    soma_procedimentos: {antes: 10843402.74, depois: 10546181.18}
+    valor_global: {antes: 11688862.74, depois: 11391641.18}
+    apoio: "inalterado em 845.460,00 - cabe no novo teto de 917.059,23; passa de 7,233% a 7,422%"
+    salas_us: "13, inalterado"
+    tomografos: "3, inalterado"
+  recalculos:
+    rateio_polo: "reproduzido ao exame antes de recalcular (33.073/24.196/24.277); maiores restos"
+    parcelas: "reproduzidas ao centavo; base floor(q/4) por codigo, resto do ultimo trimestre para tras"
+    capacidade: "reproduzida: horas por polo arredondadas, salas = teto(h / (252 x 10 h x 0,80))"
+    espera_us: "561 dias - o metodo por procedimento (560,43 a 560,53) e o do agregado (560,52 a 560,63)
+      so se cruzam em 561"
+    perfil_etario: "66,7% NAO se recalcula - a fonte so traz o agregado dos onze nomes. Limites sem partes
+      moles: 65,2% a 69,8%. O documento passa a dizer 'cerca de dois tercos'"
+  pendencia_herdada: "6.2 em meses (1 a 8 / 9 a 12) e 7.2 em trimestres seguem com o 1o trimestre divergente
+    (19.644 contra 19.640), como ja estava na v7 (20.388 contra 20.383). E materia do amarelo da 6.2"

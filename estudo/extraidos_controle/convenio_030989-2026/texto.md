@@ -1,0 +1,795 @@
+# convenio_030989-2026
+
+Fonte: `convenio_030989-2026.pdf`
+
+<!-- pagina 1 -->
+
+<!-- ocr pagina 1 (pytesseract/por, tesseract 5.4.0.20240606) - REVISAR -->
+
+À Governo do Distrito Federal
+
+Secretaria de Estado de Saúde do Distrito Federal
+>| Diretoria de Instrução, Precificação e Celebração de Convênios e Parcerias
+=P
+
+Cm RE Gerência de Celebração de Convênios e Parcerias
+
+Havendo irregularidades neste instrumento, entre em contato com a Ouvidoria de Combate à Corrupção, no
+telefone 0800-6449060
+
+CONVÊNIO 030989/2026-SES/DF
+
+CONVÊNIO QUE ENTRE SI CELEBRAM
+O DISTRITO FEDERAL, POR
+INTERMÉDIO DA SECRETARIA DE
+ESTADO DE SAÚDE E INSTITUTO DE
+SAÚDE HUMANIDADE E PESQUISA —
+ISHP, COM A FINALIDADE DE
+PROJETOS RELATIVOS A OCI EM
+OFTALMOLOGIA.
+
+O DISTRITO FEDERAL por intermédio da SECRETARIA DE ESTADADO DE SAÚDE DO DISTRITO FEDERAL -
+SES/DF, inscrita sob o CNPJ nº 00.394.700/0001-08, com sede no SRTVN Quadra 701 Conjunto C, S/N, 1º
+e 2º andares, Ed. PO700 - Bairro Asa Norte - Brasília/DF - CEP 70719-040, representada neste ato por
+JURACY CAVALCANTE LACERDA JÚNIOR, na qualidade de Secretário de Estado, da Secretaria de Estado
+de Saúde do Distrito Federal, conforme Decreto de 20 de fevereiro de 2025, publicado na Edição Extra nº
+16-A do DODF, de 20 de fevereiro de 2025, pg. 1, doravante simplesmente denominada CONCEDENTE e,
+
+O INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA — ISHP, inscrita no CNPJ sob nº 17.517.805/0003-71
+com sede Setor SCIA Quadra 13 Conjunto 4 Lote 12 S/N, Sala 03, CEP 71.250-225, e-mail:
+contato &institutosaudehumanidade.org.br, neste ato representado por WBIRAJARA ROCHA DE SOUZA,
+inscrito no CPF sob o nº XXX.XXX.XXX-XX, portador da CNH nº RESNNNNSNSNNNNNNNN residente à:
+
+a ——— TVCA
+denominado CONVENENTE.
+
+RESOLVEM de mútuo acordo, firmar o presente CONVÊNIO, com a finalidade de formalização de parceria,
+por meio de convênio, com recursos oriundos da Emenda Parlamentar, da Bancada do Distrito Federal,
+contemplando os projetos relativos à OCIl em Ortopedia (DOA — Diagnóstico Ortopédico Ampliado),
+consoante o processo administrativo nº 00060-00002617/2026-93, decorrente da Emenda Parlamentar
+nº 71080005 regendo-se pelos dispostos da Lei nº 14.133, de 1º de abril de 2021, do Decreto Distrital nº
+44,330, de 16 março de 2023, pela Instrução Normativa nº 01/2005 da Corregedoria-Geral do Distrito
+Federal, pela LDO e demais legislações pertinentes, de acordo com as seguintes cláusulas e condições:
+
+1. CLÁUSULA PRIMEIRA - DO OBJETO
+
+<!-- pagina 2 -->
+
+      1.1.     O presente Convênio tem por objeto a formalização de parceria, por meio de convênio,
+      objeto consiste na execução de ações assistenciais em saúde, contemplando os projetos relativos a
+
+      Oferta de Cuidado Integrado (OCI) em Oftalmologia, conforme detalhamento constante do Plano de
+      Trabalho – 3ª versão (199411925).
+
+      2.       CLÁUSULA SEGUNDA - DA VINCULAÇÃO DAS PEÇAS DOCUMENTAIS
+      2.1.     Integra este Instrumento, independentemente de transcrição, o Plano de Trabalho – 3ª
+      versão - ISHP (199411925), bem como toda documentação técnica que dele resulte, cujos termos os
+
+      partícipes acatam integralmente.
+      2.1.1.   Eventuais ajustes realizados durante a execução do objeto integrarão o Plano de Trabalho,
+      desde que sejam submetidos e aprovados previamente pela autoridade competente do CONCEDENTE e
+      que não haja alteração do objeto.
+
+      3.       CLÁUSULA TERCEIRA – DA CONDIÇÃO SUSPENSIVA
+
+      3.1.     A execução do objeto deste Convênio está condicionada ao cumprimento integral das
+      disposições constantes no Plano de Trabalho aprovado e de toda documentação técnica que dele resulte,
+      bem como à observância das orientações técnicas e assistenciais expedidas pela Secretaria de Estado de
+      Saúde do Distrito Federal – SES/DF.
+
+      3.2.     O CONVENENTE deverá assegurar, previamente ao início da execução, a disponibilidade de
+      estrutura física, recursos humanos, equipamentos e demais condições necessárias à adequada prestação
+      dos serviços, conforme previsto no Plano de Trabalho.
+
+      3.3.     Eventuais ajustes operacionais ou adequações necessárias à execução do objeto deverão
+      ser previamente submetidos à análise e aprovação do CONCEDENTE, não sendo admitida alteração do
+      objeto pactuado.
+      3.4.     A execução das atividades deverá observar, obrigatoriamente, as diretrizes, fluxos
+      assistenciais e protocolos institucionais vigentes no âmbito da SES/DF, garantindo a adequada integração
+      à rede pública de saúde.
+
+      4.       CLÁUSULA QUARTA – DAS OBRIGAÇÕES GERAIS
+      4.1.     Sem prejuízo do constante nas demais Cláusulas deste Convênio, são obrigações dos
+      partícipes:
+
+      4.1.1.   DO CONCEDENTE:
+         a)    Acompanhar, monitorar e avaliar a execução do objeto pactuado, sob os aspectos técnicos,
+         assistenciais, administrativos e financeiros;
+
+         b)    Validar a execução das metas e dos serviços realizados, com base nas informações
+         registradas e comprovadas pelo CONVENENTE;
+
+         c)    Proceder à análise da prestação de contas, verificando o cumprimento do objeto e a regular
+         aplicação dos recursos;
+         d)    Orientar o CONVENENTE quanto à correta execução do objeto, especialmente no que se
+         refere às diretrizes, fluxos assistenciais e protocolos institucionais da SES/DF;
+
+         e)    Aprovar, quando cabível, eventuais ajustes no Plano de Trabalho, desde que não impliquem
+         alteração do objeto pactuado;
+
+         f)    Adotar as medidas administrativas cabíveis em caso de irregularidades na execução do
+         Convênio;
+         g)    Designar executor ou unidade responsável pelo acompanhamento e fiscalização do
+         Convênio;
+
+<!-- pagina 3 -->
+
+         h)    Efetuar os repasses financeiros conforme cronograma aprovado, observada a execução das
+         metas e a disponibilidade orçamentária e financeira.
+
+         i)    Transferir ao CONVENENTE os recursos financeiros previstos para a execução deste
+         Convênio, de acordo com o cronograma de desembolso, na forma estabelecida na Instrução
+         Normativa n° 01, de 22 de dezembro de 2005;
+
+         j)    Analisar e, se for o caso, aceitar as propostas de alteração do Convênio e do seu Plano de
+         Trabalho, observados os regramentos legais e a tempestividade, de forma que não haja prejuízo à
+         execução do objeto;
+
+         k)    Reorientar ações e decidir quanto à aceitação de justificativas sobre impropriedades
+         identificadas na execução do instrumento;
+         l)    Divulgar atos normativos e orientar o CONVENENTE quanto à correta execução dos projetos
+         e atividades;
+
+         m)    Adotar as medidas administrativas para apuração dos fatos, identificação dos responsáveis,
+         quantificação do dano e obtenção da regularização e do ressarcimento;
+         n)    Analisar a prestação de contas final dos instrumentos com base nos resultados da execução
+
+         física e financeira, bem como de outros elementos que comprovem o cumprimento do objeto
+         pactuado;
+         o)    Aprovar ou rejeitar a prestação de contas final;
+
+         p)    Instaurar a Tomada de Contas Especial – TCE, observando os procedimentos e a
+         formalização, de acordo com a legislação específica ao caso;
+         q)    É prerrogativa do CONCEDENTE assumir ou transferir a responsabilidade pela execução do
+
+         objeto do Convênio, no caso de paralisação ou ocorrência de fato relevante, de modo a evitar sua
+         descontinuidade.
+
+      4.1.2.   DO CONVENENTE:
+         a)    Executar o objeto pactuado em estrita conformidade com o Plano de Trabalho aprovado,
+         assegurando a qualidade técnica e assistencial dos serviços prestados;
+
+         b)    Cumprir as diretrizes, fluxos assistenciais, protocolos clínicos e normativas institucionais da
+         SES/DF, garantindo a adequada integração das ações à rede pública de saúde;
+
+         c)    Quando o objeto tratar-se de Oferta de Cuidado Integrado (OCI) é VEDADO:
+             I - a execução parcial da Oferta de Cuidado Integrado, devendo ser garantida a realização
+             integral de todos os procedimentos assistenciais previstos;
+
+             II -a supressão, substituição ou simplificação de procedimentos secundários obrigatórios, ainda
+             que sob justificativa de adequação operacional ou ganho de produtividade;
+             III - a caracterização do atendimento como triagem ou avaliação simplificada, devendo ser
+
+             assegurada a realização de consulta oftalmológica completa, conforme escopo da OCI;
+         d)    Assegurar a disponibilização de estrutura física, recursos humanos, equipamentos e
+         insumos necessários à execução das atividades previstas;
+
+         e)    Realizar os atendimentos exclusivamente a usuários regulados ou encaminhados pela
+         SES/DF, conforme fluxos definidos;
+         f)    Registrar, de forma fidedigna e tempestiva, todas as informações relativas à execução dos
+
+         serviços, incluindo produção assistencial, atendimentos realizados e demais dados necessários ao
+         monitoramento;
+         g)    Apresentar relatórios periódicos de execução física e assistencial, contendo metas,
+         indicadores, resultados alcançados e eventuais intercorrências;
+
+<!-- pagina 4 -->
+
+         h)    Aplicar os recursos exclusivamente na execução do objeto pactuado, em conformidade com
+         a planilha de custos aprovada;
+
+         i)    Manter controle administrativo e financeiro específico dos recursos vinculados ao Convênio;
+
+         j)    Permitir e facilitar o acompanhamento e a fiscalização por parte da SES/DF e dos órgãos de
+         controle interno e externo;
+         k)    Submeter previamente à aprovação do CONCEDENTE quaisquer alterações necessárias ao
+         Plano de Trabalho;
+
+         l)    Responsabilizar-se pela regularidade das contratações realizadas no âmbito do Convênio,
+         observando a legislação vigente;
+
+         m)    Assegurar a guarda e conservação da documentação comprobatória da execução do objeto,
+         pelo prazo legal aplicável;
+         n)    Comunicar imediatamente ao CONCEDENTE qualquer situação que possa comprometer a
+         execução do objeto;
+
+         o)    Responsabilizar-se pela qualidade dos serviços prestados e pelos danos eventualmente
+         causados a terceiros, decorrentes da execução do Convênio.
+
+         p)    Aplicar os recursos recebidos por intermédio do Convênio exclusivamente para pagamento
+         de despesas constantes do plano de trabalho ou para aplicação financeira;
+         q)    Garantir a existência de infraestrutura, utilidades, pessoal e licenças necessários à instalação
+         e disponibilização dos locais e equipamentos adquiridos;
+
+         r)    Submeter previamente ao CONCEDENTE qualquer proposta de alteração do Plano de
+         Trabalho aceito, na forma definida neste instrumento, observadas as vedações relativas à execução
+         das despesas;
+
+         s)    Manter e movimentar os recursos financeiros de que trata este Convênio em conta bancária
+         específica vinculada à proposta, aberta em instituição financeira oficial, observando-se que, quando
+         se tratar de recursos de origem federal, a conta deverá ser aberta no Banco do Brasil, e, quando se
+         tratar de recursos de origem distrital, no Banco de Brasília – BRB, incluindo os rendimentos de
+         eventual aplicação financeira e os valores de contrapartida, quando houver, devendo tais recursos
+         ser aplicados exclusivamente na execução do objeto, em conformidade com o Plano de Trabalho e
+         observadas as vedações previstas neste instrumento;
+
+         t)    A CONVENENTE deverá assegurar o livre acesso dos servidores do CONCEDENTE e dos
+         órgãos de controle interno e externo aos documentos, registros contábeis e financeiros das
+         contratações realizadas, bem como aos locais de execução do projeto, permitindo a realização de
+         vistorias, inspeções e demais atividades de acompanhamento e fiscalização;
+
+         u)    A CONVENENTE deverá dar ampla publicidade à presente parceria, mediante divulgação em
+         seu sítio eletrônico oficial e em outros meios de comunicação institucionais. Deverá, ainda, afixar
+         banner ou material informativo de transparência nos locais de execução das ações, em local visível
+         ao público, contendo a identificação da parceria e dos partícipes. Toda divulgação deverá
+         obrigatoriamente conter as logomarcas do Governo do Distrito Federal – GDF e da Secretaria de
+         Estado de Saúde do Distrito Federal – SES/DF, sendo previamente submetida à aprovação da
+         Assessoria de Comunicação da SES/DF;
+
+         v)    Manter os documentos relacionados ao presente instrumento pelo prazo de 10 (dez) anos,
+         contados da data em que foi apresentada a prestação de contas ou do decurso do prazo para a
+         apresentação da prestação de contas;
+         w)    Permitir ao CONCEDENTE, bem como aos órgãos de controle interno e externo, o acesso à
+
+         movimentação financeira da conta bancária específica vinculada ao presente Convênio;
+         x)    Operar, manter e conservar adequadamente o patrimônio público gerado pelos
+         investimentos decorrentes do Convênio, de modo a assegurar a sustentabilidade do projeto e
+         atender as finalidades sociais às quais se destina;
+
+<!-- pagina 5 -->
+
+         y)    Atender os pacientes com dignidade e respeito, de modo universal e igualitário, mantendo
+         sempre a qualidade na prestação dos serviços contratados;
+
+         z)    Não praticar nenhum tipo de discriminação no atendimento prestado aos usuários do SUS;
+
+         aa)   Certificar que o desenvolvimento das atividades previstas neste instrumento não afeta os
+         direitos de terceiros nem infringe a legislação vigente;
+         ab)   Cumprir e fazer cumprir as normas técnicas e administrativas emanadas do Ministério da
+         Saúde e da SES/DF;
+
+         ac)   Obedecer às regras e diretrizes de acessibilidade na execução do objeto do instrumento, em
+         conformidade com as leis, normativos e orientações técnicas que tratam da matéria;
+
+         ad)   Facilitar os trabalhos de acompanhamento e fiscalização exercidos pela SES/DF e prestar
+         todos os esclarecimentos que lhe forem solicitados pelos servidores desta, designados para tal fim;
+         ae)   Atender os pacientes até o limite de oferta prevista no convênio;
+
+         af)   Apresentar mensalmente relatórios de atividades que demonstrem, qualitativa e
+         quantitativamente, o atendimento do objeto conveniado;
+         ag)   Notificar a CONCEDENTE sobre qualquer irregularidade ocorrida durante a execução dos
+
+         serviços;
+         ah)   Recrutar em seu nome e sob sua inteira responsabilidade, profissionais, especialistas e
+         técnicos necessários para execução dos serviços, considerando o piso de cada categoria, cabendo-
+         lhe todos os pagamentos, inclusive dos encargos trabalhistas, previdenciários, fiscais e comerciais
+         observando a legislação vigente, sem qualquer ônus adicional à CONCEDENTE, uma vez que os seus
+         empregados não manterão nenhum vínculo empregatício com a mesma;
+
+         ai)   Assumir integral responsabilidade pela boa e eficiente execução dos serviços, na forma do
+         que dispõem a legislação em vigor;
+
+         aj)   Assumir todo ônus decorrente de ações judiciais, provenientes de danos causados pela má
+         execução do Convênio, que possam vir a ser imputados ao CONCEDENTE por terceiros;
+         ak)   Promover, para as contratações necessárias à execução do objeto deste Convênio,
+         procedimento objetivo, impessoal e devidamente documentado, precedido de adequada pesquisa
+
+         de mercado e da correspondente justificativa das escolhas realizadas, observados os princípios da
+         legalidade, impessoalidade, moralidade, publicidade e eficiência, mantendo-se os respectivos
+         registros à disposição da CONCEDENTE.
+
+      4.1.3.   DO EXECUTOR:
+         a)    Entende-se por EXECUTOR o servidor ou unidade técnica formalmente designado pelo
+         CONCEDENTE, detentor de conhecimento técnico compatível com o objeto do ajuste, a quem
+
+         compete acompanhar e fiscalizar a execução do Convênio, nos termos da legislação aplicável;
+         b)    Acompanhar e fiscalizar a execução do objeto pactuado, em conformidade com o Plano de
+         Trabalho aprovado e a documentação técnica correlata, adotando as medidas necessárias à
+         verificação do cumprimento das metas, etapas e prazos estabelecidos, bem como à regular execução
+         do Convênio
+
+         c)    Registrar nos autos do processo administrativo as ocorrências relevantes relacionadas à
+         execução do Convênio;
+
+         d)    Comunicar à autoridade competente eventuais irregularidades ou inconsistências
+         verificadas na execução do objeto;
+         e)    Solicitar ao CONVENENTE informações e documentos necessários ao acompanhamento da
+         execução;
+
+<!-- pagina 6 -->
+
+         f)    Subsidiar a análise da prestação de contas, mediante manifestação técnica quanto ao
+         cumprimento do objeto;
+
+         g)    O EXECUTOR não responde pela execução direta do objeto do Convênio, cabendo ao
+         CONVENENTE a responsabilidade integral pela execução das atividades pactuadas.
+
+      5.       CLÁUSULA QUINTA - DO VALOR E DA DOTAÇÃO ORÇAMENTÁRIA
+
+      5.1.     O valor total do Convênio é de R$ 8.532.671,65 (oito milhões, quinhentos e trinta e dois
+      mil seiscentos e setenta e um reais e sessenta e cinco centavos), em procedência ao Orçamento do
+      Distrito Federal para o corrente exercício, nos termos da correspondente Lei Orçamentária Anual.
+
+      5.2.     A despesa correrá a conta da seguinte Dotação Orçamentária:
+
+[[tabela: p006_t01]]  <!-- 9 linhas x 3 colunas -->
+
+      5.2.1.   Em caso de ocorrência de cancelamento de Restos a Pagar, o quantitativo das metas
+      constante no Plano de Trabalho poderá ser reduzido até a etapa que não prejudique a funcionalidade do
+      objeto pactuado, mediante aceitação do CONCEDENTE.
+
+      5.2.2.   O CONCEDENTE deverá cancelar os empenhos das propostas que não tiveram os
+      instrumentos celebrados até o final do exercício Financeiro, independentemente do indicador de
+      resultado primário a que se refere a nota de empenho.
+
+      5.2.3.   Após o cancelamento dos documentos orçamentários, as propostas serão rejeitadas no
+      Transferegov.br, devendo constar justificativa expressa acerca dos motivos da rejeição.
+      5.2.4.   O CONVENENTE obriga-se a incluir em seu orçamento anual, dotação orçamentária
+      referente aos recursos relativos ao instrumento pactuado.
+
+      6.       CLÁUSULA SEXTA – DA VIGÊNCIA
+      6.1.     Este Termo de Convênio terá vigência de 09 (nove) meses, a contar da data da sua
+      assinatura, observado o prazo para prestação de contas especificado na cláusula de prestação de contas,
+      permitidas as prorrogações de acordo com a legislação vigente.
+
+      7.       CLÁUSULA SÉTIMA – DA CONTRAPARTIDA
+
+      7.1.     A CONVENENTE deverá apresentar contrapartida, quando prevista, compatível com o
+      objeto do convênio, nos termos e condições estabelecidos no Plano de Trabalho.
+
+      8.       CLÁUSULA OITAVA – DA LIBERAÇÃO DOS RECURSOS
+
+      8.1.     Os recursos financeiros relativos ao repasse do CONCEDENTE e à contrapartida do
+      CONVENENTE serão depositados e geridos em conta específica vinculada ao presente Convênio, aberta
+      em nome do CONVENENTE exclusivamente em instituição financeira oficial, isenta da cobrança de tarifas
+      bancárias.
+
+<!-- pagina 7 -->
+
+      8.2.     Manter e movimentar os recursos financeiros de que trata este Convênio em conta
+      bancária específica vinculada à proposta, aberta em instituição financeira oficial, observando-se que,
+
+      quando se tratar de recursos de origem federal, a conta deverá ser aberta no Banco do Brasil, e, quando
+      se tratar de recursos de origem distrital, no Banco de Brasília – BRB, incluindo os rendimentos de
+      eventual aplicação financeira e os valores de contrapartida, quando houver, devendo tais recursos ser
+      aplicados exclusivamente na execução do objeto, em conformidade com o Plano de Trabalho e
+      observadas as vedações previstas neste instrumento.
+
+      8.3.     Os recursos serão liberados de acordo com a disponibilidade orçamentária e financeira da
+      SES/DF, em conformidade com o número de parcelas e prazos estabelecidos no Cronograma de
+      Desembolso (199412078) que guardará consonância com as metas, fases e etapas de execução do objeto
+      do Convênio.
+      8.4.     Os recursos deste Convênio serão automaticamente aplicados em cadernetas de poupança,
+      fundo de aplicação financeira de curto prazo ou operação de mercado aberto lastreada em títulos da
+
+      dívida pública, enquanto não empregados na sua finalidade;
+      8.5.     Enquanto não empregados na consecução do objeto do convênio, os recursos transferidos
+      serão obrigatoriamente aplicados:
+
+      I -  em caderneta de poupança de instituição financeira oficial, se a previsão de seu uso for igual ou
+      superior a um mês; e
+      II - em fundo de aplicação financeira de curto prazo, quando sua utilização estiver prevista para
+
+      prazos menores.
+      8.6.     Os rendimentos das aplicações financeiras serão, obrigatoriamente, aplicados no objeto do
+      convênio ou da transferência, estando sujeitos às mesmas condições de prestação de contas exigidas para
+      os recursos transferidos.
+
+      8.7.     A liberação das parcelas, a partir do terceiro mês de execução, dependerá da apresentação
+      da prestação de contas parcial de execução das metas físicas.
+
+      9.       CLÁUSULA NONA – DA EXECUÇÃO DAS DESPESAS
+
+      9.1.     O presente Convênio deverá ser executado fielmente pelos partícipes, de acordo com as
+      cláusulas pactuadas e a legislação aplicável.
+      9.1.1.   É VEDADO ao CONVENENTE, sob pena de rescisão do ajuste:
+
+                 I -   utilizar, ainda que em caráter emergencial, os recursos em finalidade diversa da
+                 estabelecida neste instrumento;
+                 II -  realizar despesas em data anterior à vigência do Convênio;
+
+                 III - alterar o objeto do convênio, exceto para ampliação do objeto pactuado ou
+                 para redução ou exclusão de meta ou etapa, sem prejuízo da fruição ou funcionalidade
+                 do objeto, desde que as alterações tenham sido previamente aprovadas pelo
+                 CONCEDENTE;
+
+                 IV -  efetuar pagamento em data posterior à vigência do Convênio, salvo se o fato
+                 gerador da despesa tenha ocorrido durante a vigência deste instrumento;
+
+                 V -   efetuar pagamento, a qualquer título, a servidor ou empregado público
+                 integrante de quadro de pessoal de órgão ou entidade pública da administração direta
+                 ou indireta, inclusive por serviços de consultoria ou assistência técnica, salvo nas
+                 hipóteses previstas em leis federais específicas e na Lei de Diretrizes Orçamentárias;
+                 VI -  realizar despesas com taxas bancárias, multas, juros ou correção monetária,
+                 inclusive referentes a pagamentos ou recolhimentos fora do prazo, exceto no que se
+
+                 refere às multas e aos juros, se decorrentes de atraso na transferência de recursos pelo
+                 CONCEDENTE e desde que os prazos para pagamento e os percentuais sejam os mesmos
+                 aplicados no mercado;
+
+<!-- pagina 8 -->
+
+                 VII - realizar despesas a título de taxa de administração, de gerência ou similar;
+
+                 VIII - realizar despesas com publicidade, salvo a de caráter educativo, informativo ou
+                 de orientação social, da qual não constem nomes, símbolos ou imagens que
+                 caracterizem promoção pessoal e desde que previstas no Plano de Trabalho.
+
+                 IX -  transferir recursos liberados pelo CONCEDENTE, no todo ou em parte, a conta
+                 que não a vinculada ao presente Convênio;
+                 X -   celebrar contrato, convênio ou outro tipo de parceria com entidades impedidas
+                 de receber recursos federais;
+
+                 XI -  pagar, a qualquer título, a empresas privadas que tenham em seu quadro
+                 societário servidor público da ativa, ou empregado de empresa pública ou de sociedade
+                 de economia mista, do órgão celebrante, por serviços prestados, inclusive consultoria,
+                 assistência técnica ou assemelhados, salvo nas eventuais hipóteses previstas em leis
+                 específicas federais e na Lei de Diretrizes Orçamentárias;
+
+                 XII - subdelegar as obrigações assumidas por meio do presente convênio, salvo
+                 quando houver previsão expressa no plano de trabalho aprovado e não configurar
+                 descentralização total da execução; e
+
+                 XIII - realizar o aproveitamento de rendimentos para ampliação ou acréscimo de
+                 metas ao plano de trabalho pactuado, sem justificativa do convenente e autorização do
+                 CONCEDENTE.
+
+      10.      CLÁUSULA DÉCIMA – DA ALTERAÇÃO DO CONVÊNIO
+
+      10.1.    Este Convênio poderá ser alterado por termo aditivo mediante proposta de qualquer das
+      partes.
+      10.1.1.  A proposta, devidamente formalizada e justificada, deve ser apresentada ao CONCEDENTE
+      em, no mínimo, 60 (sessenta) dias antes do término de sua vigência.
+
+      10.1.2.  Excepcionalmente, poderão ser solicitadas alterações em prazo inferior, desde que sejam
+      motivadas e em benefício da execução do objeto.
+
+      10.1.3.  A análise da solicitação de alteração deverá ser realizada pelo CONCEDENTE, observados os
+      regramentos legais e a tempestividade, de forma que não haja prejuízo à execução do objeto.
+      10.1.4.  Nos eventuais ajustes realizados durante a execução do objeto, deverá o CONVENENTE
+      demonstrar a respectiva necessidade e os benefícios que se pretende agregar ao projeto, cuja
+      justificativa, uma vez aprovada pela autoridade competente do CONCEDENTE, integrará o Plano de
+      Trabalho.
+
+      10.1.5.  No caso de aumento de metas, a proposta deverá ser acompanhada dos respectivos
+      ajustes no Plano de Trabalho, de orçamentos detalhados e de relatórios que demonstrem a regular
+      execução das metas, etapas e fases já pactuadas.
+
+      11.      CLÁUSULA DÉCIMA PRIMEIRA - DO ACOMPANHAMENTO
+
+      11.1.    Incumbe ao CONCEDENTE exercer o acompanhamento da execução do Convênio, com
+      vistas à verificação da conformidade física e financeira, do cumprimento do objeto e das condições
+      estabelecidas neste instrumento e no Plano de Trabalho, nos termos da legislação aplicável.
+
+      11.2.    O CONCEDENTE deverá designar formalmente, no prazo máximo de 15 (quinze) dias
+      contados da assinatura do instrumento, o servidor ou unidade técnica responsável pelo
+      acompanhamento do Convênio, promovendo o respectivo registro nos sistemas oficiais no prazo de até
+      10 (dez) dias após a designação.
+      11.3.    O acompanhamento será realizado de forma sistemática, mediante análise documental e
+
+      das informações registradas em sistemas oficiais, abrangendo:
+
+<!-- pagina 9 -->
+
+               I – a comprovação da boa e regular aplicação dos recursos;
+
+               II – a regularidade dos pagamentos realizados;
+               III – a regularidade das informações prestadas pelo CONVENENTE;
+
+               IV – o cumprimento das metas e etapas do Plano de Trabalho;
+
+               V – a observância do cronograma de execução e desembolso.
+      11.3.1.  No exercício da atividade de acompanhamento da execução do objeto, o CONCEDENTE
+      poderá:
+
+               I – solicitar informações e documentos complementares;
+               II – realizar diligências e visitas técnicas, quando necessário;
+
+               III – reorientar a execução do objeto;
+               IV – analisar justificativas e adotar medidas administrativas cabíveis;
+
+               V – valer-se de apoio técnico de terceiros ou de outros órgãos.
+
+      11.3.2.  O CONVENENTE deverá assegurar pleno acesso aos documentos, informações e locais de
+      execução do objeto aos representantes do CONCEDENTE e aos órgãos de controle interno e externo, não
+      podendo opor restrições às atividades de acompanhamento, fiscalização e controle.
+      11.3.3.  Aquele que, por ação ou omissão, causar embaraço, constrangimento ou obstáculo à
+      atuação do CONCEDENTE e dos órgãos de controle interno e externo, no desempenho de suas funções
+
+      institucionais relativas ao acompanhamento e fiscalização dos recursos federais transferidos, ficará sujeito
+      à responsabilização administrativa, civil e penal.
+      11.3.4.  Quaisquer pendências de ordem técnica, jurídica ou operacional identificadas deverão ser
+      formalmente comunicadas ao CONVENENTE, para saneamento ou apresentação de informações e
+      esclarecimentos.
+
+      11.3.5.  A utilização de recursos em desacordo com o pactuado ensejará a obrigação de devolução,
+      devidamente atualizada, na forma da legislação aplicável.
+
+      11.3.6.  Os agentes responsáveis pelo acompanhamento e fiscalização respondem pelos atos que
+      praticarem, nos termos da legislação, cabendo ao CONVENENTE a responsabilidade pela execução do
+      objeto e pelos danos eventualmente causados a terceiros, salvo nos casos em que as falhas decorrerem
+      de omissão de responsabilidade atribuída ao CONCEDENTE.
+      11.3.7.  O CONCEDENTE comunicará aos órgãos de controle qualquer irregularidade da qual tenha
+
+      tomado conhecimento e, havendo fundada suspeita da prática de crime ou de ato de improbidade
+      administrativa.
+      11.3.8.  É prerrogativa do CONCEDENTE, observada a legislação aplicável, adotar as medidas
+      necessárias à continuidade da execução do objeto, inclusive mediante assunção ou reordenação de sua
+      execução, no caso de paralisação ou ocorrência de fato relevante.
+
+      12.      CLÁUSULA DÉCIMA SEGUNDA– DA FISCALIZAÇÃO
+      12.1.    Incumbe ao CONCEDENTE exercer a fiscalização da execução do Convênio, por intermédio
+      do executor designado ou unidade técnica competente, com a finalidade de verificar o cumprimento das
+      disposições contratuais, técnicas e administrativas, em todos os seus aspectos.
+
+      12.2.    A  fiscalização será realizada de forma sistemática, mediante análise documental,
+      acompanhamento da execução e, quando necessário, realização de diligências e visitas técnicas aos locais
+      de execução do objeto.
+
+      12.3.    O  executor deverá registrar, nos autos do processo administrativo, as ocorrências
+      relevantes relacionadas à execução do Convênio, adotando as medidas necessárias à regularização de
+      eventuais falhas.
+
+<!-- pagina 10 -->
+
+      12.4.    O CONVENENTE deverá assegurar livre acesso aos documentos, informações e locais de
+      execução, prestando os esclarecimentos necessários ao adequado exercício da fiscalização.
+
+      12.5.    A fiscalização exercida pelo CONCEDENTE não exclui nem reduz a responsabilidade do
+      CONVENENTE pela execução integral do objeto do Convênio.
+
+      13.      CLÁUSULA DÉCIMA TERCEIRA – DA PRESTAÇÃO DE CONTAS
+
+      13.1.    A prestação de contas dos recursos transferidos por força deste Convênio constitui
+      obrigação do CONVENENTE e será apresentada à CONCEDENTE de forma final e, quando cabível, parcial,
+      mediante demonstração da regular execução do objeto, da boa e regular aplicação dos recursos públicos
+      e da observância das condições estabelecidas neste instrumento, no Plano de Trabalho e na legislação
+      vigente.
+
+      13.2.    A prestação de contas poderá ser parcial e final , conforme a etapa de execução e a forma
+      de liberação dos recursos, devendo ser apresentada na periodicidade estabelecida pelo CONCEDENTE,
+      sempre que solicitada, ou quando houver previsão expressa no cronograma de desembolso ou no
+      instrumento aplicável.
+
+      13.3.    A prestação de contas final deverá ser apresentada no prazo máximo de 60 (sessenta) dias,
+      contados do término da vigência do Convênio, na forma prevista na Instrução Normativa nº 01/2005, e
+      será constituída, no mínimo, pelos seguintes documentos:
+                 I -   Relatório de cumprimento do objeto;
+
+                 II -  Relatório de Execução Físico-Financeira;
+                 III -  Demonstrativo da Execução da Receita e da Despesa, com indicação dos
+
+                 recursos recebidos, da contrapartida, dos rendimentos de aplicação financeira e dos
+                 saldos;
+                 IV -  Relação de Pagamentos efetuados;
+
+                 V -    Relação de bens adquiridos, produzidos ou construídos com recursos do
+                 Convênio e da contrapartida, quando houver;
+                 VI -   extrato da conta bancária específica, compreendendo toda a movimentação
+
+                 financeira do período de execução, acompanhado de conciliação bancária, quando
+                 cabível;
+                 VII - termo de aceitação definitiva da obra ou serviço de engenharia, quando for o
+                 caso;
+
+                 VIII - comprovante de recolhimento do saldo remanescente, quando houver;
+                 IX -  documentos relativos aos procedimentos de contratação realizados, inclusive
+                 justificativas de dispensa ou inexigibilidade, quando exigíveis
+
+      13.3.1.  Os saldos financeiros remanescentes, inclusive os provenientes de rendimentos de
+      aplicação financeira, deverão ser devolvidos no prazo improrrogável de 30 (trinta) dias contados da
+      conclusão, denúncia, rescisão ou extinção do Convênio.
+
+      13.4.    Os documentos apresentados deverão conter elementos que permitam a plena
+      identificação da despesa, a vinculação com o objeto conveniado, os dados de realização, os beneficiários
+      do pagamento e a conformidade com os valores e condições aprovadas no Plano de Trabalho.
+
+      13.5.    A ausência de documentação idônea, a divergência entre a execução física e financeira, a
+      utilização de recursos em desacordo com o objeto pactuado ou a não comprovação da especificação no
+      padrão exigido pela legislação poderão ensejar glosa parcial ou total, suspensão de repasses, restituição
+      de valores e demais disposições administrativas cabíveis.
+      13.6.    O  CONCEDENTE poderá solicitar, a qualquer tempo, esclarecimentos, documentos
+      complementares, ajustes formais ou informações adicionais, para fins de análise, saneamento de
+
+      inconsistências e acompanhamento da execução do Convênio.
+
+<!-- pagina 11 -->
+
+      13.7.    O CONVENENTE deverá manter sob sua guarda, à disposição da CONCEDENTE e dos órgãos
+      de controle, todos os documentos originais relativos à execução do Convênio, inclusive notas fiscais,
+
+      recibos, comprovantes de pagamento, extratos bancários, relatórios, contratos, termos de recebimento e
+      demais evidências pertinentes, pelo prazo legal aplicável.
+      13.8.    A não apresentação da prestação de contas no prazo estabelecido, a apresentação
+      incompleta ou a exclusão das contas, sem prejuízo de outras medidas cabíveis, implicará a adoção das
+      disposições administrativas e legais pertinentes, inclusive apuração de responsabilidade e eventual
+
+      instauração de procedimento de tomada de contas especial, quando for o caso.
+      13.9.    O prazo para análise da prestação de contas final e manifestação conclusiva pelo
+      CONCEDENTE será de 60 (sessenta) dias, para pronunciamento sobre a aprovação ou não da prestação de
+      contas apresentada, sendo 45 (quarenta e cinco) dias para manifestação da referida unidade técnica e 15
+      (quinze) dias para pronunciamento do ordenador de despesa.
+
+      13.10.   A prestação de contas, parcial ou final, será analisada e avaliada na unidade técnica
+      responsável pelo programa do órgão ou entidade concedente, que emitirá parecer abordando os
+      seguintes aspectos:
+
+                 I -   técnico - quanto à execução física e alcance dos objetivos do convênio,
+                 podendo o setor competente valer-se de laudos de vistoria ou de informações obtidas
+                 junto a autoridades públicas do local de execução do convênio;
+                 II -  financeiro - quanto ao bom e regular emprego dos recursos do convênio.
+
+      13.11.   Os prazos previstos na subclausula 13.9 poderão ser prorrogados uma vez, por igual
+      período, desde que devidamente justificado.
+
+      13.12.   Antes da tomada da decisão final de que trata a Subcláusula 13.9, caso constatada
+      irregularidade na prestação de contas ou na comprovação de resultados, o CONCEDENTE notificará o
+      CONVENENTE para sanar a irregularidade no prazo de até 45 (quarenta e cinco) dias.
+      13.12.1. A análise da prestação de contas final pelo CONCEDENTE poderá resultar em:
+
+                 I -   aprovação;
+                 II -  aprovação com ressalvas, quando evidenciada impropriedade ou outra falta de
+
+                 natureza formal da qual não resulte dano ao erário; ou
+                 III - rejeição.
+
+      13.13.   Na hipótese de a prestação de contas não ser aprovada, e exauridas todas as providências
+      cabíveis, o ordenador de despesas determinará o registro do fato no Cadastro eletronico de Convênios e
+      adotará providências aplicáveis ao caso, que podem incluir a instauração de sindicância, processo
+      administrativo disciplinar ou tomada de contas especial e o encaminhando do processo à Procuradoria-
+      Geral do Distrito Federal para cobrança judicial, sob pena de responsabilidade.
+
+      13.14.   A decisão sobre a aprovação, aprovação com ressalvas ou rejeição da prestação de contas
+      do instrumento deverá ser registrada na plataforma eletrônica, cabendo ao CONCEDENTE prestar
+      declaração expressa acerca do cumprimento do objeto e de que os recursos transferidos tiveram boa e
+      regular aplicação.
+
+      14.      CLÁUSULA DÉCIMA QUARTA - DOS BENS REMANESCENTES
+
+      14.1.    Os bens remanescentes adquiridos ou produzidos no âmbito deste Convênio serão de
+      propriedade do CONCEDENTE, observadas as disposições da Instrução normativa n° 01, de 22 de
+      dezembro de 2005.
+      14.1.1.  Consideram-se bens remanescentes os equipamentos e materiais permanentes adquiridos
+      com recursos dos instrumentos necessários à consecução do objeto, mas que não se incorporam a este.
+
+      14.1.2.  O CONVENENTE deverá contabilizar e proceder à guarda dos bens remanescentes, bem
+      como encaminhar manifestação ao CONCEDENTE com o compromisso de utilizá-los para assegurar a
+
+<!-- pagina 12 -->
+
+      continuidade do programa governamental, devendo estarem claras as regras e diretrizes de utilização
+      desses bens.
+
+      15.      CLÁUSULA DÉCIMA QUINTA - DA DENÚNCIA, RESCISÃO E EXTINÇÃO
+      15.1.    O presente Convênio poderá ser:
+
+                 I -   denunciado a qualquer tempo, ficando os partícipes responsáveis somente
+                 pelas obrigações e auferindo as vantagens do tempo em que participaram
+                 voluntariamente da avença;
+                 II -  rescindido, independente de prévia notificação ou interpelação judicial ou
+
+                 extrajudicial, nas seguintes hipóteses:
+                         a)    inadimplemento de quaisquer das cláusulas pactuadas;
+
+                         b)    constatação, a qualquer tempo, de falsidade ou incorreção em
+                         qualquer documento apresentado;
+                         c)    paralisação injustificada da execução;
+
+                 III - extinto, quando não tiver ocorrido repasse de recursos e houver
+                 descumprimento das condições suspensivas, nos prazos estabelecidos no instrumento.
+
+      15.1.1.  Quando da denúncia ou rescisão do instrumento, o CONVENENTE deverá:
+                 I -   devolver os saldos remanescentes, inclusive aqueles oriundos de rendimentos
+                 de aplicações financeiras, em até 30 (trinta) dias; e
+
+                 II -  apresentar a prestação de contas final em até 60 (sessenta) dias.
+      15.1.2.  A rescisão do Convênio decorrente de dano ao erário provocado por ato ilegal, ilegítimo ou
+      antieconômico, enseja a instauração de Tomada de Contas Especial, de acordo com a legislação
+      específica, exceto se houver a devolução dos recursos devidamente corrigidos, sem prejuízo, no último
+
+      caso, da continuidade da apuração, por medidas administrativas próprias, quando identificadas outras
+      irregularidades decorrentes do ato praticado.
+
+      16.      CLÁUSULA DÉCIMA SEXTA - DA PUBLICIDADE
+      16.1.    A eficácia do presente Convênio fica condicionada à publicação do respectivo extrato no
+      Diário Oficial do Distrito Federal, a qual deverá ser providenciada pelo CONCEDENTE no prazo de até 10
+
+      (dez) dias a contar da respectiva assinatura.
+      16.1.1.  Será dada publicidade em sítio eletrônico específico aos atos de celebração, alteração,
+      liberação de recursos, acompanhamento e fiscalização da execução e a prestação de contas do presente
+      instrumento.
+
+      16.1.2.  A CONVENENTE deverá dar ampla publicidade à presente parceria, mediante divulgação
+      em seu sítio eletrônico oficial e em outros meios de comunicação institucionais. Deverá, ainda, afixar
+      banner ou material informativo de transparência nos locais de execução das ações, em local visível ao
+      público, contendo, pelo menos, o objeto, a finalidade, os valores e as datas de liberação e detalhamento
+      na aplicação dos recursos, bem como as contratações realizadas para a execução do objeto pactuado
+      Toda divulgação deverá obrigatoriamente conter as logomarcas do Governo do Distrito Federal – GDF e da
+      Secretaria de Estado de Saúde do Distrito Federal – SES/DF, sendo previamente submetida à aprovação
+
+      da Assessoria de Comunicação da SES/DF;
+
+      17.      CLÁUSULA DÉCIMA SÉTIMA - DAS DISPOSIÇÕES GERAIS
+      17.1.    Havendo celebração de contratos entre o CONVENENTE e terceiros, visando à execução de
+      serviços vinculados ao objeto deste convênio, tal contratação não acarretará responsabilidade solidária
+
+<!-- pagina 13 -->
+
+      ou subsidiária do CONCEDENTE pelas obrigações trabalhistas ou fiscais, assim como não existirá vínculo
+      funcional ou empregatício entre os terceiros e o CONCEDENTE.
+
+      17.2.    Caso os recursos transferidos pelo CONCEDENTE por este convênio sejam objeto de nova
+      descentralização ou transferência necessária à execução do plano de trabalho, tais transferências se
+      subordinarão às mesmas condições e exigências deste convênio.
+
+[[tabela: p013_t01]]  <!-- 1 linhas x 5 colunas -->
+
+      18.      CLÁUSULA DÉCIMA OITAVA – DA PROTEÇÃO DE DADOS PESSOAIS
+      18.1.    Os partícipes comprometem-se a observar, no âmbito da execução deste instrumento, as
+      disposições da Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais – LGPD),
+      adotando as medidas técnicas, administrativas e organizacionais necessárias para garantir a proteção dos
+      dados pessoais eventualmente tratados em decorrência das atividades previstas neste instrumento.
+      18.2.    O tratamento de dados pessoais deverá ocorrer exclusivamente para as finalidades
+
+      relacionadas à execução do objeto pactuado, observados os princípios da finalidade, adequação,
+      necessidade, segurança e transparência, sendo vedada a utilização dos dados para finalidade diversa
+      daquela prevista neste Termo.
+      18.3.    Os partícipes comprometem-se, ainda, a assegurar a confidencialidade das informações, a
+      restringir o acesso aos dados apenas aos profissionais autorizados e a adotar mecanismos que garantam a
+
+      integridade e a segurança das informações, bem como a comunicar prontamente à outra parte a
+      ocorrência de qualquer incidente de segurança que possa acarretar risco ou dano relevante aos titulares
+      dos dados.
+      18.4.    Quando aplicável, os partícipes deverão definir as responsabilidades relativas ao
+      tratamento de dados pessoais, incluindo as funções de controlador e operador, nos termos da legislação
+      vigente, assegurando a conformidade com as normas de proteção de dados e com as diretrizes da
+
+      Administração Pública.
+
+[[tabela: p013_t02]]  <!-- 1 linhas x 5 colunas -->
+
+      19.      CLÁUSULA DÉCIMA NONA - DOS CASOS OMISSOS
+      19.1.    Os casos omissos no presente instrumento serão resolvidos de comum acordo pelos
+      partícipes mediante celebração de termo aditivo.
+      19.2.    Qualquer ocorrência de dúvidas, omissões e controvérsias deverá ser comunicada
+      previamente à outra parte, por escrito, em no máximo 10 (dez) dias úteis, consignando-se igual prazo
+      para sua resposta.
+
+[[tabela: p013_t03]]  <!-- 1 linhas x 3 colunas -->
+
+      20.      CLÁUSULA VIGÊSIMA - CONCILIAÇÃO E DO FORO
+      20.1.    Os partícipes comprometem-se antes de qualquer providência jurisdicional visando
+      solucionar dúvida quanto à interpretação do presente instrumento, deverão buscar solução
+      administrativa, com a participação da Procuradoria Geral do Distrito Federal.
+      20.1.1.  Fica eleito o foro da Justiça do Distrito Federal - Seção Judiciária do Distrito Federal, em
+      Brasília-DF, para dirimir quaisquer dúvidas oriundas do presente TERMO, com renúncia expressa a
+
+      qualquer outro, por mais privilegiado que seja.
+
+      E, por estarem de pleno acordo, os partícipes obrigam-se ao fiel e integral cumprimento das disposições
+      do presente instrumento, que, após lido e achado conforme, é assinado para que produza todos os seus
+
+<!-- pagina 14 -->
+
+      efeitos jurídicos e legais, em juízo ou fora dele.
+
+                    Documento assinado eletronicamente por WBIRAJARA ROCHA DE SOUZA, Usuário Externo, em
+                    28/04/2026, às 09:04, conforme art. 6º do Decreto n° 36.756, de 16 de setembro de 2015,
+                    publicado no Diário Oficial do Distrito Federal nº 180, quinta-feira, 17 de setembro de 2015.
+
+                    Documento assinado eletronicamente por JURACY CAVALCANTE LACERDA JUNIOR -
+                    Matr.1723901-X, Secretário(a) de Estado de Saúde do Distrito Federal, em 29/04/2026, às
+                    12:11, conforme art. 6º do Decreto n° 36.756, de 16 de setembro de 2015, publicado no Diário
+                    Oficial do Distrito Federal nº 180, quinta-feira, 17 de setembro de 2015.
+
+                    A autenticidade do documento pode ser conferida no site:
+                    http://sei.df.gov.br/sei/controlador_externo.php?
+                    acao=documento_conferir&id_orgao_acesso_externo=0
+                    verificador= 201155596 código CRC= 8C6427B0.
+
+                           "Brasília - Patrimônio Cultural da Humanidade"
+            SRTVN Quadra 701 Lote D, 1ª e 2º andares, Ed. PO700 - Bairro Asa Norte - CEP 70719-040 - DF
+                                      Telefone(s):
+                                 Sítio - www.saude.df.gov.br
+
+        00060-00002617/2026-93                               Doc. SEI/GDF 201155596

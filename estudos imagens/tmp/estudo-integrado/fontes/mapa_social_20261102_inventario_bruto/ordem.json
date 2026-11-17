@@ -1,0 +1,18 @@
+{
+  "contrato": "2026-10-27",
+  "tipo": "panorama",
+  "plano": "registros/mapa_social/imagem",
+  "pedido": "Inventário atualizado de todas as filas, para classificar imagem e decidir somente o plano 4, preservando nomes e códigos, sem corte de tamanho.",
+  "saida": "area_de_transferencia",
+  "janela_viva_meses": 24,
+  "dimensoes": [
+    "ano"
+  ],
+  "minimo": 1,
+  "universo": [
+    {
+      "rotulo": "inventario completo para classificar imagem",
+      "tudo": true
+    }
+  ]
+}

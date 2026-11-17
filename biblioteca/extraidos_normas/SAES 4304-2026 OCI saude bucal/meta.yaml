@@ -1,0 +1,10 @@
+id: "SAES 4304-2026 OCI saude bucal"
+arquivo: "SAES 4304-2026 OCI saude bucal.html"
+sha256: "6253d3aa11b35a743edd1e476d22b47a3fc900820febb38cb725d06210c80e5c"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 5939
+tabelas_total: 7
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

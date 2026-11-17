@@ -1,0 +1,72 @@
+PROCEDIMENTO,09.05.01.001-9 - OCI AVALIAÇÃO INICIAL EM OFTALMOGIA - 0 A 8 ANOS
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E"
+,GESTÃO DO CUIDADO DE USUÁRIOS DE 0 A 8 ANOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA
+,"POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, TESTE ORTÓPTICO E BIOMICROSCOPIA"
+Código de Origem,--
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,8 anos
+Valor do Serviço Ambulatorial (SA),"R$ 200,00"
+Total do Serviço Ambulatorial,"R$ 200,00"
+CID-10,H00 - Hordéolo e Calázio
+,H01 - Outras Inflamações da Pálpebra
+,H02 - Outros Transtornos da Pálpebra
+,H03 - Transtornos da Pálpebra em Doenças Classificadas em Outras Partes
+,H04 - Transtornos do Aparelho Lacrimal
+,H05 - Transtornos da Órbita
+,H06 - Transtornos do Aparelho Lacrimal e da Órbita em Doenças Classificadas em Outra Parte
+,H10 - Conjuntivite
+,H11 - Outros Transtornos da Conjuntiva
+,H13 - Transtornos da Conjuntiva em Doenças Classificadas em Outra Parte
+,H15 - Transtornos da Esclerótica
+,H16 - Ceratite
+,H17 - Cicatrizes e Opacidades da Córnea
+,H18 - Outros Transtornos da Córnea
+,H19 - Transtorno da Esclerótica e da Córnea em Doenças Classificadas em Outra Parte
+,H20 - Iridociclite
+,H21 - Outros Transtornos da Íris e do Corpo Ciliar
+,H22 - Transtornos da Íris e do Corpo Ciliar em Doenças Classificadas em Outra Parte
+,H25 - Catarata Senil
+,H26 - Outras Cataratas
+,H27 - Outros Transtornos do Cristalino
+,H28 - Catarata e Outros Transtornos do Cristalino em Doenças Classificadas em Outra Parte
+,H30 - Inflamação Coriorretiniana
+,H31 - Outros Transtornos da Coróide
+,H32 - Transtornos Coriorretinianos em Doenças Classificadas em Outra Parte
+,H33 - Descolamentos e Defeitos da Retina
+,H34 - Oclusões Vasculares da Retina
+,H35 - Outros Transtornos da Retina
+,H36 - Transtornos da Retina em Doenças Classificadas em Outra Parte
+,H40 - Glaucoma
+,H42 - Glaucoma em Doenças Classificadas em Outra Parte
+,H43 - Transtornos do Humor Vítreo
+,H44 - Transtornos do Globo Ocular
+,H45 - Transtornos do Humor Vítreo e do Globo Ocular em Doenças Classificadas em Outra Parte
+,H46 - Neurite Óptica
+,H47 - Outros Transtornos do Nervo Óptico e Das Vias Ópticas
+,H48 - Transtornos do Nervo Óptico (segundo Par) e Das Vias Ópticas em Doenças Classificadas em Outra Parte
+,H49 - Estrabismo Paralítico
+,H50 - Outros Estrabismos
+,H51 - Outros Transtornos do Movimento Binocular
+,H52 - Transtornos da Refração e da Acomodação
+,H53 - Distúrbios Visuais
+,H54 - Cegueira e Visão Subnormal
+,H55 - Nistagmo e Outros Movimentos Irregulares do Olho
+,H57 - Outros Transtornos do Olho e Anexos
+,H58 - Outros Transtornos do Olho e Anexos em Doenças Classificadas em Outra Parte
+,H59 - Transtornos do Olho e Anexos Pós-procedimento Não Classificados em Outra Parte
+Categoria CBO,2231 - Médicos
+,2251 - Médicos Clínicos
+,2252 - Médicos em Especialidades Cirúrgicas
+,2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS
+,053 - Programa Mais Acesso a Especialistas (PMAE)
+,054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUDÁRIOS A TEREM VALOR ZERADO
+,0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

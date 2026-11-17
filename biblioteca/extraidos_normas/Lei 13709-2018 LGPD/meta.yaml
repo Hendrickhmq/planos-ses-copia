@@ -1,0 +1,10 @@
+id: "Lei 13709-2018 LGPD"
+arquivo: "Lei 13709-2018 LGPD.html"
+sha256: "52b07e02665c9b0677a0298d592e4d6072e1adfa00b9623b8d8f47e02f3beee7"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 107565
+tabelas_total: 2
+trechos_riscados: 43
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

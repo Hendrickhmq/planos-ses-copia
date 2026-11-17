@@ -1,0 +1,10 @@
+id: "SAES 4306-2026 OCI infectologia"
+arquivo: "SAES 4306-2026 OCI infectologia.html"
+sha256: "589ed4db0d4ae3af474e76cf011ad88b23ea0cfbb899758d2dbb545b2a848f8c"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 5909
+tabelas_total: 13
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

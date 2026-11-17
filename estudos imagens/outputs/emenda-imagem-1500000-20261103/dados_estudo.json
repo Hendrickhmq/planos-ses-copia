@@ -1,0 +1,1551 @@
+{
+  "date": "03/11/2026",
+  "funding": "Federal de bancada, confirmado pelo usuário",
+  "months": [
+    "2025-10",
+    "2025-11",
+    "2025-12",
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09"
+  ],
+  "dates": {
+    "recarga": "02/11/2026 10:31:47",
+    "recarga_utc": "2026-11-02T13:31:47.865Z",
+    "consulta_inicio": "02/11/2026 12:27:10",
+    "consulta_fim": "02/11/2026 12:27:37",
+    "solicitacao_mais_recente": "28/10/2026",
+    "agendamento_mais_distante": "04/02/2027"
+  },
+  "records": [
+    {
+      "code": "0208050035",
+      "code_fmt": "02.08.05.003-5",
+      "name": "Cintilografia óssea",
+      "official": "CINTILOGRAFIA DE OSSOS COM OU SEM FLUXO SANGUÍNEO (CORPO INTEIRO)",
+      "decision": "Prioridade para cotar, com incremento",
+      "overlap": "Sem cobertura identificada no acervo aprovado",
+      "reserve": 0,
+      "stock": 1587,
+      "recent": 1587,
+      "entries": 2487,
+      "scheduled": 1492,
+      "performed": 745,
+      "absent": 623,
+      "base": 190.99,
+      "increment": 3.0,
+      "with_increment": 763.96,
+      "candanga": 764.0,
+      "page": 6,
+      "retail": 464,
+      "retail_quality": "Referência exploratória sem localização confirmada; não é cotação DF",
+      "retail_url": "https://examesocial.com.br/",
+      "protocols": [
+        {
+          "name": "CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO)",
+          "stock": 1587,
+          "recent": 1587
+        }
+      ]
+    },
+    {
+      "code": "0205010032",
+      "code_fmt": "02.05.01.003-2",
+      "name": "Ecocardiograma transtorácico",
+      "official": "ECOCARDIOGRAFIA TRANSTORACICA",
+      "decision": "Reservado à emenda de R$ 2 milhões de cardiologia",
+      "overlap": "IEV: até 1.000 OCI de insuficiência cardíaca; reservar pacientes",
+      "reserve": 1000,
+      "stock": 14602,
+      "recent": 14597,
+      "entries": 42979,
+      "scheduled": 40371,
+      "performed": 27911,
+      "absent": 9702,
+      "base": 67.86,
+      "increment": 1.36,
+      "with_increment": 160.15,
+      "candanga": 214.5,
+      "page": 5,
+      "retail": 180,
+      "retail_quality": "Preço publicado DF; confirmar protocolo e unidade",
+      "retail_url": "https://minhaclinica.com/exames/",
+      "protocols": [
+        {
+          "name": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+          "stock": 13236,
+          "recent": 13236
+        },
+        {
+          "name": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+          "stock": 1332,
+          "recent": 1332
+        },
+        {
+          "name": "9. ECOCARDIOGRAFIA FETAL",
+          "stock": 29,
+          "recent": 29
+        },
+        {
+          "name": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO",
+          "stock": 2,
+          "recent": 0
+        },
+        {
+          "name": "16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL",
+          "stock": 1,
+          "recent": 0
+        },
+        {
+          "name": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO EMERGENCIA",
+          "stock": 1,
+          "recent": 0
+        },
+        {
+          "name": "ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER INFANTIL",
+          "stock": 1,
+          "recent": 0
+        }
+      ]
+    },
+    {
+      "code": "0204060028",
+      "code_fmt": "02.04.06.002-8",
+      "name": "Densitometria óssea",
+      "official": "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES E/OU FEMUR)",
+      "decision": "Prioridade para cotar, com incremento",
+      "overlap": "Não identificada no IEV/plano 4; CID ortopédico não reserva o exame",
+      "reserve": 0,
+      "stock": 2178,
+      "recent": 2177,
+      "entries": 14047,
+      "scheduled": 13142,
+      "performed": 8898,
+      "absent": 3301,
+      "base": 55.1,
+      "increment": 3.0,
+      "with_increment": 220.4,
+      "candanga": 220.0,
+      "page": 5,
+      "retail": 77.99,
+      "retail_quality": "A partir de; CNC 01, Taguatinga; validar coluna/fêmur e laudo",
+      "retail_url": "https://app.drachei.com.br/preco-densitometria-ossea-brasilia-df",
+      "protocols": [
+        {
+          "name": "DENSITOMETRIA OSSEA - RADIODIAGNOSTICO",
+          "stock": 2178,
+          "recent": 2177
+        }
+      ]
+    },
+    {
+      "code": "0204030188",
+      "code_fmt": "02.04.03.018-8",
+      "name": "Mamografia de rastreamento",
+      "official": "MAMOGRAFIA BILATERAL PARA RASTREAMENTO",
+      "decision": "Segunda linha; negociar custo",
+      "overlap": "Fora do plano 4 e das OCI aprovadas mapeadas",
+      "reserve": 0,
+      "stock": 6630,
+      "recent": 6580,
+      "entries": 56491,
+      "scheduled": 54396,
+      "performed": 31414,
+      "absent": 15244,
+      "base": 45.0,
+      "increment": 1.22,
+      "with_increment": 99.9,
+      "candanga": 100.0,
+      "page": 4,
+      "retail": 188.48,
+      "retail_quality": "A partir de; CNC 01, Taguatinga; exame digital bilateral",
+      "retail_url": "https://app.drachei.com.br/preco-mamografia-digital-bilateral-brasilia-df",
+      "protocols": [
+        {
+          "name": "MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA)",
+          "stock": 6448,
+          "recent": 6398
+        },
+        {
+          "name": "MAMOGRAFIA BILATERAL DIAGNOSTICA",
+          "stock": 182,
+          "recent": 182
+        }
+      ]
+    },
+    {
+      "code": "0207010064",
+      "code_fmt": "02.07.01.006-4",
+      "name": "RM de crânio",
+      "official": "RESSONANCIA MAGNETICA DE CRANIO",
+      "decision": "Alternativa com incremento",
+      "overlap": "Fora das seis RM ortopédicas do IEV; separar protocolos",
+      "reserve": 0,
+      "stock": 1412,
+      "recent": 1410,
+      "entries": 15809,
+      "scheduled": 18709,
+      "performed": 12817,
+      "absent": 5446,
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "retail": 400,
+      "retail_quality": "A partir de, rede Brasília; unidade e protocolo não publicados",
+      "retail_url": "https://doctorsaude.com.br/ressonancia-magnetica-brasilia",
+      "protocols": [
+        {
+          "name": "005. RM DE CRANIO ADULTO S/CONTRASTE S/SEDACAO",
+          "stock": 719,
+          "recent": 719
+        },
+        {
+          "name": "007. RM DE CRANIO ADULTO C/CONTRASTE S/SEDACAO",
+          "stock": 623,
+          "recent": 623
+        },
+        {
+          "name": "RM DE ORBITAS ADULTO C/CONTRASTE S/SEDAÇÃO",
+          "stock": 28,
+          "recent": 28
+        },
+        {
+          "name": "002. RM DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO",
+          "stock": 18,
+          "recent": 18
+        },
+        {
+          "name": "004. RM DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO",
+          "stock": 13,
+          "recent": 13
+        },
+        {
+          "name": "RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE S/ SEDAÇÃO",
+          "stock": 3,
+          "recent": 3
+        },
+        {
+          "name": "RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE S/ SEDAÇÃO",
+          "stock": 2,
+          "recent": 2
+        },
+        {
+          "name": "RM DE ORBITAS ADULTO C/CONTRASTE C/SEDAÇÃO",
+          "stock": 2,
+          "recent": 2
+        },
+        {
+          "name": "RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE C/ SEDAÇÃO",
+          "stock": 1,
+          "recent": 0
+        },
+        {
+          "name": "RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE C/ SEDAÇÃO",
+          "stock": 1,
+          "recent": 0
+        },
+        {
+          "name": "RM DE ORBITAS ADULTO S/CONTRASTE S/ SEDAÇÃO",
+          "stock": 1,
+          "recent": 1
+        },
+        {
+          "name": "RM DE ORBITAS INFANTIL C/CONTRASTE C/ SEDAÇÃO",
+          "stock": 1,
+          "recent": 1
+        }
+      ]
+    },
+    {
+      "code": "0207030014",
+      "code_fmt": "02.07.03.001-4",
+      "name": "RM de abdômen superior",
+      "official": "RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR",
+      "decision": "Alternativa com incremento",
+      "overlap": "Sem cobertura identificada no acervo aprovado",
+      "reserve": 0,
+      "stock": 572,
+      "recent": 572,
+      "entries": 10338,
+      "scheduled": 10796,
+      "performed": 8161,
+      "absent": 2443,
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "retail": null,
+      "retail_quality": "Sem cotação comparável DF para este protocolo",
+      "retail_url": "",
+      "protocols": [
+        {
+          "name": "055. RM DE ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO",
+          "stock": 465,
+          "recent": 465
+        },
+        {
+          "name": "053. RM DE ABDOMEN SUPERIOR ADULTO S/CONTRASTE S/SEDACAO",
+          "stock": 104,
+          "recent": 104
+        },
+        {
+          "name": "294. ANGIORESSONANCIA DE ARTERIAS RENAIS",
+          "stock": 3,
+          "recent": 3
+        }
+      ]
+    },
+    {
+      "code": "0207030022",
+      "code_fmt": "02.07.03.002-2",
+      "name": "RM de pelve/bacia",
+      "official": "RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR",
+      "decision": "Alternativa com separação assistencial",
+      "overlap": "Pode atingir ortopedia do IEV; recortar indicação e pacientes",
+      "reserve": 0,
+      "stock": 1519,
+      "recent": 1519,
+      "entries": 18127,
+      "scheduled": 20321,
+      "performed": 15417,
+      "absent": 4602,
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "retail": null,
+      "retail_quality": "Sem cotação comparável DF para este protocolo",
+      "retail_url": "",
+      "protocols": [
+        {
+          "name": "071. RM DE BACIA OU PELVIS ADULTO C/CONTRASTE S/SEDACAO",
+          "stock": 984,
+          "recent": 984
+        },
+        {
+          "name": "069. RM DE BACIA OU PELVIS ADULTO S/CONTRASTE S/SEDACAO",
+          "stock": 534,
+          "recent": 534
+        },
+        {
+          "name": "072. RM DE BACIA OU PELVIS ADULTO C/CONTRASTE C/SEDACAO",
+          "stock": 1,
+          "recent": 1
+        }
+      ]
+    },
+    {
+      "code": "0207030049",
+      "code_fmt": "02.07.03.004-9",
+      "name": "Colangiorressonância",
+      "official": "RESSONANCIA MAGNETICA DE VIAS BILIARES/COLANGIORRESSONANCIA",
+      "decision": "Complemento de pequeno volume",
+      "overlap": "Sem cobertura identificada no acervo aprovado",
+      "reserve": 0,
+      "stock": 116,
+      "recent": 116,
+      "entries": 3251,
+      "scheduled": 3285,
+      "performed": 2215,
+      "absent": 950,
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "retail": 270,
+      "retail_quality": "Exploratória, Digem; localização não confirmada",
+      "retail_url": "https://examesocial.com.br/",
+      "protocols": [
+        {
+          "name": "063. RM DE VIAS BILIARES ADULTO C/CONTRASTE S/SEDACAO",
+          "stock": 63,
+          "recent": 63
+        },
+        {
+          "name": "061. RM DE VIAS BILIARES ADULTO S/CONTRASTE S/SEDACAO",
+          "stock": 52,
+          "recent": 52
+        },
+        {
+          "name": "060. RM DE VIAS BILIARES INFANTIL C/CONTRASTE C/SEDACAO",
+          "stock": 1,
+          "recent": 1
+        }
+      ]
+    },
+    {
+      "code": "0208010025",
+      "code_fmt": "02.08.01.002-5",
+      "name": "Cintilografia miocárdica: estresse",
+      "official": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "decision": "Alternativa: cotar pacote completo",
+      "overlap": "Não consta como obrigatório da OCI coronariana mapeada; verificar outros instrumentos",
+      "reserve": 0,
+      "stock": 1737,
+      "recent": 1737,
+      "entries": 1274,
+      "scheduled": 374,
+      "performed": 186,
+      "absent": 149,
+      "base": 408.52,
+      "increment": 1.2,
+      "with_increment": 898.74,
+      "candanga": 899.0,
+      "page": 6,
+      "retail": null,
+      "retail_quality": "Pacote estresse+repouso exploratório R$ 1.440, não avulso",
+      "retail_url": "https://examesocial.com.br/",
+      "protocols": [
+        {
+          "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+          "stock": 1737,
+          "recent": 1737
+        }
+      ]
+    },
+    {
+      "code": "0208010033",
+      "code_fmt": "02.08.01.003-3",
+      "name": "Cintilografia miocárdica: repouso",
+      "official": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+      "decision": "Alternativa: cotar pacote completo",
+      "overlap": "Mesmo paciente pode ter pedido de estresse; não somar como pessoas",
+      "reserve": 0,
+      "stock": 1496,
+      "recent": 1496,
+      "entries": 1003,
+      "scheduled": 357,
+      "performed": 201,
+      "absent": 147,
+      "base": 383.07,
+      "increment": 1.3,
+      "with_increment": 881.06,
+      "candanga": 881.0,
+      "page": 6,
+      "retail": null,
+      "retail_quality": "Não dividir preço de pacote por dois sem proposta",
+      "retail_url": "https://examesocial.com.br/",
+      "protocols": [
+        {
+          "name": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+          "stock": 1496,
+          "recent": 1496
+        }
+      ]
+    },
+    {
+      "code": "0208040102",
+      "code_fmt": "02.08.04.010-2",
+      "name": "Cintilografia renal dinâmica",
+      "official": "ESTUDO RENAL DINAMICO C/ OU S/ DIURETICO",
+      "decision": "Complemento especializado",
+      "overlap": "Sem cobertura identificada no acervo aprovado",
+      "reserve": 0,
+      "stock": 234,
+      "recent": 234,
+      "entries": 306,
+      "scheduled": 148,
+      "performed": 62,
+      "absent": 64,
+      "base": 165.24,
+      "increment": null,
+      "with_increment": 165.24,
+      "candanga": 319.18,
+      "page": 6,
+      "retail": 468,
+      "retail_quality": "Exploratória, Digem; localização não confirmada",
+      "retail_url": "https://examesocial.com.br/",
+      "protocols": [
+        {
+          "name": "CINTILOGRAFIA RENAL DINAMICA (DTPA)",
+          "stock": 234,
+          "recent": 234
+        }
+      ]
+    },
+    {
+      "code": "0208040056",
+      "code_fmt": "02.08.04.005-6",
+      "name": "Cintilografia renal/renograma",
+      "official": "CINTILOGRAFIA RENAL/RENOGRAMA (QUALITATIVA E/OU QUANTITATIVA)",
+      "decision": "Complemento especializado",
+      "overlap": "Nome DMSA da fila exige confirmar código/protocolo",
+      "reserve": 0,
+      "stock": 179,
+      "recent": 179,
+      "entries": 403,
+      "scheduled": 370,
+      "performed": 195,
+      "absent": 163,
+      "base": 133.03,
+      "increment": 3.0,
+      "with_increment": 532.12,
+      "candanga": 532.0,
+      "page": 6,
+      "retail": 468,
+      "retail_quality": "Exploratória, Digem; localização não confirmada",
+      "retail_url": "https://examesocial.com.br/",
+      "protocols": [
+        {
+          "name": "CINTILOGRAFIA RENAL ESTATICA (DMSA)",
+          "stock": 179,
+          "recent": 179
+        }
+      ]
+    },
+    {
+      "code": "0208030018",
+      "code_fmt": "02.08.03.001-8",
+      "name": "Cintilografia de paratireoides",
+      "official": "CINTILOGRAFIA DE PARATIREOIDES",
+      "decision": "Complemento de pequeno volume",
+      "overlap": "Sem cobertura identificada no acervo aprovado",
+      "reserve": 0,
+      "stock": 152,
+      "recent": 152,
+      "entries": 242,
+      "scheduled": 215,
+      "performed": 107,
+      "absent": 102,
+      "base": 324.54,
+      "increment": 2.0,
+      "with_increment": 973.62,
+      "candanga": 974.0,
+      "page": 6,
+      "retail": null,
+      "retail_quality": "Sem cotação comparável DF",
+      "retail_url": "",
+      "protocols": [
+        {
+          "name": "CINTILOGRAFIA DE PARATIREOIDES",
+          "stock": 152,
+          "recent": 152
+        }
+      ]
+    },
+    {
+      "code": "0206010095",
+      "code_fmt": "02.06.01.009-5",
+      "name": "PET-CT",
+      "official": "TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT)",
+      "decision": "Somente com proposta fechada viável",
+      "overlap": "Sem incremento 38.01 localizado; protocolo oncológico específico",
+      "reserve": 0,
+      "stock": 379,
+      "recent": 379,
+      "entries": 1129,
+      "scheduled": 578,
+      "performed": 113,
+      "absent": 91,
+      "base": 2107.22,
+      "increment": null,
+      "with_increment": 2107.22,
+      "candanga": 2107.22,
+      "page": 6,
+      "retail": null,
+      "retail_quality": "Sem preço comparável DF de FDG; não usar PSMA como substituto",
+      "retail_url": "",
+      "protocols": [
+        {
+          "name": "TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT)",
+          "stock": 379,
+          "recent": 379
+        }
+      ]
+    },
+    {
+      "code": "0207010048",
+      "code_fmt": "02.07.01.004-8",
+      "name": "RM de coluna lombossacra",
+      "official": "RESSONANCIA MAGNETICA DE COLUNA LOMBO-SACRA",
+      "decision": "Excluir da carteira inicial",
+      "overlap": "Sobreposição com OCI ortopédica do IEV",
+      "reserve": 0,
+      "stock": 1629,
+      "recent": 1627,
+      "entries": 15798,
+      "scheduled": 20932,
+      "performed": 15974,
+      "absent": 4605,
+      "base": 268.75,
+      "increment": 0.86,
+      "with_increment": 499.88,
+      "candanga": 463.59,
+      "page": 6,
+      "retail": null,
+      "retail_quality": "Sem cotação neste estudo",
+      "retail_url": "",
+      "protocols": [
+        {
+          "name": "037. RM DA COLUNA LOMBO-SACRA ADULTO S/CONTRASTE S/SEDACAO",
+          "stock": 1477,
+          "recent": 1475
+        },
+        {
+          "name": "039. RM DA COLUNA LOMBO-SACRA ADULTO C/CONTRASTE S/SEDACAO",
+          "stock": 151,
+          "recent": 151
+        },
+        {
+          "name": "034. RM DA COLUNA LOMBO-SACRA INFANTIL S/CONTRASTE C/SEDACAO",
+          "stock": 1,
+          "recent": 1
+        }
+      ]
+    },
+    {
+      "code": "0205020062",
+      "code_fmt": "02.05.02.006-2",
+      "name": "US de articulação/partes moles",
+      "official": "ULTRASSONOGRAFIA DE ARTICULACAO",
+      "decision": "Excluir da carteira inicial",
+      "overlap": "Articulação reservada ao IEV; partes moles excluídas por decisão anterior",
+      "reserve": 0,
+      "stock": 14355,
+      "recent": 10370,
+      "entries": 11475,
+      "scheduled": 8083,
+      "performed": 4979,
+      "absent": 2475,
+      "base": 24.2,
+      "increment": 3.13,
+      "with_increment": 99.95,
+      "candanga": 70.97,
+      "page": 5,
+      "retail": null,
+      "retail_quality": "Cadastro local de partes moles não valida faturamento como articulação",
+      "retail_url": "",
+      "protocols": [
+        {
+          "name": "ECOGRAFIA  DE PARTES MOLES",
+          "stock": 3140,
+          "recent": 1894
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO OMBRO D ADULTO",
+          "stock": 1935,
+          "recent": 1432
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO PUNHO D ADULTO",
+          "stock": 1672,
+          "recent": 1275
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO OMBRO E ADULTO",
+          "stock": 1485,
+          "recent": 1126
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO PUNHO E ADULTO",
+          "stock": 1465,
+          "recent": 1158
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO JOELHO E ADULTO",
+          "stock": 596,
+          "recent": 394
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO JOELHO D ADULTO",
+          "stock": 553,
+          "recent": 361
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO TORNOZELO E ADULTO",
+          "stock": 375,
+          "recent": 306
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO TORNOZELO D ADULTO",
+          "stock": 335,
+          "recent": 275
+        },
+        {
+          "name": "ECOGRAFIA DE REGIAO INGUINAL DIREITO",
+          "stock": 242,
+          "recent": 214
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO COTOVELO D ADULTO",
+          "stock": 214,
+          "recent": 156
+        },
+        {
+          "name": "ECOGRAFIA DE REGIÃO INGUINAL ESQUERDO",
+          "stock": 202,
+          "recent": 180
+        },
+        {
+          "name": "USG MAO DIREITA",
+          "stock": 195,
+          "recent": 164
+        },
+        {
+          "name": "ULTRASSONOGRAFIA DA REGIAO INGUINAL",
+          "stock": 167,
+          "recent": 134
+        },
+        {
+          "name": "ULTRASSONOGRAFIA DO PESCOCO",
+          "stock": 160,
+          "recent": 119
+        },
+        {
+          "name": "USG MAO ESQUERDA",
+          "stock": 143,
+          "recent": 109
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO COTOVELO E ADULTO",
+          "stock": 141,
+          "recent": 111
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO COLUNA LOMBAR",
+          "stock": 134,
+          "recent": 92
+        },
+        {
+          "name": "USG QUADRIL",
+          "stock": 122,
+          "recent": 109
+        },
+        {
+          "name": "USG PE DIREITO",
+          "stock": 115,
+          "recent": 75
+        },
+        {
+          "name": "ULTRASSONOGRAFIA CERVICAL",
+          "stock": 100,
+          "recent": 86
+        },
+        {
+          "name": "USG PE ESQUERDO",
+          "stock": 99,
+          "recent": 72
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO NAO LISTADA",
+          "stock": 96,
+          "recent": 52
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO COXO-FEMURAL E INFANTIL",
+          "stock": 83,
+          "recent": 68
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO COXO-FEMURAL D INFANTIL",
+          "stock": 78,
+          "recent": 69
+        },
+        {
+          "name": "ULTRASSONOGRAFIA DA REGIAO LOMBAR",
+          "stock": 55,
+          "recent": 45
+        },
+        {
+          "name": "USG BRACO ESQUERDO",
+          "stock": 50,
+          "recent": 7
+        },
+        {
+          "name": "ECOGRAFIA PELVICA",
+          "stock": 47,
+          "recent": 47
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO COXO-FEMURAL D ADULTO",
+          "stock": 46,
+          "recent": 36
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO COXO-FEMURAL E ADULTO",
+          "stock": 37,
+          "recent": 27
+        },
+        {
+          "name": "USG BRACO DIREITO",
+          "stock": 28,
+          "recent": 7
+        },
+        {
+          "name": "USG PERNA ESQUERDA",
+          "stock": 27,
+          "recent": 17
+        },
+        {
+          "name": "USB AXILA DIREITA",
+          "stock": 23,
+          "recent": 17
+        },
+        {
+          "name": "USG AXILA ESQUERDA",
+          "stock": 20,
+          "recent": 13
+        },
+        {
+          "name": "ULTRASSONOGRAFIA COM DOPPLER COLORIDO DE REGIAO CERVICAL",
+          "stock": 17,
+          "recent": 14
+        },
+        {
+          "name": "USG PERNA DIREITA",
+          "stock": 17,
+          "recent": 12
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO JOELHO D INFANTIL",
+          "stock": 16,
+          "recent": 11
+        },
+        {
+          "name": "ULTRASSONOGRAFIA DO DEDO",
+          "stock": 16,
+          "recent": 10
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO JOELHO E INFANTIL",
+          "stock": 15,
+          "recent": 11
+        },
+        {
+          "name": "ULTRASSONOGRAFIA DO CALCANEO",
+          "stock": 15,
+          "recent": 11
+        },
+        {
+          "name": "ULTRASSONOGRAFIA DAS GLANDULAS SUBMANDIBULARES",
+          "stock": 12,
+          "recent": 11
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO PUNHO E INFANTIL",
+          "stock": 9,
+          "recent": 5
+        },
+        {
+          "name": "USG ANTEBRACO ESQUERDO",
+          "stock": 8,
+          "recent": 6
+        },
+        {
+          "name": "DOPPLER DE AORTA E ILIACA",
+          "stock": 6,
+          "recent": 0
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO PUNHO D INFANTIL",
+          "stock": 6,
+          "recent": 4
+        },
+        {
+          "name": "USG TENDAO DE AQUILES ESQUERDO",
+          "stock": 6,
+          "recent": 4
+        },
+        {
+          "name": "ULTRASSONOGRAFIA DA REGIAO GLUTEA",
+          "stock": 5,
+          "recent": 3
+        },
+        {
+          "name": "ECOGRAFIA DE QUADRIL DIREITO",
+          "stock": 4,
+          "recent": 4
+        },
+        {
+          "name": "ULTRASSONOGRAFIA DA BACIA",
+          "stock": 4,
+          "recent": 2
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO TORNOZELO E INFANTIL",
+          "stock": 3,
+          "recent": 3
+        },
+        {
+          "name": "ECOGRAFIA  DE ARTICULACAO TORNOZELO D INFANTIL",
+          "stock": 2,
+          "recent": 2
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO COXA ESQUERDA",
+          "stock": 2,
+          "recent": 2
+        },
+        {
+          "name": "ECOGRAFIA DE QUADRIL ESQUERDO",
+          "stock": 2,
+          "recent": 2
+        },
+        {
+          "name": "ULTRA-SONOGRAFIA DE REGIAO CERVICAL (PESCOCO)",
+          "stock": 2,
+          "recent": 0
+        },
+        {
+          "name": "USG ESTRUTURA SUPERFICIE",
+          "stock": 2,
+          "recent": 2
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO COTOVELO D INFANTIL",
+          "stock": 1,
+          "recent": 1
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO COTOVELO E INFANTIL",
+          "stock": 1,
+          "recent": 1
+        },
+        {
+          "name": "ECOGRAFIA DE ARTICULACAO COXA DIREITA",
+          "stock": 1,
+          "recent": 1
+        },
+        {
+          "name": "USG COXA DIREITA",
+          "stock": 1,
+          "recent": 0
+        },
+        {
+          "name": "USG OMBRO ESQUERDO",
+          "stock": 1,
+          "recent": 0
+        },
+        {
+          "name": "USG TENDAO DE AQUILES DIREITO",
+          "stock": 1,
+          "recent": 1
+        }
+      ]
+    },
+    {
+      "code": "0206010060",
+      "code_fmt": "02.06.01.006-0",
+      "name": "TC de sela túrcica",
+      "official": "TOMOGRAFIA COMPUTADORIZADA DE SELA TURCICA",
+      "decision": "Residual; não sustenta o orçamento",
+      "overlap": "Confirmar órbita versus sela; recorte eletivo",
+      "reserve": 0,
+      "stock": 45,
+      "recent": 45,
+      "entries": 375,
+      "scheduled": 419,
+      "performed": 249,
+      "absent": 96,
+      "base": 97.44,
+      "increment": 2.08,
+      "with_increment": 300.12,
+      "candanga": 371.02,
+      "page": 5,
+      "retail": null,
+      "retail_quality": "Sem cotação neste estudo",
+      "retail_url": "",
+      "protocols": [
+        {
+          "name": "047. TC DE ORBITAS ADULTO C/CONTRASTE S/SEDACAO",
+          "stock": 18,
+          "recent": 18
+        },
+        {
+          "name": "TC DE ORBITA INFANTIL C/CONTRASTE  S/SEDACAO  EMERG.",
+          "stock": 11,
+          "recent": 11
+        },
+        {
+          "name": "039. TC DE SELA TURCICA ADULTO C/CONTRASTE S/SEDACAO",
+          "stock": 4,
+          "recent": 4
+        },
+        {
+          "name": "TC  DE ORBITA ADULTO S/CONTRASTE  S/SEDACAO EMERGENCIA",
+          "stock": 3,
+          "recent": 3
+        },
+        {
+          "name": "TC DE ORBITA INFANTIL S/CONTRASTE S/SEDACAO EMERG.",
+          "stock": 3,
+          "recent": 3
+        },
+        {
+          "name": "TC  DE SELA TURCICA INFANTIL S/CONTRASTE S/SEDACAO EMERG.",
+          "stock": 2,
+          "recent": 2
+        },
+        {
+          "name": "033. TC DE SELA TURCICA INFANTIL S/CONTRASTE S/SEDACAO",
+          "stock": 1,
+          "recent": 1
+        },
+        {
+          "name": "TC  DE ORBITA ADULTO C/CONTRASTE S/SEDACAO  EMERGENCIA",
+          "stock": 1,
+          "recent": 1
+        },
+        {
+          "name": "TC  DE SELA TURCICA ADULTO C/CONTRASTE S/SEDACAO  EMERG.",
+          "stock": 1,
+          "recent": 1
+        },
+        {
+          "name": "TC  DE SELA TURCICA INFANTIL C/CONTRASTE S/SEDACAO EMERG.",
+          "stock": 1,
+          "recent": 1
+        }
+      ]
+    }
+  ],
+  "sources": [
+    [
+      "D1",
+      "Decisão do usuário em 03/11/2026: reservar eco e eletro à emenda de R$ 2 milhões de cardiologia",
+      "Conversa deste estudo; eletro entendido como eletrocardiograma"
+    ],
+    [
+      "S1",
+      "Fila e produção: Mapa Social, recarga 02/11/2026; pedidos até 28/10/2026",
+      "/Users/hendrick/Projetos/planos-ses/estudos imagens/revisao_carteira1_20261102/fontes_preservadas/dados/fontes/mapa_social_20261102_imagem_bruto/coleta_20261102.json"
+    ],
+    [
+      "S2",
+      "Carteira 1: estudo revisado; proposta em elaboração, não contrato executado",
+      "/Users/hendrick/Projetos/planos-ses/estudos imagens/revisao_carteira1_20261102/estudo_carteira1_revisado.md"
+    ],
+    [
+      "S3",
+      "IEV/OCI aprovadas e correção da fronteira por CID: seção 7",
+      "/Users/hendrick/Projetos/planos-ses/estudos imagens/revisao_carteira1_20261102/versao_anterior/estudo_outros_planos_imagem_20261102.md"
+    ],
+    [
+      "S4",
+      "SIGTAP 10/2026: base SA e incremento 38.01 no pacote oficial em cache",
+      "/Users/hendrick/.cache/planos-ses/tabela_unificada/TabelaUnificada_202610_v2610271043.zip"
+    ],
+    [
+      "S5",
+      "Anexo oficial Candanga SIA; não é Valor Máximo do estudo de agosto",
+      "/Users/hendrick/Projetos/planos-ses/outputs/estudo_imagem_candanga_20261101/tabela_oficial_sia.json"
+    ],
+    [
+      "S6",
+      "Deliberação CG-SES 46/2026; complementação distrital e requisitos",
+      "https://www.sinj.df.gov.br/sinj/Norma/08cdc67f1b9a46158271100a13d7d382/Delibera_o_46_21_09_2026.html"
+    ],
+    [
+      "S7",
+      "SAES 4.694/2026, arts. 2 a 6; habilitação e efeitos até 31/12/2026",
+      "/Users/hendrick/Projetos/planos-ses/biblioteca/extraidos_normas/SAES 4694-2026 rol imagem ambulatorial/texto.md"
+    ],
+    [
+      "S8",
+      "GM/MS 12.116/2026: permissão federal não equivale a adoção automática local",
+      "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2026/prt12116_24_08_2026.html"
+    ],
+    [
+      "S9",
+      "Lei DF 7.897/2026, art. 4º §1º: complemento próprio",
+      "/Users/hendrick/Projetos/planos-ses/biblioteca/extraidos_normas/Lei DF 7897 de 28_05_2026 Tabela SUS Candanga/texto.md"
+    ],
+    [
+      "S10",
+      "Ministério da Saúde: incremento no componente Crédito Financeiro; não é convênio automaticamente",
+      "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/julho/ministerio-da-saude-atualiza-valores-para-oferta-de-tomografias-e-ressonancias-na-rede-privada-pelo-sus"
+    ],
+    [
+      "S11",
+      "Minha Clínica, preço publicado de ecocardiograma; consultado 03/11/2026",
+      "https://minhaclinica.com/exames/"
+    ],
+    [
+      "S12",
+      "Dr.Achei, densitometria Taguatinga, a partir de; consultado 03/11/2026",
+      "https://app.drachei.com.br/preco-densitometria-ossea-brasilia-df"
+    ],
+    [
+      "S13",
+      "Dr.Achei, mamografia Taguatinga, a partir de; consultado 03/11/2026",
+      "https://app.drachei.com.br/preco-mamografia-digital-bilateral-brasilia-df"
+    ],
+    [
+      "S14",
+      "Doctor Saúde, RM Brasília, a partir de; sem executor/protocolo definido",
+      "https://doctorsaude.com.br/ressonancia-magnetica-brasilia"
+    ],
+    [
+      "S15",
+      "Exame Social, referências exploratórias sem cidade confirmada; não usar como custo contratado",
+      "https://examesocial.com.br/"
+    ]
+  ],
+  "selected_plan4_codes": [
+    "02.05.01.004-0",
+    "02.05.02.003-8",
+    "02.05.02.004-6",
+    "02.05.02.005-4",
+    "02.05.02.007-0",
+    "02.05.02.009-7",
+    "02.05.02.010-0",
+    "02.05.02.012-7",
+    "02.05.02.016-0",
+    "02.05.02.017-8",
+    "02.05.02.018-6",
+    "02.06.01.004-4",
+    "02.06.01.005-2",
+    "02.06.01.007-9",
+    "02.06.02.003-1",
+    "02.06.03.001-0",
+    "02.06.03.003-7"
+  ],
+  "plan4_total": 79219,
+  "fichas": {
+    "0204030188": {
+      "codigo": "02.04.03.018-8",
+      "nome": "MAMOGRAFIA BILATERAL PARA RASTREAMENTO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 45.0,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 420,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0204060028": {
+      "codigo": "02.04.06.002-8",
+      "nome": "DENSITOMETRIA OSSEA DUO-ENERGETICA DE COLUNA (VERTEBRAS LOMBARES E/OU FEMUR)",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 55.1,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 9999,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0205010032": {
+      "codigo": "02.05.01.003-2",
+      "nome": "ECOCARDIOGRAFIA TRANSTORACICA",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 67.86,
+      "valor_sh": 67.86,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0205020062": {
+      "codigo": "02.05.02.006-2",
+      "nome": "ULTRASSONOGRAFIA DE ARTICULACAO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 24.2,
+      "valor_sh": 24.2,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0206010060": {
+      "codigo": "02.06.01.006-0",
+      "nome": "TOMOGRAFIA COMPUTADORIZADA DE SELA TURCICA",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 97.44,
+      "valor_sh": 97.44,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.06.03.004-5",
+          "nome": "CONTRASTE PARA TOMOGRAFIA COMPUTADORIZADA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "04.17.01.006-0",
+          "nome": "SEDACAO",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        }
+      ]
+    },
+    "0206010095": {
+      "codigo": "02.06.01.009-5",
+      "nome": "TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT)",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 2107.22,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [
+        "C180",
+        "C181",
+        "C182",
+        "C183",
+        "C184",
+        "C185",
+        "C186",
+        "C187",
+        "C188",
+        "C19",
+        "C20",
+        "C340",
+        "C341",
+        "C342",
+        "C343",
+        "C810",
+        "C811",
+        "C812",
+        "C813",
+        "C817",
+        "C819",
+        "C820",
+        "C821",
+        "C822",
+        "C827",
+        "C829",
+        "C830",
+        "C831",
+        "C832",
+        "C833",
+        "C834",
+        "C836",
+        "C838",
+        "C839",
+        "C840",
+        "C841",
+        "C842",
+        "C843",
+        "C844",
+        "C845",
+        "C857",
+        "C859",
+        "C883",
+        "C887",
+        "C889"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0207010048": {
+      "codigo": "02.07.01.004-8",
+      "nome": "RESSONANCIA MAGNETICA DE COLUNA LOMBO-SACRA",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 268.75,
+      "valor_sh": 268.75,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.06.03.005-3",
+          "nome": "CONTRASTE PARA RESSONÂNCIA MAGNÉTICA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "04.17.01.006-0",
+          "nome": "SEDACAO",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        }
+      ]
+    },
+    "0207010064": {
+      "codigo": "02.07.01.006-4",
+      "nome": "RESSONANCIA MAGNETICA DE CRANIO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 268.75,
+      "valor_sh": 268.75,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.06.03.005-3",
+          "nome": "CONTRASTE PARA RESSONÂNCIA MAGNÉTICA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "04.17.01.006-0",
+          "nome": "SEDACAO",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        }
+      ]
+    },
+    "0207030014": {
+      "codigo": "02.07.03.001-4",
+      "nome": "RESSONANCIA MAGNETICA DE ABDOMEN SUPERIOR",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 268.75,
+      "valor_sh": 268.75,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.06.03.005-3",
+          "nome": "CONTRASTE PARA RESSONÂNCIA MAGNÉTICA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "04.17.01.006-0",
+          "nome": "SEDACAO",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        }
+      ]
+    },
+    "0207030022": {
+      "codigo": "02.07.03.002-2",
+      "nome": "RESSONANCIA MAGNETICA DE BACIA / PELVE / ABDOMEN INFERIOR",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 268.75,
+      "valor_sh": 268.75,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.06.03.005-3",
+          "nome": "CONTRASTE PARA RESSONÂNCIA MAGNÉTICA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "04.17.01.006-0",
+          "nome": "SEDACAO",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        }
+      ]
+    },
+    "0207030049": {
+      "codigo": "02.07.03.004-9",
+      "nome": "RESSONANCIA MAGNETICA DE VIAS BILIARES/COLANGIORRESSONANCIA",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 268.75,
+      "valor_sh": 268.75,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.06.03.005-3",
+          "nome": "CONTRASTE PARA RESSONÂNCIA MAGNÉTICA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "04.17.01.006-0",
+          "nome": "SEDACAO",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        }
+      ]
+    },
+    "0208010025": {
+      "codigo": "02.08.01.002-5",
+      "nome": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 408.52,
+      "valor_sh": 408.52,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0208010033": {
+      "codigo": "02.08.01.003-3",
+      "nome": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 383.07,
+      "valor_sh": 383.07,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0208030018": {
+      "codigo": "02.08.03.001-8",
+      "nome": "CINTILOGRAFIA DE PARATIREOIDES",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 324.54,
+      "valor_sh": 324.54,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0208040056": {
+      "codigo": "02.08.04.005-6",
+      "nome": "CINTILOGRAFIA RENAL/RENOGRAMA (QUALITATIVA E/OU QUANTITATIVA)",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 133.03,
+      "valor_sh": 133.03,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0208040102": {
+      "codigo": "02.08.04.010-2",
+      "nome": "ESTUDO RENAL DINAMICO C/ OU S/ DIURETICO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 165.24,
+      "valor_sh": 165.24,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    },
+    "0208050035": {
+      "codigo": "02.08.05.003-5",
+      "nome": "CINTILOGRAFIA DE OSSOS COM OU SEM FLUXO SANGUÍNEO (CORPO INTEIRO)",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 190.99,
+      "valor_sh": 190.99,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "06 Média e Alta Complexidade (MAC)",
+      "cid_principal": [],
+      "cid_secundario": [],
+      "compatibilidades": []
+    }
+  },
+  "operating_assumptions": {
+    "budget": 1500000,
+    "months": 8,
+    "support": 150000,
+    "absence": 0.2,
+    "overhead_share": 0.1,
+    "formal_recognition": 0,
+    "legal_period_confirmed": 0
+  }
+}

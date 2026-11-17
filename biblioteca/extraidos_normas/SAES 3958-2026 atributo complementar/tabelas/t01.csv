@@ -1,0 +1,26 @@
+CÓDIGO,NOME,ALTERAÇÃO DE ATRIBUTO
+0902010018,OCI AVALIAÇÃO DE RISCO CIRÚRGICO,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0902010026,OCI AVALIAÇÃO CARDIOLÓGICA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0902010034,OCI AVALIAÇÃO DIAGNÓSTICA INICIAL - SÍNDROME CORONARIANA CRÔNICA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0902010042,OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA I - SÍNDROME CORONARIANA CRÔNICA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0902010050,OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA II - SÍNDROME CORONARIANA CRÔNICA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0902010069,OCI AVALIAÇÃO DIAGNÓSTICA - INSUFICIÊNCIA CARDÍACA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0903010011,OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0903010020,OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E ULTRASSONOGRAFIA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0903010038,OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E TOMOGRAFIA COMPUTADORIZADA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0903010046,OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E RESSONÂNCIA MAGNÉTICA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0904010015,OCI AVALIAÇÃO INICIAL DIAGNÓSTICA DE DÉFICIT AUDITIVO,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0904010023,CI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE DÉFICIT AUDITIVO,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0904010031,CI AVALIAÇÃO DIAGNÓSTICA DE NASOFARINGE E DE OROFARINGE,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0905010019,OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - 0 A 8 ANOS,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0905010027,OCI AVALIAÇÃO DE ESTRABISMO,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0905010035,OCI AVALIAÇÃO INICIAL EM OFTALMOLOGIA - A PARTIR DE 9 ANOS,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0905010043,OCI AVALIAÇÃO DE RETINOPATIA DIABÉTICA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0905010051,OCI AVALIAÇÃO INICIAL PARA ONCOLOGIA OFTALMOLÓGICA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0905010060,OCI AVALIAÇÃO DIAGNÓSTICA EM NEURO OFTALMOLOGIA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0905010078,OCI EXAMES OFTALMOLÓGICOS SOB SEDAÇÃO,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0906010012,GIN1 - AVALIAÇÃO DIAGNÓSTICA INICIAL DE SAÚDE DA MULHER (GINECOLOGIA) I,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0906010020,OCI - GIN1 - AVALIAÇÃO DIAGNÓSTICA INICIAL DE SAÚDE DA MULHER (GINECOLOGIA) II,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0906010039,OCI - GIN2 - PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SAÚDE DA MULHER (GINECOLOGIA) - SANGRAMENTO UTERINO ANORMAL I,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0906010047,OCI - GIN2 - PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SAÚDE DA MULHER (GINECOLOGIA)- SANGRAMENTO UTERINO ANORMAL II,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências
+0906010055,OCI - GIN3 - PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SAÚDE DA MULHER (GINECOLOGIA)- ENDOMETRIOSE PROFUNDA- CASOS COMPLEXOS E PROGRAMAÇÃO CIRÚRGICA,Exclui o Atributo Complementar: 054 - APAC com validade fixa de 2 competências

@@ -1,0 +1,17 @@
+id: "SAES 1640-2024 operacionalizacao"
+arquivo: "SAES 1640-2024 operacionalizacao.pdf"
+processo_sei: ""
+sha256: "424dd4186fc2ca8edaed7c616dd9c1b0996edaaa51b865ec5b9237a2f3bb936d"
+paginas: 6
+chars_texto: 23534
+tabelas_total: 1
+tabelas_por_pagina:
+  pagina_6: 1
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:15"

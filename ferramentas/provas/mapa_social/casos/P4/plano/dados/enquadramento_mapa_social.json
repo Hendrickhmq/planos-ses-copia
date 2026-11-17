@@ -1,0 +1,146 @@
+{
+ "atualizado": "26/10/2026",
+ "nota": "decisões do usuário de 15 a 20/10/2026 sobre as filas dos três códigos, como a coleta de 26/10/2026 do redacao_07 as aplicou",
+ "filas": {
+  "MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA)": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano, reserva (usuário, 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.04.03.018-8"
+  },
+  "MAMOGRAFIA BILATERAL DIAGNOSTICA": {
+   "decisao": "a decidir",
+   "motivo": "mamografia diagnóstica pedida no código de rastreamento",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.04.03.018-8"
+  },
+  "ECOGRAFIA DE BOLSA ESCROTAL ADULTO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.05.02.007-0"
+  },
+  "ECOGRAFIA DE BOLSA ESCROTAL INFANTIL": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.05.02.007-0"
+  },
+  "ULTRASSONOGRAFIA COM DOPPLER COLORIDO DA BOLSA ESCROTAL": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.05.02.007-0"
+  },
+  "ULTRASSONOGRAFIA  COM DOPPLER COLORIDO DOS TESTICULOS": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.05.02.007-0"
+  },
+  "TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA": {
+   "decisao": "a decidir",
+   "motivo": "fila de emergência (pronto-atendimento) com o código da carteira",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "031. TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "ANGIOTOMOGRAFIA DO CRANIO ADULTO S/SEDACAO": {
+   "decisao": "a decidir",
+   "motivo": "angiotomografia registrada no código da carteira",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA": {
+   "decisao": "a decidir",
+   "motivo": "fila de emergência (pronto-atendimento) com o código da carteira",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "TC DE CRANIO INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA": {
+   "decisao": "a decidir",
+   "motivo": "fila de emergência (pronto-atendimento) com o código da carteira",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "029. TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "TC DE CRANIO INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA": {
+   "decisao": "a decidir",
+   "motivo": "fila de emergência (pronto-atendimento) com o código da carteira",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "025. TC DE CRANIO INFANTIL S/CONTRASTE S/SEDACAO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "027. TC DE CRANIO INFANTIL C/CONTRASTE S/SEDACAO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "ANGIOTOMOGRAFIA DO CRANIO INFANTIL S/SEDACAO": {
+   "decisao": "a decidir",
+   "motivo": "angiotomografia registrada no código da carteira",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "032. TC DE CRANIO ADULTO C/CONTRASTE C/SEDACAO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "028. TC DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "026. TC DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  },
+  "030. TC DE CRANIO ADULTO S/CONTRASTE C/SEDACAO": {
+   "decisao": "entra",
+   "motivo": "carteira do pré-plano (usuário, 16, 19 e 20/10/2026)",
+   "papel": "exame",
+   "generica": false,
+   "codigo_sigtap": "02.06.01.007-9"
+  }
+ }
+}

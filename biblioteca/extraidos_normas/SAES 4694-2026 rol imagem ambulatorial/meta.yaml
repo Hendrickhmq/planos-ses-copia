@@ -1,0 +1,10 @@
+id: "SAES 4694-2026 rol imagem ambulatorial"
+arquivo: "SAES 4694-2026 rol imagem ambulatorial.html"
+sha256: "e2600e509ef0d15215ada84aa8837487d4235dd834c4516ad07c6952ac76bb7e"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 3419
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

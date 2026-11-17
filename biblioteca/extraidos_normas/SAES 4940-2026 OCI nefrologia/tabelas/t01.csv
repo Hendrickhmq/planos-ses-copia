@@ -1,0 +1,79 @@
+Procedimento,09.09.01.001-3 - OCI AVALIAÇÃO INICIAL ESPECIALIZADA DO PACIENTE COM DOENÇA RENAL CRÔNICA
+Descrição,"PROCEDIMENTO DE OFERTA DE CUIDADO INTEGRADO QUE TEM A FINALIDADE DE ORGANIZAR O ACESSO INICIAL DO PACIENTE COM DOENÇA RENAL CRÔNICA (E TFG < 45 OU PROT > 1) À ATENÇÃO ESPECIALIZADA EM NEFROLOGIA, PROMOVENDO DIAGNÓSTICO OPORTUNO, ESTRATIFICAÇÃO DE"
+,"RISCO E DEFINIÇÃO DO PLANO TERAPÊUTICO, POR MEIO DE CONSULTA OU TELECONSULTA ESPECIALIZADA COM NEFROLOGISTA, EXAMES LABORATORIAIS E DE IMAGEM E CONSULTA OU TELECONSULTA DE RETORNO COM ESPECIALISTA."
+Complexidade,Média Complexidade
+Modalidade de Atendimento,Ambulatorial
+Instrumento de Registro,APAC (Proc. Principal)
+Tipo de Financiamento,04 Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de Financiamento,04.0086 Programa Agora Tem Especialistas -Componente Ambulatorial
+Valor Serviço Ambulatorial (SA),"R$ 544,19"
+Valor Ambulatorial Total,"R$ 544,19"
+Atributo Complementar,052 Componente Complementar - Modalidade 2 058 Obrigatório CPF 053 Programa Mais Acesso a Especialistas (PMAE)
+Sexo,Ambos
+Idade Mínima,0 meses
+idade Máxima,130 anos
+Quantidade Máxima,1
+Categoria CBO,2251-09 Médico nefrologista 2251-25 Médico clínico
+CID 10,N18 Insuficiência renal crônica N18.0 Doença renal em estádio final N18.8 Outra insuficiência renal crônica N18.9 Insuficiência renal crônica não especificada
+Habilitação,38.01 Programa Mais Acesso a Especialistas 38.02 Agora Tem Especialistas Modalidade 1 38.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes 38.05 Agora Tem Especialistas - Componente Créditos Financeiros 38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS
+Regra Condicionada,0009 Condiciona aos secundários a terem valor zerado 0011 Condiciona o registro de procedimentos secundários na APAC 0013 Gera Compensação Financeira 0014 Condiciona o tipo de financiamento em MAC 0015 Condiciona o tipo de financiamento em FAEC
+Procedimento,09.09.01.002-1 - OCI PROGRESSÃO DA AVALIAÇÃO ESPECIALIZADA DO PACIENTE COM DOENÇA RENAL CRÔNICA I
+Descrição,"PROCEDIMENTO DE OFERTA DE CUIDADO INTEGRADO QUE TEM A FINALIDADE DE ACOMPANHAR O PACIENTE COM DOENÇA RENAL CRÔNICA EM ESTÁGIO 3B (TFG < 45 E > 30 ML/MIN/1,73M²) NA ATENÇÃO ESPECIALIZADA EM NEFROLOGIA, PROMOVENDO O MONITORAMENTO DA FUNÇÃO RENAL, A"
+,"IDENTIFICAÇÃO PRECOCE DE SINAIS DE PROGRESSÃO E COMPLICAÇÕES E A ADOÇÃO DE MEDIDAS DE NEFROPROTEÇÃO, VISANDO RETARDAR A PROGRESSÃO DA DOENÇA E GARANTIR A CONTINUIDADE DO CUIDADO, POR MEIO DE CONSULTA OU TELECONSULTA ESPECIALIZADA COM NEFROLOGISTA,"
+,"CONSULTA OU TELECONSULTA COM NUTRICIONISTA, EXAMES LABORATORIAIS E CONSULTA OU TELECONSULTA DE RETORNO COM MÉDICO ESPECIALISTA."
+Complexidade,Média complexidade
+Modalidade de atendimento,Ambulatorial
+Instrumento de registro,APAC (Proc. Principal)
+Tipo de financiamento,04 Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de financiamento,04.0086 Programa Agora Tem Especialistas - Componente Ambulatorial
+Valor Serviço Ambulatorial (SA),"R$ 341,84"
+Valor Ambulatorial Total,"R$ 341,84"
+Atributo Complementar,052 Componente Complementar - Modalidade 2 058 Obrigatório CPF 053 Programa Mais Acesso a Especialistas (PMAE)
+Sexo,Ambos
+Idade Mínima,0 meses
+Idade Máxima,130 anos
+Quantidade Máxima,1
+Categoria CBO,2251-09 Médico nefrologista 2251-25 Médico clínico
+CID-10,N18 Insuficiência renal crônica N18.0 Doença renal em estádio final N18.8 Outra insuficiência renal crônica N18.9 Insuficiência renal crônica não especificada
+Habilitação,38.01 Programa Mais Acesso a Especialistas 38.02 Agora Tem Especialistas Modalidade 1 38.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes 38.05 Agora Tem Especialistas - Componente Créditos Financeiros 38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS
+Regra Condicionada,0009 Condiciona aos secundários a terem valor zerado 0011 Condiciona o registro de procedimentos secundários na APAC 0013 Gera Compensação Financeira 0014 Condiciona o tipo de financiamento em MAC 0015 Condiciona o tipo de financiamento em FAEC
+Procedimento,09.09.01.003-0 - OCI PROGRESSÃO DA AVALIAÇÃO ESPECIALIZADA DO PACIENTE COM DOENÇA RENAL CRÔNICA II
+Descrição,"PROCEDIMENTO DE OFERTA DE CUIDADO INTEGRADO QUE TEM A FINALIDADE DE ACOMPANHAR O PACIENTE COM DOENÇA RENAL CRÔNICA EM ESTÁGIO 4 (TFG < 30 E > 15 ML/MIN/1,73M²) NA ATENÇÃO ESPECIALIZADA EM NEFROLOGIA, PROMOVENDO O MONITORAMENTO DA FUNÇÃO RENAL, O"
+,"MANEJO DAS COMPLICAÇÕES ASSOCIADAS À PROGRESSÃO DA DOENÇA E O PLANEJAMENTO OPORTUNO DO CUIDADO, INCLUINDO A INDICAÇÃO PARA A TERAPIA RENAL SUBSTITUTIVA, SE NECESSÁRIO, POR MEIO DE CONSULTA OU TELECONSULTA ESPECIALIZADA COM NEFROLOGISTA, CONSULTA OU"
+,"TELECONSULTA COM NUTRICIONISTA, DOSAGEM DE MICROALBUMINÚRIA NA URINA, RELAÇÃO ALBUMINÚRIA CREATINÚRIA, OUTROS EXAMES LABORATORIAIS E RETORNO COM ESPECIALISTA."
+Complexidade,Média Complexidade
+Modalidade de Atendimento,Ambulatorial
+Instrumento de Registro,APAC (Proc. Principal)
+Tipo de Financiamento,04 Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de Financiamento,04.0086 Programa Agora Tem Especialistas - Componente Ambulatorial
+Valor Serviço Ambulatorial (SA),"R$ 384,96"
+Valor Ambulatorial Total,"R$ 384,96"
+Atributo Complementar,052 Componente Complementar - Modalidade 2 058 Obrigatório CPF 053 Programa Mais Acesso a Especialistas (PMAE)
+Sexo,Ambos
+Idade Mínima,0 meses
+idade Máxima,130 anos
+Quantidade Máxima,1
+Categoria CBO,2251-09 Médico nefrologista 2251-25 Médico clínico
+CID-10,N18 Insuficiência renal crônica N18.0 Doença renal em estádio final N18.8 Outra insuficiência renal crônica N18.9 Insuficiência renal crônica não especificada
+Habilitação,38.01 Programa Mais Acesso a Especialistas 38.02 Agora Tem Especialistas Modalidade 1 38.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes 38.05 Agora Tem Especialistas - Componente Créditos Financeiros 38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS
+Regra Condicionada,0009 Condiciona aos secundários a terem valor zerado 0011 Condiciona o registro de procedimentos secundários na APAC 0013 Gera Compensação Financeira 0014 Condiciona o tipo de financiamento em MAC 0015 Condiciona o tipo de financiamento em FAEC
+Procedimento,09.09.01.004-8 - OCI PROGRESSÃO DA AVALIAÇÃO ESPECIALIZADA DO PACIENTE COM DOENÇA RENAL CRÔNICA - III
+Descrição,"PROCEDIMENTO DE OFERTA DE CUIDADO INTEGRADO QUE TEM A FINALIDADE DE ACOMPANHAR O PACIENTE COM DOENÇA RENAL CRÔNICA EM ESTÁGIO 5 (TFG < 15 ML/MIN/1,73M²) NA ATENÇÃO ESPECIALIZADA EM NEFROLOGIA, PROMOVENDO O MONITORAMENTO CLÍNICO E LABORATORIAL, O"
+,"MANEJO DAS COMPLICAÇÕES ASSOCIADAS À DOENÇA RENAL AVANÇADA E O PLANEJAMENTO OPORTUNO PARA INÍCIO DA TERAPIA RENAL SUBSTITUTIVA, QUANDO INDICADA, POR MEIO DE CONSULTA OU TELECONSULTA ESPECIALIZADA COM NEFROLOGISTA, CONSULTA OU TELECONSULTA COM"
+,"NUTRICIONISTA, EXAMES LABORATORIAIS, GASOMETRIA ARTERIAL E RETORNO COM MÉDICO ESPECIALISTA."
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Instrumento de Registro,APAC (Proc. Principal)
+Tipo de Financiamento,04 Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de Financiamento,04.0086 Programa Agora Tem Especialistas -Componente Ambulatorial
+Valor Serviço Ambulatorial (SA),R$ 398.17
+Valor Ambulatorial Total,R$ 398.17
+Sexo,Ambos
+Idade Mínima,0 meses
+Idade Máxima,130 anos
+Quantidade Máxima,1
+Atributo Complementar,052 Componente Complementar - Modalidade 2 058 Obrigatório CPF 053 Programa Mais Acesso a Especialistas (PMAE)
+Categoria CBO,2251-09 Médico nefrologista
+CID-10,N18 Insuficiência renal crônica N18.0 Doença renal em estádio final N18.8 Outra insuficiência renal crônica N18.9 Insuficiência renal crônica não especificada
+Habilitação,38.01 Programa Mais Acesso a Especialistas 38.02 Agora Tem Especialistas Modalidade 1 38.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes 38.05 Agora Tem Especialistas - Componente Créditos Financeiros 38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS
+Regra condicionada,0009 Condiciona aos secundários a terem valor zerado 0011 Condiciona o registro de procedimentos secundários na APAC 0013 Gera compensação financeira 0014 Condiciona o tipo de financiamento em MAC 0015 Condiciona o tipo de financiamento em FAEC

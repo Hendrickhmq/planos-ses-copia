@@ -1,0 +1,185 @@
+{
+ "P1": {
+  "tamanho": "amplo",
+  "plano": "redacao_99",
+  "ancora": null,
+  "gabarito": "responde à ordem inteira (os dois universos, com a Região de Saúde); nomes exatos; nada de ranking nem recomendação na resposta",
+  "arbitro": {
+   "fila da consulta de otorrino geral": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM OTORRINOLARINGOLOGIA - GERAL'}, codigo_sigtap_solicitacao={301010072}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}>} contador_solicitacao)",
+   "pessoas na consulta de otorrino geral": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM OTORRINOLARINGOLOGIA - GERAL'}, codigo_sigtap_solicitacao={301010072}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}>} cns_usuario_solicitacao)",
+   "fila da ecografia de mamas bilateral": "Count(Distinct {1<descrição_procedimento_solicitacao={'ECOGRAFIA DE MAMAS - BILATERAL'}, codigo_sigtap_solicitacao={205020097}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}>} contador_solicitacao)"
+  },
+  "arbitro_por_ano": "Count(Distinct {1<descrição_procedimento_solicitacao={'ECOGRAFIA DE MAMAS - BILATERAL'}, codigo_sigtap_solicitacao={205020097}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}>} contador_solicitacao)",
+  "compara": {
+   "fila da consulta de otorrino geral": [
+    "panorama",
+    "consultas especializadas",
+    "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL",
+    "301010072",
+    "fila"
+   ],
+   "pessoas na consulta de otorrino geral": [
+    "panorama",
+    "consultas especializadas",
+    "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL",
+    "301010072",
+    "pessoas"
+   ],
+   "fila da ecografia de mamas bilateral": [
+    "panorama",
+    "ultrassonografia",
+    "ECOGRAFIA DE MAMAS - BILATERAL",
+    "205020097",
+    "fila"
+   ]
+  },
+  "ancora_filas": [
+   "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL",
+   "ECOGRAFIA DE MAMAS - BILATERAL"
+  ],
+  "nota": "a soma das filas do panorama não é o total distinto do universo: na base de 26/10/2026 22:32, dois pedidos da ultrassonografia contam em dois pares nome × código (100.431 somados, 100.429 distintos); o árbitro compara números por fila"
+ },
+ "P2": {
+  "tamanho": "dada a fila",
+  "plano": "redacao_08",
+  "ancora": "redacao_08, coleta de 25/10/2026 (ramo plano_oci_cardiologia): 006-9 teto 50.055 (viva 29.097), finalidade 6.510 (4.620), núcleo 2.077; 004-2 teto = finalidade 2.055 (1.651), núcleo 2.026",
+  "gabarito": "teto ≠ finalidade na 006-9; CID largo, CID dominante e fila genérica disparam pelo montador; ECG e Holter a decidir",
+  "arbitro": {
+   "006-9 finalidade pessoas": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA','CONSULTA EM CARDIOLOGIA - ADULTO','ELETROCARDIOGRAMA','TESTE DE ESFORCO OU TESTE ERGOMETRICO 2','HOLTER 24 HORAS','1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}, codigo_cid_solicitado={\"I50*\"}, idade_solicitacao={\">=18<=130\"}>} cns_usuario_solicitacao)",
+   "006-9 teto pessoas": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA','CONSULTA EM CARDIOLOGIA - ADULTO','ELETROCARDIOGRAMA','TESTE DE ESFORCO OU TESTE ERGOMETRICO 2','HOLTER 24 HORAS','1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}, codigo_cid_solicitado={\"I*\"}, idade_solicitacao={\">=18<=130\"}>} cns_usuario_solicitacao)",
+   "004-2 finalidade pessoas viva": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM CARDIOLOGIA - CORONARIA','CONSULTA EM CARDIOLOGIA - ADULTO','5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}, codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}, idade_solicitacao={\">=18<=130\"}, data_solicitacao={\">=__VIVA__\"}>} cns_usuario_solicitacao)"
+  },
+  "arbitro_por_ano": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA','CONSULTA EM CARDIOLOGIA - ADULTO','ELETROCARDIOGRAMA','TESTE DE ESFORCO OU TESTE ERGOMETRICO 2','HOLTER 24 HORAS','1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}, codigo_cid_solicitado={\"I50*\"}, idade_solicitacao={\">=18<=130\"}>} contador_solicitacao)",
+  "compara": {
+   "006-9 finalidade pessoas": [
+    "ocis",
+    "09.02.01.006-9",
+    "finalidade",
+    "pessoas"
+   ],
+   "006-9 teto pessoas": [
+    "ocis",
+    "09.02.01.006-9",
+    "teto",
+    "pessoas"
+   ],
+   "004-2 finalidade pessoas viva": [
+    "ocis",
+    "09.02.01.004-2",
+    "finalidade",
+    "pessoas_viva"
+   ]
+  },
+  "ancora_filas": [
+   "ELETROCARDIOGRAMA",
+   "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+   "HOLTER 24 HORAS",
+   "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+   "CONSULTA EM CARDIOLOGIA - ADULTO",
+   "CONSULTA EM CARDIOLOGIA - CORONARIA",
+   "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+   "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO"
+  ]
+ },
+ "P3": {
+  "tamanho": "estreito, OCI",
+  "plano": "redacao_05",
+  "ancora": "redacao_05, coleta de 08/10/2026: 3.459 pessoas nos três exames com J30–J39; 5.402 com a consulta de otorrino geral",
+  "gabarito": "finalidade = teto, dito; as filas de consulta achadas (respirador bucal, rinologia)",
+  "arbitro": {
+   "finalidade pessoas": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM OTORRINOLARINGOLOGIA - GERAL','VIDEOENDOSCOPIA  NASAL  FLEXIVEL','VIDEOENDOSCOPIA NASAL RIGIDA','VIDEOLARINGOSCOPIA'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}, codigo_cid_solicitado={\"J30*\",\"J31*\",\"J32*\",\"J33*\",\"J34*\",\"J35*\",\"J36*\",\"J37*\",\"J38*\",\"J39*\"}>} cns_usuario_solicitacao)",
+   "finalidade pessoas viva": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM OTORRINOLARINGOLOGIA - GERAL','VIDEOENDOSCOPIA  NASAL  FLEXIVEL','VIDEOENDOSCOPIA NASAL RIGIDA','VIDEOLARINGOSCOPIA'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}, codigo_cid_solicitado={\"J30*\",\"J31*\",\"J32*\",\"J33*\",\"J34*\",\"J35*\",\"J36*\",\"J37*\",\"J38*\",\"J39*\"}, data_solicitacao={\">=__VIVA__\"}>} cns_usuario_solicitacao)",
+   "nucleo pessoas": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM OTORRINOLARINGOLOGIA - GERAL'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}, codigo_cid_solicitado={\"J30*\",\"J31*\",\"J32*\",\"J33*\",\"J34*\",\"J35*\",\"J36*\",\"J37*\",\"J38*\",\"J39*\"}>} cns_usuario_solicitacao)"
+  },
+  "arbitro_por_ano": "Count(Distinct {1<descrição_procedimento_solicitacao={'CONSULTA EM OTORRINOLARINGOLOGIA - GERAL','VIDEOENDOSCOPIA  NASAL  FLEXIVEL','VIDEOENDOSCOPIA NASAL RIGIDA','VIDEOLARINGOSCOPIA'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}, codigo_cid_solicitado={\"J30*\",\"J31*\",\"J32*\",\"J33*\",\"J34*\",\"J35*\",\"J36*\",\"J37*\",\"J38*\",\"J39*\"}>} contador_solicitacao)",
+  "compara": {
+   "finalidade pessoas": [
+    "ocis",
+    "09.04.01.003-1",
+    "finalidade",
+    "pessoas"
+   ],
+   "finalidade pessoas viva": [
+    "ocis",
+    "09.04.01.003-1",
+    "finalidade",
+    "pessoas_viva"
+   ],
+   "nucleo pessoas": [
+    "ocis",
+    "09.04.01.003-1",
+    "nucleo",
+    "pessoas"
+   ]
+  },
+  "ancora_filas": [
+   "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL",
+   "VIDEOENDOSCOPIA  NASAL  FLEXIVEL",
+   "VIDEOENDOSCOPIA NASAL RIGIDA",
+   "VIDEOLARINGOSCOPIA",
+   "CONSULTA PARA RESPIRADOR BUCAL",
+   "CONSULTA EM  RINOLOGIA"
+  ]
+ },
+ "P4": {
+  "tamanho": "estreito, exame",
+  "plano": "redacao_07",
+  "ancora": "redacao_07, coleta de 26/10/2026 (16:32): bolsa escrotal 706 + 234 + 18 + 9 pedidos; mamografia de rotina 6.725; TC de crânio eletiva 382 + 45 + 12 + 4 + 3 + 2 + 2 + 2; emergência 392 + 136 + 68 + 23",
+  "gabarito": "acha o nome exato pelo motor (o nome com espaço duplo digitado com espaço simples: nenhuma fila dos três códigos tem espaço não separável na base de 26/10/2026); separa a TC de emergência como fila achada; nenhuma decisão do agente",
+  "arbitro": {
+   "bolsa escrotal pessoas": "Count(Distinct {1<descrição_procedimento_solicitacao={'ECOGRAFIA DE BOLSA ESCROTAL ADULTO','ECOGRAFIA DE BOLSA ESCROTAL INFANTIL','ULTRASSONOGRAFIA COM DOPPLER COLORIDO DA BOLSA ESCROTAL','ULTRASSONOGRAFIA  COM DOPPLER COLORIDO DOS TESTICULOS'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}>} cns_usuario_solicitacao)",
+   "mamografia pessoas": "Count(Distinct {1<descrição_procedimento_solicitacao={'MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA)'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}>} cns_usuario_solicitacao)",
+   "TC de crânio pessoas": "Count(Distinct {1<descrição_procedimento_solicitacao={'031. TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO','029. TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO','025. TC DE CRANIO INFANTIL S/CONTRASTE S/SEDACAO','027. TC DE CRANIO INFANTIL C/CONTRASTE S/SEDACAO','032. TC DE CRANIO ADULTO C/CONTRASTE C/SEDACAO','028. TC DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO','026. TC DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO','030. TC DE CRANIO ADULTO S/CONTRASTE C/SEDACAO'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}>} cns_usuario_solicitacao)"
+  },
+  "arbitro_por_ano": "Count(Distinct {1<descrição_procedimento_solicitacao={'MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA)'}, status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}>} contador_solicitacao)",
+  "compara": {
+   "bolsa escrotal pessoas": [
+    "exames",
+    "02.05.02.007-0",
+    "uniao",
+    "pessoas"
+   ],
+   "mamografia pessoas": [
+    "exames",
+    "02.04.03.018-8",
+    "uniao",
+    "pessoas"
+   ],
+   "TC de crânio pessoas": [
+    "exames",
+    "02.06.01.007-9",
+    "uniao",
+    "pessoas"
+   ]
+  },
+  "ancora_filas": [
+   "ECOGRAFIA DE BOLSA ESCROTAL ADULTO",
+   "ECOGRAFIA DE BOLSA ESCROTAL INFANTIL",
+   "ULTRASSONOGRAFIA COM DOPPLER COLORIDO DA BOLSA ESCROTAL",
+   "ULTRASSONOGRAFIA  COM DOPPLER COLORIDO DOS TESTICULOS",
+   "MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA)",
+   "031. TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO",
+   "029. TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO",
+   "025. TC DE CRANIO INFANTIL S/CONTRASTE S/SEDACAO",
+   "027. TC DE CRANIO INFANTIL C/CONTRASTE S/SEDACAO",
+   "032. TC DE CRANIO ADULTO C/CONTRASTE C/SEDACAO",
+   "028. TC DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO",
+   "026. TC DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO",
+   "030. TC DE CRANIO ADULTO S/CONTRASTE C/SEDACAO",
+   "MAMOGRAFIA BILATERAL DIAGNOSTICA",
+   "TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA",
+   "TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA",
+   "ANGIOTOMOGRAFIA DO CRANIO ADULTO S/SEDACAO"
+  ]
+ },
+ "P5": {
+  "tamanho": "incompleto",
+  "plano": "redacao_08",
+  "ancora": null,
+  "gabarito": "para e lista o que falta (o CID da finalidade e a ficha na pasta); nenhum número; o painel nem abre",
+  "arbitro": {},
+  "compara": {},
+  "ancora_filas": []
+ }
+}

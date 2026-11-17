@@ -1,0 +1,221 @@
+
+======== REPLACE  [nosso Plano de Trabalho] -> [deles ?]
+  - # Plano de Trabalho
+  + Plano de Trabalho
+  + Sumário
+
+======== REPLACE  [nosso 1.1 Proponente] -> [deles 1.1 Proponente]
+  - |Razão social|[preencher]|
+  - |CNPJ|[preencher]|
+  - |Endereço|[preencher]|
+  - |CNES|[preencher]|
+  - |Representante legal|[preencher]|
+  - |Telefone e correio eletrônico|[preencher]|
+  + |Razão social|Instituto de Saúde Humanidade e Pesquisa – ISHP|
+  + |CNPJ|17.517.805/0003-71|
+  + |Endereço|Setor de Indústria e Abastecimento (SCIA), Quadra 13, Conjunto 4, Lote 12, s/n, Sala 03, CEP 71.250-225, Brasília/DF|
+  + |CNES|8078858|
+  + |Representante legal|Wbirajara Rocha de Souza, Diretor-Presidente|
+  + |Telefone e correio eletrônico|(21) 6447-1834; contato@institutosaudehumanidade.org.br|
+
+======== REPLACE  [nosso 2.4 Público-alvo] -> [deles 2.4 Público-alvo]
+  - A solicitação chega pela regulação, com a classificação de risco atribuída pela unidade solicitante — o convênio não seleciona usuário nem capta demanda própria, e a ordem de atendimento é a que a subseção 5.2 descreve.
+  + A solicitação chega pela regulação, com a classificação de risco atribuída pela unidade solicitante — o convênio não seleciona usuário nem capta demanda própria, e a ordem de atendimento é a que a subseção 5.2 descreve. A priorização clínica é a do SISREG: a fila chega ao polo ordenada e classificada, o proponente agenda nessa ordem e não reclassifica o usuário, e a justificativa da prioridade é da Secretaria de Estado de Saúde e da unidade solicitante, que registram a condição clínica no SISREG.
+
+======== REPLACE  [nosso 3.1 A fila] -> [deles 3.1 A fila]
+  - O convênio resolve a totalidade das 78.572 solicitações.
+  + O convênio resolve a totalidade das 78.572 solicitações, ressalvadas as encerradas na validação da fila, na forma da subseção 5.9.
+
+======== REPLACE  [nosso 4. Proponente] -> [deles 4. Proponente]
+  - [preencher: apresentação narrativa do proponente — natureza jurídica, tempo de atuação, serviços de diagnóstico por imagem em operação, habilitações sanitárias e experiência prévia com a rede pública]
+  + 4.1. Histórico Institucional
+  + O INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA, nome fantasia SAÚDE MODELO, é uma associação privada sem fins lucrativos, com sede em Brasília/DF, fundada em 14/01/2013, com a missão de promover a saúde, a humanização do cuidado e a pesquisa científica aplicada ao SUS.
+  + A entidade atua na área da saúde desde 2013, com foco em:
+  + - Gestão de serviços de saúde (hospitalar, ambulatorial e de urgência/emergência).
+  + - Atividades de apoio à gestão de saúde.
+  + - Práticas integrativas e complementares em saúde humana.
+  + - Ensino, pesquisa e extensão em saúde.
+  + 4.2. Estrutura Organizacional
+  + A entidade possui a seguinte estrutura organizacional:
+  + - Assembleia Geral: instância máxima de deliberação;
+  + - Conselho de Administração: aprova as diretrizes estratégicas, com as áreas de Auditoria, Compliance, Ouvidoria e Controladoria a ele vinculadas;
+  + - Conselho Fiscal: responsável pela fiscalização contábil e financeira;
+  + - Diretoria Executiva: gestão operacional, com Gestão da Qualidade, Jurídico, Comunicação e Marketing, Captação de Recursos e Administrativo-financeiro (Tecnologia da Informação, Gestão de Pessoas, Aquisições e Contratos, Manutenção e Obras, Abastecimento, Financeiro e Contabilidade);
+  + - Eixos de atuação: Desenvolvimento Social, Meio Ambiente, Saúde (atenção primária, atenção hospitalar, atenção a urgências e emergências e áreas técnicas), Segurança Humana, Esporte e Cultura.
+  + ORGANOGRAMA INSTITUCIONAL DO ISHP
+  + [IMAGEM]
+  + 4.3. Filosofia de Gestão
+  + O INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA pauta sua atuação pelos princípios da:
+  + - Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (Art. 37 da CF/88);
+  + - Universalidade, Integralidade e Equidade (SUS);
+  + - Humanização do Atendimento (Política Nacional de Humanização);
+  + - Transparência, Accountability e Sustentabilidade;
+  + - Ética, pesquisa e inovação em saúde.
+  + 4.4. Tempo de Atuação
+  + A entidade atua há 13 anos na área da saúde, desde sua fundação em 14/01/2013.
+  + 4.5. Principais Realizações
+  + Resumo de Experiências do ISHP no Gerenciamento e Administração de Serviços de Urgência e Emergência e Unidades de Saúde de Média e Alta Complexidade
+  + |Unidade de Saúde|Município|Início das Atividades|Tempo de Execução|Urgência e Emergência|Observações Complementares|
+  + |Santa Casa de Misericórdia de Capivari|Capivari/SP|2014|11 Anos|Urgência e Emergência, Internação e Ambulatório|Consultoria Hospitalar|
+  + |Hospital SAMAR SA|Porto Velho/RO|2020|5 Anos|Urgência e Emergência e Ambulatório de Atenção Primária em Saúde|Gestão Hospitalar|
+  + |Hospital Casa de Saúde São Bento|Rio de Janeiro/RJ|2022|3 anos|Clínica MédicaCirurgia GeralCentro Diagnóstico e de ImagemAmbulatório|Gestão Hospitalar|
+  + Os atestados de capacidade técnica, que comprovam o tempo de atuação do ISHP na gestão de serviços de saúde em parceria com o setor público, e a documentação de habilitação do proponente exigida pela SES-DF para a formalização do instrumento serão apresentados na formalização do instrumento.
+  + 4.6. Aptidão para Cumprir o Objeto
+  + A entidade demonstra aptidão para cumprir o objeto deste Projeto em razão de:
+  + - Experiência comprovada em gestão hospitalar de média e alta complexidade;
+  + - Corpo técnico qualificado e multidisciplinar;
+  + - Estrutura administrativa e financeira sólida;
+  + - Capacidade de mobilização e operacionalização em curto prazo, compatível com a implantação dos três polos no mês 1;
+  + - Atividades econômicas secundárias compatíveis com o objeto, constantes do comprovante de inscrição no CNPJ: 86.30-5-99 (atenção ambulatorial não especificada anteriormente), 86.10-1-01 e 86.10-1-02 (atendimento hospitalar e em pronto-socorro) e 86.60-7-00 (apoio à gestão de saúde).
+
+======== REPLACE  [nosso 5.2 Agendamento e orientação de preparo] -> [deles 5.2 Agendamento e orientação de preparo]
+  - A orientação é entregue por escrito e repetida na confirmação. O preparo é a causa mais frequente de exame perdido, e é por isso que ele aparece três vezes no percurso: no agendamento, na véspera e na recepção. O preparo não depende de exame ou de documento que o usuário precise obter fora da rede.
+  + A orientação é entregue por escrito e repetida na confirmação. O preparo é a causa mais frequente de exame perdido, e é por isso que ele aparece três vezes no percurso: no agendamento, na véspera e na recepção. O agendamento e a véspera garantem que o usuário compreenda todas as ações prévias ao exame; a recepção confere se o preparo foi executado corretamente. O preparo não depende de exame ou de documento que o usuário precise obter fora da rede, ressalvada a dosagem de creatinina de que trata a subseção 5.5, providenciada pela unidade solicitante.
+
+======== INSERT  [nosso 5.3 Confirmação] -> [deles 5.2 Agendamento e orientação de preparo]
+  + O CPF do usuário, obrigatório para o registro da produção, é conferido já no agendamento.
+
+======== REPLACE  [nosso 5.3 Confirmação] -> [deles 5.3 Confirmação]
+  - A presença é confirmada na véspera do exame, com repetição nominal do preparo exigido e da documentação a apresentar.
+  + A presença é confirmada na véspera do exame, com repetição nominal do preparo exigido e da documentação a apresentar, e conferência do CPF.
+
+======== REPLACE  [nosso 5.3 Confirmação] -> [deles 5.3 Confirmação]
+  - O usuário que informa impedimento tem a data liberada ainda na véspera, e a vaga é ocupada por outro usuário da mesma fila e do mesmo polo.
+  + O usuário que informa impedimento tem a data liberada ainda na véspera, e a vaga é ocupada por outro usuário da mesma fila e do mesmo polo, observada a ordem de prioridade da fila.
+  + Na tomografia com contraste, a confirmação da véspera verifica se o usuário tem a dosagem de creatinina exigida pela subseção 5.5, de modo que a falta seja corrigida antes do dia do exame.
+
+======== REPLACE  [nosso 5.5 Preparo e triagem para o meio de con] -> [deles 5.5 Preparo e triagem para o meio de con]
+  - Nos exames de tomografia computadorizada que requerem meio de contraste iodado — são 12.726 dos 13.452 exames de tomografia do objeto — o preparo inclui a triagem de fatores de risco para reação adversa e para lesão renal, e a obtenção de acesso venoso.
+  - A triagem é feita no polo, no dia do exame, e é ela que indica quem precisa de avaliação laboratorial antes da administração. O usuário sem fator de risco realiza o exame na data agendada.
+  - O usuário que apresenta contraindicação ao contraste tem o exame realizado sem ele, quando a indicação clínica o admite, ou é devolvido à regulação com o registro do motivo.
+  - O polo mantém, durante todo o horário de funcionamento, os meios de atendimento a reação adversa ao meio de contraste.
+  + Nos exames de tomografia computadorizada que requerem meio de contraste iodado — são 12.726 dos 13.452 exames de tomografia do objeto estimativa de planejamento, reconferida na validação da fila da subseção 5.9 — o preparo inclui a triagem de fatores de risco para reação adversa e para lesão renal, e a obtenção de acesso venoso.
+  + A triagem é feita no polo, no dia do exame, por conferência da condição de cada usuário antes da tomografia. Os fatores de risco considerados são a doença ou agravo renal preexistente e a alergia prévia a meio de contraste. A história patológica pregressa é colhida pela unidade solicitante, e o polo não colhe exame laboratorial. A dosagem de creatinina é exigida do usuário com doença ou agravo renal preexistente, e a unidade solicitante a envia pronta com a solicitação. O usuário sem fator de risco realiza o exame na data agendada.
+  + O usuário que apresenta contraindicação ao contraste, inclusive o usuário renal que chega sem a dosagem de creatinina exigida, tem o exame realizado sem ele, quando a indicação clínica o admite, ou é devolvido à regulação com o registro do motivo.
+  + O polo mantém, durante todo o horário de funcionamento, os meios de atendimento a reação adversa ao meio de contraste: carro de emergência, oxigênio, adrenalina intramuscular, anti-histamínico, corticoide, broncodilatador e monitor, em lista validada pelo responsável técnico médico do polo.
+  + Antes da administração do contraste, o polo colhe o termo de consentimento livre e esclarecido do usuário e confirma o estado gestacional das usuárias, nos exames que envolvem radiação.
+  + O acesso venoso e a injeção do meio de contraste são feitos por enfermeiro ou técnico de enfermagem do polo, sob supervisão médica, conforme a Resolução CFM nº 2.147/2016.
+  + A equipe do polo é contratada com experiência em suporte básico de vida, e toda a equipe assistencial é capacitada em Suporte Básico de Vida pelo proponente, em curso ministrado por enfermeiro, pelo menos uma vez durante o projeto. Havendo intercorrência grave, aciona-se o SAMU, na forma da subseção 5.6. Os eventos adversos, como tudo o que ocorre no atendimento, são registrados e informados à SES-DF nos relatórios mensais de execução (Meta 6).
+  + Não há tempo mínimo de permanência após o contraste: o polo mantém um espaço de repouso e o usuário se retira quando se sentir em condições. O usuário em uso de metformina é orientado, na alta, a reiniciá-la somente após 48 horas e depois de nova dosagem de creatinina que comprove que a função renal não piorou.
+
+======== REPLACE  [nosso 5.6 Realização do exame] -> [deles 5.6 Realização do exame]
+  - A ultrassonografia é realizada por médico, que adquire e interpreta as imagens no mesmo ato. A tomografia computadorizada é realizada por técnico em radiologia, sob supervisão do médico radiologista responsável pelo serviço.
+  + A ultrassonografia é realizada por médico com Registro de Qualificação de Especialista (RQE) em ultrassonografia, que adquire e interpreta as imagens no mesmo ato. A tomografia computadorizada é realizada por técnico em radiologia, sob supervisão do médico radiologista responsável pelo serviço.
+
+======== INSERT  [nosso 5.7 Laudo] -> [deles 5.6 Realização do exame]
+  + O serviço de urgência e emergência de referência de cada polo é o definido pela SES-DF, e o proponente entrega ao usuário um documento de encaminhamento com o endereço desse serviço. O serviço de urgência é de porta aberta, de modo que o usuário é atendido ao chegar; a condução do cuidado a partir dele cabe à rede de saúde, e não ao proponente.
+
+======== REPLACE  [nosso 5.7 Laudo] -> [deles 5.7 Laudo]
+  - O exame é laudado e o laudo é assinado por médico radiologista.
+  + Na ultrassonografia, o laudo é emitido, em regra, pelo mesmo médico que realiza o exame, logo após a sua realização. Na tomografia computadorizada, o laudo é assinado por médico radiologista. O médico que realiza a ultrassonografia tem RQE em ultrassonografia; o radiologista da tomografia tem RQE na área, conforme o quadro da subseção 5.16.
+
+======== REPLACE  [nosso 5.7 Laudo] -> [deles 5.7 Laudo]
+  - O laudo é feito a partir das imagens armazenadas. A interpretação parte do que o sistema de imagem guarda, e por isso a produção de um polo segue em curso quando o seu radiologista está indisponível, na forma do risco R-09.
+  + O laudo da tomografia é feito a partir das imagens armazenadas. A interpretação parte do que o sistema de imagem guarda, e a produção do polo segue em curso quando o seu radiologista está indisponível, por médico de retaguarda presencial, na forma do risco R-09. Na ultrassonografia, a aquisição e a interpretação são do mesmo médico (subseção 5.6), e a falta desse médico também é coberta pela retaguarda presencial.
+
+======== INSERT  [nosso 5.8 Entrega do laudo] -> [deles 5.8 Entrega do laudo]
+  + Na ultrassonografia, inclusive a mamária e a com Doppler, o laudo é entregue na hora, logo após o exame. Nos demais exames, a forma de entrega do laudo (impresso ou em meio digital) e o prazo seguem o que a SES-DF aceitar e pactuar, e este plano não fixa prazo.
+  + Os achados críticos — BI-RADS 4 ou 5, nódulo pulmonar suspeito, trombose venosa e massa abdominal — são comunicados à unidade solicitante pela equipe administrativa do polo, por telefone, logo após a emissão do laudo, e o laudo é registrado no TrakCare simultaneamente. A comunicação é registrada.
+
+======== INSERT  [nosso 5.10 Equipe de gestão e apoio] -> [deles 5.9 Busca ativa e reagendamento]
+  + Validação da fila. Nos meses 1 e 2, a fila é validada com a unidade solicitante e a atenção primária, para identificar exame já realizado, duplicidade, óbito e mudança de endereço. A solicitação encerrada na validação, com o motivo documentado, não conta como meta não cumprida.
+  + Absenteísmo. O dimensionamento da subseção 6.3 considera a taxa de absenteísmo de até 26,4%, complemento da ocupação de 73,6% adotada na subseção 6.3. A redução do absenteísmo depende de campanhas de comunicação em massa com os usuários da fila, executadas por meio corporativo, na forma da subseção 5.15.
+  + Busca ativa: o usuário que falta ao agendamento é contatado pela equipe administrativa do polo em três tentativas, em três dias consecutivos e em turnos diferentes (manhã, tarde e noite). Esgotadas as três tentativas sem contato, a solicitação é devolvida à unidade solicitante com a informação de usuário faltante, cabendo a ela o resgate do paciente.
+
+======== REPLACE  [nosso 5.10 Equipe de gestão e apoio] -> [deles 5.10 Equipe de gestão e apoio]
+  - |6|Assistente Administrativo|12 meses|5.2, 5.3 e 5.9|
+  + |6|Assistente Administrativo|12 meses|5.2, 5.3, 5.9 e 5.8 (comunicação de resultado crítico)|
+
+======== REPLACE  [nosso 5.10 Equipe de gestão e apoio] -> [deles 5.10 Equipe de gestão e apoio]
+  - A equipe assistencial — médico radiologista, técnico em radiologia e o pessoal de recepção e preparo — integra a capacidade instalada do proponente e é remunerada pelo valor unitário do exame.
+  + A equipe assistencial — médico radiologista, técnico em radiologia e o pessoal de recepção e preparo — integra a capacidade instalada do proponente e é remunerada pelo valor unitário do exame. O quadro de pessoal assistencial, com nome completo, número de registro no conselho de classe e, para os médicos, Registro de Qualificação de Especialista (RQE), está na subseção 5.16.
+
+======== INSERT  [nosso 5.14 Indicadores e meios de verificação] -> [deles 5.14 Indicadores e meios de verificação]
+  + |I-07|Repetição por qualidade de imagem|exames repetidos por imagem inconclusiva ou sem qualidade diagnóstica ÷ exames realizados|até 3%, proposto pelo proponente|registro de ocorrência da subseção 5.6|4 e 5|
+
+======== INSERT  [nosso 5.15 Proteção dos dados dos usuários] -> [deles 5.14 Indicadores e meios de verificação]
+  + Os parâmetros de 100% admitem faixa de tolerância de até 10% a menor sobre a meta mensal de cada polo, compensada nos três meses seguintes. A solicitação encerrada com motivo documentado, na validação da fila ou na busca ativa (subseção 5.9), não conta como meta não cumprida nem entra no ajuste da subseção 7.3.
+
+======== INSERT  [nosso 6. Cronograma físico] -> [deles 5.16 Equipe assistencial]
+  + ### 5.16 Equipe assistencial
+  + A equipe assistencial é do proponente e é remunerada pelo valor unitário do exame (subseção 5.10). Cada profissional é identificado, no quadro de pessoal anexo ao plano, por nome completo, número de registro no conselho de classe e, para os médicos, RQE. O quadro nominal será apresentado na formalização do instrumento.
+  + |posto assistencial|total|Ceilândia|Sobradinho|Gama|registro exigido e critério|
+  + |Médico — ultrassonografia|15|6|4|5|CRM e RQE em ultrassonografia; um médico por sala durante o exame (5.6); salas: 5, 4 e 4; 1.800 h anuais por médico sobre as horas de sala (6.3)|
+  + |Médico radiologista — tomografia|4|2|1|1|CRM e RQE; laudo e supervisão da tomografia (5.6, 5.7); horas de sala da tomografia 1.928, 1.592 e 904 ÷ 1.800 h anuais (1,07; 0,88; 0,50), arredondadas para cima|
+  + |Médico de retaguarda presencial|3 por dia útil|1|1|1|CRM e RQE, o mesmo do médico que cobre; 1 por dia útil em cada polo; cobre a falta do médico executante e do radiologista (R-09); custo no valor unitário|
+  + |Responsável técnico médico do polo|3|1|1|1|CRM e RQE; Meta 1 (5.13)|
+  + |Técnico em radiologia|9|3|3|3|registro no CRTR; 50 h por semana por tomógrafo ÷ 24 h semanais = 2,08, arredondado para 3 por tomógrafo|
+  + |Técnico de enfermagem ou enfermeiro|6|2|2|2|COREN; conferência pré-contraste, acesso venoso e injeção, sob supervisão médica (5.5); 50 h semanais por tomógrafo ÷ 44 h semanais = 1,14, arredondado para 2 por tomógrafo|
+  + |Pessoal de recepção e preparo|6|2|2|2|sem registro em conselho; recepção e preparo (5.4); polo aberto 50 h semanais ÷ 44 h semanais = 1,14, arredondado para 2 por polo|
+  + Ultrassonografia: as 24.106 horas de sala (9.176 em Ceilândia, 7.066 em Sobradinho e 7.864 no Gama) exigem um médico por sala durante o exame (subseção 5.6). O número de médicos é o quociente das horas de sala pelas horas anuais de cada médico; a carga horária contratual é 1.800 horas anuais por médico, o que resulta em 6 médicos em Ceilândia (9.176 ÷ 1.800 = 5,1), 4 em Sobradinho (7.066 ÷ 1.800 = 3,9) e 5 no Gama (7.864 ÷ 1.800 = 4,4), 15 no total, sempre em número igual ou superior ao de salas (5, 4 e 4). Tomografia: cada tomógrafo funciona 10 horas por dia útil, 5 dias por semana, ou 50 horas por semana; a jornada do técnico em radiologia é de 24 horas semanais (Lei nº 7.394/1985, art. 14); 50 ÷ 24 = 2,08, logo no mínimo 3 técnicos por tomógrafo e 9 nos três polos, antes de férias e ausências.
+  + ### 5.17 Qualidade técnica e proteção radiológica
+  + O proponente mantém, em cada polo, os requisitos de qualidade técnica e de proteção radiológica da RDC Anvisa nº 611, de 9 de março de 2022, que dispõe sobre os requisitos sanitários de organização e funcionamento de serviços de radiologia diagnóstica ou intervencionista :
+  + (a) responsável técnico do serviço e supervisor de proteção radiológica de cada polo, com nome e registro a indicar na formalização do instrumento;
+  + (b) licença sanitária de cada polo a apresentar na formalização do instrumento;
+  + (c) plano de proteção radiológica, níveis de referência de dose e protocolos de aquisição por procedimento;
+  + (d) testes de constância e controle de qualidade de cada tomógrafo, com laudos anexados por equipamento;
+  + (e) manutenção preventiva dos tomógrafos e dos aparelhos de ultrassonografia, com contrato e tempo de resposta fixado no contrato de manutenção de cada polo;
+  + (f) especificação dos equipamentos por polo — canais do tomógrafo, transdutores lineares para mama e tireoide, transdutor endocavitário e Doppler colorido —, conforme o CNES de cada polo, a apresentar na formalização do instrumento;
+  + (g) desinfecção do transdutor endocavitário entre usuários e presença de acompanhante nos exames transvaginal e de próstata.
+
+======== INSERT  [nosso 6.2 Curva de produção] -> [deles 6.2 Curva de produção]
+  + Mês 1: a curva abaixo é a adotada e é reavaliada com o resultado da execução do primeiro mês, com ajuste pactuado com a SES-DF na forma da subseção 7.3.
+
+======== REPLACE  [nosso 6.3 Capacidade requerida no regime pleno] -> [deles 6.3 Capacidade requerida no regime pleno]
+  - A tomografia exige três equipamentos em qualquer arranjo. A carga agregada de 4.424 horas equivale a 1,76 tomógrafo em turno de dez horas, e concentrá-la em dois polos elevaria a carga do polo receptor acima da capacidade de um equipamento — o que exigiria o terceiro assim mesmo, e faria o usuário do Gama atravessar o Distrito Federal. Um tomógrafo por polo mantém o exame perto do domicílio, e a folga do conjunto absorve a manutenção de cada um.
+  + A carga agregada de 4.424 horas equivale a 1,76 tomógrafo em turno de dez horas, e concentrá-la em dois polos elevaria a carga do polo receptor acima da capacidade de um equipamento — o que exigiria o terceiro assim mesmo, e faria o usuário do Gama atravessar o Distrito Federal. Um tomógrafo por polo mantém o exame perto do domicílio, e a folga do conjunto absorve a manutenção de cada um.
+  + A ocupação das salas de ultrassonografia é de 73,6% (24.106 ÷ 32.760 horas, com 13 salas × 10 horas × 252 dias), o que suporta absenteísmo não recuperado de até 26,4% (1 − 0,736). Nas tomografias, a folga é de 23,5% em Ceilândia (1 − 1.928 ÷ 2.520), 36,8% em Sobradinho (1 − 1.592 ÷ 2.520) e 64,1% no Gama (1 − 904 ÷ 2.520). Os limites supõem que a falta consome a vaga sem reaproveitamento.
+
+======== REPLACE  [nosso 8.1 Critério] -> [deles 8.1 Critério]
+  - 1. redistribuição da agenda entre os polos, sem alteração do quantitativo global; 2. ampliação do turno de operação no polo afetado, dentro da capacidade instalada; 3. ações compensatórias no período seguinte, dentro da vigência; 4. ajuste da parcela subsequente, na forma da subseção 7.3; 5. devolução do saldo não executado ao final da vigência.
+  + 1. redistribuição da agenda entre os polos, sem alteração do quantitativo global;
+  + 2. ampliação do turno de operação no polo afetado, dentro da capacidade instalada;
+  + 3. ações compensatórias no período seguinte, dentro da vigência;
+  + 4. ajuste da parcela subsequente, na forma da subseção 7.3;
+  + 5. devolução do saldo não executado ao final da vigência.
+
+======== REPLACE  [nosso 8.2 Matriz] -> [deles 8.2 Matriz]
+  - |R-02|Absenteísmo do usuário na data agendada, com ociosidade de sala|alta|alto|alto|confirmação nominal na véspera, com repetição do preparo; busca ativa e reagendamento na forma da subseção 5.9; reaproveitamento da vaga liberada com usuário da mesma fila|
+  + |R-02|Absenteísmo do usuário na data agendada, com ociosidade de sala|alta|alto|alto|confirmação nominal na véspera, com repetição do preparo; busca ativa e reagendamento na forma da subseção 5.9; reaproveitamento da vaga liberada com usuário da mesma fila; campanhas de comunicação em massa com os usuários da fila; taxa de absenteísmo assumida no dimensionamento (subseção 6.3)|
+
+======== REPLACE  [nosso 8.2 Matriz] -> [deles 8.2 Matriz]
+  - |R-05|Reação adversa ao meio de contraste durante o exame|baixa|alto|médio|triagem de função renal e de reação prévia antes da administração, na forma da subseção 5.5; meios de atendimento a reação adversa disponíveis no polo durante todo o horário de funcionamento|
+  + |R-05|Reação adversa ao meio de contraste durante o exame|baixa|alto|médio|triagem de fatores de risco e de reação prévia antes da administração, com a dosagem de creatinina do usuário renal enviada pela unidade solicitante, na forma da subseção 5.5; termo de consentimento e confirmação do estado gestacional antes da administração; meios de atendimento a reação adversa disponíveis no polo durante todo o horário de funcionamento; equipe com experiência em suporte básico de vida, capacitada ao menos uma vez no projeto, e acionamento do SAMU em intercorrência grave|
+
+======== REPLACE  [nosso 8.2 Matriz] -> [deles 8.2 Matriz]
+  - |R-07|Interrupção ou insuficiência do envio da demanda regulada, deixando ociosa a capacidade mobilizada|média|alto|médio|a fila apurada na subseção 3.1 é de 78.572 solicitações, igual ao quantitativo pactuado, de modo que o risco é de fluxo e não de estoque; pactuação do ritmo de encaminhamento com o Complexo Regulador no mês 1; monitoramento mensal pelo I-01; esgotada a fila de um procedimento, ajuste da meta por termo aditivo, na forma da subseção 2.2|
+  + |R-07|Interrupção ou insuficiência do envio da demanda regulada, deixando ociosa a capacidade mobilizada|média|alto|médio|a fila apurada na subseção 3.1 é de 78.572 solicitações, igual ao quantitativo pactuado na data da extração, sujeita à validação da subseção 5.9, de modo que o risco é de fluxo e não de estoque; pactuação do ritmo de encaminhamento com o Complexo Regulador no mês 1; monitoramento mensal pelo I-01; esgotada a fila de um procedimento, ajuste da meta por termo aditivo, na forma da subseção 2.2|
+
+======== REPLACE  [nosso 8.2 Matriz] -> [deles 8.2 Matriz]
+  - |R-09|Indisponibilidade de médico radiologista em um polo, por afastamento ou desligamento|média|alto|alto|escala com profissional de retaguarda; laudo à distância a partir das imagens adquiridas, que não exige a presença do radiologista no polo; comunicação à concedente|
+  + |R-09|Indisponibilidade do médico que executa a ultrassonografia ou do médico radiologista em um polo, por afastamento ou desligamento|média|alto|alto|escala com médico de retaguarda presencial, que assume a execução e o laudo; um médico de retaguarda por dia útil em cada polo; custo da retaguarda suportado pelo valor unitário do exame; telelaudo a partir das imagens armazenadas apenas como contingência para o laudo da tomografia, se o médico de retaguarda não puder laudar ; comunicação à concedente|
+
+======== REPLACE  [nosso 8.3 Os riscos altos] -> [deles 8.3 Os riscos altos]
+  - R-04 é o risco que o valor de tabela não elimina. O meio de contraste iodado é insumo de 12.726 dos 13.452 exames de tomografia e está dentro do valor unitário: o procedimento de contraste da Tabela do SUS é registro de APAC secundária e não gera pagamento adicional por produção ambulatorial. O consumo por exame é acompanhado nos relatórios de execução, porque a variação recai sobre a execução assistencial e não sobre o preço.
+  + R-04 é o risco que o valor de tabela não elimina. O meio de contraste iodado é insumo de 12.726 dos 13.452 exames de tomografia (estimativa de planejamento, subseção 5.5) e está dentro do valor unitário: o procedimento de contraste da Tabela do SUS é registro de APAC secundária e não gera pagamento adicional por produção ambulatorial. O consumo por exame é acompanhado nos relatórios de execução, porque a variação recai sobre a execução assistencial e não sobre o preço.
+
+======== REPLACE  [nosso 9.2 Planilha] -> [deles 9.2 Planilha]
+  - ||*Etapa 1.1 — Recursos humanos*|||||||
+  + ||Etapa 1.1 — Recursos humanos|||||||
+
+======== REPLACE  [nosso 9.2 Planilha] -> [deles 9.2 Planilha]
+  - ||*Etapa 2.1 — Recursos humanos*|||||||
+  - |2.1.1|Assistente Administrativo — agendamento, confirmação e busca ativa|5.2 · 5.3 · 5.9|posto|6|12 meses|3.200,00|230.400,00|
+  + ||Etapa 2.1 — Recursos humanos|||||||
+  + |2.1.1|Assistente Administrativo — agendamento, confirmação e busca ativa|5.2 · 5.3 · 5.8 · 5.9|posto|6|12 meses|3.200,00|230.400,00|
+
+======== REPLACE  [nosso 9.2 Planilha] -> [deles 9.2 Planilha]
+  - ||*Etapa 3.1 — Recursos humanos*|||||||
+  + ||Etapa 3.1 — Recursos humanos|||||||
+
+======== REPLACE  [nosso 9.2 Planilha] -> [deles 9.2 Planilha]
+  - ||*Etapa 4.1 — Realização de exames de ultrassonografia*|||||||
+  + ||Etapa 4.1 — Realização de exames de ultrassonografia|||||||
+
+======== REPLACE  [nosso 9.2 Planilha] -> [deles 9.2 Planilha]
+  - ||*Etapa 5.1 — Realização de exames de tomografia computadorizada*|||||||
+  + ||Etapa 5.1 — Realização de exames de tomografia computadorizada|||||||
+
+======== REPLACE  [nosso 9.2 Planilha] -> [deles 9.2 Planilha]
+  - ||*Etapa 6.1 — Gestão financeira e prestação de contas*|||||||
+  + ||Etapa 6.1 — Gestão financeira e prestação de contas|||||||

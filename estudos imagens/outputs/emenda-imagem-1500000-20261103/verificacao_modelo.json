@@ -1,0 +1,10 @@
+{
+  "tests": "Base, gates incrementais, quantidade, cotacao negativa, falta, apoio, restauracao",
+  "final": {
+    "active": "Base",
+    "assistance": 333878,
+    "budgetTotal": 483878,
+    "unallocated": 1016122,
+    "costStatus": "Cotacoes pendentes"
+  }
+}

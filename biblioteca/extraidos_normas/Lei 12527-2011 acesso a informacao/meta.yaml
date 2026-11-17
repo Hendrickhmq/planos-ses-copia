@@ -1,0 +1,10 @@
+id: "Lei 12527-2011 acesso a informacao"
+arquivo: "Lei 12527-2011 acesso a informacao.html"
+sha256: "9faed7c7363700f343776afba0255b8d3e4f1a8303a0bde21f60a8d862d076a2"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 42099
+tabelas_total: 1
+trechos_riscados: 1
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

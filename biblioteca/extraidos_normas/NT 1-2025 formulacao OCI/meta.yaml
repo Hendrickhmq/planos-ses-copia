@@ -1,0 +1,21 @@
+id: "NT 1-2025 formulacao OCI"
+arquivo: "NT 1-2025 formulacao OCI.pdf"
+processo_sei: ""
+sha256: "3289dea4d00376612821e373bb2c11f97c227e23433af1f0f36a0879dd902717"
+paginas: 7
+chars_texto: 7689
+tabelas_total: 5
+tabelas_por_pagina:
+  pagina_2: 1
+  pagina_3: 1
+  pagina_4: 1
+  pagina_5: 1
+  pagina_6: 1
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:03"

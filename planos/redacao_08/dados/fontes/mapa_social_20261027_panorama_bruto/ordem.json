@@ -1,0 +1,42 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "panorama",
+ "plano": "planos/redacao_08",
+ "pedido": "R$ 2 mi de cardiologia (Emenda 41360018): panorama das filas de exames e consultas de cardiologia, com o rumo de cada código (entrantes, oferta pelo mês do agendamento, faltas), para ver o que outros planos atendem e o que a SES já dá conta",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "minimo": 10,
+ "universo": [
+  {
+   "rotulo": "diagnóstico em cardiologia",
+   "codigos": [
+    "02.11.02*"
+   ]
+  },
+  {
+   "rotulo": "ecocardiografia",
+   "codigos": [
+    "02.05.01.001-6",
+    "02.05.01.002-4",
+    "02.05.01.003-2"
+   ]
+  },
+  {
+   "rotulo": "medicina nuclear",
+   "codigos": [
+    "02.08.01*"
+   ]
+  },
+  {
+   "rotulo": "consultas de cardiologia",
+   "termos": [
+    "CARDIOLOGIA"
+   ]
+  }
+ ],
+ "por_codigo": [
+  "entrantes",
+  "oferta",
+  "situacao"
+ ]
+}

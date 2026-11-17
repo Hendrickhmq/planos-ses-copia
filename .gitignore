@@ -1,0 +1,24 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+~$*
+.~lock*
+*.bak
+*.bak[0-9]*
+.venv/
+venv/
+Thumbs.db
+desktop.ini
+*.gsheet
+
+# amostra do extrair_digitalizados.py --paginas: diagnostico, nao extracao
+_amostras/
+
+# revisao externa: as fontes do pacote se refazem pelo manifesto.json
+planos/*/revisao/**/pacote/fontes/
+
+# Obsidian: o que muda a cada abertura fica fora do git
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/

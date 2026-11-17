@@ -1,0 +1,12 @@
+{"contrato": "2026-10-27", "tipo": "medicao", "plano": "planos/redacao_10",
+ "pedido": "pré-plano da OCI de câncer colorretal (09.01.01.008-1) do ISHP: quanto da fila de colonoscopia tem CID compatível com a OCI",
+ "saida": "transcricao", "janela_viva_meses": 24,
+ "dimensoes": ["cid", "idade"],
+ "objetos": [
+  {"id": "09.01.01.008-1", "tipo": "oci", "nome": "OCI AVALIAÇÃO DIAGNÓSTICA DE CÂNCER COLORRETAL",
+   "ficha": "dados/fontes/sigtap_0901010081_112026.md",
+   "codigos": ["02.09.01.002-9"],
+   "cid_aceito": "codigo_cid_solicitado={\"C17*\",\"C18*\",\"C19*\",\"C20*\",\"C21*\",\"D01*\",\"D12*\",\"K62*\",\"K63*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"C18*\",\"C19*\",\"C20*\"}",
+   "idade": {"min": 10, "max": 130}, "sexo": "ambos",
+   "filas": [{"nome": "COLONOSCOPIA", "papel": "exame", "obrigatorio": true}]}]}

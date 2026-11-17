@@ -1,0 +1,10 @@
+id: "GM 12116-2026 tabela diferenciada"
+arquivo: "GM 12116-2026 tabela diferenciada.html"
+sha256: "f2b6058a363c52fc040b49cb19908334d15d4bf54a13dfbe624738ffa2dc12de"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 3558
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-10-09T14:09:52"

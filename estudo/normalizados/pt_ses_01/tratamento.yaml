@@ -1,0 +1,12 @@
+id: "pt_ses_01"
+fonte: "extraidos/"
+csvs_tratadas: 25
+correcoes_aplicadas: 4
+cabecalhos_repetidos_removidos: 0
+linhas_vazias_removidas: 2
+decimais_normalizados: 60
+planilha_csvs_de_origem: 21
+planilha_linhas: 44
+planilha_linhas_emendadas: 15
+origem: "extraidos/ (bruto) + registros/correcoes.csv"
+derivado: "apagar esta pasta e rodar tratar_planos.py reproduz byte a byte"

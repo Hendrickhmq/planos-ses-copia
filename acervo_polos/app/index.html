@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acervo de polos</title>
+<style>
+:root{
+  --fundo:#f4f5f3; --painel:#fff; --borda:#dcdfd9; --texto:#1c211d; --suave:#667067; --marca:#1f6f5c;
+  --marca-fraca:#e3f1ec; --ok:#2e7d4f; --ajustar:#b46a00; --falta:#b3372f; --na:#6b7280; --sug:#fff6dc; --sug-borda:#e2c56a;
+}
+@media (prefers-color-scheme:dark){:root{
+  --fundo:#141816; --painel:#1c211e; --borda:#2f3632; --texto:#e7ebe7; --suave:#9aa59c; --marca:#5cc0a6;
+  --marca-fraca:#1d3a33; --ok:#63c28a; --ajustar:#e0a44a; --falta:#ee7f76; --na:#9ca3af; --sug:#3a3320; --sug-borda:#7a682c;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--texto);font:14px/1.45 system-ui,"Segoe UI",sans-serif}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;border:1px solid var(--borda);background:var(--painel);border-radius:6px;padding:5px 10px}
+button:hover{border-color:var(--marca)}
+button.forte{background:var(--marca);border-color:var(--marca);color:#fff}
+@media (prefers-color-scheme:dark){button.forte{color:#0e1512}}
+button:disabled{opacity:.55;cursor:default}
+input[type=text],textarea,select{width:100%;border:1px solid var(--borda);background:var(--painel);border-radius:6px;padding:6px 8px}
+input:focus,textarea:focus,select:focus,button:focus-visible{outline:2px solid var(--marca);outline-offset:1px}
+textarea{resize:vertical;min-height:58px}
+#app{display:grid;grid-template-columns:260px minmax(0,1fr) 360px;height:100vh}
+#lado,#assist{overflow:auto;padding:16px 14px;background:var(--painel)}
+#lado{border-right:1px solid var(--borda)} #assist{border-left:1px solid var(--borda);background:var(--fundo)}
+#meio{overflow:auto;padding:0 28px 80px}
+h1{font-size:15px;margin:0 0 14px;letter-spacing:.01em} h2{font-size:21px;margin:0;line-height:1.2} h3{font-size:14px;margin:0}
+.setor{font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--suave);margin:16px 4px 6px;font-weight:600}
+.polo{display:block;width:100%;text-align:left;border:1px solid var(--borda);background:var(--painel);padding:9px 10px;margin-bottom:6px;border-radius:8px}
+.polo:hover{border-color:var(--marca)}
+.polo.ativo{background:var(--marca-fraca);border-color:var(--marca);box-shadow:inset 3px 0 0 var(--marca)}
+.polo b{display:block;font-weight:600;margin-bottom:3px}
+.chip{display:inline-block;font-size:11px;border:1px solid var(--borda);border-radius:99px;padding:0 7px;margin:0 4px 2px 0;color:var(--suave);background:var(--painel)}
+.chip.apto{color:var(--ok);border-color:var(--ok)}.chip.ajustes{color:var(--ajustar);border-color:var(--ajustar)}.chip.inapto{color:var(--falta);border-color:var(--falta)}
+.barra{height:4px;background:var(--borda);border-radius:2px;margin-top:6px;overflow:hidden}
+.barra i{display:block;height:100%;background:var(--marca);transition:width .3s}
+#topo{position:sticky;top:0;background:var(--fundo);padding:18px 0 0;z-index:3;border-bottom:1px solid var(--borda);margin-bottom:16px}
+#topo .linha{display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap}
+#topo .meta{color:var(--suave);font-size:12.5px;margin-top:4px}
+#topo .acoes-topo{margin-left:auto;display:flex;align-items:center;gap:10px}
+#salvo{color:var(--suave);font-size:12px}
+.abas{display:flex;gap:4px;margin-top:12px;flex-wrap:wrap}
+.abas button{border:none;border-bottom:3px solid transparent;border-radius:0;background:none;padding:8px 12px;color:var(--suave)}
+.abas button.ativa{border-bottom-color:var(--marca);color:var(--texto);font-weight:600}
+.abas .n{font-size:11px;border-radius:99px;padding:0 6px;margin-left:5px;background:var(--borda);color:var(--texto);font-weight:500}
+.abas .n.cheio{background:var(--ok);color:#fff}
+.indice{display:flex;gap:6px;overflow-x:auto;padding:10px 0;scrollbar-width:thin}.indice[hidden]{display:none}
+.indice button{flex:none;font-size:12px;padding:3px 10px;border-radius:99px;color:var(--suave)}
+.indice button b{font-weight:600;margin-left:4px;color:var(--texto)}
+.indice button.cheio{border-color:var(--ok)} .indice button.cheio b{color:var(--ok)}
+details.sec{background:var(--painel);border:1px solid var(--borda);border-radius:10px;margin-bottom:12px;scroll-margin-top:190px;box-shadow:0 1px 2px #0000000a}
+details.sec>summary{padding:12px 16px;cursor:pointer;display:flex;gap:12px;align-items:center;list-style:none}
+details.sec>summary::-webkit-details-marker{display:none}
+details.sec>summary::after{content:"";width:7px;height:7px;border-right:2px solid var(--suave);border-bottom:2px solid var(--suave);transform:rotate(45deg);margin:-4px 2px 0 4px;transition:transform .15s}
+details.sec:not([open])>summary::after{transform:rotate(-45deg);margin-top:0}
+details.sec>summary .numero{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:600;background:var(--marca-fraca);color:var(--marca);flex:none}
+details.sec>summary .cont{margin-left:auto;font-size:12px;color:var(--suave);display:flex;align-items:center;gap:8px;white-space:nowrap}
+details.sec>summary .cont .barra{width:70px;margin:0}
+details.sec>summary .cont.cheio{color:var(--ok)} details.sec>summary .cont.cheio .barra i{background:var(--ok)}
+.corpo{padding:0 16px 16px}
+.dica{color:var(--suave);font-size:12.5px;margin:0 0 10px}
+.corpo>.dica{background:var(--fundo);border-radius:6px;padding:7px 10px}
+.campos{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px 16px}
+.campo label,.texto label{display:block;font-size:12.5px;color:var(--suave);margin-bottom:3px}
+.texto{margin-bottom:12px}
+.item{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"rot seg" "obs foto";gap:6px 14px;align-items:center;
+  padding:10px 12px;border:1px solid var(--borda);border-left:3px solid var(--borda);border-radius:8px;margin-bottom:6px}
+.item .rot{grid-area:rot;font-weight:500}.item .seg{grid-area:seg}
+.item .obs{grid-area:obs}.item .foto{grid-area:foto;width:180px}
+.item[data-s=ok],.item[data-s=sim],.item[data-s=ambos]{border-left-color:var(--ok)}
+.item[data-s=ajustar],.item[data-s=restr],.item[data-s=sem]{border-left-color:var(--ajustar)}
+.item[data-s=nao_tem],.item[data-s=nao]{border-left-color:var(--falta)}
+.item[data-s=na]{border-left-color:var(--na)}
+.item .obs,.item .foto{font-size:13px;padding:4px 8px}
+.seg{display:flex}
+.seg button{border-radius:0;padding:4px 8px;font-size:12.5px;margin-left:-1px;white-space:nowrap}
+.seg button:first-child{border-radius:6px 0 0 6px;margin-left:0}.seg button:last-child{border-radius:0 6px 6px 0}
+.seg button.on{color:#fff;position:relative}
+.seg button.on[data-v=ok],.seg button.on[data-v=sim],.seg button.on[data-v=ambos]{background:var(--ok);border-color:var(--ok)}
+.seg button.on[data-v=ajustar],.seg button.on[data-v=restr],.seg button.on[data-v=sem]{background:var(--ajustar);border-color:var(--ajustar)}
+.seg button.on[data-v=nao_tem],.seg button.on[data-v=nao]{background:var(--falta);border-color:var(--falta)}
+.seg button.on[data-v=na]{background:var(--na);border-color:var(--na)}
+.linha-lista{border:1px solid var(--borda);border-radius:8px;padding:12px;margin-bottom:8px;position:relative;background:var(--fundo)}
+.linha-lista .grade{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px 12px}
+.bloco{background:var(--painel);border:1px solid var(--borda);border-radius:10px;padding:12px 14px}
+.bloco>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px}
+.bloco>summary::-webkit-details-marker{display:none}
+.bloco>summary::after{content:"";width:6px;height:6px;border-right:2px solid var(--suave);border-bottom:2px solid var(--suave);transform:rotate(45deg);margin:-3px 0 0 auto}
+.bloco:not([open])>summary::after{transform:rotate(-45deg);margin-top:0}
+.bloco[open]>summary{margin-bottom:8px}
+.cat .oque{font-size:12.5px;color:var(--suave);margin:-4px 0 8px}
+.privacidade{border:1px solid var(--sug-borda);background:var(--sug);border-radius:8px;padding:8px 12px;margin-bottom:12px;font-size:13px}
+.linha-lista label{display:block;font-size:12px;color:var(--suave);margin-bottom:2px}
+.linha-lista .tira{position:absolute;top:6px;right:6px;border:none;background:none;color:var(--suave);padding:2px 6px}
+.linha-lista .num{font-size:12px;color:var(--suave);margin-bottom:6px}
+.bloco{margin-bottom:12px}
+.cartao{border:1px solid var(--borda);border-radius:8px;padding:10px;margin-bottom:8px}
+.sug{background:var(--sug);border-color:var(--sug-borda)}
+.sug .onde{font-size:12px;color:var(--suave)} .sug .val{margin:4px 0;white-space:pre-wrap;word-break:break-word}
+.sug .atual,.sug .trecho{font-size:12px;color:var(--suave)} .sug .acoes{display:flex;gap:6px;margin-top:6px}
+.fonte{font-size:11px;border-radius:4px;padding:0 5px;background:var(--marca);color:#fff;margin-right:6px}
+@media (prefers-color-scheme:dark){.fonte{color:#0e1512}}
+.res{display:block;width:100%;text-align:left;margin-bottom:5px}
+.res small{display:block;color:var(--suave)}
+.achado{font-size:12.5px;padding:4px 0;border-top:1px solid var(--borda)}
+.achado b.DIVERGE{color:var(--falta)} .achado b.atenção{color:var(--ajustar)} .achado b.confere{color:var(--ok)}
+.aviso{font-size:12.5px;color:var(--suave);margin-top:6px} .erro{color:var(--falta)}
+.cat{background:var(--painel);border:1px dashed var(--borda);border-radius:8px;padding:12px;margin-bottom:10px}
+.cat.sobre{border-color:var(--marca);background:var(--marca-fraca)}
+.cat header{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.cat header span{color:var(--suave);font-size:12px;margin-right:auto}
+.minis{display:flex;flex-wrap:wrap;gap:8px}
+.mini{width:128px;font-size:11px;word-break:break-all}
+.mini img,.mini .pdf{width:128px;height:96px;object-fit:cover;border-radius:6px;border:1px solid var(--borda);display:grid;place-items:center;background:var(--fundo)}
+.mini select{font-size:11px;padding:2px 4px;margin-top:2px}
+dialog{border:1px solid var(--borda);border-radius:10px;background:var(--painel);color:var(--texto);width:min(420px,92vw)}
+dialog::backdrop{background:#0006}
+dialog label{display:block;margin:10px 0 3px}
+#vazio{color:var(--suave);padding:60px 0;text-align:center}
+@media (max-width:1100px){#app{grid-template-columns:minmax(0,1fr);height:auto}#lado,#assist{border:none;border-bottom:1px solid var(--borda)}
+  #meio{padding:0 14px 40px;overflow:visible}#topo .acoes-topo{margin-left:0}
+  .item{grid-template-columns:1fr;grid-template-areas:"rot" "seg" "obs" "foto"}.item .foto{width:100%}.seg{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="lado">
+    <h1>Acervo de polos</h1>
+    <div id="lista-polos"></div>
+    <button id="novo" style="margin-top:14px;width:100%">+ Novo polo</button>
+    <button id="b-geral" style="margin-top:6px;width:100%">Relatório de todos os polos</button>
+    <div id="st-geral" class="aviso"></div>
+  </aside>
+
+  <main id="meio">
+    <div id="vazio">Escolha um polo à esquerda.</div>
+    <div id="polo" hidden>
+      <div id="topo">
+        <div class="linha">
+          <div><h2 id="nome"></h2><div class="meta" id="meta"></div></div>
+          <div class="acoes-topo"><span id="salvo"></span><button id="b-rel" class="forte">Gerar relatório</button></div>
+        </div>
+        <div id="st-rel" class="aviso"></div>
+        <div style="display:flex;align-items:flex-end;gap:12px;flex-wrap:wrap"><div class="abas" id="abas"></div>
+          <label class="aviso" style="margin:0 0 10px auto"><input type="checkbox" id="extras"> Mostrar itens complementares</label></div>
+        <nav class="indice" id="indice" aria-label="Seções"></nav>
+      </div>
+      <div id="conteudo"></div>
+    </div>
+  </main>
+
+  <aside id="assist">
+    <details class="bloco" open>
+      <summary><h3>Buscar no CNES</h3></summary>
+      <p class="dica">Nome da clínica, CNPJ ou número do CNES. Por nome, acha as clínicas do DF que têm serviço de imagem. O que o cadastro oficial tiver vira sugestão para você confirmar.</p>
+      <form id="f-cnes" style="display:flex;gap:6px"><input type="text" id="q-cnes" placeholder="ex.: provida, 9180168"><button class="forte">Buscar</button></form>
+      <div id="res-cnes" style="margin-top:8px"></div>
+    </details>
+    <details class="bloco">
+      <summary><h3>Horário de funcionamento</h3></summary>
+      <p class="dica">O CNES só diz o turno. O horário de verdade está no perfil da clínica no Google.</p>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><button id="b-web" class="forte">Buscar na web com IA</button>
+        <a id="maps" target="_blank" rel="noopener">Abrir no Google Maps</a></div>
+      <div id="st-web" class="aviso"></div>
+    </details>
+    <details class="bloco" open>
+      <summary><h3>Anotações da visita</h3></summary>
+      <p class="dica">Escreva ou dite do seu jeito. A IA distribui nos campos e você confirma.</p>
+      <textarea id="notas" rows="7" placeholder="ex.: dois banheiros na recepção, um adaptado mas sem barra. Bebedouro quebrado. Três salas de ultrassom, a 2 sem pia..."></textarea>
+      <div style="display:flex;gap:8px;align-items:center;margin-top:6px"><button class="forte" id="b-ia">Interpretar com IA</button><span id="st-ia" class="aviso" style="margin:0"></span></div>
+    </details>
+    <div class="bloco" id="b-sug" hidden>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px"><h3 id="t-sug" style="margin:0"></h3>
+        <button id="aceitar-todas" style="margin-left:auto">Aceitar todas</button><button id="limpar-sug">Dispensar</button></div>
+      <div id="sugestoes"></div>
+    </div>
+    <div class="bloco" id="b-val" hidden><h3>Validação cadastral</h3><div id="validacao"></div></div>
+  </aside>
+</div>
+
+<dialog id="dlg-novo"><form method="dialog" id="f-novo">
+  <h3>Novo polo</h3>
+  <label for="n-setor">Setor</label><input type="text" id="n-setor" list="setores" required><datalist id="setores"></datalist>
+  <label for="n-nome">Nome do polo</label><input type="text" id="n-nome" required>
+  <label>Exames</label>
+  <label style="display:inline;margin-right:14px"><input type="checkbox" id="n-us"> Ultrassom</label>
+  <label style="display:inline"><input type="checkbox" id="n-tc"> Tomografia</label>
+  <p class="aviso erro" id="n-erro"></p>
+  <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:12px"><button type="button" id="n-cancela">Cancelar</button><button class="forte" value="ok">Criar</button></div>
+</form></dialog>
+
+<script>
+"use strict";
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const NOME_ABA = {polo: "Prédio", US: "Ultrassom", TC: "Tomografia", capacidade: "Capacidade e metas", fotos: "Fotos"};
+const ehFicha = a => !!E.esquema[a];
+const fichaDe = el => (el.closest("[data-ficha]") || {}).dataset?.ficha;
+const NOME_CAT = c => c.replace(/^\d+_/, "").replace(/_/g, " ");
+let E = null;            // estado geral: esquema, polos, categorias
+let P = null;            // polo aberto: pasta, dados, fotos, modalidades
+let aba = "polo";
+let sugestoes = [];
+let relogio = null;
+let extras = false;      // mostrar também os itens complementares
+
+async function api(caminho, corpo, cru) {
+  const r = await fetch(caminho, corpo === undefined ? {} : {method: "POST", body: cru ? corpo : JSON.stringify(corpo)});
+  const j = await r.json().catch(() => ({erro: "resposta ilegível do servidor"}));
+  if (!r.ok) throw new Error(j.erro || "erro " + r.status);
+  return j;
+}
+
+/* ---------- lista de polos ---------- */
+function desenhaPolos() {
+  const grupos = {};
+  for (const p of E.polos) (grupos[p.setor] ??= []).push(p);
+  $("#lista-polos").innerHTML = Object.keys(grupos).sort().map(s =>
+    `<div class="setor">${esc(s)}</div>` + grupos[s].map(p => {
+      const pct = p.total ? Math.round(100 * p.feitos / p.total) : 0;
+      return `<button class="polo ${P && P.pasta === p.pasta ? "ativo" : ""}" data-pasta="${esc(p.pasta)}">
+        <b>${esc(p.nome)}</b>${p.modalidades.map(m => `<span class="chip">${m}</span>`).join("")}
+        <span class="chip">${pct}%</span>${p.parecer ? `<span class="chip ${classeParecer(p.parecer)}">${esc(p.parecer)}</span>` : ""}
+        <div class="barra"><i style="width:${pct}%"></i></div></button>`;
+    }).join("")).join("");
+  $("#setores").innerHTML = Object.keys(grupos).map(s => `<option value="${esc(s)}">`).join("");
+}
+
+async function abrir(pasta) {
+  await salvarAgora();
+  const r = await api("/api/polo?pasta=" + encodeURIComponent(pasta));
+  P = {pasta, dados: r.dados, fotos: r.fotos, modalidades: r.modalidades};
+  aba = "polo"; sugestoes = [];
+  $("#vazio").hidden = true; $("#polo").hidden = false;
+  $("#notas").value = P.dados.notas || "";
+  $("#res-cnes").innerHTML = ""; $("#b-val").hidden = true; $("#st-ia").textContent = ""; $("#st-web").textContent = "";
+  $("#q-cnes").value = P.dados.polo["ident.cnes"] || "";
+  desenhaPolos(); desenhaTudo(); desenhaSugestoes();
+}
+
+function desenhaTudo() {
+  const resumo = E.polos.find(p => p.pasta === P.pasta);
+  $("#nome").textContent = P.dados.polo["ident.nome_fantasia"] || (resumo ? resumo.nome : "");
+  const p = P.dados.polo;
+  $("#meta").textContent = [resumo && resumo.setor, p["ident.cnes"] && "CNES " + p["ident.cnes"],
+    P.modalidades.map(m => NOME_ABA[m]).join(" e "), p["visita.data"] && "visita em " + p["visita.data"]].filter(Boolean).join("  ·  ");
+  const abas = ["polo", ...P.modalidades, ...(P.modalidades.length ? ["capacidade"] : []), "fotos"];
+  $("#abas").innerHTML = abas.map(a => `<button data-aba="${a}" class="${a === aba ? "ativa" : ""}">${NOME_ABA[a]}${badgeAba(a)}</button>`).join("");
+  $("#conteudo").innerHTML = aba === "fotos" ? htmlFotos() : aba === "capacidade" ? htmlCapacidade() : htmlFicha(aba);
+  desenhaIndice();
+}
+function htmlCapacidade() {
+  return `<p class="dica">Capacidade e meta não são vistoria: analisam-se à parte, com o que o polo declarou e o que o plano
+    pede. Não contam no percentual da ficha e saem numa seção própria do relatório.</p>` + P.modalidades.map(m => htmlFicha(m, true)).join("");
+}
+function badgeAba(a) {
+  if (a === "fotos") return `<span class="n">${Object.values(P.fotos).flat().length}</span>`;
+  const [f, t] = a === "capacidade" ? P.modalidades.map(m => contagem(m, true)).reduce((x, y) => [x[0] + y[0], x[1] + y[1]], [0, 0]) : contagem(a);
+  return `<span class="n ${f === t ? "cheio" : ""}">${f}/${t}</span>`;
+}
+function desenhaIndice() {   // atalhos para as seções da aba aberta
+  const nav = $("#indice");
+  if (!ehFicha(aba)) { nav.hidden = true; return; }
+  nav.hidden = false;
+  nav.innerHTML = E.esquema[aba].filter(s => !s.separada).map(s => {
+    const [f, t] = contagemSecao(aba, s), txt = s.tipo === "lista" ? (f ? "✓" : "–") : f + "/" + t;
+    return `<button type="button" data-ir="${s.id}" class="${f === t ? "cheio" : ""}">${esc(s.titulo)}<b>${txt}</b></button>`;
+  }).join("");
+}
+function atualizaContagens() {   // depois de salvar: abas, atalhos e cabeçalhos das seções
+  for (const b of $("#abas").children) b.innerHTML = NOME_ABA[b.dataset.aba] + badgeAba(b.dataset.aba);
+  desenhaIndice();
+  for (const bloco of document.querySelectorAll("#conteudo [data-ficha]")) {
+    const ficha = bloco.dataset.ficha;
+    for (const s of E.esquema[ficha]) {
+      const el = $(`details.sec[data-sec="${s.id}"] .cont`, bloco); if (!el) continue;
+      const [f, t] = contagemSecao(ficha, s);
+      el.outerHTML = contHtml(ficha, s, f, t);
+    }
+  }
+}
+function contHtml(ficha, s, f, t) {
+  const n = s.tipo === "lista" ? (P.dados[ficha][s.id] || []).length : 0;
+  const txt = s.tipo === "lista" ? (f ? n + (n === 1 ? " linha" : " linhas") : "vazio") : f + " de " + t;
+  return `<span class="cont ${f === t ? "cheio" : ""}"><span class="barra"><i style="width:${t ? 100 * f / t : 0}%"></i></span>${txt}</span>`;
+}
+$("#indice").addEventListener("click", e => {
+  const b = e.target.closest("[data-ir]"); if (!b) return;
+  const d = $(`details.sec[data-sec="${b.dataset.ir}"]`); if (d) { d.open = true; d.scrollIntoView({behavior: "smooth", block: "start"}); }
+});
+
+/* ---------- formulário ---------- */
+function cheio(tipo, v) {
+  if (tipo === "itens") return !!(v && (v.s || v.o));
+  if (tipo === "lista") return !!(v && v.some(l => Object.values(l).some(x => String(x).trim())));
+  return !!String(v ?? "").trim();
+}
+function contagemSecao(ficha, s) {
+  const d = P.dados[ficha];
+  if (s.tipo === "lista") return [cheio("lista", d[s.id]) ? 1 : 0, 1];
+  const ess = s.itens.filter(i => !i.extra);   // o percentual olha só o essencial
+  return [ess.filter(i => cheio(s.tipo, d[s.id + "." + i.id])).length, ess.length];
+}
+function contagem(ficha, separadas = false) {
+  return E.esquema[ficha].filter(s => !!s.separada === separadas)
+    .reduce((a, s) => { const c = contagemSecao(ficha, s); return [a[0] + c[0], a[1] + c[1]]; }, [0, 0]);
+}
+function todasFotos() { return Object.entries(P.fotos).flatMap(([c, ns]) => ns.map(n => c + "/" + n)); }
+
+function htmlFicha(ficha, separadas = false) {
+  const d = P.dados[ficha];
+  const lista = separadas ? "" : `<datalist id="dl-fotos">${todasFotos().map(f => `<option value="${esc(f)}">`).join("")}</datalist>`;
+  return lista + `<div data-ficha="${ficha}">` + E.esquema[ficha].filter(s => !!s.separada === separadas).map((s0, num) => {
+    // complementar aparece se foi pedido ou se já tem algo escrito
+    const s = s0.tipo === "lista"
+      ? {...s0, colunas: s0.colunas.filter(c => !c.extra || extras || (d[s0.id] || []).some(l => String(l[c.id] ?? "").trim()))}
+      : {...s0, itens: s0.itens.filter(i => !i.extra || extras || cheio(s0.tipo, d[s0.id + "." + i.id]))};
+    const [f, t] = contagemSecao(ficha, s0);
+    let corpo = s.dica ? `<p class="dica">${esc(s.dica)}</p>` : "";
+    if (s.tipo === "campos") corpo += `<div class="campos">` + s.itens.map(i => {
+      const k = s.id + "." + i.id, v = d[k] ?? "";
+      const ctrl = i.opcoes
+        ? `<select data-k="${k}" id="c-${k}"><option value=""></option>${i.opcoes.map(o => `<option ${o === v ? "selected" : ""}>${esc(o)}</option>`).join("")}</select>`
+        : `<input type="text" data-k="${k}" id="c-${k}" value="${esc(v)}">`;
+      return `<div class="campo"><label for="c-${k}">${esc(i.rotulo)}</label>${ctrl}</div>`;
+    }).join("") + `</div>`;
+    if (s.tipo === "textos") corpo += s.itens.map(i => {
+      const k = s.id + "." + i.id;
+      return `<div class="texto"><label for="c-${k}">${esc(i.rotulo)}</label><textarea data-k="${k}" id="c-${k}">${esc(d[k] ?? "")}</textarea></div>`;
+    }).join("");
+    if (s.tipo === "itens") corpo += s.itens.map(i => {
+      const k = s.id + "." + i.id, v = d[k] || {};
+      return `<div class="item" data-s="${esc(v.s ?? "")}"><div class="rot">${esc(i.rotulo)}</div>
+        <div class="seg" role="group" aria-label="${esc(i.rotulo)}">${s.opcoes.map(([val, rot]) =>
+          `<button type="button" data-k="${k}" data-v="${val}" class="${v.s === val ? "on" : ""}" aria-pressed="${v.s === val}">${esc(rot)}</button>`).join("")}</div>
+        <input type="text" class="obs" data-k="${k}" data-p="o" value="${esc(v.o ?? "")}" placeholder="observação (número, validade, o que falta…)" aria-label="Observação: ${esc(i.rotulo)}">
+        <input type="text" class="foto" data-k="${k}" data-p="f" value="${esc(v.f ?? "")}" placeholder="foto" list="dl-fotos" aria-label="Foto: ${esc(i.rotulo)}"></div>`;
+    }).join("");
+    if (s.tipo === "lista") {
+      const linhas = d[s.id] || [];
+      corpo += linhas.map((l, n) => `<div class="linha-lista"><div class="num">${n + 1}</div>
+        <button type="button" class="tira" data-tira="${s.id}" data-n="${n}" title="Remover esta linha" aria-label="Remover linha ${n + 1}">✕</button>
+        <div class="grade">${s.colunas.map(c => `<div><label>${esc(c.rotulo)}</label>
+          <input type="text" data-k="${s.id}" data-n="${n}" data-c="${c.id}" value="${esc(l[c.id] ?? "")}" ${c.id === "foto" ? 'list="dl-fotos"' : ""} aria-label="${esc(c.rotulo)}, linha ${n + 1}"></div>`).join("")}</div></div>`).join("");
+      corpo += `<button type="button" data-mais="${s.id}">+ Adicionar</button>`;
+    }
+    return `<details class="sec" open data-sec="${s.id}"><summary><span class="numero">${num + 1}</span><h3>${esc(s.titulo)}</h3>
+      ${contHtml(ficha, s0, f, t)}</summary>
+      <div class="corpo">${corpo}</div></details>`;
+  }).join("") + `</div>`;
+}
+
+function redesenhaMantendoLugar() {
+  const m = $("#meio"), y = m.scrollTop, abertas = [...document.querySelectorAll("details.sec")].filter(d => !d.open).map(d => d.dataset.sec);
+  desenhaTudo();
+  for (const id of abertas) { const d = $(`details.sec[data-sec="${id}"]`); if (d) d.open = false; }
+  m.scrollTop = y;
+}
+
+$("#conteudo").addEventListener("input", e => {
+  const el = e.target, k = el.dataset.k, ficha = fichaDe(el);
+  if (!k || !ficha) return;
+  const d = P.dados[ficha];
+  if (el.dataset.c) { (d[k] ??= [])[+el.dataset.n][el.dataset.c] = el.value; }
+  else if (el.dataset.p) { (d[k] ??= {})[el.dataset.p] = el.value; }
+  else d[k] = el.value;
+  agendarSalvar();
+});
+$("#conteudo").addEventListener("click", e => {
+  const b = e.target.closest("button"), ficha = b && fichaDe(b);
+  if (!b || !ficha) return;
+  if (b.dataset.v) {
+    const v = (P.dados[ficha][b.dataset.k] ??= {});
+    v.s = v.s === b.dataset.v ? "" : b.dataset.v;
+    for (const x of b.parentElement.children) { x.classList.toggle("on", x.dataset.v === v.s); x.setAttribute("aria-pressed", x.dataset.v === v.s); }
+    b.closest(".item").dataset.s = v.s;
+    agendarSalvar();
+  } else if (b.dataset.mais) {
+    (P.dados[ficha][b.dataset.mais] ??= []).push({});
+    redesenhaMantendoLugar();
+    const ult = [...document.querySelectorAll(`[data-ficha="${ficha}"] [data-k="${b.dataset.mais}"][data-n]`)].filter(i => +i.dataset.n === P.dados[ficha][b.dataset.mais].length - 1)[0];
+    if (ult) ult.focus();
+  } else if (b.dataset.tira) {
+    P.dados[ficha][b.dataset.tira].splice(+b.dataset.n, 1);
+    redesenhaMantendoLugar(); agendarSalvar();
+  }
+});
+$("#abas").addEventListener("click", e => { const b = e.target.closest("button"); if (b) { aba = b.dataset.aba; desenhaTudo(); $("#meio").scrollTop = 0; } });
+$("#lista-polos").addEventListener("click", e => { const b = e.target.closest(".polo"); if (b) abrir(b.dataset.pasta).catch(mostraErro); });
+$("#extras").addEventListener("change", e => { extras = e.target.checked; if (P) redesenhaMantendoLugar(); });
+$("#notas").addEventListener("input", e => { if (P) { P.dados.notas = e.target.value; agendarSalvar(); } });
+
+/* ---------- salvar ---------- */
+function agendarSalvar() { $("#salvo").textContent = "alterações não salvas…"; clearTimeout(relogio); relogio = setTimeout(salvarAgora, 900); }
+async function salvarAgora() {
+  clearTimeout(relogio); relogio = null;
+  if (!P || $("#salvo").textContent.indexOf("não salvas") < 0) return;
+  try {
+    const r = await api("/api/polo", {pasta: P.pasta, dados: P.dados});
+    E.polos = r.polos; desenhaPolos();
+    $("#salvo").textContent = "salvo às " + new Date().toLocaleTimeString("pt-BR", {hour: "2-digit", minute: "2-digit"});
+    atualizaContagens();
+  } catch (err) { $("#salvo").innerHTML = `<span class="erro">não salvou: ${esc(err.message)}</span>`; }
+}
+window.addEventListener("beforeunload", e => { if (relogio) { salvarAgora(); e.preventDefault(); } });
+function mostraErro(err) { alert(err.message); }
+
+/* ---------- sugestões ---------- */
+function textoValor(s, v) {
+  if (s.tipo === "item") {
+    const sec = E.esquema[s.ficha].find(x => s.id.startsWith(x.id + "."));
+    const rot = sec ? (sec.opcoes.find(o => o[0] === v.s) || [])[1] : v.s;
+    return [rot, v.o].filter(Boolean).join(" — ");
+  }
+  if (s.tipo === "lista") return (v || []).map((l, n) => (n + 1) + ". " + Object.values(l).filter(Boolean).join("; ")).join("\n");
+  return v;
+}
+function desenhaSugestoes() {
+  $("#b-sug").hidden = !sugestoes.length;
+  $("#t-sug").textContent = `Para confirmar (${sugestoes.length})`;
+  $("#sugestoes").innerHTML = sugestoes.map((s, n) => {
+    const atual = P.dados[s.ficha][s.id];
+    const tAtual = atual && s.tipo !== "lista" ? textoValor(s, atual) : "";
+    return `<div class="cartao sug"><div class="onde"><span class="fonte">${esc(s.fonte)}</span>${esc(NOME_ABA[s.ficha])} · ${esc(s.secao)}</div>
+      <b>${esc(s.rotulo)}</b><div class="val">${esc(textoValor(s, s.valor))}</div>
+      ${tAtual && tAtual !== textoValor(s, s.valor) ? `<div class="atual">substitui: ${esc(tAtual)}</div>` : ""}
+      ${s.tipo === "lista" && atual && atual.length ? `<div class="atual">acrescenta às ${atual.length} linha(s) já preenchidas</div>` : ""}
+      ${s.trecho ? `<div class="trecho">“${esc(s.trecho)}”</div>` : ""}
+      <div class="acoes"><button class="forte" data-aceita="${n}">Aceitar</button><button data-ignora="${n}">Ignorar</button></div></div>`;
+  }).join("");
+}
+function aplica(s) {
+  const d = P.dados[s.ficha];
+  if (s.tipo === "item") { const a = (d[s.id] ??= {}); if (s.valor.s) a.s = s.valor.s; if (s.valor.o) a.o = s.valor.o; }
+  else if (s.tipo === "lista") {   // não repete linha que já está lá (aceitar duas vezes a mesma busca)
+    const ja = new Set((d[s.id] ??= []).map(l => JSON.stringify(Object.entries(l).filter(x => x[1]).sort())));
+    d[s.id].push(...s.valor.filter(l => !ja.has(JSON.stringify(Object.entries(l).filter(x => x[1]).sort()))).map(l => ({...l})));
+  }
+  else d[s.id] = s.valor;
+}
+$("#sugestoes").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  const n = +(b.dataset.aceita ?? b.dataset.ignora);
+  if (b.dataset.aceita !== undefined) { aplica(sugestoes[n]); agendarSalvar(); }
+  sugestoes.splice(n, 1); desenhaSugestoes(); redesenhaMantendoLugar();
+});
+$("#aceitar-todas").onclick = () => { sugestoes.forEach(aplica); sugestoes = []; agendarSalvar(); desenhaSugestoes(); redesenhaMantendoLugar(); };
+$("#limpar-sug").onclick = () => { sugestoes = []; desenhaSugestoes(); };
+
+/* ---------- CNES ---------- */
+$("#f-cnes").addEventListener("submit", async e => {
+  e.preventDefault();
+  if (!P) return alert("Abra um polo primeiro.");
+  const caixa = $("#res-cnes"); caixa.innerHTML = `<p class="aviso">Procurando…</p>`;
+  try {
+    const r = await api("/api/cnes/buscar", {q: $("#q-cnes").value});
+    const ind = r.indice, aviso = ind.pronto ? "" : `<p class="aviso">${ind.erro ? esc(ind.erro) :
+      `A lista de nomes ainda está sendo montada (${ind.feitos} de ${ind.total} clínicas com serviço de imagem). Busca por nome pode não achar tudo; por CNPJ ou CNES já funciona.`}</p>`;
+    caixa.innerHTML = (r.resultados.length ? r.resultados.map(x => `<button class="res" data-cnes="${x.cnes}">
+      <b>${esc(x.fantasia || x.razao || "sem nome")}</b>${x.imagem ? ' <span class="chip">imagem</span>' : ""}
+      <small>CNES ${x.cnes} · ${esc(x.cnpj)} · ${esc(x.bairro)}</small><small>${esc(x.razao)}</small></button>`).join("")
+      : `<p class="aviso">Nada encontrado no CNES do DF (${esc(r.competencia)}).</p>`)
+      + (r.mais ? `<p class="aviso">e mais ${r.mais}; refine a busca.</p>` : "") + aviso;
+  } catch (err) { caixa.innerHTML = `<p class="aviso erro">${esc(err.message)}</p>`; }
+});
+$("#res-cnes").addEventListener("click", async e => {
+  const b = e.target.closest(".res"); if (!b) return;
+  if (b.dataset.rt) {   // escolha do responsável técnico entre os vinculados
+    P.dados.polo["ident.resp_tecnico"] = b.dataset.rt + " (vínculo no CNES; confirmar com o polo)";
+    agendarSalvar(); redesenhaMantendoLugar();
+    for (const x of document.querySelectorAll(".rt")) x.style.borderColor = x === b ? "var(--marca)" : "";
+    return;
+  }
+  const caixa = $("#res-cnes"); caixa.innerHTML = `<p class="aviso">Consultando CNES ${b.dataset.cnes} e a Receita…</p>`;
+  try {
+    await salvarAgora();
+    const r = await api("/api/cnes/aplicar", {pasta: P.pasta, cnes: b.dataset.cnes});
+    sugestoes = sugestoes.filter(s => s.fonte === "IA").concat(r.sugestoes); desenhaSugestoes();
+    const i = r.info;
+    caixa.innerHTML = `<div class="cartao"><b>No CNES (${esc(i.competencia)})</b>
+      <div class="aviso">Equipamentos de imagem em uso: ${esc(i.equipamentos.join("; ") || "nenhum")}</div>
+      <div class="aviso">Instalações declaradas: ${esc(i.instalacoes.join("; ") || "nenhuma")}</div>
+      <div class="aviso">Equipe vinculada: ${esc(i.equipe || "nenhum profissional no arquivo")}</div>
+      ${i.candidatos_rt.length ? `<div class="aviso" style="margin-top:8px"><b>Responsável técnico:</b> o CNES não marca quem é. Estes são os médicos e diretores vinculados — clique em quem for:</div>
+        ${i.candidatos_rt.map(c => `<button class="res rt" data-rt="${esc(c.texto)}">${esc(c.nome)}<small>${esc(c.ocupacao)}${c.registro ? " · registro " + esc(c.registro) : ""} · ${c.horas} h/sem</small></button>`).join("")}` : ""}</div>`;
+    $("#b-val").hidden = false;
+    $("#validacao").innerHTML = r.achados.map(a => `<div class="achado"><b class="${esc(a.resultado)}">${esc(a.resultado)}</b> · ${esc(a.item)}<br>${esc(a.detalhe)}</div>`).join("");
+  } catch (err) { caixa.innerHTML = `<p class="aviso erro">${esc(err.message)}</p>`; }
+});
+
+/* ---------- IA ---------- */
+$("#b-ia").onclick = async () => {
+  if (!P) return alert("Abra um polo primeiro.");
+  const b = $("#b-ia"), st = $("#st-ia");
+  b.disabled = true; st.className = "aviso"; st.textContent = "Lendo as anotações… pode levar um minuto.";
+  try {
+    const r = await api("/api/ia", {pasta: P.pasta, texto: $("#notas").value});
+    sugestoes = sugestoes.concat(r.sugestoes); desenhaSugestoes();
+    st.textContent = r.sugestoes.length + " sugestão(ões)." + (r.sobras.length ? " Não coube em nenhum campo: " + r.sobras.join(" · ") : "");
+  } catch (err) { st.className = "aviso erro"; st.textContent = err.message; }
+  b.disabled = false;
+};
+
+$("#b-web").onclick = async () => {
+  if (!P) return alert("Abra um polo primeiro.");
+  const b = $("#b-web"), st = $("#st-web");
+  b.disabled = true; st.className = "aviso"; st.textContent = "Pesquisando… pode levar um minuto.";
+  try {
+    await salvarAgora();
+    const r = await api("/api/web", {pasta: P.pasta});
+    sugestoes = sugestoes.concat(r.sugestoes); desenhaSugestoes();
+    st.textContent = r.sugestoes.length ? r.sugestoes.length + " sugestão(ões) para confirmar." : "Não achou horário publicado. Veja no Google Maps.";
+  } catch (err) { st.className = "aviso erro"; st.textContent = err.message; }
+  b.disabled = false;
+};
+$("#maps").addEventListener("click", e => {
+  if (!P) { e.preventDefault(); return alert("Abra um polo primeiro."); }
+  const p = P.dados.polo, q = [p["ident.nome_fantasia"], p["ident.endereco"] || "Brasília DF"].filter(Boolean).join(", ");
+  e.currentTarget.href = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
+});
+
+/* ---------- fotos ---------- */
+const O_QUE_FOTOGRAFAR = {
+  "01_fachada_acesso": "Fachada com o número e a placa, entrada, estacionamento e vaga reservada.",
+  "02_recepcao_espera_fila": "Recepção, sala de espera, bebedouro e onde a fila se forma.",
+  "03_banheiros": "Todos os sanitários, inclusive o acessível (barras, porta, espaço de giro).",
+  "04_acessibilidade": "Rampa, corredores, elevador e portas no caminho até a sala de exame.",
+  "05_salas_exame": "Cada sala de ultrassom: aparelho, plaqueta (marca, modelo, série), transdutores e pia. Sala do tomógrafo: aparelho e plaqueta, bomba injetora, sinalização de radiação e sala de comando.",
+  "06_sala_troca": "Local de troca de roupa e onde se guardam os pertences.",
+  "07_equipamentos": "Carro de emergência aberto, oxigênio, monitor e desfibrilador.",
+  "08_apoio": "Sala de preparo e punção, repouso depois do contraste, lugar para a nossa equipe.",
+  "09_pendencias": "O que precisa ser arrumado, de perto.",
+  "10_documentos": "Alvará e licença sanitária afixados na parede; cópias dos documentos da Regularidade.",
+};
+function htmlFotos() {
+  return `<div class="privacidade"><b>Nenhuma foto com paciente</b>, nem com tela ou papel que mostre nome de paciente.</div>
+    <p class="dica">Arraste as fotos para o ambiente certo, ou use “Escolher”. Elas vão para <code>${esc(P.pasta)}/fotos/</code>.</p>` +
+    E.categorias.map(c => `<div class="cat" data-cat="${c}"><header><h3>${esc(NOME_CAT(c))}</h3><span>${P.fotos[c].length} arquivo(s)</span>
+      <label><input type="file" multiple accept="image/*,.pdf" data-cat="${c}" hidden><span class="chip" style="cursor:pointer;color:var(--texto)" tabindex="0" role="button">Escolher</span></label></header>
+      ${O_QUE_FOTOGRAFAR[c] ? `<p class="oque">${esc(O_QUE_FOTOGRAFAR[c])}</p>` : ""}
+      <div class="minis">${P.fotos[c].map(n => { const u = `/foto?pasta=${encodeURIComponent(P.pasta)}&cat=${c}&nome=${encodeURIComponent(n)}`;
+        return `<div class="mini"><a href="${u}" target="_blank" rel="noopener">${/\.pdf$/i.test(n) ? '<div class="pdf">PDF</div>' : `<img loading="lazy" src="${u}" alt="${esc(n)}">`}</a>${esc(n)}
+          <select data-move="${esc(n)}" data-de="${c}" aria-label="Mover ${esc(n)}"><option value="">mover para…</option>${E.categorias.filter(x => x !== c).map(x => `<option value="${x}">${esc(NOME_CAT(x))}</option>`).join("")}</select></div>`; }).join("")}</div></div>`).join("");
+}
+async function enviaFotos(cat, arquivos) {
+  for (const a of arquivos) {
+    try { const r = await api(`/api/foto?pasta=${encodeURIComponent(P.pasta)}&cat=${cat}&nome=${encodeURIComponent(a.name)}`, a, true); P.fotos = r.fotos; }
+    catch (err) { alert(a.name + ": " + err.message); }
+  }
+  desenhaTudo(); E.polos = (await api("/api/estado")).polos; desenhaPolos();
+}
+const C = $("#conteudo");
+C.addEventListener("change", e => {
+  const el = e.target;
+  if (el.type === "file") enviaFotos(el.dataset.cat, [...el.files]);
+  else if (el.dataset.move && el.value) api("/api/foto/mover", {pasta: P.pasta, de: el.dataset.de, nome: el.dataset.move, para: el.value})
+    .then(r => { P.fotos = r.fotos; desenhaTudo(); }).catch(mostraErro);
+});
+C.addEventListener("keydown", e => { if ((e.key === "Enter" || e.key === " ") && e.target.matches(".cat [role=button]")) { e.preventDefault(); e.target.click(); } });
+C.addEventListener("dragover", e => { const c = e.target.closest(".cat"); if (c) { e.preventDefault(); c.classList.add("sobre"); } });
+C.addEventListener("dragleave", e => { const c = e.target.closest(".cat"); if (c) c.classList.remove("sobre"); });
+C.addEventListener("drop", e => { const c = e.target.closest(".cat"); if (c) { e.preventDefault(); c.classList.remove("sobre"); enviaFotos(c.dataset.cat, [...e.dataTransfer.files]); } });
+
+/* ---------- relatório ---------- */
+const CSS_REL = `body{font:14px/1.5 system-ui,"Segoe UI",Arial,sans-serif;color:#1c211d;max-width:900px;margin:0 auto;padding:28px 20px 60px;background:#fff}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;margin:30px 0 8px;padding-bottom:4px;border-bottom:2px solid #1f6f5c}h3{font-size:14px;margin:18px 0 6px}
+.sub{color:#667067;margin:0 0 14px}table{border-collapse:collapse;width:100%;margin:6px 0 4px}th,td{border:1px solid #d5d9d3;padding:5px 8px;text-align:left;vertical-align:top}
+th{background:#f1f4f1;font-weight:600}td.r{width:36%}.p{display:inline-block;border-radius:99px;padding:0 9px;color:#fff;font-size:12px;white-space:nowrap}
+.ok,.sim,.ambos,.apto{background:#2e7d4f}.ajustar,.restr,.sem,.ajustes{background:#b46a00}.nao_tem,.nao,.inapto{background:#b3372f}.na{background:#6b7280}
+.vazio{color:#99a199}.caixa{border:1px solid #d5d9d3;border-radius:8px;padding:10px 14px;margin:8px 0;background:#fafbf9}
+.fotos{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.fotos figure{margin:0;break-inside:avoid}.fotos img{width:100%;border-radius:4px;display:block}
+.fotos figcaption{font-size:11px;color:#667067;word-break:break-all}.rodape{margin-top:36px;color:#667067;font-size:12px}
+.idx td:first-child{white-space:nowrap}@media print{body{padding:0;max-width:none}h2{break-after:avoid}tr,.caixa{break-inside:avoid}}`;
+const classeParecer = p => p === "apto" ? "apto" : p === "apto com ajustes" ? "ajustes" : p ? "inapto" : "";
+const pilula = (v, rot) => v ? `<span class="p ${esc(v)}">${esc(rot)}</span>` : `<span class="vazio">não verificado</span>`;
+const hoje = () => new Date().toLocaleDateString("pt-BR");
+const paginaRel = (titulo, corpo) => `<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>${esc(titulo)}</title><style>${CSS_REL}</style></head><body>${corpo}<p class="rodape">Gerado em ${hoje()} pelo acervo de polos. Dados de cadastro vêm do CNES e da Receita Federal; o restante, da vistoria.</p></body></html>`;
+
+function relFicha(ficha, d, separadas = false) {   // as seções de uma ficha; o que não foi preenchido e não é essencial fica de fora
+  return E.esquema[ficha].filter(s => s.id !== "parecer" && !!s.separada === separadas).map(s => {
+    let h = "";
+    if (s.tipo === "lista") {
+      const linhas = (d[s.id] || []).filter(l => Object.values(l).some(x => String(x).trim()));
+      if (!linhas.length) return "";
+      const cols = s.colunas.filter(c => c.id !== "foto" && linhas.some(l => String(l[c.id] ?? "").trim()));
+      h = `<table><tr>${cols.map(c => `<th>${esc(c.rotulo)}</th>`).join("")}</tr>${linhas.map(l => `<tr>${cols.map(c => `<td>${esc(l[c.id] ?? "")}</td>`).join("")}</tr>`).join("")}</table>`;
+    } else {
+      const its = s.itens.filter(i => !i.extra || cheio(s.tipo, d[s.id + "." + i.id]));
+      if (!its.some(i => cheio(s.tipo, d[s.id + "." + i.id]))) return "";
+      if (s.tipo === "itens") h = `<table>${its.map(i => { const v = d[s.id + "." + i.id] || {};
+        return `<tr><td class="r">${esc(i.rotulo)}</td><td style="width:1%">${pilula(v.s, (s.opcoes.find(o => o[0] === v.s) || [])[1])}</td><td>${esc(v.o ?? "")}</td></tr>`; }).join("")}</table>`;
+      else if (s.tipo === "campos") h = `<table>${its.map(i => `<tr><td class="r">${esc(i.rotulo)}</td><td>${esc(d[s.id + "." + i.id] ?? "") || '<span class="vazio">—</span>'}</td></tr>`).join("")}</table>`;
+      else h = its.filter(i => cheio("textos", d[s.id + "." + i.id])).map(i => `<p><b>${esc(i.rotulo)}.</b> ${esc(d[s.id + "." + i.id]).replace(/\n/g, "<br>")}</p>`).join("");
+    }
+    return `<h3>${esc(s.titulo)}</h3>${h}`;
+  }).join("");
+}
+function relResumo(pasta, mods, d) {   // o topo: quem é, parecer, o que impede
+  const p = d.polo, linha = (r, v) => v ? `<tr><td class="r">${r}</td><td>${esc(v)}</td></tr>` : "";
+  const pareceres = [["Prédio", p["parecer.parecer"]], ...mods.map(m => [NOME_ABA[m], d[m]["parecer.parecer"]])];
+  const pend = [["Prédio", p.pendencias], ...mods.map(m => [NOME_ABA[m], d[m].pendencias])].flatMap(([o, l]) => (l || []).filter(x => x.pendencia).map(x => ({o, ...x})));
+  return `<div class="caixa"><table>${linha("CNES", p["ident.cnes"])}${linha("CNPJ", p["ident.cnpj"])}${linha("Endereço", p["ident.endereco"])}
+    ${linha("Exames previstos", mods.map(m => NOME_ABA[m]).join(" e "))}${linha("Data da visita", p["visita.data"])}</table>
+    <p>${pareceres.map(([o, v]) => `<b>${o}:</b> ${v ? `<span class="p ${classeParecer(v)}">${esc(v)}</span>` : '<span class="vazio">sem parecer</span>'}`).join(" &nbsp; ")}</p></div>
+    ${pend.length ? `<h3>O que precisa ser resolvido</h3><table><tr><th>Pendência</th><th>Onde</th><th>Quem resolve</th><th>Prazo</th><th>Custo</th><th>Impede o início?</th></tr>
+      ${pend.map(x => `<tr><td>${esc(x.pendencia)}</td><td>${esc(x.o)}</td><td>${esc(x.quem ?? "")}</td><td>${esc(x.prazo ?? "")}</td><td>${esc(x.custo ?? "")}</td><td>${esc(x.impede ?? "")}</td></tr>`).join("")}</table>` : ""}`;
+}
+function reduzFoto(url) {   // foto de celular tem vários MB: reduz no navegador antes de embutir
+  return new Promise(ok => { const im = new Image();
+    im.onload = () => { const k = Math.min(1, 1100 / Math.max(im.width, im.height)), c = document.createElement("canvas");
+      c.width = Math.round(im.width * k); c.height = Math.round(im.height * k); c.getContext("2d").drawImage(im, 0, 0, c.width, c.height);
+      ok(c.toDataURL("image/jpeg", 0.74)); };
+    im.onerror = () => ok(null); im.src = url; });
+}
+$("#b-rel").onclick = async () => {
+  const b = $("#b-rel"), st = $("#st-rel"); b.disabled = true; st.className = "aviso";
+  try {
+    await salvarAgora();
+    const d = P.dados, nome = d.polo["ident.nome_fantasia"] || $("#nome").textContent;
+    let fotos = "", fora = [], n = 0, total = Object.values(P.fotos).flat().length;
+    for (const c of E.categorias) {
+      let figs = "";
+      for (const f of P.fotos[c]) {
+        st.textContent = `Preparando fotos… ${++n} de ${total}`;
+        const u = /\.pdf$/i.test(f) ? null : await reduzFoto(`/foto?pasta=${encodeURIComponent(P.pasta)}&cat=${c}&nome=${encodeURIComponent(f)}`);
+        if (u) figs += `<figure><img src="${u}" alt="${esc(f)}"><figcaption>${esc(f)}</figcaption></figure>`; else fora.push(NOME_CAT(c) + "/" + f);
+      }
+      if (figs) fotos += `<h3>${esc(NOME_CAT(c))}</h3><div class="fotos">${figs}</div>`;
+    }
+    const html = paginaRel("Vistoria — " + nome, `<h1>${esc(nome)}</h1><p class="sub">Relatório de vistoria do polo · ${esc(d.polo["ident.regiao"] || "")}</p>
+      ${relResumo(P.pasta, P.modalidades, d)}<h2>Prédio</h2>${relFicha("polo", d.polo)}
+      ${P.modalidades.map(m => `<h2>${E.titulos[m].replace("Vistoria — ", "")}</h2>${relFicha(m, d[m])}`).join("")}
+      ${(cap => cap ? `<h2>Capacidade e metas</h2>${cap}` : "")(P.modalidades.map(m => relFicha(m, d[m], true)).join(""))}
+      ${fotos ? `<h2>Fotos</h2>${fotos}` : ""}${fora.length ? `<p class="sub">Arquivos não embutidos (PDF ou formato que o navegador não abre): ${esc(fora.join("; "))}</p>` : ""}`);
+    const r = await api("/api/relatorio?pasta=" + encodeURIComponent(P.pasta), new Blob([html], {type: "text/html"}), true);
+    st.innerHTML = `Relatório salvo em <code>${esc(r.arquivo)}</code> (${(r.tamanho / 1048576).toFixed(1)} MB). <a href="/relatorio?pasta=${encodeURIComponent(P.pasta)}" target="_blank" rel="noopener">Abrir</a> — para PDF, abra e use Ctrl+P.`;
+  } catch (err) { st.className = "aviso erro"; st.textContent = err.message; }
+  b.disabled = false;
+};
+$("#b-geral").onclick = async () => {
+  const b = $("#b-geral"), st = $("#st-geral"); b.disabled = true; st.className = "aviso"; st.textContent = "Montando…";
+  try {
+    await salvarAgora();
+    let linhas = "", blocos = "", cap = "";
+    for (const p of [...E.polos].sort((a, b) => (a.setor + a.nome).localeCompare(b.setor + b.nome))) {
+      const r = await api("/api/polo?pasta=" + encodeURIComponent(p.pasta)), d = r.dados;
+      const pct = p.total ? Math.round(100 * p.feitos / p.total) : 0;
+      linhas += `<tr><td>${esc(p.setor)}</td><td><b>${esc(p.nome)}</b></td><td>${p.modalidades.map(m => NOME_ABA[m]).join(" e ")}</td><td>${esc(p.cnes)}</td><td>${esc(p.visita)}</td>
+        <td>${p.parecer ? `<span class="p ${classeParecer(p.parecer)}">${esc(p.parecer)}</span>` : '<span class="vazio">sem parecer</span>'}</td><td>${pct}%</td><td>${p.fotos || ""}</td></tr>`;
+      for (const m of r.modalidades) { const c = k => esc(d[m]["capac." + k] ?? "");
+        cap += `<tr><td><b>${esc(p.nome)}</b></td><td>${NOME_ABA[m]}</td><td>${c("meta")}</td><td>${c("turnos")}</td><td>${c("tempo")}</td><td>${c("ocupado")}</td><td>${c("liquida")}</td></tr>`; }
+      const res = r.modalidades.map(m => d[m]["resumo.resumo"]).filter(Boolean).map(t => `<p>${esc(t)}</p>`).join("");
+      blocos += `<h2>${esc(p.nome)} <span class="sub">· ${esc(p.setor)}</span></h2>${relResumo(p.pasta, r.modalidades, d)}${res}`;
+    }
+    const html = paginaRel("Polos — visão geral", `<h1>Polos de ultrassom e tomografia</h1><p class="sub">Visão geral das vistorias · ${E.polos.length} polos</p>
+      <table class="idx"><tr><th>Setor</th><th>Polo</th><th>Exames</th><th>CNES</th><th>Visita</th><th>Parecer</th><th>Ficha</th><th>Fotos</th></tr>${linhas}</table>
+      <h2>Capacidade e metas</h2><p class="sub">O que o plano pede de cada polo e o que o polo declarou. Em branco: ainda não analisado.</p>
+      <table><tr><th>Polo</th><th>Exame</th><th>Meta do plano</th><th>Turnos disponíveis</th><th>Tempo por exame</th><th>Já ocupado</th><th>Capacidade líquida</th></tr>${cap}</table>${blocos}`);
+    const r = await api("/api/relatorio", new Blob([html], {type: "text/html"}), true);
+    st.innerHTML = `Salvo em <code>${esc(r.arquivo)}</code>. <a href="/relatorio" target="_blank" rel="noopener">Abrir</a>`;
+  } catch (err) { st.className = "aviso erro"; st.textContent = err.message; }
+  b.disabled = false;
+};
+
+/* ---------- novo polo ---------- */
+$("#novo").onclick = () => { $("#n-erro").textContent = ""; $("#dlg-novo").showModal(); };
+$("#n-cancela").onclick = () => $("#dlg-novo").close();
+$("#f-novo").addEventListener("submit", async e => {
+  e.preventDefault();
+  try {
+    const r = await api("/api/polo/novo", {setor: $("#n-setor").value, nome: $("#n-nome").value,
+      modalidades: [$("#n-us").checked && "US", $("#n-tc").checked && "TC"].filter(Boolean)});
+    E.polos = r.polos; $("#dlg-novo").close(); $("#f-novo").reset(); await abrir(r.pasta);
+  } catch (err) { $("#n-erro").textContent = err.message; }
+});
+
+api("/api/estado").then(r => { E = r; desenhaPolos(); }).catch(mostraErro);
+</script>
+</body>
+</html>

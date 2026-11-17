@@ -1,0 +1,10 @@
+id: "GM 7273-2025 grupo 09 e recurso"
+arquivo: "GM 7273-2025 grupo 09 e recurso.html"
+sha256: "23f9890c61bad77dd217a6315060781a55eaa1563f69827f79db3dd9f691acba"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 5986
+tabelas_total: 9
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

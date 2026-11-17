@@ -1,0 +1,16 @@
+id: "Portaria 287 de 07_04_2022"
+arquivo: "Portaria 287 de 07_04_2022.pdf"
+processo_sei: ""
+sha256: "e3a82d6b6e84c1dd4466870e413b279e4fd64f6e5e0702d20da87e30e5d30f04"
+paginas: 3
+chars_texto: 9118
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:12"

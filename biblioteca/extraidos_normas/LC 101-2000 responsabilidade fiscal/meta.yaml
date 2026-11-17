@@ -1,0 +1,10 @@
+id: "LC 101-2000 responsabilidade fiscal"
+arquivo: "LC 101-2000 responsabilidade fiscal.html"
+sha256: "03f34214b5086f8141cf269ac554af0f7e316ee4a613c99ef4da5bbe28461709"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 102501
+tabelas_total: 2
+trechos_riscados: 20
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

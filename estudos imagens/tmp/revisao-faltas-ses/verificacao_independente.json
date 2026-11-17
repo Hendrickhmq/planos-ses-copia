@@ -1,0 +1,15 @@
+{
+  "checks": 13015,
+  "vagas": 120389,
+  "vagas_melhoria": 99032,
+  "hours_agenda": {
+    "Ultrassom": 35515.13593828374,
+    "Tomografia": 7240.865079323768
+  },
+  "original_sha256": "64411e13d0c1442e4d31222dc7ba3955b8a74ac3953119bb1760e5fb42b29d82",
+  "output_sha256": "f295542a0ae801a334726d5f7b6ef8f1fd9eecb7350240277ded943d3c8867a2",
+  "formula_count": 2469,
+  "errors": [],
+  "unrelated_values_preserved": true,
+  "scope": "Verificação independente de valores exportados e cálculos. Não verifica execução no Microsoft Excel."
+}

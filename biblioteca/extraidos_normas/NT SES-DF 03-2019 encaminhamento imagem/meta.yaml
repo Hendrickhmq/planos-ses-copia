@@ -1,0 +1,23 @@
+id: "NT SES-DF 03-2019 encaminhamento imagem"
+arquivo: "NT SES-DF 03-2019 encaminhamento imagem.pdf"
+processo_sei: ""
+sha256: "9396362dd87b69ff42d0e87244aa783d61e77d641c891f1c7eeb4943f4a052f0"
+paginas: 11
+chars_texto: 23633
+tabelas_total: 5
+tabelas_por_pagina:
+  pagina_1: 1
+  pagina_2: 1
+  pagina_3: 1
+  pagina_4: 1
+  pagina_5: 1
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+molduras_descartadas_total: 0
+molduras_descartadas_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por, tesseract 5.4.0.20240606"
+ferramenta: "pdfplumber 0.11.10"
+data_extracao: "2026-09-27T14:36:42"

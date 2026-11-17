@@ -1,0 +1,20 @@
+{
+  "achados": [
+    {
+      "classe": "aberta",
+      "secao": "5.5 — Esofagogastroduodenoscopia",
+      "trecho_documento": "A condução permanece com o médico endoscopista apoiado pela equipe de enfermagem,\ncom monitorização clínica e oximetria. Sedação profunda e anestesia não tópica, que\nexigiriam profissional dedicado exclusivamente a sedar e monitorar, não integram o\ndesenho deste convênio.",
+      "fonte_arquivo": "fontes/normas/Resolucao_CFM_2174-2017_ato_anestesico.md",
+      "trecho_fonte": "Art. 5º Considerando a necessidade de implementação de medidas preventivas\nvoltadas à redução de riscos e ao aumento da segurança sobre a prática do ato\nanestésico, recomenda-se que:\na) a sedação/analgesia seja realizada por médicos, preferencialmente anestesistas,\nficando o acompanhamento do paciente a cargo do médico que não esteja realizando o\nprocedimento que exige sedação/analgesia;",
+      "conta": null,
+      "gravidade": "diligencia",
+      "por_que": "O desenho concentra no endoscopista a realização do exame e a condução da sedação, com apoio de enfermagem. A recomendação do CFM prevê acompanhamento por médico que não esteja realizando o procedimento e não se restringe à sedação profunda. Devolveria para justificar tecnicamente a segurança desse arranjo e esclarecer a responsabilidade pelo acompanhamento durante a sedação. O fundamento é uma recomendação expressa de segurança, não uma proibição absoluta."
+    }
+  ],
+  "listas_vazias": [],
+  "falta_fonte": [
+    "Fluxo oficial de processamento das APAC de OCI custeadas pelo convênio com incremento MAC, usado exclusivamente para comprovação: falta suporte específico para concluir se o desenho gera incompatibilidade operacional ou duplicidade de financiamento.",
+    "Ficha do procedimento anatomopatológico 02.03.02.003-0 ou orientação específica sobre seu registro no SISCAN: o manual fornecido condiciona esse registro ao atributo 040, cuja presença nesse procedimento não foi demonstrada.",
+    "Extrato do Mapa Social citado na seção 3.1, com filtros e critérios clínicos: falta fonte para verificar se a demanda de endoscopia apresentada corresponde ao público da avaliação diagnóstica de câncer gástrico."
+  ]
+}

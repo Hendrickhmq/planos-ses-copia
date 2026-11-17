@@ -1,0 +1,10 @@
+id: "GM 8283-2025 emendas bancada e comissao"
+arquivo: "GM 8283-2025 emendas bancada e comissao.html"
+sha256: "aea3fa873c01c1ca07a129910b5f2d8392e34f4f39e3ade94486b582ee97d65f"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 37298
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

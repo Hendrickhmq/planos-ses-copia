@@ -1,0 +1,27 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["achados", "listas_vazias", "falta_fonte"],
+  "properties": {
+    "achados": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["classe", "secao", "trecho_documento", "fonte_arquivo", "trecho_fonte", "conta", "gravidade", "por_que"],
+        "properties": {
+          "classe": {"type": "string"},
+          "secao": {"type": "string"},
+          "trecho_documento": {"type": "string"},
+          "fonte_arquivo": {"type": ["string", "null"]},
+          "trecho_fonte": {"type": ["string", "null"]},
+          "conta": {"type": ["string", "null"]},
+          "gravidade": {"type": "string", "enum": ["reprova", "diligencia", "ajuste"]},
+          "por_que": {"type": "string"}
+        }
+      }
+    },
+    "listas_vazias": {"type": "array", "items": {"type": "string"}},
+    "falta_fonte": {"type": "array", "items": {"type": "string"}}
+  }
+}

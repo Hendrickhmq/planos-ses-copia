@@ -1,0 +1,18 @@
+plano,arquivo,linha,campo,valor_novo,classe,motivo
+pt_ses_01,pt_ses_01/tabelas/p034_t02.csv,1,3,REFERÊNCIA,forma,cabecalho quebrado pela largura da celula no Word (REFERÊN CIA)
+pt_ses_01,pt_ses_01/tabelas/p034_t02.csv,1,4,Unidade de Medida,forma,cabecalho quebrado pela largura da celula no Word (Unidad e de Medida)
+pt_ses_01,pt_ses_01/tabelas/p034_t02.csv,1,5,Quantidade,forma,cabecalho quebrado pela largura da celula no Word (Quantida de)
+pt_ses_01,pt_ses_01/tabelas/p034_t02.csv,1,6,Frequência,forma,cabecalho quebrado pela largura da celula no Word (Frequê ncia)
+pt_ses_03,pt_ses_03/tabelas/p022_t01.csv,1,6,Frequência,forma,cabecalho quebrado pela largura da celula no Word (Frequênci a)
+pt_ses_02,pt_ses_02/tabelas/p034_t01.csv,2,1,1.2.10,forma,codigo de item quebrado pela largura da celula no Word (1.2.1 0)
+pt_ses_03,pt_ses_03/tabelas/p027_t01.csv,5,1,1.3.2,forma,codigo de item quebrado pela largura da celula no Word (1.3. 2)
+pt_ses_03,pt_ses_03/tabelas/p027_t01.csv,6,1,1.3.3,forma,codigo de item quebrado pela largura da celula no Word (1.3. 3)
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,0,1,Item,forma,"cabecalho da planilha na pagina 40 do PDF, fora da grade que o OCR reconstruiu"
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,0,2,DESCRIÇÃO,forma,"cabecalho da planilha na pagina 40 do PDF, fora da grade que o OCR reconstruiu"
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,0,3,REFERÊNCIA,forma,"cabecalho da planilha na pagina 40 do PDF, fora da grade que o OCR reconstruiu"
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,0,4,Unidade de Medida,forma,"cabecalho da planilha na pagina 40 do PDF, fora da grade que o OCR reconstruiu"
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,0,5,Quantidade,forma,"cabecalho da planilha na pagina 40 do PDF, fora da grade que o OCR reconstruiu"
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,0,6,Frequência,forma,"cabecalho da planilha na pagina 40 do PDF, fora da grade que o OCR reconstruiu"
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,0,7,Valor Unitário,forma,"cabecalho da planilha na pagina 40 do PDF, fora da grade que o OCR reconstruiu"
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,0,8,Valor Total,forma,"cabecalho da planilha na pagina 40 do PDF, fora da grade que o OCR reconstruiu"
+pt_ses_05,pt_ses_05/tabelas/planilha_p041-p053.csv,17,1,2.1.1,forma,OCR perdeu os pontos do codigo do item (2141); a pagina 50 do PDF traz 2.1.1

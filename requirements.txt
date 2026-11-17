@@ -1,0 +1,19 @@
+# Extracao e conferencia. `pip install -r requirements.txt`
+#
+# pdfplumber e pdfminer.six vao com a versao EXATA: a extracao precisa sair
+# com os mesmos bytes em qualquer computador, e versao nova do leitor de PDF
+# muda quebra de linha e deteccao de tabela. Esta combinacao reproduz, byte a
+# byte, as CSVs de extraidos/ dos planos 01 a 04 (conferido em 27/09/2026).
+pdfplumber==0.11.10
+pdfminer.six==20260107
+
+# OCR (extrair_planos.py na pagina digitalizada, extrair_digitalizados.py,
+# verificacoes A, E e G do conferir.py). Precisa tambem do programa Tesseract
+# com o idioma 'por' - ver README, Instalacao.
+pytesseract>=0.3.13
+numpy>=2.0
+Pillow>=10.0
+
+# A planilha da coleta do Mapa Social (montar_coleta.py). O kit do motor
+# (ferramentas/mapa_social/motor.js) e os testes dele precisam do node.
+openpyxl==3.1.5

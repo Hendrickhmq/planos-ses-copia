@@ -1,0 +1,13 @@
+{
+  "fronts": 45,
+  "queues": 115,
+  "tariffCodes": 45,
+  "initialSelected": 5,
+  "newCandidates": 20,
+  "checks": [
+    "Conciliação por frente",
+    "Referências monetárias",
+    "Alteração de seleção",
+    "Mudança de dado de demanda e restauração"
+  ]
+}

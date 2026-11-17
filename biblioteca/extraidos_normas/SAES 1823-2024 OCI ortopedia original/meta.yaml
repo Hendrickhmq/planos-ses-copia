@@ -1,0 +1,10 @@
+id: "SAES 1823-2024 OCI ortopedia original"
+arquivo: "SAES 1823-2024 OCI ortopedia original.html"
+sha256: "ce39b08bd99435ba1de5894a0c3ae03251db20044df7540b3d1ca5e3e4ec3357"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 4437
+tabelas_total: 6
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:36:08"

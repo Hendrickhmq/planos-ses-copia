@@ -1,0 +1,16 @@
+id: "Instrução Normativa 1 de 22_12_2005"
+arquivo: "Instrução Normativa 1 de 22_12_2005.pdf"
+processo_sei: ""
+sha256: "f6814b3b08d70dfc3df1b7b34ef8e0df03e9d27d26534e5766866d170fd3f9ac"
+paginas: 21
+chars_texto: 60016
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: [15, 16, 17, 18, 19, 20]
+paginas_ocr: [15, 16, 17, 18, 19, 20]
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:12:58"

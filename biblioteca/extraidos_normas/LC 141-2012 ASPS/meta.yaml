@@ -1,0 +1,10 @@
+id: "LC 141-2012 ASPS"
+arquivo: "LC 141-2012 ASPS.html"
+sha256: "129629c60effc2bae6489fad36a08e1a0d0213e4d65c15d48c4629f18e16e46c"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 40164
+tabelas_total: 2
+trechos_riscados: 2
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

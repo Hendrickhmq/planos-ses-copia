@@ -1,0 +1,23 @@
+PROCEDIMENTO,09.03.01.002-0 -OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E ULTRASSONOGRAFIA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, EXAMES DE RADIOLOGIA, EXAMES DE ULTRASSONOGRAFIA, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 140,00"
+Total do Serviço Ambulatorial,"R$ 140,00"
+CID-10,M87 OsteonecroseM87.1Osteonecrose dev drogasM87.2 Osteonecrose dev traum anteriorM87.3 Outr osteonecroses secund
+,M87.8 Outr osteonecrosesM87.9 Osteonecrose NEM90.3 Osteonecrose em mal dos caixoes
+,M90.4 Osteonecrose dev hemoglobinopatiaM90.5 Osteonecrose em outr doenc COPI234 Rupt cord tend c/comp atual subs inf ag miocI511 Ruptura de cordoalha tendinea NCOPM650 Abscesso da bainha tendinea
+,M652 Tendinite calcificadaM66 Ruptura espontanea de sinovia e de tendaoM662 Ruptura espontanea de tendoes extensoresM663 Ruptura espontanea de tendoes flexoresM664 Ruptura espontanea de outr tendoes
+,M665 Ruptura espontanea de tendoes NEM122 Sinovite vilonodularM65 Sinovite e tenossinoviteM651 Outr sinovites infeccM654 Tenossinovite estiloide radial
+,M658 Outr sinovites e tenossinovitesM659 Sinovite e tenossinovite NEM673 Sinovite transitoriaM680 Sinovite e tenossinovite doenc bacter COPM700 Sinovite crepitante cronica da mao e punho
+,M236 Outr rupturas espontaneas ligamentos joelhoS532 Ruptura traum do ligamento colateral radioS533 Ruptura traum do ligamento colateral cubitoS633 Ruptura traum de ligamentos do punho e carpoS932 Ruptura de ligamentos nivel tornozelo e pe
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

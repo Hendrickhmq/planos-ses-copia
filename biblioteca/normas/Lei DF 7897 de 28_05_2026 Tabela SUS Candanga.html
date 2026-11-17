@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+    <html>
+
+    <head id="Head1"><meta content="IE=Edge" http-equiv="X-UA-Compatible"/><meta content="pt-br" http-equiv="Content-Language"/><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/><title>
+	
+            Lei 7897 de 28/05/2026
+        
+</title><meta name="keywords" content="Lei 7897 de 28/05/2026,sinj,distrito,federal,df"/><meta name="description" content="Institui a Tabela Diferenciada para Remuneração de Serviços Assistenciais de Saúde no Distrito Federal - Tabela SUS Candanga e dá outras providências."/><meta content="index,follow" name="robots"/><meta content="index,follow" name="googlebot"/><script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/platform.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/liblight.js"></script>
+
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/funcoes_norma.js?4.4.00134"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" language="javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/ckeditor/adapters/jquery.js"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.form.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.cookie.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/on_error.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Jquery-ui/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/liblight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/stacktrace.js"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.ajaxLight.js?3.2.00001"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.autocompleteLight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jMenu.jquery.min.js"></script>
+        <script type="text/javascript"
+            src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/jquery.modalLight.js?3.2.00001"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/login.js?3.2.00001"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/funcoes_sinj.js?3.2.00001"
+            charset="utf-8"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/sessao_sinj.js?3.2.00001"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/stacktable.js"></script>
+
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/platform.js"></script>
+        <script type="text/javascript" src="http://www.sinj.df.gov.br/sinjpadrao/Scripts/tooltip.js"></script>
+
+        <script type="text/javascript" language="javascript">
+            function Print() {
+                $('div.control').hide();
+                window.print();
+                $('div.control').show();
+            }
+            function exibirAlteracoes(el) {
+                if (el.getAttribute('refresh')) {
+                    location.reload();
+                }
+                else {
+
+                    // NOTE: Essa funcionalidade faz com o que o texto alterado "se transforme" 
+                    // em compilado (basicamente remove informações de vide), mas define 
+                    // um comportamento diferenciado para para os parágrafos que contiverem 
+                    // vides com os seguintes textos no link "revogado pelo(a)" ou 
+                    // "declarado(a) inconstitucional pelo(a)". By Questor
+                    
+                    var regex = undefined;
+                    regex = new RegExp(/Revogado.*?pelo\(a\)/);
+                    $('p[replaced_by]:contains("Revogado")').each(function (k, p) {
+                        if (regex.test($(p).text())) {
+                            var aLinkVide = $('a.link_vide', $(p));
+                            if (aLinkVide.length > 0) {
+                                var aTexto = $(aLinkVide[aLinkVide.length - 1]).text();
+                                if (regex.test(aTexto)) {
+                                    var ds = generateDescriptionToParagraph($(p).text());
+                                    $(p).text(ds + ' ');
+                                    $(aLinkVide[aLinkVide.length - 1]).appendTo($(p));
+                                    $(p).removeAttr('replaced_by');
+                                }
+                            }
+                        }
+                    });
+                    regex = new RegExp(/Inconstitucional.*?pelo\(a\)/);
+                    $('p[replaced_by]:contains("Inconstitucional")').each(function (k, p) {
+                        if (regex.test($(p).text())) {
+                            var aLinkVide = $('a.link_vide', $(p));
+                            if (aLinkVide.length > 0) {
+                                var aTexto = $(aLinkVide[aLinkVide.length - 1]).text();
+                                if (regex.test(aTexto)) {
+                                    var ds = generateDescriptionToParagraph($(p).text());
+                                    $(p).text(ds + ' ');
+                                    $(aLinkVide[aLinkVide.length - 1]).appendTo($(p));
+                                    $(p).removeAttr('replaced_by');
+                                }
+                            }
+                        }
+                    });
+                    $('p[replaced_by]').remove();
+                    $(el).attr('refresh', '1');
+                    $(el).text('Exibir Alterações');
+                }
+            }
+
+            //Verifica os links de LECO, ordena e insere o link 'exibir mais...' e 'exibir menos...' caso exista mais de 3 links de LECO
+            function verificarLinks() {
+                var aP = $('#div_texto > p');
+                var i = 0;
+                var length = aP.length;
+                var pAfter = null;
+                var aOrder = [];
+                for (; i < length; i++) {
+                    if ($('a[href]', aP[i]).length == 1 && $('a[href]', aP[i]).text().toLowerCase().indexOf('legislação correlata') == 0) {
+                        $('a[href]', aP[i]).attr('show', '1').attr('leco', 'leco');
+                        aOrder.push({ 'text': $('a[href]', aP[i]).text(), 'href': $('a[href]', aP[i]).attr('href') });
+                        if (i >= 3) {
+                            $('a[href]', aP[i]).attr('show', '0');
+                            pAfter = aP[i];
+                        }
+                    }
+                    else {
+                        break;
+                    }
+                }
+                aOrder.sort(function (a1, a2) {
+                    return a1.text > a2.text ? 1 : a1.text < a2.text ? -1 : 0;
+                });
+                $('#div_texto a[leco="leco"]').each(function (i, o) {
+                    o.innerText = aOrder[i].text;
+                    o.href = aOrder[i].href;
+                });
+                if (pAfter != null && $('a[show="0"]').length > 3) {
+                    $('a[show="0"]').closest('p').hide();
+                    $('<p id="p_show"><a href="javascript:void(0);" onclick="exibirLinks()">Exibir mais...</a></p>').insertAfter($(pAfter));
+                    $('<p id="p_hide" style="display:none"><a href="javascript:void(0);" onclick="esconderLinks()">Exibir menos...</a></p>').insertAfter($(pAfter));
+                }
+            }
+            function exibirLinks() {
+                $('a[show="0"]').closest('p').show();
+                $('#p_hide').show();
+                $('#p_show').hide();
+            }
+            function esconderLinks() {
+                $('a[show="0"]').closest('p').hide();
+                $('#p_hide').hide();
+                $('#p_show').show();
+            }
+
+            function generateDescriptionToParagraph(text) {
+                var ds = '';
+                text = $.trim(text);
+                if (text != "") {
+                    var palavras = text.split(' ');
+                    if (palavras[0] == 'ANEXO' || palavras[0] == 'TÍTULO' || palavras[0] == 'CAPÍTULO' || palavras[0] == 'Art.' || (palavras[0] == 'Parágrafo' && palavras[1] == 'Único') || palavras[0] == '§') {
+                        ds = palavras[0] + ' ' + palavras[1];
+                    }
+                    else if (ehInciso(palavras[0]) || ehAlinea(palavras[0]) || ehNum(palavras[0])) {
+                        ds = palavras[0];
+                    }
+                    else {
+                        ds = "...";
+                    }
+                }
+                return ds;
+            }
+
+            function ehInciso(termo) {
+                var lastIndex = termo.indexOf("-");
+                if (lastIndex > 0) {
+                    termo = termo.substring(0, lastIndex);
+                }
+                return termo.match(/^[IVXLCDM]+$/i);
+            }
+
+            function ehAlinea(termo) {
+                var lastIndex = termo.indexOf(")");
+                if (lastIndex < 0) {
+                    return false;
+                }
+                if (termo.length == (lastIndex + 1)) {
+                    termo = termo.substring(0, lastIndex);
+                    return termo.match(/[a-z]/i);
+                }
+                return false;
+            }
+
+            function ehNum(termo) {
+                var lastIndex = termo.indexOf(".");
+                if (lastIndex < 0) {
+                    return false;
+                }
+                if (termo.length == (lastIndex + 1)) {
+                    termo = termo.substring(0, lastIndex);
+                    return isInt(termo);
+                }
+                return false;
+            }
+
+            $(document).ready(function () {
+                //A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378
+
+
+
+                var urlPath = window.location.pathname;
+                var urlSplited = urlPath.split("/");
+                var numeroNorma = urlSplited[3];
+
+                //Pegar o texto do h1
+                var elementoh1 = $('#div_texto > h1')[0].textContent;
+                //Adicionar a tag 'a'
+                $('#div_texto > h1')[0].innerHTML = '<a>' + elementoh1 + '</a>';
+
+                //Adicionar o link
+                $("#div_texto h1 a").attr('href', '/' + urlSplited[1] + '/DetalhesDeNorma.aspx?id_norma=' + numeroNorma).attr("target", '_blank');
+                //--------------------------------------------------------------------------------------
+
+
+
+
+                // var paragrafo = $('p');
+                // for (var i = 0; i < paragrafo.length; i++) {
+                //     if (paragrafo[i].innerText.match(/Os anexos constam no DODF/g)) {
+    
+                //         var spanParagrafo = paragrafo[i].textContent;
+                //         var form_consultar_diario = "\"form_consultar_diario\"";
+                //         var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+    
+                //         $(paragrafo)[i].innerHTML = _form + _button + "<span>" + spanParagrafo + "<span>" + "</a></form>";
+    
+                //     }
+
+                //     if (paragrafo[i].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                //         var span = paragrafo[i].textContent;
+                //         var form_consultar_diario = "\"form_consultar_diario\"";
+                //         var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                //         var arraySpan = $("p > span");
+                //         $(paragrafo)[i].innerHTML = _form + _button + "<span style='text-decoration: underline red; color: red;' >" + span + "<span>" + "</a></form>";
+                //     }
+                // }
+                // if (!paragrafo[i - 1].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                //     $('#paginaEColuna').hide();
+                // }
+                //--------------------------------------------------------------------------------------
+
+
+
+                if ($('#div_erro').length > 0) {
+                    $('#div_norma').hide();
+                }
+                else {
+                    if ($('p[replaced_by]').length <= 0 || $('p').length == $('p[replaced_by]').length) {
+                        $('.compilado').hide();
+                    }
+                    verificarLinks();
+                }
+            });
+
+
+            var normaOVEmFunction = new normaOVEmFunction();
+            
+                //A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378
+
+
+            if (normaOVEmFunction != true) {
+
+                    var urlPath = window.location.pathname;
+                    var urlSplited = urlPath.split("/");
+                    var numeroNorma = urlSplited[3];
+
+                    //Pegar o texto do h1
+                    var elementoh1 = $('#div_texto > h1')[0].textContent;
+                    //Adicionar a tag 'a'
+                    $('#div_texto > h1')[0].innerHTML = '<a>' + elementoh1 + '</a>';
+
+                    //Adicionar o link
+                    $("#div_texto h1").attr('href', '/' + urlSplited[1] + '/DetalhesDeNorma.aspx?id_norma=' + numeroNorma).attr("target", '_blank');
+                    //--------------------------------------------------------------------------------------
+
+                //consultarDiarioAspErro
+                    var paragrafo = $('p');
+
+                    for (var i = 0; i < paragrafo.length; i++) {
+
+                        if (paragrafo[i].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                            var span = paragrafo[i].textContent;
+                            var form_consultar_diario = "\"form_consultar_diario\"";
+                            var _form = "<form id='form_consultar_diario' name='form_consultar_diario' method='post' onsubmit='javascript: return consultarDiarioHTML(" + form_consultar_diario + ")\'>";
+                            var _button = "<a href='javascript: void(0)' onclick='javascript: consultarDiarioAspErro(" + form_consultar_diario + ")\'>";
+                            var arraySpan = $("p > span");
+                            $(paragrafo)[i].innerHTML = _form + _button + "<span style='text-decoration: underline red; color: red;' >" + span + "<span>" + "</a></form>";
+                        }
+                    }
+                    if (!paragrafo[i - 1].innerText.match(/Este texto não substitui o publicado no DODF/g)) {
+                        $('#paginaEColuna').hide();
+                    }
+                    //--------------------------------------------------------------------------------------
+
+                    if ($('#div_erro').length > 0) {
+                        $('#div_norma').hide();
+                    }
+                    else {
+                        if ($('p[replaced_by]').length <= 0 || $('p').length == $('p[replaced_by]').length) {
+                            $('.compilado').hide();
+                        }
+                        verificarLinks();
+                    }
+             }
+        </script>
+        <style type="text/css">
+            .control {
+                width: 100%;
+                float: left;
+            }
+
+            .print {
+                float: right;
+            }
+
+            .compilado {
+                float: left;
+            }
+
+            div.strike {
+                text-decoration: line-through;
+            }
+
+            body,
+            p,
+            h1 {
+                font-family: Tahoma;
+                font-size: 14px;
+            }
+
+            p[nota=nota] {
+                font-size: 12px;
+                border: 1px solid #777;
+                padding: 5px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="div_norma">
+            <!-- A epígrafe do texto da norma deverá ser um link que direciona, para uma nova aba, os detalhes daquela norma; tarefa 378-->
+            
+            <!-- corpo dela epigrafe-->
+
+            <a href="/sinj/ ~/" title="Visitar o SINJ-DF - Sistema Integrado de Normas Jurídicas do
+                DF"><img src="http://www.sinj.df.gov.br/sinjpadrao/Imagens/logo_sinj.png" alt="SINJ-DF" /></a>
+
+            <div class="control">
+                <div class="compilado">
+                    <a href="javascript:void(0)" onclick="javascript:exibirAlteracoes(this);">
+                        Texto Compilado
+                    </a>
+                </div>
+                <div class="print">
+                    <a href="javascript:void(0);" onclick="javascript:Print();" title="Imprimir">
+                        <img alt="print" src="http://www.sinj.df.gov.br/sinjpadrao/Imagens/ico_print_p.png" />
+                    </a>
+                </div>
+            </div>
+            <div id="div_texto"><p ch_norma_info="08cdc67f1b9a46158271100a13d7d382" class="adicionado"><a href="/sinj/Norma/08cdc67f1b9a46158271100a13d7d382/ses_cg_dlb_46_2026.html#capI_art1_par1">Legislação Correlata - Deliberação 46 de 21/09/2026</a><h1 epigrafe="epigrafe" noindex="" nota="" style="font-weight:bold; text-align:center">LEI Nº 7.897, DE 28 DE MAIO DE 2026</h1><p style="margin-top:1px; text-align:center" linkname="txt_1ff09a34909e477da4e2489292aa4581"><a id="txt_1ff09a34909e477da4e2489292aa4581" name="txt_1ff09a34909e477da4e2489292aa4581" class="linkname"></a>(Autoria: Poder Executivo e Deputado Roosevelt Vilela)<p style="margin-left:50%; text-align:justify" linkname="txt_fb262a19821447fd1b557b0cec32d71d"><a id="txt_fb262a19821447fd1b557b0cec32d71d" name="txt_fb262a19821447fd1b557b0cec32d71d" class="linkname"></a>Institui a Tabela Diferenciada para Remuneração de Serviços Assistenciais de Saúde no Distrito Federal - Tabela SUS Candanga e dá outras providências.<p style="text-align:justify" linkname="txt_0a343951362a46a1ba2a9119a9f3e8e2"><a id="txt_0a343951362a46a1ba2a9119a9f3e8e2" name="txt_0a343951362a46a1ba2a9119a9f3e8e2" class="linkname"></a>A GOVERNADORA DO DISTRITO FEDERAL, FAÇO SABER QUE A CÂMARA LEGISLATIVA DO DISTRITO FEDERAL DECRETA E EU SANCIONO A SEGUINTE LEI:<p style="text-align:justify" linkname="art1"><a id="art1" name="art1" class="linkname"></a>Art. 1º Esta Lei institui, no Distrito Federal, a tabela diferenciada para remuneração da participação complementar da iniciativa privada na execução de ações e serviços de saúde no Sistema Único de Saúde – SUS, nas situações em que a oferta de ações e serviços de saúde públicos próprios forem insuficientes e comprovada a impossibilidade de sua ampliação.<p style="text-align:justify" linkname="art1_par1"><a id="art1_par1" name="art1_par1" class="linkname"></a>§ 1º A participação complementar das instituições privadas de assistência à saúde no SUS deve ser formalizada mediante a celebração de contrato ou convênio com o ente público, observando-se os termos da Lei federal nº 14.133, de 1º de abril de 2021, e da Lei federal nº 8.080, de 19 de setembro de 1990.<p style="text-align:justify" linkname="art1_par2"><a id="art1_par2" name="art1_par2" class="linkname"></a>§ 2º Devem ser remunerados pela Tabela SUS Candanga as ações e serviços de saúde executados pela iniciativa privada em razão de ordem judicial.<p style="text-align:justify" linkname="art1_par3"><a id="art1_par3" name="art1_par3" class="linkname"></a>§ 3º A contratação ou celebração de convênio com instituições privadas de assistência à saúde, no âmbito da participação complementar no Sistema Único de Saúde – SUS, deve ser direcionada, preferencialmente, às entidades filantrópicas e às entidades sem fins lucrativos.<p style="text-align:justify" linkname="art2"><a id="art2" name="art2" class="linkname"></a>Art. 2º A Tabela SUS Candanga tem por finalidade garantir a promoção da saúde no Distrito Federal, com a ampliação do acesso por meio da iniciativa privada, assegurando a qualidade do atendimento, o equilíbrio econômico-financeiro na prestação dos serviços e a preservação do valor real destinado à remuneração de serviços, observada a disponibilidade orçamentária e financeira.<p style="text-align:justify" linkname="art3"><a id="art3" name="art3" class="linkname"></a>Art. 3º Cabe ao Poder Executivo, no prazo de 60 dias, a contar da publicação desta Lei, elaborar a Tabela SUS Candanga e expedir normas complementares disciplinando a sua aplicação.<p style="text-align:justify" linkname="art3_par"><a id="art3_par" name="art3_par" class="linkname"></a>Parágrafo único. O ato regulamentar deve observar as atribuições do Conselho de Saúde do Distrito Federal, previstas na Lei nº 4.604, de 15 de julho de 2011.<p style="text-align:justify" linkname="art4"><a id="art4" name="art4" class="linkname"></a>Art. 4º A Tabela SUS Candanga e os normativos expedidos pelo Poder Executivo referentes à matéria ficam disponíveis ao público em geral no Portal da Transparência do Governo do Distrito Federal.<p style="text-align:justify" linkname="art4_par1"><a id="art4_par1" name="art4_par1" class="linkname"></a>§ 1º A remuneração dos serviços deve ser composta pelo valor da Tabela Sigtap, financiada com recursos federais, acrescido da complementação paga pelo Distrito Federal, financiada com recurso próprios.<p style="text-align:justify" linkname="art4_par2"><a id="art4_par2" name="art4_par2" class="linkname"></a>§ 2º Na definição dos valores da Tabela SUS Candanga, o Poder Executivo deve adotar, no que couber, os parâmetros da Lei nº 5.525, de 26 de agosto de 2015, podendo utilizar-se de dados de pesquisa publicada em mídia especializada, de tabela de referência de sítios eletrônicos especializados ou de domínio amplo, ou outros meios idôneos.<p style="text-align:justify" linkname="art4_par3"><a id="art4_par3" name="art4_par3" class="linkname"></a>§ 3º O reajuste dos valores da Tabela Sigtap não importa em alteração automática dos valores da Tabela SUS Candanga, cujo valor da complementação, neste caso, sofre redução proporcional, independente da publicação dos novos valores.<p style="text-align:justify" linkname="art4_par4"><a id="art4_par4" name="art4_par4" class="linkname"></a>§ 4º O Poder Executivo deve promover a revisão periódica da Tabela SUS Candanga, de acordo com as diretrizes e critérios a serem definidos pela Secretaria de Saúde do Distrito Federal – SES – DF, de forma a manter valores compatíveis com o mercado, observada a disponibilidade orçamentária e financeira.<p style="text-align:justify" linkname="art5"><a id="art5" name="art5" class="linkname"></a>Art. 5º As despesas decorrentes da remuneração dos serviços complementares devem ser financiadas com recursos de emendas, distritais e federais, e recursos próprios do Distrito Federal à conta das dotações orçamentárias da SES – DF que devem ser aplicados exclusivamente na expansão da oferta de ações e de serviços de saúde.<p style="text-align:justify" linkname="art6"><a id="art6" name="art6" class="linkname"></a>Art. 6º É vedada a fixação de remuneração serviços em contratos ou convênios destinados à complementação das ações e serviços de saúde vinculados ao SUS em desconformidade com a Tabela SUS Candanga, bem como a concessão de reajustes contratuais que impliquem remuneração superior à da Tabela SUS Candanga.<p style="text-align:justify" linkname="art7"><a id="art7" name="art7" class="linkname"></a>Art. 7º O Poder Executivo deve disponibilizar, em seção específica do Portal da Transparência do Distrito Federal, informações atualizadas mensalmente acerca da execução da Tabela SUS Candanga.<p style="text-align:justify" linkname="art7_par1"><a id="art7_par1" name="art7_par1" class="linkname"></a>§ 1º Devem ser divulgados, no mínimo:<p style="text-align:justify" linkname="art7_par1_incI"><a id="art7_par1_incI" name="art7_par1_incI" class="linkname"></a>I – relação dos contratos e convênios firmados;<p style="text-align:justify" linkname="art7_par1_incII"><a id="art7_par1_incII" name="art7_par1_incII" class="linkname"></a>II – identificação dos prestadores contratados;<p style="text-align:justify" linkname="art7_par1_incIII"><a id="art7_par1_incIII" name="art7_par1_incIII" class="linkname"></a>III – objeto contratado e especialidade assistencial;<p style="text-align:justify" linkname="art7_par1_incIV"><a id="art7_par1_incIV" name="art7_par1_incIV" class="linkname"></a>IV – quantitativos executados;<p style="text-align:justify" linkname="art7_par1_incV"><a id="art7_par1_incV" name="art7_par1_incV" class="linkname"></a>V – valores empenhados, liquidados e pagos;<p style="text-align:justify" linkname="art7_par1_incVI"><a id="art7_par1_incVI" name="art7_par1_incVI" class="linkname"></a>VI – fila de espera associada aos procedimentos contratados;<p style="text-align:justify" linkname="art7_par1_incVII"><a id="art7_par1_incVII" name="art7_par1_incVII" class="linkname"></a>VII – indicadores de desempenho contratual;<p style="text-align:justify" linkname="art7_par1_incVIII"><a id="art7_par1_incVIII" name="art7_par1_incVIII" class="linkname"></a>VIII – tempo médio de espera por procedimento;<p style="text-align:justify" linkname="art7_par1_incIX"><a id="art7_par1_incIX" name="art7_par1_incIX" class="linkname"></a>IX – dados sobre judicialização relacionados aos serviços contratados.<p style="text-align:justify" linkname="art7_par2"><a id="art7_par2" name="art7_par2" class="linkname"></a>§ 2º As informações devem ser atualizadas mensalmente e disponibilizadas em formato aberto, acessível e passível de tratamento estatístico.<p style="text-align:justify" linkname="art7_par3"><a id="art7_par3" name="art7_par3" class="linkname"></a>§ 3º É vedada a divulgação de dados pessoais sensíveis dos usuários do SUS, observada a Lei Geral de Proteção de Dados Pessoais – LGPD.<p style="text-align:justify" linkname="art8"><a id="art8" name="art8" class="linkname"></a>Art. 8º A Controladoria-Geral do Distrito Federal deve realizar auditorias periódicas sobre:<p style="text-align:justify" linkname="art8_incI"><a id="art8_incI" name="art8_incI" class="linkname"></a>I – conformidade dos pagamentos;<p style="text-align:justify" linkname="art8_incII"><a id="art8_incII" name="art8_incII" class="linkname"></a>II – regularidade contratual;<p style="text-align:justify" linkname="art8_incIII"><a id="art8_incIII" name="art8_incIII" class="linkname"></a>III – cumprimento de metas;<p style="text-align:justify" linkname="art8_incIV"><a id="art8_incIV" name="art8_incIV" class="linkname"></a>IV – economicidade dos procedimentos.<p style="text-align:justify" linkname="art8_par"><a id="art8_par" name="art8_par" class="linkname"></a>Parágrafo único. Os relatórios devem ser publicados no Portal da Transparência.<p style="text-align:justify" linkname="art9"><a id="art9" name="art9" class="linkname"></a>Art. 9º Os contratos e convênios firmados com base nesta Lei devem ser disponibilizados integralmente em portal eletrônico oficial.<p style="text-align:justify" linkname="art9_par"><a id="art9_par" name="art9_par" class="linkname"></a>Parágrafo único. Os relatórios devem ser publicados no Portal da Transparência.<p style="text-align:justify" linkname="art10"><a id="art10" name="art10" class="linkname"></a>Art. 10. Esta Lei entra em vigor na data de sua publicação.<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_e8d2fa9c97d146fccd731ed44b080a78"><a id="txt_e8d2fa9c97d146fccd731ed44b080a78" name="txt_e8d2fa9c97d146fccd731ed44b080a78" class="linkname"></a>Brasília, 28 de maio de 2026.<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_c688c7d3fd884bc8c978a09f0cef7477"><a id="txt_c688c7d3fd884bc8c978a09f0cef7477" name="txt_c688c7d3fd884bc8c978a09f0cef7477" class="linkname"></a>137º da República e 67º de Brasília<p style="font-weight:bold; margin-bottom:0px; text-align:center" linkname="txt_0edf4d63b59b41f8149fa9095f2eec6b"><a id="txt_0edf4d63b59b41f8149fa9095f2eec6b" name="txt_0edf4d63b59b41f8149fa9095f2eec6b" class="linkname"></a>CELINA LEÃO<p style="text-align:right"><span style="color:#FF0000"><a href=http://www.sinj.df.gov.br/sinj/BaixarArquivoDiario.aspx?id_file=5c5ae667-feeb-3889-aa96-319fc8a3e2cc target='_blank'>Este texto não substitui o publicado no DODF nº 98, seção 1, 2 e 3 de 29/05/2026<span id='paginaEColuna'> p. 1, col. 1<a/></span></div>
+        </div>
+
+        <script type="text/javascript">
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-20776101-1', 'auto');
+            ga('create', 'UA-90051523-1', 'auto', 'brlightTracker');
+            ga('send', 'pageview');
+            ga('brlightTracker.send', 'pageview');
+        </script>
+    </body>
+
+    </html>

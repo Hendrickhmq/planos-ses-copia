@@ -1,0 +1,10 @@
+id: "Lei 8142-1990 controle social"
+arquivo: "Lei 8142-1990 controle social.html"
+sha256: "cb4c71eb916f03faac0c2132804f463c46c0c571b1d214ce8b0b30825fecb89b"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 4533
+tabelas_total: 2
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

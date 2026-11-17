@@ -1,0 +1,10 @@
+id: "SAES 3949-2026 componente ambulatorial"
+arquivo: "SAES 3949-2026 componente ambulatorial.html"
+sha256: "6499bc4f72a74df0ff4f43b4f40336751a50898ca50b36a54c0e99ae0c9669e7"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 3406
+tabelas_total: 4
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

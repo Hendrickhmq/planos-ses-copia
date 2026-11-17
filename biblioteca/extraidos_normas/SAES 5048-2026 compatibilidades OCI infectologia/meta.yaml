@@ -1,0 +1,10 @@
+id: "SAES 5048-2026 compatibilidades OCI infectologia"
+arquivo: "SAES 5048-2026 compatibilidades OCI infectologia.html"
+sha256: "ff606891796e75594ceebf64f7bb49a0ea18776388904214da452caf7a14078b"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 1756
+tabelas_total: 2
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-10-09T14:09:52"

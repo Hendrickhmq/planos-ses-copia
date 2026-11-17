@@ -1,0 +1,17 @@
+id: "SAES 2747-2025 altera 1640"
+arquivo: "SAES 2747-2025 altera 1640.pdf"
+processo_sei: ""
+sha256: "4c6dea673fedbefffd3dfbc413fc3915cbb9d96bcdd7f8139a1ae88972863ac4"
+paginas: 6
+chars_texto: 20396
+tabelas_total: 2
+tabelas_por_pagina:
+  pagina_1: 2
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:13:27"

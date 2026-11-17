@@ -1,0 +1,10 @@
+id: "SAES 1826-2024 OCI oftalmologia"
+arquivo: "SAES 1826-2024 OCI oftalmologia.html"
+sha256: "e2b846166dc56a8d7c73b6437e7c2fd8924c12b7e9e026455437ab8060809936"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 4620
+tabelas_total: 5
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

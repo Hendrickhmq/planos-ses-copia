@@ -1,0 +1,876 @@
+PLANO DE TRABALHO SIMPLIFICADO — MODELO PARCERIA
+
+Exames de imagem: ultrassonografia e tomografia computadorizada
+
+Instituto de Saúde Humanidade e Pesquisa – ISHP
+
+Emenda de Bancada do Distrito Federal nº 202571080005 (OGU 2025) · Secretaria de Estado de Saúde do Distrito Federal
+
+Pré-Plano de Trabalho encaminhado em atendimento ao Ofício nº 387/2026 – SES/GAB/ARINS, de 2 de outubro de 2026
+
+Brasília/DF, outubro de 2026
+
+Sumário
+
+1. Informações iniciais	3
+
+1.9 Dados complementares do proponente e do instrumento	3
+
+2. Objeto	4
+
+2.1 Descrição do objeto	4
+
+2.2 Composição	4
+
+2.3 Unidade de aferição	4
+
+3. Justificativa, diagnóstico e contextualização	5
+
+3.1 A fila	5
+
+3.2 A etapa diagnóstica no percurso assistencial	6
+
+3.3 Modalidade	6
+
+3.4 Distribuição entre os polos	7
+
+3.5 Economicidade	7
+
+3.6 Compatibilidade com o planejamento do SUS e requisitos da Portaria GM/MS nº 10.297/2026	7
+
+3.7 Histórico institucional	8
+
+3.8 Estrutura organizacional	8
+
+3.9 Filosofia de gestão	9
+
+3.10 Tempo de atuação	9
+
+3.11 Principais realizações	10
+
+3.12 Aptidão para cumprir o objeto	10
+
+4. Metodologia	10
+
+4.1 Público-alvo e nível de atenção	10
+
+4.2 Local de execução	11
+
+4.3 Etapas do atendimento	12
+
+4.4 Origem da demanda	12
+
+4.5 Agendamento pela regulação e orientação de preparo	13
+
+4.6 Confirmação	13
+
+4.7 Recepção e identificação	13
+
+4.8 Preparo e triagem para o meio de contraste	14
+
+4.9 Realização do exame	14
+
+4.10 Laudo	15
+
+4.11 Entrega do laudo	15
+
+4.12 Busca ativa e reagendamento	16
+
+4.13 Equipe de gestão e apoio	16
+
+4.14 Execução direta do objeto	17
+
+4.15 Equipe assistencial	18
+
+4.16 Qualidade técnica e proteção radiológica	19
+
+5. Objetivos	19
+
+5.1 Objetivo geral	19
+
+5.2 Objetivos específicos	20
+
+6. Metas e indicadores	21
+
+6.1 Metas	21
+
+6.2 Indicadores e meios de verificação	22
+
+7. Esboço de cronograma de execução	23
+
+7.1 Etapas	23
+
+7.2 Curva de produção	23
+
+7.3 Capacidade requerida no regime pleno	23
+
+7.4 Regime de desembolso	25
+
+7.5 Parcelas	26
+
+7.6 Ajuste por execução	26
+
+7.7 Critério de classificação dos riscos	26
+
+7.8 Matriz de riscos	27
+
+7.9 Os riscos altos	29
+
+8. Indicação da aplicação das despesas	29
+
+8.1 Composição do valor unitário	29
+
+8.2 Planilha	30
+
+8.3 Consolidação por meta	32
+
+9. Interface com os sistemas da SES-DF	32
+
+9.1 SISREG e TrakCare	32
+
+9.2 Registro da produção	32
+
+9.3 Proteção dos dados dos usuários	33
+
+## 1. Informações iniciais
+
+| item | conteúdo |
+|---|---|
+| 1.1 Nome do Instituto/OSC | Instituto de Saúde Humanidade e Pesquisa – ISHP |
+| 1.2 CNPJ do Instituto/OSC | 17.517.805/0003-71 |
+| 1.3 Nome do Projeto (o mesmo indicado pelo parlamentar) | Exames de imagem (objeto indicado pela Bancada do Distrito Federal) |
+| 1.4 Valor Total | R$ 11.592.666,22 (valor global do plano, dentro do recurso disponível de R$ 11.592.762,00 da proposta nº 36000720055202500) |
+| 1.5 E-mail | contato@institutosaudehumanidade.org.br |
+| 1.6 Telefone | (21) 6447-1834 (telefone da filial de Brasília/DF, constante do comprovante de inscrição no CNPJ) |
+| 1.7 Possui CNES? Se sim, apresentar o número | Sim. CNES do proponente: 8078858. O CNES dos estabelecimentos de cada polo de execução não consta deste pré-plano e será informado na formalização do instrumento (subseção 4.16, alínea f). |
+| 1.8 O Instituto enquadra-se como OSC, nos termos do MROSC? | Sim. O ISHP é associação privada sem fins lucrativos, fundada em 14/01/2013 (subseção 3.7), o que o enquadra na definição de organização da sociedade civil do art. 2º, inciso I, da Lei nº 13.019/2014. O Estatuto Social, aprovado em Assembleia Geral Extraordinária de 26/08/2025 e registrado no Registro Civil das Pessoas Jurídicas do Rio de Janeiro em 03/09/2025 (matrícula nº 287491), define o ISHP, em seu art. 1º, como associação civil de direito privado sem fins lucrativos e apartidária, regida também pela Lei nº 13.019/2014. |
+
+### 1.9 Dados complementares do proponente e do instrumento
+
+| campo | conteúdo |
+|---|---|
+| Razão social | Instituto de Saúde Humanidade e Pesquisa – ISHP |
+| Endereço | Setor de Indústria e Abastecimento (SCIA), Quadra 13, Conjunto 4, Lote 12, s/n, Sala 03, CEP 71.250-225, Brasília/DF |
+| Sede central (matriz) | Avenida Ayrton Senna, nº 2600, Bloco 3 A, Sala 0404, Barra da Tijuca, Rio de Janeiro/RJ, CEP 22.775-003, conforme o comprovante de inscrição no CNPJ da matriz (CNPJ 17.517.805/0001-00). O plano é apresentado pela filial de Brasília/DF (CNPJ 17.517.805/0003-71), na forma do art. 2º do Estatuto Social. |
+| Representante legal | Wbirajara Rocha de Souza, Diretor-Presidente. Compete ao Diretor-Presidente representar a entidade ativa e passivamente, em juízo e fora dele (Estatuto, art. 32, alínea b), e assinar os documentos relativos às suas atividades (art. 32, alínea j). O mandato da Diretoria é de quatro anos (art. 29, § 1º). A ata de eleição da Diretoria será apresentada na formalização do instrumento. |
+| Concedente | Secretaria de Estado de Saúde do Distrito Federal |
+| Origem do recurso | Emenda de Bancada do Distrito Federal (RP 7) nº 202571080005, OGU 2025: Proposta nº 36000720055202500, R$ 11.592.762,00, com indicação do ISHP pelo Ofício nº 40/2026 do Senado Federal. Ação orçamentária e GND: não informados no ofício que indica o ISHP. |
+| Vigência | 8 (oito) meses |
+| Local de execução | Dez polos nas Regiões de Saúde do Distrito Federal, na forma da subseção 4.2 |
+
+## 2. Objeto
+
+### 2.1 Descrição do objeto
+
+Realização de exames de ultrassonografia e de tomografia computadorizada em usuários do Sistema Único de Saúde no Distrito Federal com solicitação pendente na fila de regulação da Secretaria de Estado de Saúde, com entrega do laudo e registro do atendimento no prontuário eletrônico da Secretaria, o TrakCare. A partir da entrega do laudo, a condução do cuidado é da unidade de saúde solicitante.
+
+### 2.2 Composição
+
+O objeto é a realização de 79.373 exames de diagnóstico por imagem e a entrega do respectivo laudo, distribuídos em onze procedimentos da Tabela de Procedimentos, Medicamentos, Órteses, Próteses e Materiais Especiais do SUS:
+
+| código | procedimento | exames |
+|---|---|---|
+| 02.05.02.009-7 | Ultrassonografia mamária bilateral | 14.721 |
+| 02.05.01.004-0 | Ultrassonografia doppler colorido de vasos | 14.550 |
+| 02.05.02.004-6 | Ultrassonografia de abdômen total | 13.200 |
+| 02.05.02.018-6 | Ultrassonografia transvaginal | 10.565 |
+| 02.06.02.003-1 | Tomografia computadorizada de tórax | 5.260 |
+| 02.06.03.001-0 | Tomografia computadorizada de abdômen superior | 4.541 |
+| 02.05.02.005-4 | Ultrassonografia de aparelho urinário | 3.953 |
+| 02.06.03.003-7 | Tomografia computadorizada de pelve, bacia e abdômen inferior | 3.885 |
+| 02.05.02.012-7 | Ultrassonografia de tireoide | 3.224 |
+| 02.05.02.010-0 | Ultrassonografia de próstata por via abdominal | 3.208 |
+| 02.05.02.003-8 | Ultrassonografia de abdômen superior | 2.266 |
+|  | total | 79.373 |
+
+São 65.687 exames de ultrassonografia e 13.686 de tomografia computadorizada.
+
+Os quantitativos por procedimento somam a fila de regulação na data da extração e parte das solicitações que entram na fila durante a vigência, na forma da subseção 3.1. Esgotada a fila de um procedimento antes de cumprido o seu quantitativo, e havendo demanda na fila de outro, o proponente aciona a concedente para que avalie a conveniência do ajuste da meta. Aprovado o ajuste e formalizado por termo aditivo, o quantitativo passa ao procedimento que ainda tem demanda, e a execução continua.
+
+### 2.3 Unidade de aferição
+
+A unidade de aferição é o exame laudado e entregue. O exame se considera executado quando o laudo e os dados do atendimento são registrados no TrakCare, onde a unidade de saúde que o solicitou os consulta.
+
+Realização, laudo e entrega compõem uma só unidade, e a produção se conta na entrega.
+
+A aferição é por exame, e não por usuário: o mesmo usuário pode estar na fila de mais de um procedimento, e cada solicitação é uma unidade.
+
+## 3. Justificativa, diagnóstico e contextualização
+
+### 3.1 A fila
+
+A fila de regulação da Secretaria de Estado de Saúde do Distrito Federal registra, em extração de 10 de setembro de 2026, 78.572 solicitações dos onze procedimentos que compõem o objeto — 65.120 de ultrassonografia e 13.452 de tomografia computadorizada.
+
+O tempo de espera de cada procedimento é o apurado no Mapa Social da Saúde, painel do Ministério Público do Distrito Federal e Territórios que publica os dados do SISREG, consultado em 15 de setembro de 2026. A medida abaixo considera apenas as solicitações nos três estados de fila — pendente de regulação, corrigida e reenviada, e pendente por fila de espera.
+
+| procedimento | espera média (dias) |
+|---|---|
+| Ecografia de abdômen superior adulto | 684 |
+| Ecografia do aparelho urinário | 631 |
+| Ecografia de mama bilateral | 624 |
+| Doppler venoso de membros inferiores | 610 |
+| Ecografia transvaginal | 593 |
+| Ultrassonografia de parede abdominal | 585 |
+| Ecografia de próstata por via abdominal | 578 |
+| Ecografia de abdômen total adulto | 532 |
+| Ecografia de tireoide adulto | 487 |
+| Ecodoppler de carótidas | 140 |
+| conjunto da ultrassonografia | 561 |
+| conjunto da tomografia computadorizada | 141 |
+
+A tabela nomeia os procedimentos como a fila de regulação os registra. Na Tabela de Procedimentos do SUS os dez se reúnem em oito, porque o doppler venoso de membros inferiores e o ecodoppler de carótidas têm o mesmo código, e a ultrassonografia de parede abdominal tem o código do abdômen total — na forma da subseção 2.2.
+
+A distribuição por idade concentra-se entre 40 e 69 anos, faixa que reúne cerca de dois terços das solicitações de ultrassonografia.
+
+A fila se renova durante a execução. No Mapa Social da Saúde, consultado em 5 de outubro de 2026, entraram nas filas desses procedimentos 83.866 solicitações de janeiro a setembro de 2026, e 39.114 delas continuavam sem agendamento — cerca de 4.346 por mês.
+
+A parceria resolve a totalidade das 78.572 solicitações da extração e atende mais 801 das que entram na fila durante a vigência, 79.373 exames ao todo. O acréscimo se reparte entre os procedimentos na proporção das solicitações de 2026 que continuavam sem agendamento.
+
+| composição | valor |
+|---|---|
+| Recurso disponível | R$ 11.592.762,00 |
+| Estrutura de gestão e apoio (seção 8) | R$ 919.640,00 |
+| Envelope de produção assistencial | R$ 10.673.122,00 |
+| Quantitativo | 79.373 exames |
+| Produção assistencial | R$ 10.673.026,22 |
+| Valor global | R$ 11.592.666,22 |
+| Diferença não aplicada | R$ 95,78 |
+
+A unidade produzida é indivisível e o valor global não excede o recurso disponível: a diferença, menor que o menor valor unitário, permanece não aplicada.
+
+### 3.2 A etapa diagnóstica no percurso assistencial
+
+A ultrassonografia e a tomografia computadorizada são a etapa que antecede a decisão clínica em oncologia, em doença vascular, em doença da tireoide e da próstata e na investigação abdominal. Enquanto o exame não é realizado, a consulta especializada que o solicitou permanece sem a informação que a conclui, e o usuário permanece na condição em que entrou na fila.
+
+### 3.3 Modalidade
+
+O instrumento jurídico da parceria — Termo de Fomento, na forma da Lei nº 13.019/2014 e do Decreto Distrital nº 37.843/2016, ou Convênio, na forma da Lei nº 14.133/2021 — será definido pela Subsecretaria de Parcerias e Convênios (SUCONV) da SES-DF, após a análise deste pré-plano, conforme o item 5 do Ofício nº 387/2026. O plano é elaborado para custeio da média e alta complexidade (item 3 do mesmo Ofício). Qualquer que seja o instrumento, o pagamento observa os valores unitários pactuados neste plano de trabalho, contra produção executada e comprovada.
+
+Os valores unitários têm como referência o valor de tabela e o incremento que a Portaria SAES/MS nº 4.282, de 19 de junho de 2026, fixa em seu Anexo I para cada procedimento, na forma da subseção 8.1.
+
+### 3.4 Distribuição entre os polos
+
+A participação dos polos de cada Região corresponde à participação dessa Região no conjunto das solicitações originadas nas Regiões de Saúde.
+
+| Regiões de Saúde | polos | participação | exames |
+|---|---|---|---|
+| Oeste | 1 | 5,81% | 4.611 |
+| Sudoeste | 2 | 33,88% | 26.894 |
+| Norte e Leste | 2 | 24,01% | 19.054 |
+| Central | 2 | 5,95% | 4.722 |
+| Sul | 2 | 20,59% | 16.339 |
+| Centro-Sul | 1 | 9,77% | 7.753 |
+| total | 10 | 100% | 79.373 |
+
+Parte das solicitações é originada em unidades de referência distrital e em serviços contratados e credenciados, que não se vinculam a Região de Saúde. Essas solicitações são encaminhadas ao polo de referência do domicílio do usuário.
+
+### 3.5 Economicidade
+
+O valor unitário de cada exame é a referência federal da subseção 3.3, aplicada sem acréscimo.
+
+O parâmetro é público e verificável, e é o mesmo que a União adota para o mesmo procedimento no programa de ampliação de acesso a especialidades.
+
+### 3.6 Compatibilidade com o planejamento do SUS e requisitos da Portaria GM/MS nº 10.297/2026
+
+O Ofício nº 387/2026 determina a observância da Portaria GM/MS nº 10.297, de 27 de fevereiro de 2026. O art. 7º da Portaria exige, no plano de trabalho, a descrição do objeto (seção 2), a justificativa da proposta (seção 3), a especificação das metas (seção 6), a descrição da aplicação das despesas (seção 8) e a identificação dos estabelecimentos de saúde beneficiados, com o respectivo CNES quando aplicável (item 1.7 e subseção 4.2).
+
+O parágrafo único do art. 7º exige, quando o objeto é o custeio da média e alta complexidade com vinculação ao CNES de entidade privada sem fins lucrativos, metas quantitativas, destinadas ao pagamento pelos serviços prestados e previamente autorizados pelo gestor, ou metas qualitativas. Este plano prevê as duas: as metas quantitativas são exames realizados e laudados, que chegam previamente regulados pela SES-DF (subseção 4.4), e a meta qualitativa é o registro do laudo e do atendimento no TrakCare em 100% dos exames (subseção 6.1).
+
+A demonstração da compatibilidade da proposta com o Plano de Saúde, a Programação Anual de Saúde e a Lei Orçamentária (art. 6º, incisos I e II) é feita pela SES-DF, no âmbito do seu planejamento. O proponente dimensiona o objeto sobre a fila de regulação da própria SES-DF (subseção 3.1) e fornece, nos relatórios mensais de execução (Meta 6), os dados de produção necessários ao registro da execução no Relatório Anual de Gestão (art. 6º, § 1º).
+
+### 3.7 Histórico institucional
+
+O INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA, nome fantasia SAÚDE MODELO, é uma associação privada sem fins lucrativos, com sede central no Rio de Janeiro/RJ e filial em Brasília/DF, fundada em 14/01/2013, com a missão de promover a saúde, a humanização do cuidado e a pesquisa científica aplicada ao SUS.
+
+A entidade atua na área da saúde desde 2013, com foco em:
+
+- Gestão de serviços de saúde (hospitalar, ambulatorial e de urgência/emergência).
+
+- Atividades de apoio à gestão de saúde.
+
+- Práticas integrativas e complementares em saúde humana.
+
+- Ensino, pesquisa e extensão em saúde.
+
+### 3.8 Estrutura organizacional
+
+A entidade possui a seguinte estrutura organizacional:
+
+- Assembleia Geral: instância máxima de deliberação;
+
+- Conselho de Administração: aprova as diretrizes estratégicas, com as áreas de Auditoria, Compliance, Ouvidoria e Controladoria a ele vinculadas;
+
+- Conselho Fiscal: responsável pela fiscalização contábil e financeira;
+
+- Diretoria Executiva: gestão operacional, com Gestão da Qualidade, Jurídico, Comunicação e Marketing, Captação de Recursos e Administrativo-financeiro (Tecnologia da Informação, Gestão de Pessoas, Aquisições e Contratos, Manutenção e Obras, Abastecimento, Financeiro e Contabilidade);
+
+- Eixos de atuação: Desenvolvimento Social, Meio Ambiente, Saúde (atenção primária, atenção hospitalar, atenção a urgências e emergências e áreas técnicas), Segurança Humana, Esporte e Cultura.
+
+Organograma institucional do ISHP
+
+[IMAGEM]
+
+### 3.9 Filosofia de gestão
+
+O INSTITUTO DE SAÚDE HUMANIDADE E PESQUISA pauta sua atuação pelos princípios da:
+
+- Legalidade, Impessoalidade, Moralidade, Publicidade e Eficiência (Art. 37 da CF/88);
+
+- Universalidade, Integralidade e Equidade (SUS);
+
+- Humanização do Atendimento (Política Nacional de Humanização);
+
+- Transparência, Accountability e Sustentabilidade;
+
+- Ética, pesquisa e inovação em saúde.
+
+### 3.10 Tempo de atuação
+
+A entidade atua há 13 anos na área da saúde, desde sua fundação em 14/01/2013.
+
+### 3.11 Principais realizações
+
+Resumo de experiências do ISHP no gerenciamento e administração de serviços de urgência e emergência e unidades de saúde de média e alta complexidade:
+
+| unidade de saúde | município | início das atividades | tempo de execução | urgência e emergência | observações complementares |
+|---|---|---|---|---|---|
+| Santa Casa de Misericórdia de Capivari | Capivari/SP | 2014 | 11 anos | Urgência e Emergência, Internação e Ambulatório | Consultoria Hospitalar |
+| Hospital SAMAR SA | Porto Velho/RO | 2020 | 5 anos | Urgência e Emergência e Ambulatório de Atenção Primária em Saúde | Gestão Hospitalar |
+| Hospital Casa de Saúde São Bento | Rio de Janeiro/RJ | 2022 | 3 anos | Clínica MédicaCirurgia GeralCentro Diagnóstico e de ImagemAmbulatório | Gestão Hospitalar |
+
+Os atestados de capacidade técnica, que comprovam o tempo de atuação do ISHP na gestão de serviços de saúde em parceria com o setor público, e a documentação de habilitação do proponente exigida pela SES-DF serão apresentados na formalização do instrumento.
+
+### 3.12 Aptidão para cumprir o objeto
+
+A entidade demonstra aptidão para cumprir o objeto deste Projeto em razão de:
+
+- Experiência comprovada em gestão hospitalar de média e alta complexidade;
+
+- Corpo técnico qualificado e multidisciplinar;
+
+- Estrutura administrativa e financeira sólida;
+
+- Capacidade de mobilização e operacionalização a curto prazo, compatível com a implantação dos dez polos no mês 1;
+
+- Atividades econômicas secundárias compatíveis com o objeto, constantes do comprovante de inscrição no CNPJ: 86.30-5-99 (atenção ambulatorial não especificada anteriormente), 86.10-1-01 e 86.10-1-02 (atendimento hospitalar e em pronto-socorro) e 86.60-7-00 (apoio à gestão de saúde).
+
+## 4. Metodologia
+
+### 4.1 Público-alvo e nível de atenção
+
+Usuários do Sistema Único de Saúde no Distrito Federal com solicitação de exame de ultrassonografia ou de tomografia computadorizada pendente de agendamento na fila de regulação da Secretaria de Estado de Saúde do Distrito Federal.
+
+A solicitação chega pela regulação, com a classificação de risco atribuída pela unidade solicitante — a parceria não seleciona usuário nem capta demanda própria, e a ordem de atendimento é a que a subseção 4.5 descreve. A priorização clínica é a do SISREG: o proponente libera a agenda e a regulação da SES-DF ocupa as vagas na ordem que ela define; o proponente não reclassifica o usuário, e a justificativa da prioridade é da Secretaria de Estado de Saúde e da unidade solicitante, que registram a condição clínica no SISREG.
+
+A população atendida é adulta e se concentra entre 40 e 69 anos, na forma da subseção 3.1.
+
+Nível de atenção. O projeto se situa na Atenção Especializada, como apoio diagnóstico ambulatorial, na natureza de custeio da média e alta complexidade indicada no Ofício nº 387/2026 (item 3), e não alcança a Atenção Primária.
+
+### 4.2 Local de execução
+
+A execução ocorre em dez polos, distribuídos de modo que as sete Regiões de Saúde do Distrito Federal tenham polo de referência:
+
+| Regiões de Saúde | polos |
+|---|---|
+| Oeste | 1 |
+| Sudoeste | 2 |
+| Norte e Leste | 2 |
+| Central | 2 |
+| Sul | 2 |
+| Centro-Sul | 1 |
+| total | 10 |
+
+Os exames são realizados na capacidade instalada do proponente. Os dez polos realizam ultrassonografia, e a tomografia computadorizada é realizada em pelo menos um polo de cada Região de Saúde, consideradas em conjunto as Regiões Norte e Leste (subseção 7.3).
+
+O usuário é encaminhado ao polo de referência do seu domicílio. A redistribuição entre polos, quando necessária para cumprir a curva de produção, é atribuição da Coordenação Operacional, na forma da subseção 4.13. Nas Regiões com dois polos, a produção da Região se divide entre eles conforme a capacidade de cada um.
+
+A Região Administrativa, o endereço e o CNES do estabelecimento de cada polo não constam deste pré-plano e serão informados na formalização do instrumento, na forma da subseção 4.16, alínea f.
+
+### 4.3 Etapas do atendimento
+
+O atendimento percorre as etapas abaixo, da solicitação regulada à conclusão, e cada uma é descrita na subseção indicada.
+
+| etapa | o que acontece | quem executa | subseção |
+|---|---|---|---|
+| 1. Solicitação | a solicitação chega pela fila de regulação, com a classificação de risco atribuída na origem | unidade solicitante e Complexo Regulador | 4.4 |
+| 2. Agendamento pela regulação da SES-DF | contato com o usuário agendado pela regulação e orientação de preparo por escrito | Assistente Administrativo | 4.5 |
+| 3. Confirmação | confirmação da presença na véspera, com repetição do preparo | Assistente Administrativo | 4.6 |
+| 4. Recepção | identificação do usuário e conferência da solicitação, dos documentos e do preparo | equipe do polo | 4.7 |
+| 5. Preparo e triagem | triagem para o meio de contraste e acesso venoso, nos exames de tomografia que o requerem | equipe assistencial | 4.8 |
+| 6. Exame | aquisição das imagens | médico, na ultrassonografia; técnico em radiologia, na tomografia | 4.9 |
+| 7. Laudo | laudo assinado por médico radiologista; o exame que precisa ser repetido é reagendado no próprio projeto | médico radiologista | 4.10 |
+| 8. Entrega | laudo e dados do atendimento registrados no TrakCare, onde a unidade solicitante os consulta; o usuário é orientado a procurar a unidade solicitante para a consulta de retorno | equipe do polo | 4.11 |
+| 9. Registro | registro da produção nos sistemas oficiais | Operador de registro de sistemas | 9.2 |
+| 10. Conclusão | chave da solicitação fechada no sistema de regulação; a condução do cuidado passa à unidade solicitante | equipe do polo | 4.11 |
+
+A falta e o contato que não se completa têm percurso próprio: o exame é reagendado no próprio projeto até o encerramento da solicitação, na forma da subseção 4.12.
+
+### 4.4 Origem da demanda
+
+A solicitação de exame chega pela fila de regulação da Secretaria de Estado de Saúde do Distrito Federal, mantida no Sistema Nacional de Regulação (SISREG), com a classificação de risco atribuída pela unidade solicitante. A parceria não capta demanda própria e não recebe solicitação que não tenha passado pela regulação.
+
+A fila é composta por solicitações de unidades das sete Regiões de Saúde e de unidades de referência distrital e de serviços contratados e credenciados, que não se vinculam a território. As solicitações do segundo grupo são encaminhadas ao polo de referência do domicílio do usuário.
+
+Na tomografia, o usuário com histórico de doença renal sem dosagem de creatinina válida é regulado para o exame sem contraste, conforme o fluxo pactuado com o Complexo Regulador no mês 1.
+
+### 4.5 Agendamento pela regulação e orientação de preparo
+
+O usuário agendado pela regulação da SES-DF é contatado pelo proponente e recebe, no mesmo contato, a orientação de preparo do exame agendado. O preparo varia por procedimento e é condição para a realização do exame na data marcada. A orientação é específica do exame agendado e alcança jejum, repleção vesical e uso de medicamento, conforme o procedimento.
+
+A orientação é entregue por escrito e repetida na confirmação. O preparo é a causa mais frequente de exame perdido, e é por isso que ele aparece três vezes no percurso: no contato posterior ao agendamento, na véspera e na recepção. O contato posterior ao agendamento e a véspera garantem que o usuário compreenda todas as ações prévias ao exame; a recepção confere se o preparo foi executado corretamente. O preparo não depende de exame ou de documento que o usuário precise obter fora da rede, ressalvada a dosagem de creatinina do usuário com doença renal preexistente, na forma da subseção 4.8.
+
+A ordem de agendamento é a da regulação da SES-DF, que ocupa as vagas da agenda liberada pelo proponente segundo a classificação de risco e a data da solicitação. A escolha do polo segue o domicílio do usuário, na forma da subseção 4.2.
+
+O CPF do usuário, obrigatório para o registro da produção, é conferido já no primeiro contato com o usuário agendado.
+
+### 4.6 Confirmação
+
+A presença é confirmada na véspera do exame, com repetição nominal do preparo exigido e da documentação a apresentar, e conferência do CPF.
+
+A véspera ainda admite correção; o dia do exame, não. Jejum mal compreendido, endereço de polo trocado, documento extraviado: qualquer deles descoberto na véspera admite correção ou troca de data; descoberto na recepção, custa a vaga e o dia do usuário.
+
+O usuário que informa impedimento tem a data liberada ainda na véspera, e a vaga volta à agenda para ser ocupada pela regulação da SES-DF.
+
+### 4.7 Recepção e identificação
+
+No dia do exame o usuário é recebido no polo, identificado e tem conferidos a solicitação, o documento de identidade e o Cadastro de Pessoas Físicas. O CPF é exigência dos procedimentos deste objeto na Tabela de Procedimentos do SUS, e a sua ausência impede o registro da produção. O usuário pertencente aos povos originários é identificado pelo Cartão Nacional de Saúde.
+
+A recepção confere também o cumprimento do preparo, antes de o usuário ocupar a sala. Descoberto o descumprimento ainda na chegada, a vaga do dia é oferecida a outro usuário e o exame é remarcado; descoberto dentro da sala, ele consome o intervalo inteiro.
+
+O usuário é informado, na recepção, de que o laudo é registrado no TrakCare, onde a unidade solicitante o consulta, na forma da subseção 4.11.
+
+### 4.8 Preparo e triagem para o meio de contraste
+
+O preparo verifica as condições exigidas pelo procedimento agendado, na forma da subseção 4.5.
+
+Nos exames de tomografia computadorizada que requerem meio de contraste iodado — são 12.958 dos 13.686 exames de tomografia do objeto, em estimativa de planejamento — o preparo inclui a triagem de fatores de risco para reação adversa e para lesão renal, e a obtenção de acesso venoso.
+
+A triagem é feita no polo, no dia do exame, por conferência da condição de cada usuário antes da tomografia. Os fatores de risco considerados são a doença ou agravo renal preexistente e a alergia prévia a meio de contraste. A história patológica pregressa é colhida pela unidade solicitante, e o polo não colhe exame laboratorial. A dosagem de creatinina é exigida do usuário com doença ou agravo renal preexistente e é aceita quando válida, consultada no TrakCare, enviada pela unidade solicitante ou apresentada pelo usuário. O usuário sem fator de risco realiza o exame na data agendada.
+
+Se o usuário renal chegar ao polo sem dosagem válida, ou apresentar outra contraindicação ao contraste, o radiologista que supervisiona o exame decide entre realizá-lo sem contraste, quando a indicação clínica o admite, e devolvê-lo à regulação com o registro do motivo.
+
+O polo mantém, durante todo o horário de funcionamento, os meios de atendimento a reação adversa ao meio de contraste: carro de emergência, oxigênio, adrenalina intramuscular, anti-histamínico, corticoide, broncodilatador e monitor, em lista validada pelo responsável técnico médico do polo.
+
+Antes da administração do contraste, o polo colhe o termo de consentimento livre e esclarecido do usuário e confirma o estado gestacional das usuárias, nos exames que envolvem radiação.
+
+O acesso venoso e a injeção do meio de contraste são feitos por enfermeiro ou técnico de enfermagem do polo, sob supervisão médica, conforme a Resolução CFM nº 2.147/2016.
+
+A equipe do polo é contratada com experiência em suporte básico de vida, e toda a equipe assistencial é capacitada em Suporte Básico de Vida pelo proponente, em curso ministrado por enfermeiro, pelo menos uma vez durante o projeto. Havendo intercorrência grave, aciona-se o SAMU, na forma da subseção 4.9. Os eventos adversos, como tudo o que ocorre no atendimento, são registrados e informados à SES-DF nos relatórios mensais de execução (Meta 6).
+
+Não há tempo mínimo de permanência após o contraste: o polo mantém um espaço de repouso e o usuário se retira quando se sentir em condições. O usuário em uso de metformina é orientado, na alta, a reiniciá-la somente após 48 horas e depois de nova dosagem de creatinina que comprove que a função renal não piorou.
+
+### 4.9 Realização do exame
+
+A identidade do usuário é conferida contra a solicitação imediatamente antes de o exame começar, e não apenas na recepção: é a última verificação possível antes de a imagem ser adquirida e associada a um prontuário.
+
+A ultrassonografia é realizada por médico com Registro de Qualificação de Especialista (RQE) em ultrassonografia, que adquire e interpreta as imagens no mesmo ato. A tomografia computadorizada é realizada por técnico em radiologia, sob supervisão do médico radiologista responsável pelo serviço.
+
+As imagens adquiridas são armazenadas no sistema de imagem do polo e ficam disponíveis para o laudo e para consulta posterior.
+
+O exame é remarcado quando o usuário não tolera o posicionamento, quando o equipamento falha durante a aquisição ou quando a imagem sai sem qualidade diagnóstica, na primeira vaga disponível do polo. A ocorrência é registrada com o motivo.
+
+Achado que exige conduta imediata é tratado no ato. Identificada durante o exame situação que demande atendimento sem demora, o médico responsável orienta o usuário e o encaminha ao serviço de urgência e emergência de referência do polo, com relatório do achado. Havendo instabilidade clínica, aciona-se o Serviço de Atendimento Móvel de Urgência (SAMU). O achado e o encaminhamento são registrados no TrakCare, e o resultado segue depois o percurso ordinário da subseção 4.11.
+
+O serviço de urgência e emergência de referência de cada polo é o definido pela SES-DF, e o proponente entrega ao usuário um documento de encaminhamento com o endereço desse serviço. O serviço de urgência é de porta aberta, de modo que o usuário é atendido ao chegar; a condução do cuidado a partir dele cabe à rede de saúde, e não ao proponente.
+
+### 4.10 Laudo
+
+Na ultrassonografia, o laudo é emitido, em regra, pelo mesmo médico que realiza o exame, logo após a sua realização. Na tomografia computadorizada, o laudo é assinado por médico radiologista. O médico que realiza a ultrassonografia tem RQE em ultrassonografia; o radiologista da tomografia tem RQE na área, conforme o quadro da subseção 4.15.
+
+O laudo identifica o usuário, o procedimento realizado, a data e o polo de realização, a técnica empregada e o uso de meio de contraste, e traz a descrição dos achados e a conclusão. É a conclusão que responde à pergunta da unidade solicitante, e é ela que permite a decisão clínica.
+
+O laudo da tomografia é feito a partir das imagens armazenadas. A interpretação parte do que o sistema de imagem guarda, e a produção do polo segue em curso quando o seu radiologista está indisponível, por médico de retaguarda presencial, na forma do risco R-09. Na ultrassonografia, a aquisição e a interpretação são do mesmo médico (subseção 4.9), e a falta desse médico também é coberta pela retaguarda presencial.
+
+O laudo de exame inconclusivo registra o que impediu a conclusão. O exame que precisa ser repetido é reagendado dentro do próprio projeto, na mesma solicitação.
+
+### 4.11 Entrega do laudo
+
+O laudo e os dados do atendimento são registrados no TrakCare, com o acesso liberado pela SES-DF. O registro conclui o exame, na forma da subseção 2.3, e é feito com a data. É esse registro que o indicador I-03 lê.
+
+A unidade solicitante consulta o resultado no TrakCare, pelo CPF ou pelo Cartão Nacional de Saúde do usuário.
+
+Ao fim do exame, o usuário é orientado a procurar a unidade solicitante para a consulta de retorno. Nada é enviado à unidade de forma direta, uma vez que o laudo e o prontuário são registrados no TrakCare.
+
+A partir do registro do laudo no TrakCare, a condução do cuidado é da unidade solicitante, que decide a conduta com o resultado disponível no TrakCare.
+
+Registrado o laudo no TrakCare, a chave da solicitação é fechada no sistema de regulação.
+
+### 4.12 Busca ativa e reagendamento
+
+O usuário que não comparece é contatado e o exame é reagendado dentro do próprio projeto.
+
+A solicitação se encerra em duas situações: na terceira falta do usuário, ou quando o contato não se completa depois de três tentativas, em três dias diferentes e em três turnos diferentes. Nos dois casos, a chave da solicitação é fechada no sistema de regulação, com o registro do motivo, e o usuário sai da fila.
+
+Validação da fila. As solicitações chegam ao polo já analisadas pela regulação da SES-DF, que as aprova, devolve ou cancela no SISREG; a situação de cada solicitação é pública no Mapa Social da Saúde, do Ministério Público do Distrito Federal e Territórios.
+
+Absenteísmo. As metas e o dimensionamento não usam taxa de absenteísmo: a meta é o exame realizado, e a capacidade é calculada pela carga cheia. A falta é tratada na operação, com confirmação na véspera, busca ativa e reaproveitamento da vaga.
+
+### 4.13 Equipe de gestão e apoio
+
+| postos | cargo | atuação | passos que executa |
+|---|---|---|---|
+| 1 | Direção Executiva de Projeto | 8 meses | supervisão de todos os passos, interlocução com a SES-DF e acompanhamento das metas |
+| 1 | Coordenação Operacional | 8 meses | funcionamento dos polos e das agendas, redistribuição de agenda entre polos (4.2) |
+| 1 | Coordenação Administrativa e Financeira | 8 meses | 7.4 e 7.6 |
+| 10 | Operador de registro de sistemas | 8 meses | 9.2 |
+| 10 | Assistente Administrativo | 8 meses | 4.5, 4.6 e 4.12 |
+
+Os dez operadores de registro e os dez assistentes administrativos são um de cada por polo e se distribuem entre as Regiões de Saúde:
+
+| posto | Oeste | Sudoeste | Norte e Leste | Central | Sul | Centro-Sul | total |
+|---|---|---|---|---|---|---|---|
+| Operador de registro de sistemas | 1 | 2 | 2 | 2 | 2 | 1 | 10 |
+| Assistente Administrativo | 1 | 2 | 2 | 2 | 2 | 1 | 10 |
+| por Região | 2 | 4 | 4 | 4 | 4 | 2 | 20 |
+
+A direção e as duas coordenações são únicas para os dez polos e não se lotam em nenhum deles.
+
+A Coordenação Operacional redistribui a carga de contato com os usuários agendados e de registro entre os polos ao longo da vigência, conforme a execução de cada um — trabalho que não depende de o posto estar fisicamente no polo de destino.
+
+A equipe assistencial — médico radiologista, técnico em radiologia e o pessoal de recepção e preparo — integra a capacidade instalada do proponente e é remunerada pelo valor unitário do exame. O quadro de pessoal assistencial, com nome completo, número de registro no conselho de classe e, para os médicos, Registro de Qualificação de Especialista (RQE), será apresentado na formalização do instrumento, na forma da subseção 4.15.
+
+A prestação de contas é executada por assessoria especializada contratada.
+
+### 4.14 Execução direta do objeto
+
+A execução assistencial não é subcontratada. Ela ocorre nos polos do próprio proponente, por equipe própria. As funções de direção e de coordenação relacionadas na subseção 4.13 são exercidas diretamente pelo proponente.
+
+As funções de gestão, coordenação e direção não são subcontratadas. A assessoria especializada que apoia a prestação de contas executa atividade acessória, na forma da subseção 4.13, e não substitui a Coordenação Administrativa e Financeira.
+
+A responsabilidade pela execução do objeto permanece integralmente do proponente, inclusive quanto ao registro da produção e à prestação de contas.
+
+### 4.15 Equipe assistencial
+
+A equipe assistencial é do proponente e é remunerada pelo valor unitário do exame (subseção 4.13). Cada profissional é identificado, no quadro de pessoal a apresentar na formalização do instrumento, por nome completo, número de registro no conselho de classe e, para os médicos, RQE. O quadro nominal será apresentado na formalização do instrumento.
+
+| posto assistencial | total | Oeste | Sudoeste | Norte e Leste | Central | Sul | Centro-Sul | registro exigido e critério |
+|---|---|---|---|---|---|---|---|---|
+| Médico — ultrassonografia | 24 | 2 | 7 | 5 | 2 | 5 | 3 | CRM e RQE em ultrassonografia; um médico por sala durante o exame (4.9); salas: 1, 6, 5, 2, 5 e 2; 1.200 h por médico nos 8 meses (1.800 h anuais) sobre as horas de sala (7.3) |
+| Médico radiologista — tomografia | 7 | 1 | 2 | 1 | 1 | 1 | 1 | CRM e RQE; laudo e supervisão da tomografia (4.9, 4.10); horas de sala da tomografia 353, 1.609, 1.117, 503, 612 e 307 ÷ 1.200 h no período (0,29; 1,34; 0,93; 0,42; 0,51; 0,26), arredondadas para cima, e no mínimo um por tomógrafo |
+| Médico de retaguarda presencial | 10 por dia útil | 1 | 2 | 2 | 2 | 2 | 1 | CRM e RQE, o mesmo do médico que cobre; 1 por dia útil em cada polo; cobre a falta do médico executante e do radiologista (R-09); custo no valor unitário |
+| Responsável técnico médico do polo | 10 | 1 | 2 | 2 | 2 | 2 | 1 | CRM e RQE; Meta 1 (6.1) |
+| Técnico em radiologia | 21 | 3 | 6 | 3 | 3 | 3 | 3 | registro no CRTR; 50 h por semana por tomógrafo ÷ 24 h semanais = 2,08, arredondado para 3 por tomógrafo |
+| Enfermeiro ou técnico de enfermagem | 14 | 2 | 4 | 2 | 2 | 2 | 2 | COREN; conferência pré-contraste, acesso venoso e injeção do meio de contraste por enfermeiro ou técnico de enfermagem do polo, sob supervisão médica, conforme a Resolução CFM nº 2.147/2016 (4.8); 50 h semanais por tomógrafo ÷ 44 h semanais = 1,14, arredondado para 2 por tomógrafo |
+| Pessoal de recepção e preparo | 20 | 2 | 4 | 4 | 4 | 4 | 2 | sem registro em conselho; recepção e preparo (4.7); polo aberto 50 h semanais ÷ 44 h semanais = 1,14, arredondado para 2 por polo |
+
+Ultrassonografia: as 24.321 horas de sala (1.322 na Região Oeste, 7.936 na Região Sudoeste, 5.861 nas Regiões Norte e Leste, 1.269 na Região Central, 5.530 na Região Sul e 2.403 na Região Centro-Sul) exigem um médico por sala durante o exame (subseção 4.9). O número de médicos é o quociente das horas de sala pelas horas de cada médico no período; a carga horária contratual é de 1.800 horas anuais por médico, 1.200 horas nos oito meses do projeto, o que resulta em 2 médicos na Região Oeste (1.322 ÷ 1.200 = 1,1), 7 na Região Sudoeste (7.936 ÷ 1.200 = 6,6), 5 nas Regiões Norte e Leste (5.861 ÷ 1.200 = 4,9), 2 na Região Central (1.269 ÷ 1.200 = 1,1), 5 na Região Sul (5.530 ÷ 1.200 = 4,6) e 3 na Região Centro-Sul (2.403 ÷ 1.200 = 2,0), 24 no total, sempre em número igual ou superior ao de salas (1, 6, 5, 2, 5 e 2). Tomografia: cada tomógrafo funciona 10 horas por dia útil, 5 dias por semana, ou 50 horas por semana; a jornada do técnico em radiologia é de 24 horas semanais (Lei nº 7.394/1985, art. 14); 50 ÷ 24 = 2,08, logo no mínimo 3 técnicos por tomógrafo e 21 nos sete tomógrafos, antes de férias e ausências.
+
+### 4.16 Qualidade técnica e proteção radiológica
+
+O proponente mantém, em cada polo, os requisitos de qualidade técnica e de proteção radiológica da RDC Anvisa nº 611, de 9 de março de 2022, que dispõe sobre os requisitos sanitários de organização e funcionamento de serviços de radiologia diagnóstica ou intervencionista:
+
+(a)	responsável técnico do serviço e supervisor de proteção radiológica de cada polo, com nome e registro a indicar na formalização do instrumento;
+
+(b)	licença sanitária de cada polo a apresentar na formalização do instrumento;
+
+(c)	plano de proteção radiológica, níveis de referência de dose e protocolos de aquisição por procedimento;
+
+(d)	testes de constância e controle de qualidade de cada tomógrafo, com laudos anexados por equipamento;
+
+(e)	manutenção preventiva dos tomógrafos e dos aparelhos de ultrassonografia, com contrato e tempo de resposta fixado no contrato de manutenção de cada polo;
+
+(f)	especificação dos equipamentos por polo — canais do tomógrafo, transdutores lineares para mama e tireoide, transdutor endocavitário e Doppler colorido —, conforme o CNES de cada polo, a apresentar na formalização do instrumento;
+
+(g)	desinfecção do transdutor endocavitário entre usuários e presença de acompanhante nos exames transvaginal e de próstata.
+
+## 5. Objetivos
+
+### 5.1 Objetivo geral
+
+Ampliar o acesso dos usuários do SUS no Distrito Federal aos exames de ultrassonografia e de tomografia computadorizada, reduzindo o estoque da fila de regulação da SES-DF, mediante a realização de 79.373 exames de diagnóstico por imagem em oito meses, com laudo e atendimento registrados no TrakCare.
+
+### 5.2 Objetivos específicos
+
+| objetivo específico | meta | quantitativo | indicadores |
+|---|---|---|---|
+| Implantar, no mês 1, e coordenar dez polos de execução, com acesso aos sistemas oficiais da SES-DF e fluxo de encaminhamento pactuado com o Complexo Regulador | Meta 1 | 10 polos em operação por 8 meses | I-06 |
+| Disponibilizar à regulação da SES-DF as vagas da agenda e orientar o preparo dos usuários agendados | Meta 2 | 79.373 vagas | I-08 |
+| Registrar a produção nos sistemas oficiais, na competência de realização | Meta 3 | 79.373 exames registrados | I-04 e I-05 |
+| Realizar os exames dos oito procedimentos de ultrassonografia da subseção 2.2, com laudo e atendimento registrados no TrakCare | Meta 4 | 65.687 exames | I-01, I-02, I-03 e I-07 |
+| Realizar os exames dos três procedimentos de tomografia computadorizada da subseção 2.2, com laudo e atendimento registrados no TrakCare | Meta 5 | 13.686 exames | I-01, I-02, I-03 e I-07 |
+| Monitorar a execução, apurar os indicadores e prestar contas | Meta 6 | 8 relatórios mensais e 1 relatório final | I-06 |
+
+## 6. Metas e indicadores
+
+### 6.1 Metas
+
+| meta | descrição | quantitativo | prazo |
+|---|---|---|---|
+| Meta 1 | Estruturação e coordenação da execução. No mês 1: designação da equipe e do responsável técnico de cada polo, habilitação dos acessos aos sistemas oficiais da SES-DF, inclusive ao TrakCare, pactuação do fluxo de encaminhamento com o Complexo Regulador, conferência da capacidade instalada contra os parâmetros da subseção 7.3 e publicação das agendas. Ao longo da vigência: supervisão dos polos e redistribuição de agenda | 10 polos em operação a partir do mês 1, mantidos por 8 meses | meses 1 a 8 |
+| Meta 2 | Gestão da fila. Disponibilização de vagas à regulação, contato com os usuários agendados pela regulação, orientação de preparo, confirmação na véspera, busca ativa do faltoso e reagendamento, na forma das subseções 4.5, 4.6 e 4.12 | 79.373 vagas disponibilizadas à regulação, com contato e orientação de preparo dos usuários agendados | meses 1 a 8 |
+| Meta 3 | Registro da produção. Abertura da Autorização de Procedimento Ambulatorial, lançamento nos sistemas oficiais, crítica dos registros e reapresentação dos rejeitados, na forma da subseção 9.2 | 79.373 exames registrados nos sistemas oficiais | meses 1 a 8 |
+| Meta 4 | Execução assistencial em ultrassonografia. Exames dos oito procedimentos de ultrassonografia da subseção 2.2, realizados, com laudo e atendimento registrados no TrakCare | 65.687 exames | meses 1 a 8 |
+| Meta 5 | Execução assistencial em tomografia computadorizada. Exames dos três procedimentos de tomografia da subseção 2.2, realizados, com laudo e atendimento registrados no TrakCare | 13.686 exames | meses 1 a 8 |
+| Meta 6 | Monitoramento, conclusão e prestação de contas. Apuração mensal dos indicadores, relatórios de execução, consolidação da produção, prestação de contas e relatório técnico final | 8 relatórios mensais e 1 relatório final de execução física e financeira | meses 1 a 8, e a prestação de contas final no prazo do instrumento |
+
+As Metas 4 e 5 se decompõem por Região, na proporção da subseção 3.4 — 4.611 exames na Região Oeste, 26.894 na Região Sudoeste, 19.054 nas Regiões Norte e Leste, 4.722 na Região Central, 16.339 na Região Sul e 7.753 na Região Centro-Sul —, por procedimento, no quantitativo da subseção 2.2, e por período, na curva da subseção 7.2.
+
+As seis metas têm dotação própria na planilha da seção 8.
+
+Meta qualitativa: registrar o laudo e o atendimento no TrakCare em 100% dos exames realizados.
+
+Natureza das metas. Em atenção ao parágrafo único do art. 7º da Portaria GM/MS nº 10.297/2026, as Metas 4 e 5 são quantitativas, destinadas ao pagamento pelos exames prestados e previamente regulados pela SES-DF, e a meta qualitativa é a descrita no parágrafo anterior.
+
+### 6.2 Indicadores e meios de verificação
+
+| id | indicador | fórmula | parâmetro de aferição | meio de verificação | meta que afere |
+|---|---|---|---|---|---|
+| I-01 | Execução física | exames realizados ÷ exames pactuados no período | 100% | registros apresentados nos sistemas oficiais | 4 e 5 |
+| I-02 | Execução por procedimento | exames realizados de cada um dos onze procedimentos ÷ pactuados para aquele procedimento | 100% | registros apresentados, agrupados por código da Tabela do SUS | 4 e 5 |
+| I-03 | Entrega do laudo | exames com laudo e atendimento registrados no TrakCare ÷ exames realizados | 100% | registro no TrakCare | 4 e 5 |
+| I-04 | Registro da produção | exames registrados nos sistemas oficiais ÷ exames realizados | 100% | Autorizações de Procedimento Ambulatorial apresentadas | 3 |
+| I-05 | Tempestividade do registro | exames registrados na competência de realização ÷ exames realizados | 100% | competência das Autorizações apresentadas | 3 |
+| I-06 | Relatórios de execução | relatórios entregues ÷ relatórios devidos no período | 100% | protocolo de entrega à concedente | 1 e 6 |
+| I-07 | Repetição por qualidade de imagem | exames repetidos por imagem inconclusiva ou sem qualidade diagnóstica ÷ exames realizados | até 3% | registro de ocorrência da subseção 4.9 | 4 e 5 |
+| I-08 | Vagas disponibilizadas à regulação | vagas disponibilizadas à regulação ÷ vagas pactuadas no período, conforme a curva da subseção 7.2 | 100% | agendas publicadas e vagas ofertadas à regulação, registradas no relatório mensal de execução | 2 |
+
+Os indicadores são apurados mensalmente e consolidados no relatório de execução. A fonte primária de I-01, I-02, I-04 e I-05 é o registro oficial da produção, não instrumento criado para a parceria.
+
+## 7. Esboço de cronograma de execução
+
+### 7.1 Etapas
+
+| etapa | conteúdo | entrega verificável | meses |
+|---|---|---|---|
+| Etapa 1 — Implantação | designação da equipe e do responsável técnico de cada polo; habilitação dos acessos aos sistemas oficiais da SES-DF, inclusive ao TrakCare; pactuação do fluxo de encaminhamento com o Complexo Regulador; conferência da capacidade instalada de cada polo contra os parâmetros da subseção 7.3; publicação das agendas dos dez polos | ato de designação, acessos habilitados, fluxo pactuado, agendas publicadas | 1 |
+| Etapa 2 — Produção | contato com os usuários agendados pela regulação, confirmação e busca ativa; realização dos exames na curva da subseção 7.2; laudo e entrega do resultado; registro da produção | registros apresentados nos sistemas oficiais e relatório mensal | 1 a 8 |
+| Etapa 3 — Conclusão e encerramento | consolidação da produção; apuração final dos indicadores; relatório técnico final e prestação de contas | relatório final e prestação de contas | 8 e o prazo posterior do instrumento |
+
+As Metas 1 a 6 da subseção 6.1 correm dentro destas três etapas: a Meta 1 se concentra na Etapa 1 e se mantém nas demais; as Metas 2 a 5 correm na Etapa 2; a Meta 6 corre nas três e se conclui na Etapa 3.
+
+### 7.2 Curva de produção
+
+A produção começa no mês 1 e se reparte por dois trimestres e um bimestre final, na proporção dos meses de cada período. Cada procedimento tem três oitavos do seu quantitativo em cada trimestre e dois oitavos no bimestre final, e o resto da divisão se acomoda nos últimos.
+
+Mês 1: a curva abaixo é a adotada e é reavaliada com o resultado da execução do primeiro mês, com ajuste pactuado com a SES-DF na forma da subseção 7.6.
+
+| período | meses | exames |
+|---|---|---|
+| 1º trimestre | 1 a 3 | 29.760 |
+| 2º trimestre | 4 a 6 | 29.764 |
+| bimestre final | 7 a 8 | 19.849 |
+| total |  | 79.373 |
+
+### 7.3 Capacidade requerida no regime pleno
+
+A produção do período de maior carga — o bimestre final, com 19.849 exames em 42 dias úteis — corresponde a 473 exames por dia útil, distribuídos entre as Regiões na proporção da subseção 3.4.
+
+A execução do objeto requer 28.822 horas de sala no período — 24.321 de ultrassonografia e 4.501 de tomografia computadorizada.
+
+Não há fração de exame nem de sala: os quantitativos diários e os equipamentos de cada Região são números inteiros, arredondados para cima.
+
+| recurso | total | Oeste | Sudoeste | Norte e Leste | Central | Sul | Centro-Sul | como se obtém |
+|---|---|---|---|---|---|---|---|---|
+| Polos | 10 | 1 | 2 | 2 | 2 | 2 | 1 | subseção 4.2 |
+| Exames no período | 79.373 | 4.611 | 26.894 | 19.054 | 4.722 | 16.339 | 7.753 | distribuição da subseção 3.4 |
+| de ultrassonografia | 65.687 | 3.550 | 21.997 | 15.654 | 3.195 | 14.477 | 6.814 | cada procedimento distribuído pela origem das suas solicitações |
+| de tomografia computadorizada | 13.686 | 1.061 | 4.897 | 3.400 | 1.527 | 1.862 | 939 | idem |
+| Exames por mês — ultrassonografia | 8.213 | 444 | 2.750 | 1.957 | 400 | 1.810 | 852 | exames do período ÷ 8 meses; total: soma dos polos |
+| Exames por mês — tomografia computadorizada | 1.713 | 133 | 613 | 425 | 191 | 233 | 118 | idem; total: soma dos polos |
+| Dias de funcionamento |  | 168 dias úteis | 168 dias úteis | 168 dias úteis | 168 dias úteis | 168 dias úteis | 168 dias úteis | 8 meses de 21 dias úteis, de segunda a sexta-feira |
+| Horário de funcionamento |  | 10 horas por dia útil | 10 horas por dia útil | 10 horas por dia útil | 10 horas por dia útil | 10 horas por dia útil | 10 horas por dia útil |  |
+| Exames por dia útil — ultrassonografia | 395 | 22 | 131 | 94 | 20 | 87 | 41 | exames do período ÷ 168 dias úteis; total: soma dos polos |
+| Exames por dia útil — tomografia computadorizada | 86 | 7 | 30 | 21 | 10 | 12 | 6 | idem; total: soma dos polos |
+| Salas de ultrassonografia | 21 | 1 | 6 | 5 | 2 | 5 | 2 | salas que absorvem a carga da Região no horário de funcionamento, no mínimo uma por polo, com folga para exame que se estende e manutenção |
+| Exames por sala de ultrassonografia por dia útil |  | 22 | 22 | 19 | 10 | 18 | 21 | exames de ultrassonografia do dia ÷ salas da Região |
+| Horas de sala de ultrassonografia | 24.321 | 1.322 | 7.936 | 5.861 | 1.269 | 5.530 | 2.403 | tempo de sala dos exames da Região no período |
+| Tomógrafos | pelo menos 7 | ≥ 1 | ≥ 2 | ≥ 1 | ≥ 1 | ≥ 1 | ≥ 1 | pelo menos um por Região, consideradas em conjunto as Regiões Norte e Leste, e dois na Sudoeste |
+| Horas de tomógrafo | 4.501 | 353 | 1.609 | 1.117 | 503 | 612 | 307 | tempo de equipamento dos exames da Região no período |
+| Postos de trabalho lotados na Região | 20 | 2 | 4 | 4 | 4 | 4 | 2 | subseção 4.13 |
+
+A Região Oeste realiza, por dia útil, 22 exames de ultrassonografia em uma sala e 7 de tomografia computadorizada. A Região Sudoeste realiza 131 exames de ultrassonografia em seis salas e 30 de tomografia. As Regiões Norte e Leste realizam 94 exames de ultrassonografia em cinco salas e 21 de tomografia. A Região Central realiza 20 exames de ultrassonografia em duas salas e 10 de tomografia. A Região Sul realiza 87 exames de ultrassonografia em cinco salas e 12 de tomografia. A Região Centro-Sul realiza 41 exames de ultrassonografia em duas salas e 6 de tomografia. Os dez polos funcionam dez horas por dia útil; a Região Oeste tem dois postos de gestão e apoio lotados, a Região Sudoeste quatro, as Regiões Norte e Leste quatro, a Região Central quatro, a Região Sul quatro e a Região Centro-Sul dois.
+
+A soma das Regiões, de 395 exames de ultrassonografia e 86 de tomografia por dia útil, excede os 473 do período de maior carga porque a capacidade de cada Região é arredondada para cima. A folga que o arredondamento produz absorve exame que se estende e manutenção.
+
+Aos vinte postos lotados nas Regiões somam-se a direção e duas coordenações únicas para os dez polos, na forma da subseção 4.13, e a Assessoria de Prestação de Contas, que é serviço contratado.
+
+A tomografia em pelo menos um polo de cada Região mantém o exame perto do domicílio do usuário, e a folga do conjunto absorve a manutenção de cada equipamento.
+
+### 7.4 Regime de desembolso
+
+O desembolso é feito em três parcelas, duas trimestrais e a última bimestral, correspondentes aos três períodos de produção.
+
+A primeira é liberada na celebração, porque a equipe de planejamento, gestão e prestação de contas é contratada antes do início da produção assistencial. As demais são liberadas no início do período a que se referem.
+
+### 7.5 Parcelas
+
+| parcela | meses | exames do período | produção assistencial | planejamento, gestão e prestação de contas | valor da parcela |
+|---|---|---|---|---|---|
+| 1 | 1 a 3 | 29.760 | 4.001.448,36 | 344.865,00 | 4.346.313,36 |
+| 2 | 4 a 6 | 29.764 | 4.002.247,12 | 344.865,00 | 4.347.112,12 |
+| 3 | 7 a 8 | 19.849 | 2.669.330,74 | 229.910,00 | 2.899.240,74 |
+|  |  | 79.373 | 10.673.026,22 | 919.640,00 | 11.592.666,22 |
+
+Os exames de cada parcela são os do período correspondente na curva da subseção 7.2.
+
+### 7.6 Ajuste por execução
+
+A produção executada em cada período — exames laudados e entregues — é apurada pelos registros apresentados nos sistemas oficiais, aos valores unitários da seção 8, e a diferença em relação à produção prevista é ajustada na parcela subsequente.
+
+A prestação de contas é realizada na forma da Instrução Normativa nº 01, de 22 de dezembro de 2005, da Corregedoria-Geral do Distrito Federal. Cada parcela liberada tem prestação de contas parcial, com o Relatório de Execução Físico-Financeira, e a partir da terceira liberação a prestação parcial da penúltima parcela liberada a antecede. A prestação de contas final, com o relatório de cumprimento do objeto, é apresentada em até sessenta dias do término da vigência, e o saldo não aplicado é recolhido na forma da mesma Instrução.
+
+### 7.7 Critério de classificação dos riscos
+
+Cada risco é classificado pela combinação entre probabilidade e impacto sobre a execução do objeto, e recebe medida de mitigação atribuída a um responsável determinado.
+
+Materializado o risco, a resposta segue esta ordem:
+
+1.	redistribuição da agenda entre os polos, sem alteração do quantitativo global;
+
+2.	ampliação do turno de operação no polo afetado, dentro da capacidade instalada;
+
+3.	ações compensatórias no período seguinte, dentro da vigência;
+
+4.	ajuste da parcela subsequente, na forma da subseção 7.6;
+
+5.	devolução do saldo não executado ao final da vigência.
+
+### 7.8 Matriz de riscos
+
+| id | risco | prob. | impacto | classificação | mitigação |
+|---|---|---|---|---|---|
+| R-01 | Capacidade instalada insuficiente para o ritmo de 473 exames por dia útil | média | alto | alto | conferência da capacidade instalada de cada polo contra os parâmetros da subseção 7.3, no mês 1, antes da publicação das agendas; ampliação do turno e redistribuição da agenda entre os dez polos |
+| R-02 | Absenteísmo do usuário na data agendada, com ociosidade de sala | alta | alto | alto | confirmação nominal na véspera, com repetição do preparo; busca ativa e reagendamento na forma da subseção 4.12; reaproveitamento da vaga liberada com usuário da mesma fila; campanhas de comunicação em massa com os usuários da fila |
+| R-03 | Preparo não cumprido, impedindo a realização no dia | alta | médio | médio | orientação escrita no agendamento e repetida nominalmente na confirmação; conferência do preparo na recepção, antes de o usuário ocupar a sala |
+| R-04 | O custo do meio de contraste iodado excede o previsto, reduzindo a margem da execução assistencial | média | alto | alto | o meio de contraste integra o valor unitário do exame de tomografia; aquisição por programação trimestral, com o consumo por exame acompanhado nos relatórios de execução |
+| R-05 | Reação adversa ao meio de contraste durante o exame | baixa | alto | médio | triagem de fatores de risco e de reação prévia antes da administração, com a dosagem de creatinina válida do usuário renal, na forma da subseção 4.8; termo de consentimento e confirmação do estado gestacional antes da administração; meios de atendimento a reação adversa disponíveis no polo durante todo o horário de funcionamento; equipe com experiência em suporte básico de vida, capacitada ao menos uma vez no projeto, e acionamento do SAMU em intercorrência grave |
+| R-06 | Contraindicação ao meio de contraste identificada na triagem | média | baixo | baixo | realização do exame sem contraste quando a indicação clínica o admite; devolução à regulação com registro do motivo, e reaproveitamento da vaga |
+| R-07 | Interrupção ou insuficiência do envio da demanda regulada, deixando ociosa a capacidade mobilizada | média | alto | médio | a fila apurada na subseção 3.1 é de 78.572 solicitações na data da extração, e o quantitativo pactuado de 79.373 inclui 801 exames das solicitações que entram na fila durante a vigência, na forma da mesma subseção, de modo que o risco é de fluxo e não de estoque; pactuação do ritmo de encaminhamento com o Complexo Regulador no mês 1; monitoramento mensal pelo I-01; esgotada a fila de um procedimento, ajuste da meta por termo aditivo, na forma da subseção 2.2 |
+| R-08 | Indisponibilidade de tomógrafo por manutenção corretiva | média | alto | alto | sete equipamentos para uma carga de 2,68, na forma da subseção 7.3, com redistribuição da agenda de tomografia entre os polos no mesmo dia |
+| R-09 | Indisponibilidade do médico que executa a ultrassonografia ou do médico radiologista em um polo, por afastamento ou desligamento | média | alto | alto | escala com médico de retaguarda presencial, que assume a execução e o laudo; um médico de retaguarda por dia útil em cada polo; custo da retaguarda suportado pelo valor unitário do exame; telelaudo a partir das imagens armazenadas apenas como contingência para o laudo da tomografia, se o médico de retaguarda não puder laudar; comunicação à concedente |
+| R-10 | Laudo emitido e não registrado no TrakCare, deixando o exame sem concluir | média | alto | alto | rastreamento diário dos exames realizados sem registro no TrakCare; o I-03 afere o registro mensalmente |
+| R-11 | Rejeição de registro nos sistemas oficiais por erro de preenchimento | média | alto | alto | operador de registro dedicado em cada polo, que lança no mesmo dia do exame; conferência do CPF na recepção, antes da realização; crítica e reapresentação dentro da competência seguinte |
+| R-12 | Indisponibilidade do sistema de registro ou do TrakCare, próprio ou da concedente | média | médio | médio | registro em lote com conferência semanal; escalonamento ao suporte do sistema próprio; comunicação à SES-DF quando a indisponibilidade for de sistema dela |
+| R-13 | Concentração da produção em um polo, com desequilíbrio territorial | média | baixo | baixo | execução por polo apurada no relatório mensal contra o rateio da subseção 3.4; redistribuição de agenda pela Coordenação Operacional |
+| R-14 | Alteração da Tabela de Procedimentos do SUS ou do incremento durante a vigência | média | alto | alto | apuração da produção pelos valores vigentes na competência de execução; comunicação à concedente no mês da alteração, e recomposição do quantitativo por termo aditivo, instruído na forma que o instrumento exige |
+| R-15 | Acesso indevido ou vazamento de dado pessoal e de saúde na confirmação, na busca ativa ou no registro do atendimento no TrakCare | baixa | alto | médio | meio corporativo com registro de acesso, sem aplicativo pessoal; perfis de acesso por posto de trabalho, na forma da subseção 9.3 |
+| R-16 | Glosa da rubrica de gestão por leitura de taxa de administração ou de subcontratação de função de gestão | média | alto | alto | a rubrica é composta posto a posto, sem percentual sobre o global, na planilha da seção 8; a coordenação é exercida por equipe própria do proponente; a assessoria contratada executa atividade acessória, na forma da subseção 4.14 |
+
+### 7.9 Os riscos altos
+
+R-01 é o risco que define este objeto. A meta de 79.373 exames em oito meses exige vinte e uma salas de ultrassonografia e sete tomógrafos em turno de dez horas. A conferência da capacidade instalada de cada polo contra esses parâmetros é feita no mês 1, antes de qualquer agenda ser publicada, porque a correção depois de iniciada a execução recai sobre a meta e não sobre a capacidade.
+
+R-02 é o risco de maior probabilidade do conjunto. Exame de imagem agendado com antecedência sobre fila de espera longa tem absenteísmo alto, e cada falta é uma sala ociosa. As três medidas — confirmação nominal, busca ativa e reaproveitamento da vaga — são o que sustenta o ritmo declarado na subseção 7.3.
+
+R-04 é o risco que o valor de tabela não elimina. O meio de contraste iodado é insumo de 12.958 dos 13.686 exames de tomografia (estimativa de planejamento, subseção 4.8) e está dentro do valor unitário: o procedimento de contraste da Tabela do SUS é registro de APAC secundária e não gera pagamento adicional por produção ambulatorial. O consumo por exame é acompanhado nos relatórios de execução, porque a variação recai sobre a execução assistencial e não sobre o preço.
+
+R-10 é o risco próprio deste objeto. Exame realizado cujo laudo não é registrado no TrakCare não completa a unidade de aferição da subseção 2.3, e é esse registro que a meta qualitativa da subseção 6.1 afere.
+
+R-16 é o risco de forma, não de mérito. A rubrica de planejamento, gestão e prestação de contas é composta posto a posto, com preço e período declarados, e o plano não publica percentual sobre o valor global. A coordenação é exercida por equipe própria; a assessoria contratada faz prestação de contas, que é atividade acessória.
+
+R-14 alcança o valor unitário inteiro. O preço praticado é o de tabela acrescido do incremento do Anexo I da Portaria SAES/MS nº 4.282/2026, e os dois podem mudar dentro da vigência. A produção é apurada pelos valores vigentes na competência de execução, e a diferença se resolve no quantitativo, dentro do valor global.
+
+## 8. Indicação da aplicação das despesas
+
+### 8.1 Composição do valor unitário
+
+O valor unitário de cada exame é composto a partir da referência federal da subseção 3.3: o valor do Serviço Ambulatorial da Tabela do SUS acrescido do incremento que o Anexo I da Portaria SAES/MS nº 4.282/2026 fixa para aquele procedimento.
+
+| código | procedimento | valor de tabela | incremento | valor unitário |
+|---|---|---|---|---|
+| 02.05.02.009-7 | Ultrassonografia mamária bilateral | R$ 24,20 | 313% | R$ 99,94 |
+| 02.05.01.004-0 | Ultrassonografia doppler colorido de vasos | R$ 39,60 | 153% | R$ 100,18 |
+| 02.05.02.004-6 | Ultrassonografia de abdômen total | R$ 37,95 | 164% | R$ 100,18 |
+| 02.05.02.018-6 | Ultrassonografia transvaginal | R$ 24,20 | 313% | R$ 99,94 |
+| 02.06.02.003-1 | Tomografia computadorizada de tórax | R$ 136,41 | 120% | R$ 300,10 |
+| 02.06.03.001-0 | Tomografia computadorizada de abdômen superior | R$ 138,63 | 116% | R$ 299,44 |
+| 02.05.02.005-4 | Ultrassonografia de aparelho urinário | R$ 24,20 | 313% | R$ 99,94 |
+| 02.06.03.003-7 | Tomografia computadorizada de pelve, bacia e abdômen inferior | R$ 138,63 | 116% | R$ 299,44 |
+| 02.05.02.012-7 | Ultrassonografia de tireoide | R$ 24,20 | 313% | R$ 99,94 |
+| 02.05.02.010-0 | Ultrassonografia de próstata por via abdominal | R$ 24,20 | 313% | R$ 99,94 |
+| 02.05.02.003-8 | Ultrassonografia de abdômen superior | R$ 24,20 | 313% | R$ 99,94 |
+
+O valor unitário é truncado na segunda casa decimal.
+
+### 8.2 Planilha
+
+| # | item | referência | un. | qtd | frequência | v. unitário | v. total |
+|---|---|---|---|---|---|---|---|
+|  | Meta 1 — Estruturação e coordenação da execução |  |  |  |  |  |  |
+|  | Etapa 1.1 — Recursos humanos |  |  |  |  |  |  |
+| 1.1.1 | Direção Executiva de Projeto | 4.13 | posto | 1 | 8 meses | 14.500,00 | 116.000,00 |
+| 1.1.2 | Coordenação Operacional | 4.2 · 4.13 | posto | 1 | 8 meses | 9.500,00 | 76.000,00 |
+|  | TOTAL DA META 1 |  |  | 2 |  |  | 192.000,00 |
+|  | Meta 2 — Gestão da fila |  |  |  |  |  |  |
+|  | Etapa 2.1 — Recursos humanos |  |  |  |  |  |  |
+| 2.1.1 | Assistente Administrativo — contato com os usuários agendados, confirmação e busca ativa | 4.5 · 4.6 · 4.12 | posto | 10 | 8 meses | 3.200,00 | 256.000,00 |
+|  | TOTAL DA META 2 |  |  | 10 |  |  | 256.000,00 |
+|  | Meta 3 — Registro da produção |  |  |  |  |  |  |
+|  | Etapa 3.1 — Recursos humanos |  |  |  |  |  |  |
+| 3.1.1 | Operador de registro de sistemas | 9.2 | posto | 10 | 8 meses | 4.300,00 | 344.000,00 |
+|  | TOTAL DA META 3 |  |  | 10 |  |  | 344.000,00 |
+|  | Meta 4 — Execução assistencial em ultrassonografia |  |  |  |  |  |  |
+|  | Etapa 4.1 — Realização de exames de ultrassonografia |  |  |  |  |  |  |
+| 4.1.1 | 02.05.02.009-7 — ULTRASSONOGRAFIA MAMÁRIA BILATERAL | 4.7 a 4.11 | exame | 14.721 | 1 | 99,94 | 1.471.216,74 |
+| 4.1.2 | 02.05.01.004-0 — ULTRASSONOGRAFIA DOPPLER COLORIDO DE VASOS | 4.7 a 4.11 | exame | 14.550 | 1 | 100,18 | 1.457.619,00 |
+| 4.1.3 | 02.05.02.004-6 — ULTRASSONOGRAFIA DE ABDÔMEN TOTAL | 4.7 a 4.11 | exame | 13.200 | 1 | 100,18 | 1.322.376,00 |
+| 4.1.4 | 02.05.02.018-6 — ULTRASSONOGRAFIA TRANSVAGINAL | 4.7 a 4.11 | exame | 10.565 | 1 | 99,94 | 1.055.866,10 |
+| 4.1.5 | 02.05.02.005-4 — ULTRASSONOGRAFIA DE APARELHO URINÁRIO | 4.7 a 4.11 | exame | 3.953 | 1 | 99,94 | 395.062,82 |
+| 4.1.6 | 02.05.02.012-7 — ULTRASSONOGRAFIA DE TIREOIDE | 4.7 a 4.11 | exame | 3.224 | 1 | 99,94 | 322.206,56 |
+| 4.1.7 | 02.05.02.010-0 — ULTRASSONOGRAFIA DE PRÓSTATA POR VIA ABDOMINAL | 4.7 a 4.11 | exame | 3.208 | 1 | 99,94 | 320.607,52 |
+| 4.1.8 | 02.05.02.003-8 — ULTRASSONOGRAFIA DE ABDÔMEN SUPERIOR | 4.7 a 4.11 | exame | 2.266 | 1 | 99,94 | 226.464,04 |
+|  | TOTAL DA META 4 |  |  | 65.687 |  |  | 6.571.418,78 |
+|  | Meta 5 — Execução assistencial em tomografia computadorizada |  |  |  |  |  |  |
+|  | Etapa 5.1 — Realização de exames de tomografia computadorizada |  |  |  |  |  |  |
+| 5.1.1 | 02.06.02.003-1 — TOMOGRAFIA COMPUTADORIZADA DE TÓRAX | 4.7 a 4.11 | exame | 5.260 | 1 | 300,10 | 1.578.526,00 |
+| 5.1.2 | 02.06.03.001-0 — TOMOGRAFIA COMPUTADORIZADA DE ABDÔMEN SUPERIOR | 4.7 a 4.11 | exame | 4.541 | 1 | 299,44 | 1.359.757,04 |
+| 5.1.3 | 02.06.03.003-7 — TOMOGRAFIA COMPUTADORIZADA DE PELVE / BACIA / ABDÔMEN INFERIOR | 4.7 a 4.11 | exame | 3.885 | 1 | 299,44 | 1.163.324,40 |
+|  | TOTAL DA META 5 |  |  | 13.686 |  |  | 4.101.607,44 |
+|  | Meta 6 — Monitoramento, conclusão e prestação de contas |  |  |  |  |  |  |
+|  | Etapa 6.1 — Gestão financeira e prestação de contas |  |  |  |  |  |  |
+| 6.1.1 | Coordenação Administrativa e Financeira | 7.4 · 7.6 | posto | 1 | 8 meses | 10.500,00 | 84.000,00 |
+| 6.1.2 | Assessoria de Prestação de Contas | 7.4 · 7.6 | serviço | 1 | 8 meses | 5.455,00 | 43.640,00 |
+|  | TOTAL DA META 6 |  |  | 2 |  |  | 127.640,00 |
+|  | TOTAL GERAL |  |  |  |  |  | 11.592.666,22 |
+
+Nota ao item 6.1.2. Assessoria de Prestação de Contas. Serviço contratado de pessoa jurídica, com atuação nos oito meses, que acompanha a execução financeira desde a primeira parcela e elabora a prestação de contas final.
+
+### 8.3 Consolidação por meta
+
+| meta | valor |
+|---|---|
+| Meta 1 — Estruturação e coordenação da execução | 192.000,00 |
+| Meta 2 — Gestão da fila | 256.000,00 |
+| Meta 3 — Registro da produção | 344.000,00 |
+| Meta 4 — Execução assistencial em ultrassonografia | 6.571.418,78 |
+| Meta 5 — Execução assistencial em tomografia computadorizada | 4.101.607,44 |
+| Meta 6 — Monitoramento, conclusão e prestação de contas | 127.640,00 |
+| VALOR GLOBAL | 11.592.666,22 |
+
+## 9. Interface com os sistemas da SES-DF
+
+### 9.1 SISREG e TrakCare
+
+Os usuários do projeto são inseridos na fila de regulação da SES-DF, e por isso há vinculação com o SISREG e com o TrakCare. O projeto não atende demanda espontânea e não capta demanda própria (subseção 4.4).
+
+SISREG. Sistema em que a solicitação é registrada, classificada e regulada, e em que a regulação da SES-DF ocupa as vagas da agenda liberada pelo proponente (subseção 4.5). A chave da solicitação é fechada no sistema de regulação após o registro do laudo (subseção 4.11) e nos casos de encerramento por falta ou por contato não completado (subseção 4.12).
+
+TrakCare. Prontuário eletrônico da SES-DF, no qual o proponente registra o laudo e os dados do atendimento e no qual a unidade solicitante consulta o resultado pelo CPF ou pelo Cartão Nacional de Saúde do usuário (subseção 4.11). O acesso do proponente aos sistemas oficiais, inclusive ao TrakCare, é habilitado no mês 1 (Meta 1, subseção 6.1).
+
+### 9.2 Registro da produção
+
+O registro é feito no polo, no mesmo dia do exame, pelo operador de registro de sistemas ali lotado. Os dados não transitam entre unidades antes de serem lançados.
+
+Cada exame realizado é registrado em Autorização de Procedimento Ambulatorial com o procedimento da Tabela de Procedimentos do SUS correspondente, na forma da subseção 2.2. O usuário é identificado pelo CPF, ou pelo Cartão Nacional de Saúde quando pertencente aos povos originários.
+
+Os registros rejeitados são criticados, têm a causa da rejeição apurada e são reapresentados. Registro rejeitado é produção executada e não comprovada: o exame foi feito, o laudo foi entregue e o proponente não pode apresentá-lo. A apuração da causa evita que o mesmo erro se repita no lote seguinte.
+
+### 9.3 Proteção dos dados dos usuários
+
+O tratamento dos dados pessoais e de saúde se restringe às finalidades de agendamento, execução, entrega do laudo, registro da produção e prestação de contas.
+
+A confirmação, a busca ativa e o registro do atendimento no TrakCare são realizados por meio corporativo, com registro de acesso e sem uso de aplicativo pessoal dos profissionais. Os perfis de acesso aos sistemas são atribuídos por posto de trabalho.
+
+Brasília/DF, ____ de ______________ de 2026.
+
+___________________________________________
+
+WBIRAJARA ROCHA DE SOUZA
+
+Diretor-Presidente
+
+Instituto de Saúde Humanidade e Pesquisa – ISHP
+
+CNPJ nº 17.517.805/0003-71
+
+CPF nº XXX.XXX.XXX-XX

@@ -1,0 +1,7 @@
+id: "Lei 7498 de 25_06_1986"
+arquivo: "Lei 7498 de 25_06_1986.pdf"
+sha256: "81ffb9fa6be2de9f6a0fa87ec24671fd7019c04580e051c101e86c4ce317f925"
+origem: "https://www.planalto.gov.br/ccivil_03/leis/l7498.htm"
+baixado_em: 2026-10-01
+ferramenta: "textutil + cupsfilter (HTML do Planalto -> texto -> PDF)"
+autorizado_por: "usuario, em 01/10/2026"

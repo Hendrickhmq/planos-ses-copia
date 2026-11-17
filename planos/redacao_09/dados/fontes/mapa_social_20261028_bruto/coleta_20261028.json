@@ -1,0 +1,3071 @@
+{
+ "metodo": "metodo/coleta/mapa_social.md (ramo plano-09-saude-mental-infantojuvenil)",
+ "tipo": "estudo de estruturação: demanda regulada dos ambulatórios de saúde mental infantojuvenil (COMPP e Adolescentro)",
+ "plano": "planos/redacao_09",
+ "app": "7edb02fa-f1f5-4ea6-b348-049a4ac2d095",
+ "titulo_app": "D-PDDC - MAPA DA SAÚDE - REGULAÇÃO (M)",
+ "painel": "https://paineis-ext.mpdft.mp.br/extensions/mapasauderegulamentacao/mapasauderegulamentacao.html",
+ "via": "Qlik Engine API pelo navegador embutido (require js/qlik, openApp, evaluateEx e hipercubos de sessão); sem leitura de tela e sem exportação",
+ "datas": {
+  "recarga_utc": "2026-10-28T11:33:57.238Z",
+  "recarga": "28/10/2026 08:33:57",
+  "consulta_inicio": "28/10/2026 10:13:20",
+  "consulta_fim": "28/10/2026 10:24:12",
+  "recarga_no_fim": "2026-10-28T11:33:57.238Z (a mesma: sem recarga no meio)",
+  "solicitacao_mais_recente": "27/10/2026",
+  "agendamento_mais_distante": "04/02/2027"
+ },
+ "filtro_fila": "status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}",
+ "filtro_devolvidas": "status_solicitacao_alias={'SOLICITAÇÃO DEVOLVIDA PARA COMPLEMENTAÇÃO PELO SOLICITANTE'}",
+ "medidas": {
+  "fila": "Count(Distinct {1<filtro_fila, descrição_procedimento_solicitacao={'<nome>'}>} contador_solicitacao)",
+  "pessoas": "Count(Distinct {1<filtro_fila, ...>} cns_usuario_solicitacao) — só a contagem sai do motor",
+  "devolvidas": "Count(Distinct {1<filtro_devolvidas, ...>} contador_solicitacao)",
+  "total": "Count(Distinct {1<...>} contador_solicitacao), todos os status da tabela de solicitações",
+  "espera": "Avg, Median e Max de tempo_espera_solicitacao no conjunto da fila, em dias",
+  "idade": "idade_solicitacao (idade na solicitação): {\"<=11\"}, {\">=12<=17\"}, {\">=18\"}",
+  "cid_F": "codigo_cid_solicitado={\"F*\"}",
+  "entrantes_abertas": "dimensão =Date(MonthStart(data_solicitacao),'YYYY-MM'), Count(Distinct {1<nome, Ano_Solicitacao={\">=2021\"}>} contador_solicitacao), todos os status",
+  "entrantes_agendadas": "dimensão =Date(MonthStart(data_agendamento - tempo_espera_agendamento),'YYYY-MM'), Count(Distinct {1<descrição_procedimento_agendamento={'<nome>'}, Ano_Agendamento={\">=2021\"}>} contador_agendamento)",
+  "oferta": "dimensão =Date(MonthStart(data_agendamento),'YYYY-MM'), mesma medida das agendadas",
+  "pessoas_em_duas_filas": "Sum(Aggr(If(Count({A})>0 and Count({B})>0,1,0), cns_usuario_solicitacao))",
+  "recorte": "todos os anos; cada fila fixa na expressão de conjunto {1<...>}, que ignora a seleção da tela"
+ },
+ "enquadramento": {
+  "objeto": "demanda regulada dos ambulatórios de saúde mental infantojuvenil da atenção secundária: COMPP (até 11 anos e 11 meses) e Adolescentro (12 a 17 anos e 11 meses), transtornos moderados, NT SEI-GDF nº 1/2018 - SES/SAIS/COASIS/DISSAM",
+  "sem_oci_sem_cid": "o objeto não é procedimento SIGTAP nem OCI: não há ficha nem lista de CID; o recorte é pelo nome da fila",
+  "nomes_internos": [
+   {
+    "nome_sisreg": "CONSULTA EM SAUDE MENTAL - PEDIATRIA",
+    "codigo_sigtap": "301010048",
+    "papel": "consulta de saúde mental infantil (até 11 anos)",
+    "decisao": "entra"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM SAUDE MENTAL - ADOLESCENTE",
+    "codigo_sigtap": "301010048",
+    "papel": "consulta de saúde mental do adolescente (12 a 17 anos)",
+    "decisao": "entra"
+   },
+   {
+    "nome_sisreg": "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)",
+    "codigo_sigtap": "301010048",
+    "papel": "fila genérica anterior: sem solicitação nova desde 27/11/2025 e sem agendamento desde 01/12/2025, quando as duas filas de saúde mental começaram a ser agendadas; 89% com CID F",
+    "decisao": "a decidir"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM NEUROLOGIA PEDIATRICA",
+    "codigo_sigtap": "301010072",
+    "papel": "consulta médica de neuropediatria",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM NEUROLOGIA - PEDIATRIA",
+    "codigo_sigtap": "301010072",
+    "papel": "variante residual de neuropediatria",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM PSIQUIATRIA - PEDIATRICA",
+    "codigo_sigtap": "301010072",
+    "papel": "psiquiatria pediátrica, residual",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM PSICOLOGIA - INFANTIL",
+    "codigo_sigtap": "301010048",
+    "papel": "psicologia infantil, fila extinta",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM PSICOLOGIA - PEDIATRICA",
+    "codigo_sigtap": "301010072",
+    "papel": "psicologia pediátrica, residual",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM PSICOLOGIA",
+    "codigo_sigtap": "301010048",
+    "papel": "psicologia, quase toda adulta",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "­ CONSULTA EM PSICOLOGIA",
+    "codigo_sigtap": "301010048",
+    "papel": "psicologia, nome com hífen discricionário U+00AD no início; quase toda adulta",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM PSIQUIATRIA - GERAL",
+    "codigo_sigtap": "301010072",
+    "papel": "psiquiatria adulta",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM PSIQUIATRIA - PERINATAL",
+    "codigo_sigtap": "301010072",
+    "papel": "psiquiatria perinatal",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM HEBIATRIA",
+    "codigo_sigtap": "301010072",
+    "papel": "hebiatria, fila sem pendentes",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM REABILITACAO INTELECTUAL - INFANTIL",
+    "codigo_sigtap": "301010048",
+    "papel": "reabilitação intelectual (CER/TEA)",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM REABILITACAO INTELECTUAL  - ADULTO",
+    "codigo_sigtap": "301010048",
+    "papel": "reabilitação intelectual adulta (nome com dois espaços)",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM FONOAUDIOLOGIA - LINGUAGEM",
+    "codigo_sigtap": "301010048",
+    "papel": "fonoaudiologia de linguagem",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM FONOAUDIOLOGIA INFANTIL",
+    "codigo_sigtap": "301010048",
+    "papel": "fonoaudiologia infantil",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM TERAPIA OCUPACIONAL - REABILITACAO INFANTIL",
+    "codigo_sigtap": "301010048",
+    "papel": "terapia ocupacional de reabilitação",
+    "decisao": "fica fora"
+   },
+   {
+    "nome_sisreg": "CONSULTA EM PEDIATRIA - ESTIMULACAO PRECOCE",
+    "codigo_sigtap": "301010064",
+    "papel": "estimulação precoce",
+    "decisao": "fica fora"
+   }
+  ],
+  "procura": "nomes de fila com PSIQ, PSICO, NEURO, MENTAL, COMPP, ADOLES, INFANT, JUVENIL, AUTIS, TEA, TDAH, CAPS, COMPORT, APRENDIZ, FONO, PEDIAT, HEBIAT, DESENVOLV, TERAPIA OCUP, ORIENTA entre as 1.577 combinações nome × código; unidades executantes COMPP e Adolescentro; todas as filas com CID F e idade < 18 na fila"
+ },
+ "unidades_executantes": {
+  "cols": [
+   "nome_unidade_executante",
+   "nome_unidade_executante_sisreg",
+   "regiao_saude_executante",
+   "agendadas_todos_os_anos"
+  ],
+  "linhas": [
+   [
+    "CRDF",
+    "COMPLEXO REGULADOR EM SAUDE DO DISTRITO FEDERAL CRDF",
+    "URD",
+    1199668
+   ],
+   [
+    "COMPP",
+    "CENTRO DE ORIENTACAO MEDICO PSICOPEDAGOGICO COMPP",
+    "Região Central",
+    3797
+   ],
+   [
+    "Adolescentro",
+    "ADOLESCENTRO BRASILIA",
+    "Região Central",
+    1591
+   ],
+   [
+    "CRETEA",
+    "CRETEA",
+    "Não Relacionado - Base SES",
+    179
+   ]
+  ],
+  "nota": "o campo de unidade executante só existe na tabela de agendamentos (a contagem de solicitações por executante é 0). CNES: CRDF 3044432, CRETEA 8060959 (codigo_unidade_executante)"
+ },
+ "agendadas_em_compp_e_adolescentro": {
+  "cols": [
+   "executante",
+   "fila",
+   "codigo",
+   "agendadas",
+   "primeira_data_agendamento_serial",
+   "ultima_data_agendamento_serial"
+  ],
+  "linhas": [
+   [
+    "COMPP",
+    "AUDIOMETRIA E IMITANCIOMETRIA – ATÉ 7 ANOS",
+    "211070033",
+    115,
+    42493,
+    43039
+   ],
+   [
+    "COMPP",
+    "CONSULTA EM NEUROLOGIA - ADULTO",
+    "301010072",
+    200,
+    43934,
+    45254
+   ],
+   [
+    "COMPP",
+    "CONSULTA EM GERIATRIA",
+    "301010072",
+    92,
+    43944,
+    44285
+   ],
+   [
+    "COMPP",
+    "ELETROENCEFALOGRAMA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+    "211050024",
+    135,
+    43648,
+    45035
+   ],
+   [
+    "COMPP",
+    "ELETROENCEFALOGRAMA /VIGILIA /SONO ESPONTANEO C/OU S/FOTOESTIMULO",
+    "211050040",
+    2607,
+    43648,
+    45272
+   ],
+   [
+    "COMPP",
+    "ELETROENCEFALOGRAFIA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+    "211050024",
+    648,
+    43648,
+    44987
+   ],
+   [
+    "Adolescentro",
+    "CONSULTA EM DERMATOLOGIA - GERAL",
+    "301010072",
+    1454,
+    43941,
+    44119
+   ],
+   [
+    "Adolescentro",
+    "CONSULTA EM UROLOGIA - GERAL",
+    "301010072",
+    125,
+    44106,
+    44131
+   ],
+   [
+    "Adolescentro",
+    "CONSULTA EM NEUROLOGIA PEDIATRICA",
+    "301010072",
+    12,
+    42598,
+    42612
+   ]
+  ]
+ },
+ "executante_das_filas_de_saude_mental": {
+  "cols": [
+   "fila",
+   "executante",
+   "agendadas",
+   "primeira_serial",
+   "ultima_serial",
+   "agendadas_desde_28_10_2025"
+  ],
+  "linhas": [
+   [
+    "CONSULTA EM SAUDE MENTAL - PEDIATRIA",
+    "CRDF",
+    867,
+    45992,
+    46342,
+    867
+   ],
+   [
+    "CONSULTA EM SAUDE MENTAL - PEDIATRIA",
+    "CRETEA",
+    57,
+    46006,
+    46330,
+    57
+   ],
+   [
+    "CONSULTA EM SAUDE MENTAL - ADOLESCENTE",
+    "CRDF",
+    2216,
+    45992,
+    46329,
+    2216
+   ],
+   [
+    "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)",
+    "CRDF",
+    13930,
+    44456,
+    45992,
+    273
+   ],
+   [
+    "CONSULTA EM PSICOLOGIA - INFANTIL",
+    "HRGu",
+    18,
+    43530,
+    43656,
+    0
+   ],
+   [
+    "CONSULTA EM PSICOLOGIA - INFANTIL",
+    "Policlínica I R. Fundo I",
+    15,
+    43838,
+    43845,
+    0
+   ],
+   [
+    "CONSULTA EM PSICOLOGIA - INFANTIL",
+    "Policlínica Guará I",
+    110,
+    44432,
+    44888,
+    0
+   ],
+   [
+    "CONSULTA EM HEBIATRIA",
+    "Policlínica Gama",
+    609,
+    43425,
+    44608,
+    0
+   ],
+   [
+    "CONSULTA EM SAUDE MENTAL DA MULHER",
+    "HMIB",
+    7,
+    44279,
+    44308,
+    0
+   ]
+  ]
+ },
+ "solicitante_compp_adolescentro": {
+  "fila_cols": [
+   "fila",
+   "unidade_solicitante",
+   "fila",
+   "todos_os_status"
+  ],
+  "fila": [
+   [
+    "CONSULTA EM SAUDE MENTAL - ADOLESCENTE",
+    "COMPP",
+    150,
+    158
+   ]
+  ],
+  "agendadas_cols": [
+   "fila",
+   "unidade_solicitante",
+   "agendadas"
+  ],
+  "agendadas": [
+   [
+    "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)",
+    "COMPP",
+    1642
+   ],
+   [
+    "CONSULTA EM SAUDE MENTAL - ADOLESCENTE",
+    "COMPP",
+    525
+   ]
+  ],
+  "unidades_solicitantes_distintas": {
+   "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)": 183,
+   "CONSULTA EM SAUDE MENTAL - ADOLESCENTE": 188,
+   "CONSULTA EM SAUDE MENTAL - PEDIATRIA": 171
+  }
+ },
+ "estudo": {
+  "cols": [
+   "nome",
+   "codigo",
+   "fila",
+   "pessoas",
+   "devolvidas",
+   "total",
+   "espera_media",
+   "espera_mediana",
+   "espera_max",
+   "pedido_mais_antigo_na_fila_serial",
+   "primeira_solicitacao_serial",
+   "ultima_solicitacao_serial",
+   "fila_0_11",
+   "fila_12_17",
+   "fila_18_mais",
+   "fila_cid_F",
+   "pessoas_0_11",
+   "pessoas_12_17",
+   "devolvidas_menor_18",
+   "espera_media_menor_18",
+   "espera_mediana_menor_18",
+   "espera_max_menor_18",
+   "pessoas_menor_18",
+   "fila_menor_18"
+  ],
+  "linhas": [
+   [
+    "CONSULTA EM SAUDE MENTAL - PEDIATRIA",
+    "301010048",
+    1503,
+    1503,
+    507,
+    2010,
+    224.8053866654439,
+    181.67327385416866,
+    1596.8444068287063,
+    44726,
+    44726,
+    46322,
+    1503,
+    0,
+    0,
+    1355,
+    1503,
+    0,
+    507,
+    224.80538666544393,
+    181.67327385416866,
+    1596.8444068287063,
+    1503,
+    1503
+   ],
+   [
+    "CONSULTA EM SAUDE MENTAL - ADOLESCENTE",
+    "301010048",
+    2874,
+    2870,
+    191,
+    3065,
+    286.0504441978976,
+    199.07640295139208,
+    1294.8406609027807,
+    45028,
+    45022,
+    46322,
+    869,
+    1959,
+    46,
+    2576,
+    867,
+    1957,
+    188,
+    286.3654270280087,
+    196.93183640046482,
+    1294.8406609027807,
+    2824,
+    2828
+   ],
+   [
+    "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)",
+    "301010048",
+    2209,
+    2209,
+    1667,
+    3876,
+    694.0790030350097,
+    638.7749305902798,
+    1825.9104803935188,
+    44497,
+    44467,
+    45988,
+    1190,
+    649,
+    370,
+    1960,
+    1190,
+    649,
+    1555,
+    665.3637999667965,
+    566.6797284837958,
+    1825.9104803935188,
+    1839,
+    1839
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA PEDIATRICA",
+    "301010072",
+    6203,
+    6203,
+    3743,
+    9946,
+    329.6472953351604,
+    318.2407470023172,
+    896.828956944446,
+    45426,
+    43262,
+    46322,
+    4854,
+    1301,
+    48,
+    4217,
+    4854,
+    1301,
+    3509,
+    327.8977497967835,
+    314.97586175347533,
+    896.828956944446,
+    6155,
+    6155
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA - PEDIATRIA",
+    "301010072",
+    6,
+    6,
+    2,
+    8,
+    988.1303044386586,
+    978.6704949305567,
+    1489.7092330324085,
+    44833,
+    44833,
+    46066,
+    6,
+    0,
+    0,
+    6,
+    6,
+    0,
+    2,
+    988.1303044386586,
+    978.6704949305567,
+    1489.7092330324085,
+    6,
+    6
+   ],
+   [
+    "CONSULTA EM PSIQUIATRIA - PEDIATRICA",
+    "301010072",
+    1,
+    1,
+    0,
+    1,
+    798.8614923148198,
+    798.8614923148198,
+    798.8614923148198,
+    45524,
+    45524,
+    45524,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    798.8614923148198,
+    798.8614923148198,
+    798.8614923148198,
+    1,
+    1
+   ],
+   [
+    "CONSULTA EM PSICOLOGIA - INFANTIL",
+    "301010048",
+    1,
+    1,
+    319,
+    320,
+    2790.5899482407403,
+    2790.5899482407403,
+    2790.5899482407403,
+    43532,
+    43521,
+    44839,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    229,
+    2790.5899482407403,
+    2790.5899482407403,
+    2790.5899482407403,
+    1,
+    1
+   ],
+   [
+    "CONSULTA EM PSICOLOGIA - PEDIATRICA",
+    "301010072",
+    1,
+    1,
+    0,
+    1,
+    1643.8864860185204,
+    1643.8864860185204,
+    1643.8864860185204,
+    44679,
+    44679,
+    44679,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1643.8864860185204,
+    1643.8864860185204,
+    1643.8864860185204,
+    1,
+    1
+   ],
+   [
+    "CONSULTA EM PSICOLOGIA",
+    "301010048",
+    2463,
+    2463,
+    198,
+    2661,
+    920.587633533383,
+    936.583790023149,
+    2393.6603542939847,
+    43929,
+    43929,
+    46322,
+    0,
+    37,
+    2426,
+    2125,
+    0,
+    37,
+    17,
+    249.50669933120798,
+    175.71838434028177,
+    642.7211649189849,
+    37,
+    37
+   ],
+   [
+    "­ CONSULTA EM PSICOLOGIA",
+    "301010048",
+    3427,
+    3427,
+    869,
+    4296,
+    1119.5318535302426,
+    1149.731062361112,
+    2393.6669319097273,
+    43929,
+    43929,
+    46317,
+    3,
+    0,
+    3424,
+    3070,
+    3,
+    0,
+    257,
+    13.370066917438331,
+    14.577964560186956,
+    18.850867546294467,
+    3,
+    3
+   ],
+   [
+    "CONSULTA EM PSIQUIATRIA - GERAL",
+    "301010072",
+    12147,
+    12131,
+    8954,
+    21101,
+    809.9610986623509,
+    621.8040094444441,
+    2932.9397287963,
+    43390,
+    43364,
+    46322,
+    0,
+    1,
+    12146,
+    11118,
+    0,
+    1,
+    2,
+    1075.89663959491,
+    1075.89663959491,
+    1075.89663959491,
+    1,
+    1
+   ],
+   [
+    "CONSULTA EM PSIQUIATRIA - PERINATAL",
+    "301010072",
+    971,
+    971,
+    163,
+    1134,
+    234.09154163729244,
+    235.9361788773167,
+    475.5722109374983,
+    45847,
+    44351,
+    46322,
+    0,
+    27,
+    944,
+    683,
+    0,
+    27,
+    10,
+    232.24048466135315,
+    266.56284560185304,
+    474.01112575231673,
+    27,
+    27
+   ],
+   [
+    "CONSULTA EM HEBIATRIA",
+    "301010072",
+    0,
+    0,
+    10,
+    10,
+    null,
+    null,
+    null,
+    null,
+    44279,
+    44592,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    null,
+    null,
+    null,
+    0,
+    0
+   ],
+   [
+    "CONSULTA EM REABILITACAO INTELECTUAL - INFANTIL",
+    "301010048",
+    15082,
+    14932,
+    778,
+    15860,
+    555.8016018230439,
+    547.9848500347216,
+    1362.6014702893517,
+    44960,
+    44960,
+    46322,
+    13143,
+    1938,
+    1,
+    14097,
+    13007,
+    1924,
+    778,
+    555.8375017482246,
+    547.9864371296317,
+    1362.6014702893517,
+    14931,
+    15081
+   ],
+   [
+    "CONSULTA EM REABILITACAO INTELECTUAL  - ADULTO",
+    "301010048",
+    2587,
+    2580,
+    143,
+    2730,
+    430.20539484130217,
+    411.67272890046297,
+    1685.9157873842632,
+    44637,
+    44637,
+    46322,
+    0,
+    1111,
+    1476,
+    2280,
+    0,
+    1104,
+    45,
+    477.5916957070824,
+    473.69405991898384,
+    1685.9157873842632,
+    1104,
+    1111
+   ],
+   [
+    "CONSULTA EM FONOAUDIOLOGIA - LINGUAGEM",
+    "301010048",
+    10684,
+    10682,
+    1308,
+    11992,
+    556.7323946595133,
+    498.8905045370411,
+    1771.6389288541686,
+    44551,
+    44551,
+    46322,
+    8847,
+    1600,
+    237,
+    9078,
+    8847,
+    1600,
+    1108,
+    560.6127955674649,
+    505.6165955555589,
+    1771.6389288541686,
+    10447,
+    10447
+   ],
+   [
+    "CONSULTA EM FONOAUDIOLOGIA INFANTIL",
+    "301010048",
+    1059,
+    1059,
+    168,
+    1227,
+    478.2342501967939,
+    442.96445758102345,
+    1302.8969800462946,
+    45020,
+    44142,
+    46322,
+    1059,
+    0,
+    0,
+    914,
+    1059,
+    0,
+    165,
+    478.2342501967937,
+    442.96445758102345,
+    1302.8969800462946,
+    1059,
+    1059
+   ],
+   [
+    "CONSULTA EM TERAPIA OCUPACIONAL - REABILITACAO INFANTIL",
+    "301010048",
+    966,
+    966,
+    102,
+    1068,
+    719.7966401518407,
+    799.5948599421317,
+    1538.993085381946,
+    44784,
+    44231,
+    46321,
+    876,
+    90,
+    0,
+    805,
+    876,
+    90,
+    102,
+    719.7966401518407,
+    799.5948599421317,
+    1538.993085381946,
+    966,
+    966
+   ],
+   [
+    "CONSULTA EM PEDIATRIA - ESTIMULACAO PRECOCE",
+    "301010064",
+    114,
+    114,
+    23,
+    137,
+    402.0215858650113,
+    258.69839200231945,
+    1568.6838509606532,
+    44754,
+    44228,
+    46314,
+    114,
+    0,
+    0,
+    37,
+    114,
+    0,
+    23,
+    402.0215858650113,
+    258.69839200231945,
+    1568.6838509606532,
+    114,
+    114
+   ]
+  ]
+ },
+ "varredura_cid_F_menor_18": {
+  "cols": [
+   "fila",
+   "fila_cid_F_menor_18",
+   "fila_menor_18",
+   "fila",
+   "todos_status_cid_F_menor_18"
+  ],
+  "nota": "todas as filas da base, com fila_cid_F_menor_18 >= 5",
+  "linhas": [
+   [
+    "CONSULTA EM REABILITACAO INTELECTUAL - INFANTIL",
+    14096,
+    15081,
+    15082,
+    14791
+   ],
+   [
+    "CONSULTA EM FONOAUDIOLOGIA - LINGUAGEM",
+    8959,
+    10447,
+    10684,
+    9861
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA PEDIATRICA",
+    4189,
+    6155,
+    6203,
+    6484
+   ],
+   [
+    "CONSULTA EM SAUDE MENTAL - ADOLESCENTE",
+    2533,
+    2828,
+    2874,
+    2705
+   ],
+   [
+    "AUDIOMETRIA E IMITANCIOMETRIA – ATÉ 7 ANOS",
+    2232,
+    3519,
+    3519,
+    3460
+   ],
+   [
+    "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)",
+    1621,
+    1839,
+    2209,
+    2885
+   ],
+   [
+    "CONSULTA EM SAUDE MENTAL - PEDIATRIA",
+    1355,
+    1503,
+    1503,
+    1828
+   ],
+   [
+    "CONSULTA EM PEDIATRIA",
+    1067,
+    2144,
+    2145,
+    1567
+   ],
+   [
+    "CONSULTA EM REABILITACAO INTELECTUAL  - ADULTO",
+    1033,
+    1111,
+    2587,
+    1071
+   ],
+   [
+    "POTENCIAL EVOCADO AUDITIVO BERA – ACIMA DE 5 ANOS",
+    981,
+    1465,
+    2343,
+    1470
+   ],
+   [
+    "CONSULTA EM FONOAUDIOLOGIA INFANTIL",
+    914,
+    1059,
+    1059,
+    1036
+   ],
+   [
+    "CONSULTA EM TERAPIA OCUPACIONAL - REABILITACAO INFANTIL",
+    805,
+    966,
+    966,
+    886
+   ],
+   [
+    "CONSULTA EM GENETICA",
+    788,
+    2765,
+    3862,
+    801
+   ],
+   [
+    "POTENCIAL EVOCADO AUDITIVO BERA – ATÉ 4 ANOS",
+    782,
+    2298,
+    2298,
+    1696
+   ],
+   [
+    "AUDIOMETRIA E IMITANCIOMETRIA – 8 A 64 ANOS",
+    332,
+    802,
+    3103,
+    382
+   ],
+   [
+    "ELETROENCEFALOGRAMA /VIGILIA /SONO ESPONTANEO C/OU S/FOTOESTIMULO",
+    287,
+    1779,
+    2382,
+    325
+   ],
+   [
+    "TESTES DE PROCESSAMENTO AUDITIVO",
+    271,
+    406,
+    493,
+    740
+   ],
+   [
+    "ELETROCARDIOGRAMA",
+    262,
+    937,
+    20304,
+    283
+   ],
+   [
+    "CONSULTA EM NUTRIÇÃO",
+    186,
+    959,
+    5125,
+    274
+   ],
+   [
+    "CONSULTA EM REABILITACAO FISICA - INFANTIL",
+    162,
+    520,
+    520,
+    280
+   ],
+   [
+    "CONSULTA EM OFTALMOLOGIA - 0 A 15 ANOS",
+    138,
+    2204,
+    2210,
+    148
+   ],
+   [
+    "ELETROENCEFALOGRAMA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+    133,
+    490,
+    496,
+    147
+   ],
+   [
+    "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL",
+    112,
+    1826,
+    5448,
+    157
+   ],
+   [
+    "CONSULTA  EM NEFROLOGIA - PEDIATRIA",
+    103,
+    761,
+    765,
+    250
+   ],
+   [
+    "CONSULTA EM FISIOTERAPIA NEUROLOGICA - INFANTIL",
+    60,
+    297,
+    297,
+    176
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA - ADULTO",
+    53,
+    114,
+    9011,
+    125
+   ],
+   [
+    "CONSULTA EM PEDIATRIA - ESTIMULACAO PRECOCE",
+    37,
+    114,
+    114,
+    49
+   ],
+   [
+    "CONSULTA  EM CARDIOLOGIA - PEDIATRIA",
+    36,
+    1784,
+    1813,
+    46
+   ],
+   [
+    "CONSULTA EM PSICOLOGIA",
+    28,
+    37,
+    2463,
+    44
+   ],
+   [
+    "03.01.01.0153    CONSULTA EM ODONTOLOGIA - ATENDIMENTO A PESSOA COM DEFICIÊNCIA",
+    26,
+    301,
+    643,
+    42
+   ],
+   [
+    "VIDEOENDOSCOPIA  NASAL  FLEXIVEL",
+    22,
+    3716,
+    3716,
+    22
+   ],
+   [
+    "CONSULTA EM GASTROENTEROLOGIA - PEDIATRIA",
+    19,
+    1694,
+    1694,
+    30
+   ],
+   [
+    "CONSULTA  EM ORTOPEDIA - PEDIATRIA",
+    15,
+    2340,
+    2340,
+    18
+   ],
+   [
+    "CONSULTA EM PSIQUIATRIA - PERINATAL",
+    12,
+    27,
+    971,
+    21
+   ],
+   [
+    "CONSULTA EM ODONTOLOGIA -  DISTÚRBIO TEMPOROMANDIBULAR",
+    10,
+    220,
+    2596,
+    10
+   ],
+   [
+    "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+    8,
+    1324,
+    1324,
+    55
+   ],
+   [
+    "ELETROENCEFALOGRAFIA EM VIGILIA C/OU S/FOTO-ESTIMULO",
+    8,
+    47,
+    604,
+    10
+   ],
+   [
+    "CONSULTA EM ALERGOLOGIA - INFANTIL",
+    7,
+    1674,
+    1674,
+    10
+   ],
+   [
+    "CONSULTA EM ENDOCRINOLOGIA - PEDIATRIA",
+    7,
+    443,
+    443,
+    47
+   ],
+   [
+    "CONSULTA EM FISIOTERAPIA/REABILITACAO ORTOPEDICA/REUMATOLOGICA",
+    6,
+    343,
+    24157,
+    19
+   ],
+   [
+    "CONSULTA EM NEUROLOGIA - PEDIATRIA",
+    6,
+    6,
+    6,
+    8
+   ],
+   [
+    "CONSULTA EM DERMATOLOGIA - GERAL",
+    6,
+    2404,
+    23344,
+    7
+   ],
+   [
+    "CONSULTA EM DERMATOLOGIA - PEDIATRIA",
+    6,
+    2172,
+    2180,
+    8
+   ],
+   [
+    "CONSULTA EM CIRURGIA PEDIATRICA - GERAL",
+    6,
+    3152,
+    3152,
+    41
+   ],
+   [
+    "ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) INFANTIL",
+    6,
+    216,
+    296,
+    7
+   ],
+   [
+    "CONSULTA EM SERVIÇO SOCIAL",
+    6,
+    17,
+    77,
+    6
+   ],
+   [
+    "CONSULTA EM ODONTOLOGIA - PEDIATRIA",
+    5,
+    2591,
+    2591,
+    34
+   ],
+   [
+    "CONSULTA EM TERAPIA OCUPACIONAL",
+    5,
+    5,
+    8,
+    68
+   ],
+   [
+    "CONSULTA EM UROLOGIA - GERAL",
+    5,
+    385,
+    14478,
+    5
+   ],
+   [
+    "POLISSONOGRAFIA NOTURNA BASAL",
+    5,
+    74,
+    8520,
+    5
+   ]
+  ]
+ },
+ "regiao": {
+  "cols": [
+   "regiao_saude_solicitante",
+   "fila",
+   "pessoas",
+   "espera_mediana",
+   "devolvidas"
+  ],
+  "nota": "null = sem Região de Saúde; URD = unidade de referência distrital",
+  "CONSULTA EM SAUDE MENTAL - PEDIATRIA": [
+   [
+    "Região Central",
+    36,
+    36,
+    227.35427873264052,
+    8
+   ],
+   [
+    "Região Centro-Sul",
+    133,
+    133,
+    217.82402385416935,
+    23
+   ],
+   [
+    "Região Leste",
+    175,
+    175,
+    181.82022954861168,
+    122
+   ],
+   [
+    "Região Norte",
+    273,
+    273,
+    194.93220853009552,
+    49
+   ],
+   [
+    "Região Oeste",
+    370,
+    370,
+    157.2719539814825,
+    171
+   ],
+   [
+    "Região Sudoeste",
+    349,
+    349,
+    167.94368373842735,
+    78
+   ],
+   [
+    "Região Sul",
+    134,
+    134,
+    198.6264950173645,
+    37
+   ],
+   [
+    "URD",
+    5,
+    5,
+    512.6648093865733,
+    15
+   ],
+   [
+    "Contratado/Credenciado",
+    0,
+    0,
+    null,
+    1
+   ],
+   [
+    null,
+    28,
+    28,
+    145.97155682870653,
+    3
+   ]
+  ],
+  "CONSULTA EM SAUDE MENTAL - ADOLESCENTE": [
+   [
+    "Região Central",
+    278,
+    278,
+    178.95674135416994,
+    18
+   ],
+   [
+    "Região Centro-Sul",
+    263,
+    262,
+    221.94280940972385,
+    4
+   ],
+   [
+    "Região Leste",
+    442,
+    442,
+    216.78216728009647,
+    33
+   ],
+   [
+    "Região Norte",
+    454,
+    452,
+    244.73395421875102,
+    14
+   ],
+   [
+    "Região Oeste",
+    513,
+    513,
+    173.85814305555687,
+    50
+   ],
+   [
+    "Região Sudoeste",
+    572,
+    572,
+    223.78869343171755,
+    39
+   ],
+   [
+    "Região Sul",
+    290,
+    289,
+    187.67794668403076,
+    12
+   ],
+   [
+    "URD",
+    18,
+    18,
+    763.6497761053251,
+    18
+   ],
+   [
+    "Contratado/Credenciado",
+    1,
+    1,
+    747.6692819212985,
+    0
+   ],
+   [
+    null,
+    43,
+    43,
+    168.69015533565107,
+    3
+   ]
+  ],
+  "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)": [
+   [
+    "Região Central",
+    33,
+    33,
+    793.0228598726862,
+    18
+   ],
+   [
+    "Região Centro-Sul",
+    352,
+    352,
+    696.3027928819465,
+    253
+   ],
+   [
+    "Região Leste",
+    336,
+    336,
+    710.3097821180563,
+    82
+   ],
+   [
+    "Região Norte",
+    229,
+    229,
+    594.8203705787018,
+    477
+   ],
+   [
+    "Região Oeste",
+    342,
+    342,
+    438.83178344907355,
+    138
+   ],
+   [
+    "Região Sudoeste",
+    513,
+    513,
+    650.8769476851885,
+    207
+   ],
+   [
+    "Região Sul",
+    325,
+    325,
+    691.9753623842626,
+    309
+   ],
+   [
+    "URD",
+    55,
+    55,
+    529.9531032754676,
+    155
+   ],
+   [
+    "Contratado/Credenciado",
+    4,
+    4,
+    750.7255693576408,
+    5
+   ],
+   [
+    "Serviços Centralizados",
+    0,
+    0,
+    null,
+    1
+   ],
+   [
+    null,
+    20,
+    20,
+    430.7862909375035,
+    22
+   ]
+  ],
+  "uniao_saude_mental_cols": [
+   "regiao_saude_solicitante",
+   "fila",
+   "pessoas"
+  ],
+  "uniao_saude_mental": [
+   [
+    "Região Central",
+    314,
+    314
+   ],
+   [
+    "Região Centro-Sul",
+    396,
+    395
+   ],
+   [
+    "Região Leste",
+    617,
+    617
+   ],
+   [
+    "Região Norte",
+    727,
+    725
+   ],
+   [
+    "Região Oeste",
+    883,
+    883
+   ],
+   [
+    "Região Sudoeste",
+    921,
+    921
+   ],
+   [
+    "Região Sul",
+    424,
+    423
+   ],
+   [
+    "URD",
+    23,
+    23
+   ],
+   [
+    "Contratado/Credenciado",
+    1,
+    1
+   ],
+   [
+    null,
+    71,
+    71
+   ]
+  ]
+ },
+ "cid_principais": {
+  "cols": [
+   "codigo_cid_solicitado",
+   "descricao_cid_solicitado",
+   "fila"
+  ],
+  "CONSULTA EM SAUDE MENTAL - PEDIATRIA": [
+   [
+    "F84",
+    "TRANSTORNOS GLOBAIS DO DESENVOLVIMENTO",
+    320
+   ],
+   [
+    "F840",
+    "AUTISMO INFANTIL",
+    219
+   ],
+   [
+    "F90",
+    "TRANSTORNOS HIPERCINETICOS",
+    151
+   ],
+   [
+    "F900",
+    "DISTURBIOS DA ATIVIDADE E DA ATENCAO",
+    149
+   ],
+   [
+    "F913",
+    "DISTURBIO DESAFIADOR E DE OPOSICAO",
+    57
+   ],
+   [
+    "F81",
+    "TRANSTORNOS ESPECIFICOS DO DESENVOLVIMENTO DAS HABILIDADES ESCOLARES",
+    41
+   ],
+   [
+    "F98",
+    "OUTROS TRANSTORNOS COMPORTAMENTAIS E EMOCIONAIS COM INICIO HABITUALMENTE DURANTE A INFANCIA OU A ADOLESCENCIA",
+    38
+   ],
+   [
+    "F41",
+    "OUTROS TRANSTORNOS ANSIOSOS",
+    36
+   ],
+   [
+    "F848",
+    "OUTROS TRANSTORNOS GLOBAIS DO DESENVOLVIMENTO",
+    34
+   ],
+   [
+    "F91",
+    "DISTURBIOS DE CONDUTA",
+    33
+   ],
+   [
+    "F80",
+    "TRANSTORNOS ESPECIFICOS DO DESENVOLVIMENTO DA FALA E DA LINGUAGEM",
+    28
+   ],
+   [
+    "F849",
+    "TRANSTORNOS GLOBAIS NAO ESPECIFICADOS DO DESENVOLVIMENTO",
+    24
+   ],
+   [
+    "R451",
+    "AGITACAO E INQUIETACAO",
+    19
+   ],
+   [
+    "R463",
+    "HIPERATIVIDADE",
+    17
+   ],
+   [
+    "F88",
+    "OUTROS TRANSTORNOS DO DESENVOLVIMENTO PSICOLOGICO",
+    16
+   ]
+  ],
+  "CONSULTA EM SAUDE MENTAL - ADOLESCENTE": [
+   [
+    "F84",
+    "TRANSTORNOS GLOBAIS DO DESENVOLVIMENTO",
+    340
+   ],
+   [
+    "F900",
+    "DISTURBIOS DA ATIVIDADE E DA ATENCAO",
+    292
+   ],
+   [
+    "F90",
+    "TRANSTORNOS HIPERCINETICOS",
+    275
+   ],
+   [
+    "F840",
+    "AUTISMO INFANTIL",
+    177
+   ],
+   [
+    "F41",
+    "OUTROS TRANSTORNOS ANSIOSOS",
+    176
+   ],
+   [
+    "F411",
+    "ANSIEDADE GENERALIZADA",
+    118
+   ],
+   [
+    "F98",
+    "OUTROS TRANSTORNOS COMPORTAMENTAIS E EMOCIONAIS COM INICIO HABITUALMENTE DURANTE A INFANCIA OU A ADOLESCENCIA",
+    105
+   ],
+   [
+    "F32",
+    "EPISODIOS DEPRESSIVOS",
+    99
+   ],
+   [
+    "F81",
+    "TRANSTORNOS ESPECIFICOS DO DESENVOLVIMENTO DAS HABILIDADES ESCOLARES",
+    72
+   ],
+   [
+    "F913",
+    "DISTURBIO DESAFIADOR E DE OPOSICAO",
+    63
+   ],
+   [
+    "F412",
+    "TRANSTORNO MISTO ANSIOSO E DEPRESSIVO",
+    50
+   ],
+   [
+    "F91",
+    "DISTURBIOS DE CONDUTA",
+    46
+   ],
+   [
+    "F849",
+    "TRANSTORNOS GLOBAIS NAO ESPECIFICADOS DO DESENVOLVIMENTO",
+    30
+   ],
+   [
+    "F988",
+    "OUTROS TRANSTORNOS COMPORTAMENTAIS E EMOCIONAIS ESPECIFICADOS COM INICIO HABITUALMENTE NA INFANCIA OU ADOLESCENCIA",
+    30
+   ],
+   [
+    "F419",
+    "TRANSTORNO ANSIOSO NAO ESPECIFICADO",
+    27
+   ]
+  ],
+  "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)": [
+   [
+    "F84",
+    "TRANSTORNOS GLOBAIS DO DESENVOLVIMENTO",
+    328
+   ],
+   [
+    "F90",
+    "TRANSTORNOS HIPERCINETICOS",
+    257
+   ],
+   [
+    "F840",
+    "AUTISMO INFANTIL",
+    190
+   ],
+   [
+    "F900",
+    "DISTURBIOS DA ATIVIDADE E DA ATENCAO",
+    181
+   ],
+   [
+    "F81",
+    "TRANSTORNOS ESPECIFICOS DO DESENVOLVIMENTO DAS HABILIDADES ESCOLARES",
+    128
+   ],
+   [
+    "F41",
+    "OUTROS TRANSTORNOS ANSIOSOS",
+    103
+   ],
+   [
+    "F80",
+    "TRANSTORNOS ESPECIFICOS DO DESENVOLVIMENTO DA FALA E DA LINGUAGEM",
+    71
+   ],
+   [
+    "F411",
+    "ANSIEDADE GENERALIZADA",
+    61
+   ],
+   [
+    "F91",
+    "DISTURBIOS DE CONDUTA",
+    53
+   ],
+   [
+    "F32",
+    "EPISODIOS DEPRESSIVOS",
+    45
+   ],
+   [
+    "F98",
+    "OUTROS TRANSTORNOS COMPORTAMENTAIS E EMOCIONAIS COM INICIO HABITUALMENTE DURANTE A INFANCIA OU A ADOLESCENCIA",
+    44
+   ],
+   [
+    "F913",
+    "DISTURBIO DESAFIADOR E DE OPOSICAO",
+    32
+   ],
+   [
+    "F412",
+    "TRANSTORNO MISTO ANSIOSO E DEPRESSIVO",
+    23
+   ],
+   [
+    "F819",
+    "TRANSTORNO NAO ESPECIFICADO DO DESENVOLVIMENTO DAS HABILIDADES ESCOLARES",
+    21
+   ],
+   [
+    "F70",
+    "RETARDO MENTAL LEVE",
+    20
+   ]
+  ]
+ },
+ "uniao": {
+  "cols": [
+   "fila",
+   "pessoas",
+   "devolvidas",
+   "espera_media",
+   "espera_mediana",
+   "espera_max",
+   "pessoas_0_11",
+   "pessoas_12_17",
+   "pessoas_18_mais",
+   "fila_0_11",
+   "fila_12_17",
+   "fila_18_mais"
+  ],
+  "saude_mental_ped_mais_ado": [
+   4377,
+   4373,
+   698,
+   265.0293614230005,
+   193.73252569444594,
+   1596.8444068287063,
+   2370,
+   1957,
+   46,
+   2372,
+   1959,
+   46
+  ],
+  "saude_mental_mais_nivel_superior": [
+   6586,
+   6492,
+   2365,
+   409.626560851968,
+   337.90895812500094,
+   1825.9104803935188,
+   3519,
+   2560,
+   413,
+   3562,
+   2608,
+   416
+  ],
+  "pessoas_em_ped_e_ado": 0,
+  "pessoas_em_saude_mental_e_nivel_superior": 90
+ },
+ "series": {
+  "cols": [
+   "mes",
+   "CONSULTA EM SAUDE MENTAL - PEDIATRIA",
+   "CONSULTA EM SAUDE MENTAL - ADOLESCENTE",
+   "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)"
+  ],
+  "abertas_por_mes_da_solicitacao": [
+   [
+    "2021-09",
+    0,
+    0,
+    1
+   ],
+   [
+    "2021-10",
+    0,
+    0,
+    6
+   ],
+   [
+    "2021-11",
+    0,
+    0,
+    9
+   ],
+   [
+    "2021-12",
+    0,
+    0,
+    7
+   ],
+   [
+    "2022-01",
+    0,
+    0,
+    13
+   ],
+   [
+    "2022-02",
+    0,
+    0,
+    16
+   ],
+   [
+    "2022-03",
+    0,
+    0,
+    12
+   ],
+   [
+    "2022-04",
+    0,
+    0,
+    36
+   ],
+   [
+    "2022-05",
+    0,
+    0,
+    31
+   ],
+   [
+    "2022-06",
+    1,
+    0,
+    29
+   ],
+   [
+    "2022-07",
+    0,
+    0,
+    15
+   ],
+   [
+    "2022-08",
+    0,
+    0,
+    14
+   ],
+   [
+    "2022-09",
+    0,
+    0,
+    13
+   ],
+   [
+    "2022-10",
+    0,
+    0,
+    19
+   ],
+   [
+    "2022-11",
+    0,
+    0,
+    14
+   ],
+   [
+    "2022-12",
+    0,
+    0,
+    27
+   ],
+   [
+    "2023-01",
+    0,
+    0,
+    37
+   ],
+   [
+    "2023-02",
+    0,
+    0,
+    32
+   ],
+   [
+    "2023-03",
+    0,
+    0,
+    69
+   ],
+   [
+    "2023-04",
+    1,
+    3,
+    66
+   ],
+   [
+    "2023-05",
+    0,
+    3,
+    53
+   ],
+   [
+    "2023-06",
+    0,
+    1,
+    67
+   ],
+   [
+    "2023-07",
+    1,
+    2,
+    57
+   ],
+   [
+    "2023-08",
+    0,
+    0,
+    90
+   ],
+   [
+    "2023-09",
+    0,
+    0,
+    99
+   ],
+   [
+    "2023-10",
+    2,
+    3,
+    102
+   ],
+   [
+    "2023-11",
+    0,
+    1,
+    121
+   ],
+   [
+    "2023-12",
+    5,
+    8,
+    83
+   ],
+   [
+    "2024-01",
+    6,
+    30,
+    84
+   ],
+   [
+    "2024-02",
+    3,
+    10,
+    79
+   ],
+   [
+    "2024-03",
+    5,
+    29,
+    62
+   ],
+   [
+    "2024-04",
+    3,
+    27,
+    66
+   ],
+   [
+    "2024-05",
+    7,
+    20,
+    85
+   ],
+   [
+    "2024-06",
+    7,
+    24,
+    91
+   ],
+   [
+    "2024-07",
+    5,
+    29,
+    107
+   ],
+   [
+    "2024-08",
+    5,
+    39,
+    145
+   ],
+   [
+    "2024-09",
+    1,
+    15,
+    66
+   ],
+   [
+    "2024-10",
+    6,
+    22,
+    124
+   ],
+   [
+    "2024-11",
+    4,
+    28,
+    96
+   ],
+   [
+    "2024-12",
+    3,
+    21,
+    103
+   ],
+   [
+    "2025-01",
+    15,
+    32,
+    98
+   ],
+   [
+    "2025-02",
+    15,
+    29,
+    94
+   ],
+   [
+    "2025-03",
+    11,
+    25,
+    57
+   ],
+   [
+    "2025-04",
+    30,
+    59,
+    86
+   ],
+   [
+    "2025-05",
+    29,
+    40,
+    100
+   ],
+   [
+    "2025-06",
+    35,
+    72,
+    95
+   ],
+   [
+    "2025-07",
+    24,
+    64,
+    105
+   ],
+   [
+    "2025-08",
+    31,
+    81,
+    126
+   ],
+   [
+    "2025-09",
+    39,
+    63,
+    218
+   ],
+   [
+    "2025-10",
+    19,
+    52,
+    368
+   ],
+   [
+    "2025-11",
+    19,
+    52,
+    283
+   ],
+   [
+    "2025-12",
+    82,
+    118,
+    0
+   ],
+   [
+    "2026-01",
+    148,
+    169,
+    0
+   ],
+   [
+    "2026-02",
+    111,
+    118,
+    0
+   ],
+   [
+    "2026-03",
+    145,
+    174,
+    0
+   ],
+   [
+    "2026-04",
+    104,
+    189,
+    0
+   ],
+   [
+    "2026-05",
+    134,
+    200,
+    0
+   ],
+   [
+    "2026-06",
+    170,
+    185,
+    0
+   ],
+   [
+    "2026-07",
+    201,
+    240,
+    0
+   ],
+   [
+    "2026-08",
+    192,
+    288,
+    0
+   ],
+   [
+    "2026-09",
+    229,
+    286,
+    0
+   ],
+   [
+    "2026-10",
+    162,
+    214,
+    0
+   ]
+  ],
+  "agendadas_por_mes_da_solicitacao": [
+   [
+    "2021-09",
+    0,
+    0,
+    1573
+   ],
+   [
+    "2021-10",
+    0,
+    0,
+    275
+   ],
+   [
+    "2021-11",
+    0,
+    1,
+    391
+   ],
+   [
+    "2021-12",
+    0,
+    0,
+    324
+   ],
+   [
+    "2022-01",
+    0,
+    0,
+    301
+   ],
+   [
+    "2022-02",
+    0,
+    0,
+    342
+   ],
+   [
+    "2022-03",
+    0,
+    1,
+    527
+   ],
+   [
+    "2022-04",
+    0,
+    1,
+    450
+   ],
+   [
+    "2022-05",
+    0,
+    0,
+    686
+   ],
+   [
+    "2022-06",
+    0,
+    1,
+    511
+   ],
+   [
+    "2022-07",
+    0,
+    0,
+    545
+   ],
+   [
+    "2022-08",
+    0,
+    0,
+    811
+   ],
+   [
+    "2022-09",
+    0,
+    0,
+    772
+   ],
+   [
+    "2022-10",
+    0,
+    0,
+    710
+   ],
+   [
+    "2022-11",
+    0,
+    1,
+    610
+   ],
+   [
+    "2022-12",
+    1,
+    2,
+    383
+   ],
+   [
+    "2023-01",
+    22,
+    22,
+    371
+   ],
+   [
+    "2023-02",
+    32,
+    19,
+    301
+   ],
+   [
+    "2023-03",
+    34,
+    22,
+    388
+   ],
+   [
+    "2023-04",
+    10,
+    14,
+    356
+   ],
+   [
+    "2023-05",
+    32,
+    27,
+    369
+   ],
+   [
+    "2023-06",
+    29,
+    19,
+    406
+   ],
+   [
+    "2023-07",
+    32,
+    32,
+    338
+   ],
+   [
+    "2023-08",
+    35,
+    51,
+    400
+   ],
+   [
+    "2023-09",
+    44,
+    85,
+    268
+   ],
+   [
+    "2023-10",
+    48,
+    124,
+    134
+   ],
+   [
+    "2023-11",
+    31,
+    112,
+    135
+   ],
+   [
+    "2023-12",
+    39,
+    65,
+    101
+   ],
+   [
+    "2024-01",
+    40,
+    65,
+    118
+   ],
+   [
+    "2024-02",
+    13,
+    32,
+    80
+   ],
+   [
+    "2024-03",
+    17,
+    34,
+    89
+   ],
+   [
+    "2024-04",
+    30,
+    48,
+    83
+   ],
+   [
+    "2024-05",
+    36,
+    66,
+    75
+   ],
+   [
+    "2024-06",
+    25,
+    66,
+    108
+   ],
+   [
+    "2024-07",
+    16,
+    47,
+    99
+   ],
+   [
+    "2024-08",
+    20,
+    39,
+    105
+   ],
+   [
+    "2024-09",
+    12,
+    23,
+    118
+   ],
+   [
+    "2024-10",
+    45,
+    64,
+    82
+   ],
+   [
+    "2024-11",
+    28,
+    100,
+    30
+   ],
+   [
+    "2024-12",
+    20,
+    43,
+    11
+   ],
+   [
+    "2025-01",
+    24,
+    45,
+    19
+   ],
+   [
+    "2025-02",
+    23,
+    65,
+    94
+   ],
+   [
+    "2025-03",
+    27,
+    78,
+    10
+   ],
+   [
+    "2025-04",
+    7,
+    51,
+    7
+   ],
+   [
+    "2025-05",
+    5,
+    32,
+    2
+   ],
+   [
+    "2025-06",
+    5,
+    23,
+    5
+   ],
+   [
+    "2025-07",
+    2,
+    19,
+    4
+   ],
+   [
+    "2025-08",
+    9,
+    30,
+    1
+   ],
+   [
+    "2025-09",
+    6,
+    16,
+    3
+   ],
+   [
+    "2025-10",
+    5,
+    2,
+    9
+   ],
+   [
+    "2025-11",
+    8,
+    8,
+    0
+   ],
+   [
+    "2025-12",
+    11,
+    18,
+    0
+   ],
+   [
+    "2026-01",
+    8,
+    72,
+    0
+   ],
+   [
+    "2026-02",
+    4,
+    203,
+    0
+   ],
+   [
+    "2026-03",
+    16,
+    201,
+    0
+   ],
+   [
+    "2026-04",
+    5,
+    111,
+    0
+   ],
+   [
+    "2026-05",
+    11,
+    1,
+    0
+   ],
+   [
+    "2026-06",
+    7,
+    2,
+    0
+   ],
+   [
+    "2026-07",
+    10,
+    5,
+    0
+   ],
+   [
+    "2026-08",
+    19,
+    7,
+    0
+   ],
+   [
+    "2026-09",
+    15,
+    1,
+    0
+   ],
+   [
+    "2026-10",
+    6,
+    0,
+    0
+   ]
+  ],
+  "agendadas_por_mes_do_agendamento": [
+   [
+    "2021-09",
+    0,
+    0,
+    1
+   ],
+   [
+    "2021-10",
+    0,
+    0,
+    295
+   ],
+   [
+    "2021-11",
+    0,
+    0,
+    346
+   ],
+   [
+    "2021-12",
+    0,
+    0,
+    363
+   ],
+   [
+    "2022-01",
+    0,
+    0,
+    312
+   ],
+   [
+    "2022-02",
+    0,
+    0,
+    310
+   ],
+   [
+    "2022-03",
+    0,
+    0,
+    389
+   ],
+   [
+    "2022-04",
+    0,
+    0,
+    330
+   ],
+   [
+    "2022-05",
+    0,
+    0,
+    307
+   ],
+   [
+    "2022-06",
+    0,
+    0,
+    247
+   ],
+   [
+    "2022-07",
+    0,
+    0,
+    175
+   ],
+   [
+    "2022-08",
+    0,
+    0,
+    351
+   ],
+   [
+    "2022-09",
+    0,
+    0,
+    247
+   ],
+   [
+    "2022-10",
+    0,
+    0,
+    193
+   ],
+   [
+    "2022-11",
+    0,
+    0,
+    184
+   ],
+   [
+    "2022-12",
+    0,
+    0,
+    186
+   ],
+   [
+    "2023-01",
+    0,
+    0,
+    144
+   ],
+   [
+    "2023-02",
+    0,
+    0,
+    186
+   ],
+   [
+    "2023-03",
+    0,
+    0,
+    250
+   ],
+   [
+    "2023-04",
+    0,
+    0,
+    205
+   ],
+   [
+    "2023-05",
+    0,
+    0,
+    318
+   ],
+   [
+    "2023-06",
+    0,
+    0,
+    433
+   ],
+   [
+    "2023-07",
+    0,
+    0,
+    417
+   ],
+   [
+    "2023-08",
+    0,
+    0,
+    417
+   ],
+   [
+    "2023-09",
+    0,
+    0,
+    346
+   ],
+   [
+    "2023-10",
+    0,
+    0,
+    313
+   ],
+   [
+    "2023-11",
+    0,
+    0,
+    328
+   ],
+   [
+    "2023-12",
+    0,
+    0,
+    332
+   ],
+   [
+    "2024-01",
+    0,
+    0,
+    315
+   ],
+   [
+    "2024-02",
+    0,
+    0,
+    347
+   ],
+   [
+    "2024-03",
+    0,
+    0,
+    406
+   ],
+   [
+    "2024-04",
+    0,
+    0,
+    316
+   ],
+   [
+    "2024-05",
+    0,
+    0,
+    248
+   ],
+   [
+    "2024-06",
+    0,
+    0,
+    292
+   ],
+   [
+    "2024-07",
+    0,
+    0,
+    299
+   ],
+   [
+    "2024-08",
+    0,
+    0,
+    332
+   ],
+   [
+    "2024-09",
+    0,
+    0,
+    207
+   ],
+   [
+    "2024-10",
+    0,
+    0,
+    178
+   ],
+   [
+    "2024-11",
+    0,
+    0,
+    192
+   ],
+   [
+    "2024-12",
+    0,
+    0,
+    161
+   ],
+   [
+    "2025-01",
+    0,
+    0,
+    277
+   ],
+   [
+    "2025-02",
+    0,
+    0,
+    239
+   ],
+   [
+    "2025-03",
+    0,
+    0,
+    276
+   ],
+   [
+    "2025-04",
+    0,
+    0,
+    257
+   ],
+   [
+    "2025-05",
+    0,
+    0,
+    203
+   ],
+   [
+    "2025-06",
+    0,
+    0,
+    222
+   ],
+   [
+    "2025-07",
+    0,
+    0,
+    258
+   ],
+   [
+    "2025-08",
+    0,
+    0,
+    231
+   ],
+   [
+    "2025-09",
+    0,
+    0,
+    232
+   ],
+   [
+    "2025-10",
+    0,
+    0,
+    278
+   ],
+   [
+    "2025-11",
+    0,
+    0,
+    236
+   ],
+   [
+    "2025-12",
+    106,
+    156,
+    3
+   ],
+   [
+    "2026-01",
+    57,
+    295,
+    0
+   ],
+   [
+    "2026-02",
+    82,
+    154,
+    0
+   ],
+   [
+    "2026-03",
+    82,
+    251,
+    0
+   ],
+   [
+    "2026-04",
+    73,
+    240,
+    0
+   ],
+   [
+    "2026-05",
+    83,
+    165,
+    0
+   ],
+   [
+    "2026-06",
+    111,
+    165,
+    0
+   ],
+   [
+    "2026-07",
+    52,
+    245,
+    0
+   ],
+   [
+    "2026-08",
+    111,
+    170,
+    0
+   ],
+   [
+    "2026-09",
+    53,
+    215,
+    0
+   ],
+   [
+    "2026-10",
+    84,
+    158,
+    0
+   ],
+   [
+    "2026-11",
+    30,
+    2,
+    0
+   ]
+  ],
+  "agendadas_por_status": [
+   [
+    "PROCEDIMENTO AGENDADO PENDENTE DE CONFIRMAÇÃO",
+    30,
+    61,
+    577
+   ],
+   [
+    "PROCEDIMENTO REALIZADO",
+    527,
+    1104,
+    7570
+   ],
+   [
+    "PROCEDIMENTO CANCELADO PELA REGULAÇÃO",
+    1,
+    2,
+    250
+   ],
+   [
+    "PROCEDIMENTO CANCELADO PELO SOLICITANTE",
+    9,
+    7,
+    105
+   ],
+   [
+    "AGENDAMENTO CANCELADO PELO COORD. DA REGULAÇÃO LOCAL",
+    0,
+    1,
+    10
+   ],
+   [
+    "PROCEDIMENTO NÃO REALIZADO POR FALTA DO PACIENTE",
+    319,
+    1022,
+    5418
+   ],
+   [
+    "SOLICITAÇÃO AUTORIZADA PELA REGULAÇÃO",
+    38,
+    19,
+    0
+   ]
+  ]
+ },
+ "classificacao_risco": {
+  "cols": [
+   "classificacao_risco",
+   "CONSULTA EM SAUDE MENTAL - PEDIATRIA",
+   "CONSULTA EM SAUDE MENTAL - ADOLESCENTE",
+   "CONSULTA DE PROFISSIONAIS DE NIVEL SUPERIOR NA ATENCAO ESPECIALIZADA (EXCETO MEDICO)"
+  ],
+  "medida": "Count(Distinct {1<filtro_fila, descrição_procedimento_solicitacao={'<nome>'}>} contador_solicitacao) por classificacao_risco",
+  "linhas": [
+   [
+    "Prioridade 1",
+    4,
+    595,
+    242
+   ],
+   [
+    "Prioridade 2",
+    1238,
+    2047,
+    1840
+   ],
+   [
+    "Prioridade 3",
+    180,
+    159,
+    92
+   ],
+   [
+    "Prioridade 4",
+    81,
+    73,
+    35
+   ]
+  ]
+ }
+}

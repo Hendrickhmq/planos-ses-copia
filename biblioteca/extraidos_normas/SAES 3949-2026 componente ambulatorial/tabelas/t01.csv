@@ -1,0 +1,22 @@
+PROCEDIMENTO,09.01.01.013-8 - OCI DE IMUNOHISTOQUIMICA DE NEOPLASI MALIGNA DE MAMA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, EXAME DE IMUNOHISTOQUIMICA, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Alta Complexidade
+Tipo de Financiamento,FAEC
+Sub-Tipo de Financiamento:,Programa Agora Tem Especialistas - Componente Ambulatorial
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial(SA),"R$ 789,00"
+Valor do Serviço Ambulatorial,"R$ 789,00"
+CID-10,C50.0 Neoplasia maligna do mamilo e aréolaC50.1 Neoplasia maligna da porção central da mamaC50.2 Neoplasia maligna do quadrante superior interno da mamaC50.3 Neoplasia maligna do quadrante inferior interno da mama
+,"C50.4 Neoplasia maligna do quadrante superior externo da mamaC50.5 Neoplasia maligna do quadrante inferior externo da mamaC50.6 Neoplasia maligna da porção axilar da mama C50.8 Neoplasia maligna da mama com lesão invasiva C50.9: Neoplasia maligna da mama, não especificada"
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+,058 - Obrigatório CPF059 - Componente Complementar - Modalidade 2060 - Componente Complementar - Modalidade 3
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALORZERADO0011 - CONDICIONA O REGISTRO DE PROCEDIMENTOSSECUNDÁRIOS NA APAC
+,0013 GERA COMPENSAÇÃO FINANCEIRA0014 CONDICIONA O TIPO DE FINANCIAMENTO EM MAC0015 CONDICIONA O TIPO DE FINANCIAMENTO EM FAEC
+Habilitação,38.01 Programa Mais Acesso a Especialistas38.02 Agora Tem Especialistas Modalidade 138.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes
+,38.04 Agora Tem Especialistas Modalidade 3 Unidades Móveis38.05 Agora Tem Especialistas - Componente Créditos Financeiros38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS

@@ -1,0 +1,66 @@
+{
+  "achados": [
+    {
+      "classe": "contradicao_interna",
+      "secao": "3.3 — Dimensionamento",
+      "trecho_documento": "A divisão do envelope pelo valor unitário resulta em 12.967,03.",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": "| Envelope de produção assistencial | R$ 7.781.800,00 |\n| Valor unitário da OCI (Portaria SAES/MS nº 4.653/2026) | R$ 600,11 |",
+      "conta": "7781800 / 600.11 = 12967.289330289446",
+      "gravidade": "ajuste",
+      "por_que": "O quociente informado contradiz os valores da própria tabela: arredondado a duas casas decimais, resulta em 12.967,29. A correção não altera o quantitativo inteiro adotado."
+    },
+    {
+      "classe": "contradicao_interna",
+      "secao": "5.13 — Atividades executadas por terceiros",
+      "trecho_documento": "| Exame anatomopatológico, quando indicada a biópsia | serviço próprio ou laboratório contratado, com prazo de laudo de até 15 dias corridos |",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": "**A execução assistencial não é subcontratada.** Ela ocorre nos polos do próprio\nproponente, por equipe própria",
+      "conta": null,
+      "gravidade": "diligencia",
+      "por_que": "O documento admite contratar laboratório para executar o exame anatomopatológico, integrante da assistência descrita nas seções 2.2 e 5.7, mas afirma que a execução assistencial ocorre por equipe própria e não é subcontratada. As declarações divergem sobre quem pode executar essa parte do objeto."
+    },
+    {
+      "classe": "contradicao_interna",
+      "secao": "5.14 — Metas × 6.1 — Etapas",
+      "trecho_documento": "| **Meta 2** | Execução assistencial: OCI 09.01.01.007-3 concluídas, na forma da seção 2.3 | **12.967 OCI** | meses 1 a 9 |",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": "**O décimo mês é a janela de\nconclusão das OCI iniciadas no mês 9**, cuja APAC se encerra dentro de duas\ncompetências.",
+      "conta": null,
+      "gravidade": "diligencia",
+      "por_que": "A Meta 2 exige o quantitativo de OCI concluídas até o mês 9, enquanto o cronograma reserva o mês 10 para concluir parte dessas OCI. Como a unidade de aferição é a OCI concluída, os trechos estabelecem prazos incompatíveis para o cumprimento da meta."
+    },
+    {
+      "classe": "contradicao_interna",
+      "secao": "5.9 — Absenteísmo × 8.4 — Períodos",
+      "trecho_documento": "A busca ativa do usuário que não comparece ao retorno é diária\nenquanto houver janela de competência",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": "O agendamento, a\nbusca ativa e o rastreamento de laudo atuam nos 9 meses de produção.",
+      "conta": null,
+      "gravidade": "diligencia",
+      "por_que": "A busca ativa é prometida durante toda a janela de conclusão, que a seção 6.1 estende ao mês 10 para as OCI iniciadas no mês 9. A memória de cálculo, entretanto, encerra essa atividade nos nove meses de produção, deixando incompatíveis o período de atuação e o acompanhamento prometido."
+    },
+    {
+      "classe": "contradicao_interna",
+      "secao": "7.1 — Regime de desembolso",
+      "trecho_documento": "A primeira parcela é liberada na celebração",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": "a Etapa 1 e o primeiro bimestre\nde produção precedem qualquer receita do convênio",
+      "conta": null,
+      "gravidade": "diligencia",
+      "por_que": "O primeiro repasse é situado na celebração, mas o mesmo parágrafo afirma que a implantação e o primeiro bimestre de produção acontecem antes de qualquer receita do convênio. Os trechos estabelecem ordens incompatíveis entre recebimento e execução inicial."
+    },
+    {
+      "classe": "contradicao_interna",
+      "secao": "9.3 — Os três riscos altos × 9.2 — Matriz",
+      "trecho_documento": "### 9.3 Os três riscos altos",
+      "fonte_arquivo": "documento.md",
+      "trecho_fonte": "| R-02 | **Absenteísmo ao retorno**, deixando a OCI aberta | média | alto | **alto** | confirmação ativa do retorno; teleconsulta, que dispensa deslocamento; busca ativa diária enquanto houver janela |\n| R-03 | Usuário comparece sem acompanhante | alta | médio | **médio** | confirmação nominal do acompanhante 48 h antes; exame sem sedação quando houver condição clínica e concordância; reagendamento com reaproveitamento da vaga |\n| R-04 | Descumprimento do jejum | média | médio | **médio** | orientação escrita no agendamento e repetida na confirmação; lista de espera do dia |\n| R-05 | **Interrupção ou insuficiência do envio da demanda regulada**, deixando ociosa a capacidade mobilizada | média | alto | **médio** | a fila apurada em 3.1 é de 24.868 solicitações pendentes, 1,9 vez o quantitativo pactuado, de modo que o risco não é de estoque e sim de fluxo; pactuação prévia do ritmo de encaminhamento com o Complexo Regulador na Etapa 1; monitoramento mensal por I-01 e I-06, com alerta à concedente quando o envio ficar abaixo do necessário para a curva |\n| R-06 | **O valor unitário não comporta o conjunto** — consulta, exame com sedação, anatomopatológico e retorno — em algum polo | média | alto | **alto** | conferência da composição de custo por polo na Etapa 1, antes da publicação das agendas; renegociação do contrato de anatomia patológica; revisão do parâmetro de sedação |\n| R-07 | Intercorrência durante a sedação | baixa | alto | **médio** | carro de emergência com desfibrilador em cada polo; fluxo de remoção com acompanhamento de profissional habilitado |\n| R-08 | Indisponibilidade do sistema de registro, **próprio ou da concedente**, atrasando o agendamento ou a apresentação das APAC | média | médio | **médio** | suporte de TI contratado; armazenamento em nuvem; registro em lote com conferência semanal; comunicação imediata à SES-DF quando a indisponibilidade for de sistema dela |\n| R-09 | Rejeição de APAC por erro de preenchimento ou por conjunto incompleto | média | alto | **alto** | conferência dos secundários obrigatórios antes do encerramento; operador de registro dedicado em cada polo, que lança no mesmo dia do atendimento; auditoria mensal da Coordenação Administrativa, Financeira e Assistencial |\n| R-10 | Concentração da produção em um polo, com desequilíbrio territorial | média | baixo | **baixo** | I-06 com faixa de tolerância de 15%; redistribuição de agenda pela Coordenação Administrativa, Financeira e Assistencial |\n| R-11 | **Indisponibilidade de médico endoscopista** em um polo, por afastamento ou desligamento | média | alto | **alto** |",
+      "conta": "len(['R-02', 'R-06', 'R-09', 'R-11']) = 4",
+      "gravidade": "ajuste",
+      "por_que": "A seção anuncia três riscos altos, mas a coluna de classificação da matriz contém quatro: R-02, R-06, R-09 e R-11."
+    }
+  ],
+  "listas_vazias": [],
+  "falta_fonte": []
+}

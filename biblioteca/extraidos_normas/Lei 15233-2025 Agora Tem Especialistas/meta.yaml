@@ -1,0 +1,10 @@
+id: "Lei 15233-2025 Agora Tem Especialistas"
+arquivo: "Lei 15233-2025 Agora Tem Especialistas.html"
+sha256: "4e0c2b5463795bc50dbb54b92fb07640a807f0131b2fb3f055612baddd468f84"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 29140
+tabelas_total: 4
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

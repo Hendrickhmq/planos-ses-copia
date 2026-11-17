@@ -1,0 +1,26 @@
+PROCEDIMENTO,09.03.01.003-8 -OCI AVALIAÇÃO DIAGNÓSTICA EM ORTOPEDIA COM RECURSOS DE RADIOLOGIA E TOMOGRAFIA COMPUTADORIZADA
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA ESPECIALIZADA, EXAMES DE RADIOLOGIA, EXAMES DE TOMOGRAFIA COMPUTADORIAZA, CONSULTA OU TELECONSULTA DE RETORNO."
+Instrumento de Registro,APAC (Proc. Principal)
+Modalidade de Atendimento,Ambulatorial
+Complexidade,Média Complexidade
+Tipo de Financiamento,FAEC
+Sexo,Ambos
+Idade mínima,0 mês
+Idade máxima,130 anos
+Valor do Serviço Ambulatorial (SA),"R$ 230,00"
+Total do Serviço Ambulatorial,"R$ 230,00"
+CID-10,"M86.1, Outra osteomielite agudaM86.2, Osteomielite subagudaM86.3, Osteomielite crônica multifocalM86.4, Osteomielite crônica com seio drenante"
+,D169 Osso e cartilagem articular NED169 Osso e cartilagem articular NED480 Ossos e cartilagens articulares
+,M241 Outr transt das cartilagens articularesM94 Outr transt das cartilagensM948 Outr transt espec da cartilagemM949 Transt NE da cartilagemS336 Entorse e distensao articulacao sacroiliaca
+,S430 Luxacao da articulacao do ombroS431 Luxacao da articulacao acromioclavicularS432 Luxacao da articulacao esternoclavicularS434 Entorse e distensao de articulacao do ombroS480 Amput traum da articulacao do ombro
+,S730 Luxacao da articulacao do quadrilS780 Amput traum na articulacao do quadrilS930 Luxacao da articulacao do tornozeloT902 Sequelas de frat de cranio e de ossos faceT911 Sequelas de frat de coluna vertebral
+,T912 Sequelas de outr frat do torax e da pelveT921 Sequelas de frat do bracoT922 Sequelas de frat ao nivel do punho e da maoT931 Sequelas de frat do femurT932 Sequelas de outr frat do membro infer
+,M918 Outr osteocondroses juvenis quadril e pelveQ65 Malformacoes congen do quadrilQ650 Luxacao congen unilateral do quadrilQ651 Luxacao congen bilateral do quadrilQ653 Subluxacao congen unilateral do quadril
+,Q654 Subluxacao congen bilateral do quadrilQ655 Subluxacao congen NE do quadrilQ658 Outr deform congen do quadrilQ659 Deform congen NE do quadrilM403 Sindr da retificacao da coluna vertebral
+,M42 Osteocondrose da coluna vertebralM432 Outr fusoes da coluna vertebralM532 Instabilidades da coluna vertebralQ67 Deform osteom cong cabeca face coluna toraxQ675 Deform congen da coluna vertebral
+,Q76 Malform congen coluna vertebral ossos toraxQ764 Out malf cong coluna vert n-assoc escolioseS134 Distensao e entorse da coluna cervicalT09 Outr traum de coluna e tronco nivel NEM162 Coxartrose bilateral resultante de displasia
+Categoria CBO,2231 - Médicos2251 - Médicos Clínicos2252 - Médicos em Especialidades Cirúrgicas2253 - Médicos em Medicina Diagnóstica e Terapêutica
+Quantidade Máxima,1
+Atributo Complementar,009 - Exige CPF/CNS053 - Programa Mais Acesso a Especialistas (PMAE)054 - APAC com validade fixa de 2 competências
+Regra Condicionada,0009 - CONDICIONA AOS SECUDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC
+Habilitação,38.01 Programa Mais Acesso Especialistas

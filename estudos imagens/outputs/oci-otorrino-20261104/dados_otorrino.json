@@ -1,0 +1,898 @@
+{
+  "date": "04/11/2026",
+  "snapshot": {
+    "inicio": {
+      "recarga_utc": "2026-11-02T13:31:47.865Z",
+      "consulta": "02/11/2026 12:19:50",
+      "solicitacao_max": "28/10/2026",
+      "agendamento_max": "04/02/2027",
+      "recarga_brasilia": "02/11/2026 10:31:47"
+    },
+    "fim": {
+      "recarga_utc": "2026-11-02T13:31:47.865Z",
+      "consulta": "02/11/2026 12:20:03",
+      "solicitacao_max": "28/10/2026",
+      "agendamento_max": "04/02/2027",
+      "recarga_brasilia": "02/11/2026 10:31:47"
+    }
+  },
+  "queues": [
+    {
+      "nome": "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL",
+      "codigo": "301010072",
+      "fila": 5471,
+      "fila_viva": 5461,
+      "pessoas": 5471,
+      "pessoas_viva": 5461,
+      "devolvidas": 2768,
+      "espera_media": 131.39139343664667,
+      "espera_mediana": 80.81270480902822,
+      "espera_max": 1970.9836897569476,
+      "mais_antiga": "10/06/2021",
+      "idade_mediana": 33,
+      "total": 8239,
+      "agendadas_12m": 16191,
+      "agendadas_12m_no_codigo": 334853,
+      "cid_principais": [
+        [
+          "J35",
+          1158
+        ],
+        [
+          "H90",
+          666
+        ],
+        [
+          "H93",
+          418
+        ],
+        [
+          "J34",
+          360
+        ],
+        [
+          "H91",
+          255
+        ]
+      ]
+    },
+    {
+      "nome": "CONSULTA EM ATENCAO A SAUDE AUDITIVA - MEDIA E ALTA COMPLEXIDADE",
+      "codigo": "301010072",
+      "fila": 5704,
+      "fila_viva": 3967,
+      "pessoas": 5703,
+      "pessoas_viva": 3966,
+      "devolvidas": 823,
+      "espera_media": 516.2606840705599,
+      "espera_mediana": 496.0056249305562,
+      "espera_max": 1091.0596762384303,
+      "mais_antiga": "07/11/2023",
+      "idade_mediana": 65,
+      "total": 6527,
+      "agendadas_12m": 1665,
+      "agendadas_12m_no_codigo": 334853,
+      "cid_principais": [
+        [
+          "H90",
+          5112
+        ],
+        [
+          "H91",
+          299
+        ],
+        [
+          "H93",
+          128
+        ],
+        [
+          "H80",
+          67
+        ],
+        [
+          "H66",
+          48
+        ]
+      ]
+    },
+    {
+      "nome": "VIDEOENDOSCOPIA  NASAL  FLEXIVEL",
+      "codigo": "209040041",
+      "fila": 3720,
+      "fila_viva": 2210,
+      "pessoas": 3719,
+      "pessoas_viva": 2209,
+      "devolvidas": 0,
+      "espera_media": 588.0297547742912,
+      "espera_mediana": 621.7646817129644,
+      "espera_max": 1077.8081952314824,
+      "mais_antiga": "20/11/2023",
+      "idade_mediana": 8,
+      "total": 3720,
+      "agendadas_12m": 156,
+      "agendadas_12m_no_codigo": 5282,
+      "cid_principais": [
+        [
+          "J35",
+          2664
+        ],
+        [
+          "J34",
+          215
+        ],
+        [
+          "J30",
+          184
+        ],
+        [
+          "R06",
+          154
+        ],
+        [
+          "R04",
+          134
+        ]
+      ]
+    },
+    {
+      "nome": "VIDEOENDOSCOPIA NASAL RIGIDA",
+      "codigo": "209040041",
+      "fila": 447,
+      "fila_viva": 440,
+      "pessoas": 447,
+      "pessoas_viva": 440,
+      "devolvidas": 207,
+      "espera_media": 103.25751394994492,
+      "espera_mediana": 34.84830206018523,
+      "espera_max": 901.7795595486095,
+      "mais_antiga": "14/05/2024",
+      "idade_mediana": 38,
+      "total": 654,
+      "agendadas_12m": 2833,
+      "agendadas_12m_no_codigo": 5282,
+      "cid_principais": [
+        [
+          "J34",
+          173
+        ],
+        [
+          "G47",
+          67
+        ],
+        [
+          "J35",
+          50
+        ],
+        [
+          "J32",
+          26
+        ],
+        [
+          "J30",
+          25
+        ]
+      ]
+    },
+    {
+      "nome": "VIDEOLARINGOSCOPIA",
+      "codigo": "209040041",
+      "fila": 215,
+      "fila_viva": 215,
+      "pessoas": 215,
+      "pessoas_viva": 215,
+      "devolvidas": 226,
+      "espera_media": 96.60822974354097,
+      "espera_mediana": 87.07821252314898,
+      "espera_max": 509.0688034606501,
+      "mais_antiga": "11/06/2025",
+      "idade_mediana": 42,
+      "total": 441,
+      "agendadas_12m": 2258,
+      "agendadas_12m_no_codigo": 5282,
+      "cid_principais": [
+        [
+          "R49",
+          46
+        ],
+        [
+          "Q31",
+          21
+        ],
+        [
+          "K21",
+          20
+        ],
+        [
+          "R13",
+          18
+        ],
+        [
+          "G47",
+          15
+        ]
+      ]
+    },
+    {
+      "nome": "AUDIOMETRIA E IMITANCIOMETRIA – ATÉ 7 ANOS",
+      "codigo": "211070033",
+      "fila": 3527,
+      "fila_viva": 3143,
+      "pessoas": 3527,
+      "pessoas_viva": 3143,
+      "devolvidas": 2446,
+      "espera_media": 366.3508882985104,
+      "espera_mediana": 340.0647103414376,
+      "espera_max": 902.9788323958346,
+      "mais_antiga": "13/05/2024",
+      "idade_mediana": 5,
+      "total": 5973,
+      "agendadas_12m": 1994,
+      "agendadas_12m_no_codigo": 11135,
+      "cid_principais": [
+        [
+          "F80",
+          1171
+        ],
+        [
+          "F84",
+          709
+        ],
+        [
+          "H90",
+          306
+        ],
+        [
+          "F90",
+          185
+        ],
+        [
+          "H65",
+          167
+        ]
+      ]
+    },
+    {
+      "nome": "AUDIOMETRIA E IMITANCIOMETRIA – 8 A 64 ANOS",
+      "codigo": "211070033",
+      "fila": 3124,
+      "fila_viva": 3124,
+      "pessoas": 3124,
+      "pessoas_viva": 3124,
+      "devolvidas": 813,
+      "espera_media": 94.00559089731038,
+      "espera_mediana": 93.70727446759338,
+      "espera_max": 285.79765042824147,
+      "mais_antiga": "20/01/2026",
+      "idade_mediana": 45,
+      "total": 3937,
+      "agendadas_12m": 6005,
+      "agendadas_12m_no_codigo": 11135,
+      "cid_principais": [
+        [
+          "H90",
+          1251
+        ],
+        [
+          "H93",
+          490
+        ],
+        [
+          "H91",
+          434
+        ],
+        [
+          "F81",
+          114
+        ],
+        [
+          "F90",
+          102
+        ]
+      ]
+    },
+    {
+      "nome": "AUDIOMETRIA E IMITANCIOMETRIA – ACIMA DE 65 ANOS",
+      "codigo": "211070033",
+      "fila": 1417,
+      "fila_viva": 1417,
+      "pessoas": 1417,
+      "pessoas_viva": 1417,
+      "devolvidas": 623,
+      "espera_media": 92.16992484031636,
+      "espera_mediana": 93.77859138888743,
+      "espera_max": 504.0462561111126,
+      "mais_antiga": "16/06/2025",
+      "idade_mediana": 73,
+      "total": 2040,
+      "agendadas_12m": 3136,
+      "agendadas_12m_no_codigo": 11135,
+      "cid_principais": [
+        [
+          "H90",
+          781
+        ],
+        [
+          "H91",
+          303
+        ],
+        [
+          "H93",
+          201
+        ],
+        [
+          "R42",
+          26
+        ],
+        [
+          "Z01",
+          15
+        ]
+      ]
+    },
+    {
+      "nome": "POTENCIAL EVOCADO AUDITIVO BERA – ATÉ 4 ANOS",
+      "codigo": "211050113",
+      "fila": 2300,
+      "fila_viva": 1915,
+      "pessoas": 2300,
+      "pessoas_viva": 1915,
+      "devolvidas": 2606,
+      "espera_media": 429.50437853249366,
+      "espera_mediana": 403.3381078356506,
+      "espera_max": 996.7680177893562,
+      "mais_antiga": "09/02/2024",
+      "idade_mediana": 2,
+      "total": 4906,
+      "agendadas_12m": 530,
+      "agendadas_12m_no_codigo": 773,
+      "cid_principais": [
+        [
+          "H90",
+          596
+        ],
+        [
+          "F80",
+          460
+        ],
+        [
+          "F84",
+          282
+        ],
+        [
+          "P07",
+          258
+        ],
+        [
+          "Z01",
+          107
+        ]
+      ]
+    },
+    {
+      "nome": "POTENCIAL EVOCADO AUDITIVO BERA – ACIMA DE 5 ANOS",
+      "codigo": "211050113",
+      "fila": 2347,
+      "fila_viva": 1876,
+      "pessoas": 2347,
+      "pessoas_viva": 1876,
+      "devolvidas": 1089,
+      "espera_media": 459.10035529219783,
+      "espera_mediana": 445.6653195254621,
+      "espera_max": 1008.0194910185164,
+      "mais_antiga": "29/01/2024",
+      "idade_mediana": 11,
+      "total": 3436,
+      "agendadas_12m": 243,
+      "agendadas_12m_no_codigo": 773,
+      "cid_principais": [
+        [
+          "H90",
+          805
+        ],
+        [
+          "F84",
+          339
+        ],
+        [
+          "F80",
+          264
+        ],
+        [
+          "F90",
+          230
+        ],
+        [
+          "H93",
+          209
+        ]
+      ]
+    },
+    {
+      "nome": "VECTOELETRONISTAGMOGRAFIA(VENG)",
+      "codigo": "211070351",
+      "fila": 1041,
+      "fila_viva": 959,
+      "pessoas": 1041,
+      "pessoas_viva": 959,
+      "devolvidas": 1173,
+      "espera_media": 394.29899280902066,
+      "espera_mediana": 395.76968236111134,
+      "espera_max": 808.0609781134262,
+      "mais_antiga": "16/08/2024",
+      "idade_mediana": 63,
+      "total": 2214,
+      "agendadas_12m": 351,
+      "agendadas_12m_no_codigo": 351,
+      "cid_principais": [
+        [
+          "R42",
+          568
+        ],
+        [
+          "H81",
+          251
+        ],
+        [
+          "H83",
+          146
+        ],
+        [
+          "H90",
+          25
+        ],
+        [
+          "H93",
+          19
+        ]
+      ]
+    },
+    {
+      "nome": "TESTES DE PROCESSAMENTO AUDITIVO",
+      "codigo": "211070343",
+      "fila": 494,
+      "fila_viva": 435,
+      "pessoas": 494,
+      "pessoas_viva": 435,
+      "devolvidas": 845,
+      "espera_media": 291.75833311625667,
+      "espera_mediana": 217.00698255786847,
+      "espera_max": 919.8210579513907,
+      "mais_antiga": "26/04/2024",
+      "idade_mediana": 11,
+      "total": 1339,
+      "agendadas_12m": 226,
+      "agendadas_12m_no_codigo": 226,
+      "cid_principais": [
+        [
+          "F81",
+          126
+        ],
+        [
+          "H93",
+          123
+        ],
+        [
+          "F90",
+          77
+        ],
+        [
+          "F80",
+          58
+        ],
+        [
+          "H90",
+          54
+        ]
+      ]
+    },
+    {
+      "nome": "VIDEOENDOSCOPIA DA DEGLUTICAO  ( VED)",
+      "codigo": "209040041",
+      "fila": 221,
+      "fila_viva": 118,
+      "pessoas": 221,
+      "pessoas_viva": 118,
+      "devolvidas": 65,
+      "espera_media": 543.9665111447919,
+      "espera_mediana": 709.7874657118082,
+      "espera_max": 1213.9888806828749,
+      "mais_antiga": "07/07/2023",
+      "idade_mediana": 66,
+      "total": 286,
+      "agendadas_12m": 35,
+      "agendadas_12m_no_codigo": 5282,
+      "cid_principais": [
+        [
+          "R13",
+          138
+        ],
+        [
+          "R63",
+          7
+        ],
+        [
+          "K22",
+          7
+        ],
+        [
+          "G12",
+          7
+        ],
+        [
+          "K21",
+          6
+        ]
+      ]
+    },
+    {
+      "nome": "CONSULTA PARA RESPIRADOR BUCAL",
+      "codigo": "301010072",
+      "fila": 876,
+      "fila_viva": 862,
+      "pessoas": 875,
+      "pessoas_viva": 861,
+      "devolvidas": 675,
+      "espera_media": 206.09178414189458,
+      "espera_mediana": 179.80422826389258,
+      "espera_max": 857.801730995372,
+      "mais_antiga": "27/06/2024",
+      "idade_mediana": 7,
+      "total": 1551,
+      "agendadas_12m": 1088,
+      "agendadas_12m_no_codigo": 334853,
+      "cid_principais": [
+        [
+          "J35",
+          780
+        ],
+        [
+          "R06",
+          35
+        ],
+        [
+          "H65",
+          12
+        ],
+        [
+          "G47",
+          7
+        ],
+        [
+          "J34",
+          6
+        ]
+      ]
+    },
+    {
+      "nome": "CONSULTA EM  RINOLOGIA",
+      "codigo": "301010072",
+      "fila": 190,
+      "fila_viva": 190,
+      "pessoas": 190,
+      "pessoas_viva": 190,
+      "devolvidas": 395,
+      "espera_media": 36.36606249902619,
+      "espera_mediana": 34.04654666088027,
+      "espera_max": 97.7199559259243,
+      "mais_antiga": "27/07/2026",
+      "idade_mediana": 40,
+      "total": 585,
+      "agendadas_12m": 944,
+      "agendadas_12m_no_codigo": 334853,
+      "cid_principais": [
+        [
+          "J34",
+          132
+        ],
+        [
+          "J32",
+          26
+        ],
+        [
+          "J33",
+          9
+        ],
+        [
+          "J35",
+          5
+        ],
+        [
+          "J01",
+          3
+        ]
+      ]
+    }
+  ],
+  "oci": {
+    "0904010015": {
+      "codigo": "09.04.01.001-5",
+      "nome": "OCI AVALIAÇÃO INICIAL DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 100.0,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "H60",
+        "H61",
+        "H62",
+        "H65",
+        "H66",
+        "H67",
+        "H68",
+        "H69",
+        "H70",
+        "H71",
+        "H72",
+        "H73",
+        "H74",
+        "H75",
+        "H80",
+        "H81",
+        "H82",
+        "H83",
+        "H90",
+        "H91",
+        "H92",
+        "H93",
+        "H94",
+        "H95"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.11.07.004-1",
+          "nome": "AUDIOMETRIA TONAL LIMIAR (VIA AEREA / OSSEA)",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.020-3",
+          "nome": "IMITANCIOMETRIA",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    },
+    "0904010023": {
+      "codigo": "09.04.01.002-3",
+      "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 471.57,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "H60",
+        "H61",
+        "H62",
+        "H65",
+        "H66",
+        "H67",
+        "H68",
+        "H69",
+        "H70",
+        "H71",
+        "H72",
+        "H73",
+        "H74",
+        "H75",
+        "H80",
+        "H81",
+        "H82",
+        "H83",
+        "H90",
+        "H91",
+        "H92",
+        "H93",
+        "H94",
+        "H95"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.11.05.011-3",
+          "nome": "POTENCIAL EVOCADO AUDITIVO",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.004-1",
+          "nome": "AUDIOMETRIA TONAL LIMIAR (VIA AEREA / OSSEA)",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.020-3",
+          "nome": "IMITANCIOMETRIA",
+          "tipo": "compatível",
+          "quantidade": 0,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.11.07.026-2",
+          "nome": "POTENCIAL EVOCADO AUDITIVO DE CURTA MEDIA E LONGA LATENCIA",
+          "tipo": "obrigatória",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    },
+    "0904010031": {
+      "codigo": "09.04.01.003-1",
+      "nome": "OCI AVALIAÇÃO DIAGNÓSTICA DE NASOFARINGE E DE OROFARINGE",
+      "competencia": "202610",
+      "pacote": "TabelaUnificada_202610_v2610271043.zip",
+      "valor_sa": 393.55,
+      "valor_sh": 0.0,
+      "valor_sp": 0.0,
+      "sexo": "ambos",
+      "idade_min_meses": 0,
+      "idade_max_meses": 1571,
+      "quantidade_maxima": 1,
+      "financiamento": "04 Fundo de Ações Estratégicas e Compensações (FAEC)",
+      "cid_principal": [
+        "J30",
+        "J31",
+        "J32",
+        "J33",
+        "J34",
+        "J35",
+        "J36",
+        "J37",
+        "J38",
+        "J39"
+      ],
+      "cid_secundario": [],
+      "compatibilidades": [
+        {
+          "codigo": "02.09.04.002-5",
+          "nome": "LARINGOSCOPIA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "02.09.04.004-1",
+          "nome": "VIDEOLARINGOSCOPIA",
+          "tipo": "compatível",
+          "quantidade": 1,
+          "registro": "07"
+        },
+        {
+          "codigo": "03.01.01.007-2",
+          "nome": "CONSULTA MEDICA EM ATENÇÃO ESPECIALIZADA",
+          "tipo": "compatível",
+          "quantidade": 2,
+          "registro": "07"
+        }
+      ]
+    }
+  },
+  "details": {
+    "0904010015": [
+      {
+        "code": "053",
+        "name": "Programa Mais Acesso a Especialistas (PMAE)"
+      },
+      {
+        "code": "058",
+        "name": "Obrigatório CPF"
+      },
+      {
+        "code": "059",
+        "name": "Componente Complementar - Modalidade 2"
+      },
+      {
+        "code": "060",
+        "name": "Componente Complementar - Modalidade 3"
+      }
+    ],
+    "0904010023": [
+      {
+        "code": "053",
+        "name": "Programa Mais Acesso a Especialistas (PMAE)"
+      },
+      {
+        "code": "058",
+        "name": "Obrigatório CPF"
+      },
+      {
+        "code": "059",
+        "name": "Componente Complementar - Modalidade 2"
+      },
+      {
+        "code": "060",
+        "name": "Componente Complementar - Modalidade 3"
+      }
+    ],
+    "0904010031": [
+      {
+        "code": "053",
+        "name": "Programa Mais Acesso a Especialistas (PMAE)"
+      },
+      {
+        "code": "058",
+        "name": "Obrigatório CPF"
+      },
+      {
+        "code": "059",
+        "name": "Componente Complementar - Modalidade 2"
+      },
+      {
+        "code": "060",
+        "name": "Componente Complementar - Modalidade 3"
+      },
+      {
+        "code": "072",
+        "name": "Exige procedimento de Videolaringoscopia ou Laringoscopia"
+      }
+    ]
+  },
+  "candanga": {
+    "0904010015": {
+      "codigo": "0904010015",
+      "nome": "OCI AVALIAÇÃO INICIAL DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+      "preco": 127.8,
+      "pagina": 16
+    },
+    "0904010023": {
+      "codigo": "0904010023",
+      "nome": "OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE DÉFICIT AUDITIVO",
+      "preco": 191.71,
+      "pagina": 16
+    },
+    "0904010031": {
+      "codigo": "0904010031",
+      "nome": "OCI AVALIAÇÃO DIAGNÓSTICA DE NASOFARINGE E DE OROFARINGE",
+      "preco": 255.61,
+      "pagina": 16
+    }
+  },
+  "nasopharynx_top5_cid_count": {
+    "CONSULTA EM OTORRINOLARINGOLOGIA - GERAL": 1518,
+    "CONSULTA EM ATENCAO A SAUDE AUDITIVA - MEDIA E ALTA COMPLEXIDADE": 0,
+    "VIDEOENDOSCOPIA  NASAL  FLEXIVEL": 3063,
+    "VIDEOENDOSCOPIA NASAL RIGIDA": 274,
+    "VIDEOLARINGOSCOPIA": 0,
+    "AUDIOMETRIA E IMITANCIOMETRIA – ATÉ 7 ANOS": 0,
+    "AUDIOMETRIA E IMITANCIOMETRIA – 8 A 64 ANOS": 0,
+    "AUDIOMETRIA E IMITANCIOMETRIA – ACIMA DE 65 ANOS": 0,
+    "POTENCIAL EVOCADO AUDITIVO BERA – ATÉ 4 ANOS": 0,
+    "POTENCIAL EVOCADO AUDITIVO BERA – ACIMA DE 5 ANOS": 0,
+    "VECTOELETRONISTAGMOGRAFIA(VENG)": 0,
+    "TESTES DE PROCESSAMENTO AUDITIVO": 0,
+    "VIDEOENDOSCOPIA DA DEGLUTICAO  ( VED)": 0,
+    "CONSULTA PARA RESPIRADOR BUCAL": 786,
+    "CONSULTA EM  RINOLOGIA": 172
+  },
+  "source_sha256": "4b3a6005029a34ef824ea8d952b1088d272cb9fef400ffe95270adce2cac6a84"
+}

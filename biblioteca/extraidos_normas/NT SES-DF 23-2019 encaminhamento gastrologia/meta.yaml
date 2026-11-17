@@ -1,0 +1,23 @@
+id: "NT SES-DF 23-2019 encaminhamento gastrologia"
+arquivo: "NT SES-DF 23-2019 encaminhamento gastrologia.pdf"
+processo_sei: ""
+sha256: "c9e44ee5c507d84eb3718e1f686f531f1a81ab190c9802feb86d082af0de36c6"
+paginas: 5
+chars_texto: 5357
+tabelas_total: 3
+tabelas_por_pagina:
+  pagina_2: 1
+  pagina_3: 1
+  pagina_4: 1
+prosa_reclassificada_total: 2
+prosa_reclassificada_por_pagina:
+  pagina_1: 1
+  pagina_5: 1
+molduras_descartadas_total: 0
+molduras_descartadas_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por, tesseract 5.4.0.20240606"
+ferramenta: "pdfplumber 0.11.10"
+data_extracao: "2026-09-27T14:36:42"

@@ -1,0 +1,509 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/redacao_08",
+ "pedido": "R$ 2 mi de cardiologia (Emenda 41360018): pessoas e rumo pela porta de entrada do enquadramento de 27/10 (caso 1 só a consulta, caso 2 a consulta e os obrigatórios), a 003-4 com I20 a I25, a 006-9 em três versões de CID, a 002-6 pelo eletrocardiograma e a consulta de risco cirúrgico inteira (P-08)",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "entrantes",
+  "oferta",
+  "situacao",
+  "ano"
+ ],
+ "objetos": [
+  {
+   "id": "003-4 caso 1",
+   "tipo": "oci",
+   "nome": "OCI 003-4, linha coronária, só a consulta (I20 a I25)",
+   "ficha": "dados/fontes/sigtap_0902010034_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.02.038-0",
+    "02.05.01.003-2",
+    "02.11.02.003-6",
+    "02.11.02.006-0"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - CORONARIA",
+     "papel": "consulta",
+     "entrada": true
+    }
+   ]
+  },
+  {
+   "id": "003-4 caso 2",
+   "tipo": "oci",
+   "nome": "OCI 003-4, linha coronária, consulta e obrigatórios da 003-4 (I20 a I25)",
+   "ficha": "dados/fontes/sigtap_0902010034_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.02.038-0",
+    "02.05.01.003-2",
+    "02.11.02.003-6",
+    "02.11.02.006-0"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - CORONARIA",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "ELETROCARDIOGRAMA",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+     "papel": "exame",
+     "obrigatorio": true
+    }
+   ]
+  },
+  {
+   "id": "006-9 caso 1 I50",
+   "tipo": "oci",
+   "nome": "OCI 006-9, só a consulta (I50)",
+   "ficha": "dados/fontes/sigtap_0902010069_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.01.079-1",
+    "02.02.02.038-0",
+    "02.05.01.003-2",
+    "02.11.02.003-6",
+    "02.11.02.004-4",
+    "02.11.02.006-0"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "papel": "consulta",
+     "entrada": true
+    }
+   ]
+  },
+  {
+   "id": "006-9 caso 2 I50",
+   "tipo": "oci",
+   "nome": "OCI 006-9, consulta e obrigatórios (I50)",
+   "ficha": "dados/fontes/sigtap_0902010069_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.01.079-1",
+    "02.02.02.038-0",
+    "02.05.01.003-2",
+    "02.11.02.003-6",
+    "02.11.02.004-4",
+    "02.11.02.006-0"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "ELETROCARDIOGRAMA",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "HOLTER 24 HORAS",
+     "papel": "exame",
+     "obrigatorio": true
+    }
+   ]
+  },
+  {
+   "id": "006-9 caso 1 I50 com I11.0, I13.0 e I13.2",
+   "tipo": "oci",
+   "nome": "OCI 006-9, só a consulta (I50 com I11.0, I13.0 e I13.2)",
+   "ficha": "dados/fontes/sigtap_0902010069_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.01.079-1",
+    "02.02.02.038-0",
+    "02.05.01.003-2",
+    "02.11.02.003-6",
+    "02.11.02.004-4",
+    "02.11.02.006-0"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "papel": "consulta",
+     "entrada": true
+    }
+   ]
+  },
+  {
+   "id": "006-9 caso 2 I50 com I11.0, I13.0 e I13.2",
+   "tipo": "oci",
+   "nome": "OCI 006-9, consulta e obrigatórios (I50 com I11.0, I13.0 e I13.2)",
+   "ficha": "dados/fontes/sigtap_0902010069_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.01.079-1",
+    "02.02.02.038-0",
+    "02.05.01.003-2",
+    "02.11.02.003-6",
+    "02.11.02.004-4",
+    "02.11.02.006-0"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "ELETROCARDIOGRAMA",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "HOLTER 24 HORAS",
+     "papel": "exame",
+     "obrigatorio": true
+    }
+   ]
+  },
+  {
+   "id": "006-9 caso 1 IC ampliada",
+   "tipo": "oci",
+   "nome": "OCI 006-9, só a consulta (IC ampliada)",
+   "ficha": "dados/fontes/sigtap_0902010069_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.01.079-1",
+    "02.02.02.038-0",
+    "02.05.01.003-2",
+    "02.11.02.003-6",
+    "02.11.02.004-4",
+    "02.11.02.006-0"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\",\"I42*\",\"I43*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "papel": "consulta",
+     "entrada": true
+    }
+   ]
+  },
+  {
+   "id": "006-9 caso 2 IC ampliada",
+   "tipo": "oci",
+   "nome": "OCI 006-9, consulta e obrigatórios (IC ampliada)",
+   "ficha": "dados/fontes/sigtap_0902010069_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.01.079-1",
+    "02.02.02.038-0",
+    "02.05.01.003-2",
+    "02.11.02.003-6",
+    "02.11.02.004-4",
+    "02.11.02.006-0"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"I*\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\",\"I42*\",\"I43*\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "ELETROCARDIOGRAMA",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+     "papel": "exame",
+     "obrigatorio": true
+    },
+    {
+     "nome": "HOLTER 24 HORAS",
+     "papel": "exame",
+     "obrigatorio": true
+    }
+   ]
+  },
+  {
+   "id": "002-6 pelo ECG",
+   "tipo": "oci",
+   "nome": "OCI 002-6, a consulta e o eletrocardiograma com Z13.6 ou Z84.8",
+   "ficha": "dados/fontes/sigtap_0902010026_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.02.038-0",
+    "02.04.03.015-3",
+    "02.05.01.003-2",
+    "02.11.02.003-6"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+   "idade": {
+    "min": 18,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - ADULTO",
+     "papel": "consulta",
+     "entrada": true
+    },
+    {
+     "nome": "ELETROCARDIOGRAMA",
+     "papel": "exame",
+     "obrigatorio": true
+    }
+   ]
+  },
+  {
+   "id": "P-08 risco cirurgico",
+   "tipo": "oci",
+   "nome": "Consulta de risco cirúrgico inteira, para a 007-7 (P-08)",
+   "ficha": "dados/fontes/sigtap_0902010077_102026.md",
+   "codigos": [
+    "02.02.01.027-9",
+    "02.02.01.028-7",
+    "02.02.01.029-5",
+    "02.02.01.031-7",
+    "02.02.01.047-3",
+    "02.02.01.050-3",
+    "02.02.01.060-0",
+    "02.02.01.063-5",
+    "02.02.01.064-3",
+    "02.02.01.065-1",
+    "02.02.01.067-8",
+    "02.02.01.069-4",
+    "02.02.02.013-4",
+    "02.02.02.014-2",
+    "02.02.02.038-0",
+    "02.04.03.015-3",
+    "02.11.02.003-6"
+   ],
+   "cid_aceito": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}",
+   "cid_finalidade": "codigo_cid_solicitado={\"*\"}",
+   "idade": {
+    "min": 0,
+    "max": 130
+   },
+   "sexo": "ambos",
+   "filas": [
+    {
+     "nome": "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+     "papel": "consulta",
+     "entrada": true
+    }
+   ]
+  }
+ ]
+}

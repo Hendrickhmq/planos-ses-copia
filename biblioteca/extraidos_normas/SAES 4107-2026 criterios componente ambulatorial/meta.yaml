@@ -1,0 +1,10 @@
+id: "SAES 4107-2026 criterios componente ambulatorial"
+arquivo: "SAES 4107-2026 criterios componente ambulatorial.html"
+sha256: "c7066f197eb390cf0509dc2094b4aacfad5d80fc7da33bd7466eb7a231c8a7c7"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 2421
+tabelas_total: 1
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

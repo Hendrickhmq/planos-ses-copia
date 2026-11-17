@@ -1,0 +1,244 @@
+{
+  "titulo": "Exames de imagem — PT simplificado, Emenda de Bancada 71080005",
+  "data": "2026-10-19",
+  "arquivos": [
+    {
+      "arquivo": "documento.md",
+      "o_que_e": "o documento em análise",
+      "origem": "planos/redacao_07/plano_v1_geral.md",
+      "mascarados": 0,
+      "sha256": "431b8e4cc5a9a8a31854594d21e2c1b0b6de8ac7ceb2281ed891f9dd6a893e73"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_4282-2026_rol_imagem_e_incremento.pdf.md",
+      "o_que_e": "norma: SAES 4282-2026 rol imagem e incremento.pdf",
+      "origem": "biblioteca/normas/SAES 4282-2026 rol imagem e incremento.pdf",
+      "mascarados": 0,
+      "sha256": "0432e6153af190e83d83fea66e84ac44e22178d8841d8d052b6f04ac917e8216"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_4694-2026_rol_imagem_ambulatorial.md",
+      "o_que_e": "norma: SAES 4694-2026 rol imagem ambulatorial",
+      "origem": "biblioteca/extraidos_normas/SAES 4694-2026 rol imagem ambulatorial/",
+      "mascarados": 0,
+      "sha256": "f68f404af4e8c5cc58246371cbd8ddf6a71857ef3b8dae978f9b946ac3f2f7e0"
+    },
+    {
+      "arquivo": "fontes/normas/SAES_4695-2026_rol_imagem_ressarcimento.md",
+      "o_que_e": "norma: SAES 4695-2026 rol imagem ressarcimento",
+      "origem": "biblioteca/extraidos_normas/SAES 4695-2026 rol imagem ressarcimento/",
+      "mascarados": 0,
+      "sha256": "059ce31853caf068050437a814c5b44bdff3a5d99c2486810609f41d8572455a"
+    },
+    {
+      "arquivo": "fontes/normas/Portaria_GM_MS_10.297_de_27_02_2026.md",
+      "o_que_e": "norma: Portaria GM_MS 10.297 de 27_02_2026",
+      "origem": "biblioteca/extraidos_normas/Portaria GM_MS 10.297 de 27_02_2026/",
+      "mascarados": 0,
+      "sha256": "4a4edf302e00b21220efefa0bdb773e91bd230a30c251f316f23391dfb6475ad"
+    },
+    {
+      "arquivo": "fontes/normas/GM_8283-2025_emendas_bancada_e_comissao.md",
+      "o_que_e": "norma: GM 8283-2025 emendas bancada e comissao",
+      "origem": "biblioteca/extraidos_normas/GM 8283-2025 emendas bancada e comissao/",
+      "mascarados": 0,
+      "sha256": "f7b265dd57d834e15bce8931e608972905f4b6cc33822eaffc8027fd5f71d5b5"
+    },
+    {
+      "arquivo": "fontes/normas/Decreto_48727_de_09_06_2026.md",
+      "o_que_e": "norma: Decreto 48727 de 09_06_2026",
+      "origem": "biblioteca/extraidos_normas/Decreto 48727 de 09_06_2026/",
+      "mascarados": 0,
+      "sha256": "20554e15081175d46976b800b4becb9838ec672346f44ba14736a9fcca8fb727"
+    },
+    {
+      "arquivo": "fontes/normas/RDC_ANVISA_611-2022_servicos_de_radiologia_diagnostica.pdf.md",
+      "o_que_e": "norma: RDC ANVISA 611-2022 servicos de radiologia diagnostica.pdf",
+      "origem": "biblioteca/normas/RDC ANVISA 611-2022 servicos de radiologia diagnostica.pdf",
+      "mascarados": 0,
+      "sha256": "3311fa8242e214bd22cc8447db5734a006051fe69cdad3dda66fd298e1fad601"
+    },
+    {
+      "arquivo": "fontes/normas/IN_ANVISA_93-2021_tomografia_computadorizada_republicada_2022_.pdf.md",
+      "o_que_e": "norma: IN ANVISA 93-2021 tomografia computadorizada (republicada 2022).pdf",
+      "origem": "biblioteca/normas/IN ANVISA 93-2021 tomografia computadorizada (republicada 2022).pdf",
+      "mascarados": 0,
+      "sha256": "75f1a878bdb32d0f9f2a2503cb5ace981f42dd13d5a9bc936680f50c908d7cd9"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_01.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_01)",
+      "origem": "estudo/normalizados/pt_ses_01/texto.md",
+      "mascarados": 1,
+      "sha256": "e545911aa341ba57e9166aba4f0b00c455a0eee3df2c10047407a3b2161e9610"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_02.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_02)",
+      "origem": "estudo/normalizados/pt_ses_02/texto.md",
+      "mascarados": 1,
+      "sha256": "6ae722cf2d9bdac47dfeeba53d0ad7a015870335ae004bfc9ae1abb280f4a6a0"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_03.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_03)",
+      "origem": "estudo/normalizados/pt_ses_03/texto.md",
+      "mascarados": 1,
+      "sha256": "3ec51e85bca8898837ba9028d3f8ecc6ca9f14ddb24a72c011a879c4a028e601"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_04.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_04)",
+      "origem": "estudo/normalizados/pt_ses_04/texto.md",
+      "mascarados": 1,
+      "sha256": "79679908a5d9ce15af8fcd8b13d74ef80113f1330bae0fded89c6d347fc7b89f"
+    },
+    {
+      "arquivo": "fontes/aprovados/pt_ses_05.md",
+      "o_que_e": "plano de trabalho aprovado pela SES-DF (pt_ses_05)",
+      "origem": "estudo/normalizados/pt_ses_05/texto.md",
+      "mascarados": 0,
+      "sha256": "8b7a7d37beabe868ed9678d559aa29674b46fd0d288759fcd51f417958b2806a"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0204030188_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0204030188_102026.md",
+      "mascarados": 0,
+      "sha256": "0fa81b3761a4089a430861d3099557164f7ff6d5beebaa0e69cf56e20ca1864d"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0204060028_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0204060028_102026.md",
+      "mascarados": 0,
+      "sha256": "b58be055965b08fe8cb5ba8fa8dae852f8e7264b3986eef78dc81c7bf969dad8"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0205020062_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0205020062_102026.md",
+      "mascarados": 0,
+      "sha256": "1df5e1b2423b1aba813e13fe64cc8ba22087fbe31f502a5d220edcb78f462007"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0205020070_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0205020070_102026.md",
+      "mascarados": 0,
+      "sha256": "abc4272d62684fcdddbf148d8196e48ccb5a99c5e3f5a640fc887f9c9717da61"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0205020089_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0205020089_102026.md",
+      "mascarados": 0,
+      "sha256": "2b29daecf6ea05161060e5dc4e969f49a02c2ef59d62efb6a13278d52500c1a9"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0205020143_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0205020143_102026.md",
+      "mascarados": 0,
+      "sha256": "bded68d1ca8d1cedf8273bd7e243113d4b3d42093330bf4a3fbb0466235e6f70"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0205020151_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0205020151_102026.md",
+      "mascarados": 0,
+      "sha256": "bcf677ea3363092f20b75503a2f6486c2c2de8578ac1067da8b3543c5bfbc678"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0205020160_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0205020160_102026.md",
+      "mascarados": 0,
+      "sha256": "4f560a833c4e2e98e681ce54c94681c06c33a4c517aa3c0d5ea926501996c949"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0205020178_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0205020178_102026.md",
+      "mascarados": 0,
+      "sha256": "2744c8d5d827333b533af773a3bff1d5472109c50ea3ebe75adfb91e5df7e3ad"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0206010010_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0206010010_102026.md",
+      "mascarados": 0,
+      "sha256": "d3d4dd97c046952b4062a2589e3c99f516245b446f7c5316c4ea059035f9d6a7"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0206010028_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0206010028_102026.md",
+      "mascarados": 0,
+      "sha256": "8e4c62724ed13ed6042c7c0fd6b89f7f9112bfe9769df2ee0954f67bc0c0d471"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0206010036_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0206010036_102026.md",
+      "mascarados": 0,
+      "sha256": "e3744e46ec636e67cc5247429af0ff6d427e09ca57dbdb25960f31df809067aa"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0206010044_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0206010044_102026.md",
+      "mascarados": 0,
+      "sha256": "fab57e29857adb721a72f399dba8d559f142203b277cd70df0617825d3f26b07"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0206010052_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0206010052_102026.md",
+      "mascarados": 0,
+      "sha256": "0ac40c3ae25d0e92c44d5cd281e52572908d4e0c381d69a0e7a5663990a943f5"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0206010060_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0206010060_102026.md",
+      "mascarados": 0,
+      "sha256": "332092b31d3029b647111d42f799f7910725fa6218bce2f0a6f67f09a745a951"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0206010079_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0206010079_102026.md",
+      "mascarados": 0,
+      "sha256": "3b4c991d5ec80895e58d60f80747829ed4d7c15e985dffb2ebe4e748c56f5f91"
+    },
+    {
+      "arquivo": "fontes/fichas/sigtap_0206020023_102026.md",
+      "o_que_e": "ficha da Tabela do SUS (SIGTAP)",
+      "origem": "planos/redacao_07/dados/fontes/sigtap_0206020023_102026.md",
+      "mascarados": 0,
+      "sha256": "ed1ab4a7fbe5e7a0165446e1b7415ed7a95433c8c29b9d15efda1af4063995ab"
+    },
+    {
+      "arquivo": "fontes/outras/formulario_ses_plano_de_trabalho_simplificado.md",
+      "o_que_e": "fonte: formulario_ses_plano_de_trabalho_simplificado.md",
+      "origem": "/private/tmp/claude-501/-Users-hendrick-Projetos-planos-ses/3186692c-2f1f-4969-ac2d-92f56e4124fb/scratchpad/fontes_rev/formulario_ses_plano_de_trabalho_simplificado.md",
+      "mascarados": 0,
+      "sha256": "d2f58b78fe19d6c8c800220e913b676e0f8d3b081bfe0118e640e7a0d97a6148"
+    },
+    {
+      "arquivo": "fontes/outras/oficio_398_2026_arins.md",
+      "o_que_e": "fonte: oficio_398_2026_arins.md",
+      "origem": "/private/tmp/claude-501/-Users-hendrick-Projetos-planos-ses/3186692c-2f1f-4969-ac2d-92f56e4124fb/scratchpad/fontes_rev/oficio_398_2026_arins.md",
+      "mascarados": 0,
+      "sha256": "8bd9fbb5bbd0c1b6845349fa30940067b8be76b651fdb73e37c1cd04d295cb0e"
+    },
+    {
+      "arquivo": "fontes/outras/oficio_88_2026_bancada_df.md",
+      "o_que_e": "fonte: oficio_88_2026_bancada_df.md",
+      "origem": "/private/tmp/claude-501/-Users-hendrick-Projetos-planos-ses/3186692c-2f1f-4969-ac2d-92f56e4124fb/scratchpad/fontes_rev/oficio_88_2026_bancada_df.md",
+      "mascarados": 0,
+      "sha256": "f4fdd5a46a5d22ab541559317da667eb7acf4382d2c172c04a81d07e099c74a5"
+    }
+  ]
+}

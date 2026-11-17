@@ -1,0 +1,81 @@
+{
+ "contrato": "2026-10-27",
+ "tipo": "medicao",
+ "plano": "planos/redacao_08",
+ "pedido": "Eco ambulatorial de 04/11/2026, fila a fila: entrantes, oferta pelo mês do agendamento (realizados e faltas), situação e ano de cada fila de ecocardiografia com fila viva",
+ "saida": "area_de_transferencia",
+ "janela_viva_meses": 24,
+ "dimensoes": [
+  "entrantes",
+  "oferta",
+  "situacao",
+  "ano"
+ ],
+ "objetos": [
+  {
+   "id": "eco adulto",
+   "tipo": "exame",
+   "nome": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "filas": [
+    {
+     "nome": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO"
+    }
+   ]
+  },
+  {
+   "id": "eco infantil",
+   "tipo": "exame",
+   "nome": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL",
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "filas": [
+    {
+     "nome": "2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL"
+    }
+   ]
+  },
+  {
+   "id": "eco fetal",
+   "tipo": "exame",
+   "nome": "9. ECOCARDIOGRAFIA FETAL",
+   "codigos": [
+    "02.05.01.003-2"
+   ],
+   "filas": [
+    {
+     "nome": "9. ECOCARDIOGRAFIA FETAL"
+    }
+   ]
+  },
+  {
+   "id": "eco de estresse",
+   "tipo": "exame",
+   "nome": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+   "codigos": [
+    "02.05.01.001-6"
+   ],
+   "filas": [
+    {
+     "nome": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO"
+    }
+   ]
+  },
+  {
+   "id": "eco transesofágico adulto",
+   "tipo": "exame",
+   "nome": "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO",
+   "codigos": [
+    "02.05.01.002-4"
+   ],
+   "filas": [
+    {
+     "nome": "7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO"
+    }
+   ]
+  }
+ ]
+}

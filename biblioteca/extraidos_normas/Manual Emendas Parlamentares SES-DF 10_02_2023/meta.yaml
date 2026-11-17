@@ -1,0 +1,19 @@
+id: "Manual Emendas Parlamentares SES-DF 10_02_2023"
+arquivo: "Manual Emendas Parlamentares SES-DF 10_02_2023.pdf"
+processo_sei: ""
+sha256: "e8ee67178e4e69d92ba9236dca863b32f6cc2229698c222afa8170bd983a3272"
+paginas: 175
+chars_texto: 230356
+tabelas_total: 1
+tabelas_por_pagina:
+  pagina_94: 1
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+molduras_descartadas_total: 0
+molduras_descartadas_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por, tesseract 5.4.0.20240606"
+ferramenta: "pdfplumber 0.11.10"
+data_extracao: "2026-09-27T19:09:15"

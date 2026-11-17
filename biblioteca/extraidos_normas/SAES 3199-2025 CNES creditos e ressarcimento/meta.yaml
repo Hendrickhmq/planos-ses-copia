@@ -1,0 +1,10 @@
+id: "SAES 3199-2025 CNES creditos e ressarcimento"
+arquivo: "SAES 3199-2025 CNES creditos e ressarcimento.html"
+sha256: "d071a6abf9c757c4b2d681e52e9aedb75f0b9987c082a4e7eead77f817afc106"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 14002
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:47"

@@ -1,0 +1,22 @@
+Procedimento,09.08.01.002-8 OCI PROGRESSÃO DA AVALIAÇÃO DIAGNÓSTICA DE SÍNDROMES RESPIRATÓRIAS
+Descrição,"FINALIDADE DE AVALIAÇÃO DIAGNÓSTICA, ENCAMINHAMENTO E GESTÃO DO CUIDADO DE USUÁRIOS VIVENDO COM HIV/AIDS QUE NECESSITEM DE ATENÇÃO ESPECIALIZADA POR MEIO DO CONJUNTO DE PROCEDIMENTOS: CONSULTA MÉDICA EM ATENÇÃO ESPECIALIZADA;"
+,BRONCOSCOPIA (BRONCOFIBROSCOPIA); COLETA DE LAVADO BRONCO-ALVEOLAR; CULTURA SÓLIDA PARA MICOBACTÉRIAS; TESTE DE SENSIBILIDADE EM MEIO SÓLIDO PARA FÁRMACOS CONTRA MICOBACTÉRIAS; EXAME MICOLÓGICO DIRETO; CULTURA PARA IDENTIFICAÇÃO MORFOLÓGICA DE FUNGOS; EXAME ANÁTOMO-PATOLÓGICO PARA CONGELAMENTO / PARAFINA POR PEÇA CIRÚRGICA OU POR BIOPSIA (EXCETO COLO UTERINO E MAMA)
+Instrumento de registro,APAC (Proc. Principal)
+Modalidade de atendimento,Ambulatorial
+Complexidade,Média complexidade
+Tipo de financiamento,04-Fundo de Ações Estratégicas e Compensações (FAEC)
+Subtipo de financiamento,040086-Programa Agora Tem Especialistas -Componente Ambulatorial
+Sexo,Ambos
+Idade Mínima,0 meses
+Idade Máxima,130 anos
+Valor do Serviço Ambulatorial,"R$ 387,87"
+Total do Serviço Ambulatorial,"R$ 387,87"
+CID-10 principal,B20: Doença pelo vírus da imunodeficiência humana [HIV] resultando em doenças infecciosas e parasitárias.B21: Doença pelo HIV resultando em neoplasias malignas.B22: Doença pelo HIV resultando em outras doenças especificadas.
+,"B23: Doença pelo HIV resultando em outras condições, incluindo infecção aguda (B23.0) e linfadenopatias (B23.1).B24: Doença pelo vírus da imunodeficiência humana [HIV] não especificada, comumente usada para casos de AIDS/Sida.Z21: Estado de infecção assintomática pelo HIV"
+CID-10 Secundário,J18.9 - Pneumonia bacteriana não especificadaJ18.0 - Broncopneumonia não especificadaB39.0 - Histoplasmose pulmonarB45.0 - Criptococose pulmonar
+,A16.2 - Tuberculose pulmonar sem confirmação bacteriológica ou histológicaB419 - Paracoccidioidomicose não especificadaB44.1 - Outras aspergiloses pulmonares.B38.0 - Coccidioidomicose pulmonar aguda.B48.7 - Micoses oportunistas.
+Categoria CBO,2251 - Médicos Clínicos2252 - Médicos em especialidades cirúrgicas2253 - Médicos em medicina diagnóstica e terapêutica
+Quantidade Máxima,1
+Atributo Complementar,043 - Exige registro de CID de causas associadas058- Obrigatório CPF053 - Programa Mais Acesso a Especialistas (PMAE)059- Componente Complementar - Modalidade 2
+Regra Condicionada,0009 - CONDICIONA AOS SECUNDÁRIOS A TEREM VALOR ZERADO0011- CONDICIONA O REGISTRO DE PROCEDIMENTOS SECUNDÁRIOS NA APAC0013-GERA COMPENSAÇÃO FINANCEIRA0014-CONDICIONA O TIPO DE FINANCIAMENTO EM MAC0015-CONDICIONA O TIPO DE FINANCIAMENTO EM FAEC
+Habilitação,38.01 Programa Mais Acesso a Especialistas38.02 Agora Tem Especialistas Modalidade 138.03 Agora Tem Especialistas Modalidade 2 Equipes Volantes38.05 Agora Tem Especialistas - Componente Créditos Financeiros38.06 Agora Tem Especialistas - Componente Ressarcimento ao SUS

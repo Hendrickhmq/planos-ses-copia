@@ -1,0 +1,1296 @@
+# Mapa Social da Saúde — panorama: radiologia, ultrassonografia, tomografia, ressonância magnética, medicina nuclear, radiologia intervencionista, coleta de 02/11/2026
+
+Ordem de coleta: Estudo das filas de imagem para decidir o plano 4: inventário de todas as filas de imagem, inclusive as pequenas e antigas, com estoque, pessoas, devolvidas, fila viva, espera e agendadas, e o rumo de cada código (entrantes, oferta com realizados e faltas, situação).
+
+Coleta montada por `ferramentas/montar_coleta.py` a partir da saída do kit do motor: o modelo não escreveu número nenhum, e o resumo não se edita à mão (conferência K). A decisão de cada fila vem do enquadramento do plano.
+
+| campo | conteúdo |
+|---|---|
+| Fonte | Mapa Social da Saúde – Regulamentação (MPDFT) · Lista de Espera – Exames e Consultas · `https://paineis-ext.mpdft.mp.br/extensions/mapasauderegulamentacao/mapasauderegulamentacao.html` · app Qlik `7edb02fa-f1f5-4ea6-b348-049a4ac2d095` · dados SISREG/DATASUS |
+| Última recarga da base | 02/11/2026 10:31:47 (qLastReloadTime 2026-11-02T13:31:47.865Z) |
+| Consulta | 02/11/2026 12:27:10 a 12:27:37 (relógio do motor), sem recarga no meio |
+| Solicitação mais recente na base | 28/10/2026 (agendamento mais distante: 04/02/2027) |
+| Medida | **fila** = os três status: pendente de regulação, corrigida e reenviada para regulação, pendente de regulação por fila de espera. Devolvidas para complementação ficam fora e são contadas à parte |
+| Fila viva | só as solicitações a partir de `data_solicitacao={">=28/10/2024"}` (24 meses contados da solicitação mais recente) |
+| Agendadas em 12 meses | `data_agendamento={">=28/10/2025<=27/10/2026"}`, todos os status |
+| Ordem | panorama; `ordem.json` (hash 1504192587) |
+| Via | kit do motor `ferramentas/mapa_social/motor.js` (versão 2026-10-27, assinatura 2089625745); saída pela área de transferência, 2 parte(s) conferidas por hash (`ferramentas/ler_motor.py`) |
+
+Pessoas = CNS distintos no conjunto (quem espera por mais de um exame conta uma vez); só a contagem sai do motor. Espera em dias, calculada no motor sobre os registros do conjunto.
+
+## Alarmes
+
+Não se aplicam ao panorama: os alarmes são do objeto (CID, composição, fila viva), e o panorama não tem objeto.
+
+## Lacunas
+
+nenhuma
+
+## O universo
+
+O total de cada universo é do motor, com cada pedido e cada pessoa uma vez: a soma das filas pode passar dele, porque o mesmo pedido pode estar em dois pares nome × código.
+
+| recorte | o que entra | filas | fila | fila viva | pessoas |
+|---|---|---|---|---|---|
+| radiologia | codigos: 02.04* | 174 | 14.093 | 14.022 | 12.748 |
+| ultrassonografia | codigos: 02.05* | 151 | 99.169 | 74.069 | 79.673 |
+| tomografia | codigos: 02.06* | 196 | 21.269 | 21.039 | 11.599 |
+| ressonância magnética | codigos: 02.07* | 109 | 10.149 | 10.142 | 7.690 |
+| medicina nuclear | codigos: 02.08* | 24 | 5.663 | 5.663 | 4.178 |
+| radiologia intervencionista | codigos: 02.10* | 2 | 9 | 9 | 9 |
+
+## Varredura das filas (panorama)
+
+Cada fila do universo (nome exato × código), sem decisão: o panorama só mostra. Anos de estoque = fila ÷ agendadas em 12 meses pelo mesmo nome e código (**calculado**).
+
+### radiologia: por pessoas
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA) | 02.04.03.018-8 | 6.448 | 6.398 | 6.447 | 2.137 | 63,0 | 34,9 | 2.187,0 | 06/11/2020 | 50.738 | 0,1 | Z12 4.780, Z01 350, N63 247 |
+| DENSITOMETRIA OSSEA - RADIODIAGNOSTICO | 02.04.06.002-8 | 2.178 | 2.177 | 2.178 | 3.670 | 49,7 | 38,0 | 2.175,8 | 17/11/2020 | 12.934 | 0,2 | M81 1.166, M85 228, M80 156 |
+| RADIOLOGIA PERIAPICAL - ATÉ 5 INCIDÊNCIAS | 02.04.01.018-7 | 659 | 659 | 659 | 638 | 27,5 | 25,8 | 70,0 | 24/08/2026 | 8.377 | 0,1 | K02 294, K08 163, K04 140 |
+| TORAX : PA E PERFIL | 02.04.03.015-3 | 648 | 648 | 648 | 189 | 105,5 | 99,8 | 223,8 | 23/03/2026 | 13.091 | 0,0 | R07 63, R06 40, R05 34 |
+| RADIOGRAFIA PERIAPICAL DE 6 A 13 INCIDÊNCIAS | 02.04.01.017-9 | 590 | 590 | 590 | 236 | 215,5 | 191,8 | 545,7 | 05/05/2025 | 603 | 1,0 | K02 283, K05 101, K08 99 |
+| RADIOGRAFIA PANORAMICA | 02.04.01.017-9 | 482 | 478 | 481 | 2.565 | 39,4 | 18,4 | 2.393,0 | 14/04/2020 | 15.104 | 0,0 | K08 181, K01 137, K02 52 |
+| MAMOGRAFIA BILATERAL DIAGNOSTICA | 02.04.03.018-8 | 182 | 182 | 182 | 540 | 45,4 | 31,9 | 243,9 | 03/03/2026 | 5.069 | 0,0 | N63 61, Z12 56, N64 14 |
+| COLUNA LOMBO SACRA (AP E PERFIL) | 02.04.02.006-9 | 145 | 145 | 145 | 31 | 100,3 | 89,8 | 229,8 | 17/03/2026 | 780 | 0,2 | M54 115, M25 5, M45 4 |
+| RADIOGRAFIA DE BOCA TOTAL (14 PERIAPICAIS + 4 BITE-WINGS) | 02.04.01.017-9 | 96 | 96 | 96 | 227 | 56,8 | 53,3 | 159,0 | 27/05/2026 | 535 | 0,2 | K05 32, K02 30, K04 14 |
+| COLUNA CERVICAL (AP E PERFIL) | 02.04.02.003-4 | 88 | 87 | 88 | 22 | 133,4 | 116,4 | 1.375,7 | 26/01/2023 | 1.272 | 0,1 | M54 62, M45 8, M41 4 |
+| MAO DIREITA (AP E OBLIQUO) | 02.04.04.009-4 | 87 | 87 | 87 | 28 | 62,9 | 40,0 | 222,9 | 24/03/2026 | 348 | 0,2 | M25 15, M06 14, M79 10 |
+| MAO ESQUERDA (AP E OBLIQUO) | 02.04.04.009-4 | 86 | 86 | 86 | 29 | 70,1 | 44,9 | 222,9 | 24/03/2026 | 302 | 0,3 | M25 17, M06 13, M05 11 |
+| JOELHO DIREITO (AP E PERFIL) | 02.04.06.012-5 | 85 | 85 | 85 | 29 | 112,1 | 103,8 | 231,0 | 16/03/2026 | 754 | 0,1 | M25 22, M17 19, M23 14 |
+| JOELHO ESQUERDO (AP E PERFIL) | 02.04.06.012-5 | 81 | 81 | 81 | 33 | 123,1 | 124,7 | 231,0 | 16/03/2026 | 687 | 0,1 | M17 21, M25 17, M23 13 |
+| PE OU PODODACTILOS DIREITO | 02.04.06.015-0 | 76 | 76 | 76 | 3 | 55,3 | 36,3 | 216,7 | 30/03/2026 | 132 | 0,6 | M25 13, M79 12, M77 9 |
+| CAVUM - LATERAL | 02.04.01.006-3 | 74 | 74 | 74 | 7 | 113,8 | 111,3 | 230,7 | 16/03/2026 | 805 | 0,1 | J35 48, G47 7, J30 6 |
+| JOELHO : AP + LATERAL DIREITO | 02.04.06.012-5 | 73 | 73 | 73 | 5 | 55,3 | 34,8 | 230,8 | 16/03/2026 | 156 | 0,5 | M25 17, M23 17, M17 17 |
+| MAOS E PUNHOS PARA IDADE OSSEA ESQUERDO | 02.04.04.010-8 | 73 | 73 | 73 | 5 | 124,0 | 110,8 | 234,7 | 12/03/2026 | 41 | 1,8 | E34 15, E30 15, E66 10 |
+| JOELHO : AP + LATERAL ESQUERDO | 02.04.06.012-5 | 61 | 61 | 61 | 4 | 47,9 | 32,0 | 230,8 | 16/03/2026 | 119 | 0,5 | M25 22, M23 16, M17 6 |
+| RADIOGRAFIA DE CAVUM (LATERAL + HIRTZ) | 02.04.01.006-3 | 61 | 61 | 61 | 8 | 113,4 | 110,7 | 229,0 | 18/03/2026 | 1.776 | 0,0 | J35 39, R06 13, J34 4 |
+| JOELHO OU ROTULA - AP + LAT. + AXIAL DIREITO | 02.04.06.013-3 | 59 | 59 | 59 | 3 | 81,3 | 87,0 | 230,9 | 16/03/2026 | 118 | 0,5 | M25 22, M23 13, M17 7 |
+| PE OU PODODACTILOS DIREITO (AP E OBLIQUO) | 02.04.06.015-0 | 59 | 59 | 59 | 18 | 127,9 | 130,0 | 230,0 | 17/03/2026 | 577 | 0,1 | M25 8, M79 7, M77 6 |
+| PE OU PODODACTILOS ESQUERDO | 02.04.06.015-0 | 58 | 58 | 58 | 6 | 46,1 | 32,4 | 214,8 | 01/04/2026 | 114 | 0,5 | M25 10, M79 6, M77 6 |
+| COLUNA LOMBO-SACRA (AP E PERFIL) | 02.04.02.006-9 | 54 | 54 | 54 | 17 | 143,1 | 163,4 | 230,9 | 16/03/2026 | 1.685 | 0,0 | M54 37, M45 4, M25 3 |
+| COLUNA DORSAL : AP + LATERAL | 02.04.02.009-3 | 53 | 53 | 53 | 10 | 130,7 | 124,7 | 234,7 | 12/03/2026 | 52 | 1,0 | M54 41, M81 3, M41 2 |
+| BACIA (AP E FROG) | 02.04.06.009-5 | 52 | 52 | 52 | 20 | 99,9 | 96,8 | 229,8 | 17/03/2026 | 59 | 0,9 | M45 9, M25 6, M16 6 |
+| PE OU PODODACTILOS ESQUERDO (AP E OBLIQUO) | 02.04.06.015-0 | 49 | 49 | 49 | 18 | 138,5 | 131,0 | 231,0 | 16/03/2026 | 585 | 0,1 | M25 5, M05 4, S93 3 |
+| COLUNA CERVICAL: AP + LATERAL + TO + OBLIQUAS (AP E PERFIL) | 02.04.02.003-4 | 47 | 47 | 47 | 3 | 85,3 | 86,7 | 202,0 | 14/04/2026 | 63 | 0,7 | M54 30, M50 4, M79 3 |
+| MAO DIREITA ( DUAS INCIDENCIAS) (AP E OBLIQUO) | 02.04.04.009-4 | 46 | 46 | 46 | 4 | 113,3 | 105,9 | 230,9 | 16/03/2026 | 39 | 1,2 | M06 10, M05 10, M25 6 |
+| JOELHO OU ROTULA - AP + LAT. + AXIAL ESQUERDO | 02.04.06.013-3 | 44 | 44 | 44 | 5 | 75,9 | 81,4 | 185,7 | 30/04/2026 | 98 | 0,4 | M25 18, M23 8, M17 5 |
+| COLUNA LOMBAR: AP+LATERAL | 02.04.02.006-9 | 39 | 39 | 39 | 14 | 141,2 | 140,0 | 234,7 | 12/03/2026 | 34 | 1,1 | M54 31, M06 1, M81 1 |
+| COLUNA LOMBAR (AP E PERFIL) | 02.04.02.006-9 | 38 | 38 | 38 | 25 | 107,7 | 98,8 | 215,8 | 31/03/2026 | 1.010 | 0,0 | M54 27, M25 2, M81 1 |
+| RADIOGRAFIA DE MAO E PUNHO P/DETERMINACAO DE IDADE OSSEA | 02.04.04.010-8 | 36 | 36 | 36 | 3 | 117,6 | 117,4 | 221,8 | 25/03/2026 | 441 | 0,1 | E23 15, E22 6, E30 5 |
+| PUNHO ESQUERDO: AP + LATERAL + OBLIQUOS | 02.04.04.012-4 | 35 | 35 | 35 | 9 | 109,2 | 96,8 | 227,0 | 20/03/2026 | 35 | 1,0 | M06 11, M25 6, M05 6 |
+| COLUNA LOMBO SACRA COM OBLIQUAS (AP E PERFIL) | 02.04.02.007-7 | 33 | 33 | 33 | 4 | 85,4 | 68,8 | 202,0 | 14/04/2026 | 133 | 0,2 | M54 26, Z00 2, M16 1 |
+| MAO ESQUERDA ( DUAS INCIDENCIAS) (AP E OBLIQUO) | 02.04.04.009-4 | 33 | 33 | 33 | 4 | 101,5 | 88,0 | 208,8 | 07/04/2026 | 27 | 1,2 | M05 8, M06 5, M25 4 |
+| PUNHO DIREITO: AP + LATERAL + OBLIQUOS | 02.04.04.012-4 | 33 | 33 | 33 | 6 | 94,6 | 82,8 | 219,9 | 27/03/2026 | 37 | 0,9 | M06 10, M25 6, M05 5 |
+| CALCANEO DIREITO (PERFIL E AXIAL) | 02.04.06.010-9 | 27 | 27 | 27 | 4 | 59,0 | 33,0 | 203,0 | 13/04/2026 | 235 | 0,1 | M77 17, M25 5, M79 2 |
+| CALCANEO ESQUERDO (PERFIL E AXIAL) | 02.04.06.010-9 | 26 | 26 | 26 | 5 | 69,6 | 44,3 | 229,8 | 17/03/2026 | 232 | 0,1 | M77 17, M25 3, M72 2 |
+| MAOS E PUNHOS PARA IDADE OSSEA | 02.04.04.010-8 | 26 | 26 | 26 | 32 | 96,4 | 84,8 | 215,0 | 01/04/2026 | 1.559 | 0,0 | E30 10, E66 3, E22 3 |
+| OMBRO DIREITO (AP VERDADEIRO, PERFIL DE ESCAPULAR E AXILAR) | 02.04.04.011-6 | 25 | 25 | 25 | 5 | 127,4 | 108,0 | 227,0 | 20/03/2026 | 707 | 0,0 | M75 17, M25 3, M19 2 |
+| ARTICULACAO TIBIO-TARSICA ESQUERDO (AP VERDADEIRO E PERFIL) | 02.04.06.008-7 | 24 | 24 | 24 | 8 | 110,0 | 97,9 | 213,6 | 02/04/2026 | 81 | 0,3 | M25 6, M15 2, M06 2 |
+| BACIA | 02.04.06.009-5 | 24 | 24 | 24 | 18 | 129,4 | 132,0 | 215,9 | 31/03/2026 | 923 | 0,0 | M16 4, M54 3, M25 3 |
+| PUNHO ESQUERDO: (AP E PERFIL) | 02.04.04.012-4 | 24 | 24 | 24 | 15 | 110,6 | 119,9 | 229,8 | 17/03/2026 | 104 | 0,2 | M79 3, M06 2, M65 2 |
+| MAO DIREITA ( DUAS INCIDENCIAS) | 02.04.04.009-4 | 23 | 23 | 23 | 1 | 129,4 | 136,8 | 230,7 | 16/03/2026 | 338 | 0,1 | M25 7, M15 2, M05 2 |
+| OMBRO ESQUERDO (AP VERDADEIRO, PERFIL DE ESCAPULAR E AXILAR) | 02.04.04.011-6 | 23 | 23 | 23 | 6 | 134,8 | 159,0 | 223,0 | 24/03/2026 | 582 | 0,0 | M75 13, M25 2, M79 2 |
+| COLUNA DORSAL (AP E PERFIL) | 02.04.02.009-3 | 22 | 22 | 22 | 9 | 97,9 | 92,4 | 230,0 | 17/03/2026 | 664 | 0,0 | M54 14, M45 2, M15 1 |
+| COTOVELO DIREITO (AP E PERFIL) | 02.04.04.007-8 | 22 | 22 | 22 | 3 | 93,4 | 79,3 | 229,8 | 17/03/2026 | 115 | 0,2 | M25 6, M77 3, M15 1 |
+| PERNA DIREITA (AP E PERFIL) | 02.04.06.016-8 | 22 | 22 | 22 | 6 | 105,4 | 107,3 | 230,0 | 17/03/2026 | 129 | 0,2 | S82 5, M79 4, M21 2 |
+| PUNHO DIREITO: (AP E PERFIL) | 02.04.04.012-4 | 21 | 21 | 21 | 14 | 123,4 | 116,7 | 231,0 | 16/03/2026 | 101 | 0,2 | M06 3, M25 3, M05 3 |
+| RADIOGRAFIA DE COLUNA TORACICA LOMBO - SACRA (AP + LATERAL) | 02.04.02.009-3 | 21 | 21 | 21 | 11 | 124,7 | 111,6 | 234,9 | 12/03/2026 | 21 | 1,0 | M54 12, M25 2, M41 2 |
+| ARTICULACAO TIBIO-TARSICA DIREITO (AP VERDADEIRO E PERFIL) | 02.04.06.008-7 | 20 | 20 | 20 | 6 | 117,9 | 119,0 | 213,6 | 02/04/2026 | 95 | 0,2 | M25 4, M15 2, M06 2 |
+| PERNA ESQUERDA (AP E PERFIL) | 02.04.06.016-8 | 20 | 20 | 20 | 6 | 100,4 | 96,3 | 230,0 | 17/03/2026 | 141 | 0,1 | M79 3, M21 3, M25 2 |
+| ARTICULACAO COXO-FEMORAL DIREITO | 02.04.06.006-0 | 18 | 18 | 18 | 4 | 30,1 | 28,0 | 69,0 | 25/08/2026 | 145 | 0,1 | M16 7, M25 5, M54 2 |
+| MAO ESQUERDA ( DUAS INCIDENCIAS) | 02.04.04.009-4 | 18 | 18 | 18 | 1 | 133,2 | 136,9 | 230,7 | 16/03/2026 | 322 | 0,1 | M25 7, M06 3, M81 1 |
+| RADIOGRAFIA DE COLUNA TORACICA (AP + LATERAL) | 02.04.02.009-3 | 18 | 18 | 18 | 6 | 109,7 | 97,8 | 222,9 | 24/03/2026 | 355 | 0,1 | M54 10, M41 2, M45 2 |
+| COLUNA DORSO - LOMBAR PARA ESCOLIOSE (AP E PERFIL) | 02.04.02.010-7 | 17 | 17 | 17 | 4 | 113,4 | 98,0 | 217,0 | 30/03/2026 | 42 | 0,4 | M41 13, M54 4 |
+| ARTICULACAO COXO-FEMORAL ESQUERDO | 02.04.06.006-0 | 16 | 16 | 16 | 2 | 63,7 | 40,4 | 205,9 | 10/04/2026 | 152 | 0,1 | M16 9, M25 4, T09 1 |
+| ARTICULACAO COXO-FEMORAL ESQUERDO (AP E PERFIL) | 02.04.06.006-0 | 16 | 16 | 16 | 1 | 106,0 | 95,9 | 223,0 | 24/03/2026 | 4 | 4,0 | M16 5, M25 3, M54 1 |
+| CALCANEO DIREITO | 02.04.06.010-9 | 16 | 16 | 16 | 2 | 64,6 | 47,1 | 192,7 | 23/04/2026 | 21 | 0,8 | M77 10, M79 2, M25 1 |
+| COTOVELO ESQUERDO (AP E PERFIL) | 02.04.04.007-8 | 15 | 15 | 15 | 5 | 110,2 | 91,0 | 229,8 | 17/03/2026 | 95 | 0,2 | M25 3, M77 2, M15 1 |
+| BRACO DIREITO (AP E PERFIL) | 02.04.04.005-1 | 14 | 14 | 14 | 1 | 86,5 | 66,0 | 188,0 | 28/04/2026 | 66 | 0,2 | M79 3, M25 1, S46 1 |
+| COLUNA DORSAL : AP + LATERAL (AP E PERFIL) | 02.04.02.009-3 | 14 | 14 | 14 | 4 | 129,5 | 116,9 | 230,9 | 16/03/2026 | 57 | 0,2 | M54 9, M41 2, M81 1 |
+| PANORAMICA DE MEMBROS INFERIORES | 02.04.06.017-6 | 14 | 14 | 14 | 5 | 120,7 | 104,8 | 270,7 | 04/02/2026 | 8 | 1,8 | M21 8, Q72 1, M79 1 |
+| SEIOS DA FACE - F.N.+M.N | 02.04.01.014-4 | 14 | 14 | 14 | 24 | 118,3 | 105,4 | 220,9 | 26/03/2026 | 902 | 0,0 | R51 5, J01 4, J34 1 |
+| CALCANEO ESQUERDO | 02.04.06.010-9 | 13 | 13 | 13 | 0 | 50,9 | 37,8 | 222,8 | 24/03/2026 | 21 | 0,6 | M79 4, M77 4, M25 2 |
+| RAIO X DE OMBRO DIREITO | 02.04.04.011-6 | 13 | 13 | 13 | 4 | 36,3 | 26,0 | 146,8 | 08/06/2026 | 107 | 0,1 | M75 10, M25 2, G56 1 |
+| BRACO ESQUERDO (AP E PERFIL) | 02.04.04.005-1 | 12 | 12 | 12 | 4 | 75,0 | 76,4 | 145,0 | 10/06/2026 | 61 | 0,2 | M79 3, Z30 2, M54 1 |
+| RADIOGRAFIA DE COLUNA TORACO ? LOMBAR | 02.04.02.010-7 | 12 | 12 | 12 | 3 | 105,6 | 119,4 | 209,9 | 06/04/2026 | 91 | 0,1 | M54 8, M81 2, M89 1 |
+| RADIOGRAFIA DE MAO | 02.04.04.009-4 | 11 | 11 | 11 | 2 | 76,8 | 90,0 | 132,0 | 23/06/2026 | 1.079 | 0,0 | M06 2, M25 2, M79 2 |
+| RADIOGRAFIA DE PE/DEDOS DO PE | 20406015 | 11 | 11 | 11 | 8 | 124,5 | 118,7 | 222,9 | 24/03/2026 | 1.220 | 0,0 | M25 2, Z00 2, M95 1 |
+| SEIOS DA FACE : F.N. + M.N. + LATERAL | 02.04.01.014-4 | 11 | 11 | 11 | 2 | 131,5 | 119,0 | 216,0 | 31/03/2026 | 7 | 1,6 | J32 4, J35 3, J34 1 |
+| COLUNA LOMBAR: AP + LATERAL + OBLIQUAS (AP E PERFIL) | 02.04.02.007-7 | 10 | 10 | 10 | 2 | 119,2 | 131,3 | 193,8 | 22/04/2026 | 35 | 0,3 | M54 7, M81 1, M51 1 |
+| COLUNA LOMBO-SACRA | 02.04.02.006-9 | 10 | 10 | 10 | 7 | 135,5 | 151,0 | 219,4 | 27/03/2026 | 214 | 0,0 | M54 8, M25 1, K30 1 |
+| JOELHO OU ROTULA DIREITO - AP + PERFIL + AXIAL | 02.04.06.013-3 | 10 | 10 | 10 | 0 | 84,9 | 80,0 | 181,9 | 04/05/2026 | 189 | 0,1 | M25 4, M23 2, M54 1 |
+| MAO ( DUAS INCIDENCIAS) | 02.04.04.009-4 | 10 | 10 | 10 | 4 | 175,8 | 198,4 | 230,8 | 16/03/2026 | 12 | 0,8 | M06 3, M25 2, M05 2 |
+| PE OU PODODACTILOS | 02.04.06.015-0 | 10 | 10 | 10 | 3 | 172,0 | 204,3 | 234,8 | 12/03/2026 | 12 | 0,8 | M05 2, M72 2, Q66 1 |
+| ANTEBRACO DIREITO (AP E PERFIL) | 02.04.04.001-9 | 9 | 9 | 9 | 1 | 119,0 | 145,0 | 201,7 | 14/04/2026 | 44 | 0,2 | M79 4, S63 1, M25 1 |
+| ARTICULACAO COXO-FEMORAL DIREITO (AP E PERFIL) | 02.04.06.006-0 | 9 | 9 | 9 | 2 | 102,3 | 111,0 | 215,0 | 01/04/2026 | 7 | 1,3 | M16 3, M54 2, M79 2 |
+| COLUNA DORSO - LOMBAR PARA ESCOLIOSE DINAMICA (AP E PERFIL) | 02.04.02.011-5 | 9 | 9 | 9 | 1 | 97,7 | 89,0 | 158,1 | 28/05/2026 | 5 | 1,8 | M41 5, M54 3, M51 1 |
+| COLUNA LOMBO SACRA COM OBLIQUAS | 02.04.02.007-7 | 9 | 9 | 9 | 0 | 152,6 | 179,0 | 208,8 | 07/04/2026 | 7 | 1,3 | M54 8, M41 1 |
+| COSTELAS - (ARCOS COSTAIS) ESQUERDO | 02.04.03.007-2 | 9 | 9 | 9 | 1 | 54,8 | 33,0 | 166,8 | 19/05/2026 | 34 | 0,3 | R07 3, M54 1, S23 1 |
+| JOELHO : AP + LATERAL | 02.04.06.012-5 | 9 | 9 | 9 | 4 | 171,6 | 205,9 | 220,9 | 26/03/2026 | 1.231 | 0,0 | M23 4, M25 2, M15 1 |
+| TORAX: P.A | 02.04.03.017-0 | 9 | 1 | 9 | 7 | 5.426,4 | 6.055,4 | 6.172,4 | 09/12/2009 | 32 | 0,3 | R68 3, Z10 2, I10 1 |
+| COLUNA CERVICAL : AP + LATERAL + T.O OU FLEXAO | 02.04.02.004-2 | 8 | 8 | 8 | 4 | 126,5 | 127,4 | 230,0 | 17/03/2026 | 57 | 0,1 | M54 5, S06 1, M05 1 |
+| MAOS E PUNHOS PARA IDADE OSSEA DIREITO | 02.04.04.010-8 | 8 | 8 | 8 | 6 | 87,2 | 88,4 | 97,0 | 28/07/2026 | 4 | 2,0 | Z00 4, R62 2, E34 1 |
+| PUNHO : AP + LATERAL + OBLIQUOS | 02.04.04.012-4 | 8 | 8 | 8 | 2 | 111,8 | 90,4 | 214,1 | 02/04/2026 | 417 | 0,0 | M06 2, M25 2, M05 2 |
+| RAIO X DE OMBRO ESQUERDO | 02.04.04.011-6 | 8 | 8 | 8 | 3 | 67,3 | 44,4 | 181,9 | 04/05/2026 | 57 | 0,1 | M75 4, M25 2, M79 2 |
+| SEIOS DA FACE : F.N. , M.N. , LATERAL - HIRTZ | 02.04.01.014-4 | 8 | 8 | 8 | 3 | 158,7 | 155,4 | 217,0 | 30/03/2026 | 156 | 0,1 | J32 3, R51 2, J34 1 |
+| ADENOIDES - LATERAL | 02.04.01.006-3 | 7 | 7 | 7 | 0 | 139,1 | 164,0 | 221,0 | 26/03/2026 | 3 | 2,3 | J35 4, J30 2, R06 1 |
+| ANTEBRACO ESQUERDO (AP E PERFIL) | 02.04.04.001-9 | 7 | 7 | 7 | 1 | 146,2 | 175,0 | 201,7 | 14/04/2026 | 57 | 0,1 | M25 3, M79 1, M21 1 |
+| COLUNA LOMBAR-AP + LATERAL (AP E PERFIL) | 02.04.02.006-9 | 7 | 7 | 7 | 0 | 141,2 | 158,0 | 230,7 | 16/03/2026 | 36 | 0,2 | M54 5, M07 1, M16 1 |
+| CRANIO - PA + LATERAL + BRETTON | 02.04.01.007-1 | 7 | 7 | 7 | 0 | 73,5 | 89,9 | 115,7 | 09/07/2026 | 3 | 2,3 | R51 2, Z48 1, M79 1 |
+| JOELHO OU ROTULA ESQUERDO - AP + PERFIL + AXIAL | 02.04.06.013-3 | 7 | 7 | 7 | 0 | 70,0 | 74,0 | 105,1 | 20/07/2026 | 182 | 0,0 | M23 3, M25 2, M54 1 |
+| PERNA DIREITA | 02.04.06.016-8 | 7 | 7 | 7 | 2 | 137,3 | 154,0 | 230,0 | 17/03/2026 | 48 | 0,1 | M54 2, M21 2, Q66 1 |
+| RADIOGRAFIA DE DEDOS DA MAO | 02.04.04.008-6 | 7 | 7 | 7 | 3 | 142,0 | 132,0 | 229,8 | 17/03/2026 | 7 | 1,0 | M25 2, M15 1, M65 1 |
+| TORAX PA + INSPIRACAO + EXPIRACAO + LATERAL | 02.04.03.013-7 | 7 | 7 | 7 | 1 | 116,2 | 97,8 | 216,8 | 30/03/2026 | 32 | 0,2 | R53 2, R07 2, Z13 1 |
+| COLUNA LOMBAR: AP+LATERAL+OBLIQUAS | 02.04.02.007-7 | 6 | 6 | 6 | 11 | 113,1 | 84,4 | 209,0 | 07/04/2026 | 24 | 0,2 | M54 5, M81 1 |
+| CRANIO : PA + LATERAL | 02.04.01.008-0 | 6 | 6 | 6 | 7 | 80,9 | 50,5 | 224,0 | 23/03/2026 | 234 | 0,0 | R51 2, Z00 1, S00 1 |
+| JOELHO OU ROTULA - AP + LAT.- OBLIQUAS + 3 AXIAIS - DIREITO | 02.04.06.014-1 | 6 | 6 | 6 | 1 | 87,8 | 91,4 | 132,8 | 22/06/2026 | 12 | 0,5 | M25 2, M54 1, Z00 1 |
+| RADIOGRAFIA DE COLUNA CERVICAL (AP + LATERAL + TO + OBLIQUAS) | 02.04.02.003-4 | 6 | 6 | 6 | 4 | 147,9 | 155,5 | 182,0 | 04/05/2026 | 19 | 0,3 | M54 3, M41 2, M16 1 |
+| RADIOGRAFIA DE JOELHO OU PATELA ( AS+LATERAL+OBLIQUA+3 AXIAIS) DIREITO | 02.04.06.014-1 | 6 | 6 | 6 | 0 | 135,8 | 124,5 | 221,0 | 26/03/2026 | 2 | 3,0 | Q66 1, M94 1, Z00 1 |
+| RAIO X DE OMBRO DIREITO: TRES POSICOES | 02.04.04.011-6 | 6 | 6 | 6 | 0 | 129,0 | 125,9 | 221,8 | 25/03/2026 | 54 | 0,1 | M75 3, M25 1, S06 1 |
+| ARTICULACAO ESCAPULO-UMERAL ESQUERDO | 02.04.04.003-5 | 5 | 5 | 5 | 1 | 68,1 | 62,0 | 117,8 | 07/07/2026 | 11 | 0,5 | M25 2, M79 2, M19 1 |
+| CALCANEO | 02.04.06.010-9 | 5 | 5 | 5 | 1 | 171,4 | 173,6 | 214,0 | 02/04/2026 | 406 | 0,0 | M77 4, Z00 1 |
+| COLUNA DORSO - LOMBAR PARA ESCOLIOSE DINAMICA | 02.04.02.011-5 | 5 | 5 | 5 | 1 | 113,5 | 82,0 | 217,0 | 30/03/2026 | 1 | 5,0 | M41 5 |
+| COLUNA LOMBO SACRA FUNCIONAL OU DINAMICA (AP E PERFIL) | 02.04.02.008-5 | 5 | 5 | 5 | 1 | 108,1 | 63,0 | 221,8 | 25/03/2026 | 5 | 1,0 | M54 3, M51 1, M43 1 |
+| JOELHO OU ROTULA - AP + LAT.- OBLIQUAS + 3 AXIAIS - ESQUERDO | 02.04.06.014-1 | 5 | 5 | 5 | 1 | 123,7 | 114,7 | 174,8 | 11/05/2026 | 11 | 0,5 | M23 2, M25 1, M17 1 |
+| PERNA ESQUERDA | 02.04.06.016-8 | 5 | 5 | 5 | 1 | 127,0 | 94,1 | 230,0 | 17/03/2026 | 42 | 0,1 | M54 1, Q66 1, W01 1 |
+| RADIOGRAFIA DE JOELHO OU PATELA ( AS+LATERAL+OBLIQUA+3 AXIAIS) ESQUERDO | 02.04.06.014-1 | 5 | 5 | 5 | 2 | 123,1 | 100,8 | 200,7 | 15/04/2026 | 3 | 1,7 | S80 1, M25 1, M94 1 |
+| RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + OBLIQUA + 3 AXIAL | 20406014 | 5 | 5 | 5 | 3 | 96,6 | 69,6 | 181,9 | 04/05/2026 | 0 | sem agendamento | M25 2, M15 1, M16 1 |
+| RAIO X DE OMBRO ESQUERDO: TRES POSICOES | 02.04.04.011-6 | 5 | 5 | 5 | 1 | 167,3 | 166,0 | 223,0 | 24/03/2026 | 58 | 0,1 | M75 3, M25 2 |
+| TORAX : APICO - LORDORTICA | 02.04.03.012-9 | 5 | 5 | 5 | 0 | 16,5 | 10,8 | 45,9 | 17/09/2026 | 11 | 0,5 | Z01 1, K40 1, C18 1 |
+| TORAX PA + LAT. + OBLIQUA | 02.04.03.014-5 | 5 | 5 | 5 | 1 | 49,7 | 66,0 | 76,7 | 17/08/2026 | 37 | 0,1 | Z01 1, M06 1, Q67 1 |
+| ABDOMEN SIMPLES : AP | 02.04.05.013-8 | 4 | 4 | 4 | 8 | 83,0 | 39,2 | 220,8 | 26/03/2026 | 166 | 0,0 | N20 3, K59 1 |
+| ARTICULACAO TIBIO-TARSICA (TORNOZELO) | 02.04.06.008-7 | 4 | 4 | 4 | 5 | 152,3 | 148,8 | 222,9 | 24/03/2026 | 350 | 0,0 | S93 2, M25 1, M10 1 |
+| ARTICULACAO TIBIO-TARSICA DIREITA | 02.04.06.008-7 | 4 | 4 | 4 | 2 | 111,7 | 116,4 | 201,0 | 15/04/2026 | 33 | 0,1 | M25 3, M86 1 |
+| CLAVICULA DIREITA | 02.04.04.006-0 | 4 | 4 | 4 | 3 | 59,2 | 34,9 | 155,9 | 30/05/2026 | 26 | 0,2 | M79 1, Z00 1, R52 1 |
+| CLAVICULA ESQUERDO | 02.04.04.006-0 | 4 | 4 | 4 | 1 | 38,2 | 46,0 | 48,0 | 15/09/2026 | 24 | 0,2 | S42 3, M25 1 |
+| COLUNA TOTAL | 02.04.02.013-1 | 4 | 4 | 4 | 13 | 10,6 | 10,5 | 11,7 | 21/10/2026 | 1.366 | 0,0 | M54 2, M25 1, M41 1 |
+| COSTELAS - (ARCOS COSTAIS) DIREITO | 02.04.03.007-2 | 4 | 4 | 4 | 1 | 90,9 | 71,5 | 202,0 | 14/04/2026 | 33 | 0,1 | R07 2, M05 1, S22 1 |
+| COLUNA CERVICAL: FUNCIONAL OU DINAMICA (AP E PERFIL) | 02.04.02.005-0 | 3 | 3 | 3 | 0 | 152,6 | 130,1 | 217,0 | 30/03/2026 | 2 | 1,5 | M54 2, M41 1 |
+| COLUNA DORSO - LOMBAR PARA ESCOLIOSE | 02.04.02.010-7 | 3 | 3 | 3 | 1 | 31,2 | 38,9 | 41,8 | 21/09/2026 | 324 | 0,0 | M41 3 |
+| COXA ESQUERDA (AP E PERFIL) | 02.04.06.011-7 | 3 | 3 | 3 | 2 | 56,8 | 25,9 | 124,7 | 30/06/2026 | 33 | 0,1 | S32 1, M79 1, S72 1 |
+| CRANIO - PA + LAT. + OBLI. OU BRETTON + HIRTZ | 02.04.01.007-1 | 3 | 3 | 3 | 1 | 135,5 | 139,8 | 151,9 | 03/06/2026 | 18 | 0,2 | S06 2, K07 1 |
+| OSSOS DA FACE - M.N. + LATERAL + HIRTZ | 02.04.01.012-8 | 3 | 3 | 3 | 1 | 107,8 | 104,0 | 136,8 | 18/06/2026 | 21 | 0,1 | J35 2, J32 1 |
+| PUNHO DIREITO: OBLIQUOS (DUAS POSICOES) | 02.04.04.012-4 | 3 | 3 | 3 | 0 | 126,0 | 102,1 | 229,9 | 17/03/2026 | 173 | 0,0 | M15 1, M25 1, M32 1 |
+| RADIOGRAFIA DE ARTICULACAO COXO ? FEMORAL | 02.04.06.006-0 | 3 | 3 | 3 | 1 | 87,8 | 67,8 | 135,8 | 19/06/2026 | 1 | 3,0 | M16 3 |
+| RADIOGRAFIA DE ESCAPULA/OMBRO (TRES POSICOES) | 02.04.04.011-6 | 3 | 3 | 3 | 0 | 118,2 | 116,8 | 177,8 | 08/05/2026 | 2 | 1,5 | M54 1, M41 1, M75 1 |
+| ARTICULACAO ESCAPULO-UMERAL DIREITA | 02.04.04.003-5 | 2 | 2 | 2 | 1 | 26,8 | 26,8 | 27,8 | 05/10/2026 | 18 | 0,1 | S43 1, S42 1 |
+| ARTICULACAO TIBIO-TARSICA ESQUERDA | 02.04.06.008-7 | 2 | 2 | 2 | 2 | 149,5 | 149,5 | 201,0 | 15/04/2026 | 36 | 0,1 | M25 1, M79 1 |
+| CAVUM (LATERAL + HIRTZ) | 02.04.01.006-3 | 2 | 0 | 2 | 0 | 7.039,4 | 7.039,4 | 7.039,4 | 26/07/2007 | — | — | R06 1, J35 1 |
+| COLUNA LOMBO SACRA FUNCIONAL OU DINAMICA | 02.04.02.008-5 | 2 | 2 | 2 | 0 | 136,9 | 136,9 | 137,0 | 18/06/2026 | 24 | 0,1 | M54 1, M41 1 |
+| COXA DIREITA (AP E PERFIL) | 02.04.06.011-7 | 2 | 2 | 2 | 1 | 143,4 | 143,4 | 198,9 | 17/04/2026 | 37 | 0,1 | M79 1, S72 1 |
+| COXA ESQUERDA | 02.04.06.011-7 | 2 | 2 | 2 | 1 | 86,4 | 86,4 | 145,9 | 09/06/2026 | 8 | 0,2 | M54 1, M86 1 |
+| PUNHO DIREITO: OBLIQUOS | 02.04.04.012-4 | 2 | 2 | 2 | 0 | 102,9 | 102,9 | 103,7 | 21/07/2026 | 0 | sem agendamento | M15 1, M05 1 |
+| PUNHO ESQUERDO: OBLIQUOS (DUAS POSICOES) | 02.04.04.012-4 | 2 | 2 | 2 | 0 | 74,9 | 74,9 | 103,7 | 21/07/2026 | 175 | 0,0 | M32 1, M05 1 |
+| QUIRODACTILOS (DIREITO) (AP E PERFIL) | 02.04.04.008-6 | 2 | 2 | 2 | 0 | 19,3 | 19,3 | 25,7 | 07/10/2026 | 8 | 0,2 | S63 1, M25 1 |
+| QUIRODACTILOS (ESQUERDO) (AP E PERFIL) | 02.04.04.008-6 | 2 | 2 | 2 | 1 | 30,4 | 30,4 | 46,8 | 16/09/2026 | 5 | 0,4 | S63 1, M20 1 |
+| RADIOGRAFIA DE ABDOMEN SIMPLES (AP) | 02.04.05.013-8 | 2 | 2 | 2 | 0 | 80,3 | 80,3 | 111,8 | 13/07/2026 | 11 | 0,2 | K59 1, B57 1 |
+| RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + AXIAL) | 02.04.06.013-3 | 2 | 2 | 2 | 1 | 183,5 | 183,5 | 221,0 | 26/03/2026 | 3 | 0,7 | Q66 1, M17 1 |
+| ABDOMEN : AP - LATERAL OU LOCALIZADA | 02.04.05.011-1 | 1 | 1 | 1 | 1 | 136,9 | 136,9 | 136,9 | 18/06/2026 | 15 | 0,1 | K44 1 |
+| ANTEBRACO DIREITO | 02.04.04.001-9 | 1 | 1 | 1 | 0 | 26,8 | 26,8 | 26,8 | 06/10/2026 | 2 | 0,5 | M25 1 |
+| ANTEBRACO ESQUERDO | 02.04.04.001-9 | 1 | 1 | 1 | 1 | 26,8 | 26,8 | 26,8 | 06/10/2026 | 2 | 0,5 | M25 1 |
+| ARTICULACAO ACROMIO-CLAVICULAR (DIREITO) | 02.04.04.002-7 | 1 | 1 | 1 | 1 | 165,7 | 165,7 | 165,7 | 20/05/2026 | 40 | 0,0 | S42 1 |
+| ARTICULACAO ACROMIO-CLAVICULAR (ESQUERDO) | 02.04.04.002-7 | 1 | 1 | 1 | 2 | 90,6 | 90,6 | 90,6 | 03/08/2026 | 26 | 0,0 | M12 1 |
+| ARTICULACAO COXO-FEMORAL ( CADA LADO ) | 02.04.06.006-0 | 1 | 1 | 1 | 3 | 63,0 | 63,0 | 63,0 | 31/08/2026 | 334 | 0,0 | M25 1 |
+| ARTICULACAO ESCAPULO-UMERAL | 02.04.04.003-5 | 1 | 1 | 1 | 0 | 188,0 | 188,0 | 188,0 | 28/04/2026 | 71 | 0,0 | M54 1 |
+| ARTICULACAO ESTERNO-CLAVICULAR | 02.04.04.004-3 | 1 | 1 | 1 | 0 | 151,9 | 151,9 | 151,9 | 03/06/2026 | 30 | 0,0 | M25 1 |
+| ARTICULACAO SACRO ILIACA | 02.04.06.007-9 | 1 | 1 | 1 | 1 | 82,8 | 82,8 | 82,8 | 11/08/2026 | 109 | 0,0 | M54 1 |
+| ARTICULACAO TEMPORO MANDIBULAR BILATERAL | 02.04.01.005-5 | 1 | 1 | 1 | 0 | 44,9 | 44,9 | 44,9 | 18/09/2026 | 58 | 0,0 | M25 1 |
+| ARTICULACAO TIBIO-TARSICA | 02.04.06.008-7 | 1 | 1 | 1 | 0 | 118,7 | 118,7 | 118,7 | 06/07/2026 | 2 | 0,5 | M25 1 |
+| BRACO DIREITO | 02.04.04.005-1 | 1 | 1 | 1 | 0 | 26,8 | 26,8 | 26,8 | 06/10/2026 | 1 | 1,0 | M25 1 |
+| BRACO ESQUERDO | 02.04.04.005-1 | 1 | 1 | 1 | 0 | 26,8 | 26,8 | 26,8 | 06/10/2026 | 0 | sem agendamento | M25 1 |
+| CALCANEO D | 02.04.06.010-9 | 1 | 0 | 1 | 0 | 7.054,4 | 7.054,4 | 7.054,4 | 11/07/2007 | — | — | M21 1 |
+| CALCANEO E | 02.04.06.010-9 | 1 | 0 | 1 | 0 | 7.054,4 | 7.054,4 | 7.054,4 | 11/07/2007 | — | — | M21 1 |
+| CLAVICULA | 02.04.04.006-0 | 1 | 1 | 1 | 0 | 95,7 | 95,7 | 95,7 | 29/07/2026 | 37 | 0,0 | L84 1 |
+| COLUNA LOMBAR OBLIQUAS (DIREITA E ESQUERDA) | 02.04.02.007-7 | 1 | 1 | 1 | 0 | 116,0 | 116,0 | 116,0 | 09/07/2026 | 0 | sem agendamento | M41 1 |
+| COLUNA LOMBO SACRA OBLIQUAS (DIREITA E ESQUERDA) | 02.04.02.007-7 | 1 | 1 | 1 | 0 | 188,0 | 188,0 | 188,0 | 28/04/2026 | 4 | 0,2 | M41 1 |
+| COTOVELO ESQUERDO | 02.04.04.007-8 | 1 | 1 | 1 | 2 | 187,8 | 187,8 | 187,8 | 28/04/2026 | 5 | 0,2 | M77 1 |
+| COXA DIREITA | 02.04.06.011-7 | 1 | 1 | 1 | 2 | 26,8 | 26,8 | 26,8 | 06/10/2026 | 14 | 0,1 | M54 1 |
+| JOELHO OU ROTULA - AP + LAT. + AXIAL | 02.04.06.013-3 | 1 | 1 | 1 | 0 | 80,0 | 80,0 | 80,0 | 14/08/2026 | 5 | 0,2 | Z00 1 |
+| MAOS E PUNHOS P/ IDADE OSSEA | 02.04.04.010-8 | 1 | 0 | 1 | 0 | 7.039,4 | 7.039,4 | 7.039,4 | 26/07/2007 | — | — | F72 1 |
+| MAXILAR INFERIOR : PA + OBLIQUAS | 02.04.01.011-0 | 1 | 1 | 1 | 0 | 158,0 | 158,0 | 158,0 | 28/05/2026 | 0 | sem agendamento | M07 1 |
+| MEDIASTINO PA E PERFIL | 02.04.03.010-2 | 1 | 1 | 1 | 0 | 6,0 | 6,0 | 6,0 | 27/10/2026 | 0 | sem agendamento | R07 1 |
+| OSSOS DA FACE - M.N.+F.N | 02.04.01.012-8 | 1 | 1 | 1 | 1 | 199,8 | 199,8 | 199,8 | 16/04/2026 | 14 | 0,1 | R22 1 |
+| PERNA | 02.04.06.016-8 | 1 | 1 | 1 | 1 | 10,8 | 10,8 | 10,8 | 22/10/2026 | 267 | 0,0 | M25 1 |
+| PUNHO ESQUERDO: OBLIQUOS | 02.04.04.012-4 | 1 | 1 | 1 | 0 | 109,1 | 109,1 | 109,1 | 16/07/2026 | 0 | sem agendamento | M15 1 |
+| RADIOGRAFIA DE ABDOMEN ( AP + LATERAL / LOCALIZADA) | 02.04.05.011-1 | 1 | 1 | 1 | 1 | 31,7 | 31,7 | 31,7 | 01/10/2026 | 0 | sem agendamento | R07 1 |
+| RADIOGRAFIA DE REGIAO SACRO-COCCIGEA | 02.04.02.012-3 | 1 | 1 | 1 | 0 | 111,6 | 111,6 | 111,6 | 13/07/2026 | 12 | 0,1 | M54 1 |
+| RADIOGRAFIA PANORÂMICA DE FACE | 02.04.01.017-9 | 1 | 0 | 1 | 3 | 1.466,7 | 1.466,7 | 1.466,7 | 27/10/2022 | 0 | sem agendamento | K08 1 |
+| SACRO-COCCIX | 02.04.02.012-3 | 1 | 1 | 1 | 3 | 10,7 | 10,7 | 10,7 | 22/10/2026 | 23 | 0,0 | M53 1 |
+| SACRO-COCCIX (AP E PERFIL) | 02.04.02.012-3 | 1 | 1 | 1 | 1 | 82,8 | 82,8 | 82,8 | 11/08/2026 | 97 | 0,0 | M54 1 |
+| UROGRAFIA VENOSA C/ BEXIGA PRE E POS MICCAO - ADULTO | 02.04.05.018-9 | 1 | 0 | 1 | 0 | 6.969,4 | 6.969,4 | 6.969,4 | 04/10/2007 | — | — | R68 1 |
+
+### radiologia: as 20 de maior espera média
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CALCANEO D | 02.04.06.010-9 | 1 | 0 | 1 | 0 | 7.054,4 | 7.054,4 | 7.054,4 | 11/07/2007 | — | — | M21 1 |
+| CALCANEO E | 02.04.06.010-9 | 1 | 0 | 1 | 0 | 7.054,4 | 7.054,4 | 7.054,4 | 11/07/2007 | — | — | M21 1 |
+| CAVUM (LATERAL + HIRTZ) | 02.04.01.006-3 | 2 | 0 | 2 | 0 | 7.039,4 | 7.039,4 | 7.039,4 | 26/07/2007 | — | — | R06 1, J35 1 |
+| MAOS E PUNHOS P/ IDADE OSSEA | 02.04.04.010-8 | 1 | 0 | 1 | 0 | 7.039,4 | 7.039,4 | 7.039,4 | 26/07/2007 | — | — | F72 1 |
+| UROGRAFIA VENOSA C/ BEXIGA PRE E POS MICCAO - ADULTO | 02.04.05.018-9 | 1 | 0 | 1 | 0 | 6.969,4 | 6.969,4 | 6.969,4 | 04/10/2007 | — | — | R68 1 |
+| TORAX: P.A | 02.04.03.017-0 | 9 | 1 | 9 | 7 | 5.426,4 | 6.055,4 | 6.172,4 | 09/12/2009 | 32 | 0,3 | R68 3, Z10 2, I10 1 |
+| RADIOGRAFIA PANORÂMICA DE FACE | 02.04.01.017-9 | 1 | 0 | 1 | 3 | 1.466,7 | 1.466,7 | 1.466,7 | 27/10/2022 | 0 | sem agendamento | K08 1 |
+| RADIOGRAFIA PERIAPICAL DE 6 A 13 INCIDÊNCIAS | 02.04.01.017-9 | 590 | 590 | 590 | 236 | 215,5 | 191,8 | 545,7 | 05/05/2025 | 603 | 1,0 | K02 283, K05 101, K08 99 |
+| OSSOS DA FACE - M.N.+F.N | 02.04.01.012-8 | 1 | 1 | 1 | 1 | 199,8 | 199,8 | 199,8 | 16/04/2026 | 14 | 0,1 | R22 1 |
+| COLUNA LOMBO SACRA OBLIQUAS (DIREITA E ESQUERDA) | 02.04.02.007-7 | 1 | 1 | 1 | 0 | 188,0 | 188,0 | 188,0 | 28/04/2026 | 4 | 0,2 | M41 1 |
+| ARTICULACAO ESCAPULO-UMERAL | 02.04.04.003-5 | 1 | 1 | 1 | 0 | 188,0 | 188,0 | 188,0 | 28/04/2026 | 71 | 0,0 | M54 1 |
+| COTOVELO ESQUERDO | 02.04.04.007-8 | 1 | 1 | 1 | 2 | 187,8 | 187,8 | 187,8 | 28/04/2026 | 5 | 0,2 | M77 1 |
+| RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + AXIAL) | 02.04.06.013-3 | 2 | 2 | 2 | 1 | 183,5 | 183,5 | 221,0 | 26/03/2026 | 3 | 0,7 | Q66 1, M17 1 |
+| MAO ( DUAS INCIDENCIAS) | 02.04.04.009-4 | 10 | 10 | 10 | 4 | 175,8 | 198,4 | 230,8 | 16/03/2026 | 12 | 0,8 | M06 3, M25 2, M05 2 |
+| PE OU PODODACTILOS | 02.04.06.015-0 | 10 | 10 | 10 | 3 | 172,0 | 204,3 | 234,8 | 12/03/2026 | 12 | 0,8 | M05 2, M72 2, Q66 1 |
+| JOELHO : AP + LATERAL | 02.04.06.012-5 | 9 | 9 | 9 | 4 | 171,6 | 205,9 | 220,9 | 26/03/2026 | 1.231 | 0,0 | M23 4, M25 2, M15 1 |
+| CALCANEO | 02.04.06.010-9 | 5 | 5 | 5 | 1 | 171,4 | 173,6 | 214,0 | 02/04/2026 | 406 | 0,0 | M77 4, Z00 1 |
+| RAIO X DE OMBRO ESQUERDO: TRES POSICOES | 02.04.04.011-6 | 5 | 5 | 5 | 1 | 167,3 | 166,0 | 223,0 | 24/03/2026 | 58 | 0,1 | M75 3, M25 2 |
+| ARTICULACAO ACROMIO-CLAVICULAR (DIREITO) | 02.04.04.002-7 | 1 | 1 | 1 | 1 | 165,7 | 165,7 | 165,7 | 20/05/2026 | 40 | 0,0 | S42 1 |
+| SEIOS DA FACE : F.N. , M.N. , LATERAL - HIRTZ | 02.04.01.014-4 | 8 | 8 | 8 | 3 | 158,7 | 155,4 | 217,0 | 30/03/2026 | 156 | 0,1 | J32 3, R51 2, J34 1 |
+
+### radiologia: as 20 de mais anos de estoque
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| BRACO ESQUERDO | 02.04.04.005-1 | 1 | 1 | 1 | 0 | 26,8 | 26,8 | 26,8 | 06/10/2026 | 0 | sem agendamento | M25 1 |
+| COLUNA LOMBAR OBLIQUAS (DIREITA E ESQUERDA) | 02.04.02.007-7 | 1 | 1 | 1 | 0 | 116,0 | 116,0 | 116,0 | 09/07/2026 | 0 | sem agendamento | M41 1 |
+| MAXILAR INFERIOR : PA + OBLIQUAS | 02.04.01.011-0 | 1 | 1 | 1 | 0 | 158,0 | 158,0 | 158,0 | 28/05/2026 | 0 | sem agendamento | M07 1 |
+| MEDIASTINO PA E PERFIL | 02.04.03.010-2 | 1 | 1 | 1 | 0 | 6,0 | 6,0 | 6,0 | 27/10/2026 | 0 | sem agendamento | R07 1 |
+| PUNHO DIREITO: OBLIQUOS | 02.04.04.012-4 | 2 | 2 | 2 | 0 | 102,9 | 102,9 | 103,7 | 21/07/2026 | 0 | sem agendamento | M15 1, M05 1 |
+| PUNHO ESQUERDO: OBLIQUOS | 02.04.04.012-4 | 1 | 1 | 1 | 0 | 109,1 | 109,1 | 109,1 | 16/07/2026 | 0 | sem agendamento | M15 1 |
+| RADIOGRAFIA DE ABDOMEN ( AP + LATERAL / LOCALIZADA) | 02.04.05.011-1 | 1 | 1 | 1 | 1 | 31,7 | 31,7 | 31,7 | 01/10/2026 | 0 | sem agendamento | R07 1 |
+| RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + OBLIQUA + 3 AXIAL | 20406014 | 5 | 5 | 5 | 3 | 96,6 | 69,6 | 181,9 | 04/05/2026 | 0 | sem agendamento | M25 2, M15 1, M16 1 |
+| RADIOGRAFIA PANORÂMICA DE FACE | 02.04.01.017-9 | 1 | 0 | 1 | 3 | 1.466,7 | 1.466,7 | 1.466,7 | 27/10/2022 | 0 | sem agendamento | K08 1 |
+| COLUNA DORSO - LOMBAR PARA ESCOLIOSE DINAMICA | 02.04.02.011-5 | 5 | 5 | 5 | 1 | 113,5 | 82,0 | 217,0 | 30/03/2026 | 1 | 5,0 | M41 5 |
+| ARTICULACAO COXO-FEMORAL ESQUERDO (AP E PERFIL) | 02.04.06.006-0 | 16 | 16 | 16 | 1 | 106,0 | 95,9 | 223,0 | 24/03/2026 | 4 | 4,0 | M16 5, M25 3, M54 1 |
+| RADIOGRAFIA DE ARTICULACAO COXO ? FEMORAL | 02.04.06.006-0 | 3 | 3 | 3 | 1 | 87,8 | 67,8 | 135,8 | 19/06/2026 | 1 | 3,0 | M16 3 |
+| RADIOGRAFIA DE JOELHO OU PATELA ( AS+LATERAL+OBLIQUA+3 AXIAIS) DIREITO | 02.04.06.014-1 | 6 | 6 | 6 | 0 | 135,8 | 124,5 | 221,0 | 26/03/2026 | 2 | 3,0 | Q66 1, M94 1, Z00 1 |
+| ADENOIDES - LATERAL | 02.04.01.006-3 | 7 | 7 | 7 | 0 | 139,1 | 164,0 | 221,0 | 26/03/2026 | 3 | 2,3 | J35 4, J30 2, R06 1 |
+| CRANIO - PA + LATERAL + BRETTON | 02.04.01.007-1 | 7 | 7 | 7 | 0 | 73,5 | 89,9 | 115,7 | 09/07/2026 | 3 | 2,3 | R51 2, Z48 1, M79 1 |
+| MAOS E PUNHOS PARA IDADE OSSEA DIREITO | 02.04.04.010-8 | 8 | 8 | 8 | 6 | 87,2 | 88,4 | 97,0 | 28/07/2026 | 4 | 2,0 | Z00 4, R62 2, E34 1 |
+| COLUNA DORSO - LOMBAR PARA ESCOLIOSE DINAMICA (AP E PERFIL) | 02.04.02.011-5 | 9 | 9 | 9 | 1 | 97,7 | 89,0 | 158,1 | 28/05/2026 | 5 | 1,8 | M41 5, M54 3, M51 1 |
+| MAOS E PUNHOS PARA IDADE OSSEA ESQUERDO | 02.04.04.010-8 | 73 | 73 | 73 | 5 | 124,0 | 110,8 | 234,7 | 12/03/2026 | 41 | 1,8 | E34 15, E30 15, E66 10 |
+| PANORAMICA DE MEMBROS INFERIORES | 02.04.06.017-6 | 14 | 14 | 14 | 5 | 120,7 | 104,8 | 270,7 | 04/02/2026 | 8 | 1,8 | M21 8, Q72 1, M79 1 |
+| RADIOGRAFIA DE JOELHO OU PATELA ( AS+LATERAL+OBLIQUA+3 AXIAIS) ESQUERDO | 02.04.06.014-1 | 5 | 5 | 5 | 2 | 123,1 | 100,8 | 200,7 | 15/04/2026 | 3 | 1,7 | S80 1, M25 1, M94 1 |
+
+### ultrassonografia: por pessoas
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO | 02.05.01.003-2 | 13.236 | 13.236 | 13.236 | 13.508 | 129,8 | 118,4 | 539,0 | 12/05/2025 | 33.920 | 0,4 | I10 2.420, I50 2.312, I25 1.155 |
+| ECOGRAFIA DE MAMAS - BILATERAL | 02.05.02.009-7 | 12.950 | 8.510 | 12.928 | 7.731 | 628,4 | 518,1 | 6.129,4 | 21/01/2010 | 10.474 | 1,2 | N63 3.381, Z12 2.707, N64 2.092 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MMII ( BILATERAL) | 02.05.01.004-0 | 10.045 | 6.060 | 10.043 | 599 | 630,9 | 577,8 | 1.476,9 | 17/10/2022 | 3.496 | 2,9 | I83 5.333, I87 2.042, I82 577 |
+| ECOGRAFIA DE ABDOMEN TOTAL ADULTO | 02.05.02.004-6 | 9.895 | 7.386 | 9.890 | 11.564 | 553,9 | 356,6 | 6.124,4 | 26/01/2010 | 8.207 | 1,2 | R10 3.302, K76 1.277, K80 725 |
+| ECOGRAFIA TRANSVAGINAL | 02.05.02.018-6 | 9.294 | 5.699 | 9.293 | 8.953 | 658,6 | 528,0 | 5.893,4 | 14/09/2010 | 18.028 | 0,5 | Z01 2.704, N95 1.210, R10 711 |
+| 10. ECODOPPLER DE CAROTIDAS | 02.05.01.004-0 | 4.143 | 4.143 | 4.143 | 2.776 | 136,3 | 124,7 | 592,0 | 20/03/2025 | 8.258 | 0,5 | I10 944, I25 419, I50 419 |
+| ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) ADULTO | 02.05.02.005-4 | 3.677 | 2.398 | 3.675 | 3.434 | 652,9 | 430,7 | 5.794,4 | 22/12/2010 | 4.119 | 0,9 | N20 832, N18 468, N39 332 |
+| ULTRASONOGRAFIA DE PAREDE ABDOMINAL | 02.05.02.004-6 | 3.304 | 2.199 | 3.304 | 1.278 | 598,3 | 507,8 | 2.452,6 | 14/02/2020 | 1.470 | 2,2 | K42 870, K40 842, K46 486 |
+| ECOGRAFIA DE PARTES MOLES | 02.05.02.006-2 | 3.140 | 1.894 | 3.138 | 1.455 | 653,6 | 501,7 | 5.849,4 | 28/10/2010 | 1.423 | 2,2 | R22 773, D17 665, L72 206 |
+| ECOGRAFIA DE TIREOIDE ADULTO | 02.05.02.012-7 | 2.988 | 2.360 | 2.988 | 2.749 | 496,0 | 376,0 | 2.124,8 | 07/01/2021 | 3.443 | 0,9 | E07 710, E04 590, E03 428 |
+| ECOGRAFIA DE PROSTATA ( VIA ABDOMINAL ) | 02.05.02.010-0 | 2.969 | 2.203 | 2.966 | 2.714 | 600,3 | 467,0 | 6.004,4 | 26/05/2010 | 4.158 | 0,7 | N40 1.749, Z12 246, N42 136 |
+| ECOGRAFIA DE ABDOMEN SUPERIOR ADULTO | 02.05.02.003-8 | 2.213 | 1.229 | 2.211 | 984 | 687,8 | 622,4 | 5.885,4 | 22/09/2010 | 2.449 | 0,9 | K76 663, R10 382, K80 236 |
+| ECOGRAFIA DE ARTICULACAO OMBRO D ADULTO | 02.05.02.006-2 | 1.935 | 1.432 | 1.933 | 743 | 563,3 | 391,7 | 2.120,0 | 12/01/2021 | 1.195 | 1,6 | M75 1.168, M25 322, M65 131 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMII (BILATERAL) | 02.05.01.004-0 | 1.800 | 1.358 | 1.800 | 331 | 474,7 | 396,0 | 1.442,0 | 21/11/2022 | 519 | 3,5 | I70 398, I83 379, I73 356 |
+| ECOGRAFIA DE ARTICULACAO PUNHO D ADULTO | 02.05.02.006-2 | 1.672 | 1.275 | 1.671 | 380 | 516,4 | 367,5 | 5.883,4 | 24/09/2010 | 718 | 2,3 | G56 682, M25 241, M65 182 |
+| ECOGRAFIA DE ARTICULACAO OMBRO E ADULTO | 02.05.02.006-2 | 1.485 | 1.126 | 1.484 | 585 | 541,4 | 377,8 | 2.124,9 | 07/01/2021 | 862 | 1,7 | M75 873, M25 245, M65 99 |
+| ECOGRAFIA DE ARTICULACAO PUNHO E ADULTO | 02.05.02.006-2 | 1.465 | 1.158 | 1.464 | 346 | 497,9 | 373,8 | 2.124,0 | 08/01/2021 | 613 | 2,4 | G56 566, M25 207, M65 171 |
+| 2. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER INFANTIL | 02.05.01.003-2 | 1.332 | 1.332 | 1.331 | 2.564 | 112,3 | 104,9 | 719,7 | 12/11/2024 | 5.871 | 0,2 | R01 313, Q21 302, Q25 90 |
+| ULTRA-SONOGRAFIA DO GLOBO OCULAR OU DE ORBITA | 02.05.02.008-9 | 1.316 | 1.316 | 1.316 | 198 | 272,5 | 277,5 | 508,8 | 11/06/2025 | 598 | 2,2 | H25 482, H35 129, H26 98 |
+| ULTRA-SONOGRAFIA DOPPLER DE TIREOIDE | 02.05.02.012-7 | 806 | 687 | 806 | 542 | 441,5 | 355,0 | 1.978,7 | 02/06/2021 | 433 | 1,9 | E07 241, E04 183, E03 114 |
+| ECOGRAFIA DE BOLSA ESCROTAL ADULTO | 02.05.02.007-0 | 700 | 428 | 700 | 430 | 604,7 | 522,9 | 2.104,9 | 27/01/2021 | 627 | 1,1 | N51 164, N43 91, K40 80 |
+| ECOGRAFIA DE ARTICULACAO JOELHO E ADULTO | 02.05.02.006-2 | 596 | 394 | 596 | 69 | 582,5 | 508,0 | 2.104,0 | 28/01/2021 | 311 | 1,9 | M23 186, M25 152, M17 58 |
+| ECOGRAFIA PELVICA (GINECOLOGICA) - ADULTO | 02.05.02.016-0 | 573 | 339 | 573 | 837 | 721,9 | 445,0 | 2.125,8 | 06/01/2021 | 950 | 0,6 | R10 117, N94 81, N92 55 |
+| ECOGRAFIA DE ARTICULACAO JOELHO D ADULTO | 02.05.02.006-2 | 553 | 361 | 553 | 63 | 598,1 | 546,0 | 2.104,0 | 28/01/2021 | 349 | 1,6 | M23 191, M25 151, M17 57 |
+| ECOGRAFIA DE ABDOMEN TOTAL INFANTIL | 02.05.02.004-6 | 452 | 286 | 452 | 433 | 586,1 | 349,7 | 2.079,0 | 22/02/2021 | 1.067 | 0,4 | R10 178, E66 75, Q90 16 |
+| ECOGRAFIA PELVICA (GINECOLOGICA) - INFANTIL | 02.05.02.016-0 | 441 | 360 | 441 | 83 | 473,4 | 348,0 | 2.112,7 | 19/01/2021 | 417 | 1,1 | E30 181, E22 56, R10 39 |
+| ECOGRAFIA DE ARTICULACAO TORNOZELO E ADULTO | 02.05.02.006-2 | 375 | 306 | 374 | 118 | 470,1 | 369,8 | 2.112,8 | 19/01/2021 | 224 | 1,7 | M25 91, M65 50, M72 33 |
+| ECOGRAFIA DE ARTICULACAO TORNOZELO D ADULTO | 02.05.02.006-2 | 335 | 275 | 335 | 138 | 446,1 | 335,7 | 2.061,9 | 11/03/2021 | 238 | 1,4 | M25 73, M65 44, M72 29 |
+| ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) INFANTIL | 02.05.02.005-4 | 276 | 211 | 276 | 655 | 474,2 | 208,4 | 2.110,7 | 21/01/2021 | 789 | 0,3 | N39 50, Q17 15, Q62 14 |
+| ECOGRAFIA OBSTETRICA | 02.05.02.014-3 | 272 | 271 | 272 | 518 | 95,1 | 54,9 | 1.941,8 | 09/07/2021 | 2.770 | 0,1 | Z34 204, Z35 30, W78 7 |
+| ULTRA-SONOGRAFIA TRANSFONTANELA | 02.05.02.017-8 | 270 | 243 | 270 | 201 | 308,6 | 251,0 | 1.593,9 | 22/06/2022 | 818 | 0,3 | Q75 61, P21 44, P07 21 |
+| ECOGRAFIA DE REGIAO INGUINAL DIREITO | 02.05.02.006-2 | 242 | 214 | 242 | 16 | 378,3 | 326,8 | 1.333,9 | 09/03/2023 | 259 | 0,9 | K40 193, R10 14, R22 6 |
+| ECOGRAFIA DE BOLSA ESCROTAL INFANTIL | 02.05.02.007-0 | 234 | 171 | 234 | 71 | 490,4 | 236,9 | 2.089,8 | 11/02/2021 | 316 | 0,7 | Q53 97, N43 49, K40 21 |
+| ECOGRAFIA DE ARTICULACAO COTOVELO D ADULTO | 02.05.02.006-2 | 214 | 156 | 214 | 73 | 524,1 | 293,0 | 2.076,0 | 25/02/2021 | 265 | 0,8 | M77 68, M25 40, M65 21 |
+| ECOGRAFIA DE REGIÃO INGUINAL ESQUERDO | 02.05.02.006-2 | 202 | 180 | 202 | 12 | 353,4 | 278,3 | 1.439,0 | 24/11/2022 | 216 | 0,9 | K40 162, R10 14, Q53 4 |
+| USG MAO DIREITA | 02.05.02.006-2 | 195 | 164 | 195 | 31 | 415,9 | 282,8 | 1.362,8 | 08/02/2023 | 133 | 1,5 | M65 57, M25 31, G56 21 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS E VERTEBRAIS | 02.05.01.004-0 | 190 | 19 | 190 | 26 | 971,1 | 942,5 | 1.362,7 | 08/02/2023 | 0 | sem agendamento | I10 71, E11 23, E78 21 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE VASOS | 02.05.01.004-0 | 169 | 169 | 169 | 0 | 30,6 | 34,0 | 60,7 | 02/09/2026 | — | — | I83 56, I87 25, M79 8 |
+| ULTRASSONOGRAFIA DA REGIAO INGUINAL | 02.05.02.006-2 | 167 | 134 | 167 | 26 | 434,0 | 436,7 | 1.314,0 | 29/03/2023 | 259 | 0,6 | K40 124, R10 8, Q53 7 |
+| ULTRASSONOGRAFIA DO PESCOCO | 02.05.02.006-2 | 160 | 119 | 160 | 8 | 514,7 | 484,9 | 1.364,8 | 06/02/2023 | 35 | 4,6 | R22 44, R59 23, M54 7 |
+| PAQUIMETRIA ULTRASSONICA | 02.05.02.002-0 | 144 | 144 | 144 | 250 | 22,8 | 26,0 | 39,9 | 23/09/2026 | 2.096 | 0,1 | H40 121, H18 14, H35 2 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MMSS ( BILATERAL) | 02.05.01.004-0 | 144 | 139 | 144 | 207 | 164,8 | 113,3 | 866,0 | 19/06/2024 | 100 | 1,4 | I83 39, I87 23, I82 17 |
+| USG MAO ESQUERDA | 02.05.02.006-2 | 143 | 109 | 143 | 27 | 478,3 | 369,7 | 1.362,8 | 08/02/2023 | 112 | 1,3 | M25 28, M65 27, G56 18 |
+| ECOGRAFIA DE ARTICULACAO COTOVELO E ADULTO | 02.05.02.006-2 | 141 | 111 | 141 | 60 | 454,4 | 271,9 | 2.111,8 | 20/01/2021 | 221 | 0,6 | M77 37, M25 24, G56 19 |
+| ECOGRAFIA OBSTETRICA: COM DOPPLER COLORIDO | 02.05.02.015-1 | 139 | 139 | 139 | 141 | 167,5 | 123,7 | 605,0 | 07/03/2025 | 376 | 0,4 | Z35 56, Z34 50, O24 3 |
+| ECOGRAFIA DE ARTICULACAO COLUNA LOMBAR | 02.05.02.006-2 | 134 | 92 | 134 | 1 | 526,0 | 523,9 | 921,8 | 24/04/2024 | 4 | 33,5 | Q76 108, Q05 16, M54 2 |
+| ECOGRAFIA TRANSVAGINAL COM DOPPLER | 02.05.01.004-0 | 133 | 89 | 133 | 151 | 562,7 | 419,1 | 1.397,0 | 05/01/2023 | 140 | 0,9 | Z01 21, N95 17, R10 14 |
+| USG QUADRIL | 02.05.02.006-2 | 122 | 109 | 122 | 18 | 336,1 | 274,9 | 1.363,6 | 07/02/2023 | 93 | 1,3 | Q65 45, M25 13, M70 8 |
+| USG PE DIREITO | 02.05.02.006-2 | 115 | 75 | 115 | 20 | 543,4 | 397,7 | 1.363,7 | 07/02/2023 | 63 | 1,8 | M72 38, M71 15, M25 14 |
+| ULTRASSONOGRAFIA CERVICAL | 02.05.02.006-2 | 100 | 86 | 100 | 38 | 339,4 | 177,8 | 1.354,8 | 16/02/2023 | 151 | 0,7 | R22 32, R59 20, D17 5 |
+| USG PE ESQUERDO | 02.05.02.006-2 | 99 | 72 | 98 | 29 | 486,4 | 391,7 | 1.362,7 | 08/02/2023 | 62 | 1,6 | M72 34, M25 14, M77 12 |
+| ECOGRAFIA DE ARTICULACAO NAO LISTADA | 02.05.02.006-2 | 96 | 52 | 96 | 262 | 930,9 | 633,0 | 2.117,8 | 14/01/2021 | 53 | 1,8 | M65 18, M25 10, R22 10 |
+| ULTRASSONOGRAFIA COM DOPPLER COLORIDO DE ARTERIAS RENAIS | 02.05.01.004-0 | 92 | 92 | 92 | 5 | 199,0 | 166,9 | 514,9 | 05/06/2025 | 16 | 5,8 | I10 37, I15 22, N18 15 |
+| ECOGRAFIA DE ARTICULACAO COXO-FEMURAL E INFANTIL | 02.05.02.006-2 | 83 | 68 | 83 | 12 | 416,1 | 395,8 | 1.182,7 | 07/08/2023 | 12 | 6,9 | Q65 50, Q90 4, P03 3 |
+| ECOGRAFIA DE ARTICULACAO COXO-FEMURAL D INFANTIL | 02.05.02.006-2 | 78 | 69 | 78 | 12 | 361,6 | 315,3 | 920,8 | 25/04/2024 | 14 | 5,6 | Q65 48, Q90 4, P03 3 |
+| ECOGRAFIA MORFOLOGICA DO 1° TRIMESTRE | 02.05.02.014-3 | 73 | 73 | 73 | 94 | 255,7 | 265,7 | 691,8 | 10/12/2024 | 30 | 2,4 | Z34 54, Z35 9, W78 4 |
+| ULTRASSONOGRAFIA RENAL | 02.05.02.005-4 | 72 | 45 | 72 | 15 | 629,0 | 533,7 | 1.347,9 | 23/02/2023 | 18 | 4,0 | N20 16, N18 9, R31 6 |
+| 5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO | 02.05.01.001-6 | 66 | 66 | 66 | 1.438 | 29,4 | 31,0 | 52,8 | 10/09/2026 | 756 | 0,1 | I20 18, I25 14, I10 8 |
+| ECOGRAFIA OBSTETRICA MORFOLOGICA | 02.05.02.014-3 | 61 | 60 | 61 | 301 | 147,5 | 31,2 | 7.012,4 | 22/08/2007 | 103 | 0,6 | Z34 38, Z00 8, Z35 5 |
+| ECOGRAFIA DE TIREOIDE INFANTIL | 02.05.02.012-7 | 60 | 51 | 60 | 36 | 476,1 | 499,3 | 966,0 | 11/03/2024 | 97 | 0,6 | E03 26, E04 8, E07 6 |
+| ULTRASSONOGRAFIA DA REGIAO LOMBAR | 02.05.02.006-2 | 55 | 45 | 55 | 7 | 465,6 | 414,9 | 1.119,1 | 10/10/2023 | 3 | 18,3 | Q76 17, Q07 9, M54 4 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL - MMSS (BILATERAL) | 02.05.01.004-0 | 54 | 52 | 54 | 85 | 248,7 | 266,9 | 786,8 | 06/09/2024 | 92 | 0,6 | I25 5, I77 5, N18 5 |
+| USG BRACO ESQUERDO | 02.05.02.006-2 | 50 | 7 | 50 | 10 | 1.184,5 | 1.362,8 | 1.362,8 | 08/02/2023 | 10 | 5,0 | M75 22, M65 15, M79 5 |
+| ECOGRAFIA PELVICA | 02.05.02.006-2 | 47 | 47 | 47 | 15 | 92,8 | 88,7 | 172,8 | 13/05/2026 | 21 | 2,2 | R10 10, K40 7, Z01 4 |
+| ECOGRAFIA DE ARTICULACAO COXO-FEMURAL D ADULTO | 02.05.02.006-2 | 46 | 36 | 46 | 26 | 564,2 | 377,3 | 2.098,8 | 02/02/2021 | 27 | 1,7 | M25 13, M70 7, M16 4 |
+| ECOGRAFIA DE ARTICULACAO COXO-FEMURAL E ADULTO | 02.05.02.006-2 | 37 | 27 | 37 | 27 | 528,4 | 220,1 | 2.082,5 | 18/02/2021 | 15 | 2,5 | M25 10, M70 8, M76 4 |
+| 9. ECOCARDIOGRAFIA FETAL | 02.05.01.003-2 | 29 | 29 | 29 | 390 | 41,4 | 19,7 | 307,7 | 29/12/2025 | 788 | 0,0 | Z35 13, Q89 2, O24 2 |
+| USG BRACO DIREITO | 02.05.02.006-2 | 28 | 7 | 28 | 15 | 1.007,1 | 1.362,8 | 1.362,8 | 08/02/2023 | 18 | 1,6 | M75 9, M65 6, D17 5 |
+| USG PERNA ESQUERDA | 02.05.02.006-2 | 27 | 17 | 27 | 62 | 530,0 | 294,0 | 1.299,7 | 12/04/2023 | 6 | 4,5 | M79 8, I83 3, M65 2 |
+| USB AXILA DIREITA | 02.05.02.006-2 | 23 | 17 | 23 | 1 | 626,4 | 619,7 | 971,1 | 06/03/2024 | 0 | sem agendamento | N63 6, C50 5, R22 5 |
+| ECOGRAFIA PROSTATA ( VIA TRANSRETAL) | 02.05.02.011-9 | 22 | 22 | 22 | 133 | 127,0 | 110,8 | 235,9 | 11/03/2026 | 5 | 4,4 | N40 15, R39 2, N39 1 |
+| USG AXILA ESQUERDA | 02.05.02.006-2 | 20 | 13 | 20 | 2 | 666,2 | 623,4 | 971,1 | 06/03/2024 | 0 | sem agendamento | C50 5, R59 4, N63 4 |
+| ULTRASSONOGRAFIA COM DOPPLER COLORIDO DA BOLSA ESCROTAL | 02.05.02.007-0 | 18 | 15 | 18 | 2 | 411,8 | 358,5 | 860,1 | 25/06/2024 | 0 | sem agendamento | N51 5, Q53 4, N43 2 |
+| ULTRASSONOGRAFIA COM DOPPLER COLORIDO DE REGIAO CERVICAL | 02.05.02.006-2 | 17 | 14 | 17 | 33 | 426,9 | 489,8 | 864,9 | 20/06/2024 | 13 | 1,3 | E04 2, R55 2, C73 2 |
+| USG PERNA DIREITA | 02.05.02.006-2 | 17 | 12 | 17 | 57 | 543,9 | 467,7 | 1.299,7 | 12/04/2023 | 5 | 3,4 | I83 3, I87 2, M65 1 |
+| ECOGRAFIA DE ARTICULACAO JOELHO D INFANTIL | 02.05.02.006-2 | 16 | 11 | 16 | 2 | 648,0 | 467,3 | 2.061,7 | 11/03/2021 | 14 | 1,1 | M23 5, M25 3, M75 3 |
+| ECOGRAFIA DOPPLER FLUXO OBSTETRICO | 02.05.01.005-9 | 16 | 16 | 16 | 34 | 101,9 | 107,0 | 201,9 | 14/04/2026 | 16 | 1,0 | Z35 10, Z34 4, O10 1 |
+| ULTRASSONOGRAFIA DO DEDO | 02.05.02.006-2 | 16 | 10 | 16 | 1 | 589,6 | 418,3 | 1.236,0 | 15/06/2023 | 2 | 8,0 | M65 3, M25 3, M71 3 |
+| ECOGRAFIA DE ARTICULACAO JOELHO E INFANTIL | 02.05.02.006-2 | 15 | 11 | 15 | 2 | 518,8 | 114,7 | 2.061,0 | 12/03/2021 | 10 | 1,5 | M25 5, M71 2, M23 2 |
+| ECOGRAFIA DE ABDOMEN SUPERIOR INFANTIL | 02.05.02.003-8 | 15 | 11 | 15 | 17 | 525,3 | 249,1 | 2.047,9 | 25/03/2021 | 124 | 0,1 | K76 3, R10 3, R16 1 |
+| ULTRASSONOGRAFIA DO CALCANEO | 02.05.02.006-2 | 15 | 11 | 15 | 2 | 424,2 | 376,1 | 1.167,0 | 23/08/2023 | 0 | sem agendamento | M77 4, M76 4, M25 2 |
+| ECOGRAFIA DE TORAX (EXTRACARDIACO) ADULTO | 02.05.02.013-5 | 13 | 6 | 13 | 12 | 682,4 | 767,0 | 1.364,9 | 06/02/2023 | 0 | sem agendamento | E88 3, R07 3, M25 1 |
+| ULTRASSONOGRAFIA DAS GLANDULAS SUBMANDIBULARES | 02.05.02.006-2 | 12 | 11 | 12 | 2 | 207,6 | 81,8 | 879,9 | 05/06/2024 | 11 | 1,1 | R22 6, K11 2, M35 2 |
+| ULTRA-SONOGRAFIA DOPPLER DE AORTA E VASOS ILIACOS | 02.05.01.004-0 | 11 | 11 | 11 | 1 | 55,2 | 62,8 | 81,0 | 13/08/2026 | 20 | 0,6 | N18 3, I25 1, E88 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MIE | 02.05.01.004-0 | 10 | 0 | 10 | 439 | 1.608,4 | 1.592,0 | 1.873,7 | 15/09/2021 | 0 | sem agendamento | I83 8, M79 1, G83 1 |
+| ECOGRAFIA DE ARTICULACAO PUNHO E INFANTIL | 02.05.02.006-2 | 9 | 5 | 9 | 3 | 775,7 | 693,1 | 1.420,8 | 12/12/2022 | 5 | 1,8 | M71 6, M85 1, M65 1 |
+| ULTRASSONOGRAFIA COM DOPPLER COLORIDO DOS TESTICULOS | 02.05.02.007-0 | 9 | 9 | 9 | 2 | 405,0 | 384,8 | 651,0 | 20/01/2025 | 1 | 9,0 | N51 6, Q53 1, E29 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 8 | 0 | 8 | 483 | 1.568,1 | 1.536,7 | 1.703,8 | 04/03/2022 | 0 | sem agendamento | I83 5, I87 2, G63 1 |
+| USG ANTEBRACO ESQUERDO | 02.05.02.006-2 | 8 | 6 | 8 | 9 | 648,1 | 615,2 | 1.070,7 | 27/11/2023 | 8 | 1,0 | D17 2, R20 1, M65 1 |
+| DOPPLER DE AORTA E ILIACA | 02.05.02.006-2 | 6 | 0 | 6 | 0 | 1.529,3 | 1.525,1 | 1.550,0 | 05/08/2022 | 0 | sem agendamento | N18 4, R10 1, I71 1 |
+| ECOGRAFIA DE ARTICULACAO PUNHO D INFANTIL | 02.05.02.006-2 | 6 | 4 | 6 | 3 | 516,1 | 482,3 | 794,8 | 29/08/2024 | 4 | 1,5 | M71 3, M65 2, M79 1 |
+| USG TENDAO DE AQUILES ESQUERDO | 02.05.02.006-2 | 6 | 4 | 6 | 2 | 670,0 | 699,0 | 1.088,9 | 09/11/2023 | 5 | 1,2 | M76 3, M65 2, M66 1 |
+| ULTRA-SONOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) | 02.05.02.005-4 | 5 | 0 | 5 | 0 | 1.533,0 | 1.524,9 | 1.558,5 | 27/07/2022 | 0 | sem agendamento | N20 1, N40 1, N28 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE ARTERIA AORTA ABDOMINAL | 02.05.01.004-0 | 5 | 5 | 5 | 3 | 35,3 | 32,0 | 52,7 | 10/09/2026 | 16 | 0,3 | I25 2, E66 1, I71 1 |
+| ULTRASSONOGRAFIA DA REGIAO GLUTEA | 02.05.02.006-2 | 5 | 3 | 5 | 0 | 671,9 | 636,0 | 1.169,0 | 21/08/2023 | 0 | sem agendamento | L05 3, M76 1, T85 1 |
+| ULTRASSONOGRAFIA DAS GLANDULAS PAROTIDAS | 02.05.01.004-0 | 5 | 5 | 5 | 2 | 80,7 | 81,8 | 81,8 | 12/08/2026 | 18 | 0,3 | K11 2, D11 1, Q76 1 |
+| ECOGRAFIA DE QUADRIL DIREITO | 02.05.02.006-2 | 4 | 4 | 4 | 0 | 56,4 | 56,4 | 81,9 | 12/08/2026 | 1 | 4,0 | Q65 4 |
+| ECOGRAFIA DE TORAX (EXTRACARDIACO) INFANTIL | 02.05.02.013-5 | 4 | 2 | 4 | 1 | 800,7 | 811,4 | 1.327,7 | 15/03/2023 | 0 | sem agendamento | M89 1, E30 1, J90 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS E VERTEBRAIS | 02.05.01.004-0 | 4 | 0 | 4 | 17 | 1.667,9 | 1.668,0 | 1.700,8 | 07/03/2022 | 0 | sem agendamento | E14 1, E78 1, I10 1 |
+| ULTRASSONOGRAFIA DA BACIA | 02.05.02.006-2 | 4 | 2 | 4 | 3 | 612,9 | 581,4 | 1.179,9 | 10/08/2023 | — | — | M16 2, Z12 1, Q65 1 |
+| ECOGRAFIA DE ARTICULACAO TORNOZELO E INFANTIL | 02.05.02.006-2 | 3 | 3 | 3 | 0 | 167,2 | 41,0 | 425,7 | 02/09/2025 | 2 | 1,5 | M71 1, R60 1, D17 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE UM VASO | 02.05.01.004-0 | 3 | 0 | 3 | 2 | 1.524,9 | 1.525,0 | 1.525,1 | 30/08/2022 | 0 | sem agendamento | N18 2, I73 1 |
+| ULTRA-SONOGRAFIA DE ABDOMEN TOTAL | 02.05.02.004-6 | 3 | 0 | 3 | 1 | 1.524,8 | 1.524,9 | 1.524,9 | 30/08/2022 | 0 | sem agendamento | Z10 1, C44 1, R10 1 |
+| ULTRA-SONOGRAFIA DE TIREOIDE | 02.05.02.012-7 | 3 | 0 | 3 | 0 | 1.524,8 | 1.524,8 | 1.524,9 | 30/08/2022 | 0 | sem agendamento | D44 1, N18 1, E35 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL-M I D | 02.05.01.004-0 | 3 | 0 | 3 | 0 | 1.536,0 | 1.524,8 | 1.558,4 | 27/07/2022 | 0 | sem agendamento | L98 1, M79 1, I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 3 | 0 | 3 | 0 | 1.536,0 | 1.524,8 | 1.558,4 | 27/07/2022 | 0 | sem agendamento | L98 1, M79 1, I73 1 |
+| DOPPLER ARTERIAL DE MI | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.524,7 | 1.524,7 | 1.524,8 | 30/08/2022 | 0 | sem agendamento | M79 1, I73 1 |
+| DOPPLER VENOSO DE MI | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.524,7 | 1.524,7 | 1.524,7 | 30/08/2022 | 0 | sem agendamento | M79 1, I73 1 |
+| ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO | 02.05.01.003-2 | 2 | 0 | 2 | 0 | 6.967,4 | 6.967,4 | 6.970,4 | 03/10/2007 | — | — | R68 2 |
+| ECOGRAFIA DE ARTICULACAO TORNOZELO D INFANTIL | 02.05.02.006-2 | 2 | 2 | 2 | 0 | 165,4 | 165,4 | 225,9 | 21/03/2026 | 5 | 0,4 | M25 2 |
+| ECOGRAFIA DE ARTICULACAO COXA ESQUERDA | 02.05.02.006-2 | 2 | 2 | 2 | 2 | 106,7 | 106,7 | 206,7 | 09/04/2026 | 8 | 0,2 | Z00 1, D17 1 |
+| ECOGRAFIA DE QUADRIL ESQUERDO | 02.05.02.006-2 | 2 | 2 | 2 | 0 | 31,0 | 31,0 | 31,0 | 02/10/2026 | 1 | 2,0 | Q65 2 |
+| ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) INFANTIL EMERG | 02.05.02.005-4 | 2 | 2 | 2 | 0 | 6,4 | 6,4 | 7,0 | 26/10/2026 | 0 | sem agendamento | N20 1, N39 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I D | 02.05.01.004-0 | 2 | 0 | 2 | 288 | 1.537,9 | 1.537,9 | 1.544,9 | 10/08/2022 | 0 | sem agendamento | Z10 1, I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I E | 02.05.01.004-0 | 2 | 0 | 2 | 246 | 1.522,7 | 1.518,6 | 1.530,8 | 24/08/2022 | 0 | sem agendamento | Z10 1, I83 1 |
+| ULTRA-SONOGRAFIA DE PROSTATA (VIA ABDOMINAL) | 02.05.02.010-0 | 2 | 0 | 2 | 0 | 1.528,5 | 1.528,5 | 1.532,0 | 23/08/2022 | 0 | sem agendamento | N40 1, C44 1 |
+| ULTRA-SONOGRAFIA DE REGIAO CERVICAL (PESCOCO) | 02.05.02.006-2 | 2 | 0 | 2 | 0 | 3.778,1 | 3.778,1 | 6.031,4 | 29/04/2010 | 0 | sem agendamento | Q89 1, Z00 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE ARTERIAS VERTEBRAIS | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.446,7 | 1.446,7 | 1.479,7 | 14/10/2022 | — | — | I10 1, R42 1 |
+| ULTRA-SONOGRAFIA TRANSFONTANELAR | 02.05.02.017-8 | 2 | 0 | 2 | 0 | 1.524,9 | 1.524,9 | 1.524,9 | 30/08/2022 | 0 | sem agendamento | P07 1, R56 1 |
+| ULTRASSONOGRAFIA DOPPLER ARTERIAL MEMBRO SUPERIOR E | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.525,0 | 1.525,0 | 1.525,1 | 30/08/2022 | 0 | sem agendamento | N18 2 |
+| USG ESTRUTURA SUPERFICIE | 02.05.02.006-2 | 2 | 2 | 2 | 24 | 21,0 | 21,0 | 25,0 | 08/10/2026 | 4 | 0,5 | D17 1, R10 1 |
+| 16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL | 02.05.01.003-2 | 1 | 0 | 1 | 0 | 4.948,7 | 4.948,7 | 4.948,7 | 15/04/2013 | 0 | sem agendamento | L81 1 |
+| 7. ECOCARDIOGRAFIA TRANSEOFAGICA ADULTO | 02.05.01.002-4 | 1 | 1 | 1 | 1.051 | 404,8 | 404,8 | 404,8 | 23/09/2025 | 1.133 | 0,0 | C50 1 |
+| 8. ECOCARDIOGRAFIA TRANSEOFAGICA INFANTIL | 02.05.01.002-4 | 1 | 0 | 1 | 46 | 1.822,9 | 1.822,9 | 1.822,9 | 05/11/2021 | 0 | sem agendamento | Q20 1 |
+| ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO EMERGENCIA | 02.05.01.003-2 | 1 | 0 | 1 | 0 | 6.984,4 | 6.984,4 | 6.984,4 | 19/09/2007 | — | — | R68 1 |
+| ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER INFANTIL | 02.05.01.003-2 | 1 | 0 | 1 | 0 | 6.978,4 | 6.978,4 | 6.978,4 | 25/09/2007 | — | — | R68 1 |
+| ECOGRAFIA DE ABDOMEN TOTAL ADULTO EMERGENCIA | 02.05.02.004-6 | 1 | 1 | 1 | 0 | 8,4 | 8,4 | 8,4 | 25/10/2026 | 0 | sem agendamento | R10 1 |
+| ECOGRAFIA DE ARTICULACAO COTOVELO D INFANTIL | 02.05.02.006-2 | 1 | 1 | 1 | 5 | 28,0 | 28,0 | 28,0 | 05/10/2026 | 0 | sem agendamento | M77 1 |
+| ECOGRAFIA DE ARTICULACAO COTOVELO E INFANTIL | 02.05.02.006-2 | 1 | 1 | 1 | 1 | 25,9 | 25,9 | 25,9 | 07/10/2026 | 0 | sem agendamento | Z13 1 |
+| ECOGRAFIA DE ARTICULACAO COXA DIREITA | 02.05.02.006-2 | 1 | 1 | 1 | 3 | 35,1 | 35,1 | 35,1 | 28/09/2026 | 4 | 0,2 | Z54 1 |
+| ECOGRAFIA DE TIREOIDE ADULTO EMERGENCIA | 02.05.02.012-7 | 1 | 0 | 1 | 0 | 7.007,4 | 7.007,4 | 7.007,4 | 27/08/2007 | 0 | sem agendamento | R68 1 |
+| ECOGRAFIA DOPPLER COLORIDO DE ORGAO | 02.05.01.004-0 | 1 | 1 | 1 | 2 | 142,7 | 142,7 | 142,7 | 12/06/2026 | — | — | I65 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M S D | 02.05.01.004-0 | 1 | 0 | 1 | 30 | 1.643,7 | 1.643,7 | 1.643,7 | 03/05/2022 | 0 | sem agendamento | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE DOIS VASOS | 02.05.01.004-0 | 1 | 0 | 1 | 12 | 1.700,0 | 1.700,0 | 1.700,0 | 08/03/2022 | — | — | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE ORGAO OU ESTRUTURA ISO | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.524,7 | 1.524,7 | 1.524,7 | 30/08/2022 | 0 | sem agendamento | I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS | 02.05.01.004-0 | 1 | 0 | 1 | 8 | 1.637,0 | 1.637,0 | 1.637,0 | 10/05/2022 | 0 | sem agendamento | I10 1 |
+| ULTRA-SONOGRAFIA DE ABDOMEN SUPERIOR | 02.05.02.003-8 | 1 | 0 | 1 | 0 | 1.524,8 | 1.524,8 | 1.524,8 | 30/08/2022 | 0 | sem agendamento | K80 1 |
+| ULTRA-SONOGRAFIA DE BOLSA ESCROTAL COM DOPPLER | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.524,7 | 1.524,7 | 1.524,7 | 30/08/2022 | 0 | sem agendamento | E29 1 |
+| ULTRA-SONOGRAFIA DE MAMAS (BILATERAL) | 02.05.02.009-7 | 1 | 0 | 1 | 0 | 1.524,8 | 1.524,8 | 1.524,8 | 30/08/2022 | 0 | sem agendamento | N60 1 |
+| ULTRA-SONOGRAFIA DE PAREDE ABDOMINAL | 02.05.02.004-6 | 1 | 0 | 1 | 0 | 1.524,8 | 1.524,8 | 1.524,8 | 30/08/2022 | 0 | sem agendamento | N18 1 |
+| ULTRA-SONOGRAFIA DOPPLER - ARTERIAS RENAIS | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.558,5 | 1.558,5 | 1.558,5 | 27/07/2022 | 0 | sem agendamento | I70 1 |
+| ULTRA-SONOGRAFIA DOPPLER - CERVICAL | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.382,7 | 1.382,7 | 1.382,7 | 19/01/2023 | 0 | sem agendamento | E04 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL-M I E | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.524,7 | 1.524,7 | 1.524,7 | 30/08/2022 | 0 | sem agendamento | I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE MAMAS | 02.05.02.009-7 | 1 | 0 | 1 | 0 | 1.524,7 | 1.524,7 | 1.524,7 | 30/08/2022 | 0 | sem agendamento | Z12 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MIE | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.524,7 | 1.524,7 | 1.524,7 | 30/08/2022 | 0 | sem agendamento | I73 1 |
+| ULTRA-SONOGRAFIA PELVICA | 02.05.02.016-0 | 1 | 0 | 1 | 0 | 1.524,9 | 1.524,9 | 1.524,9 | 30/08/2022 | 0 | sem agendamento | E30 1 |
+| USG COXA DIREITA | 02.05.02.006-2 | 1 | 0 | 1 | 1 | 1.425,8 | 1.425,8 | 1.425,8 | 07/12/2022 | 0 | sem agendamento | M25 1 |
+| USG OMBRO ESQUERDO | 02.05.02.006-2 | 1 | 0 | 1 | 62 | 3.393,7 | 3.393,7 | 3.393,7 | 18/07/2017 | 0 | sem agendamento | Z00 1 |
+| USG PELVICA | 02.05.02.016-0 | 1 | 0 | 1 | 0 | 3.588,1 | 3.588,1 | 3.588,1 | 05/01/2017 | — | — | Z00 1 |
+| USG TENDAO DE AQUILES DIREITO | 02.05.02.006-2 | 1 | 1 | 1 | 0 | 130,7 | 130,7 | 130,7 | 24/06/2026 | 6 | 0,2 | M65 1 |
+| USG TRANSVAGINAL | 02.05.02.018-6 | 1 | 0 | 1 | 0 | 3.969,1 | 3.969,1 | 3.969,1 | 21/12/2015 | — | — | Z00 1 |
+
+### ultrassonografia: as 20 de maior espera média
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ECOGRAFIA DE TIREOIDE ADULTO EMERGENCIA | 02.05.02.012-7 | 1 | 0 | 1 | 0 | 7.007,4 | 7.007,4 | 7.007,4 | 27/08/2007 | 0 | sem agendamento | R68 1 |
+| ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO EMERGENCIA | 02.05.01.003-2 | 1 | 0 | 1 | 0 | 6.984,4 | 6.984,4 | 6.984,4 | 19/09/2007 | — | — | R68 1 |
+| ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER INFANTIL | 02.05.01.003-2 | 1 | 0 | 1 | 0 | 6.978,4 | 6.978,4 | 6.978,4 | 25/09/2007 | — | — | R68 1 |
+| ECOCARDIOGRAFIA BI-DIMENSIONAL SEM DOPPLER ADULTO | 02.05.01.003-2 | 2 | 0 | 2 | 0 | 6.967,4 | 6.967,4 | 6.970,4 | 03/10/2007 | — | — | R68 2 |
+| 16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL | 02.05.01.003-2 | 1 | 0 | 1 | 0 | 4.948,7 | 4.948,7 | 4.948,7 | 15/04/2013 | 0 | sem agendamento | L81 1 |
+| USG TRANSVAGINAL | 02.05.02.018-6 | 1 | 0 | 1 | 0 | 3.969,1 | 3.969,1 | 3.969,1 | 21/12/2015 | — | — | Z00 1 |
+| ULTRA-SONOGRAFIA DE REGIAO CERVICAL (PESCOCO) | 02.05.02.006-2 | 2 | 0 | 2 | 0 | 3.778,1 | 3.778,1 | 6.031,4 | 29/04/2010 | 0 | sem agendamento | Q89 1, Z00 1 |
+| USG PELVICA | 02.05.02.016-0 | 1 | 0 | 1 | 0 | 3.588,1 | 3.588,1 | 3.588,1 | 05/01/2017 | — | — | Z00 1 |
+| USG OMBRO ESQUERDO | 02.05.02.006-2 | 1 | 0 | 1 | 62 | 3.393,7 | 3.393,7 | 3.393,7 | 18/07/2017 | 0 | sem agendamento | Z00 1 |
+| 8. ECOCARDIOGRAFIA TRANSEOFAGICA INFANTIL | 02.05.01.002-4 | 1 | 0 | 1 | 46 | 1.822,9 | 1.822,9 | 1.822,9 | 05/11/2021 | 0 | sem agendamento | Q20 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE DOIS VASOS | 02.05.01.004-0 | 1 | 0 | 1 | 12 | 1.700,0 | 1.700,0 | 1.700,0 | 08/03/2022 | — | — | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS E VERTEBRAIS | 02.05.01.004-0 | 4 | 0 | 4 | 17 | 1.667,9 | 1.668,0 | 1.700,8 | 07/03/2022 | 0 | sem agendamento | E14 1, E78 1, I10 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M S D | 02.05.01.004-0 | 1 | 0 | 1 | 30 | 1.643,7 | 1.643,7 | 1.643,7 | 03/05/2022 | 0 | sem agendamento | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS | 02.05.01.004-0 | 1 | 0 | 1 | 8 | 1.637,0 | 1.637,0 | 1.637,0 | 10/05/2022 | 0 | sem agendamento | I10 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MIE | 02.05.01.004-0 | 10 | 0 | 10 | 439 | 1.608,4 | 1.592,0 | 1.873,7 | 15/09/2021 | 0 | sem agendamento | I83 8, M79 1, G83 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 8 | 0 | 8 | 483 | 1.568,1 | 1.536,7 | 1.703,8 | 04/03/2022 | 0 | sem agendamento | I83 5, I87 2, G63 1 |
+| ULTRA-SONOGRAFIA DOPPLER - ARTERIAS RENAIS | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.558,5 | 1.558,5 | 1.558,5 | 27/07/2022 | 0 | sem agendamento | I70 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I D | 02.05.01.004-0 | 2 | 0 | 2 | 288 | 1.537,9 | 1.537,9 | 1.544,9 | 10/08/2022 | 0 | sem agendamento | Z10 1, I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL-M I D | 02.05.01.004-0 | 3 | 0 | 3 | 0 | 1.536,0 | 1.524,8 | 1.558,4 | 27/07/2022 | 0 | sem agendamento | L98 1, M79 1, I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER VENOSO - MID | 02.05.01.004-0 | 3 | 0 | 3 | 0 | 1.536,0 | 1.524,8 | 1.558,4 | 27/07/2022 | 0 | sem agendamento | L98 1, M79 1, I73 1 |
+
+### ultrassonografia: as 20 de mais anos de estoque
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 16.ECOCARDIOGRAFIA TRANSTORACICA - INFANTIL | 02.05.01.003-2 | 1 | 0 | 1 | 0 | 4.948,7 | 4.948,7 | 4.948,7 | 15/04/2013 | 0 | sem agendamento | L81 1 |
+| 8. ECOCARDIOGRAFIA TRANSEOFAGICA INFANTIL | 02.05.01.002-4 | 1 | 0 | 1 | 46 | 1.822,9 | 1.822,9 | 1.822,9 | 05/11/2021 | 0 | sem agendamento | Q20 1 |
+| DOPPLER ARTERIAL DE MI | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.524,7 | 1.524,7 | 1.524,8 | 30/08/2022 | 0 | sem agendamento | M79 1, I73 1 |
+| DOPPLER DE AORTA E ILIACA | 02.05.02.006-2 | 6 | 0 | 6 | 0 | 1.529,3 | 1.525,1 | 1.550,0 | 05/08/2022 | 0 | sem agendamento | N18 4, R10 1, I71 1 |
+| DOPPLER VENOSO DE MI | 02.05.01.004-0 | 2 | 0 | 2 | 0 | 1.524,7 | 1.524,7 | 1.524,7 | 30/08/2022 | 0 | sem agendamento | M79 1, I73 1 |
+| ECOGRAFIA DE ABDOMEN TOTAL ADULTO EMERGENCIA | 02.05.02.004-6 | 1 | 1 | 1 | 0 | 8,4 | 8,4 | 8,4 | 25/10/2026 | 0 | sem agendamento | R10 1 |
+| ECOGRAFIA DE ARTICULACAO COTOVELO D INFANTIL | 02.05.02.006-2 | 1 | 1 | 1 | 5 | 28,0 | 28,0 | 28,0 | 05/10/2026 | 0 | sem agendamento | M77 1 |
+| ECOGRAFIA DE ARTICULACAO COTOVELO E INFANTIL | 02.05.02.006-2 | 1 | 1 | 1 | 1 | 25,9 | 25,9 | 25,9 | 07/10/2026 | 0 | sem agendamento | Z13 1 |
+| ECOGRAFIA DE TIREOIDE ADULTO EMERGENCIA | 02.05.02.012-7 | 1 | 0 | 1 | 0 | 7.007,4 | 7.007,4 | 7.007,4 | 27/08/2007 | 0 | sem agendamento | R68 1 |
+| ECOGRAFIA DE TORAX (EXTRACARDIACO) ADULTO | 02.05.02.013-5 | 13 | 6 | 13 | 12 | 682,4 | 767,0 | 1.364,9 | 06/02/2023 | 0 | sem agendamento | E88 3, R07 3, M25 1 |
+| ECOGRAFIA DE TORAX (EXTRACARDIACO) INFANTIL | 02.05.02.013-5 | 4 | 2 | 4 | 1 | 800,7 | 811,4 | 1.327,7 | 15/03/2023 | 0 | sem agendamento | M89 1, E30 1, J90 1 |
+| ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) INFANTIL EMERG | 02.05.02.005-4 | 2 | 2 | 2 | 0 | 6,4 | 6,4 | 7,0 | 26/10/2026 | 0 | sem agendamento | N20 1, N39 1 |
+| ULTRA-SONOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) | 02.05.02.005-4 | 5 | 0 | 5 | 0 | 1.533,0 | 1.524,9 | 1.558,5 | 27/07/2022 | 0 | sem agendamento | N20 1, N40 1, N28 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I D | 02.05.01.004-0 | 2 | 0 | 2 | 288 | 1.537,9 | 1.537,9 | 1.544,9 | 10/08/2022 | 0 | sem agendamento | Z10 1, I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M I E | 02.05.01.004-0 | 2 | 0 | 2 | 246 | 1.522,7 | 1.518,6 | 1.530,8 | 24/08/2022 | 0 | sem agendamento | Z10 1, I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER ARTERIAL- M S D | 02.05.01.004-0 | 1 | 0 | 1 | 30 | 1.643,7 | 1.643,7 | 1.643,7 | 03/05/2022 | 0 | sem agendamento | I83 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE ORGAO OU ESTRUTURA ISO | 02.05.01.004-0 | 1 | 0 | 1 | 0 | 1.524,7 | 1.524,7 | 1.524,7 | 30/08/2022 | 0 | sem agendamento | I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER COLORIDO DE UM VASO | 02.05.01.004-0 | 3 | 0 | 3 | 2 | 1.524,9 | 1.525,0 | 1.525,1 | 30/08/2022 | 0 | sem agendamento | N18 2, I73 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS | 02.05.01.004-0 | 1 | 0 | 1 | 8 | 1.637,0 | 1.637,0 | 1.637,0 | 10/05/2022 | 0 | sem agendamento | I10 1 |
+| ULTRA-SONOGRAFIA DOPPLER DE CAROTIDAS E VERTEBRAIS | 02.05.01.004-0 | 190 | 19 | 190 | 26 | 971,1 | 942,5 | 1.362,7 | 08/02/2023 | 0 | sem agendamento | I10 71, E11 23, E78 21 |
+
+### tomografia: por pessoas
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 063. TC DO ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO | 02.06.03.001-0 | 4.116 | 4.101 | 4.112 | 5.271 | 129,2 | 126,0 | 850,0 | 05/07/2024 | 8.164 | 0,5 | C50 762, C18 388, R10 321 |
+| 111. TC DE PELVE OU BACIA ADULTO C/CONTRASTE S/SEDACAO | 02.06.03.003-7 | 3.639 | 3.629 | 3.637 | 3.718 | 128,7 | 129,7 | 850,0 | 05/07/2024 | 7.036 | 0,5 | C50 613, C18 361, R10 305 |
+| 055. TC DO TORAX ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.003-1 | 2.350 | 2.341 | 2.348 | 1.864 | 132,1 | 130,7 | 966,0 | 11/03/2024 | 5.981 | 0,4 | C50 557, C18 247, C20 123 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS CORONARIAS ADULTO S/SEDACAO | 02.06.02.003-1 | 1.532 | 1.531 | 1.532 | 138 | 292,6 | 265,1 | 747,8 | 15/10/2024 | 137 | 11,2 | I20 447, I25 410, R07 128 |
+| TC DO TORAX ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.003-1 | 895 | 857 | 895 | 79 | 355,6 | 333,0 | 3.617,7 | 06/12/2016 | 1.983 | 0,5 | J18 178, I25 75, J44 43 |
+| TC DO ABDOMEN SUPER.ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.001-0 | 726 | 696 | 726 | 85 | 363,9 | 363,0 | 766,0 | 27/09/2024 | 1.516 | 0,5 | R10 158, C50 33, C18 33 |
+| TC DE PELVE OU BACIA ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 674 | 645 | 674 | 68 | 356,0 | 339,8 | 765,8 | 27/09/2024 | 1.328 | 0,5 | R10 133, Z54 33, C18 30 |
+| 119. TC DE PESCOCO ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.005-2 | 479 | 477 | 478 | 337 | 126,5 | 122,8 | 846,9 | 08/07/2024 | 1.361 | 0,4 | C32 41, C73 28, C83 25 |
+| TC DO ABDOMEN SUPER.ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.001-0 | 393 | 380 | 393 | 69 | 370,8 | 361,8 | 3.617,7 | 06/12/2016 | 721 | 0,5 | R10 105, N20 23, Z54 13 |
+| TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.007-9 | 386 | 373 | 386 | 80 | 379,7 | 380,4 | 770,0 | 23/09/2024 | 1.087 | 0,4 | I64 57, R51 33, S06 23 |
+| ANGIOTOMOGRAFIA DO CRANIO ADULTO S/SEDACAO | 02.06.01.007-9 | 385 | 385 | 385 | 255 | 79,2 | 74,1 | 723,9 | 08/11/2024 | 1.634 | 0,2 | I67 119, I64 50, R51 36 |
+| TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT) | 02.06.01.009-5 | 379 | 379 | 379 | 851 | 190,8 | 158,8 | 385,0 | 13/10/2025 | 714 | 0,5 | C85 49, C81 42, C83 41 |
+| 031. TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.007-9 | 372 | 365 | 372 | 1.117 | 128,3 | 115,9 | 850,0 | 05/07/2024 | 1.909 | 0,2 | R51 77, C50 42, G43 15 |
+| TC DE PELVE OU BACIA ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 370 | 356 | 370 | 65 | 372,6 | 357,1 | 3.617,7 | 06/12/2016 | 658 | 0,6 | R10 93, N20 15, Z54 13 |
+| ANGIOTOMOGRAFIA DA AORTA TORÁCICA E SEUS RAMOS ADULTO S/SEDACAO | 02.06.02.003-1 | 357 | 357 | 357 | 176 | 200,1 | 173,7 | 543,6 | 07/05/2025 | 653 | 0,5 | I71 173, I35 46, I50 16 |
+| ANGIOTOMOGRAFIA DO TORAX OU PULMONAR ADULTO S/SEDACAO | 02.06.02.003-1 | 328 | 328 | 328 | 596 | 134,1 | 110,8 | 544,7 | 06/05/2025 | 1.311 | 0,3 | I26 121, I71 36, I27 23 |
+| ANGIOTOMOGRAFIA DA AORTA ABDOMINAL E DOS SEUS RAMOS ADULTO S/SEDACAO | 02.06.03.001-0 | 323 | 323 | 323 | 145 | 199,1 | 171,0 | 474,8 | 15/07/2025 | 605 | 0,5 | I71 141, I70 26, I35 24 |
+| TC DO TORAX ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.003-1 | 305 | 292 | 305 | 30 | 360,6 | 336,0 | 767,4 | 26/09/2024 | 979 | 0,3 | I26 19, C50 18, J18 14 |
+| ANGIOTOMOGRAFIA DA PELVE ADULTO S/SEDACAO | 02.06.03.003-7 | 253 | 253 | 253 | 142 | 218,3 | 181,9 | 473,0 | 17/07/2025 | 330 | 0,8 | N18 40, I82 39, I71 37 |
+| ANGIOTOMOGRAFIA DO ABDOME SUPERIOR ADULTO S/SEDACAO | 02.06.03.001-0 | 245 | 245 | 245 | 130 | 219,8 | 187,8 | 543,6 | 07/05/2025 | 309 | 0,8 | I71 46, N18 36, K55 20 |
+| ANGIOTOMOGRAFIA DAS ARTERIAS CAROTIDAS E VERTEBRAIS ADULTO S/SEDACAO | 02.06.03.001-0 | 243 | 243 | 243 | 130 | 134,6 | 121,7 | 439,8 | 19/08/2025 | 541 | 0,4 | I65 76, I64 33, I63 25 |
+| TOMOGRAFIA CONE BEAN | 02.06.01.004-4 | 195 | 195 | 195 | 203 | 94,3 | 91,0 | 282,9 | 23/01/2026 | 343 | 0,6 | K01 116, K04 27, S02 15 |
+| 053. TC DO TORAX ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.003-1 | 180 | 177 | 180 | 2.167 | 36,7 | 6,8 | 1.056,9 | 11/12/2023 | 18.474 | 0,0 | C50 25, J44 16, R91 12 |
+| ANGIOTOMOGRAFIA DO PESCOCO ADULTO S/SEDACAO | 02.06.01.005-2 | 178 | 178 | 178 | 188 | 102,5 | 97,2 | 252,0 | 23/02/2026 | 414 | 0,4 | I65 37, I64 32, I63 22 |
+| TC DE CRANIO ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.007-9 | 134 | 127 | 134 | 10 | 372,3 | 383,0 | 768,8 | 24/09/2024 | 461 | 0,3 | C50 18, I64 10, C79 7 |
+| 071. TC DE FACE ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 88 | 87 | 88 | 60 | 131,8 | 128,7 | 849,9 | 05/07/2024 | 211 | 0,4 | C44 9, C04 6, J34 5 |
+| 007. TC COLUNA CERVICAL ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.001-0 | 68 | 68 | 68 | 206 | 115,2 | 117,0 | 251,9 | 23/02/2026 | 203 | 0,3 | C73 6, M54 5, C50 4 |
+| 061. TC DO ABDOMEN SUPERIOR ADULTO S/CONTRASTE S/SEDACAO | 02.06.03.001-0 | 68 | 68 | 68 | 1.489 | 18,8 | 6,7 | 221,8 | 25/03/2026 | 5.496 | 0,0 | N20 22, R10 15, N18 3 |
+| TC DE CRANIO INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.007-9 | 68 | 67 | 68 | 4 | 344,3 | 329,5 | 747,0 | 16/10/2024 | 40 | 1,7 | R56 15, G40 9, P35 7 |
+| TC DE PESCOCO ADULTO C/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 60 | 56 | 60 | 3 | 359,3 | 284,4 | 768,8 | 24/09/2024 | 123 | 0,5 | L02 4, C76 3, C15 3 |
+| 109. TC DE PELVE OU BACIA ADULTO S/CONTRASTE S/SEDACAO | 02.06.03.003-7 | 57 | 57 | 57 | 952 | 21,1 | 6,7 | 278,8 | 27/01/2026 | 5.469 | 0,0 | N20 18, R10 13, N18 3 |
+| TC COLUNA LOMBO-SACRA ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.002-8 | 54 | 51 | 54 | 4 | 348,2 | 347,3 | 770,0 | 23/09/2024 | 189 | 0,3 | M54 15, M86 4, S32 3 |
+| 023. TC COLUNA LOMBO-SACRA ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.002-8 | 51 | 51 | 51 | 125 | 126,5 | 135,9 | 250,1 | 25/02/2026 | 210 | 0,2 | M54 14, C90 6, C61 3 |
+| 079. TC DE SEIOS DE FACE ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 51 | 50 | 51 | 87 | 116,7 | 97,8 | 844,8 | 10/07/2024 | 152 | 0,3 | J34 5, J01 4, J32 4 |
+| ANGIOTOMOGRAFIA DOS MEMBROS INFERIORES DIREITO ADULTO S/SEDACAO | 02.06.03.002-9 | 48 | 48 | 48 | 38 | 208,2 | 179,4 | 543,6 | 07/05/2025 | 77 | 0,6 | I73 10, I71 4, I70 4 |
+| 029. TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.007-9 | 44 | 44 | 44 | 764 | 32,7 | 6,7 | 325,1 | 12/12/2025 | 8.489 | 0,0 | R51 12, R42 4, G44 4 |
+| TC DO TORAX INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.003-1 | 44 | 43 | 44 | 0 | 343,4 | 389,4 | 759,8 | 03/10/2024 | 8 | 5,5 | J18 14, P27 4, J15 4 |
+| ANGIOTOMOGRAFIA DOS MEMBROS INFERIORES ESQUERDO ADULTO S/SEDACAO | 02.06.03.002-9 | 43 | 43 | 43 | 41 | 224,0 | 178,9 | 543,6 | 07/05/2025 | 77 | 0,6 | I74 5, I73 5, I82 4 |
+| TC ARTIC.JOELHOS ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 37 | 36 | 37 | 1 | 395,4 | 376,9 | 763,0 | 30/09/2024 | 27 | 1,4 | S82 15, S72 6, S80 3 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS RENAIS ADULTO S/SEDACAO | 02.06.03.001-0 | 36 | 36 | 36 | 11 | 160,1 | 132,4 | 429,8 | 29/08/2025 | 47 | 0,8 | I15 15, I10 4, I77 3 |
+| TC DO ABDOMEN SUPER.INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.001-0 | 33 | 33 | 33 | 1 | 349,2 | 313,9 | 725,0 | 07/11/2024 | 16 | 2,1 | R10 9, R16 2, A41 2 |
+| 255. TC DE TORNOZELO ADULTO S/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 32 | 32 | 32 | 12 | 55,8 | 67,4 | 88,7 | 05/08/2026 | 290 | 0,1 | M25 11, S93 3, S92 3 |
+| TC COLUNA CERVICAL ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.001-0 | 31 | 29 | 31 | 2 | 311,2 | 227,7 | 769,0 | 24/09/2024 | 110 | 0,3 | M54 6, C90 2, T07 2 |
+| TC DE PELVE OU BACIA INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 31 | 30 | 31 | 3 | 347,6 | 314,9 | 754,7 | 08/10/2024 | 18 | 1,7 | R10 6, C34 2, C18 2 |
+| 015. TC COLUNA DORSAL ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.003-6 | 30 | 30 | 30 | 58 | 132,6 | 140,3 | 250,1 | 25/02/2026 | 125 | 0,2 | C50 5, C90 5, M54 3 |
+| TC DE PESCOCO ADULTO S/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 29 | 29 | 29 | 1 | 293,2 | 289,0 | 715,9 | 16/11/2024 | 25 | 1,2 | J95 4, D48 1, E05 1 |
+| 095. TC DE MASTOIDES ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 28 | 28 | 28 | 68 | 99,4 | 70,5 | 242,7 | 04/03/2026 | 127 | 0,2 | H66 5, H90 4, C44 3 |
+| TC COLUNA DORSAL ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.003-6 | 28 | 27 | 28 | 2 | 285,7 | 242,4 | 761,0 | 02/10/2024 | 95 | 0,3 | M54 5, S22 3, M85 2 |
+| 263. TC DE PE ADULTO S/ CONTRASTE S/ SEDACAO | 02.06.02.002-3 | 25 | 25 | 25 | 10 | 52,9 | 53,0 | 88,7 | 05/08/2026 | 298 | 0,1 | M25 5, M86 3, Q69 2 |
+| TC COLUNA LOMBO-SACRA ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.002-8 | 23 | 19 | 23 | 2 | 489,5 | 460,9 | 767,0 | 26/09/2024 | 91 | 0,3 | M86 3, M54 2, M46 2 |
+| TC DE CRANIO INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.007-9 | 23 | 23 | 23 | 1 | 346,7 | 363,0 | 586,9 | 25/03/2025 | 10 | 2,3 | R56 5, G40 2, G11 2 |
+| TC DO TORAX INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.003-1 | 23 | 23 | 23 | 0 | 344,0 | 335,0 | 725,8 | 06/11/2024 | 11 | 2,1 | J18 8, R10 3, C38 1 |
+| TC COLUNA CERVICAL ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.001-0 | 19 | 18 | 19 | 2 | 411,9 | 394,7 | 742,0 | 21/10/2024 | 69 | 0,3 | C50 3, G95 2, R13 2 |
+| 021. TC COLUNA LOMBO-SACRA ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.002-8 | 18 | 18 | 18 | 158 | 20,7 | 6,8 | 182,1 | 04/05/2026 | 2.673 | 0,0 | M54 11, M79 2, M25 1 |
+| 047. TC DE ORBITAS ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.006-0 | 18 | 18 | 18 | 62 | 89,2 | 60,0 | 223,0 | 24/03/2026 | 92 | 0,2 | H05 3, H04 3, C16 1 |
+| TC DE FACE ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 18 | 18 | 18 | 4 | 354,3 | 386,9 | 723,8 | 08/11/2024 | 25 | 0,7 | J01 3, I64 2, R51 2 |
+| TC DE PE ADULTO S/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 18 | 17 | 18 | 0 | 436,8 | 467,8 | 745,7 | 17/10/2024 | 33 | 0,5 | M86 6, S92 3, A46 2 |
+| TC DE PELVE OU BACIA INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 15 | 15 | 15 | 1 | 463,0 | 522,8 | 674,8 | 27/12/2024 | 9 | 1,7 | R10 3, N20 1, C16 1 |
+| TC DE PERNA D ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 15 | 15 | 15 | 0 | 352,1 | 261,8 | 696,6 | 05/12/2024 | 41 | 0,4 | M86 4, R10 3, C50 2 |
+| ANGIOTOMOGRAFIA DOS MEMBROS SUPERIORES ESQUERDO ADULTO S/SEDACAO | 02.06.02.001-5 | 14 | 14 | 14 | 11 | 206,3 | 166,3 | 544,0 | 07/05/2025 | 31 | 0,5 | M31 2, I70 2, M25 1 |
+| 005. TC COLUNA CERVICAL ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.001-0 | 13 | 13 | 13 | 116 | 14,6 | 6,8 | 83,8 | 10/08/2026 | 1.070 | 0,0 | M54 5, M79 2, M51 1 |
+| 279. TC DE MAO ADULTO S/ CONTRASTE S/ SEDACAO | 02.06.02.002-3 | 13 | 13 | 13 | 7 | 60,8 | 59,8 | 80,9 | 13/08/2026 | 184 | 0,1 | M79 2, M65 1, M25 1 |
+| TC ARTIC. OMBROS ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.001-5 | 13 | 12 | 13 | 0 | 425,9 | 487,9 | 742,7 | 20/10/2024 | 23 | 0,6 | S42 8, M75 2, S93 1 |
+| TC DE PE ADULTO C/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 13 | 13 | 13 | 0 | 470,2 | 437,8 | 731,1 | 01/11/2024 | 32 | 0,4 | M86 7, I83 1, T34 1 |
+| TC DE PERNA E ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 13 | 13 | 13 | 1 | 447,0 | 474,7 | 734,6 | 28/10/2024 | 13 | 1,0 | M86 3, A46 2, C16 1 |
+| TC DE SEIOS DE FACE ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 13 | 13 | 13 | 3 | 340,8 | 342,1 | 633,8 | 06/02/2025 | 35 | 0,4 | J01 2, R51 2, S02 1 |
+| TC DO ABDOMEN SUPER.INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.001-0 | 13 | 12 | 13 | 0 | 385,7 | 363,7 | 762,0 | 01/10/2024 | 12 | 1,1 | R50 2, I25 1, N39 1 |
+| ANGIOTOMOGRAFIA DO SISTEMA PORTA (VASOS HEPÁTICOS) ADULTO S/SEDACAO | 02.06.03.001-0 | 12 | 12 | 12 | 8 | 228,9 | 197,9 | 425,9 | 02/09/2025 | 10 | 1,2 | I82 4, I81 4, I83 1 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS CORONARIAS INFANTIL S/SEDACAO | 02.06.02.003-1 | 12 | 12 | 12 | 4 | 266,6 | 225,4 | 640,0 | 31/01/2025 | — | — | Q24 4, Q25 3, I25 1 |
+| TC DE COXA D ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 12 | 12 | 12 | 0 | 269,9 | 271,8 | 726,0 | 06/11/2024 | 11 | 1,1 | S72 3, C90 3, A52 2 |
+| TC DE TORNOZELO ADULTO S/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 12 | 12 | 12 | 2 | 272,5 | 264,9 | 509,8 | 10/06/2025 | 36 | 0,3 | S82 7, S92 2, S42 1 |
+| TC ARTIC. COTOVELOS ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.001-5 | 11 | 10 | 11 | 1 | 367,4 | 380,8 | 738,0 | 25/10/2024 | 15 | 0,7 | S52 4, S50 3, S32 1 |
+| TC DE COXA E ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 11 | 11 | 11 | 0 | 290,0 | 201,9 | 726,0 | 06/11/2024 | 11 | 1,0 | S72 3, C90 3, T84 1 |
+| TC DE MASTOIDES INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 11 | 11 | 11 | 1 | 409,4 | 465,0 | 714,0 | 18/11/2024 | 0 | sem agendamento | H70 5, H66 3, H65 2 |
+| TC DE ORBITA INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.006-0 | 11 | 11 | 11 | 0 | 328,7 | 383,0 | 504,0 | 16/06/2025 | 3 | 3,7 | L03 9, H05 1, H65 1 |
+| 077. TC DE SEIOS DE FACE ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 9 | 9 | 9 | 121 | 6,4 | 6,8 | 7,0 | 26/10/2026 | 1.987 | 0,0 | J32 3, J34 2, J01 1 |
+| 093. TC DE MASTOIDES ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 9 | 9 | 9 | 55 | 6,2 | 6,0 | 7,1 | 26/10/2026 | 1.167 | 0,0 | H72 2, H91 1, H90 1 |
+| 159. TC DE COXA D ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 9 | 9 | 9 | 18 | 129,7 | 140,0 | 221,0 | 26/03/2026 | 41 | 0,2 | C49 3, D48 1, C60 1 |
+| 183. TC DE PERNA E ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 9 | 9 | 9 | 23 | 122,3 | 140,0 | 192,9 | 23/04/2026 | 20 | 0,5 | D16 2, M89 1, C60 1 |
+| ANGIOTOMOGRAFIA DA AORTA TORÁCICA E SEUS RAMOS INFANTIL S/SEDACAO | 02.06.02.003-1 | 9 | 9 | 9 | 10 | 162,1 | 95,8 | 459,0 | 31/07/2025 | 14 | 0,6 | Q25 5, I10 1, I71 1 |
+| ANGIOTOMOGRAFIA DOS MEMBROS SUPERIORES DIREITO ADULTO S/SEDACAO | 02.06.02.001-5 | 9 | 9 | 9 | 8 | 179,4 | 175,0 | 383,9 | 14/10/2025 | 31 | 0,3 | I82 2, N18 2, I74 1 |
+| TC COLUNA DORSAL ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.003-6 | 9 | 9 | 9 | 0 | 447,2 | 485,6 | 734,0 | 29/10/2024 | 41 | 0,2 | C50 2, G95 2, C64 1 |
+| TC ARTIC. PUNHOS ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.001-5 | 9 | 9 | 9 | 0 | 404,2 | 441,8 | 732,1 | 31/10/2024 | 16 | 0,6 | S52 5, S62 2, M25 1 |
+| TC DE COXA E ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 9 | 9 | 9 | 1 | 331,1 | 417,8 | 580,7 | 31/03/2025 | 15 | 0,6 | L02 2, M86 1, S72 1 |
+| 013. TC COLUNA DORSAL ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.003-6 | 8 | 8 | 8 | 62 | 13,1 | 6,9 | 59,0 | 04/09/2026 | 827 | 0,0 | M54 3, M79 2, M51 1 |
+| 175. TC DE PERNA D ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 7 | 7 | 7 | 12 | 107,7 | 121,7 | 192,9 | 23/04/2026 | 32 | 0,2 | I80 2, C43 1, D48 1 |
+| 239. TC ARTIC. JOELHOS ADULTO C/CONTRASTE S/SEDACAO | 02.06.03.002-9 | 7 | 7 | 7 | 18 | 101,6 | 107,8 | 171,7 | 14/05/2026 | 29 | 0,2 | M25 3, D16 1, M23 1 |
+| 265. TC DE PE ADULTO C/ CONTRASTE S/ SEDACAO | 02.06.02.002-3 | 7 | 7 | 7 | 29 | 109,1 | 90,1 | 228,9 | 18/03/2026 | 34 | 0,2 | M86 4, M25 1, E11 1 |
+| TC ARTIC. COXO-FEMURAIS ADUL. S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 7 | 6 | 7 | 1 | 403,2 | 354,0 | 754,8 | 08/10/2024 | 12 | 0,6 | S72 6, S32 1 |
+| TC DE MASTOIDES INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 7 | 7 | 7 | 0 | 415,4 | 460,0 | 598,0 | 14/03/2025 | 1 | 7,0 | H70 4, H66 2, H65 1 |
+| TC DE PERNA D ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 7 | 7 | 7 | 1 | 477,9 | 510,0 | 637,0 | 03/02/2025 | 22 | 0,3 | M86 2, B90 1, G83 1 |
+| 167. TC DE COXA E ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 6 | 6 | 6 | 15 | 138,0 | 118,3 | 222,0 | 25/03/2026 | 36 | 0,2 | D16 1, M25 1, C60 1 |
+| TC DE PESCOCO INFANTIL C/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 6 | 6 | 6 | 0 | 398,1 | 438,9 | 516,0 | 04/06/2025 | 4 | 1,5 | J39 2, L04 2, R45 1 |
+| TC DE BRACO D ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 6 | 6 | 6 | 0 | 147,4 | 141,9 | 285,7 | 20/01/2026 | 2 | 3,0 | C90 3, W01 1, E85 1 |
+| TC DE BRACO E ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 6 | 6 | 6 | 0 | 249,7 | 183,8 | 616,0 | 24/02/2025 | 1 | 6,0 | C90 3, M79 1, E85 1 |
+| 103. TC DE OUVIDOS ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 5 | 5 | 5 | 23 | 101,9 | 83,7 | 200,1 | 16/04/2026 | 40 | 0,1 | H90 2, H92 1, Q17 1 |
+| 117. TC DE PESCOCO ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.005-2 | 5 | 5 | 5 | 58 | 6,0 | 5,8 | 6,8 | 26/10/2026 | 479 | 0,0 | D44 1, R49 1, M35 1 |
+| 197. TC ARTIC. OMBROS ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.001-5 | 5 | 5 | 5 | 27 | 6,6 | 6,7 | 6,8 | 26/10/2026 | 564 | 0,0 | M75 3, T92 1, R52 1 |
+| 257. TC DE TORNOZELO ADULTO C/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 5 | 5 | 5 | 13 | 72,2 | 90,0 | 90,1 | 04/08/2026 | 19 | 0,3 | M25 3, M86 1, R52 1 |
+| TC DE ANTEBRACO E ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 5 | 5 | 5 | 0 | 289,6 | 313,8 | 516,9 | 03/06/2025 | 0 | sem agendamento | S52 4, C79 1 |
+| TC DE FACE ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 5 | 5 | 5 | 3 | 403,0 | 531,2 | 635,0 | 05/02/2025 | 29 | 0,2 | L30 1, G45 1, L02 1 |
+| TC DE MAO S/ CONTRASTE S/ SEDACAO | 02.06.02.002-3 | 5 | 5 | 5 | 0 | 350,7 | 430,7 | 516,9 | 03/06/2025 | 9 | 0,6 | S52 2, M79 1, S62 1 |
+| TC DE TORNOZELO ADULTO C/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 5 | 5 | 5 | 1 | 358,7 | 354,0 | 647,7 | 23/01/2025 | 17 | 0,3 | M25 1, M86 1, L03 1 |
+| 025. TC DE CRANIO INFANTIL S/CONTRASTE S/SEDACAO | 02.06.01.007-9 | 4 | 4 | 4 | 96 | 23,9 | 23,9 | 29,0 | 04/10/2026 | 829 | 0,0 | H53 1, S06 1, R56 1 |
+| 027. TC DE CRANIO INFANTIL C/CONTRASTE S/SEDACAO | 02.06.01.007-9 | 4 | 4 | 4 | 48 | 24,2 | 23,9 | 28,9 | 04/10/2026 | 149 | 0,0 | G06 2, H53 1, R51 1 |
+| 039. TC DE SELA TURCICA ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.006-0 | 4 | 4 | 4 | 24 | 138,6 | 153,8 | 219,8 | 27/03/2026 | 46 | 0,1 | E22 2, N64 1, D35 1 |
+| 135. TC DE BRACO E ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 4 | 4 | 4 | 4 | 158,7 | 146,5 | 236,9 | 10/03/2026 | 11 | 0,4 | C83 1, L02 1, C49 1 |
+| 281. TC DE MAO ADULTO C/ CONTRASTE S/ SEDACAO | 02.06.02.002-3 | 4 | 4 | 4 | 3 | 79,1 | 87,2 | 126,0 | 29/06/2026 | 5 | 0,8 | M65 1, M72 1, C44 1 |
+| TC COLUNA CERVICAL INFANTIL C/CONTRASTE S/SEDACAO EMERGENC. | 02.06.01.001-0 | 4 | 4 | 4 | 0 | 254,4 | 250,9 | 422,9 | 05/09/2025 | 0 | sem agendamento | J39 1, M50 1, L04 1 |
+| TC DE PESCOCO INFANTIL S/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 4 | 4 | 4 | 0 | 292,3 | 300,8 | 515,8 | 04/06/2025 | 0 | sem agendamento | L03 1, L04 1, R05 1 |
+| TC ARTIC.JOELHOS ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 4 | 4 | 4 | 0 | 402,0 | 430,5 | 718,8 | 13/11/2024 | 9 | 0,4 | M00 1, T84 1, M86 1 |
+| TC COLUNA LOMBO-SACRA INFANT. S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.002-8 | 4 | 4 | 4 | 0 | 399,9 | 465,5 | 622,0 | 18/02/2025 | 3 | 1,3 | S32 1, Q76 1, S33 1 |
+| TC DE COXA D ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 4 | 4 | 4 | 0 | 485,0 | 537,7 | 665,0 | 06/01/2025 | 17 | 0,2 | T84 1, S72 1, L08 1 |
+| TC DE FACE INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 4 | 4 | 4 | 1 | 514,4 | 525,1 | 581,0 | 31/03/2025 | 4 | 1,0 | J01 1, G51 1, L02 1 |
+| TC DE PERNA E ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 4 | 4 | 4 | 1 | 494,3 | 536,2 | 579,0 | 02/04/2025 | 45 | 0,1 | E14 1, M86 1, L08 1 |
+| 069. TC DE FACE ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 3 | 3 | 3 | 95 | 7,0 | 7,0 | 7,0 | 26/10/2026 | 613 | 0,0 | J34 1, Q38 1, J33 1 |
+| 087. TC ARTIC. TEMP. MAND. (ATM) ADULTO C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 3 | 3 | 3 | 2 | 123,5 | 131,9 | 205,7 | 10/04/2026 | 7 | 0,4 | C03 1, C91 1, R22 1 |
+| 199. TC ARTIC. OMBROS ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.001-5 | 3 | 3 | 3 | 14 | 31,2 | 34,0 | 45,8 | 17/09/2026 | 33 | 0,1 | M75 2, M72 1 |
+| ANGIOTOMOGRAFIA | 02.06.02.003-1 | 3 | 3 | 3 | 0 | 10,2 | 8,7 | 13,9 | 19/10/2026 | 268 | 0,0 | I26 2, I25 1 |
+| ANGIOTOMOGRAFIA DO CRANIO INFANTIL S/SEDACAO | 02.06.01.007-9 | 3 | 3 | 3 | 5 | 252,5 | 327,8 | 348,8 | 18/11/2025 | 7 | 0,4 | I61 1, D18 1, Q75 1 |
+| TC DE ORBITA ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.006-0 | 3 | 3 | 3 | 0 | 183,3 | 160,0 | 363,9 | 03/11/2025 | 0 | sem agendamento | H05 2, L03 1 |
+| TC ARTIC. COXO-FEMURAIS ADUL.C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 3 | 3 | 3 | 0 | 305,3 | 182,0 | 615,7 | 24/02/2025 | 5 | 0,6 | M25 1, L02 1, L89 1 |
+| TC ARTIC.JOELHOS INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 3 | 3 | 3 | 0 | 475,3 | 374,0 | 732,9 | 30/10/2024 | 0 | sem agendamento | M00 1, M25 1, M86 1 |
+| TC DE MASTOIDES ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 3 | 3 | 3 | 0 | 325,1 | 335,9 | 627,7 | 12/02/2025 | 4 | 0,8 | G96 1, H70 1, A49 1 |
+| TC DE ORBITA INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.006-0 | 3 | 3 | 3 | 0 | 378,6 | 383,9 | 612,0 | 28/02/2025 | 1 | 3,0 | L03 2, H05 1 |
+| 019. TC COLUNA LOMBO-SACRA INFANTIL C/CONTRASTE S/SEDACAO | 02.06.01.002-8 | 2 | 2 | 2 | 2 | 22,5 | 22,5 | 32,0 | 01/10/2026 | 4 | 0,5 | D16 1, M79 1 |
+| 026. TC DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO | 02.06.01.007-9 | 2 | 2 | 2 | 38 | 46,0 | 46,0 | 68,0 | 26/08/2026 | 271 | 0,0 | S06 1, Q67 1 |
+| 051. TC DO TORAX INFANTIL C/CONTRASTE S/SEDACAO | 02.06.02.003-1 | 2 | 2 | 2 | 52 | 328,5 | 328,5 | 646,0 | 25/01/2025 | 58 | 0,0 | D21 1, C18 1 |
+| 133. TC DE BRACO E ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 2 | 2 | 2 | 3 | 6,4 | 6,4 | 7,0 | 26/10/2026 | 201 | 0,0 | D47 1, M84 1 |
+| 205. TC ARTIC. COTOVELOS ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.001-5 | 2 | 2 | 2 | 2 | 5,7 | 5,7 | 5,7 | 27/10/2026 | 73 | 0,0 | M25 1, M84 1 |
+| 231. TC ARTIC. COXO-FEMURAIS ADULTO C/CONTRASTE S/SEDACAO | 02.06.03.002-9 | 2 | 2 | 2 | 14 | 82,9 | 82,9 | 159,0 | 27/05/2026 | 14 | 0,1 | M16 2 |
+| 271. TC DE CALCANEO ADULTO S/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 2 | 2 | 2 | 1 | 80,4 | 80,4 | 87,0 | 07/08/2026 | 28 | 0,1 | M86 1, M77 1 |
+| ANGIOTOMOGRAFIA DA AORTA ABDOMINAL E DOS SEUS RAMOS INFANTIL S/SEDACAO | 02.06.03.001-0 | 2 | 2 | 2 | 2 | 309,3 | 309,3 | 319,8 | 17/12/2025 | 3 | 0,7 | N39 1, I70 1 |
+| ANGIOTOMOGRAFIA DO TORAX OU PULMONAR INFANTIL S/SEDACAO | 02.06.02.003-1 | 2 | 2 | 2 | 7 | 135,8 | 135,8 | 265,7 | 09/02/2026 | 19 | 0,1 | Q24 1, Q21 1 |
+| TC DE SELA TURCICA INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.006-0 | 2 | 2 | 2 | 0 | 313,4 | 313,4 | 364,0 | 03/11/2025 | 0 | sem agendamento | E30 2 |
+| TC ARTIC. OMBROS ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.02.001-5 | 2 | 2 | 2 | 0 | 284,2 | 284,2 | 542,7 | 08/05/2025 | 5 | 0,4 | M21 1, M75 1 |
+| TC DE CALCANEO S/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 2 | 2 | 2 | 0 | 73,9 | 73,9 | 81,9 | 12/08/2026 | 20 | 0,1 | S62 1, S92 1 |
+| TC DE COXA D INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 2 | 2 | 2 | 0 | 418,9 | 418,9 | 671,8 | 30/12/2024 | 0 | sem agendamento | M79 1, M60 1 |
+| TC DE FACE INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 2 | 2 | 2 | 1 | 404,5 | 404,5 | 426,1 | 02/09/2025 | 1 | 2,0 | L03 1, L02 1 |
+| TC DE MAO C/ CONTRASTE S/ SEDACAO | 02.06.02.002-3 | 2 | 2 | 2 | 0 | 506,8 | 506,8 | 628,7 | 11/02/2025 | 5 | 0,4 | L03 1, L02 1 |
+| TC DE OUVIDOS ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 2 | 2 | 2 | 0 | 431,8 | 431,8 | 527,8 | 23/05/2025 | 0 | sem agendamento | G96 1, H70 1 |
+| TC DE SEIOS DE FACE ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 2 | 2 | 2 | 0 | 262,9 | 262,9 | 514,0 | 06/06/2025 | 12 | 0,2 | M86 1, A49 1 |
+| 003. TC COLUNA CERVICAL INFANTIL C/CONTRASTE S/SEDACAO | 02.06.01.001-0 | 1 | 1 | 1 | 2 | 19,8 | 19,8 | 19,8 | 13/10/2026 | 9 | 0,1 | Q18 1 |
+| 011. TC COLUNA DORSAL INFANTIL C/CONTRASTE S/SEDACAO | 02.06.01.003-6 | 1 | 1 | 1 | 1 | 13,0 | 13,0 | 13,0 | 20/10/2026 | 3 | 0,3 | D16 1 |
+| 028. TC DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO | 02.06.01.007-9 | 1 | 1 | 1 | 36 | 20,0 | 20,0 | 20,0 | 13/10/2026 | 52 | 0,0 | G06 1 |
+| 030. TC DE CRANIO ADULTO S/CONTRASTE C/SEDACAO | 02.06.01.007-9 | 1 | 1 | 1 | 223 | 93,8 | 93,8 | 93,8 | 31/07/2026 | 72 | 0,0 | G80 1 |
+| 032. TC DE CRANIO ADULTO C/CONTRASTE C/SEDACAO | 02.06.01.007-9 | 1 | 1 | 1 | 67 | 103,1 | 103,1 | 103,1 | 22/07/2026 | 20 | 0,1 | F10 1 |
+| 033. TC DE SELA TURCICA INFANTIL S/CONTRASTE S/SEDACAO | 02.06.01.006-0 | 1 | 1 | 1 | 2 | 5,1 | 5,1 | 5,1 | 28/10/2026 | 20 | 0,1 | E23 1 |
+| 049. TC DO TORAX INFANTIL S/CONTRASTE S/SEDACAO | 02.06.02.003-1 | 1 | 1 | 1 | 56 | 283,7 | 283,7 | 283,7 | 22/01/2026 | 153 | 0,0 | C56 1 |
+| 059. TC DO ABDOMEN SUPERIOR INFANTIL C/CONTRASTE S/SEDACAO | 02.06.03.001-0 | 1 | 1 | 1 | 122 | 10,9 | 10,9 | 10,9 | 22/10/2026 | 98 | 0,0 | D21 1 |
+| 060. TC DO ABDOMEN SUPERIOR INFANTIL C/CONTRASTE C/SEDACAO | 02.06.03.001-0 | 1 | 1 | 1 | 20 | 290,9 | 290,9 | 290,9 | 15/01/2026 | 21 | 0,0 | R50 1 |
+| 064. TC DO ABDOMEN SUPERIOR ADULTO C/CONTRASTE C/SEDACAO | 02.06.03.001-0 | 1 | 1 | 1 | 238 | 223,1 | 223,1 | 223,1 | 24/03/2026 | 26 | 0,0 | N18 1 |
+| 073. TC DE SEIOS DE FACE INFANTIL S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 1 | 1 | 1 | 10 | 21,0 | 21,0 | 21,0 | 12/10/2026 | 132 | 0,0 | J01 1 |
+| 085. TC ARTIC. TEMP. MAND. (ATM) ADULTO S/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 1 | 1 | 1 | 10 | 5,9 | 5,9 | 5,9 | 27/10/2026 | 77 | 0,0 | H92 1 |
+| 091. TC DE MASTOIDES INFANTIL C/CONTRASTE S/SEDACAO | 02.06.01.004-4 | 1 | 1 | 1 | 1 | 5,1 | 5,1 | 5,1 | 28/10/2026 | 10 | 0,1 | H65 1 |
+| 107. TC DE PELVE OU BACIA INFANTIL C/CONTRASTE S/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 138 | 10,9 | 10,9 | 10,9 | 22/10/2026 | 88 | 0,0 | D21 1 |
+| 108. TC DE PELVE OU BACIA INFANTIL C/CONTRASTE C/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 13 | 290,9 | 290,9 | 290,9 | 15/01/2026 | 9 | 0,1 | R50 1 |
+| 110. TC DE PELVE OU BACIA ADULTO S/CONTRASTE C/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 116 | 6,6 | 6,6 | 6,6 | 26/10/2026 | 13 | 0,1 | R10 1 |
+| 112. TC DE PELVE OU BACIA ADULTO C/CONTRASTE C/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 219 | 646,0 | 646,0 | 646,0 | 25/01/2025 | 23 | 0,0 | C18 1 |
+| 125. TC DE BRACO D ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 4 | 7,0 | 7,0 | 7,0 | 26/10/2026 | 203 | 0,0 | D47 1 |
+| 127. TC DE BRACO D ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 6 | 207,0 | 207,0 | 207,0 | 09/04/2026 | 16 | 0,1 | N18 1 |
+| 141. TC DE ANTEBRACO D ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 1 | 7,0 | 7,0 | 7,0 | 26/10/2026 | 125 | 0,0 | D47 1 |
+| 143. TC DE ANTEBRACO D ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 2 | 38,0 | 38,0 | 38,0 | 25/09/2026 | 7 | 0,1 | S52 1 |
+| 149. TC DE ANTEBRACO E ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 7,0 | 7,0 | 7,0 | 26/10/2026 | 127 | 0,0 | D47 1 |
+| 151. TC DE ANTEBRACO E ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 2 | 104,9 | 104,9 | 104,9 | 20/07/2026 | 3 | 0,3 | L02 1 |
+| 157. TC DE COXA D ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 3 | 7,0 | 7,0 | 7,0 | 26/10/2026 | 161 | 0,0 | D47 1 |
+| 165. TC DE COXA E ADULTO S/CONTRASTE S/SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 7 | 7,0 | 7,0 | 7,0 | 26/10/2026 | 182 | 0,0 | D47 1 |
+| 207. TC ARTIC. COTOVELOS ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.001-5 | 1 | 1 | 1 | 3 | 38,0 | 38,0 | 38,0 | 25/09/2026 | 3 | 0,3 | S52 1 |
+| 223. TC ARTIC. SACRO-ILIACA ADULTO C/CONTRASTE S/SEDACAO | 02.06.02.001-5 | 1 | 1 | 1 | 3 | 13,0 | 13,0 | 13,0 | 20/10/2026 | 13 | 0,1 | M86 1 |
+| 229. TC ARTIC. COXO-FEMURAIS ADULTO S/CONTRASTE S/SEDACAO | 02.06.03.002-9 | 1 | 1 | 1 | 10 | 5,8 | 5,8 | 5,8 | 27/10/2026 | 207 | 0,0 | M16 1 |
+| 237. TC ARTIC. JOELHOS ADULTO S/CONTRASTE S/SEDACAO | 02.06.03.002-9 | 1 | 1 | 1 | 29 | 5,1 | 5,1 | 5,1 | 28/10/2026 | 760 | 0,0 | M23 1 |
+| 264. TC DE PE ADULTO S/ CONTRASTE C/ SEDACAO | 02.06.02.002-3 | 1 | 1 | 1 | 11 | 88,0 | 88,0 | 88,0 | 06/08/2026 | 1 | 1,0 | D64 1 |
+| ANGIOTOMOGRAFIA DA PELVE INFANTIL S/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 0 | 50,8 | 50,8 | 50,8 | 12/09/2026 | 1 | 1,0 | I80 1 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS RENAIS INFANTIL S/SEDACAO | 02.06.03.001-0 | 1 | 1 | 1 | 1 | 319,8 | 319,8 | 319,8 | 17/12/2025 | 2 | 0,5 | N39 1 |
+| ANGIOTOMOGRAFIA DO PESCOCO INFANTIL S/SEDACAO | 02.06.01.005-2 | 1 | 1 | 1 | 0 | 50,8 | 50,8 | 50,8 | 12/09/2026 | 2 | 0,5 | I82 1 |
+| ANGIOTOMOGRAFIA DOS MEMBROS SUPERIORES ESQUERDO INFANTIL S/SEDACAO | 02.06.02.001-5 | 1 | 1 | 1 | 0 | 50,8 | 50,8 | 50,8 | 12/09/2026 | — | — | I82 1 |
+| TC DE ORBITA ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.006-0 | 1 | 1 | 1 | 0 | 114,9 | 114,9 | 114,9 | 10/07/2026 | 5 | 0,2 | I33 1 |
+| TC DE SELA TURCICA ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.006-0 | 1 | 1 | 1 | 0 | 17,9 | 17,9 | 17,9 | 15/10/2026 | 2 | 0,5 | R51 1 |
+| TC DE SELA TURCICA INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.006-0 | 1 | 1 | 1 | 0 | 40,8 | 40,8 | 40,8 | 22/09/2026 | 0 | sem agendamento | E23 1 |
+| TC ARTIC. COXO-FEMURAIS INFAN. C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 1 | 1 | 1 | 0 | 319,0 | 319,0 | 319,0 | 18/12/2025 | 0 | sem agendamento | M25 1 |
+| TC ARTIC. COXO-FEMURAIS INFAN. S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 1 | 1 | 1 | 0 | 165,9 | 165,9 | 165,9 | 20/05/2026 | 0 | sem agendamento | M60 1 |
+| TC ARTIC. SACRO-ILIACA ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.02.001-5 | 1 | 1 | 1 | 0 | 417,1 | 417,1 | 417,1 | 11/09/2025 | 4 | 0,2 | X54 1 |
+| TC ARTIC. SACRO-ILIACA ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.001-5 | 1 | 1 | 1 | 0 | 25,8 | 25,8 | 25,8 | 07/10/2026 | 1 | 1,0 | S70 1 |
+| TC ARTIC.TEMP.MAND.(ATM)ADULT.S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 501,7 | 501,7 | 501,7 | 18/06/2025 | 0 | sem agendamento | S02 1 |
+| TC COLUNA CERVICAL INFANTL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.001-0 | 1 | 1 | 1 | 0 | 538,0 | 538,0 | 538,0 | 13/05/2025 | 0 | sem agendamento | R22 1 |
+| TC DE BRACO E ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 655,9 | 655,9 | 655,9 | 15/01/2025 | 3 | 0,3 | C50 1 |
+| TC DE COXA D INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 319,0 | 319,0 | 319,0 | 18/12/2025 | 0 | sem agendamento | M25 1 |
+| TC DE COXA E INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 21,0 | 21,0 | 21,0 | 12/10/2026 | 0 | sem agendamento | L02 1 |
+| TC DE COXA E INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 555,8 | 555,8 | 555,8 | 25/04/2025 | 1 | 1,0 | R51 1 |
+| TC DE MASTOIDES ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 633,7 | 633,7 | 633,7 | 06/02/2025 | 6 | 0,2 | H71 1 |
+| TC DE OUVIDOS ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 76,0 | 76,0 | 76,0 | 18/08/2026 | 1 | 1,0 | H80 1 |
+| TC DE PE INFANTIL C/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 1 | 1 | 1 | 0 | 180,0 | 180,0 | 180,0 | 06/05/2026 | 0 | sem agendamento | L03 1 |
+| TC DE PERNA D INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 374,0 | 374,0 | 374,0 | 24/10/2025 | 0 | sem agendamento | M86 1 |
+| TC DE PERNA E INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 402,5 | 402,5 | 402,5 | 25/09/2025 | 0 | sem agendamento | I82 1 |
+| TC DE SEIOS DE FACE INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 389,0 | 389,0 | 389,0 | 09/10/2025 | 1 | 1,0 | H65 1 |
+| TC DE SEIOS DE FACE INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 515,0 | 515,0 | 515,0 | 05/06/2025 | 1 | 1,0 | J00 1 |
+
+### tomografia: as 20 de maior espera média
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| TC DE BRACO E ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 655,9 | 655,9 | 655,9 | 15/01/2025 | 3 | 0,3 | C50 1 |
+| 112. TC DE PELVE OU BACIA ADULTO C/CONTRASTE C/SEDACAO | 02.06.03.003-7 | 1 | 1 | 1 | 219 | 646,0 | 646,0 | 646,0 | 25/01/2025 | 23 | 0,0 | C18 1 |
+| TC DE MASTOIDES ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 633,7 | 633,7 | 633,7 | 06/02/2025 | 6 | 0,2 | H71 1 |
+| TC DE COXA E INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 555,8 | 555,8 | 555,8 | 25/04/2025 | 1 | 1,0 | R51 1 |
+| TC COLUNA CERVICAL INFANTL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.001-0 | 1 | 1 | 1 | 0 | 538,0 | 538,0 | 538,0 | 13/05/2025 | 0 | sem agendamento | R22 1 |
+| TC DE SEIOS DE FACE INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 515,0 | 515,0 | 515,0 | 05/06/2025 | 1 | 1,0 | J00 1 |
+| TC DE FACE INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 4 | 4 | 4 | 1 | 514,4 | 525,1 | 581,0 | 31/03/2025 | 4 | 1,0 | J01 1, G51 1, L02 1 |
+| TC DE MAO C/ CONTRASTE S/ SEDACAO | 02.06.02.002-3 | 2 | 2 | 2 | 0 | 506,8 | 506,8 | 628,7 | 11/02/2025 | 5 | 0,4 | L03 1, L02 1 |
+| TC ARTIC.TEMP.MAND.(ATM)ADULT.S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 501,7 | 501,7 | 501,7 | 18/06/2025 | 0 | sem agendamento | S02 1 |
+| TC DE PERNA E ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 4 | 4 | 4 | 1 | 494,3 | 536,2 | 579,0 | 02/04/2025 | 45 | 0,1 | E14 1, M86 1, L08 1 |
+| TC COLUNA LOMBO-SACRA ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.002-8 | 23 | 19 | 23 | 2 | 489,5 | 460,9 | 767,0 | 26/09/2024 | 91 | 0,3 | M86 3, M54 2, M46 2 |
+| TC DE COXA D ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 4 | 4 | 4 | 0 | 485,0 | 537,7 | 665,0 | 06/01/2025 | 17 | 0,2 | T84 1, S72 1, L08 1 |
+| TC DE PERNA D ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 7 | 7 | 7 | 1 | 477,9 | 510,0 | 637,0 | 03/02/2025 | 22 | 0,3 | M86 2, B90 1, G83 1 |
+| TC ARTIC.JOELHOS INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 3 | 3 | 3 | 0 | 475,3 | 374,0 | 732,9 | 30/10/2024 | 0 | sem agendamento | M00 1, M25 1, M86 1 |
+| TC DE PE ADULTO C/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 13 | 13 | 13 | 0 | 470,2 | 437,8 | 731,1 | 01/11/2024 | 32 | 0,4 | M86 7, I83 1, T34 1 |
+| TC DE PELVE OU BACIA INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.003-7 | 15 | 15 | 15 | 1 | 463,0 | 522,8 | 674,8 | 27/12/2024 | 9 | 1,7 | R10 3, N20 1, C16 1 |
+| TC COLUNA DORSAL ADULTO C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.003-6 | 9 | 9 | 9 | 0 | 447,2 | 485,6 | 734,0 | 29/10/2024 | 41 | 0,2 | C50 2, G95 2, C64 1 |
+| TC DE PERNA E ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 13 | 13 | 13 | 1 | 447,0 | 474,7 | 734,6 | 28/10/2024 | 13 | 1,0 | M86 3, A46 2, C16 1 |
+| TC DE PE ADULTO S/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 18 | 17 | 18 | 0 | 436,8 | 467,8 | 745,7 | 17/10/2024 | 33 | 0,5 | M86 6, S92 3, A46 2 |
+| TC DE OUVIDOS ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 2 | 2 | 2 | 0 | 431,8 | 431,8 | 527,8 | 23/05/2025 | 0 | sem agendamento | G96 1, H70 1 |
+
+### tomografia: as 20 de mais anos de estoque
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| TC COLUNA CERVICAL INFANTIL C/CONTRASTE S/SEDACAO EMERGENC. | 02.06.01.001-0 | 4 | 4 | 4 | 0 | 254,4 | 250,9 | 422,9 | 05/09/2025 | 0 | sem agendamento | J39 1, M50 1, L04 1 |
+| TC DE ORBITA ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.006-0 | 3 | 3 | 3 | 0 | 183,3 | 160,0 | 363,9 | 03/11/2025 | 0 | sem agendamento | H05 2, L03 1 |
+| TC DE PESCOCO INFANTIL S/CONTRASTE / S/SEDACAO EMERGENCIA | 02.06.01.005-2 | 4 | 4 | 4 | 0 | 292,3 | 300,8 | 515,8 | 04/06/2025 | 0 | sem agendamento | L03 1, L04 1, R05 1 |
+| TC DE SELA TURCICA INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.01.006-0 | 1 | 1 | 1 | 0 | 40,8 | 40,8 | 40,8 | 22/09/2026 | 0 | sem agendamento | E23 1 |
+| TC DE SELA TURCICA INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.006-0 | 2 | 2 | 2 | 0 | 313,4 | 313,4 | 364,0 | 03/11/2025 | 0 | sem agendamento | E30 2 |
+| TC ARTIC. COXO-FEMURAIS INFAN. C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 1 | 1 | 1 | 0 | 319,0 | 319,0 | 319,0 | 18/12/2025 | 0 | sem agendamento | M25 1 |
+| TC ARTIC. COXO-FEMURAIS INFAN. S/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 1 | 1 | 1 | 0 | 165,9 | 165,9 | 165,9 | 20/05/2026 | 0 | sem agendamento | M60 1 |
+| TC ARTIC.JOELHOS INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.03.002-9 | 3 | 3 | 3 | 0 | 475,3 | 374,0 | 732,9 | 30/10/2024 | 0 | sem agendamento | M00 1, M25 1, M86 1 |
+| TC ARTIC.TEMP.MAND.(ATM)ADULT.S/CONTRASTE S/SEDACAO EMERG. | 02.06.01.004-4 | 1 | 1 | 1 | 0 | 501,7 | 501,7 | 501,7 | 18/06/2025 | 0 | sem agendamento | S02 1 |
+| TC COLUNA CERVICAL INFANTL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.001-0 | 1 | 1 | 1 | 0 | 538,0 | 538,0 | 538,0 | 13/05/2025 | 0 | sem agendamento | R22 1 |
+| TC DE ANTEBRACO E ADULTO S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 5 | 5 | 5 | 0 | 289,6 | 313,8 | 516,9 | 03/06/2025 | 0 | sem agendamento | S52 4, C79 1 |
+| TC DE COXA D INFANTIL C/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 319,0 | 319,0 | 319,0 | 18/12/2025 | 0 | sem agendamento | M25 1 |
+| TC DE COXA D INFANTIL S/CONTRASTE S/SEDACAO EMERG. | 02.06.02.002-3 | 2 | 2 | 2 | 0 | 418,9 | 418,9 | 671,8 | 30/12/2024 | 0 | sem agendamento | M79 1, M60 1 |
+| TC DE COXA E INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 21,0 | 21,0 | 21,0 | 12/10/2026 | 0 | sem agendamento | L02 1 |
+| TC DE MASTOIDES INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 11 | 11 | 11 | 1 | 409,4 | 465,0 | 714,0 | 18/11/2024 | 0 | sem agendamento | H70 5, H66 3, H65 2 |
+| TC DE OUVIDOS ADULTO C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.01.004-4 | 2 | 2 | 2 | 0 | 431,8 | 431,8 | 527,8 | 23/05/2025 | 0 | sem agendamento | G96 1, H70 1 |
+| TC DE PE INFANTIL C/ CONTRASTE S/ SEDACAO | 02.06.03.002-9 | 1 | 1 | 1 | 0 | 180,0 | 180,0 | 180,0 | 06/05/2026 | 0 | sem agendamento | L03 1 |
+| TC DE PERNA D INFANTIL C/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 374,0 | 374,0 | 374,0 | 24/10/2025 | 0 | sem agendamento | M86 1 |
+| TC DE PERNA E INFANTIL S/CONTRASTE S/SEDACAO EMERGENCIA | 02.06.02.002-3 | 1 | 1 | 1 | 0 | 402,5 | 402,5 | 402,5 | 25/09/2025 | 0 | sem agendamento | I82 1 |
+| ANGIOTOMOGRAFIA DAS ARTÉRIAS CORONARIAS ADULTO S/SEDACAO | 02.06.02.003-1 | 1.532 | 1.531 | 1.532 | 138 | 292,6 | 265,1 | 747,8 | 15/10/2024 | 137 | 11,2 | I20 447, I25 410, R07 128 |
+
+### ressonância magnética: por pessoas
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 037. RM DA COLUNA LOMBO-SACRA ADULTO S/CONTRASTE S/SEDACAO | 02.07.01.004-8 | 1.477 | 1.475 | 1.477 | 1.301 | 29,0 | 26,6 | 1.727,0 | 09/02/2022 | 17.335 | 0,1 | M54 1.028, M51 250, R52 23 |
+| 071. RM DE BACIA OU PELVIS ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.002-2 | 984 | 984 | 984 | 684 | 34,9 | 34,7 | 98,1 | 27/07/2026 | 14.062 | 0,1 | N80 203, R10 98, C53 54 |
+| 005. RM DE CRANIO ADULTO S/CONTRASTE S/SEDACAO | 02.07.01.006-4 | 719 | 719 | 719 | 566 | 25,7 | 25,8 | 74,0 | 20/08/2026 | 7.070 | 0,1 | R51 123, F03 68, G40 59 |
+| 007. RM DE CRANIO ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.006-4 | 623 | 623 | 623 | 654 | 34,3 | 33,8 | 227,9 | 19/03/2026 | 7.363 | 0,1 | R51 63, D33 42, G35 41 |
+| 133. RM DE JOELHO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 598 | 597 | 598 | 386 | 28,5 | 24,8 | 1.761,0 | 06/01/2022 | 6.057 | 0,1 | M23 230, M25 138, M17 85 |
+| 021. RM DA COLUNA CERVICAL ADULTO S/CONTRASTE S/SEDACAO | 02.07.01.003-0 | 555 | 554 | 553 | 539 | 29,7 | 26,9 | 1.721,8 | 14/02/2022 | 6.772 | 0,1 | M54 340, M50 52, M51 47 |
+| 141. RM DE JOELHO E ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 552 | 552 | 552 | 389 | 25,7 | 25,8 | 74,0 | 20/08/2026 | 5.736 | 0,1 | M23 197, M25 129, M17 76 |
+| 069. RM DE BACIA OU PELVIS ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.002-2 | 534 | 534 | 534 | 748 | 26,1 | 26,0 | 90,7 | 03/08/2026 | 5.325 | 0,1 | N80 127, R10 74, M54 35 |
+| 055. RM DE ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.001-4 | 465 | 465 | 465 | 501 | 31,2 | 33,9 | 81,7 | 12/08/2026 | 9.248 | 0,1 | C50 38, C53 32, R10 26 |
+| 077. RM DE OMBRO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 395 | 395 | 395 | 216 | 25,7 | 25,9 | 84,0 | 10/08/2026 | 3.892 | 0,1 | M75 251, M25 49, M65 18 |
+| 085. RM DE OMBRO E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 260 | 259 | 260 | 172 | 34,0 | 27,8 | 1.727,0 | 09/02/2022 | 2.899 | 0,1 | M75 157, M25 37, M79 14 |
+| 029. RM DA COLUNA DORSAL ADULTO S/CONTRASTE S/SEDACAO | 02.07.01.005-6 | 221 | 221 | 221 | 246 | 25,9 | 26,1 | 70,0 | 24/08/2026 | 2.769 | 0,1 | M54 146, M51 28, S22 6 |
+| 264. RM DO CORACAO OU AORTA ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.001-9 | 169 | 169 | 169 | 318 | 75,2 | 73,7 | 153,0 | 02/06/2026 | 1.060 | 0,2 | I50 53, I42 27, I25 15 |
+| 039. RM DA COLUNA LOMBO-SACRA ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.004-8 | 151 | 151 | 151 | 308 | 36,7 | 34,9 | 73,8 | 20/08/2026 | 2.344 | 0,1 | M54 53, M51 9, M45 9 |
+| 023. RM DA COLUNA CERVICAL ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.003-0 | 119 | 119 | 119 | 185 | 37,0 | 35,0 | 73,0 | 21/08/2026 | 1.667 | 0,1 | G35 34, M54 10, M51 4 |
+| 053. RM DE ABDOMEN SUPERIOR ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.001-4 | 104 | 104 | 104 | 350 | 23,1 | 21,9 | 48,9 | 14/09/2026 | 1.389 | 0,1 | R10 27, E83 7, D35 6 |
+| RM DE SELA TURCICA ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.007-2 | 104 | 104 | 104 | 34 | 32,0 | 31,7 | 70,0 | 24/08/2026 | 1.011 | 0,1 | D35 47, E22 35, E23 8 |
+| ANGIORESSONANCIA CEREBRAL ARTERIAL | 02.07.01.001-3 | 82 | 82 | 82 | 32 | 29,8 | 30,7 | 65,8 | 28/08/2026 | 1.482 | 0,1 | I67 29, I64 9, R51 6 |
+| 262. RM DO CORACAO OU AORTA ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.001-9 | 80 | 80 | 80 | 263 | 79,3 | 82,3 | 151,9 | 03/06/2026 | 730 | 0,1 | I50 28, I25 8, I42 7 |
+| 149. RM DE TORNOZELO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 79 | 79 | 79 | 45 | 26,5 | 27,7 | 93,8 | 31/07/2026 | 717 | 0,1 | S93 15, M25 14, M79 9 |
+| 173. RM DE PE E ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 79 | 79 | 79 | 70 | 26,5 | 26,7 | 53,8 | 09/09/2026 | 743 | 0,1 | M72 14, M25 12, M79 11 |
+| 031. RM DA COLUNA DORSAL ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.005-6 | 78 | 78 | 78 | 119 | 35,4 | 34,3 | 73,0 | 21/08/2026 | 1.514 | 0,1 | G35 15, M54 9, C90 4 |
+| 165. RM DE PE D ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 75 | 75 | 75 | 70 | 25,0 | 25,0 | 68,9 | 25/08/2026 | 713 | 0,1 | M79 14, M25 13, M72 9 |
+| 280. RM DE MAO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 72 | 72 | 72 | 48 | 27,2 | 27,0 | 69,9 | 24/08/2026 | 412 | 0,2 | M25 13, M05 9, M06 8 |
+| 109. RM DE PUNHO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 67 | 67 | 67 | 35 | 27,5 | 27,8 | 89,8 | 04/08/2026 | 382 | 0,2 | M25 15, G56 12, M06 4 |
+| 157. RM DE TORNOZELO E ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 67 | 67 | 67 | 42 | 24,6 | 26,0 | 66,1 | 28/08/2026 | 657 | 0,1 | M25 11, S93 8, M79 7 |
+| RM DE ARTICULACAO COXO -FERMURAL DIREITA S/ CONTRASTE S/ SEDACAO | 02.07.03.003-0 | 65 | 65 | 65 | 7 | 34,8 | 33,8 | 70,0 | 24/08/2026 | 268 | 0,2 | M16 24, M25 10, M76 6 |
+| 063. RM DE VIAS BILIARES ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.004-9 | 63 | 63 | 63 | 138 | 31,8 | 27,8 | 73,8 | 20/08/2026 | 1.083 | 0,1 | K83 17, K80 10, K86 6 |
+| RM DE ARTICULACAO COXO-FEMURAL ESQUERDA S/ CONTRASTE S/ SEDACAO | 02.07.03.003-0 | 63 | 63 | 63 | 3 | 35,0 | 32,8 | 70,0 | 24/08/2026 | 262 | 0,2 | M16 15, M25 10, M76 6 |
+| RM DE MASTOIDES ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.002-1 | 61 | 61 | 61 | 13 | 33,4 | 33,8 | 83,1 | 11/08/2026 | 706 | 0,1 | H90 26, G51 7, H93 7 |
+| RM DE PESCOCO ADULTO C/CONTRASTE S/SEDAÇÃO | 02.07.01.003-0 | 59 | 59 | 59 | 5 | 31,0 | 32,8 | 76,0 | 18/08/2026 | 636 | 0,1 | C32 11, C10 8, C02 3 |
+| 117. RM DE PUNHO E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 56 | 56 | 56 | 22 | 27,5 | 31,3 | 72,8 | 21/08/2026 | 360 | 0,2 | M25 13, G56 11, M13 6 |
+| 288. RM DE MAO E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 56 | 56 | 56 | 23 | 27,0 | 27,3 | 66,0 | 28/08/2026 | 328 | 0,2 | M25 15, M05 8, M13 5 |
+| 061. RM DE VIAS BILIARES ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.004-9 | 52 | 52 | 52 | 157 | 24,4 | 21,0 | 66,0 | 28/08/2026 | 2.129 | 0,0 | K80 23, K83 8, R10 4 |
+| 045. RM DE TORAX ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.003-5 | 47 | 47 | 47 | 231 | 25,2 | 24,6 | 62,9 | 31/08/2026 | 588 | 0,1 | R07 12, M54 10, M25 3 |
+| 135. RM DE JOELHO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 43 | 43 | 43 | 62 | 34,5 | 30,9 | 74,9 | 19/08/2026 | 316 | 0,1 | M23 9, M25 8, S83 6 |
+| 143. RM DE JOELHO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 39 | 39 | 39 | 54 | 37,7 | 33,9 | 73,8 | 20/08/2026 | 303 | 0,1 | M23 8, M25 6, D48 3 |
+| 229. RM DE PERNA D ADULTO S/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 35 | 35 | 35 | 38 | 25,6 | 26,8 | 66,9 | 27/08/2026 | 284 | 0,1 | M79 9, M25 5, M86 5 |
+| ANGIORESSONANCIA CEREBRAL VENOSA | 02.07.01.001-3 | 33 | 33 | 33 | 15 | 29,8 | 30,7 | 61,7 | 01/09/2026 | 633 | 0,1 | R51 6, G93 4, I67 3 |
+| 047. RM DE TORAX ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.003-5 | 28 | 28 | 28 | 147 | 35,5 | 34,9 | 72,7 | 21/08/2026 | 480 | 0,1 | E21 4, C50 4, I42 2 |
+| 282. RM DE MAO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 28 | 28 | 28 | 16 | 38,5 | 36,9 | 69,7 | 24/08/2026 | 164 | 0,2 | M25 7, M06 4, M05 4 |
+| RM DE ORBITAS ADULTO C/CONTRASTE S/SEDAÇÃO | 02.07.01.006-4 | 28 | 28 | 28 | 1 | 27,7 | 28,0 | 54,9 | 08/09/2026 | 252 | 0,1 | G35 3, H46 2, H05 2 |
+| RM DE PESCOCO ADULTO S/CONTRASTE S/SEDAÇÃO | 02.07.01.003-0 | 28 | 28 | 28 | 2 | 32,3 | 31,4 | 79,8 | 14/08/2026 | 119 | 0,2 | M54 8, R22 8, E07 2 |
+| 013. RM DE ATM (BILATERAL) ADULTO S/CONTRASTE S/SEDACAO | 02.07.01.002-1 | 27 | 27 | 27 | 27 | 25,7 | 24,7 | 70,1 | 24/08/2026 | 218 | 0,1 | K07 20, K76 3, M54 1 |
+| 093. RM DE COTOVELO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 24 | 24 | 24 | 15 | 21,1 | 19,5 | 38,0 | 25/09/2026 | 236 | 0,1 | M77 7, M70 3, M06 2 |
+| 237. RM DE PERNA E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 24 | 24 | 24 | 40 | 27,4 | 25,4 | 87,7 | 06/08/2026 | 293 | 0,1 | M25 6, M79 6, M54 2 |
+| 290. RM DE MAO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 24 | 24 | 24 | 9 | 39,5 | 37,8 | 73,0 | 21/08/2026 | 119 | 0,2 | M06 5, D48 3, M25 3 |
+| 079. RM DE OMBRO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 23 | 23 | 23 | 39 | 42,8 | 41,9 | 66,5 | 27/08/2026 | 227 | 0,1 | M75 11, M25 3, M79 2 |
+| 221. RM DE COXA E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 23 | 23 | 23 | 26 | 30,5 | 28,0 | 73,0 | 21/08/2026 | 265 | 0,1 | M79 4, R22 3, M25 2 |
+| 167. RM DE PE D ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 22 | 22 | 22 | 19 | 35,1 | 42,3 | 66,9 | 27/08/2026 | 371 | 0,1 | M86 10, D48 2, S92 2 |
+| 175. RM DE PE E ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 21 | 21 | 21 | 31 | 36,0 | 37,9 | 70,0 | 24/08/2026 | 333 | 0,1 | M86 9, D48 3, M77 2 |
+| RM DE MASTOIDES ADULTO S/CONTRASTE S/SEDACAO | 02.07.01.002-1 | 21 | 21 | 21 | 7 | 24,1 | 25,8 | 39,0 | 24/09/2026 | 188 | 0,1 | H90 6, H93 4, H91 1 |
+| 087. RM DE OMBRO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 20 | 20 | 20 | 27 | 39,8 | 34,9 | 73,0 | 21/08/2026 | 167 | 0,1 | M75 8, M25 5, T92 1 |
+| 101. RM DE COTOVELO E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 20 | 20 | 20 | 6 | 22,6 | 25,7 | 38,1 | 25/09/2026 | 160 | 0,1 | S53 3, M06 2, M75 2 |
+| 111. RM DE PUNHO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 20 | 20 | 20 | 17 | 38,0 | 39,7 | 66,0 | 28/08/2026 | 104 | 0,2 | M25 4, M06 3, D21 2 |
+| 231. RM DE PERNA D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 20 | 20 | 20 | 20 | 31,5 | 30,4 | 60,7 | 02/09/2026 | 207 | 0,1 | D48 6, M86 4, M79 1 |
+| RM DE SELA TURCICA ADULTO S/CONTRASTE S/SEDACAO | 02.07.01.007-2 | 20 | 20 | 20 | 27 | 26,2 | 26,2 | 66,7 | 27/08/2026 | 211 | 0,1 | E22 6, D35 6, E23 2 |
+| 119. RM DE PUNHO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 19 | 19 | 19 | 13 | 34,7 | 32,0 | 66,0 | 28/08/2026 | 79 | 0,2 | M06 4, M05 4, M25 2 |
+| 181. RM DE BRACO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 19 | 19 | 19 | 17 | 25,0 | 28,0 | 39,8 | 23/09/2026 | 239 | 0,1 | M75 5, M25 4, M79 2 |
+| 189. RM DE BRACO E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 19 | 19 | 19 | 14 | 27,4 | 28,0 | 58,8 | 04/09/2026 | 192 | 0,1 | M75 4, M25 3, M79 3 |
+| 304. RM DE SEIOS DA FACE ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.002-1 | 19 | 19 | 19 | 26 | 31,2 | 33,9 | 62,9 | 31/08/2026 | 326 | 0,1 | R43 3, J34 2, J32 2 |
+| 002. RM DE CRANIO INFANTIL S/CONTRASTE C/SEDACAO | 02.07.01.006-4 | 18 | 18 | 18 | 863 | 24,2 | 17,9 | 52,8 | 10/09/2026 | 1.027 | 0,0 | G40 5, G93 2, F79 2 |
+| 213. RM DE COXA D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 18 | 18 | 18 | 35 | 32,4 | 34,7 | 73,0 | 21/08/2026 | 239 | 0,1 | M25 2, M79 2, M16 2 |
+| 223. RM DE COXA E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 16 | 16 | 16 | 18 | 35,9 | 35,9 | 69,6 | 24/08/2026 | 176 | 0,1 | D48 4, R22 2, M85 1 |
+| 151. RM DE TORNOZELO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 15 | 15 | 15 | 14 | 29,6 | 32,7 | 54,8 | 08/09/2026 | 96 | 0,2 | M05 3, M06 2, M65 2 |
+| 239. RM DE PERNA E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 15 | 15 | 15 | 19 | 32,0 | 27,0 | 61,8 | 01/09/2026 | 185 | 0,1 | M86 8, D48 1, M89 1 |
+| 004. RM DE CRANIO INFANTIL C/CONTRASTE C/SEDACAO | 02.07.01.006-4 | 13 | 13 | 13 | 871 | 24,7 | 24,0 | 54,8 | 08/09/2026 | 849 | 0,0 | G40 4, Q85 1, R56 1 |
+| 215. RM DE COXA D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 13 | 13 | 13 | 13 | 33,8 | 38,9 | 51,7 | 11/09/2026 | 167 | 0,1 | M54 2, D48 1, D16 1 |
+| 298. ANGIORESSONANCIA DE PERNA | 02.07.03.003-0 | 10 | 10 | 10 | 5 | 23,9 | 25,4 | 38,8 | 24/09/2026 | 17 | 0,6 | I83 4, I82 2, I74 1 |
+| RM DE ARTICULACAO COXO-FEMURAL DIREITA C/CONTRASTE S/SEDACAO | 02.07.01.003-0 | 10 | 10 | 10 | 2 | 36,2 | 30,7 | 66,8 | 27/08/2026 | 65 | 0,2 | M16 2, M87 2, M07 1 |
+| 159. RM DE TORNOZELO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.03.003-0 | 9 | 9 | 9 | 10 | 29,6 | 33,8 | 50,9 | 12/09/2026 | 114 | 0,1 | M25 2, M05 2, M65 1 |
+| RM DE ARTICUACAO COXO-FEMURAL ESQUERDA C/CONTRASTE S/SEDACAO | 02.07.01.003-0 | 9 | 9 | 9 | 0 | 40,4 | 39,0 | 61,9 | 01/09/2026 | 58 | 0,2 | M16 4, M25 3, M86 1 |
+| 183. RM DE BRACO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 8 | 8 | 8 | 11 | 35,3 | 35,2 | 68,9 | 25/08/2026 | 75 | 0,1 | D48 2, M65 1, M79 1 |
+| ANGIORESSONANCIA DO PESCOCO | 02.07.01.001-3 | 8 | 8 | 8 | 0 | 28,8 | 28,4 | 46,9 | 16/09/2026 | 104 | 0,1 | D43 1, I63 1, M31 1 |
+| RM DE PESCOCO ADULTO C/CONTRASTE C/ SEDAÇÃO | 02.07.01.003-0 | 8 | 8 | 8 | 22 | 28,2 | 26,9 | 42,0 | 21/09/2026 | 13 | 0,6 | C76 2, D11 1, C11 1 |
+| 302. RM DE SEIOS DA FACE ADULTO S/CONTRASTE S/SEDACAO | 02.07.01.002-1 | 7 | 7 | 7 | 18 | 19,0 | 13,9 | 38,7 | 24/09/2026 | 87 | 0,1 | J01 1, J32 1, G47 1 |
+| ANGIORESSONANCIA DO ABDOMEN | 02.07.01.001-3 | 7 | 7 | 7 | 39 | 34,2 | 31,0 | 60,0 | 03/09/2026 | 105 | 0,1 | M31 1, K70 1, K83 1 |
+| 191. RM DE BRACO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 6 | 6 | 6 | 4 | 33,0 | 39,3 | 52,8 | 10/09/2026 | 54 | 0,1 | Z12 1, T92 1, Z54 1 |
+| 205. RM DE ANTEBRACO E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 6 | 6 | 6 | 6 | 25,1 | 25,5 | 38,8 | 24/09/2026 | 57 | 0,1 | M54 1, M21 1, S56 1 |
+| 207. RM DE ANTEBRACO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 5 | 5 | 5 | 6 | 48,0 | 48,9 | 69,0 | 25/08/2026 | 33 | 0,2 | D48 1, Z12 1, M86 1 |
+| 300. ANGIORESSONANCIA DE VASOS CERVICAIS | 02.07.01.001-3 | 5 | 5 | 5 | 15 | 30,1 | 30,9 | 53,8 | 09/09/2026 | 176 | 0,0 | I64 2, M35 1, I71 1 |
+| ANGIORESSONANCIA DO TORAX | 02.07.01.001-3 | 5 | 5 | 5 | 4 | 23,8 | 24,0 | 46,9 | 16/09/2026 | 90 | 0,1 | M31 2, I21 1, Q96 1 |
+| RM DE ARTICULACAO COXO-FEMURAL DIREITA S/CONTRASTE C/ SEDACAO | 02.07.03.003-0 | 5 | 5 | 5 | 4 | 52,6 | 68,0 | 73,9 | 20/08/2026 | 16 | 0,3 | M25 2, M54 1, C41 1 |
+| 015. RM DE ATM (BILATERAL) ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.002-1 | 4 | 4 | 4 | 6 | 23,3 | 23,8 | 39,8 | 23/09/2026 | 21 | 0,2 | M25 1, K07 1, G50 1 |
+| 197. RM DE ANTEBRACO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 4 | 4 | 4 | 10 | 19,8 | 14,8 | 39,9 | 23/09/2026 | 74 | 0,1 | M79 1, M77 1, Z31 1 |
+| 245. RM DE PLEXO BRAQUIAL D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 4 | 4 | 4 | 6 | 22,5 | 22,0 | 26,0 | 07/10/2026 | 46 | 0,1 | M54 1, T92 1, S14 1 |
+| 253. RM DE PLEXO BRAQUIAL E ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 4 | 4 | 4 | 5 | 23,9 | 21,0 | 40,7 | 22/09/2026 | 52 | 0,1 | M54 1, G25 1, S14 1 |
+| 255. RM DE PLEXO BRAQUIAL E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 4 | 4 | 4 | 3 | 40,1 | 40,2 | 68,9 | 25/08/2026 | 13 | 0,3 | G54 2, M50 1, S14 1 |
+| 095. RM DE COTOVELO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 3 | 3 | 3 | 2 | 45,7 | 48,0 | 48,0 | 15/09/2026 | 30 | 0,1 | D48 2, D16 1 |
+| 199. RM DE ANTEBRACO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 3 | 3 | 3 | 4 | 46,0 | 48,0 | 48,9 | 14/09/2026 | 26 | 0,1 | D48 1, D16 1, Z12 1 |
+| 294. ANGIORESSONANCIA DE ARTERIAS RENAIS | 02.07.03.001-4 | 3 | 3 | 3 | 6 | 21,9 | 24,9 | 30,7 | 02/10/2026 | 31 | 0,1 | I15 2, N19 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE S/ SEDAÇÃO | 02.07.01.006-4 | 3 | 3 | 3 | 17 | 103,6 | 103,8 | 105,0 | 20/07/2026 | 0 | sem agendamento | H05 1, H57 1, C69 1 |
+| RM DE ARTICULACAO COXO-FEMURAL ESQUERDA S/CONTRASTE C/ SEDACAO | 02.07.03.003-0 | 3 | 3 | 3 | 6 | 30,9 | 17,9 | 60,8 | 02/09/2026 | 15 | 0,2 | M65 1, M16 1, M76 1 |
+| 103. RM DE COTOVELO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 2 | 2 | 2 | 3 | 8,9 | 8,9 | 11,8 | 21/10/2026 | 24 | 0,1 | T92 1, R22 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE S/ SEDAÇÃO | 02.07.01.006-4 | 2 | 2 | 2 | 7 | 103,8 | 103,8 | 103,9 | 21/07/2026 | 0 | sem agendamento | D32 1, L03 1 |
+| RM DE MASTOIDES INFANTIL S/ CONTRASTE C/ SEDACAO | 02.07.01.002-1 | 2 | 2 | 2 | 6 | 28,4 | 28,4 | 46,8 | 16/09/2026 | 19 | 0,1 | H90 1, H49 1 |
+| RM DE ORBITAS ADULTO C/CONTRASTE C/SEDAÇÃO | 02.07.01.006-4 | 2 | 2 | 2 | 2 | 27,0 | 27,0 | 34,1 | 29/09/2026 | 7 | 0,3 | H49 1, G37 1 |
+| 018. RM DA COLUNA CERVICAL INFANTIL S/CONTRASTE C/SEDACAO | 02.07.01.003-0 | 1 | 1 | 1 | 32 | 18,8 | 18,8 | 18,8 | 14/10/2026 | 14 | 0,1 | Q76 1 |
+| 034. RM DA COLUNA LOMBO-SACRA INFANTIL S/CONTRASTE C/SEDACAO | 02.07.01.004-8 | 1 | 1 | 1 | 56 | 6,0 | 6,0 | 6,0 | 27/10/2026 | 42 | 0,0 | Q05 1 |
+| 060. RM DE VIAS BILIARES INFANTIL C/CONTRASTE C/SEDACAO | 02.07.03.004-9 | 1 | 1 | 1 | 5 | 7,9 | 7,9 | 7,9 | 25/10/2026 | 2 | 0,5 | K80 1 |
+| 072. RM DE BACIA OU PELVIS ADULTO C/CONTRASTE C/SEDACAO | 02.07.03.002-2 | 1 | 1 | 1 | 385 | 5,7 | 5,7 | 5,7 | 27/10/2026 | 176 | 0,0 | N80 1 |
+| 246. RM DE PLEXO BRAQUIAL D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 1 | 1 | 1 | 2 | 68,9 | 68,9 | 68,9 | 25/08/2026 | 31 | 0,0 | G54 1 |
+| 296. ANGIORESSONANCIA DE COXA | 02.07.03.003-0 | 1 | 1 | 1 | 2 | 6,7 | 6,7 | 6,7 | 26/10/2026 | 15 | 0,1 | I74 1 |
+| ANGIORESSONANCIA CEREBRAL VENOSA C/ SEDACAO | 02.07.01.001-3 | 1 | 1 | 1 | 20 | 41,7 | 41,7 | 41,7 | 21/09/2026 | 20 | 0,1 | D18 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE C/ SEDAÇÃO | 02.07.01.006-4 | 1 | 0 | 1 | 33 | 1.385,0 | 1.385,0 | 1.385,0 | 17/01/2023 | 0 | sem agendamento | H57 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE C/ SEDAÇÃO | 02.07.01.006-4 | 1 | 0 | 1 | 10 | 901,8 | 901,8 | 901,8 | 14/05/2024 | 0 | sem agendamento | H49 1 |
+| RM DE ARTICULACAO COXO-FEMURAL ESQUERDA C/ CONTRASTE C/ SEDACAO | 02.07.03.003-0 | 1 | 1 | 1 | 3 | 54,0 | 54,0 | 54,0 | 09/09/2026 | 5 | 0,2 | M90 1 |
+| RM DE ORBITAS ADULTO S/CONTRASTE S/ SEDAÇÃO | 02.07.01.006-4 | 1 | 1 | 1 | 1 | 44,8 | 44,8 | 44,8 | 18/09/2026 | 43 | 0,0 | D33 1 |
+| RM DE ORBITAS INFANTIL C/CONTRASTE C/ SEDAÇÃO | 02.07.01.006-4 | 1 | 1 | 1 | 0 | 40,8 | 40,8 | 40,8 | 22/09/2026 | 10 | 0,1 | Q10 1 |
+
+### ressonância magnética: as 20 de maior espera média
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE C/ SEDAÇÃO | 02.07.01.006-4 | 1 | 0 | 1 | 33 | 1.385,0 | 1.385,0 | 1.385,0 | 17/01/2023 | 0 | sem agendamento | H57 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE C/ SEDAÇÃO | 02.07.01.006-4 | 1 | 0 | 1 | 10 | 901,8 | 901,8 | 901,8 | 14/05/2024 | 0 | sem agendamento | H49 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE S/ SEDAÇÃO | 02.07.01.006-4 | 2 | 2 | 2 | 7 | 103,8 | 103,8 | 103,9 | 21/07/2026 | 0 | sem agendamento | D32 1, L03 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE S/ SEDAÇÃO | 02.07.01.006-4 | 3 | 3 | 3 | 17 | 103,6 | 103,8 | 105,0 | 20/07/2026 | 0 | sem agendamento | H05 1, H57 1, C69 1 |
+| 262. RM DO CORACAO OU AORTA ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.001-9 | 80 | 80 | 80 | 263 | 79,3 | 82,3 | 151,9 | 03/06/2026 | 730 | 0,1 | I50 28, I25 8, I42 7 |
+| 264. RM DO CORACAO OU AORTA ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.001-9 | 169 | 169 | 169 | 318 | 75,2 | 73,7 | 153,0 | 02/06/2026 | 1.060 | 0,2 | I50 53, I42 27, I25 15 |
+| 246. RM DE PLEXO BRAQUIAL D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 1 | 1 | 1 | 2 | 68,9 | 68,9 | 68,9 | 25/08/2026 | 31 | 0,0 | G54 1 |
+| RM DE ARTICULACAO COXO-FEMURAL ESQUERDA C/ CONTRASTE C/ SEDACAO | 02.07.03.003-0 | 1 | 1 | 1 | 3 | 54,0 | 54,0 | 54,0 | 09/09/2026 | 5 | 0,2 | M90 1 |
+| RM DE ARTICULACAO COXO-FEMURAL DIREITA S/CONTRASTE C/ SEDACAO | 02.07.03.003-0 | 5 | 5 | 5 | 4 | 52,6 | 68,0 | 73,9 | 20/08/2026 | 16 | 0,3 | M25 2, M54 1, C41 1 |
+| 207. RM DE ANTEBRACO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 5 | 5 | 5 | 6 | 48,0 | 48,9 | 69,0 | 25/08/2026 | 33 | 0,2 | D48 1, Z12 1, M86 1 |
+| 199. RM DE ANTEBRACO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 3 | 3 | 3 | 4 | 46,0 | 48,0 | 48,9 | 14/09/2026 | 26 | 0,1 | D48 1, D16 1, Z12 1 |
+| 095. RM DE COTOVELO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 3 | 3 | 3 | 2 | 45,7 | 48,0 | 48,0 | 15/09/2026 | 30 | 0,1 | D48 2, D16 1 |
+| RM DE ORBITAS ADULTO S/CONTRASTE S/ SEDAÇÃO | 02.07.01.006-4 | 1 | 1 | 1 | 1 | 44,8 | 44,8 | 44,8 | 18/09/2026 | 43 | 0,0 | D33 1 |
+| 079. RM DE OMBRO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 23 | 23 | 23 | 39 | 42,8 | 41,9 | 66,5 | 27/08/2026 | 227 | 0,1 | M75 11, M25 3, M79 2 |
+| ANGIORESSONANCIA CEREBRAL VENOSA C/ SEDACAO | 02.07.01.001-3 | 1 | 1 | 1 | 20 | 41,7 | 41,7 | 41,7 | 21/09/2026 | 20 | 0,1 | D18 1 |
+| RM DE ORBITAS INFANTIL C/CONTRASTE C/ SEDAÇÃO | 02.07.01.006-4 | 1 | 1 | 1 | 0 | 40,8 | 40,8 | 40,8 | 22/09/2026 | 10 | 0,1 | Q10 1 |
+| RM DE ARTICUACAO COXO-FEMURAL ESQUERDA C/CONTRASTE S/SEDACAO | 02.07.01.003-0 | 9 | 9 | 9 | 0 | 40,4 | 39,0 | 61,9 | 01/09/2026 | 58 | 0,2 | M16 4, M25 3, M86 1 |
+| 255. RM DE PLEXO BRAQUIAL E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 4 | 4 | 4 | 3 | 40,1 | 40,2 | 68,9 | 25/08/2026 | 13 | 0,3 | G54 2, M50 1, S14 1 |
+| 087. RM DE OMBRO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 20 | 20 | 20 | 27 | 39,8 | 34,9 | 73,0 | 21/08/2026 | 167 | 0,1 | M75 8, M25 5, T92 1 |
+| 290. RM DE MAO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 24 | 24 | 24 | 9 | 39,5 | 37,8 | 73,0 | 21/08/2026 | 119 | 0,2 | M06 5, D48 3, M25 3 |
+
+### ressonância magnética: as 20 de mais anos de estoque
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE C/ SEDAÇÃO | 02.07.01.006-4 | 1 | 0 | 1 | 33 | 1.385,0 | 1.385,0 | 1.385,0 | 17/01/2023 | 0 | sem agendamento | H57 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS C/ CONTRASTE S/ SEDAÇÃO | 02.07.01.006-4 | 3 | 3 | 3 | 17 | 103,6 | 103,8 | 105,0 | 20/07/2026 | 0 | sem agendamento | H05 1, H57 1, C69 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE C/ SEDAÇÃO | 02.07.01.006-4 | 1 | 0 | 1 | 10 | 901,8 | 901,8 | 901,8 | 14/05/2024 | 0 | sem agendamento | H49 1 |
+| RESSONANCIA MAGNETICA DE ORBITAS S/ CONTRASTE S/ SEDAÇÃO | 02.07.01.006-4 | 2 | 2 | 2 | 7 | 103,8 | 103,8 | 103,9 | 21/07/2026 | 0 | sem agendamento | D32 1, L03 1 |
+| RM DE PESCOCO ADULTO C/CONTRASTE C/ SEDAÇÃO | 02.07.01.003-0 | 8 | 8 | 8 | 22 | 28,2 | 26,9 | 42,0 | 21/09/2026 | 13 | 0,6 | C76 2, D11 1, C11 1 |
+| 298. ANGIORESSONANCIA DE PERNA | 02.07.03.003-0 | 10 | 10 | 10 | 5 | 23,9 | 25,4 | 38,8 | 24/09/2026 | 17 | 0,6 | I83 4, I82 2, I74 1 |
+| 060. RM DE VIAS BILIARES INFANTIL C/CONTRASTE C/SEDACAO | 02.07.03.004-9 | 1 | 1 | 1 | 5 | 7,9 | 7,9 | 7,9 | 25/10/2026 | 2 | 0,5 | K80 1 |
+| 255. RM DE PLEXO BRAQUIAL E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 4 | 4 | 4 | 3 | 40,1 | 40,2 | 68,9 | 25/08/2026 | 13 | 0,3 | G54 2, M50 1, S14 1 |
+| RM DE ARTICULACAO COXO-FEMURAL DIREITA S/CONTRASTE C/ SEDACAO | 02.07.03.003-0 | 5 | 5 | 5 | 4 | 52,6 | 68,0 | 73,9 | 20/08/2026 | 16 | 0,3 | M25 2, M54 1, C41 1 |
+| RM DE ORBITAS ADULTO C/CONTRASTE C/SEDAÇÃO | 02.07.01.006-4 | 2 | 2 | 2 | 2 | 27,0 | 27,0 | 34,1 | 29/09/2026 | 7 | 0,3 | H49 1, G37 1 |
+| 119. RM DE PUNHO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 19 | 19 | 19 | 13 | 34,7 | 32,0 | 66,0 | 28/08/2026 | 79 | 0,2 | M06 4, M05 4, M25 2 |
+| RM DE ARTICULACAO COXO -FERMURAL DIREITA S/ CONTRASTE S/ SEDACAO | 02.07.03.003-0 | 65 | 65 | 65 | 7 | 34,8 | 33,8 | 70,0 | 24/08/2026 | 268 | 0,2 | M16 24, M25 10, M76 6 |
+| RM DE ARTICULACAO COXO-FEMURAL ESQUERDA S/ CONTRASTE S/ SEDACAO | 02.07.03.003-0 | 63 | 63 | 63 | 3 | 35,0 | 32,8 | 70,0 | 24/08/2026 | 262 | 0,2 | M16 15, M25 10, M76 6 |
+| RM DE PESCOCO ADULTO S/CONTRASTE S/SEDAÇÃO | 02.07.01.003-0 | 28 | 28 | 28 | 2 | 32,3 | 31,4 | 79,8 | 14/08/2026 | 119 | 0,2 | M54 8, R22 8, E07 2 |
+| 290. RM DE MAO E ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 24 | 24 | 24 | 9 | 39,5 | 37,8 | 73,0 | 21/08/2026 | 119 | 0,2 | M06 5, D48 3, M25 3 |
+| RM DE ARTICULACAO COXO-FEMURAL ESQUERDA C/ CONTRASTE C/ SEDACAO | 02.07.03.003-0 | 1 | 1 | 1 | 3 | 54,0 | 54,0 | 54,0 | 09/09/2026 | 5 | 0,2 | M90 1 |
+| RM DE ARTICULACAO COXO-FEMURAL ESQUERDA S/CONTRASTE C/ SEDACAO | 02.07.03.003-0 | 3 | 3 | 3 | 6 | 30,9 | 17,9 | 60,8 | 02/09/2026 | 15 | 0,2 | M65 1, M16 1, M76 1 |
+| 015. RM DE ATM (BILATERAL) ADULTO C/CONTRASTE S/SEDACAO | 02.07.01.002-1 | 4 | 4 | 4 | 6 | 23,3 | 23,8 | 39,8 | 23/09/2026 | 21 | 0,2 | M25 1, K07 1, G50 1 |
+| 111. RM DE PUNHO D ADULTO C/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 20 | 20 | 20 | 17 | 38,0 | 39,7 | 66,0 | 28/08/2026 | 104 | 0,2 | M25 4, M06 3, D21 2 |
+| 109. RM DE PUNHO D ADULTO S/CONTRASTE S/SEDACAO | 02.07.02.002-7 | 67 | 67 | 67 | 35 | 27,5 | 27,8 | 89,8 | 04/08/2026 | 382 | 0,2 | M25 15, G56 12, M06 4 |
+
+### medicina nuclear: por pessoas
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES) | 02.08.01.002-5 | 1.737 | 1.737 | 1.737 | 148 | 294,9 | 355,9 | 460,6 | 29/07/2025 | 365 | 4,8 | I25 646, I20 540, I50 113 |
+| CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO) | 02.08.05.003-5 | 1.587 | 1.587 | 1.587 | 29 | 151,4 | 124,8 | 424,9 | 03/09/2025 | 1.677 | 0,9 | C50 908, C61 330, M46 42 |
+| CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES) | 02.08.01.003-3 | 1.496 | 1.496 | 1.496 | 34 | 291,8 | 369,4 | 460,6 | 29/07/2025 | 347 | 4,3 | I25 562, I20 449, I50 93 |
+| CINTILOGRAFIA RENAL DINAMICA (DTPA) | 02.08.04.010-2 | 234 | 234 | 234 | 4 | 158,8 | 165,4 | 354,1 | 13/11/2025 | 125 | 1,9 | N13 59, N20 43, N18 34 |
+| CINTILOGRAFIA RENAL ESTATICA (DMSA) | 02.08.04.005-6 | 179 | 179 | 179 | 15 | 105,1 | 94,0 | 223,9 | 23/03/2026 | 302 | 0,6 | N20 44, N13 32, Q62 21 |
+| CINTILOGRAFIA DE PARATIREOIDES | 02.08.03.001-8 | 152 | 152 | 152 | 10 | 151,5 | 154,8 | 306,9 | 30/12/2025 | 203 | 0,7 | E21 100, N25 22, N18 13 |
+| CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTIMULO | 02.08.02.003-9 | 58 | 58 | 58 | 3 | 72,4 | 52,0 | 327,0 | 10/12/2025 | 68 | 0,9 | M35 52, M32 3, K11 1 |
+| CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE | 02.08.01.004-1 | 50 | 50 | 50 | 2 | 181,9 | 165,5 | 404,0 | 24/09/2025 | 8 | 6,2 | E85 21, I25 11, I20 5 |
+| CINTILOGRAFIA DA TIREOIDE C/ OU S/ CAPTACAO | 02.08.03.002-6 | 28 | 28 | 28 | 4 | 21,6 | 24,4 | 38,8 | 24/09/2026 | 426 | 0,1 | E05 22, E04 3, E21 1 |
+| CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO | 02.08.03.004-2 | 25 | 25 | 25 | 2 | 17,4 | 14,0 | 31,8 | 01/10/2026 | 122 | 0,2 | C73 9, C50 6, C61 4 |
+| LINFOCINTILOGRAFIA | 02.08.08.004-0 | 22 | 22 | 22 | 2 | 133,0 | 145,3 | 338,7 | 28/11/2025 | 36 | 0,6 | I89 16, R60 3, C43 1 |
+| CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO (SÓLIDOS/SEMI -SÓLIDOS) | 02.08.02.007-1 | 21 | 21 | 21 | 1 | 123,0 | 115,9 | 250,9 | 24/02/2026 | 14 | 1,5 | K31 12, R11 3, K30 3 |
+| CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67 | 02.08.05.004-3 | 16 | 16 | 16 | 0 | 25,3 | 25,8 | 61,9 | 01/09/2026 | 13 | 1,2 | C50 9, C61 3, D48 1 |
+| CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES) | 02.08.07.004-4 | 15 | 15 | 15 | 35 | 44,9 | 18,7 | 297,0 | 09/01/2026 | 141 | 0,1 | I26 9, I27 3, B90 1 |
+| CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO ( LIQUIDOS) | 02.08.02.007-1 | 13 | 13 | 13 | 0 | 187,4 | 173,8 | 394,8 | 03/10/2025 | 3 | 4,3 | K31 8, K91 2, K59 1 |
+| CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO) | 02.08.02.006-3 | 5 | 5 | 5 | 0 | 195,6 | 172,8 | 369,0 | 29/10/2025 | — | — | M34 2, H19 1, M35 1 |
+| CINTILOGRAFIA PARA PESQUISA DE HEMORRAGIAS ATIVAS | 02.08.02.009-8 | 5 | 5 | 5 | 0 | 58,9 | 60,8 | 62,9 | 31/08/2026 | 19 | 0,3 | K92 5 |
+| ESTUDO DE FLUXO SANGUINEO CEREBRAL( ECD-T C99M) | 02.08.06.003-0 | 4 | 4 | 4 | 0 | 138,7 | 151,0 | 164,7 | 21/05/2026 | 14 | 0,3 | F03 2, I63 1, G20 1 |
+| CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS | 02.08.09.001-0 | 3 | 3 | 3 | 0 | 278,1 | 243,7 | 349,8 | 17/11/2025 | 3 | 1,0 | C50 2, C61 1 |
+| CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA) | 02.08.09.002-9 | 3 | 3 | 3 | 1 | 62,5 | 65,8 | 67,8 | 26/08/2026 | 11 | 0,3 | H04 3 |
+| CINTILOGRAFIA DE PULMAO P/ PESQUISA DE ASPIRACAO | 02.08.07.002-8 | 3 | 3 | 3 | 1 | 40,8 | 35,0 | 67,7 | 26/08/2026 | — | — | I26 3 |
+| CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (LIQUIDO) | 02.08.02.005-5 | 3 | 3 | 3 | 0 | 295,0 | 342,8 | 369,0 | 29/10/2025 | — | — | K59 1, M34 1, R11 1 |
+| CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFAGICO | 02.08.02.011-0 | 3 | 3 | 3 | 0 | 24,8 | 28,0 | 33,8 | 29/09/2026 | 4 | 0,8 | K21 3 |
+| CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO) | 02.08.06.001-4 | 1 | 1 | 1 | 0 | 493,0 | 493,0 | 493,0 | 27/06/2025 | — | — | F02 1 |
+
+### medicina nuclear: as 20 de maior espera média
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO) | 02.08.06.001-4 | 1 | 1 | 1 | 0 | 493,0 | 493,0 | 493,0 | 27/06/2025 | — | — | F02 1 |
+| CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (LIQUIDO) | 02.08.02.005-5 | 3 | 3 | 3 | 0 | 295,0 | 342,8 | 369,0 | 29/10/2025 | — | — | K59 1, M34 1, R11 1 |
+| CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES) | 02.08.01.002-5 | 1.737 | 1.737 | 1.737 | 148 | 294,9 | 355,9 | 460,6 | 29/07/2025 | 365 | 4,8 | I25 646, I20 540, I50 113 |
+| CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES) | 02.08.01.003-3 | 1.496 | 1.496 | 1.496 | 34 | 291,8 | 369,4 | 460,6 | 29/07/2025 | 347 | 4,3 | I25 562, I20 449, I50 93 |
+| CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS | 02.08.09.001-0 | 3 | 3 | 3 | 0 | 278,1 | 243,7 | 349,8 | 17/11/2025 | 3 | 1,0 | C50 2, C61 1 |
+| CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO) | 02.08.02.006-3 | 5 | 5 | 5 | 0 | 195,6 | 172,8 | 369,0 | 29/10/2025 | — | — | M34 2, H19 1, M35 1 |
+| CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO ( LIQUIDOS) | 02.08.02.007-1 | 13 | 13 | 13 | 0 | 187,4 | 173,8 | 394,8 | 03/10/2025 | 3 | 4,3 | K31 8, K91 2, K59 1 |
+| CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE | 02.08.01.004-1 | 50 | 50 | 50 | 2 | 181,9 | 165,5 | 404,0 | 24/09/2025 | 8 | 6,2 | E85 21, I25 11, I20 5 |
+| CINTILOGRAFIA RENAL DINAMICA (DTPA) | 02.08.04.010-2 | 234 | 234 | 234 | 4 | 158,8 | 165,4 | 354,1 | 13/11/2025 | 125 | 1,9 | N13 59, N20 43, N18 34 |
+| CINTILOGRAFIA DE PARATIREOIDES | 02.08.03.001-8 | 152 | 152 | 152 | 10 | 151,5 | 154,8 | 306,9 | 30/12/2025 | 203 | 0,7 | E21 100, N25 22, N18 13 |
+| CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO) | 02.08.05.003-5 | 1.587 | 1.587 | 1.587 | 29 | 151,4 | 124,8 | 424,9 | 03/09/2025 | 1.677 | 0,9 | C50 908, C61 330, M46 42 |
+| ESTUDO DE FLUXO SANGUINEO CEREBRAL( ECD-T C99M) | 02.08.06.003-0 | 4 | 4 | 4 | 0 | 138,7 | 151,0 | 164,7 | 21/05/2026 | 14 | 0,3 | F03 2, I63 1, G20 1 |
+| LINFOCINTILOGRAFIA | 02.08.08.004-0 | 22 | 22 | 22 | 2 | 133,0 | 145,3 | 338,7 | 28/11/2025 | 36 | 0,6 | I89 16, R60 3, C43 1 |
+| CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO (SÓLIDOS/SEMI -SÓLIDOS) | 02.08.02.007-1 | 21 | 21 | 21 | 1 | 123,0 | 115,9 | 250,9 | 24/02/2026 | 14 | 1,5 | K31 12, R11 3, K30 3 |
+| CINTILOGRAFIA RENAL ESTATICA (DMSA) | 02.08.04.005-6 | 179 | 179 | 179 | 15 | 105,1 | 94,0 | 223,9 | 23/03/2026 | 302 | 0,6 | N20 44, N13 32, Q62 21 |
+| CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTIMULO | 02.08.02.003-9 | 58 | 58 | 58 | 3 | 72,4 | 52,0 | 327,0 | 10/12/2025 | 68 | 0,9 | M35 52, M32 3, K11 1 |
+| CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA) | 02.08.09.002-9 | 3 | 3 | 3 | 1 | 62,5 | 65,8 | 67,8 | 26/08/2026 | 11 | 0,3 | H04 3 |
+| CINTILOGRAFIA PARA PESQUISA DE HEMORRAGIAS ATIVAS | 02.08.02.009-8 | 5 | 5 | 5 | 0 | 58,9 | 60,8 | 62,9 | 31/08/2026 | 19 | 0,3 | K92 5 |
+| CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES) | 02.08.07.004-4 | 15 | 15 | 15 | 35 | 44,9 | 18,7 | 297,0 | 09/01/2026 | 141 | 0,1 | I26 9, I27 3, B90 1 |
+| CINTILOGRAFIA DE PULMAO P/ PESQUISA DE ASPIRACAO | 02.08.07.002-8 | 3 | 3 | 3 | 1 | 40,8 | 35,0 | 67,7 | 26/08/2026 | — | — | I26 3 |
+
+### medicina nuclear: as 20 de mais anos de estoque
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE | 02.08.01.004-1 | 50 | 50 | 50 | 2 | 181,9 | 165,5 | 404,0 | 24/09/2025 | 8 | 6,2 | E85 21, I25 11, I20 5 |
+| CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES) | 02.08.01.002-5 | 1.737 | 1.737 | 1.737 | 148 | 294,9 | 355,9 | 460,6 | 29/07/2025 | 365 | 4,8 | I25 646, I20 540, I50 113 |
+| CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO ( LIQUIDOS) | 02.08.02.007-1 | 13 | 13 | 13 | 0 | 187,4 | 173,8 | 394,8 | 03/10/2025 | 3 | 4,3 | K31 8, K91 2, K59 1 |
+| CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES) | 02.08.01.003-3 | 1.496 | 1.496 | 1.496 | 34 | 291,8 | 369,4 | 460,6 | 29/07/2025 | 347 | 4,3 | I25 562, I20 449, I50 93 |
+| CINTILOGRAFIA RENAL DINAMICA (DTPA) | 02.08.04.010-2 | 234 | 234 | 234 | 4 | 158,8 | 165,4 | 354,1 | 13/11/2025 | 125 | 1,9 | N13 59, N20 43, N18 34 |
+| CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO (SÓLIDOS/SEMI -SÓLIDOS) | 02.08.02.007-1 | 21 | 21 | 21 | 1 | 123,0 | 115,9 | 250,9 | 24/02/2026 | 14 | 1,5 | K31 12, R11 3, K30 3 |
+| CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67 | 02.08.05.004-3 | 16 | 16 | 16 | 0 | 25,3 | 25,8 | 61,9 | 01/09/2026 | 13 | 1,2 | C50 9, C61 3, D48 1 |
+| CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS | 02.08.09.001-0 | 3 | 3 | 3 | 0 | 278,1 | 243,7 | 349,8 | 17/11/2025 | 3 | 1,0 | C50 2, C61 1 |
+| CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO) | 02.08.05.003-5 | 1.587 | 1.587 | 1.587 | 29 | 151,4 | 124,8 | 424,9 | 03/09/2025 | 1.677 | 0,9 | C50 908, C61 330, M46 42 |
+| CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTIMULO | 02.08.02.003-9 | 58 | 58 | 58 | 3 | 72,4 | 52,0 | 327,0 | 10/12/2025 | 68 | 0,9 | M35 52, M32 3, K11 1 |
+| CINTILOGRAFIA DE PARATIREOIDES | 02.08.03.001-8 | 152 | 152 | 152 | 10 | 151,5 | 154,8 | 306,9 | 30/12/2025 | 203 | 0,7 | E21 100, N25 22, N18 13 |
+| CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFAGICO | 02.08.02.011-0 | 3 | 3 | 3 | 0 | 24,8 | 28,0 | 33,8 | 29/09/2026 | 4 | 0,8 | K21 3 |
+| LINFOCINTILOGRAFIA | 02.08.08.004-0 | 22 | 22 | 22 | 2 | 133,0 | 145,3 | 338,7 | 28/11/2025 | 36 | 0,6 | I89 16, R60 3, C43 1 |
+| CINTILOGRAFIA RENAL ESTATICA (DMSA) | 02.08.04.005-6 | 179 | 179 | 179 | 15 | 105,1 | 94,0 | 223,9 | 23/03/2026 | 302 | 0,6 | N20 44, N13 32, Q62 21 |
+| ESTUDO DE FLUXO SANGUINEO CEREBRAL( ECD-T C99M) | 02.08.06.003-0 | 4 | 4 | 4 | 0 | 138,7 | 151,0 | 164,7 | 21/05/2026 | 14 | 0,3 | F03 2, I63 1, G20 1 |
+| CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA) | 02.08.09.002-9 | 3 | 3 | 3 | 1 | 62,5 | 65,8 | 67,8 | 26/08/2026 | 11 | 0,3 | H04 3 |
+| CINTILOGRAFIA PARA PESQUISA DE HEMORRAGIAS ATIVAS | 02.08.02.009-8 | 5 | 5 | 5 | 0 | 58,9 | 60,8 | 62,9 | 31/08/2026 | 19 | 0,3 | K92 5 |
+| CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO | 02.08.03.004-2 | 25 | 25 | 25 | 2 | 17,4 | 14,0 | 31,8 | 01/10/2026 | 122 | 0,2 | C73 9, C50 6, C61 4 |
+| CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES) | 02.08.07.004-4 | 15 | 15 | 15 | 35 | 44,9 | 18,7 | 297,0 | 09/01/2026 | 141 | 0,1 | I26 9, I27 3, B90 1 |
+| CINTILOGRAFIA DA TIREOIDE C/ OU S/ CAPTACAO | 02.08.03.002-6 | 28 | 28 | 28 | 4 | 21,6 | 24,4 | 38,8 | 24/09/2026 | 426 | 0,1 | E05 22, E04 3, E21 1 |
+
+### radiologia intervencionista: por pessoas
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ANGIOGRAFIA CEREBRAL (4 VASOS) | 02.10.01.001-0 | 7 | 7 | 7 | 21 | 24,5 | 30,7 | 38,1 | 25/09/2026 | 100 | 0,1 | I67 4, I60 1, I65 1 |
+| FLEBOGRAFIA DE CAVA INFERIOR E/OU SUPERIOR | 02.10.01.018-5 | 2 | 2 | 2 | 1 | 7,1 | 7,1 | 7,1 | 26/10/2026 | 12 | 0,2 | Q27 1, N18 1 |
+
+### radiologia intervencionista: as 20 de maior espera média
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| ANGIOGRAFIA CEREBRAL (4 VASOS) | 02.10.01.001-0 | 7 | 7 | 7 | 21 | 24,5 | 30,7 | 38,1 | 25/09/2026 | 100 | 0,1 | I67 4, I60 1, I65 1 |
+| FLEBOGRAFIA DE CAVA INFERIOR E/OU SUPERIOR | 02.10.01.018-5 | 2 | 2 | 2 | 1 | 7,1 | 7,1 | 7,1 | 26/10/2026 | 12 | 0,2 | Q27 1, N18 1 |
+
+### radiologia intervencionista: as 20 de mais anos de estoque
+
+| fila | código | fila | fila viva | pessoas | devolvidas | espera média | espera mediana | espera máxima | pedido mais antigo | agendadas 12 m | anos de estoque | CID principais |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| FLEBOGRAFIA DE CAVA INFERIOR E/OU SUPERIOR | 02.10.01.018-5 | 2 | 2 | 2 | 1 | 7,1 | 7,1 | 7,1 | 26/10/2026 | 12 | 0,2 | Q27 1, N18 1 |
+| ANGIOGRAFIA CEREBRAL (4 VASOS) | 02.10.01.001-0 | 7 | 7 | 7 | 21 | 24,5 | 30,7 | 38,1 | 25/09/2026 | 100 | 0,1 | I67 4, I60 1, I65 1 |
+
+## Rumo por código
+
+Um código por linha, com as filas do universo somadas (cada par nome × código uma vez). Tudo **calculado** no montador sobre a série mensal do motor (abas "Por código" da planilha). Os 12 meses fechados vão de 2025-10 a 2026-09, e os 12 de antes, de 2024-10 a 2025-09. Entrantes = pedidos abertos mais os já agendados, pelo mês do pedido. Oferta = agendamentos pelo mês em que acontecem, em todas as situações. Falta = faltas ÷ (realizados + faltas). Saldo por mês = (entrantes − oferta) ÷ 12: positivo, a fila cresce. Maior mês de oferta e média dos 3 últimos meses fechados, para ver o esforço que parou.
+
+| código | fila mais pedida do código | fila | fila viva | devolvidas | entrantes 12 m | entrantes 12 m antes | oferta 12 m | oferta 12 m antes | saldo por mês | falta 12 m | maior mês de oferta | oferta média 3 últimos meses |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 02.05.01.004-0 | ULTRA-SONOGRAFIA DOPPLER VENOSO - MMII ( BILATERAL) | 16.844 | 12.143 | 5.713 | 16.307 | 14.999 | 12.637 | 11.188 | 305,8 | 25% | 2026-04 (1.272) | 1.099,7 |
+| 02.05.01.003-2 | 1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO | 14.602 | 14.597 | 16.462 | 42.979 | 42.338 | 40.371 | 40.157 | 217,3 | 26% | 2024-10 (3.783) | 3.571,0 |
+| 02.05.02.006-2 | ECOGRAFIA DE PARTES MOLES | 14.355 | 10.370 | 4.924 | 11.475 | 11.161 | 8.083 | 7.184 | 282,7 | 33% | 2026-03 (965) | 712,7 |
+| 02.05.02.004-6 | ECOGRAFIA DE ABDOMEN TOTAL ADULTO | 13.656 | 9.872 | 13.276 | 13.861 | 12.763 | 10.667 | 8.974 | 266,2 | 37% | 2026-07 (1.685) | 1.169,0 |
+| 02.05.02.009-7 | ECOGRAFIA DE MAMAS - BILATERAL | 12.952 | 8.510 | 7.731 | 10.961 | 9.871 | 9.776 | 4.884 | 98,8 | 38% | 2026-09 (2.821) | 1.777,3 |
+| 02.05.02.018-6 | ECOGRAFIA TRANSVAGINAL | 9.295 | 5.699 | 8.953 | 15.123 | 14.063 | 17.599 | 10.016 | -206,3 | 43% | 2026-09 (2.210) | 2.063,7 |
+| 02.04.03.018-8 | MAMOGRAFIA BILATERAL PARA SCREENING (ROTINA) | 6.630 | 6.580 | 2.677 | 56.491 | 45.750 | 54.396 | 41.188 | 174,6 | 33% | 2026-03 (6.694) | 4.336,0 |
+| 02.06.03.001-0 | 063. TC DO ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO | 6.214 | 6.155 | 7.722 | 18.188 | 19.417 | 17.711 | 15.805 | 39,8 | 36% | 2026-03 (1.829) | 1.504,0 |
+| 02.06.02.003-1 | 055. TC DO TORAX ADULTO C/CONTRASTE S/SEDACAO | 6.043 | 5.978 | 5.179 | 29.855 | 28.772 | 29.553 | 24.461 | 25,2 | 33% | 2026-09 (3.572) | 2.949,7 |
+| 02.06.03.003-7 | 111. TC DE PELVE OU BACIA ADULTO C/CONTRASTE S/SEDACAO | 5.044 | 4.990 | 5.435 | 15.261 | 16.868 | 14.962 | 13.999 | 24,9 | 34% | 2026-03 (1.536) | 1.309,0 |
+| 02.05.02.005-4 | ECOGRAFIA DO APARELHO URINARIO (RINS, BEXIGA) ADULTO | 4.032 | 2.656 | 4.104 | 5.772 | 5.744 | 4.796 | 4.697 | 81,3 | 32% | 2025-06 (520) | 470,3 |
+| 02.05.02.012-7 | ECOGRAFIA DE TIREOIDE ADULTO | 3.858 | 3.098 | 3.327 | 4.899 | 4.655 | 3.592 | 3.502 | 108,9 | 24% | 2026-04 (490) | 309,0 |
+| 02.05.02.010-0 | ECOGRAFIA DE PROSTATA ( VIA ABDOMINAL ) | 2.971 | 2.203 | 2.714 | 4.393 | 4.569 | 4.120 | 3.402 | 22,8 | 29% | 2026-03 (456) | 311,7 |
+| 02.05.02.003-8 | ECOGRAFIA DE ABDOMEN SUPERIOR ADULTO | 2.229 | 1.240 | 1.001 | 2.684 | 2.784 | 2.513 | 2.572 | 14,2 | 33% | 2024-10 (311) | 221,3 |
+| 02.04.06.002-8 | DENSITOMETRIA OSSEA - RADIODIAGNOSTICO | 2.178 | 2.177 | 3.670 | 14.047 | 13.375 | 13.142 | 12.492 | 75,4 | 27% | 2025-10 (1.505) | 964,7 |
+| 02.07.03.003-0 | 133. RM DE JOELHO D ADULTO S/CONTRASTE S/SEDACAO | 1.782 | 1.781 | 1.260 | 14.495 | 10.569 | 18.442 | 8.139 | -328,9 | 24% | 2025-12 (2.116) | 1.183,0 |
+| 02.08.01.002-5 | CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES) | 1.737 | 1.737 | 148 | 1.274 | 1.054 | 374 | 84 | 75,0 | 44% | 2025-09 (53) | 40,0 |
+| 02.07.01.004-8 | 037. RM DA COLUNA LOMBO-SACRA ADULTO S/CONTRASTE S/SEDACAO | 1.629 | 1.627 | 1.665 | 15.798 | 12.040 | 20.932 | 9.170 | -427,8 | 22% | 2025-11 (2.673) | 1.325,7 |
+| 02.08.05.003-5 | CINTILOGRAFIA DE OSSOS C/ OU S/ FLUXO SANGUINEO (CORPO INTEIRO) | 1.587 | 1.587 | 29 | 2.487 | 1.290 | 1.492 | 487 | 82,9 | 46% | 2026-08 (297) | 218,0 |
+| 02.07.03.002-2 | 071. RM DE BACIA OU PELVIS ADULTO C/CONTRASTE S/SEDACAO | 1.519 | 1.519 | 1.817 | 18.127 | 12.780 | 20.321 | 12.019 | -182,8 | 23% | 2025-09 (1.972) | 1.447,7 |
+| 02.08.01.003-3 | CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES) | 1.496 | 1.496 | 34 | 1.003 | 943 | 357 | 52 | 53,8 | 42% | 2025-10 (62) | 39,0 |
+| 02.06.01.007-9 | TC DE CRANIO ADULTO S/CONTRASTE S/SEDACAO EMERGENCIA | 1.428 | 1.400 | 2.744 | 13.696 | 15.320 | 15.317 | 13.431 | -135,1 | 34% | 2026-04 (1.757) | 1.363,0 |
+| 02.07.01.006-4 | 005. RM DE CRANIO ADULTO S/CONTRASTE S/SEDACAO | 1.412 | 1.410 | 3.025 | 15.809 | 12.926 | 18.709 | 11.605 | -241,7 | 30% | 2026-01 (2.015) | 1.349,0 |
+| 02.05.02.008-9 | ULTRA-SONOGRAFIA DO GLOBO OCULAR OU DE ORBITA | 1.316 | 1.316 | 198 | 917 | 1.115 | 588 | 252 | 27,4 | 48% | 2026-06 (140) | 63,3 |
+| 02.07.02.002-7 | 077. RM DE OMBRO D ADULTO S/CONTRASTE S/SEDACAO | 1.301 | 1.300 | 922 | 10.181 | 6.847 | 12.660 | 5.178 | -206,6 | 25% | 2026-01 (1.385) | 887,3 |
+| 02.04.01.017-9 | RADIOGRAFIA PERIAPICAL DE 6 A 13 INCIDÊNCIAS | 1.169 | 1.164 | 3.031 | 16.370 | 14.046 | 16.240 | 13.169 | 10,8 | 46% | 2026-08 (1.749) | 1.618,3 |
+| 02.05.02.016-0 | ECOGRAFIA PELVICA (GINECOLOGICA) - ADULTO | 1.016 | 699 | 920 | 1.580 | 1.487 | 1.389 | 1.027 | 15,9 | 38% | 2025-11 (192) | 132,0 |
+| 02.05.02.007-0 | ECOGRAFIA DE BOLSA ESCROTAL ADULTO | 961 | 623 | 505 | 1.136 | 1.184 | 834 | 968 | 25,2 | 35% | 2026-05 (132) | 60,7 |
+| 02.07.01.003-0 | 021. RM DA COLUNA CERVICAL ADULTO S/CONTRASTE S/SEDACAO | 789 | 788 | 787 | 7.970 | 5.949 | 9.840 | 4.724 | -155,8 | 22% | 2026-01 (1.205) | 667,0 |
+| 02.06.01.005-2 | 119. TC DE PESCOCO ADULTO C/CONTRASTE S/SEDACAO | 762 | 756 | 587 | 2.412 | 2.567 | 2.409 | 2.160 | 0,2 | 36% | 2025-08 (271) | 214,0 |
+| 02.04.01.018-7 | RADIOLOGIA PERIAPICAL - ATÉ 5 INCIDÊNCIAS | 659 | 659 | 638 | 7.053 | 7.733 | 8.393 | 7.540 | -111,7 | 56% | 2026-03 (1.072) | 633,7 |
+| 02.04.03.015-3 | TORAX : PA E PERFIL | 648 | 648 | 189 | 13.318 | 13.869 | 13.166 | 13.364 | 12,7 | 22% | 2025-02 (1.393) | 1.064,7 |
+| 02.07.03.001-4 | 055. RM DE ABDOMEN SUPERIOR ADULTO C/CONTRASTE S/SEDACAO | 572 | 572 | 857 | 10.338 | 6.787 | 10.796 | 6.769 | -38,2 | 23% | 2026-05 (1.074) | 831,3 |
+| 02.06.01.004-4 | TOMOGRAFIA CONE BEAN | 466 | 464 | 748 | 5.164 | 4.917 | 5.367 | 4.276 | -16,9 | 27% | 2026-04 (679) | 592,0 |
+| 02.05.02.014-3 | ECOGRAFIA OBSTETRICA | 406 | 404 | 913 | 3.334 | 3.656 | 3.038 | 3.491 | 24,7 | 43% | 2025-05 (386) | 264,3 |
+| 02.06.01.009-5 | TOMOGRAFIA POR EMISSÃO DE PÓSITRONS (PET-CT) | 379 | 379 | 851 | 1.129 | 1.832 | 578 | 1.512 | 45,9 | 45% | 2026-06 (249) | 44,3 |
+| 02.04.04.009-4 | MAO DIREITA (AP E OBLIQUO) | 314 | 314 | 73 | 2.674 | 2.306 | 2.496 | 2.554 | 14,8 | 22% | 2024-10 (274) | 203,3 |
+| 02.04.06.012-5 | JOELHO DIREITO (AP E PERFIL) | 309 | 309 | 75 | 3.175 | 3.215 | 3.026 | 3.624 | 12,4 | 24% | 2024-10 (380) | 234,7 |
+| 02.07.01.005-6 | 029. RM DA COLUNA DORSAL ADULTO S/CONTRASTE S/SEDACAO | 299 | 299 | 365 | 3.830 | 2.945 | 4.527 | 2.527 | -58,1 | 24% | 2026-01 (547) | 328,7 |
+| 02.04.02.006-9 | COLUNA LOMBO SACRA (AP E PERFIL) | 293 | 293 | 94 | 3.911 | 4.016 | 3.778 | 4.551 | 11,1 | 23% | 2025-05 (473) | 288,0 |
+| 02.05.02.017-8 | ULTRA-SONOGRAFIA TRANSFONTANELA | 272 | 243 | 201 | 884 | 875 | 849 | 734 | 2,9 | 42% | 2026-05 (124) | 76,3 |
+| 02.04.06.015-0 | PE OU PODODACTILOS DIREITO | 252 | 252 | 48 | 1.664 | 1.326 | 1.456 | 1.653 | 17,3 | 26% | 2026-08 (202) | 153,3 |
+| 02.07.02.001-9 | 264. RM DO CORACAO OU AORTA ADULTO C/CONTRASTE S/SEDACAO | 249 | 249 | 581 | 1.236 | 859 | 1.937 | 449 | -58,4 | 42% | 2026-05 (194) | 116,7 |
+| 02.06.03.002-9 | ANGIOTOMOGRAFIA DOS MEMBROS INFERIORES DIREITO ADULTO S/SEDACAO | 248 | 245 | 181 | 1.518 | 1.904 | 1.709 | 1.508 | -15,9 | 29% | 2026-08 (255) | 170,7 |
+| 02.08.04.010-2 | CINTILOGRAFIA RENAL DINAMICA (DTPA) | 234 | 234 | 4 | 306 | 125 | 148 | 69 | 13,2 | 51% | 2025-07 (28) | 12,7 |
+| 02.06.02.002-3 | 263. TC DE PE ADULTO S/ CONTRASTE S/ SEDACAO | 202 | 202 | 164 | 2.197 | 2.251 | 2.326 | 1.950 | -10,8 | 27% | 2026-05 (303) | 240,7 |
+| 02.08.04.005-6 | CINTILOGRAFIA RENAL ESTATICA (DMSA) | 179 | 179 | 15 | 403 | 178 | 370 | 42 | 2,8 | 46% | 2026-02 (98) | 26,7 |
+| 02.06.01.002-8 | TC COLUNA LOMBO-SACRA ADULTO S/CONTRASTE S/SEDACAO EMERG. | 152 | 145 | 291 | 2.818 | 3.448 | 3.237 | 2.952 | -34,9 | 29% | 2026-04 (388) | 309,0 |
+| 02.08.03.001-8 | CINTILOGRAFIA DE PARATIREOIDES | 152 | 152 | 10 | 242 | 186 | 215 | 22 | 2,2 | 49% | 2025-11 (38) | 13,7 |
+| 02.04.01.006-3 | CAVUM - LATERAL | 144 | 142 | 15 | 2.612 | 2.365 | 2.587 | 2.567 | 2,1 | 25% | 2024-10 (306) | 216,3 |
+| 02.04.04.010-8 | MAOS E PUNHOS PARA IDADE OSSEA ESQUERDO | 144 | 143 | 46 | 2.113 | 1.765 | 2.041 | 1.701 | 6,0 | 21% | 2026-03 (222) | 189,0 |
+| 02.05.02.002-0 | PAQUIMETRIA ULTRASSONICA | 144 | 144 | 250 | 1.817 | 1.836 | 2.034 | 1.366 | -18,1 | 40% | 2026-09 (313) | 237,7 |
+| 02.04.02.003-4 | COLUNA CERVICAL (AP E PERFIL) | 141 | 140 | 29 | 1.487 | 1.452 | 1.415 | 1.635 | 6,0 | 19% | 2025-05 (205) | 104,3 |
+| 02.07.01.001-3 | ANGIORESSONANCIA CEREBRAL ARTERIAL | 141 | 141 | 125 | 1.965 | 1.575 | 2.783 | 1.351 | -68,2 | 28% | 2026-03 (327) | 163,3 |
+| 02.07.01.002-1 | RM DE MASTOIDES ADULTO C/CONTRASTE S/SEDACAO | 141 | 141 | 103 | 1.424 | 1.215 | 1.834 | 1.046 | -34,2 | 24% | 2025-09 (313) | 110,7 |
+| 02.05.02.015-1 | ECOGRAFIA OBSTETRICA: COM DOPPLER COLORIDO | 139 | 139 | 141 | 499 | 357 | 366 | 307 | 11,1 | 42% | 2026-08 (41) | 32,0 |
+| 02.06.01.001-0 | 007. TC COLUNA CERVICAL ADULTO C/CONTRASTE S/SEDACAO | 137 | 134 | 328 | 1.366 | 1.573 | 1.486 | 1.356 | -10,0 | 30% | 2026-09 (160) | 145,3 |
+| 02.04.04.012-4 | PUNHO ESQUERDO: AP + LATERAL + OBLIQUOS | 129 | 129 | 46 | 1.140 | 933 | 1.044 | 992 | 8,0 | 22% | 2026-06 (132) | 80,3 |
+| 02.04.02.009-3 | COLUNA DORSAL : AP + LATERAL | 128 | 128 | 40 | 1.230 | 1.130 | 1.154 | 1.385 | 6,3 | 19% | 2025-05 (160) | 89,3 |
+| 02.07.01.007-2 | RM DE SELA TURCICA ADULTO C/CONTRASTE S/SEDACAO | 124 | 124 | 61 | 1.299 | 1.108 | 1.741 | 859 | -36,8 | 25% | 2025-10 (227) | 111,7 |
+| 02.04.06.013-3 | JOELHO OU ROTULA - AP + LAT. + AXIAL DIREITO | 123 | 123 | 9 | 1.555 | 1.615 | 1.506 | 1.636 | 4,1 | 19% | 2024-10 (174) | 106,7 |
+| 02.07.03.004-9 | 063. RM DE VIAS BILIARES ADULTO C/CONTRASTE S/SEDACAO | 116 | 116 | 300 | 3.251 | 2.988 | 3.285 | 2.939 | -2,8 | 30% | 2025-03 (363) | 270,7 |
+| 02.04.06.010-9 | CALCANEO DIREITO (PERFIL E AXIAL) | 89 | 87 | 12 | 959 | 964 | 938 | 1.022 | 1,8 | 24% | 2025-05 (112) | 66,3 |
+| 02.04.04.011-6 | OMBRO DIREITO (AP VERDADEIRO, PERFIL DE ESCAPULAR E AXILAR) | 83 | 83 | 19 | 1.583 | 1.592 | 1.564 | 1.656 | 1,6 | 21% | 2024-10 (184) | 117,3 |
+| 02.04.06.009-5 | BACIA (AP E FROG) | 76 | 76 | 38 | 1.056 | 1.099 | 988 | 1.252 | 5,7 | 18% | 2024-11 (133) | 78,3 |
+| 02.06.01.003-6 | 015. TC COLUNA DORSAL ADULTO C/CONTRASTE S/SEDACAO | 76 | 75 | 123 | 1.031 | 1.122 | 1.090 | 1.005 | -4,9 | 25% | 2026-09 (129) | 111,3 |
+| 02.07.02.003-5 | 045. RM DE TORAX ADULTO S/CONTRASTE S/SEDACAO | 75 | 75 | 378 | 1.018 | 675 | 1.090 | 531 | -6,0 | 28% | 2026-07 (111) | 94,7 |
+| 02.06.02.001-5 | ANGIOTOMOGRAFIA DOS MEMBROS SUPERIORES ESQUERDO ADULTO S/SEDACAO | 73 | 71 | 69 | 945 | 1.201 | 1.024 | 1.060 | -6,6 | 28% | 2026-09 (127) | 100,3 |
+| 02.05.01.001-6 | 5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO | 66 | 66 | 1.438 | 856 | 790 | 752 | 729 | 8,7 | 47% | 2026-07 (75) | 69,7 |
+| 02.04.06.006-0 | ARTICULACAO COXO-FEMORAL DIREITO | 63 | 63 | 13 | 691 | 760 | 670 | 871 | 1,8 | 21% | 2025-06 (86) | 52,0 |
+| 02.04.02.007-7 | COLUNA LOMBO SACRA COM OBLIQUAS (AP E PERFIL) | 60 | 60 | 17 | 263 | 150 | 216 | 251 | 3,9 | 14% | 2024-10 (44) | 14,7 |
+| 02.08.02.003-9 | CINTILOGRAFIA DE GLANDULAS SALIVARES C/ OU S/ ESTIMULO | 58 | 58 | 3 | 148 | 45 | 63 | 12 | 7,1 | 59% | 2026-09 (11) | 9,7 |
+| 02.04.06.008-7 | ARTICULACAO TIBIO-TARSICA ESQUERDO (AP VERDADEIRO E PERFIL) | 55 | 55 | 23 | 630 | 546 | 595 | 599 | 2,9 | 21% | 2025-02 (76) | 41,3 |
+| 02.04.06.016-8 | PERNA DIREITA (AP E PERFIL) | 55 | 55 | 16 | 666 | 723 | 640 | 802 | 2,2 | 26% | 2025-04 (85) | 55,0 |
+| 02.08.01.004-1 | CINTILOGRAFIA DE MIOCARDIO P/ LOCALIZACAO DE NECROSE | 50 | 50 | 2 | 56 | 13 | 13 | 4 | 3,6 | 73% | 2025-10 (5) | 0,0 |
+| 02.06.01.006-0 | 047. TC DE ORBITAS ADULTO C/CONTRASTE S/SEDACAO | 45 | 45 | 88 | 375 | 461 | 419 | 382 | -3,7 | 28% | 2026-05 (57) | 42,7 |
+| 02.04.04.007-8 | COTOVELO DIREITO (AP E PERFIL) | 38 | 38 | 10 | 424 | 375 | 409 | 394 | 1,2 | 27% | 2026-06 (50) | 28,7 |
+| 02.08.02.007-1 | CINTILOGRAFIA PARA ESVAZIAMENTO GÁSTRICO (SÓLIDOS/SEMI -SÓLIDOS) | 34 | 34 | 1 | 44 | 12 | 19 | 4 | 2,1 | 44% | 2025-12 (4) | 1,0 |
+| 02.04.01.014-4 | SEIOS DA FACE - F.N.+M.N | 33 | 33 | 29 | 1.053 | 1.161 | 1.076 | 1.187 | -1,9 | 24% | 2025-09 (146) | 82,3 |
+| 02.04.02.010-7 | COLUNA DORSO - LOMBAR PARA ESCOLIOSE (AP E PERFIL) | 32 | 32 | 8 | 464 | 513 | 458 | 565 | 0,5 | 21% | 2025-05 (72) | 41,3 |
+| 02.04.04.005-1 | BRACO DIREITO (AP E PERFIL) | 28 | 28 | 5 | 278 | 196 | 258 | 204 | 1,7 | 22% | 2026-06 (32) | 20,3 |
+| 02.08.03.002-6 | CINTILOGRAFIA DA TIREOIDE C/ OU S/ CAPTACAO | 28 | 28 | 4 | 349 | 142 | 440 | 8 | -7,6 | 40% | 2026-07 (70) | 48,3 |
+| 02.08.03.004-2 | CINTILOGRAFIA P/ PESQUISA DO CORPO INTEIRO | 25 | 25 | 2 | 132 | 0 | 124 | 0 | 0,7 | 31% | 2026-08 (29) | 16,3 |
+| 02.04.06.014-1 | RADIOGRAFIA DE JOELHO OU PATELA ( AS+LATERAL+OBLIQUA+3 AXIAIS) DIREITO | 22 | 22 | 4 | 56 | 28 | 35 | 75 | 1,8 | 6% | 2025-04 (13) | 0,0 |
+| 02.05.02.011-9 | ECOGRAFIA PROSTATA ( VIA TRANSRETAL) | 22 | 22 | 133 | 46 | 17 | 4 | 5 | 3,5 | 0% | 2026-06 (2) | 0,3 |
+| 02.08.08.004-0 | LINFOCINTILOGRAFIA | 22 | 22 | 2 | 41 | 22 | 36 | 5 | 0,4 | 51% | 2026-06 (10) | 4,0 |
+| 02.04.04.001-9 | ANTEBRACO DIREITO (AP E PERFIL) | 18 | 18 | 3 | 182 | 118 | 172 | 135 | 0,8 | 27% | 2026-06 (27) | 14,7 |
+| 02.05.02.013-5 | ECOGRAFIA DE TORAX (EXTRACARDIACO) ADULTO | 17 | 8 | 13 | 7 | 2 | 0 | 0 | 0,6 | — | — | 0,0 |
+| 02.05.01.005-9 | ECOGRAFIA DOPPLER FLUXO OBSTETRICO | 16 | 16 | 34 | 29 | 71 | 17 | 79 | 1,0 | 60% | 2025-05 (13) | 0,0 |
+| 02.08.05.004-3 | CINTILOGRAFIA DE SEGMENTO OSSEO C/ GALIO 67 | 16 | 16 | 0 | 15 | 4 | 13 | 1 | 0,2 | 57% | 2026-06 (7) | 1,3 |
+| 02.08.07.004-4 | CINTILOGRAFIA DE PULMAO POR PERFUSAO (MINIMO 4 PROJECOES) | 15 | 15 | 35 | 57 | 122 | 141 | 0 | -7,0 | 61% | 2026-06 (51) | 7,3 |
+| 02.04.02.011-5 | COLUNA DORSO - LOMBAR PARA ESCOLIOSE DINAMICA (AP E PERFIL) | 14 | 14 | 2 | 38 | 36 | 28 | 57 | 0,8 | 14% | 2025-02 (8) | 2,7 |
+| 02.04.06.017-6 | PANORAMICA DE MEMBROS INFERIORES | 14 | 14 | 5 | 23 | 10 | 9 | 36 | 1,2 | 71% | 2024-10 (6) | 0,0 |
+| 02.04.03.007-2 | COSTELAS - (ARCOS COSTAIS) ESQUERDO | 13 | 13 | 2 | 208 | 200 | 212 | 209 | -0,3 | 30% | 2024-10 (24) | 19,3 |
+| 02.04.04.008-6 | RADIOGRAFIA DE DEDOS DA MAO | 11 | 11 | 4 | 136 | 148 | 135 | 154 | 0,1 | 20% | 2025-06 (18) | 11,0 |
+| 20406015 | RADIOGRAFIA DE PE/DEDOS DO PE | 11 | 11 | 8 | 1.186 | 1.431 | 1.246 | 1.382 | -5,0 | 22% | 2025-02 (181) | 58,7 |
+| 02.04.01.007-1 | CRANIO - PA + LATERAL + BRETTON | 10 | 10 | 1 | 37 | 21 | 27 | 33 | 0,8 | 25% | 2025-10 (7) | 3,3 |
+| 02.04.03.017-0 | TORAX: P.A | 9 | 1 | 7 | 34 | 80 | 33 | 88 | 0,1 | 36% | 2025-04 (30) | 2,3 |
+| 02.04.04.006-0 | CLAVICULA ESQUERDO | 9 | 9 | 4 | 92 | 90 | 95 | 92 | -0,2 | 25% | 2025-05 (14) | 8,0 |
+| 02.04.02.004-2 | COLUNA CERVICAL : AP + LATERAL + T.O OU FLEXAO | 8 | 8 | 4 | 62 | 71 | 53 | 98 | 0,8 | 15% | 2024-10 (13) | 3,7 |
+| 02.04.04.003-5 | ARTICULACAO ESCAPULO-UMERAL ESQUERDO | 8 | 8 | 2 | 103 | 67 | 103 | 71 | 0,0 | 27% | 2026-03 (13) | 8,7 |
+| 02.04.06.011-7 | COXA ESQUERDA (AP E PERFIL) | 8 | 8 | 6 | 184 | 192 | 184 | 217 | 0,0 | 28% | 2024-12 (27) | 13,7 |
+| 02.04.02.008-5 | COLUNA LOMBO SACRA FUNCIONAL OU DINAMICA (AP E PERFIL) | 7 | 7 | 1 | 37 | 21 | 30 | 24 | 0,6 | 19% | 2025-11 (5) | 2,7 |
+| 02.04.03.013-7 | TORAX PA + INSPIRACAO + EXPIRACAO + LATERAL | 7 | 7 | 1 | 43 | 27 | 35 | 48 | 0,7 | 12% | 2025-01 (24) | 3,3 |
+| 02.10.01.001-0 | ANGIOGRAFIA CEREBRAL (4 VASOS) | 7 | 7 | 21 | 108 | 108 | 99 | 103 | 0,8 | 53% | 2024-10 (21) | 10,0 |
+| 02.04.01.008-0 | CRANIO : PA + LATERAL | 6 | 6 | 7 | 230 | 225 | 237 | 246 | -0,6 | 19% | 2024-10 (29) | 21,0 |
+| 02.04.05.013-8 | ABDOMEN SIMPLES : AP | 6 | 6 | 8 | 178 | 177 | 183 | 190 | -0,4 | 24% | 2025-01 (26) | 15,3 |
+| 02.04.03.012-9 | TORAX : APICO - LORDORTICA | 5 | 5 | 0 | 11 | 1 | 7 | 2 | 0,3 | 33% | 2026-03 (2) | 0,7 |
+| 02.04.03.014-5 | TORAX PA + LAT. + OBLIQUA | 5 | 5 | 1 | 42 | 62 | 37 | 64 | 0,4 | 15% | 2025-10 (10) | 0,7 |
+| 02.08.02.006-3 | CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (SEMI-SOLIDO) | 5 | 5 | 0 | 5 | 0 | 0 | 0 | 0,4 | — | — | 0,0 |
+| 02.08.02.009-8 | CINTILOGRAFIA PARA PESQUISA DE HEMORRAGIAS ATIVAS | 5 | 5 | 0 | 23 | 4 | 11 | 3 | 1,0 | 50% | 2026-05 (5) | 0,7 |
+| 20406014 | RADIOGRAFIA DE JOELHO OU PATELA (AP + LATERAL + OBLIQUA + 3 AXIAL | 5 | 5 | 3 | 4 | 0 | 0 | 2 | 0,3 | — | 2024-11 (1) | 0,0 |
+| 02.04.01.012-8 | OSSOS DA FACE - M.N. + LATERAL + HIRTZ | 4 | 4 | 2 | 38 | 24 | 36 | 30 | 0,2 | 26% | 2025-06 (6) | 3,0 |
+| 02.04.02.013-1 | COLUNA TOTAL | 4 | 4 | 13 | 1.367 | 1.358 | 1.399 | 1.270 | -2,7 | 28% | 2025-08 (139) | 107,7 |
+| 02.08.06.003-0 | ESTUDO DE FLUXO SANGUINEO CEREBRAL( ECD-T C99M) | 4 | 4 | 0 | 9 | 9 | 14 | 0 | -0,4 | 46% | 2025-11 (4) | 0,0 |
+| 02.04.02.005-0 | COLUNA CERVICAL: FUNCIONAL OU DINAMICA (AP E PERFIL) | 3 | 3 | 0 | 18 | 11 | 15 | 20 | 0,2 | 8% | 2025-04 (4) | 1,0 |
+| 02.04.02.012-3 | SACRO-COCCIX (AP E PERFIL) | 3 | 3 | 4 | 125 | 155 | 124 | 161 | 0,1 | 28% | 2024-11 (20) | 8,7 |
+| 02.08.02.005-5 | CINTILOGRAFIA P/ ESTUDO DE TRANSITO ESOFAGICO (LIQUIDO) | 3 | 3 | 0 | 3 | 0 | 0 | 0 | 0,2 | — | — | 0,0 |
+| 02.08.02.011-0 | CINTILOGRAFIA P/ PESQUISA DE REFLUXO GASTRO-ESOFAGICO | 3 | 3 | 0 | 3 | 3 | 4 | 1 | -0,1 | 75% | 2026-07 (2) | 1,0 |
+| 02.08.07.002-8 | CINTILOGRAFIA DE PULMAO P/ PESQUISA DE ASPIRACAO | 3 | 3 | 1 | 3 | 0 | 0 | 0 | 0,2 | — | — | 0,0 |
+| 02.08.09.001-0 | CINTILOGRAFIA DE CORPO INTEIRO C/ GALIO 67 P/ PESQUISA DE NEOPLASIAS | 3 | 3 | 0 | 5 | 2 | 3 | 1 | 0,2 | — | 2026-06 (3) | 0,0 |
+| 02.08.09.002-9 | CINTILOGRAFIA DE GLANDULA LACRIMAL (DACRIOCINTILOGRAFIA) | 3 | 3 | 1 | 9 | 9 | 11 | 3 | -0,2 | 73% | 2026-08 (4) | 2,3 |
+| 02.04.04.002-7 | ARTICULACAO ACROMIO-CLAVICULAR (ESQUERDO) | 2 | 2 | 3 | 116 | 95 | 109 | 105 | 0,6 | 22% | 2025-06 (16) | 10,0 |
+| 02.04.05.011-1 | RADIOGRAFIA DE ABDOMEN ( AP + LATERAL / LOCALIZADA) | 2 | 2 | 2 | 20 | 18 | 18 | 25 | 0,2 | 0% | 2025-10 (4) | 1,7 |
+| 02.05.01.002-4 | 8. ECOCARDIOGRAFIA TRANSEOFAGICA INFANTIL | 2 | 1 | 1.097 | 1.251 | 1.129 | 1.103 | 1.121 | 12,3 | 50% | 2026-08 (123) | 116,3 |
+| 02.10.01.018-5 | FLEBOGRAFIA DE CAVA INFERIOR E/OU SUPERIOR | 2 | 2 | 1 | 11 | 12 | 12 | 10 | -0,1 | 73% | 2026-06 (4) | 1,7 |
+| 02.04.01.005-5 | ARTICULACAO TEMPORO MANDIBULAR BILATERAL | 1 | 1 | 0 | 59 | 48 | 58 | 51 | 0,1 | 17% | 2026-08 (12) | 6,7 |
+| 02.04.01.011-0 | MAXILAR INFERIOR : PA + OBLIQUAS | 1 | 1 | 0 | 1 | 1 | 0 | 3 | 0,1 | — | 2024-12 (1) | 0,0 |
+| 02.04.03.010-2 | MEDIASTINO PA E PERFIL | 1 | 1 | 0 | 0 | 2 | 0 | 3 | 0,0 | — | 2025-01 (1) | 0,0 |
+| 02.04.04.004-3 | ARTICULACAO ESTERNO-CLAVICULAR | 1 | 1 | 0 | 32 | 36 | 36 | 37 | -0,3 | 21% | 2024-12 (6) | 2,7 |
+| 02.04.05.018-9 | UROGRAFIA VENOSA C/ BEXIGA PRE E POS MICCAO - ADULTO | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0,0 | — | — | 0,0 |
+| 02.04.06.007-9 | ARTICULACAO SACRO ILIACA | 1 | 1 | 1 | 102 | 100 | 103 | 105 | -0,1 | 20% | 2026-04 (14) | 6,7 |
+| 02.08.06.001-4 | CINTILOGRAFIA DE PERFUSAO CEREBRAL C/ TALIO (SPCTO) | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0,0 | — | — | 0,0 |
+
+## Região de Saúde
+
+**radiologia**, na medida da fila (o conjunto do objeto):
+
+| Região de Saúde | fila | pessoas |
+|---|---|---|
+| Região Norte | 3.885 | 2.921 |
+| Região Leste | 2.101 | 2.072 |
+| Região Centro-Sul | 1.935 | 1.901 |
+| Região Sudoeste | 1.826 | 1.688 |
+| Região Oeste | 1.198 | 1.110 |
+| Região Central | 936 | 894 |
+| Região Sul | 880 | 864 |
+| URD | 680 | 670 |
+| Contratado/Credenciado | 388 | 383 |
+| sem Região de Saúde | 264 | 255 |
+
+**ultrassonografia**, na medida da fila (o conjunto do objeto):
+
+| Região de Saúde | fila | pessoas |
+|---|---|---|
+| Região Sudoeste | 29.958 | 24.666 |
+| Região Sul | 19.182 | 14.906 |
+| Região Leste | 12.767 | 9.877 |
+| Região Centro-Sul | 11.263 | 9.019 |
+| Região Norte | 7.248 | 5.942 |
+| Região Oeste | 6.270 | 5.329 |
+| Região Central | 4.857 | 4.327 |
+| URD | 3.580 | 3.223 |
+| Contratado/Credenciado | 2.975 | 2.715 |
+| Serviços Centralizados | 1 | 1 |
+| sem Região de Saúde | 1.068 | 900 |
+
+**tomografia**, na medida da fila (o conjunto do objeto):
+
+| Região de Saúde | fila | pessoas |
+|---|---|---|
+| Região Sudoeste | 7.235 | 3.813 |
+| URD | 5.949 | 2.765 |
+| Contratado/Credenciado | 2.595 | 1.309 |
+| Região Oeste | 1.223 | 922 |
+| Região Norte | 1.104 | 730 |
+| Região Sul | 1.040 | 668 |
+| Região Leste | 855 | 669 |
+| Região Central | 686 | 455 |
+| Região Centro-Sul | 399 | 318 |
+| Público - Não SES | 1 | 1 |
+| sem Região de Saúde | 182 | 138 |
+
+**ressonância magnética**, na medida da fila (o conjunto do objeto):
+
+| Região de Saúde | fila | pessoas |
+|---|---|---|
+| Região Sudoeste | 1.989 | 1.531 |
+| URD | 1.811 | 1.243 |
+| Região Oeste | 1.271 | 1.020 |
+| Região Sul | 1.089 | 806 |
+| Região Norte | 1.048 | 825 |
+| Região Leste | 919 | 739 |
+| Região Centro-Sul | 786 | 608 |
+| Contratado/Credenciado | 586 | 420 |
+| Região Central | 490 | 396 |
+| Público - Não SES | 1 | 1 |
+| Serviços Centralizados | 1 | 1 |
+| sem Região de Saúde | 158 | 120 |
+
+**medicina nuclear**, na medida da fila (o conjunto do objeto):
+
+| Região de Saúde | fila | pessoas |
+|---|---|---|
+| Contratado/Credenciado | 2.216 | 1.356 |
+| URD | 1.330 | 1.124 |
+| Região Sudoeste | 644 | 558 |
+| Região Centro-Sul | 341 | 195 |
+| Região Oeste | 318 | 284 |
+| Região Norte | 248 | 201 |
+| Região Central | 239 | 193 |
+| Região Sul | 217 | 184 |
+| Região Leste | 101 | 94 |
+| sem Região de Saúde | 9 | 7 |
+
+**radiologia intervencionista**, na medida da fila (o conjunto do objeto):
+
+| Região de Saúde | fila | pessoas |
+|---|---|---|
+| URD | 7 | 7 |
+| Região Central | 2 | 2 |
+| sem Região de Saúde | 0 | 0 |
+
+## Por ano da solicitação
+
+**radiologia**:
+
+| ano | fila | fila viva |
+|---|---|---|
+| 2007 | 6 | 0 |
+| 2009 | 1 | 0 |
+| 2010 | 7 | 0 |
+| 2020 | 4 | 0 |
+| 2021 | 16 | 0 |
+| 2022 | 14 | 0 |
+| 2023 | 6 | 0 |
+| 2024 | 35 | 18 |
+| 2025 | 238 | 238 |
+| 2026 | 13.766 | 13.766 |
+
+**ultrassonografia**:
+
+| ano | fila | fila viva |
+|---|---|---|
+| 2007 | 6 | 0 |
+| 2010 | 37 | 0 |
+| 2013 | 1 | 0 |
+| 2015 | 1 | 0 |
+| 2017 | 2 | 0 |
+| 2019 | 13 | 0 |
+| 2020 | 22 | 0 |
+| 2021 | 2.268 | 0 |
+| 2022 | 4.693 | 0 |
+| 2023 | 9.288 | 0 |
+| 2024 | 11.077 | 2.308 |
+| 2025 | 21.560 | 21.560 |
+| 2026 | 50.201 | 50.201 |
+
+**tomografia**:
+
+| ano | fila | fila viva |
+|---|---|---|
+| 2016 | 3 | 0 |
+| 2023 | 1 | 0 |
+| 2024 | 507 | 281 |
+| 2025 | 3.459 | 3.459 |
+| 2026 | 17.299 | 17.299 |
+
+**ressonância magnética**:
+
+| ano | fila | fila viva |
+|---|---|---|
+| 2022 | 5 | 0 |
+| 2023 | 1 | 0 |
+| 2024 | 1 | 0 |
+| 2026 | 10.142 | 10.142 |
+
+**medicina nuclear**:
+
+| ano | fila | fila viva |
+|---|---|---|
+| 2025 | 2.088 | 2.088 |
+| 2026 | 3.575 | 3.575 |
+
+**radiologia intervencionista**:
+
+| ano | fila | fila viva |
+|---|---|---|
+| 2026 | 9 | 9 |
+
+## Diferença para a coleta anterior
+
+Contra `dados/fontes/mapa_social_20261101_executante_bruto/coleta_20261101.json` (recarga 01/11/2026 14:31:49). Diferença **calculada** no montador.
+
+A coleta anterior não tem as mesmas filas nem os mesmos objetos.

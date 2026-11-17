@@ -1,0 +1,10 @@
+id: "Portaria SES-DF 98 de 18_03_2025 emendas federais"
+arquivo: "Portaria SES-DF 98 de 18_03_2025 emendas federais.html"
+sha256: "44168a51ebc7a1bd382844a2c69650b4e52bf81d623f7211f6e9949122085370"
+formato: "html"
+recorte: "página inteira"
+chars_texto: 10847
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T19:08:13"

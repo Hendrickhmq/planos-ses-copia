@@ -1,0 +1,10 @@
+id: "GM 5758-2024 altera PMAE"
+arquivo: "GM 5758-2024 altera PMAE.html"
+sha256: "49ecb17793f11e369e55b42a32e792fd54a808e412bad1f8f6bfa5641b5b9a94"
+formato: "html"
+recorte: "DOU (bloco texto-dou)"
+chars_texto: 8281
+tabelas_total: 0
+trechos_riscados: 0
+ferramenta: "html.parser (biblioteca padrão)"
+data_extracao: "2026-09-27T14:35:46"

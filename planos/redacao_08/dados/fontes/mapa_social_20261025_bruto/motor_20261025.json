@@ -1,0 +1,4618 @@
+{
+"nota": "Saída do motor do painel (Qlik Engine API), copiada como veio, na sessão de 25/10/2026 15:19:33 a 15:33:43 (relógio do motor), sem recarga da base no meio. Só contagens agregadas: nenhum CNS, CPF, nome ou data de nascimento. Chaves das filas e dos recortes em F, CID, CIDAG e OCI; as colunas de cada tabela em *_cols. Datas em número de série quando a coluna é 'mais_antiga', 'fin_mais_antiga' ou 'primeiro agendamento' (dias desde 30/12/1899). O montar_20261025.py organiza este arquivo em coleta_20261025.json, no formato do método, sem conta nova.",
+"app": "7edb02fa-f1f5-4ea6-b348-049a4ac2d095",
+"titulo_app": "D-PDDC - MAPA DA SAÚDE - REGULAÇÃO (M)",
+"reload": "2026-10-25T17:31:55.843Z",
+"consulta_inicio": "25/10/2026 15:19:33",
+"consulta_fim": "25/10/2026 15:33:43",
+"max_data_solicitacao": "25/10/2026",
+"max_data_agendamento": "27/01/2027",
+"conferencia_viva_ecg": {
+"nota": "ELETROCARDIOGRAMA, fila por Ano_Solicitacao: inteira e viva (>= 25/10/2024). A viva bate com 594 (2024) + 5.119 (2025) + 9.418 (2026) e nunca passa da inteira.",
+"fila": 20313,
+"fila_viva": 15131,
+"por_ano": [
+[
+"2010",
+34,
+0
+],
+[
+"2011",
+77,
+0
+],
+[
+"2012",
+457,
+0
+],
+[
+"2013",
+883,
+0
+],
+[
+"2022",
+836,
+0
+],
+[
+"2023",
+1098,
+0
+],
+[
+"2024",
+2391,
+594
+],
+[
+"2025",
+5119,
+5119
+],
+[
+"2026",
+9418,
+9418
+]
+],
+"primeira_data_viva": "25/10/2024"
+},
+"F": {
+"ECG": "ELETROCARDIOGRAMA",
+"ERG": "TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+"ECO": "1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+"ESTR": "5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+"HOL": "HOLTER 24 HORAS",
+"CINE": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+"CINR": "CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+"RX": "TORAX : PA E PERFIL",
+"C_ADU": "CONSULTA EM CARDIOLOGIA - ADULTO",
+"C_RC": "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+"C_IC": "CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+"C_COR": "CONSULTA EM CARDIOLOGIA - CORONARIA"
+},
+"CID": {
+"NONE": "",
+"I": "codigo_cid_solicitado={\"I*\"}",
+"ISC": "codigo_cid_solicitado={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+"SCC": "codigo_cid_solicitado={\"I20*\",\"I25*\"}",
+"IC": "codigo_cid_solicitado={\"I50*\"}",
+"ICA": "codigo_cid_solicitado={\"I50*\",\"I110\",\"I130\",\"I132\",\"I42*\",\"I43*\"}",
+"ZAV": "codigo_cid_solicitado={\"Z136\",\"Z848\"}",
+"ZPO": "codigo_cid_solicitado={\"Z018\",\"Z488\",\"Z489\"}",
+"ZAMB": "codigo_cid_solicitado={\"Z13\",\"Z84\",\"Z01\",\"Z48\"}"
+},
+"CIDAG": {
+"I": "CID_agendamento={\"I*\"}",
+"ISC": "CID_agendamento={\"I20*\",\"I21*\",\"I22*\",\"I23*\",\"I24*\",\"I25*\"}",
+"SCC": "CID_agendamento={\"I20*\",\"I25*\"}",
+"IC": "CID_agendamento={\"I50*\"}",
+"ICA": "CID_agendamento={\"I50*\",\"I110*\",\"I130*\",\"I132*\",\"I42*\",\"I43*\"}",
+"ZAV": "CID_agendamento={\"Z136*\",\"Z848*\"}",
+"ZPO": "CID_agendamento={\"Z018*\",\"Z488*\",\"Z489*\"}"
+},
+"V": {
+"12": "data_solicitacao={\">=25/10/2025\"}",
+"24": "data_solicitacao={\">=25/10/2024\"}",
+"36": "data_solicitacao={\">=25/10/2023\"}"
+},
+"A12": "data_agendamento={\">=25/10/2025<=24/10/2026\"}",
+"S": "status_solicitacao_alias={'SOLICITAÇÃO PENDENTE DE REGULAÇÃO','SOLICITAÇÃO CORRIGIDA E REENVIADA PARA REGULAÇÃO','SOLICITAÇÃO PENDENTE DE REGULAÇÃO POR FILA DE ESPERA'}",
+"DEV": "status_solicitacao_alias={'SOLICITAÇÃO DEVOLVIDA PARA COMPLEMENTAÇÃO PELO SOLICITANTE'}",
+"OCI": {
+"09.02.01.001-8": {
+"ex": [
+"ECG",
+"RX"
+],
+"co": [
+"C_RC"
+],
+"obr": [
+"ECG"
+],
+"teto": "ZAV",
+"fin": "ZAV",
+"var": [],
+"ent": "C_RC"
+},
+"09.02.01.002-6": {
+"ex": [
+"ECG",
+"ECO"
+],
+"co": [
+"C_ADU"
+],
+"obr": [
+"ECG"
+],
+"teto": "ZAV",
+"fin": "ZAV",
+"var": [],
+"ent": "C_ADU"
+},
+"09.02.01.003-4": {
+"ex": [
+"ECG",
+"ERG",
+"ECO"
+],
+"co": [
+"C_ADU",
+"C_COR"
+],
+"obr": [
+"ECG",
+"ERG"
+],
+"teto": "I",
+"fin": "SCC",
+"var": [
+"ISC"
+],
+"ent": "C_COR"
+},
+"09.02.01.004-2": {
+"ex": [
+"ESTR"
+],
+"co": [
+"C_COR",
+"C_ADU"
+],
+"obr": [
+"ESTR"
+],
+"teto": "ISC",
+"fin": "ISC",
+"var": [
+"SCC"
+],
+"ent": "C_COR"
+},
+"09.02.01.005-0": {
+"ex": [
+"CINE",
+"CINR"
+],
+"co": [
+"C_COR",
+"C_ADU"
+],
+"obr": [
+"CINE",
+"CINR"
+],
+"teto": "ISC",
+"fin": "ISC",
+"var": [
+"SCC"
+],
+"ent": "C_COR"
+},
+"09.02.01.006-9": {
+"ex": [
+"ECG",
+"ERG",
+"HOL",
+"ECO"
+],
+"co": [
+"C_ADU",
+"C_IC"
+],
+"obr": [
+"ECG",
+"ERG",
+"HOL"
+],
+"teto": "I",
+"fin": "IC",
+"var": [
+"ICA"
+],
+"ent": "C_IC"
+},
+"09.02.01.007-7": {
+"ex": [
+"ECG",
+"RX"
+],
+"co": [
+"C_RC"
+],
+"obr": [],
+"teto": "ZPO",
+"fin": "ZPO",
+"var": [],
+"ent": "C_RC"
+}
+},
+"pf_cols": [
+"nome",
+"NONE fila",
+"NONE fila_viva",
+"NONE pessoas",
+"NONE pessoas_viva",
+"NONE devolvidas",
+"NONE espera_media",
+"NONE espera_mediana",
+"I fila",
+"I fila_viva",
+"I pessoas",
+"I pessoas_viva",
+"I devolvidas",
+"I espera_media",
+"I espera_mediana",
+"ISC fila",
+"ISC fila_viva",
+"ISC pessoas",
+"ISC pessoas_viva",
+"ISC devolvidas",
+"ISC espera_media",
+"ISC espera_mediana",
+"SCC fila",
+"SCC fila_viva",
+"SCC pessoas",
+"SCC pessoas_viva",
+"SCC devolvidas",
+"SCC espera_media",
+"SCC espera_mediana",
+"IC fila",
+"IC fila_viva",
+"IC pessoas",
+"IC pessoas_viva",
+"IC devolvidas",
+"IC espera_media",
+"IC espera_mediana",
+"ICA fila",
+"ICA fila_viva",
+"ICA pessoas",
+"ICA pessoas_viva",
+"ICA devolvidas",
+"ICA espera_media",
+"ICA espera_mediana",
+"ZAV fila",
+"ZAV fila_viva",
+"ZAV pessoas",
+"ZAV pessoas_viva",
+"ZAV devolvidas",
+"ZAV espera_media",
+"ZAV espera_mediana",
+"ZPO fila",
+"ZPO fila_viva",
+"ZPO pessoas",
+"ZPO pessoas_viva",
+"ZPO devolvidas",
+"ZPO espera_media",
+"ZPO espera_mediana",
+"espera_max",
+"idade_mediana",
+"fila_menor_18",
+"mais_antiga",
+"fila_2026",
+"fila_viva12",
+"fila_viva36",
+"total_todos_status",
+"codigo_sigtap"
+],
+"pf": [
+[
+"HOLTER 24 HORAS",
+36178,
+11115,
+36147,
+11114,
+3493,
+1319.872,
+1201.949,
+25271,
+7519,
+25253,
+7518,
+2457,
+1319.708,
+1213.896,
+2854,
+1036,
+2854,
+1036,
+215,
+1144.565,
+1012.883,
+2592,
+943,
+2592,
+943,
+179,
+1145.407,
+1000.096,
+2532,
+728,
+2530,
+727,
+234,
+1244.65,
+1217.97,
+2813,
+806,
+2811,
+805,
+261,
+1247.029,
+1215.226,
+99,
+42,
+99,
+42,
+14,
+1067.727,
+895.21,
+2,
+1,
+2,
+1,
+0,
+900.396,
+900.396,
+5171.884,
+63,
+477,
+41148,
+5174,
+5864,
+16392,
+39671,
+211020044
+],
+[
+"CONSULTA EM CARDIOLOGIA - ADULTO",
+11114,
+8250,
+11099,
+8247,
+8740,
+480.247,
+401.895,
+8097,
+6244,
+8092,
+6243,
+6058,
+444.156,
+370.083,
+1794,
+1388,
+1793,
+1388,
+1228,
+422.259,
+312.157,
+1256,
+951,
+1255,
+951,
+873,
+439.673,
+352.888,
+1253,
+965,
+1252,
+965,
+889,
+443.513,
+366.892,
+1430,
+1102,
+1429,
+1102,
+1019,
+451.373,
+379.902,
+41,
+25,
+41,
+25,
+88,
+576.253,
+612.536,
+5,
+5,
+5,
+5,
+6,
+96.152,
+120.786,
+2174.82,
+64,
+56,
+44145,
+4679,
+5189,
+10375,
+19854,
+301010072
+],
+[
+"CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+9704,
+8217,
+9630,
+8150,
+4247,
+428.468,
+423.05,
+1765,
+1446,
+1744,
+1426,
+423,
+486.098,
+487.91,
+33,
+30,
+33,
+30,
+17,
+369.79,
+370.191,
+26,
+24,
+26,
+24,
+13,
+365.93,
+386.006,
+29,
+28,
+28,
+27,
+13,
+334.567,
+389.085,
+34,
+33,
+33,
+32,
+13,
+329.231,
+391.507,
+55,
+47,
+54,
+46,
+31,
+453.314,
+487.094,
+87,
+86,
+87,
+86,
+28,
+247.303,
+190.475,
+1465.182,
+58,
+11,
+44855,
+3414,
+4098,
+9620,
+13951,
+301010072
+],
+[
+"ELETROCARDIOGRAMA",
+20313,
+15131,
+20293,
+15131,
+5221,
+763.276,
+346.265,
+11662,
+8421,
+11651,
+8421,
+3124,
+823.293,
+382.232,
+279,
+214,
+279,
+214,
+105,
+824.21,
+276.979,
+253,
+192,
+253,
+192,
+91,
+862.899,
+282.963,
+141,
+118,
+141,
+118,
+56,
+779.616,
+207.185,
+155,
+128,
+155,
+128,
+62,
+801.785,
+209.185,
+388,
+261,
+387,
+261,
+120,
+697.846,
+313.131,
+46,
+41,
+46,
+41,
+4,
+239.455,
+137.13,
+5914.569,
+58,
+941,
+40406,
+9418,
+10517,
+17083,
+25534,
+211020036
+],
+[
+"TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+3159,
+1662,
+3159,
+1662,
+2198,
+831.063,
+654.099,
+1707,
+908,
+1707,
+908,
+1243,
+834.585,
+632.318,
+559,
+309,
+559,
+309,
+363,
+813.503,
+587.95,
+542,
+300,
+542,
+300,
+342,
+814.629,
+590.146,
+77,
+65,
+77,
+65,
+77,
+345.352,
+52.043,
+87,
+73,
+87,
+73,
+89,
+343.606,
+46.98,
+56,
+37,
+56,
+37,
+26,
+652.658,
+374.614,
+2,
+1,
+2,
+1,
+0,
+504.494,
+504.494,
+1978.909,
+57,
+33,
+44341,
+1082,
+1126,
+1862,
+5357,
+211020060
+],
+[
+"CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+1484,
+1484,
+1484,
+1484,
+34,
+286.312,
+364.121,
+1253,
+1253,
+1253,
+1253,
+31,
+281.592,
+359.883,
+1038,
+1038,
+1038,
+1038,
+27,
+284.062,
+368.878,
+1003,
+1003,
+1003,
+1003,
+24,
+285.37,
+370.071,
+93,
+93,
+93,
+93,
+3,
+287.674,
+366.874,
+98,
+98,
+98,
+98,
+3,
+285.936,
+350.397,
+4,
+4,
+4,
+4,
+0,
+262.844,
+242.041,
+0,
+0,
+0,
+0,
+0,
+null,
+null,
+452.792,
+66,
+0,
+45867,
+636,
+742,
+1484,
+1518,
+208010033
+],
+[
+"CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+1720,
+1720,
+1720,
+1720,
+152,
+289.539,
+350.552,
+1452,
+1452,
+1452,
+1452,
+126,
+284.325,
+341.593,
+1211,
+1211,
+1211,
+1211,
+95,
+282.608,
+341.236,
+1176,
+1176,
+1176,
+1176,
+90,
+282.554,
+341.593,
+113,
+113,
+113,
+113,
+11,
+300.404,
+361.139,
+117,
+117,
+117,
+117,
+11,
+299.739,
+361.139,
+4,
+4,
+4,
+4,
+1,
+245.604,
+242.041,
+0,
+0,
+0,
+0,
+0,
+null,
+null,
+452.791,
+66,
+0,
+45867,
+742,
+898,
+1720,
+1872,
+208010025
+],
+[
+"1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+13477,
+13477,
+13477,
+13477,
+13454,
+126.73,
+116.881,
+9152,
+9152,
+9152,
+9152,
+8131,
+126.974,
+117.145,
+1869,
+1869,
+1869,
+1869,
+1227,
+117.112,
+114.148,
+1676,
+1676,
+1676,
+1676,
+924,
+117.099,
+114.217,
+2364,
+2364,
+2364,
+2364,
+1646,
+124.781,
+121.206,
+2499,
+2499,
+2499,
+2499,
+1782,
+125.388,
+122.162,
+90,
+90,
+90,
+90,
+136,
+131.203,
+133.551,
+13,
+13,
+13,
+13,
+3,
+116.053,
+129.131,
+531.118,
+62,
+138,
+45789,
+12905,
+13037,
+13477,
+26931,
+205010032
+],
+[
+"CONSULTA EM CARDIOLOGIA - CORONARIA",
+320,
+320,
+320,
+320,
+539,
+111.01,
+109.525,
+293,
+293,
+293,
+293,
+467,
+111.256,
+109.211,
+271,
+271,
+271,
+271,
+396,
+109.562,
+103.951,
+204,
+204,
+204,
+204,
+288,
+113.405,
+112.717,
+7,
+7,
+7,
+7,
+15,
+149.823,
+151.259,
+8,
+8,
+8,
+8,
+22,
+134.999,
+137.627,
+0,
+0,
+0,
+0,
+1,
+null,
+null,
+0,
+0,
+0,
+0,
+0,
+null,
+null,
+303.12,
+65,
+0,
+46017,
+319,
+320,
+320,
+859,
+301010072
+],
+[
+"5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+69,
+69,
+69,
+69,
+1437,
+25.416,
+27.083,
+51,
+51,
+51,
+51,
+1090,
+23.23,
+24.116,
+32,
+32,
+32,
+32,
+713,
+22.275,
+24.653,
+31,
+31,
+31,
+31,
+677,
+21.701,
+23.142,
+9,
+9,
+9,
+9,
+81,
+26.946,
+24.116,
+9,
+9,
+9,
+9,
+88,
+26.946,
+24.116,
+1,
+1,
+1,
+1,
+8,
+38.944,
+38.944,
+0,
+0,
+0,
+0,
+0,
+null,
+null,
+46.858,
+68,
+0,
+46273,
+69,
+69,
+69,
+1506,
+205010016
+],
+[
+"TORAX : PA E PERFIL",
+669,
+669,
+669,
+669,
+188,
+103.035,
+103.002,
+75,
+75,
+75,
+75,
+17,
+88.302,
+76.125,
+4,
+4,
+4,
+4,
+1,
+67.358,
+49.033,
+3,
+3,
+3,
+3,
+1,
+76.783,
+58.983,
+4,
+4,
+4,
+4,
+4,
+115.852,
+117.874,
+4,
+4,
+4,
+4,
+4,
+115.852,
+117.874,
+4,
+4,
+4,
+4,
+0,
+161.769,
+165.575,
+9,
+9,
+9,
+9,
+1,
+87.356,
+81.792,
+215.955,
+53,
+43,
+46104,
+669,
+669,
+669,
+857,
+204030153
+],
+[
+"CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+1105,
+1105,
+1105,
+1105,
+882,
+206.711,
+185.958,
+1056,
+1056,
+1056,
+1056,
+783,
+206.375,
+184.931,
+51,
+51,
+51,
+51,
+52,
+197.223,
+148.895,
+37,
+37,
+37,
+37,
+38,
+223.496,
+278.943,
+892,
+892,
+892,
+892,
+590,
+204.518,
+184.522,
+921,
+921,
+921,
+921,
+620,
+205.166,
+184.964,
+0,
+0,
+0,
+0,
+0,
+null,
+null,
+0,
+0,
+0,
+0,
+0,
+null,
+null,
+648.1,
+65,
+0,
+45672,
+765,
+917,
+1105,
+1987,
+301010072
+]
+],
+"top_nota": "os dez CID mais pedidos por categoria (=Left(codigo_cid_solicitado,3)), em solicitações na fila, por fila e por recorte; VIVA = sem recorte de CID, só a fila viva de 24 meses",
+"top": {
+"ECG": {
+"NONE": [
+[
+"I10",
+10223
+],
+[
+"R07",
+940
+],
+[
+"R00",
+921
+],
+[
+"Z00",
+780
+],
+[
+"Z13",
+623
+],
+[
+"Z10",
+617
+],
+[
+"K80",
+506
+],
+[
+"E11",
+453
+],
+[
+"I49",
+357
+],
+[
+"F90",
+269
+]
+],
+"I": [
+[
+"I10",
+10223
+],
+[
+"I49",
+357
+],
+[
+"I25",
+141
+],
+[
+"I50",
+141
+],
+[
+"I15",
+116
+],
+[
+"I20",
+112
+],
+[
+"I51",
+101
+],
+[
+"I11",
+96
+],
+[
+"I47",
+63
+],
+[
+"I84",
+40
+]
+],
+"ISC": [
+[
+"I25",
+141
+],
+[
+"I20",
+112
+],
+[
+"I21",
+22
+],
+[
+"I23",
+4
+]
+],
+"SCC": [
+[
+"I25",
+141
+],
+[
+"I20",
+112
+]
+],
+"IC": [
+[
+"I50",
+141
+]
+],
+"ICA": [
+[
+"I50",
+141
+],
+[
+"I42",
+8
+],
+[
+"I11",
+4
+],
+[
+"I43",
+1
+],
+[
+"I13",
+1
+]
+],
+"ZAV": [
+[
+"Z13",
+387
+],
+[
+"Z84",
+1
+]
+],
+"ZPO": [
+[
+"Z01",
+39
+],
+[
+"Z48",
+7
+]
+],
+"VIVA": [
+[
+"I10",
+7400
+],
+[
+"R07",
+802
+],
+[
+"R00",
+715
+],
+[
+"Z00",
+489
+],
+[
+"K80",
+482
+],
+[
+"Z10",
+465
+],
+[
+"Z13",
+414
+],
+[
+"E11",
+335
+],
+[
+"I49",
+264
+],
+[
+"K40",
+225
+]
+]
+},
+"ERG": {
+"NONE": [
+[
+"I10",
+835
+],
+[
+"R07",
+637
+],
+[
+"I20",
+334
+],
+[
+"I25",
+208
+],
+[
+"R00",
+128
+],
+[
+"Z13",
+115
+],
+[
+"R06",
+84
+],
+[
+"I50",
+77
+],
+[
+"I49",
+71
+],
+[
+"Z00",
+62
+]
+],
+"I": [
+[
+"I10",
+835
+],
+[
+"I20",
+334
+],
+[
+"I25",
+208
+],
+[
+"I50",
+77
+],
+[
+"I49",
+71
+],
+[
+"I15",
+24
+],
+[
+"I70",
+19
+],
+[
+"I47",
+18
+],
+[
+"I45",
+15
+],
+[
+"I21",
+14
+]
+],
+"ISC": [
+[
+"I20",
+334
+],
+[
+"I25",
+208
+],
+[
+"I21",
+14
+],
+[
+"I24",
+3
+]
+],
+"SCC": [
+[
+"I20",
+334
+],
+[
+"I25",
+208
+]
+],
+"IC": [
+[
+"I50",
+77
+]
+],
+"ICA": [
+[
+"I50",
+77
+],
+[
+"I42",
+10
+]
+],
+"ZAV": [
+[
+"Z13",
+56
+]
+],
+"ZPO": [
+[
+"Z01",
+2
+]
+],
+"VIVA": [
+[
+"I10",
+401
+],
+[
+"R07",
+313
+],
+[
+"I20",
+175
+],
+[
+"I25",
+125
+],
+[
+"Z13",
+73
+],
+[
+"R00",
+71
+],
+[
+"I50",
+65
+],
+[
+"R06",
+47
+],
+[
+"I49",
+40
+],
+[
+"E78",
+25
+]
+]
+},
+"ECO": {
+"NONE": [
+[
+"I10",
+2452
+],
+[
+"I50",
+2364
+],
+[
+"I25",
+1178
+],
+[
+"I20",
+498
+],
+[
+"R07",
+491
+],
+[
+"R06",
+439
+],
+[
+"Z95",
+295
+],
+[
+"B57",
+292
+],
+[
+"N18",
+281
+],
+[
+"I49",
+277
+]
+],
+"I": [
+[
+"I10",
+2452
+],
+[
+"I50",
+2364
+],
+[
+"I25",
+1178
+],
+[
+"I20",
+498
+],
+[
+"I49",
+277
+],
+[
+"I35",
+200
+],
+[
+"I48",
+200
+],
+[
+"I21",
+183
+],
+[
+"I05",
+183
+],
+[
+"I27",
+162
+]
+],
+"ISC": [
+[
+"I25",
+1178
+],
+[
+"I20",
+498
+],
+[
+"I21",
+183
+],
+[
+"I23",
+8
+],
+[
+"I24",
+2
+]
+],
+"SCC": [
+[
+"I25",
+1178
+],
+[
+"I20",
+498
+]
+],
+"IC": [
+[
+"I50",
+2364
+]
+],
+"ICA": [
+[
+"I50",
+2364
+],
+[
+"I42",
+122
+],
+[
+"I11",
+8
+],
+[
+"I13",
+5
+]
+],
+"ZAV": [
+[
+"Z13",
+90
+]
+],
+"ZPO": [
+[
+"Z01",
+10
+],
+[
+"Z48",
+3
+]
+],
+"VIVA": [
+[
+"I10",
+2452
+],
+[
+"I50",
+2364
+],
+[
+"I25",
+1178
+],
+[
+"I20",
+498
+],
+[
+"R07",
+491
+],
+[
+"R06",
+439
+],
+[
+"Z95",
+295
+],
+[
+"B57",
+292
+],
+[
+"N18",
+281
+],
+[
+"I49",
+277
+]
+]
+},
+"ESTR": {
+"NONE": [
+[
+"I20",
+17
+],
+[
+"I25",
+14
+],
+[
+"R07",
+10
+],
+[
+"I50",
+9
+],
+[
+"I10",
+8
+],
+[
+"E11",
+3
+],
+[
+"R06",
+2
+],
+[
+"Z13",
+2
+],
+[
+"I15",
+1
+],
+[
+"R42",
+1
+]
+],
+"I": [
+[
+"I20",
+17
+],
+[
+"I25",
+14
+],
+[
+"I50",
+9
+],
+[
+"I10",
+8
+],
+[
+"I15",
+1
+],
+[
+"I21",
+1
+],
+[
+"I64",
+1
+]
+],
+"ISC": [
+[
+"I20",
+17
+],
+[
+"I25",
+14
+],
+[
+"I21",
+1
+]
+],
+"SCC": [
+[
+"I20",
+17
+],
+[
+"I25",
+14
+]
+],
+"IC": [
+[
+"I50",
+9
+]
+],
+"ICA": [
+[
+"I50",
+9
+]
+],
+"ZAV": [
+[
+"Z13",
+1
+]
+],
+"ZPO": [],
+"VIVA": [
+[
+"I20",
+17
+],
+[
+"I25",
+14
+],
+[
+"R07",
+10
+],
+[
+"I50",
+9
+],
+[
+"I10",
+8
+],
+[
+"E11",
+3
+],
+[
+"R06",
+2
+],
+[
+"Z13",
+2
+],
+[
+"I15",
+1
+],
+[
+"R42",
+1
+]
+]
+},
+"HOL": {
+"NONE": [
+[
+"I10",
+6374
+],
+[
+"I49",
+5640
+],
+[
+"R00",
+4360
+],
+[
+"I50",
+2532
+],
+[
+"I64",
+1902
+],
+[
+"I48",
+1488
+],
+[
+"I25",
+1339
+],
+[
+"R55",
+1310
+],
+[
+"I20",
+1253
+],
+[
+"R07",
+1066
+]
+],
+"I": [
+[
+"I10",
+6374
+],
+[
+"I49",
+5640
+],
+[
+"I50",
+2532
+],
+[
+"I64",
+1902
+],
+[
+"I48",
+1488
+],
+[
+"I25",
+1339
+],
+[
+"I20",
+1253
+],
+[
+"I47",
+1049
+],
+[
+"I63",
+593
+],
+[
+"I45",
+382
+]
+],
+"ISC": [
+[
+"I25",
+1339
+],
+[
+"I20",
+1253
+],
+[
+"I21",
+235
+],
+[
+"I23",
+19
+],
+[
+"I24",
+8
+]
+],
+"SCC": [
+[
+"I25",
+1339
+],
+[
+"I20",
+1253
+]
+],
+"IC": [
+[
+"I50",
+2532
+]
+],
+"ICA": [
+[
+"I50",
+2532
+],
+[
+"I42",
+258
+],
+[
+"I11",
+15
+],
+[
+"I43",
+7
+],
+[
+"I13",
+1
+]
+],
+"ZAV": [
+[
+"Z13",
+99
+]
+],
+"ZPO": [
+[
+"Z01",
+1
+],
+[
+"Z48",
+1
+]
+],
+"VIVA": [
+[
+"I10",
+1815
+],
+[
+"I49",
+1467
+],
+[
+"R00",
+1421
+],
+[
+"I50",
+728
+],
+[
+"I64",
+640
+],
+[
+"I20",
+527
+],
+[
+"R55",
+478
+],
+[
+"I48",
+468
+],
+[
+"I25",
+416
+],
+[
+"R07",
+356
+]
+]
+},
+"CINE": {
+"NONE": [
+[
+"I25",
+637
+],
+[
+"I20",
+539
+],
+[
+"I50",
+113
+],
+[
+"R07",
+97
+],
+[
+"N18",
+69
+],
+[
+"I10",
+41
+],
+[
+"I21",
+30
+],
+[
+"I49",
+16
+],
+[
+"R06",
+15
+],
+[
+"I48",
+11
+]
+],
+"I": [
+[
+"I25",
+637
+],
+[
+"I20",
+539
+],
+[
+"I50",
+113
+],
+[
+"I10",
+41
+],
+[
+"I21",
+30
+],
+[
+"I49",
+16
+],
+[
+"I48",
+11
+],
+[
+"I47",
+9
+],
+[
+"I27",
+4
+],
+[
+"I44",
+4
+]
+],
+"ISC": [
+[
+"I25",
+637
+],
+[
+"I20",
+539
+],
+[
+"I21",
+30
+],
+[
+"I24",
+4
+],
+[
+"I22",
+1
+]
+],
+"SCC": [
+[
+"I25",
+637
+],
+[
+"I20",
+539
+]
+],
+"IC": [
+[
+"I50",
+113
+]
+],
+"ICA": [
+[
+"I50",
+113
+],
+[
+"I42",
+4
+]
+],
+"ZAV": [
+[
+"Z13",
+4
+]
+],
+"ZPO": [],
+"VIVA": [
+[
+"I25",
+637
+],
+[
+"I20",
+539
+],
+[
+"I50",
+113
+],
+[
+"R07",
+97
+],
+[
+"N18",
+69
+],
+[
+"I10",
+41
+],
+[
+"I21",
+30
+],
+[
+"I49",
+16
+],
+[
+"R06",
+15
+],
+[
+"I48",
+11
+]
+]
+},
+"CINR": {
+"NONE": [
+[
+"I25",
+555
+],
+[
+"I20",
+448
+],
+[
+"I50",
+93
+],
+[
+"R07",
+84
+],
+[
+"N18",
+47
+],
+[
+"I10",
+47
+],
+[
+"I21",
+32
+],
+[
+"I49",
+16
+],
+[
+"R06",
+12
+],
+[
+"B57",
+10
+]
+],
+"I": [
+[
+"I25",
+555
+],
+[
+"I20",
+448
+],
+[
+"I50",
+93
+],
+[
+"I10",
+47
+],
+[
+"I21",
+32
+],
+[
+"I49",
+16
+],
+[
+"I48",
+9
+],
+[
+"I47",
+8
+],
+[
+"I35",
+4
+],
+[
+"I42",
+4
+]
+],
+"ISC": [
+[
+"I25",
+555
+],
+[
+"I20",
+448
+],
+[
+"I21",
+32
+],
+[
+"I24",
+3
+]
+],
+"SCC": [
+[
+"I25",
+555
+],
+[
+"I20",
+448
+]
+],
+"IC": [
+[
+"I50",
+93
+]
+],
+"ICA": [
+[
+"I50",
+93
+],
+[
+"I42",
+4
+],
+[
+"I11",
+1
+]
+],
+"ZAV": [
+[
+"Z13",
+4
+]
+],
+"ZPO": [],
+"VIVA": [
+[
+"I25",
+555
+],
+[
+"I20",
+448
+],
+[
+"I50",
+93
+],
+[
+"R07",
+84
+],
+[
+"N18",
+47
+],
+[
+"I10",
+47
+],
+[
+"I21",
+32
+],
+[
+"I49",
+16
+],
+[
+"R06",
+12
+],
+[
+"B57",
+10
+]
+]
+},
+"RX": {
+"NONE": [
+[
+"R07",
+64
+],
+[
+"R06",
+39
+],
+[
+"R05",
+34
+],
+[
+"K80",
+33
+],
+[
+"I83",
+28
+],
+[
+"I10",
+28
+],
+[
+"M05",
+25
+],
+[
+"J45",
+25
+],
+[
+"K40",
+24
+],
+[
+"N40",
+20
+]
+],
+"I": [
+[
+"I83",
+28
+],
+[
+"I10",
+28
+],
+[
+"I50",
+4
+],
+[
+"I20",
+2
+],
+[
+"I84",
+2
+],
+[
+"I49",
+2
+],
+[
+"I82",
+2
+],
+[
+"I25",
+1
+],
+[
+"I15",
+1
+],
+[
+"I21",
+1
+]
+],
+"ISC": [
+[
+"I20",
+2
+],
+[
+"I25",
+1
+],
+[
+"I21",
+1
+]
+],
+"SCC": [
+[
+"I20",
+2
+],
+[
+"I25",
+1
+]
+],
+"IC": [
+[
+"I50",
+4
+]
+],
+"ICA": [
+[
+"I50",
+4
+]
+],
+"ZAV": [
+[
+"Z13",
+4
+]
+],
+"ZPO": [
+[
+"Z01",
+9
+]
+],
+"VIVA": [
+[
+"R07",
+64
+],
+[
+"R06",
+39
+],
+[
+"R05",
+34
+],
+[
+"K80",
+33
+],
+[
+"I83",
+28
+],
+[
+"I10",
+28
+],
+[
+"M05",
+25
+],
+[
+"J45",
+25
+],
+[
+"K40",
+24
+],
+[
+"N40",
+20
+]
+]
+},
+"C_ADU": {
+"NONE": [
+[
+"I10",
+1903
+],
+[
+"I50",
+1253
+],
+[
+"I25",
+866
+],
+[
+"I49",
+689
+],
+[
+"I21",
+464
+],
+[
+"R07",
+425
+],
+[
+"I20",
+390
+],
+[
+"R00",
+330
+],
+[
+"B57",
+313
+],
+[
+"I48",
+226
+]
+],
+"I": [
+[
+"I10",
+1903
+],
+[
+"I50",
+1253
+],
+[
+"I25",
+866
+],
+[
+"I49",
+689
+],
+[
+"I21",
+464
+],
+[
+"I20",
+390
+],
+[
+"I48",
+226
+],
+[
+"I44",
+202
+],
+[
+"I45",
+199
+],
+[
+"I15",
+156
+]
+],
+"ISC": [
+[
+"I25",
+866
+],
+[
+"I21",
+464
+],
+[
+"I20",
+390
+],
+[
+"I23",
+49
+],
+[
+"I24",
+21
+],
+[
+"I22",
+4
+]
+],
+"SCC": [
+[
+"I25",
+866
+],
+[
+"I20",
+390
+]
+],
+"IC": [
+[
+"I50",
+1253
+]
+],
+"ICA": [
+[
+"I50",
+1253
+],
+[
+"I42",
+142
+],
+[
+"I11",
+30
+],
+[
+"I13",
+5
+]
+],
+"ZAV": [
+[
+"Z13",
+41
+]
+],
+"ZPO": [
+[
+"Z01",
+5
+]
+],
+"VIVA": [
+[
+"I10",
+1507
+],
+[
+"I50",
+965
+],
+[
+"I25",
+666
+],
+[
+"I49",
+516
+],
+[
+"I21",
+380
+],
+[
+"R07",
+288
+],
+[
+"I20",
+285
+],
+[
+"R00",
+227
+],
+[
+"B57",
+215
+],
+[
+"I48",
+185
+]
+]
+},
+"C_RC": {
+"NONE": [
+[
+"I83",
+1328
+],
+[
+"K80",
+1307
+],
+[
+"K40",
+657
+],
+[
+"N40",
+399
+],
+[
+"E66",
+382
+],
+[
+"H25",
+283
+],
+[
+"K42",
+256
+],
+[
+"H02",
+255
+],
+[
+"D25",
+254
+],
+[
+"Z48",
+231
+]
+],
+"I": [
+[
+"I83",
+1328
+],
+[
+"I10",
+149
+],
+[
+"I84",
+126
+],
+[
+"I50",
+29
+],
+[
+"I25",
+24
+],
+[
+"I49",
+15
+],
+[
+"I87",
+11
+],
+[
+"I73",
+10
+],
+[
+"I71",
+6
+],
+[
+"I86",
+6
+]
+],
+"ISC": [
+[
+"I25",
+24
+],
+[
+"I21",
+6
+],
+[
+"I20",
+2
+],
+[
+"I24",
+1
+]
+],
+"SCC": [
+[
+"I25",
+24
+],
+[
+"I20",
+2
+]
+],
+"IC": [
+[
+"I50",
+29
+]
+],
+"ICA": [
+[
+"I50",
+29
+],
+[
+"I42",
+4
+],
+[
+"I11",
+1
+]
+],
+"ZAV": [
+[
+"Z13",
+55
+]
+],
+"ZPO": [
+[
+"Z01",
+66
+],
+[
+"Z48",
+21
+]
+],
+"VIVA": [
+[
+"K80",
+1185
+],
+[
+"I83",
+1071
+],
+[
+"K40",
+554
+],
+[
+"N40",
+348
+],
+[
+"E66",
+310
+],
+[
+"D25",
+238
+],
+[
+"H25",
+238
+],
+[
+"K42",
+207
+],
+[
+"K43",
+197
+],
+[
+"Z48",
+191
+]
+]
+},
+"C_IC": {
+"NONE": [
+[
+"I50",
+892
+],
+[
+"I25",
+31
+],
+[
+"I42",
+20
+],
+[
+"B57",
+14
+],
+[
+"I10",
+13
+],
+[
+"I21",
+12
+],
+[
+"I34",
+9
+],
+[
+"I11",
+9
+],
+[
+"I35",
+7
+],
+[
+"I48",
+7
+]
+],
+"I": [
+[
+"I50",
+892
+],
+[
+"I25",
+31
+],
+[
+"I42",
+20
+],
+[
+"I10",
+13
+],
+[
+"I21",
+12
+],
+[
+"I34",
+9
+],
+[
+"I11",
+9
+],
+[
+"I35",
+7
+],
+[
+"I48",
+7
+],
+[
+"I20",
+6
+]
+],
+"ISC": [
+[
+"I25",
+31
+],
+[
+"I21",
+12
+],
+[
+"I20",
+6
+],
+[
+"I23",
+2
+]
+],
+"SCC": [
+[
+"I25",
+31
+],
+[
+"I20",
+6
+]
+],
+"IC": [
+[
+"I50",
+892
+]
+],
+"ICA": [
+[
+"I50",
+892
+],
+[
+"I42",
+20
+],
+[
+"I11",
+6
+],
+[
+"I13",
+2
+],
+[
+"I43",
+1
+]
+],
+"ZAV": [],
+"ZPO": [],
+"VIVA": [
+[
+"I50",
+892
+],
+[
+"I25",
+31
+],
+[
+"I42",
+20
+],
+[
+"B57",
+14
+],
+[
+"I10",
+13
+],
+[
+"I21",
+12
+],
+[
+"I34",
+9
+],
+[
+"I11",
+9
+],
+[
+"I35",
+7
+],
+[
+"I48",
+7
+]
+]
+},
+"C_COR": {
+"NONE": [
+[
+"I25",
+153
+],
+[
+"I21",
+64
+],
+[
+"I20",
+51
+],
+[
+"I50",
+7
+],
+[
+"N18",
+6
+],
+[
+"R07",
+5
+],
+[
+"I70",
+4
+],
+[
+"Z95",
+3
+],
+[
+"I23",
+2
+],
+[
+"Z00",
+2
+]
+],
+"I": [
+[
+"I25",
+153
+],
+[
+"I21",
+64
+],
+[
+"I20",
+51
+],
+[
+"I50",
+7
+],
+[
+"I70",
+4
+],
+[
+"I23",
+2
+],
+[
+"I24",
+1
+],
+[
+"I77",
+1
+],
+[
+"I71",
+1
+],
+[
+"I69",
+1
+]
+],
+"ISC": [
+[
+"I25",
+153
+],
+[
+"I21",
+64
+],
+[
+"I20",
+51
+],
+[
+"I23",
+2
+],
+[
+"I24",
+1
+]
+],
+"SCC": [
+[
+"I25",
+153
+],
+[
+"I20",
+51
+]
+],
+"IC": [
+[
+"I50",
+7
+]
+],
+"ICA": [
+[
+"I50",
+7
+],
+[
+"I42",
+1
+]
+],
+"ZAV": [],
+"ZPO": [],
+"VIVA": [
+[
+"I25",
+153
+],
+[
+"I21",
+64
+],
+[
+"I20",
+51
+],
+[
+"I50",
+7
+],
+[
+"N18",
+6
+],
+[
+"R07",
+5
+],
+[
+"I70",
+4
+],
+[
+"Z95",
+3
+],
+[
+"I23",
+2
+],
+[
+"Z00",
+2
+]
+]
+}
+},
+"agF_cols": [
+"nome_agendamento",
+"agendadas todos os anos",
+"agendadas 12m",
+"12m I",
+"12m ISC",
+"12m SCC",
+"12m IC",
+"12m ICA",
+"12m ZAV",
+"12m ZPO",
+"codigo_sigtap_agendamento",
+"primeiro agendamento"
+],
+"agF": {
+"ECG": [
+"ELETROCARDIOGRAMA",
+171613,
+14129,
+7055,
+419,
+368,
+309,
+333,
+223,
+58,
+211020036,
+39835
+],
+"ERG": [
+"TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+109651,
+5619,
+3497,
+1502,
+1438,
+362,
+438,
+57,
+1,
+211020060,
+39818
+],
+"ECO": [
+"1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+435350,
+33740,
+21551,
+5536,
+3250,
+5485,
+5772,
+90,
+15,
+205010032,
+39818
+],
+"ESTR": [
+"5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+16859,
+750,
+590,
+428,
+417,
+45,
+53,
+3,
+1,
+205010016,
+39820
+],
+"HOL": [
+"HOLTER 24 HORAS",
+53253,
+2739,
+1927,
+181,
+100,
+152,
+171,
+5,
+1,
+211020044,
+39818
+],
+"CINE": [
+"CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+518,
+365,
+317,
+245,
+227,
+23,
+26,
+0,
+0,
+208010025,
+45869
+],
+"CINR": [
+"CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+481,
+347,
+298,
+223,
+205,
+28,
+31,
+0,
+0,
+208010033,
+45868
+],
+"RX": [
+"TORAX : PA E PERFIL",
+74818,
+13009,
+1000,
+50,
+38,
+141,
+150,
+32,
+110,
+204030153,
+43516
+],
+"C_ADU": [
+"CONSULTA EM CARDIOLOGIA - ADULTO",
+338255,
+5936,
+4844,
+1379,
+966,
+935,
+1034,
+10,
+4,
+301010072,
+39818
+],
+"C_RC": [
+"CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+69342,
+5816,
+241,
+24,
+18,
+11,
+13,
+16,
+22,
+301010072,
+39995
+],
+"C_IC": [
+"CONSULTA EM CARDIOLOGIA - INSUFICIENCIA CARDIACA",
+7342,
+599,
+561,
+21,
+13,
+491,
+515,
+0,
+0,
+301010072,
+39996
+],
+"C_COR": [
+"CONSULTA EM CARDIOLOGIA - CORONARIA",
+10762,
+604,
+559,
+509,
+379,
+17,
+18,
+1,
+0,
+301010072,
+40696
+]
+},
+"oci_nota": "teto = CID aceito; fin = CID da finalidade principal; var_X = variante; fin_pessoas_viva12/36 = janelas de 12 e 36 meses; nuc_a = consultas do enquadramento (co) com o CID da finalidade; nuc_a_ent = só a consulta de entrada (ent); nuc_b = pessoas com todos os exames obrigatórios com fila (obr) ao mesmo tempo, cada um com o CID da finalidade (P() no motor). Espera em dias.",
+"oci": {
+"09.02.01.001-8": {
+"teto_pessoas": 441,
+"teto_pessoas_viva": 307,
+"teto_fila": 447,
+"teto_fila_viva": 312,
+"teto_espera_media": 661.102,
+"teto_espera_mediana": 324.824,
+"teto_espera_max": 5120.202,
+"teto_devolvidas": 151,
+"teto_espera_media_viva": 250.045,
+"teto_espera_mediana_viva": 198.495,
+"fin_pessoas": 441,
+"fin_pessoas_viva": 307,
+"fin_fila": 447,
+"fin_fila_viva": 312,
+"fin_espera_media": 661.102,
+"fin_espera_mediana": 324.824,
+"fin_espera_max": 5120.202,
+"fin_devolvidas": 151,
+"fin_espera_media_viva": 250.045,
+"fin_espera_mediana_viva": 198.495,
+"fin_pessoas_viva12": 238,
+"fin_pessoas_viva36": 367,
+"fin_fila_viva12": 242,
+"fin_fila_viva36": 372,
+"fin_idade_mediana": 52,
+"fin_mais_antiga": 41200,
+"nuc_a_pessoas": 54,
+"nuc_a_pessoas_viva": 46,
+"nuc_a_ent_pessoas": 54,
+"nuc_a_ent_pessoas_viva": 46,
+"nuc_b_pessoas": 387,
+"nuc_b_pessoas_viva": 261
+},
+"09.02.01.002-6": {
+"teto_pessoas": 502,
+"teto_pessoas_viva": 360,
+"teto_fila": 519,
+"teto_fila_viva": 376,
+"teto_espera_media": 589.952,
+"teto_espera_mediana": 256.922,
+"teto_espera_max": 5120.202,
+"teto_devolvidas": 344,
+"teto_espera_media_viva": 210.198,
+"teto_espera_mediana_viva": 164.95,
+"fin_pessoas": 502,
+"fin_pessoas_viva": 360,
+"fin_fila": 519,
+"fin_fila_viva": 376,
+"fin_espera_media": 589.952,
+"fin_espera_mediana": 256.922,
+"fin_espera_max": 5120.202,
+"fin_devolvidas": 344,
+"fin_espera_media_viva": 210.198,
+"fin_espera_mediana_viva": 164.95,
+"fin_pessoas_viva12": 300,
+"fin_pessoas_viva36": 424,
+"fin_fila_viva12": 316,
+"fin_fila_viva36": 440,
+"fin_idade_mediana": 52,
+"fin_mais_antiga": 41200,
+"nuc_a_pessoas": 41,
+"nuc_a_pessoas_viva": 25,
+"nuc_a_ent_pessoas": 41,
+"nuc_a_ent_pessoas_viva": 25,
+"nuc_b_pessoas": 387,
+"nuc_b_pessoas_viva": 261
+},
+"09.02.01.003-4": {
+"teto_pessoas": 28734,
+"teto_pessoas_viva": 23140,
+"teto_fila": 30911,
+"teto_fila_viva": 25018,
+"teto_espera_media": 511.628,
+"teto_espera_mediana": 206.862,
+"teto_espera_max": 5914.569,
+"teto_devolvidas": 19023,
+"teto_espera_media_viva": 218.536,
+"teto_espera_mediana_viva": 159.12,
+"fin_pessoas": 3683,
+"fin_pessoas_viva": 3087,
+"fin_fila": 3931,
+"fin_fila_viva": 3323,
+"fin_espera_media": 364.396,
+"fin_espera_mediana": 159.918,
+"fin_espera_max": 5708.569,
+"fin_devolvidas": 2518,
+"fin_espera_media_viva": 172.997,
+"fin_espera_mediana_viva": 130.2,
+"var_ISC_pessoas": 4450,
+"var_ISC_pessoas_viva": 3750,
+"var_ISC_fila": 4772,
+"var_ISC_fila_viva": 4051,
+"var_ISC_espera_media": 354.571,
+"var_ISC_espera_mediana": 162.935,
+"var_ISC_espera_max": 5708.569,
+"var_ISC_devolvidas": 3319,
+"var_ISC_espera_media_viva": 177.04,
+"var_ISC_espera_mediana_viva": 131.933,
+"fin_pessoas_viva12": 2659,
+"fin_pessoas_viva36": 3366,
+"fin_fila_viva12": 2869,
+"fin_fila_viva36": 3605,
+"fin_idade_mediana": 65,
+"fin_mais_antiga": 40612,
+"nuc_a_pessoas": 1437,
+"nuc_a_pessoas_viva": 1133,
+"nuc_a_ent_pessoas": 204,
+"nuc_a_ent_pessoas_viva": 204,
+"nuc_b_pessoas": 15,
+"nuc_b_pessoas_viva": 15
+},
+"09.02.01.004-2": {
+"teto_pessoas": 2055,
+"teto_pessoas_viva": 1651,
+"teto_fila": 2097,
+"teto_fila_viva": 1691,
+"teto_espera_media": 375.988,
+"teto_espera_mediana": 230.098,
+"teto_espera_max": 2049.932,
+"teto_devolvidas": 2337,
+"teto_espera_media_viva": 230.923,
+"teto_espera_mediana_viva": 173.103,
+"fin_pessoas": 2055,
+"fin_pessoas_viva": 1651,
+"fin_fila": 2097,
+"fin_fila_viva": 1691,
+"fin_espera_media": 375.988,
+"fin_espera_mediana": 230.098,
+"fin_espera_max": 2049.932,
+"fin_devolvidas": 2337,
+"fin_espera_media_viva": 230.923,
+"fin_espera_mediana_viva": 173.103,
+"var_SCC_pessoas": 1466,
+"var_SCC_pessoas_viva": 1162,
+"var_SCC_fila": 1491,
+"var_SCC_fila_viva": 1186,
+"var_SCC_espera_media": 386.592,
+"var_SCC_espera_mediana": 239.351,
+"var_SCC_espera_max": 2049.932,
+"var_SCC_devolvidas": 1838,
+"var_SCC_espera_media_viva": 232.354,
+"var_SCC_espera_mediana_viva": 179.032,
+"fin_pessoas_viva12": 1233,
+"fin_pessoas_viva36": 1988,
+"fin_fila_viva12": 1269,
+"fin_fila_viva36": 2029,
+"fin_idade_mediana": 64,
+"fin_mais_antiga": 44270,
+"nuc_a_pessoas": 2026,
+"nuc_a_pessoas_viva": 1621,
+"nuc_a_ent_pessoas": 271,
+"nuc_a_ent_pessoas_viva": 271,
+"nuc_b_pessoas": 32,
+"nuc_b_pessoas_viva": 32
+},
+"09.02.01.005-0": {
+"teto_pessoas": 3310,
+"teto_pessoas_viva": 2911,
+"teto_fila": 4314,
+"teto_fila_viva": 3908,
+"teto_espera_media": 330.396,
+"teto_espera_mediana": 292.19,
+"teto_espera_max": 2049.932,
+"teto_devolvidas": 1746,
+"teto_espera_media_viva": 262.672,
+"teto_espera_mediana_viva": 247.092,
+"fin_pessoas": 3310,
+"fin_pessoas_viva": 2911,
+"fin_fila": 4314,
+"fin_fila_viva": 3908,
+"fin_espera_media": 330.396,
+"fin_espera_mediana": 292.19,
+"fin_espera_max": 2049.932,
+"fin_devolvidas": 1746,
+"fin_espera_media_viva": 262.672,
+"fin_espera_mediana_viva": 247.092,
+"var_SCC_pessoas": 2696,
+"var_SCC_pessoas_viva": 2396,
+"var_SCC_fila": 3639,
+"var_SCC_fila_viva": 3334,
+"var_SCC_espera_media": 328.292,
+"var_SCC_espera_mediana": 324.886,
+"var_SCC_espera_max": 2049.932,
+"var_SCC_devolvidas": 1275,
+"var_SCC_espera_media_viva": 267.894,
+"var_SCC_espera_mediana_viva": 264.138,
+"fin_pessoas_viva12": 1909,
+"fin_pessoas_viva36": 3243,
+"fin_fila_viva12": 2395,
+"fin_fila_viva36": 4246,
+"fin_idade_mediana": 65,
+"fin_mais_antiga": 44270,
+"nuc_a_pessoas": 2026,
+"nuc_a_pessoas_viva": 1621,
+"nuc_a_ent_pessoas": 271,
+"nuc_a_ent_pessoas_viva": 271,
+"nuc_b_pessoas": 917,
+"nuc_b_pessoas_viva": 917
+},
+"09.02.01.006-9": {
+"teto_pessoas": 50055,
+"teto_pessoas_viva": 29097,
+"teto_fila": 56945,
+"teto_fila_viva": 33300,
+"teto_espera_media": 1005.644,
+"teto_espera_mediana": 737.969,
+"teto_espera_max": 5914.569,
+"teto_devolvidas": 21796,
+"teto_espera_media_viva": 266.072,
+"teto_espera_mediana_viva": 200.085,
+"fin_pessoas": 6510,
+"fin_pessoas_viva": 4620,
+"fin_fila": 7259,
+"fin_fila_viva": 5132,
+"fin_espera_media": 762.767,
+"fin_espera_mediana": 430.88,
+"fin_espera_max": 5197.979,
+"fin_devolvidas": 3492,
+"fin_espera_media_viva": 222.535,
+"fin_espera_mediana_viva": 169.837,
+"var_ICA_pessoas": 7092,
+"var_ICA_pessoas_viva": 4982,
+"var_ICA_fila": 7905,
+"var_ICA_fila_viva": 5529,
+"var_ICA_espera_media": 775.551,
+"var_ICA_espera_mediana": 447.162,
+"var_ICA_espera_max": 5197.979,
+"var_ICA_devolvidas": 3833,
+"var_ICA_espera_media_viva": 225.314,
+"var_ICA_espera_mediana_viva": 170.239,
+"fin_pessoas_viva12": 3764,
+"fin_pessoas_viva36": 5204,
+"fin_fila_viva12": 4193,
+"fin_fila_viva36": 5795,
+"fin_idade_mediana": 67,
+"fin_mais_antiga": 41122,
+"nuc_a_pessoas": 2077,
+"nuc_a_pessoas_viva": 1793,
+"nuc_a_ent_pessoas": 892,
+"nuc_a_ent_pessoas_viva": 892,
+"nuc_b_pessoas": 1,
+"nuc_b_pessoas_viva": 0
+},
+"09.02.01.007-7": {
+"teto_pessoas": 136,
+"teto_pessoas_viva": 130,
+"teto_fila": 142,
+"teto_fila_viva": 136,
+"teto_espera_media": 234.712,
+"teto_espera_mediana": 150.106,
+"teto_espera_max": 933.872,
+"teto_devolvidas": 33,
+"teto_espera_media_viva": 201.46,
+"teto_espera_mediana_viva": 144.691,
+"fin_pessoas": 136,
+"fin_pessoas_viva": 130,
+"fin_fila": 142,
+"fin_fila_viva": 136,
+"fin_espera_media": 234.712,
+"fin_espera_mediana": 150.106,
+"fin_espera_max": 933.872,
+"fin_devolvidas": 33,
+"fin_espera_media_viva": 201.46,
+"fin_espera_mediana_viva": 144.691,
+"fin_pessoas_viva12": 103,
+"fin_pessoas_viva36": 136,
+"fin_fila_viva12": 109,
+"fin_fila_viva36": 142,
+"fin_idade_mediana": 61,
+"fin_mais_antiga": 45386,
+"nuc_a_pessoas": 87,
+"nuc_a_pessoas_viva": 86,
+"nuc_a_ent_pessoas": 87,
+"nuc_a_ent_pessoas_viva": 86
+}
+},
+"fin18_nota": "pessoas da finalidade com 18 anos ou mais na solicitação",
+"fin18": {
+"09.02.01.001-8": 360,
+"09.02.01.002-6": 420,
+"09.02.01.003-4": 3677,
+"09.02.01.004-2": 2053,
+"09.02.01.005-0": 3308,
+"09.02.01.006-9": 6502,
+"09.02.01.007-7": 135
+},
+"risco_cirurgico_sem_recorte_nota": "CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO sem recorte de CID (a decidir, P-08 do plano, para a 001-8; serve também à 007-7). 'mais_exames' = união com o ECG e o RX de tórax com Z136/Z848",
+"risco_cirurgico_sem_recorte": {
+"fila": 9704,
+"fila_viva": 8217,
+"pessoas": 9630,
+"pessoas_viva": 8150,
+"pessoas_viva12": 4081,
+"pessoas_viva36": 9546,
+"espera_media": 428.468,
+"espera_mediana": 423,
+"espera_max": 1465,
+"idade_mediana": 58,
+"mais_exames_pessoas": 10011,
+"mais_exames_pessoas_viva": 8408
+},
+"reg_nota": "Região de Saúde da unidade solicitante (regiao_saude_solicitante), na finalidade principal de cada OCI. '-' = sem região informada; 'sem' = a mesma linha calculada à parte (conjunto menos regiao_saude_solicitante={\"*\"}), na ordem das colunas",
+"reg": {
+"cols": [
+"09.02.01.001-8 fila",
+"09.02.01.001-8 pessoas",
+"09.02.01.001-8 pessoas viva",
+"09.02.01.002-6 fila",
+"09.02.01.002-6 pessoas",
+"09.02.01.002-6 pessoas viva",
+"09.02.01.003-4 fila",
+"09.02.01.003-4 pessoas",
+"09.02.01.003-4 pessoas viva",
+"09.02.01.004-2 fila",
+"09.02.01.004-2 pessoas",
+"09.02.01.004-2 pessoas viva",
+"09.02.01.005-0 fila",
+"09.02.01.005-0 pessoas",
+"09.02.01.005-0 pessoas viva",
+"09.02.01.006-9 fila",
+"09.02.01.006-9 pessoas",
+"09.02.01.006-9 pessoas viva",
+"09.02.01.007-7 fila",
+"09.02.01.007-7 pessoas",
+"09.02.01.007-7 pessoas viva"
+],
+"rows": [
+[
+"Região Central",
+145,
+143,
+54,
+163,
+159,
+70,
+237,
+219,
+158,
+43,
+42,
+34,
+144,
+116,
+108,
+268,
+243,
+194,
+5,
+4,
+4
+],
+[
+"Região Centro-Sul",
+66,
+66,
+48,
+72,
+68,
+51,
+468,
+447,
+350,
+272,
+270,
+182,
+503,
+387,
+301,
+965,
+842,
+516,
+21,
+20,
+19
+],
+[
+"Região Leste",
+41,
+41,
+32,
+50,
+49,
+38,
+250,
+233,
+204,
+212,
+207,
+204,
+241,
+231,
+228,
+492,
+450,
+302,
+8,
+8,
+8
+],
+[
+"Região Norte",
+15,
+14,
+14,
+13,
+12,
+12,
+382,
+360,
+330,
+319,
+315,
+311,
+418,
+381,
+377,
+646,
+598,
+422,
+24,
+22,
+22
+],
+[
+"Região Oeste",
+37,
+37,
+23,
+45,
+45,
+31,
+357,
+330,
+302,
+57,
+56,
+56,
+141,
+123,
+123,
+627,
+569,
+515,
+27,
+26,
+21
+],
+[
+"Região Sudoeste",
+52,
+51,
+48,
+49,
+45,
+40,
+846,
+781,
+683,
+424,
+415,
+382,
+585,
+528,
+495,
+1075,
+980,
+812,
+45,
+44,
+44
+],
+[
+"Região Sul",
+72,
+70,
+69,
+101,
+98,
+92,
+655,
+623,
+378,
+655,
+648,
+382,
+712,
+690,
+424,
+1094,
+1013,
+516,
+9,
+9,
+9
+],
+[
+"URD",
+0,
+0,
+0,
+3,
+3,
+3,
+533,
+516,
+511,
+103,
+103,
+103,
+417,
+292,
+292,
+1186,
+1106,
+830,
+0,
+0,
+0
+],
+[
+"Contratado/Credenciado",
+0,
+0,
+0,
+3,
+3,
+3,
+192,
+191,
+187,
+2,
+2,
+2,
+1139,
+588,
+588,
+859,
+782,
+533,
+0,
+0,
+0
+],
+[
+"-",
+19,
+19,
+19,
+20,
+20,
+20,
+11,
+10,
+8,
+10,
+10,
+7,
+14,
+13,
+10,
+47,
+46,
+44,
+3,
+3,
+3
+]
+],
+"sem": [
+19,
+19,
+19,
+20,
+20,
+20,
+11,
+10,
+8,
+10,
+10,
+7,
+14,
+13,
+10,
+47,
+46,
+44,
+3,
+3,
+3
+]
+},
+"anos_nota": "pessoas por Ano_Solicitacao, finalidade principal e teto de cada OCI (quem tem pedido em dois anos conta nos dois)",
+"anos": {
+"cols": [
+"09.02.01.001-8 finalidade pessoas",
+"09.02.01.001-8 teto pessoas",
+"09.02.01.002-6 finalidade pessoas",
+"09.02.01.002-6 teto pessoas",
+"09.02.01.003-4 finalidade pessoas",
+"09.02.01.003-4 teto pessoas",
+"09.02.01.004-2 finalidade pessoas",
+"09.02.01.004-2 teto pessoas",
+"09.02.01.005-0 finalidade pessoas",
+"09.02.01.005-0 teto pessoas",
+"09.02.01.006-9 finalidade pessoas",
+"09.02.01.006-9 teto pessoas",
+"09.02.01.007-7 finalidade pessoas",
+"09.02.01.007-7 teto pessoas"
+],
+"rows": [
+[
+"2010",
+0,
+0,
+0,
+0,
+0,
+12,
+0,
+0,
+0,
+0,
+0,
+12,
+0,
+0
+],
+[
+"2011",
+0,
+0,
+0,
+0,
+2,
+28,
+0,
+0,
+0,
+0,
+0,
+28,
+0,
+0
+],
+[
+"2012",
+1,
+1,
+1,
+1,
+8,
+304,
+0,
+0,
+0,
+0,
+14,
+337,
+0,
+0
+],
+[
+"2013",
+15,
+15,
+15,
+15,
+16,
+577,
+0,
+0,
+0,
+0,
+16,
+702,
+0,
+0
+],
+[
+"2014",
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+8,
+174,
+0,
+0
+],
+[
+"2015",
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+15,
+211,
+0,
+0
+],
+[
+"2016",
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+7,
+307,
+0,
+0
+],
+[
+"2017",
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+12,
+329,
+0,
+0
+],
+[
+"2018",
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+8,
+172,
+0,
+0
+],
+[
+"2019",
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+62,
+990,
+0,
+0
+],
+[
+"2020",
+0,
+0,
+0,
+0,
+0,
+1,
+0,
+0,
+0,
+0,
+106,
+1366,
+0,
+0
+],
+[
+"2021",
+0,
+0,
+0,
+0,
+91,
+251,
+6,
+6,
+6,
+6,
+365,
+3482,
+0,
+0
+],
+[
+"2022",
+27,
+27,
+26,
+26,
+108,
+890,
+8,
+8,
+8,
+8,
+463,
+4662,
+0,
+0
+],
+[
+"2023",
+38,
+38,
+43,
+43,
+156,
+1436,
+122,
+122,
+122,
+122,
+525,
+5189,
+0,
+0
+],
+[
+"2024",
+69,
+69,
+70,
+70,
+269,
+3059,
+315,
+315,
+315,
+315,
+613,
+6684,
+9,
+9
+],
+[
+"2025",
+83,
+83,
+77,
+77,
+494,
+5812,
+452,
+452,
+1147,
+1147,
+1050,
+9317,
+31,
+31
+],
+[
+"2026",
+209,
+209,
+270,
+270,
+2570,
+16923,
+1159,
+1159,
+1745,
+1745,
+3546,
+19262,
+96,
+96
+]
+]
+},
+"zamb_nota": "CID só com a categoria, sem o subitem (Z13, Z84, Z01, Z48): fila e pessoas por fila da composição",
+"zamb": [
+[
+"HOLTER 24 HORAS",
+82,
+82
+],
+[
+"CONSULTA EM CARDIOLOGIA - ADULTO",
+25,
+25
+],
+[
+"CONSULTA EM CARDIOLOGIA - RISCO CIRURGICO",
+271,
+269
+],
+[
+"ELETROCARDIOGRAMA",
+338,
+338
+],
+[
+"TESTE DE ESFORCO OU TESTE ERGOMETRICO 2",
+58,
+58
+],
+[
+"CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE REPOUSO (MINIMO 3 PROJECOES)",
+6,
+6
+],
+[
+"CINTILOGRAFIA DE MIOCARDIO P/ AVALIACAO DA PERFUSAO EM SITUACAO DE ESTRESSE (MINIMO 3 PROJECOES)",
+5,
+5
+],
+[
+"1. ECOCARDIOGRAFIA BI-DIMENSIONAL COM DOPPLER ADULTO",
+71,
+71
+],
+[
+"CONSULTA EM CARDIOLOGIA - CORONARIA",
+1,
+1
+],
+[
+"5. ECOCARDIOGRAFIA DE ESTRESSE ADULTO",
+1,
+1
+],
+[
+"TORAX : PA E PERFIL",
+13,
+13
+]
+],
+"sobreposicao_nota": "pessoas em mais de uma OCI pela finalidade principal (fin), sem expor CNS: pares por P(A)*P(B) e a distribuição por Aggr(RangeSum(If(Count(fin_k)>0,1,0)), cns). Conferência do P(): ergométrico e Holter com I* = 382 pelo P() e 382 pelo Aggr. teto_uniao = a união dos sete tetos (o mesmo conjunto da 'exames + consultas' de 22/10). var_uniao = a união com a IC ampliada na 006-9 e I20-I25 na 003-4",
+"sobreposicao": {
+"uniao_pessoas": 12380,
+"uniao_pessoas_viva": 9714,
+"uniao_fila": 14796,
+"uniao_fila_viva": 11803,
+"distribuicao": {
+"1": 9655,
+"2": 1246,
+"3": 1426,
+"4": 53
+},
+"pares": {
+"09.02.01.001-8 x 09.02.01.002-6": 387,
+"09.02.01.001-8 x 09.02.01.003-4": 0,
+"09.02.01.001-8 x 09.02.01.004-2": 0,
+"09.02.01.001-8 x 09.02.01.005-0": 3,
+"09.02.01.001-8 x 09.02.01.006-9": 7,
+"09.02.01.001-8 x 09.02.01.007-7": 1,
+"09.02.01.002-6 x 09.02.01.003-4": 1,
+"09.02.01.002-6 x 09.02.01.004-2": 1,
+"09.02.01.002-6 x 09.02.01.005-0": 3,
+"09.02.01.002-6 x 09.02.01.006-9": 5,
+"09.02.01.002-6 x 09.02.01.007-7": 1,
+"09.02.01.003-4 x 09.02.01.004-2": 1458,
+"09.02.01.003-4 x 09.02.01.005-0": 1603,
+"09.02.01.003-4 x 09.02.01.006-9": 117,
+"09.02.01.003-4 x 09.02.01.007-7": 2,
+"09.02.01.004-2 x 09.02.01.005-0": 2026,
+"09.02.01.004-2 x 09.02.01.006-9": 64,
+"09.02.01.004-2 x 09.02.01.007-7": 1,
+"09.02.01.005-0 x 09.02.01.006-9": 157,
+"09.02.01.005-0 x 09.02.01.007-7": 1,
+"09.02.01.006-9 x 09.02.01.007-7": 4
+},
+"teto_uniao_pessoas": 51632,
+"teto_uniao_pessoas_viva": 30717,
+"teto_uniao_fila": 60239,
+"var_uniao_pessoas": 13131,
+"conferencia_P_erg_hol_I": 382,
+"conferencia_Aggr_erg_hol_I": 382,
+"cintilografias_duas_sem_recorte_pessoas": 1316
+},
+"fin_sem_genericas_nota": "finalidade principal só nas filas da composição que não são genéricas (regra 4 do enquadramento: genéricas = ECG, RX de tórax, Holter, eco transtorácico adulto, consulta adulto). Chamada das 15:33, recarga a mesma (2026-10-25T17:31:55.843Z)",
+"fin_sem_genericas": {
+"09.02.01.001-8": {
+"filas": [
+"C_RC"
+],
+"pessoas": 54,
+"pessoas_viva": 46
+},
+"09.02.01.002-6": {
+"filas": [],
+"pessoas": 0,
+"pessoas_viva": 0
+},
+"09.02.01.003-4": {
+"filas": [
+"ERG",
+"C_COR"
+],
+"pessoas": 745,
+"pessoas_viva": 503
+},
+"09.02.01.004-2": {
+"filas": [
+"ESTR",
+"C_COR"
+],
+"pessoas": 303,
+"pessoas_viva": 303
+},
+"09.02.01.005-0": {
+"filas": [
+"CINE",
+"CINR",
+"C_COR"
+],
+"pessoas": 1595,
+"pessoas_viva": 1595
+},
+"09.02.01.006-9": {
+"filas": [
+"ERG",
+"C_IC"
+],
+"pessoas": 969,
+"pessoas_viva": 957
+},
+"09.02.01.007-7": {
+"filas": [
+"C_RC"
+],
+"pessoas": 87,
+"pessoas_viva": 86
+}
+}
+}

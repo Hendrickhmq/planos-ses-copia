@@ -1,0 +1,16 @@
+id: "GM 3492-2024 institui PMAE"
+arquivo: "GM 3492-2024 institui PMAE.pdf"
+processo_sei: ""
+sha256: "5b846f7fb634f286fdba69ebbd6ef99043a092ea3140dadb875761b822a4e806"
+paginas: 10
+chars_texto: 28408
+tabelas_total: 0
+tabelas_por_pagina:
+prosa_reclassificada_total: 0
+prosa_reclassificada_por_pagina:
+paginas_ajustadas: []
+paginas_sem_texto: []
+paginas_ocr: []
+ocr_ferramenta: "pytesseract/por"
+ferramenta: "pdfplumber 0.11.8"
+data_extracao: "2026-08-20T00:12:50"
